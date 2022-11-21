@@ -1,0 +1,10 @@
+folder,series,game,from,to,frequency
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts,Kingdom Hearts 3D: Dream Drop Distance,-,-,1
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts,Kingdom Hearts 3D: Dream Drop Distance,-,male,772
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts,Kingdom Hearts 3D: Dream Drop Distance,male,-,767
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts,Kingdom Hearts 3D: Dream Drop Distance,male,male,790
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts,Kingdom Hearts 3D: Dream Drop Distance,-,female,55
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts,Kingdom Hearts 3D: Dream Drop Distance,female,male,62
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts,Kingdom Hearts 3D: Dream Drop Distance,female,-,60
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts,Kingdom Hearts 3D: Dream Drop Distance,male,female,67
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts,Kingdom Hearts 3D: Dream Drop Distance,female,female,1

@@ -1,0 +1,12 @@
+"Cassandra" :17,
+"PC" :10,
+"CHOICE" :4,
+"Leliana" :3,
+"Dialogue Options" :2,
+"Next" :1,
+"6 - General" :1,
+"5 -  General" :1,
+"4 - General" :1,
+"3 - Investigate" :1,
+"2 - Investigate" :1,
+"1 - Dialogue Options" :1

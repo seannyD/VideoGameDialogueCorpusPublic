@@ -1,0 +1,8 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,TOTAL,26633,281116,67859,334367,0.06087326041950902,102.00467546394543,6.183660304103078,568
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,16550,167286,41251,198353,-0.017024894020883252,102.40762404776922,6.127338281155068,10
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,11740,131606,31130,156955,0.13160519876471,101.6489167453698,6.23305908954186,317
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,8118,88216,22098,104469,-0.0590629059947414,102.59629927924468,6.115585035901519,143
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,120,989,237,1196,0.3072357962908452,100.2924325385144,6.892914362203649,42
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,trans,14,170,39,200,-0.007647058823529562,102.88122926093516,6.732058069381599,1
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,453,4506,1133,5362,0.002683686632984461,102.12692064008803,6.13252787253555,65

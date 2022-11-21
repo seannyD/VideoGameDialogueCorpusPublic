@@ -1,0 +1,105 @@
+speaker,speakerGender,dialogueToMalePC,dialogueToFemalePC,dialogueToMalePC.length,dialogueToFemalePC.length,charDifference,Verdict,Comment
+Abigail,Female,"You're an interesting guy, @. I'm glad you moved here.","You're an interesting lady, @. I'm glad you moved here.",54,55,3,Neutral,
+Alex,Male,"Oh, hey. So you're the new guy, huh? Cool.","Hey, you're the new girl, huh? I think we're going to get along great. I'm Alex.",42,80,57,Gender-specific flirting,Flirts with female. 
+Alex,Male,"*sigh*... I wish there were more girls in this town, know what I mean?","Hey, do you wanna hang out with me at the beach some time? Do you have a bikini?",70,80,60,Gender-specific flirting,Flirts with female. 
+Alex,Male,"I'd ask you to throw the ball around, but you don't really seem like the sports type.",If you weren't a girl I'd ask you to play catch.,85,48,60,Mixed,"Mild subversion of male stereotype ('men like sports'), although note that there's nothing gendered in the language targeted at the male - treats them just like a person. Perpetuation of negative female stereotype ('throw like a girl' - trope: ""Gendered Insult"")"
+Alex,Male,"Hey, what's up farmer guy?","Hey, it's farm girl. Did you get new pants? You're doing something right.",26,73,58,Gender-specific flirting,Flirts with female. 
+Alex,Male,Hi @. You look sporty today.,Hey @. Did you do something different with your hair? Something keeps grabbing my attention.,28,92,73,Gender-specific flirting,Flirts with female. 
+Alex,Male,"Hey, farmer guy. You look a little burnt.",Hey Farmer girl. You've got a nice tan going.,41,45,21,Gender-specific flirting,Flirts with female. This is weird. Why is a tan nice on a girl but not on a guy? 
+Alex,Male,"Hey farm guy, I've got a question for you.","Hey Farm girl, I've got a question for you.",42,43,4,Neutral,
+Alex,Male,That's insane. You're just jealous that I'm talented and popular and you're not.,"That's ridiculous. You're just jealous that I'm way more popular than you'll ever be, freak.",80,92,37,Neutral,"This is pretty insulting either way, but I'm not aware of any particular gender connotations with 'freak'. "
+Alex,Male,"Hey, you must be getting pretty strong working on that farm all day.","Hey, you must be getting pretty fit working on that farm all day.",68,65,6,Perpetuate,"Men are strong, women are fit."
+Alex,Male,"Hey, I want to ask you something.","Hey, can I ask you something?",33,29,7,Neutral,
+Alex,Male,Do you think the ladies like my haircut?,What do you think about my haircut?,40,35,20,Neutral,"Not the same words, but I don't take this to be perpetuating or subverting any tropes. "
+Emily,Female,That's fine with me. You're a cool guy.,I'm glad.,39,9,34,Gender-specific flirting,Flirts with male
+Evelyn,Female,"Oh, hello my dear. I think of you as my own grandson now.","Oh, hello my hear. I think of you as my own grand-daughter now.",57,63,10,Neutral,
+Marnie,Female,"Oh! You brought the cave carrot! Thank you so much, Mr. @.","Oh! You brought the cave carrot! Thank you so much, Ms. @.",58,58,1,Neutral,
+Penny,Female,...I'll always remember this night.,You look so beautiful tonight... I... *gasp*,35,44,39,Gender-specific flirting,"Seemingly flirting with both genders; not clear out-of-context, but does so differently. Mild perpetuation: associating female with beauty. "
+Alex,Male,I'm glad.,Is that embarrassing to say?,9,28,24,Neutral,"Without context, it's not clear there's anything in particular going on here. "
+Elliott,Male,... I was worried you might not feel this way about another man.,So am I.,64,8,59,Gender-specific flirting,Seemingly flirting with both genders; calling out M-M attraction specifically. 
+Elliott,Male,We'd better head back before the southern wind picks up.,Uh oh... The vibration from your body has caught the attention of a Crimsonfish... We'd better get out of here.,56,111,88,Perpetuate,Possible trope: https://tvtropes.org/pmwiki/pmwiki.php/Main/MonsterMisogyny. Certainly fits the stereotype that women's bodies are distractions/encourage negative behaviour. 
+Willy,Male,"Ahoy there, son.","Ahoy there, miss.",16,17,4,Neutral,
+Gunther,Male,"Oh, good morning Mr. @!","Oh, good morning Ms. @!",23,23,1,Neutral,
+Marnie,Female,"Good morning, Mr. @!","Good Morning, Ms. @!",20,20,2,Neutral,
+Grandpa,Male,My dear boy...,My dearest grand-daughter...,14,28,17,Neutral,
+Grandpa,Male,It's been many years since we last spoke. You were just a little boy... Do you remember?,It's been many years since we last spoke. You were just a little girl... Do you remember?,88,89,4,Neutral,
+Grandpa,Male,My dear boy...,My dearest grand-daughter...,14,28,17,Neutral,
+Leah,Female,"Well, he'll make it... but that was pretty violent, @.","She's fine... but that was pretty violent, @.",54,45,14,Neutral,
+Leah,Female,"Well, he's fine... but that was pretty violent, @.","She's fine... but that was pretty violent, @.",50,45,6,Neutral,
+Leah,Female,@'s a better man than you in every respect!,@'s a better person than you in every respect!,43,46,5,Perpetuate,"Presumably the person being compared to is also a man, but it's interesting that they've defaulted to a 'better man' when possible, rather than just using 'better person' for both. It's possible that they wrote the dialogue for a male PC first (Male as Default) and then amended for a female PC."
+Penny,Female,He has first-hand experience living in the countryside... so he knows all about the valley's 'natural resources'!,She has first-hand experience living in the countryside... so she knows all about the valley's 'natural resources'!,113,115,3,Neutral,
+Vincent,Male,"Mr. @, are you going to marry Miss Penny?","Ms. @... Um, do you have a boyfriend?",41,37,28,Neutral,
+Penny,Female,Vincent! Behave yourself. Mr. @ makes his living working on the farm! It's not a playground.,Vincent! Behave yourself. Ms. @ makes her living working on the farm! It's not a playground.,92,92,3,Neutral,
+Shane,Male,"Heh... fast drinker, huh? Man after my own heart.","Heh... fast drinker, huh? Woman after my own heart.",49,51,3,Neutral,"This is neutral, but there's a sense where in so being it's a mild subversion of typical ladylike ideals. "
+Haley,Female,"Oh, it's that new farm boy.","Oh, it's that new girl from the farm.",27,37,15,Neutral,"There is a difference here, but in isolation it might not be significant (although see above 'farmer boy' vs 'farm girl' etc.)"
+Emily,Female,"He has a name, you know.","She has a name, you know.",24,25,2,Neutral,
+George,Male,"Thanks, young man.","Thanks, miss.",18,13,9,Neutral,
+George,Male,"You've been very nice to me, young man. I appreciate that.","You've been really nice to me, miss. I appreciate it.",58,53,16,Neutral,
+George,Male,Not so fast! I'd like to get a second opinion from this young man.,Not so fast! I'd like to get a second opinion from this young lady.,66,67,3,Neutral,
+Leah,Female,Get out!,That's good to know.,8,20,16,?,"This is a different reaction (mock disbelief to the male? I'm not sure without context; earnest acceptance to the female), but it's not obviously tropey. "
+Leah,Female,He was always nagging me to go back to school and study business or medicine... something with a lot of money in it.,She was always nagging me to go back to school and study business or medicine... something with a lot of money in it.,116,117,2,Neutral,
+Abigail,Female,You don't have to say anything right now. Let's just stay here for a while...,I didn't know I felt this way about other girls... until I met you.,77,67,58,Gender-specific flirting,"Flirting with both genders presumably, but F-F attraction is called out specifically. "
+Sebastian,Male,"Hey... Maybe I'll let you ride sometime, if you want.",Hey... maybe I'll take you for a ride some day.,53,47,25,Perpetuate,"Men Act, Women Are. The male character is permitted to 'ride', the female character is offered a more passive role. "
+Sebastian,Male,"Don't worry, I'll make sure to show you the ropes before I let you do anything dangerous.",There's no need to worry... I'll make sure you're safe.,89,55,66,Perpetuate,"Need to protect the women! (trope: Stay in the Kitchen)"
+Sebastian,Male,Um... I've never... felt anything like this with another guy before... But you're different.,"I don't usually bring girls to this place... In fact, you're the only one.",92,74,68,Gender-specific flirting,"Flirting with both genders, but slightly different approach."
+Elliott,Male,"Bartender! Two of your finest ales, please!",Bartender! Fetch me your finest ale. And bring some wine for the lady!,43,70,37,Perpetuate,"Ale for boys, wine for girls. Classic stereotype. "
+Gus,Male,"Oh, Hello there, buddy.","Hi, @.",23,6,19,Neutral,"There are various possible implications here, but it's hard to tell out of context. It could be innocuous, it could imply that only men can be your pal, it could be suggestive of gender-specific flirting (such that the NPC doesn't want to label the female PC a 'friend'). Without more details, I'm calling it neutral. "
+Clint,Male,"The girls all seem to like you, @...","You're a girl, @...",36,19,25,Perpetuate,All girls want the same thing. Features in both sets of dialogue. 
+Clint,Male,Got any tips?,What advice can you give me?,13,28,20,Neutral,
+Emily,Female,I've got a linguini with mushroom cream sauce for Mr. @.,I've got a kale and walnut salad for the lady.,56,46,34,Perpetuate,"Calorific pasta for the bloke, and a nice 'healthy' salad for the lady (gendered food associations). "
+Emily,Female,...and a grilled steak for Alex.,And a grilled steak for the gentleman.,32,38,15,Neutral,I'm not entirely sure why Alex gets a different name when it's a female PC. Maybe Emily is helping with his flirting. 
+Alex,Male,"Well... when we first met, I was instantly drawn to you. It was confusing... I'd never felt that way about anyone.","When I first met you, I thought you were really cute.",114,53,76,Gender-specific flirting,"Flirting with both genders, different descriptions. "
+Alex,Male,I kept telling myself 'You can't have these kinds of feelings for another guy'.,"Normally, when I have a crush on someone, the feeling goes away pretty quick...",79,79,62,Gender-specific flirting,"A sprinkling of internalised homophobia. Indeed, there's a lot of 'wow I can't believe I'm attracted to someone of the same sex!' in this game. "
+Alex,Male,...But my heart was telling me something else.,"...But with you, it kept growing.",46,33,30,Gender-specific flirting,
+Sam,Male,He's right... That's what happened.,She's right... that's what happened.,35,36,3,Neutral,
+Sam,Male,What!? He's lying!,What!? She's lying!,18,19,2,Neutral,
+Maru,Female,"Huh? What did you say to him, Dad?","Huh? What did you say to her, Dad?",34,34,2,Neutral,
+Demetrius,Male,"@, I'm sorry I mistrusted you. You're a good guy.","@, I'm sorry I mistrusted you. You're a fine young woman.",49,57,14,Neutral,"Different words, not obviously problematic or subversive. "
+Abigail,Female,"Well thanks, @. You seem to really know your way around a joystick, huh? I guess that makes sense.","Thanks, @. I didn't think you'd know how to work a joystick so well! But it seems you're experienced.",98,101,66,Perpetuate,"Men Act, Women Are. Tropey assumption that only men are gamers. "
+Haley,Female,Wow... I didn't think he was that dense.,Wow... I didn't think she was that dense.,40,41,1,Neutral,
+Sam,Male,But you should really be clapping for @! Without his help we'd never have decided what kind of music to make in the first place!,But you should really be clapping for @! Without her help we would've never decided what kind of music to make in the first place!,128,130,13,Neutral,
+Sam,Male,But you should really be clapping for @! Without his help we'd never have decided what kind of music to make in the first place!,But you should really be clapping for @! Without her help we would've never decided what kind of music to make in the first place!,128,130,13,Neutral,
+Sam,Male,But you should really be clapping for @! Without his help we'd never have decided what kind of music to make in the first place!,But you should really be clapping for @! Without her help we would've never decided what kind of music to make in the first place!,128,130,13,Neutral,
+Sam,Male,But you should really be clapping for @! Without his help we'd never have decided what kind of music to make in the first place!,But you should really be clapping for @! Without her help we would've never decided what kind of music to make in the first place!,128,130,13,Neutral,
+Leah,Female,"He gave me the idea for this show and the courage to go through with it. I know that sounds cheesy, but it's true.","She gave me the idea for this show and the courage to go through with it. I know that sounds cheesy, but it's true.",114,115,2,Neutral,
+Morris,Male,"There he is, everyone! Look sharp!","There she is, everyone! Look sharp!",34,35,1,Neutral,
+George,Male,"Ah, you turned up at the right moment, son.","Ah, you turned up at the right moment, miss.",43,44,4,Neutral,
+Pam,Female,He's a nice young man...,She's a nice young lady...,24,26,5,Neutral,
+George,Male,How can two men get married? It's unnatural... Hmmph. I guess I'm just old fashioned ...,"You're part of the family, now. I'm glad that my grandson found such a nice wife.",88,81,71,Perpetuate,More homophobia. Note that only the woman is part of the family. 
+George,Male,"I'll admit, I thought it was... strange... for two men to be together. But you're such a nice young man, and I know you two are in love... I've changed my mind.","You're part of the family, now... and I couldn't be more proud.",160,63,125,Perpetuate,More homophobia. Note that only the woman is part of the family. 
+George,Male,"I can't talk right now, young man.","I can't talk right now, miss.",34,29,9,Neutral,
+George,Male,"Take care, son.","Take care, hun.",15,15,2,Neutral,"If taken to be the female counterpart to 'son', 'hun' is innocuous, but opinions might vary. "
+Haley,Female,"Oh... you're that new farmer boy, aren't you?","Oh... You're that new farmer girl, or whatever. Aren't you?",45,59,18,Neutral,
+Haley,Female,Hmm... If it weren't for those horrendous clothes you might actually be cute.,"Hmm... If it weren't for those horrendous clothes you might actually be pretty... Actually, nevermind.",77,102,26,Neutral,
+Haley,Female,Nice shoes.,Nice makeup.,11,12,5,Perpetuate,"Women wear shoes too. But they definitely wear makeup! (Tertiary Sexual Characteristics)"
+Haley,Female,Are those made out of plastic?,Or wait... Are you even wearing any?,30,36,28,Perpetuate,Follow on from the above. 
+Haley,Female,"@, you look rugged today. I like it.","@, you look pretty today.",36,25,17,Perpetuate,"Gendered positive characteristics: rugged man, pretty woman. "
+Jas,Female,"Hi, Mr. @.","Hi, Ms. @.",10,10,1,Neutral,
+Jas,Female,"You're always so nice to me, Mr. @","You're always so nice to me, Ms. @.",34,35,2,Neutral,
+Marnie,Female,"I love animals, Mr. @. If you treat yours well I'm sure we'll become good friends!","I just love animals, Ms. @. Treat them kindly and we'll become friends, I'm sure!",82,81,46,Neutral,
+Abigail,Female,Hey! You look like you've been hard at work. Can I help you relax?,Have you been working hard? You look cute when you're a little exhausted.,66,73,57,Gender-specific flirting,
+Alex,Male,Ahh... there's nothing like a good night's sleep next to my husband!,Ahh... there's nothing like a good night's sleep next to my wife!,68,65,7,Neutral,
+Alex,Male,"Look at us, with our little farm. We make a cute couple.","Hey. Maybe it's the golden light, but you look beautiful today.",56,63,48,Perpetuate,"This is gendered-specific flirting as well, but note female = beautiful association again. "
+Alex,Male,You're very handsome... have I told you that?,You're very beautiful... have I told you that?,45,46,8,Perpetuate,"Gendered positive characteristics: handsome man, pretty woman. "
+Elliott,Male,"Good evening. Did you have a productive day, @?","Good evening. Did you have a productive day, my dear?",47,53,7,Neutral,"Not sure why male character gets named and female character doesn't, but unless there's a pattern it doesn't seem problematic. "
+Elliott,Male,"My skill with words is unmatched, yet I can't find the way to properly describe your allure.","My skill with words is unmatched, yet I can't find the way to properly describe your beauty.",92,92,5,Perpetuate,Again woman = beauty. 
+Elliott,Male,"From the brightest winter star, to the shimmer of an iridium vein... nothing can compare to my wonderful man.","From the brightest winter star, to the fragrant fairy rose... nothing can compare with your captivating beauty.",109,111,44,Perpetuate,"This is like a man v woman deodorant ad: METAL for men FLOWERS for women (with heavy metal music in the former, and a woman diving into a waterfall for the latter). Also, beauty = woman. Note that men can be rugged, handsome, alluring, and wonderful. But the lady's still just beautiful. "
+Elliott,Male,"Wow, you look really handsome today! Did you shave? Your jawline is perfect.",Your feminine allure is irresistible today. I can't keep my eyes off you.,76,73,61,Perpetuate,"Female PC gets to be alluring now! Man = handsome. Sharp jaw. "
+Harvey,Male,"You look a little soggy, hun. Why don't you warm yourself by the fire?","You look a little soggy, dear. Why don't you warm yourself by the fire?",70,71,4,Neutral,non-name forms of address for both here. 
+Harvey,Male,"Wow, you look really handsome today! Did you shave?","Oh, my... you look beautiful today.",51,35,38,Perpetuate,"Woman = beautiful, man = handsome. Shaving again!"
+Leah,Female,"Wow, you look full of energy today!",You look beautiful today.,35,25,20,Perpetuate,"Man is full of energy, woman is beautiful again. "
+Maru,Female,For a while there I was considering building a robotic husband. But you're a lot more fun!,For a while there I was considering building a robotic wife. But you're a lot more fun!,90,87,7,Neutral,"This is actually kind of a subtle subversion. There's a lot more robot-wife building in fiction than robot-husband building, I think. Equal opportunity synthetic spouses!"
+Penny,Female,"Wow, you look really handsome today! Did you shave?","Wow, you look beautiful today. Did you do something different with your hair?",51,77,43,Perpetuate,"Man = handsome, woman = beautiful. "
+Sam,Male,"Wow, you look really handsome today! Did you do something with your hair?","Wow, you look stunning today. Did you do something new with your hair?",73,70,19,Perpetuate,"Upgraded to stunning! Still, it's a synonym for beautiful. "
+Pam,Female,"Oh, it's Mr. @.",Oh it's Miss @.,15,15,4,Neutral,
+Pam,Female,You're a fine lookin' young man. Why're you wastin' your time talkin' to an old girl like me?,You're a pretty gal. What 're you wastin' your time talkin' to someone like me for?,93,83,35,Gender-specific flirting,"Pretty is female-specific. Interesting that she describes herself as old to the man, but that seems to be a feature of the flirting. "
+Pierre,Male,"Hey, it's Mr. @, the new farmer! I'm Pierre, owner of the local general store.","Hey, it's Ms. @, the new farmer! I'm Pierre, owner of the local general store.",78,78,1,Neutral,
+Pierre,Male,"Hello, er... my son?","Hello, er... daughter?",20,22,8,Neutral,
+Pierre,Male,"I really do appreciate your business, Mr. @. I've been having a harder and harder time turning a decent profit.","I really do appreciate your business, Ms. @. I've been having a harder and harder time turning a decent profit.",111,111,1,Neutral,
+Sam,Male,Hey buddy. You look like you're full of energy today!,@. Um... I just wanted to say... You look nice today.,53,53,39,Perpetuate,"Man = full of energy, woman = looks nice. In keeping with Men Act, Woman Are!"
+Sebastian,Male,I like your new boots!,Your hair looks nice today.,22,27,20,Perpetuate, Girly hair often = tertiary sex characteristic. 
+Shane,Male,"Okay, Dad...","Okay, Mom...",12,12,3,Neutral,
+Vincent,Male,"Can you keep a secret, mister?","Can you keep a secret, miss?",30,28,3,Neutral,
+Vincent,Male,"Hi there, mister!","Hi there, miss.",17,15,4,Neutral,
+Vincent,Male,Hi Uncle @!,Hi Auntie @!,11,12,4,Neutral,
+Willy,Male,"Ahoy there, son.","Ahoy there, lass.",16,17,4,Neutral,

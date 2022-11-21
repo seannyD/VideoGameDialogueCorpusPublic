@@ -1,0 +1,73 @@
+{
+	"game": "Final Fantasy XII",
+	"series": "Final Fantasy",
+	"year": 2006,
+	"alternativeMeasure": true,
+	"source": "http://www.finalfantasyquotes.com/ff12/script",
+	"characterInfoSource": "https://finalfantasy.fandom.com/wiki/",
+	"parserParameters": {
+		"parser":"FFQParser",
+		"fileType":".html",
+		"characterClassIdentifier":"ff7"
+	},
+	"mainPlayerCharacters": ["Vaan"],
+	"characterGroups": {
+		"male": [
+			"Al-cid",
+			"Anastasis",
+			"Ba'gamnan",
+			"Balthier",
+			"Basch",
+			"Havharo",
+			"Kytes",
+			"Larsa",
+			"Migelo",
+			"Nono",
+			"Raz",
+			"Reddas",
+			"Reks",
+			"Rikken",
+			"Tomaj",
+			"Vaan",
+			"Vayne",
+			"Vossler",
+			"Zargabaath",
+			"Bwagi",
+			"Doctor Cid",
+			"Judge Bergan",
+			"Judge Gabranth",
+			"Judge Ghis",
+			"Judge Zargabaath",
+			"Jules",
+			"Lamont",
+			"Old Dalan",
+			"Rasler",
+			"War-chief Supinelu"
+			],
+		"female": [
+			"Amalia",
+			"Ashe",
+			"Drace",
+			"Fran",
+			"Jote",
+			"Mjrn",
+			"Penelo",
+			"Elza",
+			"Judge Drace"
+			],
+		"genderless":["Venat"],
+		"neutral": [
+			"Bangaa",
+			"???",
+			"Occuria",
+			"Occurian",
+			"Rabanastrans",
+			"Tonberry"
+			]
+	},
+	"aliases": {
+		"Ashe": "Amalia",
+		"Gabranth":"Judge Gabranth",
+		"Vayne Novus": "Vayne"
+	}
+}

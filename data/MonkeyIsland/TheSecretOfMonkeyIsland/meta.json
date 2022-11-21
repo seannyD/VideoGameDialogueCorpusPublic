@@ -1,0 +1,128 @@
+{
+	"game": "The Secret of Monkey Island",
+	"series": "Monkey Island",
+	"year": 1990,
+	"source": "https://gamefaqs.gamespot.com/pc/562681-the-secret-of-monkey-island/faqs/23891",
+	"sourceFeatures":{
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "Not included"
+	},
+	"notes": "Author states: Due to the overwhelming amount of choices and story paths, I can only put ONE kind of flow that makes the whole story.",
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "2",
+		"truePositive_notes": "No choices in source; only one path followed so missing dialogue",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "Stage direction appearing as dialogue - issue #112 raised (and fixed)."
+	},
+	"parserParameters": {
+		"parser": "MonkeyIslandParser",
+		"fileType": ".html",
+		"textDivId": "faqtext",
+		"startText": "Epilogue",
+		"endText": "Credits roll"
+	},
+	"mainPlayerCharacters": ["Guybrush"],
+	"characterGroups": {
+		"male": [
+			"Alfredo",
+			"Barrel Pirate",
+			"Bill",
+			"Black Pirate",
+			"Blue Pirate",
+			"Bob",
+			"Citizen",
+			"Cook",
+			"Estevan",
+			"Fat Pirate",
+			"Ghost",
+			"Green Pirate",
+			"Guy",
+			"Guy 1",
+			"Guybrush",
+			"Herman",
+			"LeChuck",
+			"Loom Pirate",
+			"Man",
+			"Man 1",
+			"Man 2",
+			"Mancomb",
+			"Meathook",
+			"Nick",
+			"Old Man",
+			"Otis",
+			"Pirate",
+			"Priest",
+			"Sheriff",
+			"Smirk",
+			"Stan",
+			"Storekeeper",
+			"Tall Pirate",
+			"Troll",
+			"Red Headhunter",
+			"Lemon Headhunter",
+			"Squid Headhunter"
+		],
+		"female": ["Carla", "Elaine", "Lady"],
+		"neutral": [
+			"Bone",
+			"Dog",
+			"Someone",
+			"Tattoo",
+			"Monkey",
+			"Parrot",
+			"Head"
+		]
+	},
+	"aliases": {
+		"Governor": "Elaine",
+		"Strkeeper": "Storekeeper",
+		"Squid H.": "Squid Headhunter",
+		"Lemon H.": "Lemon Headhunter",
+		"Red H.": "Red Headhunter",
+		"Tall P": "Tall Pirate",
+		"Tall P.": "Tall Pirate",
+		"Barrel P.": "Barrel Pirate",
+		"Black P.": "Black Pirate",
+		"Blue P.": "Blue Pirate",
+		"Fat P.": "Fat Pirate",
+		"Green P.": "Green Pirate",
+		"Old man": "Old Man",
+		"Door": "ACTION",
+		"Person": "Sheriff",
+		"Whisper": "Sheriff",
+		"All": ["Blue Pirate", "Black Pirate", "Green Pirate"],
+		"All P.": ["Barrel Pirate", "Tall Pirate"],
+		"Pirate": {
+			"Mancomb": [
+				"Ahoy there, stranger. New in town?",
+				"Guybrush Threepwood? Ha ha ha!!! That's the stupidest name I've ever heard!",
+				"But it's not even a name!",
+				"My name is Mancomb Seepgood."
+			],
+			"Meathook": ["Hey! I don't like visitors!", "My name's Meathook"],
+			"Loom Pirate": [
+				"Aye!",
+				"Aye.",
+				"So, tell me about LOOM.",
+				"(Face brightens)",
+				"Sorry, but on some topics I just get carried away."
+			]
+		},
+		"Man": {
+			"Stan": ["Howdy! I'm Stan of Stan's Previously"],
+			"Otis": [
+				"You gotta get me out of here!",
+				"Hey, it's hard to keep my breath",
+				"Ooooh! Grog-o-Mint! How refreshing!",
+				"My name is Otis."
+			],
+			"Herman": ["Hi! I'm Herman Toothrot!"]
+		}
+	}
+}

@@ -1,0 +1,7 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/ElderScrolls/Daggerfall/,False,The Elder Scrolls II: Daggerfall,The Elder Scrolls,TOTAL,1757,43855,6342,52791,1.3112506106441995,97.97796485722192,6.224397328216128,353
+../data/ElderScrolls/Daggerfall/,False,The Elder Scrolls II: Daggerfall,The Elder Scrolls,playerChoice,550,550,549,550,-3.399289617486337,121.21815118397086,0.0496903460837887,1
+../data/ElderScrolls/Daggerfall/,False,The Elder Scrolls II: Daggerfall,The Elder Scrolls,random,453,17593,2389,21262,1.5429024372469016,97.11713525088474,6.2320901907216655,154
+../data/ElderScrolls/Daggerfall/,False,The Elder Scrolls II: Daggerfall,The Elder Scrolls,female,117,5044,623,6199,2.069582397215898,94.64512189362821,6.570612571998835,45
+../data/ElderScrolls/Daggerfall/,False,The Elder Scrolls II: Daggerfall,The Elder Scrolls,male,557,18756,2486,22580,1.5582143260951877,97.32881168709845,6.2887984551749545,152
+../data/ElderScrolls/Daggerfall/,False,The Elder Scrolls II: Daggerfall,The Elder Scrolls,neutral,80,1912,293,2200,0.5323887928941708,102.86842253702146,5.900886151770031,1

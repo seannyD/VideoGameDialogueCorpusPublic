@@ -1,0 +1,6 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,TOTAL,23384,270209,62711,343067,1.072132596606389,95.05038808280163,7.1161013561117334,379
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,playerChoice,4859,50579,10543,61068,0.5280534010486555,99.82141199949639,6.556743746613869,1
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,10829,123945,31011,157451,0.9586440216157666,95.30835769260656,7.152367861358163,260
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,7685,95609,21126,124424,1.531334059331975,92.14439340009966,7.366154665401419,115
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,neutral,11,76,29,124,4.6847005444646115,66.1434210526316,9.999380943738656,3

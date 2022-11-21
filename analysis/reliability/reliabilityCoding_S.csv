@@ -1,0 +1,445 @@
+folder,game,year,series,charName,gender,Confidence,Comments
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,juror,male,,Character sprite has moustache https://youtu.be/Mh-HituCSBI?t=155
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,woman,female,,"May be different characters? Character here has dress, bow: https://youtu.be/iM-BOCP2CA0?t=236"
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,mune,male,,"They describe each other as brothers, and wiki agrees"
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,diary,neutral,,Reading a book
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,real chancellor (600AD),male,,"""The real Chancellor's okay. He took off to the É"""
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,shop keeper,male,,
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,doan,male,,"wiki, https://www.vizzed.com/vizzedboard/retro/user_screenshots/saves51/514047/SNES--Chrono%20Trigger_May1%204_40_21.png"
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,pierre,male,,wiki
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,johnny,male,,"Cyborg, but Original english calls him ""the man"" and ""Mr. Speed"""
+../data/ChronoTrigger/ChronoTrigger/,Chrono Trigger,1995,Chrono Trigger,lara,female,,Luca's mother
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,Dwarf,male,,"Different characters, but all have beards"
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,Dragon,neutral,,Different characters. No gender identifiers
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,Dr. Unne,male,,wiki
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,Bat,neutral,,"Sky warriors transformed into bats, though no gender signifiers"
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,Matoya,female,,wiki
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,Old Man,male,,Different characters
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,Sage,male,,"Different characters, all sages have beards https://finalfantasy.fandom.com/wiki/Circle_of_Sages?file=Circle_of_Sages.png"
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,King,male,,title
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,Princess,female,,title
+../data/FinalFantasy/FFI/,Final Fantasy,1987,Final Fantasy,Attendant,neutral,,Not codable https://youtu.be/PYHy9DHzoLA?t=834. or. https://youtu.be/BL4eHZ2wfwU?t=564
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Gus,male,,wiki
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Man in Armor,neutral,,"Difficult to code https://youtu.be/dvRSK2cGHyc?t=1038,  https://youtu.be/ocA3cHTibWs?t=3000"
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Borghen,male,,wiki
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Maria,female,,wiki
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Tropical Islander,neutral,,All wearing masks https://youtu.be/Fl70-3zvxDE?t=480
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Wizard,male,,Different characters
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Wandering Soldier,neutral,couldn't find,
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Soldier at Left of Stairway,male,,https://youtu.be/J1_9W9OBVUY?t=361
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Girl,female,,
+../data/FinalFantasy/FFII/,Final Fantasy II,1988,Final Fantasy,Pavel,male,,wiki
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,Sara,female,,
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,Ingus,male,,wiki
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,King Sasune,male,,title
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,Desch,male,,wiki
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,Topapa,male,,"beard, wiki"
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,Delilah,female,,wiki
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,Gill,male,,"bearded, https://lparchive.org/Final-Fantasy-III-DS/Update%2029/"
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,King Argus,male,,title
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,Elder Tree,neutral,,https://youtu.be/0moIaMbGQ-g?t=1041
+../data/FinalFantasy/FFIII/,Final Fantasy III,1990,Final Fantasy,Salina,female,,wiki
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,Porom,female,,wiki
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,King Of Eblan,male,,title
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,Seneschal,male,,"Bearded, https://youtu.be/ycE6FlVqFdg?t=1220, https://youtu.be/P321OwFE_oc?t=518"
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,Yang's Wife,female,,title
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,Narration,neutral,,
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,Barbariccia,female,,wiki
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,Baigan,male,,wiki
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,King Giott,male,,title
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,Kain,male,,wiki
+../data/FinalFantasy/FFIV_DS/,Final Fantasy IV,1991,Final Fantasy,Cecil,male,,wiki
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Lenna,female,,wiki
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Gilgamesh,male,,wiki
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Soldier,neutral,,"Not much to go on, https://youtu.be/HAVPyGVQY0w?t=153"
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Zokk,male,,"beard, wiki"
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Kelgar,male,,wiki
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Moogle,male,,"Lenna calls the moogle ""him"" and ""he"", though Butz uses ""it"""
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Zeza,male,,wiki
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Faris,female,,wiki
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Guido,male,,"Called ""Mr. Guido"", wiki"
+../data/FinalFantasy/FFV/,Final Fantasy V,1992,Final Fantasy,Cara,female,,wiki
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Vargas,male,,wiki
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Relm,female,,wiki
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Leo,male,,wiki
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Doma Sentry,male,,"Not clear, but generic male sprite, https://youtu.be/53uXNM7NUws?t=388"
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Strago,male,,wiki
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Owzer,male,not certain,"Wiki marks as male, but not many cues to go from."
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Wedge,male,,wiki
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Celes,female,,wiki
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Setzer,male,,wiki
+../data/FinalFantasy/FFVI/,Final Fantasy VI,1994,Final Fantasy,Kefka,male,,wiki
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Staniv,male,,male model https://youtu.be/_jrJo2hEBUQ?t=98
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Waitress,female,,Mutliple characters some female some neutral (changed in meta)
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Soldier 3,male,,"Generic male sprite, https://youtu.be/jTLaAI55DHw?t=788"
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Red XIII,male,,wiki
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Innkeeper (Nibelheim),male,,"beard, https://youtu.be/UCTkDt_GQdI?t=760"
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Dyne,male,,wiki
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Barkeeper,male,,"Different characters, but standard model is male"
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Shinra Soldier,male,,generic
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Girls,female,,https://youtu.be/i9KEVbGPVJo?t=477
+../data/FinalFantasy/FFVII/,Final Fantasy VII,1997,Final Fantasy,Big Man,male,,
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,Presidential Aide,female,,"Generic clothing, https://youtu.be/dvMDOezARXU?t=391"
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,Security Guard 1,male,,https://youtu.be/3zg3H-1jVOs?t=4405
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,Watts,male,,wiki
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,Ultimecia,female,,wiki
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,Crewmember,male,,https://youtu.be/pi1kA0cgZIU?t=77
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,Kiros,male,,wiki
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,White SeeD Leader,male,,https://youtu.be/-GJiC20Gp0U?t=2290
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,Squall,male,,wiki
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,Irvine,male,,wiki
+../data/FinalFantasy/FFVIII/,Final Fantasy VIII,1999,Final Fantasy,Loudspeaker,neutral,,
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Belgemine,female,,wiki
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Seymour,male,,wiki
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Kinoc,male,,wiki
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Gas mask guy,male,,NPC gallery
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Brother,male,,wiki (main character)
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Shelinda,female,,wiki
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Mika,male,,wiki
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Jecht,male,,wiki
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Jassu,male,,"male character model, wiki"
+../data/FinalFantasy/FFX_B/,Final Fantasy X,2001,Final Fantasy,Bahamut's Fayth,male,,wiki
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Woman,female,,wiki
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Buddy,male,,wiki
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Kimahri,male,,male Ronso model
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Fem-Goon 1,female,,wiki
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Tromell,male,,"beard, wiki"
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Ormi,male,,"wiki, voice acting is male https://youtu.be/lmurl7NEk50?t=72"
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Garik,male,,"male Ronso model,wiki"
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Lian,male,,"wiki, male clothing"
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Maechen,male,,"wiki, beard"
+../data/FinalFantasy/FFX2/,Final Fantasy X-2,2003,Final Fantasy,Hypello,male,uncertain,"Bare torsos, male voice actor, and there is a female Hypello with a different voice actor https://youtu.be/UT_r8UzVbd0?t=199"
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Cloudborne Resident (tan bangaa in green vest),male,,https://youtu.be/h8yPPqyqQdw?t=404
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Cloudborne Resident (man sitting on crate talking to moogle),male,,
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Dania,female,,female model https://jegged.com/img/Games/Final-Fantasy-XII/TZA/FFXII-TZA-00389-Giza-Plains-Nomad-Village-Petitioner-Dania.png
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Larsa,male,,wiki
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Rabanastran (blindfolded tan bangaa SG),male,,https://jegged.com/Games/Final-Fantasy-XII/Side-Quests/Viera-Matchmaking.html
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Laughing Seeq,male,,
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Rabanastran (woman in blue pants),female,,https://youtu.be/OynIHFNT4ms
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Kjrs,female,,"wiki, https://finalfantasy.fandom.com/wiki/Ktjn?file=Ktjn3.jpg"
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Steward,male,,https://www.youtube.com/watch?v=rZ0-He49nBI
+../data/FinalFantasy/FFXII_B/,Final Fantasy XII,2006,Final Fantasy,Awestruck Girl,female,,
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Sazh,male,,wiki
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Yaag,male,,wiki
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Jihl,female,,wiki
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Fang,female,,wiki
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Maqui,male,,"wiki, male voice actor"
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Amodar,male,,wiki
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Serah,female,,wiki
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Nora,female,,"wiki, refers to herself as a ""mom"""
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Orphan,neutral,uncertain,"Orphan is a combination of other characters that seems to have male and female aspects. Its lines are actually spoken by both male and female voice actors simultaneously, so lines should belong to both groups?"
+../data/FinalFantasy/FFXIII/,Final Fantasy XIII,2009,Final Fantasy,Galenth,male,,wiki
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Gadot,male,,wiki
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Yuj,male,,wiki
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Alyssa,female,,wiki
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Roaming Male NORA Member 4,male,,
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Male Researcher 3,male,,
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Raymond,male,,"referred to as ""him"" in fragment text https://youtu.be/dvBPLjBjWBc?t=29"
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Male Resident of Academia,male,,
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Commander,male,,"Male voice, https://youtu.be/FAyiezz4q_Y?t=198"
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Cole,male,,"wiki, father"
+../data/FinalFantasy/FFXIII-2/,Final Fantasy XIII-2,2011,Final Fantasy,Morris,male,,"male voice actor, https://youtu.be/FRievAoYgLk?t=19"
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Inquisitor,male,,transcript video
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Banquet Maitre D',male,,transcript video
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Goddess's Disciple 1,male,,transcript video
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Cathedral Plaza Sentry,male,,transcript video
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Lightning,female,,wiki
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Raines,male,,wiki
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Drunk Pyrotechnician,male,,transcript video
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Bhunivelze,male,,"Tricky, but wiki says male, male voice actor, referred to as ""god"" rather than ""goddess"" and refers to themselves as ""himself"" https://youtu.be/VXABZrHH29Y?t=204"
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Announcer,female,,female voice
+../data/FinalFantasy/FFXIII-LR/,Lightning Returns: Final Fantasy XIII,2014,Final Fantasy,Snow,male,,wiki
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,Ardyn,male,,wiki
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,Cor,male,,wiki
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,NARRATIVE,neutral,,
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,Camelia,female,,wiki
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,Holly,female,,wiki
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,Randolph,male,,wiki
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,Dave,male,,wiki
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,Jared,male,,wiki
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,Gladiolus,male,,wiki
+../data/FinalFantasy/FFXV/,Final Fantasy XV,2016,Final Fantasy,Kimya,female,,wiki
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Subordinate,male,,https://youtu.be/-Qx_4FNNS7M?t=133
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Tifa,female,,wiki
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Item Store Owner,male,,https://youtu.be/WAVydEdd9g8?t=15
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Jessie,female,,wiki
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Elmyra,female,,wiki
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Materia Vendor,male,,https://oyster.ignimgs.com/mediawiki/apis.ign.com/final-fantasy-vii-remake/2/2e/Screen_Shot_2020-04-24_at_4.25.42_PM.png?width=640
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Scotch,male,,wiki
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Palmer,male,,wiki
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Staff (2),male,,https://youtu.be/Vbk7f-84wT8?t=36
+../data/FinalFantasy/FFVII_Remake/,Final Fantasy VII Remake,2020,Final Fantasy,Server,female,,https://youtu.be/vy8Qg_V-tz0?t=10
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Patrick Brochard-Klein,male,,wiki
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Erend,male,,wiki
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Balahn,male,,wiki
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Adolescent Male #1,male,,https://youtu.be/R6sJQdoMieI?t=12
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Blameless Marad,male,,wiki
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Woman's Voice,female,,"called ""momma"", female voice actress"
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Dervahl,male,,wiki
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Female Contestant,female,,female voice actor https://youtu.be/U3nYRlOzNGY?t=19
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Avad,male,,wiki
+../data/Horizon/HorizonZeroDawn/,Horizon Zero Dawn,2017,Horizon,Vanasha,female,,wiki
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Cat,male,,"Called ""he"""
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Squirrel,neutral,,
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Sailor,male,,"Called ""One of the rowdy seamen"""
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Pirate,male,,"Called ""him"""
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Captain,male,,"Called ""his"""
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Fish,neutral,,
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Mama Bear,female,,"called 'mamma', 'her'"
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Bird,neutral,,
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Manannan,male,,wiki
+../data/KingsQuest/KingsQuest3/,King's Quest III: To Heir Is Human,1986,King's Quest,Mouse,neutral,,
+../data/KingsQuest/KingsQuest1/,King's Quest I: Quest for the Crown,1987,King's Quest,FAIRY GODMOTHER,female,,wiki
+../data/KingsQuest/KingsQuest1/,King's Quest I: Quest for the Crown,1987,King's Quest,KING EDWARD,male,,title
+../data/KingsQuest/KingsQuest1/,King's Quest I: Quest for the Crown,1987,King's Quest,SIR GRAHAM,male,,"wiki, title"
+../data/KingsQuest/KingsQuest1/,King's Quest I: Quest for the Crown,1987,King's Quest,DOCTOR,male,,"VGA version has a moustache, https://youtu.be/qnVg81ZZ4DI?t=374"
+../data/KingsQuest/KingsQuest1/,King's Quest I: Quest for the Crown,1987,King's Quest,TROLL,male,,"Called ""his"""
+../data/KingsQuest/KingsQuest1/,King's Quest I: Quest for the Crown,1987,King's Quest,GNOME,male,,"Called ""his"""
+../data/KingsQuest/KingsQuest1/,King's Quest I: Quest for the Crown,1987,King's Quest,WOODCUTTER,male,,"Called ""his"""
+../data/KingsQuest/KingsQuest1/,King's Quest I: Quest for the Crown,1987,King's Quest,RAT,male,,"Called ""his"""
+../data/KingsQuest/KingsQuest1/,King's Quest I: Quest for the Crown,1987,King's Quest,WITCH,female,,"wiki, title"
+../data/KingsQuest/KingsQuest2/,King's Quest II: Romancing the Throne,1987,King's Quest,Monk,male,,"Called ""he"""
+../data/KingsQuest/KingsQuest2/,King's Quest II: Romancing the Throne,1987,King's Quest,Antique Shop Lady,female,,"Called ""lady"""
+../data/KingsQuest/KingsQuest2/,King's Quest II: Romancing the Throne,1987,King's Quest,Genie,male,,"Called ""he"""
+../data/KingsQuest/KingsQuest2/,King's Quest II: Romancing the Throne,1987,King's Quest,Valanice,female,,"Called ""her"""
+../data/KingsQuest/KingsQuest2/,King's Quest II: Romancing the Throne,1987,King's Quest,Grandma,female,,"Called ""she"""
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Minstrel,male,,"Called ""he"""
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Genesta,female,,"Called ""her"""
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Ogre,male,,"Called ""he"""
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Ogress,female,,"Called ""lady"""
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Fisherman's wife,female,,"Called ""woman"""
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Edgar,male,,Called Son
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Witch,female,,crones / hags / witches
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Dwarf,male,,"Called ""he"""
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Robin,neutral,,
+../data/KingsQuest/KingsQuest4/,King's Quest IV: The Perils of Rosella,1988,King's Quest,Lolotte,female,,"Called ""her"""
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Irate Customer,male,,https://youtu.be/olYFZVmn6QM?t=177
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Arabian Knights/Bandits,male,,https://youtu.be/sunFAsy8rFY?t=322
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Cedric,male,,"Called ""he"""
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Harpies,female,,https://youtu.be/2HqTbrB1rzk?t=859
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Tailor,male,,"Called ""his"""
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Crispin,male,,wiki
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Hermit,male,,https://youtu.be/JQUdlkESiew?t=22
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Willow Tree/Alicia,female,,Calls herself princess
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Man fixing Wagon,male,,"Called ""man"" and ""his"""
+../data/KingsQuest/KingsQuest5/,King's Quest V,1992,King's Quest,Herbert,male,,Called prince
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,White Chess Knight,neutral,,"No obvious gender signifiers apart from being called ""knight"". No voice acting cues in NES"
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,Winged One Guard 1,male,,"Masculine features, https://youtu.be/y5G2YHOw3XI?t=4546"
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,Wolf,male,,
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,Stick-in-the-mud,male,,Called brother
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,Lampseller,male,,https://youtu.be/y5G2YHOw3XI?t=8742
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,King Caliphim,male,,title
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,Jowels,male,,
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,Swimming Child,male,,"Called ""young boy"""
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,Alexander,male,,wiki
+../data/KingsQuest/KingsQuest6/,King's Quest VI,1992,King's Quest,Townsfolk,neutral,,"Offscreen, lots of shouting in voiced version"
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,Levanter,male,,"Calls himself ""king"""
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,Gravedigger,male,,wiki
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,Blotar,male,,wiki
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,King Otar,male,,wiki
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,Dr. Mort Cadaver,male,,wiki
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,Bogeyman,male,,name suggests
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,Black Valiant,male,,"Called ""fellow"""
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,Three-headed plant 2,male,,Male voice acting
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,Weaver of Dreams,male,,"Called ""nephew"""
+../data/KingsQuest/KingsQuest7/,King's Quest VII: The Princeless Bride,1994,King's Quest,Arch-Duke YipYap,male,,Male voice acting
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,Wisps,neutral,,wiki
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,Gryphs,male,,Male voice acting
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,King Gryph,male,,title
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,Ferryman,male,,name
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,Apothecary Gnome,female,,https://youtu.be/M37cEC98anw?t=17222
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,Old/Young Guy,male,,"Beard, male voice acting, https://youtu.be/M37cEC98anw?t=16696"
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,Fire Dwarves,male,,Male voice acting
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,Archons,male,,Beards
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,Gwennie,female,,wiki
+../data/KingsQuest/KingsQuest8/,King's Quest VIII,1998,King's Quest,Sarah,female,,wiki
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Olfie,male,,wiki
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Icebella,female,,wiki
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Sphinx,female,,"Called ""she"", ""The Sphinx must be playing a game with you. I love my best friend, but she can be quite silly.""; ""Oh, I've got a few choice words for that Sphinx. She's back this way, right?"""
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Amaya,female,,wiki
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Merchant,male,,"Male voice acting, https://youtu.be/shA41CIDhjU?t=400"
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Muriel,female,,wiki
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Pillare,female,,https://youtu.be/HVYt_nbmjCc?t=7
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Royal Guard 2,male,,"Male voice acting, https://youtu.be/HVYt_nbmjCc?t=443"
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Wente,male,,wiki
+../data/KingsQuest/KingsQuestChapters/,King's Quest Chapters,2015,King's Quest,Gwendolyn,female,,wiki
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Beast,male,,wiki
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Lock,male,,wiki
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Hades,male,,wiki
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Jane,female,,wiki
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Clayton,male,,wiki
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Fairy Godmother,female,,wiki
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Piglet,male,uncertain,"male voice actor, but not many other gender signifiers"
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Tigger,male,uncertain,"male voice actor, but not many other gender signifiers"
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Kairi,female,,wiki
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,2002,Kingdom Hearts,Iago,male,uncertain,"male voice actor, but not many other gender signifiers"
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Mickey,male,,"referred to as ""king"""
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Kanga,female,,"female voice actor, female kangaroo model, enhanced eyelashes"
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Pooh,male,,"Referred to as ""he"""
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Goofy,male,,wiki
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Genie,male,,wiki
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Elizabeth,female,,wiki
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Timon,male,,wiki
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Rai,male,,wiki
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Jafar,male,,wiki
+../data/KingdomHearts/KingdomHearts2/,Kingdom Hearts II,2005,Kingdom Hearts,Fuu,female,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Hiro,male,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Yen Sid,male,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Buzz,male,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Tia Dalma,female,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Ansem,male,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Randall,male,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Flynn,male,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Sora,male,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Young Eraqus,male,,wiki
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts III,2010,Kingdom Hearts,Everyone,neutral,,
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Ansem the Wise,male,,wiki
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Phoebus,male,,wiki
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Beagle Boy #2,male,,wiki
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Pete,male,,wiki
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Riku,male,,wiki
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Xemnas,male,,wiki
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Minnie,female,,wiki
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Joshua,male,,wiki
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Laverne,male,,wiki
+../data/KingdomHearts/KingdomHearts3D/,Kingdom Hearts 3D: Dream Drop Distance,2012,Kingdom Hearts,Sam,male,,wiki
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Clerk Bosker,male,,wiki
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Major Elena Flores,female,,female voice
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Chairman Martin Burns,male,,wiki
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Sovereign,male,,"Male voice, named 'he' ""Maybe the fleet can take Sovereign down before he regains control of the station"", https://youtu.be/CFB067_eSeI?t=80"
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Tali'Zorah,female,,wiki
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Woman speaking to Bragging Volus,female,,https://youtu.be/h5JeWpKTDYk?t=6
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Elias Keeler,male,,https://youtu.be/q55GwOusd_Y?t=13
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Calantha Blake,female,,wiki
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Charn,male,,"wiki uses male pronouns, male voice"
+../data/MassEffect/MassEffect1B/,Mass Effect,2007,Mass Effect,Talitha,female,,wiki
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Feros Colony Investment Advertisement,male,,https://youtu.be/B4iHsc-jkjo?t=564
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Ship's Doctor (Aeia),female,,"female voice, https://youtu.be/wqqRWkRwmHo?t=1216"
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Presidium Groundskeeper,male,,wiki
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Male Refugee (Omega Slums),male,,https://youtu.be/ivsKSXkIIOE?t=190
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Sad Asari,female,,https://youtu.be/a8-JgoXI5-8?t=34
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Quarian Indentured Servant,female,,https://youtu.be/GJ05xz5oeE0?t=478
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Vij,male,,https://www.ign.com/wikis/mass-effect-2/Samara_-_The_Ardat-Yakshi
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Charr,male,uncertain,TODO: policy on Krogans
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Kaidan Alenko,male,,wiki
+../data/MassEffect/MassEffect2/,Mass Effect 2,2010,Mass Effect,Looter 1 (Omega),male,,https://youtu.be/q4kTB6Sq8PQ?t=6
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Geth Prime,neutral,uncertain,"Male voice, not many gender cues. https://youtu.be/IG2yry7-1zU?t=34"
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Falere,female,,wiki
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Dehkarr (Batarian Refugee),male,uncertain,Depends on Batarian coding. https://youtu.be/x6-ECXlYPoM?t=1288
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Consultant (Huerta),female,,"According to wiki, doctor is Asari"
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Din Korlack's Cerberus Contact,female,,"female voice, https://youtu.be/GQc6_oHesNE?t=146"
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Krogan Shaman,male,,"male voice, https://youtu.be/7XDtbfZjEPQ?t=17"
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Liara T'Soni,female,,wiki
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Steve Cortez,male,,wiki
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Embassy Clerk helping Teresa,female,,"Called a ""nice young woman"""
+../data/MassEffect/MassEffect3C/,Mass Effect 3,2012,Mass Effect,Fighter Marine,male,,"male voice, https://youtu.be/XdXXK_rWrhc?t=139"
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Man 2,male,,One of the fettuccini brothers
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Guy 1,neutral,,"We see their legs (boots, trousers), easy to assume male but not much direct evidence. https://youtu.be/wsyV_lwYDVI?t=135 "
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Elaine,female,,
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Dog,neutral,,
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Herman,male,,
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Smirk,male,,
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Carla,female,,
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Meathook,male,,
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Cook,male,,
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,The Secret of Monkey Island,1990,Monkey Island,Head,male,,"Not many gender cues. From lore from other games, it seems this is Sepp the Navigator. In the special edition it's voiced by a male actor, https://youtu.be/vQReJFaFHHA?t=872"
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Governor Phatt,male,,
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Fink,male,,
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Costumed woman,female,,
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Guard,male,,
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Filbert,male,,
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Rich,male,,
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Stan,male,,
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Chef,male,,
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Guybrush,male,,
+../data/MonkeyIsland/MonkeyIsland2/,Monkey Island 2: LeChuck's Revenge,1991,Monkey Island,Dad,male,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,Van Helgen,male,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,Rottingham,male,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,Fat Pirate,male,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,Wally,male,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,LeChuck,male,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,Voodoo Lady,female,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,Bartender,male,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,Bill,male,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,Cruff,male,,
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,The Curse of Monkey Island,1997,Monkey Island,Haggis,male,,
+../data/Persona/Persona3/,Persona 3,2006,Persona,Voice,male,,Inner voice of protagonist
+../data/Persona/Persona3/,Persona 3,2006,Persona,Mutatsu,male,,wiki
+../data/Persona/Persona3/,Persona 3,2006,Persona,Akihiko,male,,wiki
+../data/Persona/Persona3/,Persona 3,2006,Persona,Teenager,male,,https://lparchive.org/Persona-3/Update%2017/
+../data/Persona/Persona3/,Persona 3,2006,Persona,Eiichiro,male,,"wiki, father"
+../data/Persona/Persona3/,Persona 3,2006,Persona,Ken,male,,wiki
+../data/Persona/Persona3/,Persona 3,2006,Persona,Bebe,male,,wiki
+../data/Persona/Persona3/,Persona 3,2006,Persona,Jin,male,,wiki
+../data/Persona/Persona3/,Persona 3,2006,Persona,Chidori,female,,wiki
+../data/Persona/Persona3/,Persona 3,2006,Persona,Ramen Shop Owner,male,,https://lparchive.org/Persona-3/Update%2047/
+../data/Persona/Persona4/,Persona 4,2008,Persona,Woman's Voice,female,,https://youtu.be/vRRy3twWTQQ?t=457
+../data/Persona/Persona4/,Persona 4,2008,Persona,Male Student,male,,Possibly different characters? https://lparchive.org/Persona-4/Update%2002/
+../data/Persona/Persona4/,Persona 4,2008,Persona,Yuuta,male,,wiki
+../data/Persona/Persona4/,Persona 4,2008,Persona,Yosuke Hanamura,male,,wiki
+../data/Persona/Persona4/,Persona 4,2008,Persona,Naoki,male,,wiki
+../data/Persona/Persona4/,Persona 4,2008,Persona,Kanji Tatsumi,male,,wiki
+../data/Persona/Persona4/,Persona 4,2008,Persona,Kimono-Clad Woman,female,,wiki
+../data/Persona/Persona4/,Persona 4,2008,Persona,Shadow Yosuke,male,,wiki
+../data/Persona/Persona4/,Persona 4,2008,Persona,Chihiro Fushimi,female,,wiki
+../data/Persona/Persona4/,Persona 4,2008,Persona,Shadow Yukiko Amagi,female,,wiki
+../data/Persona/Persona5B/,Persona 5,2016,Persona,SIU Director,male,,wiki
+../data/Persona/Persona5B/,Persona 5,2016,Persona,Innocent Girl,female,,"Game labels the character ""innocent girl"" https://lparchive.org/Persona-5/Update%2029/"
+../data/Persona/Persona5B/,Persona 5,2016,Persona,Interrogation Room Guard,male,,https://lparchive.org/Persona-5/Update%20163/
+../data/Persona/Persona5B/,Persona 5,2016,Persona,Usami,female,,wiki
+../data/Persona/Persona5B/,Persona 5,2016,Persona,Souse,male,,"Male from picture. The name here is based on the image name, but may be someone else"
+../data/Persona/Persona5B/,Persona 5,2016,Persona,Sae Niijima,female,,wiki
+../data/Persona/Persona5B/,Persona 5,2016,Persona,Akitsu,male,,wiki
+../data/Persona/Persona5B/,Persona 5,2016,Persona,Hanasaki,female,,https://lparchive.org/Persona-5/Update%2063/
+../data/Persona/Persona5B/,Persona 5,2016,Persona,Arsene,male,,wiki
+../data/Persona/Persona5B/,Persona 5,2016,Persona,Shinya Oda,male,,wiki
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Phirk,neutral,uncertain,"Aqualish, voice is in other language"
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Viglo,male,,wiki
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Hijata,male,,wiki
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Lena,female,,"makeup, wiki"
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Jordo,male,,wiki
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Sol'aa,male,,wiki
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Holdan,male,,wiki
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Chorrawl,male,,"wiki, called ""he"", ""Speak with Chorrawl if you must speak at all. He knows your jagged language best."""
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Shaelas,male,,"wiki, called ""he"" ""The off-worlder has probably been listening to Shaelas and his rumor-mongering."""
+../data/StarWarsKOTOR/StarWarsKOTOR/,Star Wars: Knights of the Old Republic,2003,Star Wars: Knights of the Old Republic,Nubassa,neutral,,"According to wiki lore, females look different, though there are few gender sigifiers"
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Jas,female,,wiki
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Penny,female,,wiki
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Alex,male,,wiki
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Harvey,male,,wiki
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Robin,female,,wiki
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Sebastian,male,,wiki
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Sandy,female,,wiki
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Gus,male,,wiki
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Emily,female,,wiki
+../data/StardewValley/StardewValley/,Stardew Valley,2016,Stardew Valley,Evelyn,female,,wiki
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Mario,male,,wiki
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Culex,male,,"knight, transcriber"
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Ma'Mole,female,,implied mother
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Miner 2,neutral,,Generic mole sprite https://youtu.be/3APVsBUecY0?t=311
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Birdo,female,,trans female
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Raini,female,,"getting married, implied bride (pink)"
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Toad,male,,vs. toadette
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Geno,male,,wiki
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Monstermama,female,,implied by name
+../data/SuperMarioRPG/SuperMarioRPG/,Super Mario RPG: Legend of the Seven Stars,1996,Super Mario RPG,Johnny,male,,wiki
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,M'aiq the Liar (Morrowind),male,,wiki
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,Yngling Half-Troll,male,,wiki
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,Bolrin,male,,wiki
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,Hlaren Ramoran,male,,wiki
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,Edryno Arethi,female,,wiki
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,Foryn Gilnith,male,,wiki
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,Rasha (Morrowind),male,,wiki
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,Ethasi Rilvayn,female,,"wiki, female voice https://youtu.be/AGzQOdrcVI0?t=214"
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,Manirai,female,,wiki
+../data/ElderScrolls/Morrowind/,The Elder Scrolls III: Morrowind,2002,The Elder Scrolls,Falanaamo,male,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Rulindil,male,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Astrid,female,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Gunmar,male,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Urag,male,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Esbern,male,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Titus Mede II,male,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Dirge,male,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Sigrid,female,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Vyrthur,male,,wiki
+../data/ElderScrolls/Skyrim/,The Elder Scrolls V: Skyrim,2011,The Elder Scrolls,Sanguine,male,,"wiki, named ""lord"""

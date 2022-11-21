@@ -1,0 +1,14 @@
+folder,series,game,from,to,frequency
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,-,-,23
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,-,male,206
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,male,-,200
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,male,female,876
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,female,male,870
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,female,female,412
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,female,-,215
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,-,female,209
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,male,male,198
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,female,neutral,1
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,neutral,male,1
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,male,neutral,1
+../data/Horizon/HorizonZeroDawn/,Horizon,Horizon Zero Dawn,neutral,female,1

@@ -1,0 +1,114 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+
+\setlength{\footskip}{80pt}
+
+\newcommand{\includepdfPlus}[1]{\includepdf[pages=-,pagecommand={\thispagestyle{plain}}]{#1}}
+
+\author{Stephanie Rennick, Se\'{a}n G. Roberts, Melanie Clinton,\\Elena Ioannidou, Liana Oh\\Charlotte Clooney, E. T., Edward Healy}
+\title{Gender bias in Video Game dialogue: Supplementary materials}
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\clearpage
+\newpage
+
+\section{Introduction}
+
+This set of supplementary materials describes each step of the creation and analysis of the Video Games Dialogue Corpus. Parts of it are written in Rmarkdown, which includes R code that implements an analysis, the output of that code, and plain commentary and explanations. This supporting materials document itself is compiled from the output of several documents. Each individual document and the original data and R code are available in the accompanying online repository.
+
+\clearpage
+\newpage
+\section{Corpus Design}
+
+\includepdfPlus{../../writeup/CorpusDescription.pdf}
+
+\clearpage
+\newpage
+
+\section{Coding gender for characters in video games}
+
+\includepdfPlus{../../writeup/CodingScheme.pdf}
+
+\clearpage
+\newpage
+
+\section{Analysing Gender Balance in Video Games}
+
+\includepdfPlus{../../analysis/Analyse_WordsPerGender.pdf}
+
+\clearpage
+\newpage
+\section{Major and Minor characters}
+
+\includepdfPlus{../../analysis/Analyse_MajorVsMinorCharacters.pdf}
+
+\clearpage
+\newpage
+\section{Player perceptions of gender bias}
+
+\includepdfPlus{../../analysis/survey/analyseSurvey.pdf}
+
+\clearpage
+\newpage
+\section{Gender differences in emotion cues in Oblivion}
+
+\includepdfPlus{../../analysis/Appendices/Analyse_Oblivion_Emotions.pdf}
+
+
+\clearpage
+\newpage
+\section{Player choices}
+
+\includepdfPlus{../../analysis/Analyse_PlayerChoices.pdf}
+
+\clearpage
+\newpage
+\section{Transitions between characters}
+
+\includepdfPlus{../../analysis/Analyse_Transitions.pdf}
+
+\clearpage
+\newpage
+\section{Comparing Jessie's dialogue between Final Fantasy VII and Final Fantasy VII Remake}
+
+\includepdfPlus{../../analysis/Appendices/JesseStudyEdited.pdf}
+
+
+\clearpage
+\newpage
+\section{Recruitment strategies in Daggerfall}
+\includepdfPlus{../../analysis/Appendices/Analyse_Daggerfall.pdf}
+
+
+\clearpage
+\newpage
+\section{Perpetuated gender differences in Stardew Valley}
+\includepdfPlus{../../analysis/Appendices/Analyse_StardewValley.pdf}
+
+\clearpage
+\newpage
+\section{Gender biases in translations of Chrono Trigger}
+
+\includepdfPlus{../../analysis/Appendices/Analyse_ChronoTriggerTranslations.pdf}
+
+\clearpage
+\newpage
+\section{Analyses of word frequency}
+\includepdfPlus{../../analysis/Analyse_Frequency.pdf}
+
+\clearpage
+\newpage
+\section{Reliability of gender coding}
+\includepdfPlus{../../analysis/reliability/Reliability.pdf}
+
+
+\end{document}

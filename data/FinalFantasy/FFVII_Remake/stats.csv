@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFVII_Remake/,False,Final Fantasy VII Remake,Final Fantasy,TOTAL,8897,86487,24793,102108,-0.2982606430584429,103.41413468275027,6.50645856153525,286
+../data/FinalFantasy/FFVII_Remake/,False,Final Fantasy VII Remake,Final Fantasy,male,5622,54337,15285,64463,-0.20458482053707527,102.86107586295148,6.62548241263007,208
+../data/FinalFantasy/FFVII_Remake/,False,Final Fantasy VII Remake,Final Fantasy,female,3268,32126,9491,37620,-0.45192577386639066,104.33154013143762,6.299255809289617,75
+../data/FinalFantasy/FFVII_Remake/,False,Final Fantasy VII Remake,Final Fantasy,neutral,7,24,16,25,-2.713333333333331,117.1875,14.895483333333333,3

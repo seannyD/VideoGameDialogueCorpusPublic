@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/MonkeyIsland/MonkeyIsland2/,False,Monkey Island 2: LeChuck's Revenge,Monkey Island,TOTAL,872,9285,2696,10835,-0.47699963766899955,104.6165703603256,6.28168383244728,48
+../data/MonkeyIsland/MonkeyIsland2/,False,Monkey Island 2: LeChuck's Revenge,Monkey Island,male,743,7454,2217,8670,-0.5537616660488354,105.02123889792746,6.313481169582702,34
+../data/MonkeyIsland/MonkeyIsland2/,False,Monkey Island 2: LeChuck's Revenge,Monkey Island,female,112,1509,418,1803,-0.08307537549820587,102.08809765807072,6.033901646896927,8
+../data/MonkeyIsland/MonkeyIsland2/,False,Monkey Island 2: LeChuck's Revenge,Monkey Island,neutral,17,322,60,362,-0.23116149068322933,106.27851656314701,6.746848157349897,6

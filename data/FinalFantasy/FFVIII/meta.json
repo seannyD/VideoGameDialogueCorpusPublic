@@ -1,0 +1,658 @@
+{
+	"game": "Final Fantasy VIII",
+	"series": "Final Fantasy",
+	"year": 1999,
+	"source": "https://www.neoseeker.com/finalfantasy8/faqs/136092-final-fantasy-viii-script-a.html",
+	"sourceFeatures":{
+        	"type": "fan transcript",
+        	"completeness": "high",
+        	"dialogueOrder": true,
+        	"choices": "partial"
+    },
+    "error checks": {
+        "truePositive_numTestsDone": "10",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "2",
+        "truePositive_notes": "Source is comprehensive for mandatory dialogue, but doesn't cover all sidequests or optional dialogue.",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "N/A"
+    },
+	"parserParameters": {
+		"parser": "FF8Parser",
+		"parentheticalsThatShouldStayInParentheses": [
+			"(gulp)",
+			"(She walks off.)",
+			"(Dialogue cancelled; cannot enter Fire Cavern)",
+			"(Hmmm...)",
+			"(sigh)",
+			"(Squall jumps off.)",
+			"(No one jumps off.)",
+			"(They all get on.)",
+			"(They don't take the lift.)",
+			"(Selphie runs away to someone else.)",
+			"(He gives Squall a 'Pet Pals Vol. 1' magazine.)",
+			"(Zell suppresses his frustration and Selphie walks in.)",
+			"(Insert R2 here.)",
+			"(This comes up seven times, so it's probably not the same person thinking it.)",
+			"(sigh...)",
+			"(cough)",
+			"(Break)",
+			"(Same as R1)",
+			"(See below.)",
+			"(Rinoa repeats herself, from First, I'll go over the model... to where the narrative lists all seven steps in order.)",
+			"(Rinoa repeats the dialogue from Ok, now let's talk... to That's about it for the sensors.)",
+			"(Rinoa repeats the dialogue from Next, let's talk about how... to That about covers the uncoupling process.)",
+			"(Rinoa repeats R3, R4, and R5 in sequential order.)",
+			"(Cancels dialogue; Squall and co. can run around train.)",
+			"(Initiates the mission.)",
+			"(Same dialogue recital as last time.)",
+			"(Dialogue cancelled.)",
+			"(Rinoa enters Vinzer's cabin.)",
+			"(hereafter referred to as 'Party A')",
+			"(hereafter referred to as 'Party B')",
+			"(hereafter referred to as 'Party C')",
+			"(hic)",
+			"(Squall doesn't say another word on the subject.)",
+			"(They don't get on; they can walk around freely)",
+			"(Self-explanitory, the scene ends and the party gets off at East Academy)",
+			"(Self-explanitory, the scene doesn't advance and the train doesn't rumble on yet.)",
+			"(leaving)",
+			"(pursuing)",
+			"(list of numbers, from 0 - 9)",
+			"(Already covered; look above)",
+			"(huff huff...puff puff...)",
+			"(s)",
+			"(See below)",
+			"(Nothing happens; can move around freely)",
+			"(The lion-thing gets kicked and then, after looking at the Mean Guy, leaves with him.)",
+			"(This line to Zell's (Doesn't sound...)",
+			"(Squall can change up the parties again.)",
+			"(Selphie's team beats the crap out of the soldiers, no questions asked, but afterwards, they're not able to hide in their uniforms.)",
+			"(Insert R4, sans Selphie's opening line.)",
+			"(Selphie's team flees.)",
+			"(The party initiates battle.)",
+			"(The battle starts after this.)",
+			"(Same as R1, with the minute until destruction changed.)",
+			"(Squall jumps between the two, gunblade flashing.)",
+			"(The screen blacks out and it's assumed that they've killed the SeeD and her two junior classmen.)",
+			"(R3 is repeated.)",
+			"(Begin after this message)",
+			"(sic)",
+			"(Irvine picks which instrument Zell plays.)",
+			"(He chooses another instrument for himself.)",
+			"(Irvine finds her another instrument.)",
+			"(She's given a different instrument to play.)",
+			"(The orphanage scenes end.)",
+			"(If Squall gives absolutely no orders, he'll say:)",
+			"(Squall just gets pushed back against the door.)",
+			"(This opens up the previously unavailable R4 and R5 options)",
+			"(The battle starts.)",
+			"(The party can run back to a save point.)",
+			"(The party goes to the menu screen.)",
+			"(They sit down and are taken for a ride.)",
+			"(They don't sit down.)",
+			"(They aren't allowed to go in.)",
+			"(20 minutes)",
+			"(And standing next to her, a very excited Irvine...)",
+			"(Segway into R7, at 'There iz only...' now.)",
+			"(Squall can ask the previous five questions again, except this time Laguna will answer R1, like so:)",
+			"(They enter.)",
+			"(They don't enter.)",
+			"(NOTE: If you didn't show her around, she begins at I'm...a messenger, obviously not recognizing Squall.)"
+		]
+	},
+	"mainPlayerCharacters": ["Squall", "Rinoa", "Quistis", "Zell", "Selphie", "Irvine"],
+	"characterGroups": {
+		"male": [
+			"Squall",
+			"Zell",
+			"Irvine",
+			"Cid",
+			"Biggs",
+			"Odine",
+			"Kiros",
+			"Laguna",
+			"Mark",
+			"Martine",
+			"Mayor Dobe",
+			"Nida",
+			"NORG",
+			"Piet",
+			"Raijin",
+			"Seifer",
+			"Ward",
+			"Watts",
+			"Wedge",
+			"Zone",
+			"Ifrit",
+			"Announcer",
+			"Captain",
+			"Caraway's Guard",
+			"Controller A",
+			"Controller B",
+			"Red Giant",
+			"Gargantua",
+			"Crewmember",
+			"Director",
+			"Doctor's Assistant",
+			"Doctor's Assistant 2",
+			"Dollet Soldier",
+			"Doorman",
+			"Drifter",
+			"Driver",
+			"Driver 2",
+			"Fake President Deling",
+			"Enemy SeeD",
+			"Engineer",
+			"Esthar Soldier",
+			"Galbadian Officer",
+			"Galbadian Soldier",
+			"Galbadian Soldier 2",
+			"Galbadian Soldier 3",
+			"Garden Faculty",
+			"Garden Faculty 2",
+			"Garden Staff",
+			"General Caraway",
+			"Guard",
+			"Guard 2",
+			"Lunar Gate Staff",
+			"Maintenance Soldier",
+			"Maintenance Soldier 2",
+			"Male Student",
+			"Man 3",
+			"Man in White",
+			"Master Fisherman",
+			"Mean Guy",
+			"Medical Staff",
+			"Officer",
+			"President Deling",
+			"Private",
+			"Private 1",
+			"Private 2",
+			"Robed Man",
+			"Security Guard",
+			"Security Guard 1",
+			"Security Guard 2",
+			"Gate Guard",
+			"Soldier",
+			"Soldier 2",
+			"Warden",
+			"White SeeD Leader",
+			"Boy",
+			"Adel Resistance Guy",
+			"Man (Fisherman's Horizon)",
+			"Man (Control Room)",
+			"Man 2 (Control Room)",
+            "Patron",
+            "Esthar Man",
+            "Presidential Aide",
+            "Male SeeD",
+            "Other Male SeeD",
+            "Other baddie SeeD",
+            "Male SeeD (Garage)",
+            "Sentry",
+            "Sentry 2",
+            "Familiar Face",
+            "Receptionist",
+            "Relief Guard",
+            "Research Assistant",
+            "Researcher"
+		],
+		"female": [
+			"Selphie",
+			"Quistis",
+			"Edea",
+			"Adel",
+			"Dr. Kadowaki",
+			"Ellone",
+			"Flo",
+			"Fujin",
+			"Julia",
+			"Ma Dincht",
+			"Rinoa",
+			"Raine",
+			"Ultimecia",
+			"Xu",
+			"Co-star",
+			"Crew Member",
+			"Female Cadet",
+			"Female SeeD",
+			"Female Student",
+			"Female Student (ID #8)",
+			"Forest Fox Leader",
+			"Lunar Gate",
+			"Waitress",
+			"Woman 2",
+            "Person 2",
+            "Forest Fox Daughter",
+            "Female SeeD (Garage)",
+            "Woman (Control Room)"
+		],
+		"neutral": [
+			"Moomba",
+			"All",
+			"Aide on the Right",
+			"Aide on the Left",
+			"Sphinxaur",
+			"Krysta",
+			"Tri-Point",
+			"Catoblepas",
+			"Trauma",
+			"Tiamat",
+			"Everyone",
+			"ID Check",
+			"Loudspeaker",
+			"Machine",
+			"Offscreen Shooter",
+			"Offscreen Shooter 2",
+			"SeeD Candidate",
+			"Train Announcement",
+			"Tutorial",
+            "Voice",
+            "Esthar Airstation",
+            "Squad C Leader",
+            "Quick-Thaw Technician"
+		]
+	},
+	"aliases": {
+		"Squall": "Squall",
+		"Zell, Selphie, Biggs, & Wedge": ["Zell", "Selphie", "Biggs", "Wedge"],
+		"Li'l Squall": "Squall",
+		"Teen": "Squall",
+		"Boy Zell": "Zell",
+		"Adult Zell": "Zell",
+		"Little Zell": "Zell",
+		"Boy Squall": "Squall",
+		"Boy Irvine": "Irvine",
+		"Headmaster Cid": "Cid",
+		"Elle": "Ellone",
+		"Doc Odine": "Odine",
+		"Quistis & Selphie": ["Quistis", "Selphie"],
+		"Creature": [
+			"Sphinxaur",
+			"Krysta",
+			"Tri-Point",
+			"Catoblepas",
+			"Trauma",
+			"Red Giant",
+			"Gargantua",
+			"Tiamat"
+		],
+		"Sorceress Edea": "Edea",
+		"Sorceress Ultimecia": "Ultimecia",
+		"Mystery Man": "Zone",
+		"Controller": "Controller B",
+		"Doctor's Assitant": "Doctor's Assistant",
+		"Dummy President": "Fake President Deling",
+		"Everyone?": "Everyone",
+		"FUJIN": "Fujin",
+		"Man A": "Wedge",
+		"Man B": "Biggs",
+		"NOTE": "ACTION",
+		"President": "Laguna",
+		"Prompt": "Tutorial",
+		"Someone": "Zell",
+		"Sorceress": "Co-star",
+		"Squal": "Squall",
+		"Voice 2": "Fujin",
+		"White SeeD": "White SeeD Leader",
+		"Man in Space Suit": "Laguna",
+		"Panicky Gentleman": "Laguna",
+		"Aide": {
+			"Aide on the Right": [
+				"We have to evacuate! Please hurry to the pod!"
+			],
+			"Aide on the Left": [
+				"It's much too dangerous now! We must leave Lunar Base at once!",
+				"Please sir, we must hurry!"
+			]
+		},
+		"Garden Faculty": {
+			"Squall": ["\"Can you tell me what's going on?\""]
+		},
+		"Option": {
+			"ACTION": [
+				"",
+				"(Squall jumps between the two, gunblade flashing.)",
+				"(The screen blacks out and it's assumed that they've killed the SeeD and her two junior classmen.)"
+			],
+			"Squall": ["Let's get in there!"]
+		},
+		"Security Guard": {
+			"Security Guard 1": [
+				"Can't believe you guys came back...",
+				"You!!! I said no talking!!! It's only been 3 days, you wimp!!! When I was young, I worked all day, all night...without sleep...!",
+				"No talking! How many times do I have to...",
+				"You keep working! That's what you get for your big mouth! That beast over there, you, too! No meal until your work is done!!!",
+				"He just won't get fed for a few days. If he wants to eat...he should work faster...",
+				"Come give me a hand. I can't handle the big guy alone."
+			],
+			"Gate Guard": ["Alright, go ahead."]
+		},
+		"Boy": {
+			"Squall": [
+				"... Sis... I'm...all alone. But I'm doing my best... I'll be ok without you, Sis. I'll be able to take care of myself.",
+				"... Sis... I'm...all alone. But I'm doing my best... I'll be ok without you, Sis. I'll be able to take care of myself."
+			],
+			"Seifer": [
+				"Cry-Ba-by-Ze-ll! Go back to bed!",
+				"CRY-BABY-ZE-ELL!!!",
+				"NAH-NA-NA-NA-NA-NAH!!!"
+			]
+		},
+		"Girl": {
+			"Ellone": [
+				"Squall...so we meet again.",
+				"Squall!!! Squall! Quisty?",
+				"... Alright.",
+				"Uncle Laguna! There's someone here to see yoo.",
+				"He was wearin' funny clothes. He's tawking to Raine right now.",
+				"Yup. That's why I came over to get yoo. Uncle Laguna! Am I a good girl?"
+			],
+			"Selphie": [
+				"Waaah!",
+				"There. Tee-hee, I'm fine. Sorry. I was kinda in a hurry. Oh yeah! Hey, did you just come from that class? Is......homeroom over?",
+				"There. Sorry. I was kinda in a hurry. Oh yeah! Hey, did you just come from that class? Is......homeroom over?",
+				"Woo... Oh, nooo... This place is soooo much bigger than my last Garden! Oh, hey, hey. I just transferred here. Do you think you could give me a quick tour of this Garden?",
+				"Whoo-hoo!",
+				"Oh, bummer. That's too bad. Well, see ya.",
+				"I have a question! How do you use this?",
+				"Yes, sir!",
+				"Yeah, I'm in the dorms, too!",
+				"Got it!",
+				"Hm? What's the matter?",
+				"I know! I know! It's the Garden Festival! It's going to be great! I'm planning to be on the committee. You wanna help out, too!?",
+				"What's the doctor's name?",
+				"(gulp)... Okay.",
+				"Yep, I remember that one.",
+				"Another question. What's the headmaster's name?",
+				"Got it! Heeey, um...are you taking today's SeeD exam?",
+				"Then maybe I'll see you again, later. I've already finished my training at my previous Garden. I'm taking the Seed exam today, too. Good luck to both of us, huh! Thanks a lot! (She walks off.)",
+				"Are you... Squad B? Wait a minute... You're the guy who showed me around, right!? Thanks! I don't so lost anymore. Oh yeah, I haven't told you my name yet. I'm...a messenger. Name's Selphie, from Squad A. The squad captain's Seifer, right? Where is he? (NOTE: If you didn't show her around, she begins at I'm...a messenger, obviously not recognizing Squall.)",
+				"Irvy, wanna play?",
+				"WAR!"
+			],
+			"Rinoa": [
+				"You're the best looking guy here. Dance with me? Let me guess... You'll only dance with someone you like. Ok then... Look into my eyes... You're-going-to-like-me... You're-going-to- like-me... Did it work?",
+				"You'll be fine. Come on. I'm looking for someon. I can't be on the dance floor alone.",
+				"Hey... You're...! You know, from the party... So...does that mean... You're a SeeD!?",
+				"YEEESSSS! SeeD is here!",
+				"It's just that, I'm so happy! I've been sending requests to Garden forever, but nothing... I'm so glad I spoke to Cid directly!",
+				"You know Seifer?",
+				"Well, he's the one who introduced me to Cid. Cid is such a nice man. I really didn't think SeeD would come out to help a measly little group like us. But after explaining our situation to him, Cid gave the go ahead right away! Now that you guys are here, we'll be able to carry out all kinds of plans!",
+				"Yes?",
+				"Ok, let's go! Umm, Squall. Is 'he' here?",
+				"Seifer.",
+				"... Oh. Oh yeah, my name's..."
+			]
+		},
+		"Guy": {
+			"Zone": [
+				"What are you DOING? How many times",
+                "Arhhh! Just call 'em over!",
+				"Don't be so rude! C'mon, get up! Please excuse us... Come on, this way."
+			],
+			"Adel Resistance Guy": [
+				"Ha ha ha... That's funny. I think that thing's 'Grrr... Grrr...' means 'thank you'. Know what? You're the first one to care about his well-being. These Moombas get worked to death for no reason. They only get half the food and sleep compared to us humans.",
+				"Sounds like Dr. Odine's up to something again upstairs.",
+				"You're such a...nice guy. Not many guys like you these days. You seem like you'd be a good candidate to be our leader.",
+				"That's right. A lot of us are dissatisfied with the way Adel's been ruling Esthar. We may be disorganied now... But someday we'll gather our forces to remove Adel from power. We're overthrowing the ruler of a country. A sorceress, far beyond our powers. A half-baked plan would never work. We're waiting for the right time, now... Most of us involved in the Adel resistance are specialists. It's easy to research ways to fight Adel, but... There's no one to lead the movement. That's our situation right now. We've been looking for someone like you... Someone who's strong and righteous...",
+				"It's ok... He's also an 'Adel Resistance' member. He's Dr. Odine's assistant. All the hot info about the lab comes from him.",
+				"Did something happen to the doctor? Or did Adel stop funding his lab?",
+				"You know her?",
+				"Wait a second! I still owe you!",
+				"Yes... That's right! It all sounds crazy, but... I like you! I really want you to be our leader..."
+			]
+		},
+		"Man": {
+			"Kiros": ["Uhh, Laguna, are you sure this is the right way?"],
+			"Watts": [
+				"Oh, the forests of Timber sure have changed!",
+				"What are you talking about, sir? In the forest there are Ow... Nothing, yeah, it's nothing, sir.",
+				"OK, keep comin', keep comin'.",
+				"Ahhhhhh! Look outtttt!!!",
+                "Hmmmmm... They... said the wrong... password... sir...",
+                "...... Welcome to Timber...sir. Please follow me, sir.",
+				"Aaaaahhhh, sir... Give me a break...",
+				"Hey...!!? Don't leave me, sirrr!!!",
+				"Welcome to Timber, sir. Come with me, sir. Please, please, this way, sir!"
+			],
+			"Man (Fisherman's Horizon)": [
+				"Here they come.",
+				"Do you understand?",
+				"You should go visit the mayor. His house is in the middle of the city."
+			],
+			"Presidential Aide": [
+				"Sorceress Edea?",
+				"... Please explain what this is regarding.",
+				"... Ellone?",
+				"Please come with us.",
+				"We'll be arriving at the Presidential Palace shortly."
+			],
+			"Man (Control Room)": [
+				"All capsules are in place. Conditions inside the capsules are normal.",
+				"Launch error correction, plus 2. Orbital correction, minus 1. Corrections complete.",
+				"Clear."
+			],
+			"Ward": ["........."],
+			"Laguna": [
+				"Oh, sure. Hey there!",
+				"Been wanting to meet you guys! You guys are the ones who were inside my head, right? Ellone told me. It was like there were some kind of waves running through my head. They gave us so much power during battle. We thought they were some kind of faeries flying over us. So I'm Laguna, President Laguna Loire of Esthar. Pleased to meet ya. If we weren't in a state of emergency, I'd talk to you some more, but... Well, whatever. Let's talk. What do you want to know?"
+			]
+		},
+		"Man 2": {
+			"Man 2 (Control Room)": ["Go!"],
+			"Familiar Face": [
+				"We've got to warn you before you go ashore. Do not engage in any type of armed conflict in the city. We do not tolerate belligerence here.",
+				"...... Welcome to Fishermans Horizon. We just call it FH.",
+				"Good. Looks like we understand each other. Man, this is a hell of a mes.",
+				"Nah, don't worry about it. What's important is that nobody got hurt. We love fixing stuff anyway. Kick back and enjoy your stay."
+			]
+		},
+		"Narrative": {
+			"Tutorial": [
+				"Junction enables characters to power up and use abilities.",
+                "By junctioning magic, you can raise the character's stats. If the GF has learned the ability to junction onto stats, that particular stat will be displayed in white. By selecting Junction here, the GF and Magic commands will appear. You are able to junction magic by selecting Magic. When Magic is selected, a list of magic appears. Use the cursor to select which stat to junction. When Str is selected, choose a magic with the cursor. You can see how the stat value changes with each magic. When a magic is selected, the magic will be displayed next to the stat and the value will change. Only one magic can be assigned to each stat. However, there is no need to junction magic manually, one by one. Select Auto after junctioning. 'Auto' junctions magic automatically. There are 3 commands to choose from. Atk favors Strength, Mag favors magic, and Def favors raising HP. Thus, magic can be junctioned easily by using Auto. For example, let's select the Atk junction. Magic has been junctioned to favor Strength. This concludes the Magic Junction tutorial.",
+				"Junction can change basic parameters such as Strength and Magic,",
+                "A GF will level up as it gains experience EXP, and learn new abilities",
+                "Zell's Limit Break can also be changed in the Status screen. If Duel-Auto is turned ON, the Limit Break Duel will execute automatically. The Limit Break moves listed on the screen are selected randomly. That's all for Zell's Limit Break.",
+				"L2, R2 buttons to escape.",
+                "As a SeeD member, you will be paid a salary at regular intervals. The salary is determined by SeeD rank. SeeD rank goes up according to your actions in battle. Some actions will cause your rank to go down.",
+				"By junctioning a GF with status junction ability, as magic is junctioned",
+                "Rinoa's Limit Break uses Angelo. The tricks Angelo ",
+                "1) Sneak on board the '2nd escort'.",
+				"2) Proceed cautiously across the roof to the '2nd escort'.",
+				"3) Proceed across the roof to the 'president's car'.",
+				"4) Uncouple the '1st escort' car.",
+				"5) Have the 'dummy car' and our 'base' move in after uncoupling.",
+				"6) Uncouple the '2nd escort' car.",
+				"7) Escape with the 'president's car' and our 'base'.",
+				"1) Get on the '2nd escort'. 2) Proceed across the '2nd escort'. 3) Proceed across the 'president's car'. 4) Uncouple the '1st escort' car. 5) The 'dummy car' and our 'base' move in. 6) Uncouple the '2nd escort' car. 7) Escape with the 'president's car'.",
+				"STOP if there is a blue guard below you. RUN if there is a red guard below you.",
+				"Floor 7",
+				"To open the valve, hit () repeatedly for 10 seconds.",
+                "The parties' powers have been sealed by Ultimecia's servants."
+			],
+			"Cid": [
+				"To the Forest Owls, This SeeD deployment contract will last until Timber achieves independence. Please make good use of each SeeD member. I wish you the best with your objective. Please understand that this contract is an exception, and no replacement of any SeeD members can be made. Balamb Garden Headmaster Cid Kramer"
+			],
+			"ACTION": [
+				"Wedge is pissed!"
+			],
+			"Laguna": [
+				"Odine only thought about his research. But, while researching under Adel's orders, he was still making many inventions...",
+				"It was a device to seal magic Sealing Facility. Maybe Adel can be defeated.",
+                "That was easy. But...we were found out. So we gathered for a final battle to lure Adel. Adel appeared as we expected.",
+				"I knew she would go in right away if I mentioned Ellone.",
+				"Adel realized that Ellone was a hologram...... But... It was too late.",
+				"Adel was careless. She may be a sorceress, but after all, she was human. We succeeded... But... we couldn't keep such a dangerous sorceress around as a trophy. We had to do something... So...we decided to send her far, far away... Some place very far... Into outer space..."
+			]
+		},
+		"Person": {
+			"Zell": [
+				"Tch! Too many! I'm outta here!"
+			],
+			"Squall": [
+				"Huh? What's this? Who is it?"
+			],
+			"Esthar Man": [
+				"Sorceress Rinoa. Hyne's descendant.",
+				"Thank you for understanding. Tell us when you're ready."
+			]
+		},
+		"Voice": {
+			"Selphie": [
+				"I'm late, I'm late, I'm LATE!!!",
+				"There you are!"
+			],
+			"Ellone": [
+				"Somebody help!!",
+				"... I can't disconnect.",
+				"Is it you, Squall?",
+				"'Connect' is just what I call it. It's when I use my special power. Oh, I know... I must be asleep. That's why I can't control it. I'm sorry, Squall. Just let me use your spirit for a little while longer."
+			],
+			"Forest Fox Daughter": [
+				"What is this!? I have 2 small children in here. Don't do anything to frighten them!"
+			],
+			"Warden": [
+				"What was that noise!?",
+				"There he is! Over there!!! Seize the escapee, dead or alive!!!"
+			],
+			"Security Guard": [
+				"There they are! It's the escapees!"
+			],
+			"Male SeeD": [
+				"Who's there!?"
+			],
+			"Xu": [
+				"Squall!"
+			],
+			"Cid": [
+				"Please! Listen to me!",
+				"Let go of me! I'm not finished!"
+			],
+			"Raijin": [
+				"BWAHA HA HA HA!!! She's not alone!",
+				"Big sound, this way. It's probably them, ya know?"
+			],
+			"Director": [
+				"Ok everyone! Take your positions!"
+			],
+			"Odine": [
+				"Experiment! Experiment! Let's just do this! Bahh! This iz a failure!!!"
+			],
+			"Esthar Airstation": [
+				"This is Esthar Airstation.",
+				"Ragnarok, do you read? Ragnarok, do you read!?",
+				"This is Airstation. Do you copy?",
+				"Whoa! Is this really the Ragnarok? You're in space, right?",
+				"Roger that! We can track you from here.",
+				"Ragnarok... It's been 17 years!",
+				"Leave it to us! You should have enough fuel. Enter your location into the atmospheric reentry program and you'll be ok. Once you enter the atmosphere, we can guide you down. You'll be just fine.",
+				"No sweat. We'll take this step by step. Are you in the pilot seat?",
+				"It's the one on the right. Go sit there.",
+				"See the touch panel in front of you?",
+				"The rest is easy. Just enter the following data.",
+				"WJHEIE/...",
+				"Then... 2872/HD-IEU",
+				"No errors?",
+				"Next, I'm sure you're ok, but there's something I need you to do. Turn off the gravity generator. This should save some fuel. Use the same touch panel to turn it off.",
+				"Congratulations. You're home free, Ragnarok. And... There's one more thing we need to tell you. From all of us at Ground Control, we wish you godspeed.",
+				"This is Airstation. Ragnarok, please respond.",
+				"We have some questions for you. We're collecing escape pods. We have a good idea of what happened. I hear no one from Lunar Base is on the Ragnarok. How many of you are there?",
+				"...... Your names?",
+				"And the other?",
+				"Rinoa? The sorceress!? She's on the ship!?",
+				"Respond, Ragnarok!",
+				"Respond, Ragnarok!",
+				"The sorceress will be seized upon arrival. Be sure to follow the crew's instructions.",
+				"Squall, do you copy? Is the sorceress listening, too?"
+			]
+		},
+		"SeeD": {
+			"Male SeeD": [
+				"Whose side are you on!?",
+				"... Phew...good. Because I definitely don't want to fight you."
+			],
+			"Squall": [
+				"I'm with the headmaster.",
+				"I'm with the Garden Master. At least that's what I told them, to make things easier for now.",
+                "Huh?",
+				"Dream?",
+				"Is this a dream...?",
+				"Is this guy serious...?",
+				"Sad...",
+				"What's this guy thinking...?",
+				"... This is a dream... This is a dream...",
+				"This is too weird to be a dream...",
+				"... He talks to himself too much...",
+				"Whatever.",
+				"Is he really going?",
+				"He's already loosened up..."
+			],
+			"Boy": [
+				"Yes, sir! Come on guys. Let's go."
+			],
+			"Selphie": [
+				"Hmmm...?",
+				"Where am I?",
+				"Laguna's pretty cute!"
+			],
+			"Zell": [
+				"What the...!?",
+				"?",
+				"What's goin' on!? W-What's happening to me!?"
+			],
+			"Other Male SeeD": [
+				"Over here! She's one of the headmaster's SeeDs.",
+				"Heh heh heh. This should be interesting...",
+				"Aahhh!",
+				"Why you little...!"
+			],
+			"Female SeeD (Garage)": [
+				"It was just a hologram. Pretty cool, huh? The headmaster isn't here. We're just here to make them believe that he's in here.",
+				"Basically, we're cutting them off and fighting them in small groups. Brilliant, huh? It wasn't our idea though.",
+				"She took charge immediately when this whole thing began."
+			],
+			"Female SeeD": [
+				"Yes, sir! Come on guys. Let's go."
+			]
+		},
+		"Woman": {
+			"Edea": [
+				"... Poor, poor boy...",
+				"Such a confused little boy. Are you going to step forward? Retreat? You have to decide.",
+				"The boy in you is telling you to come. The adult in you is telling you to back off. You can't make up your mind. You don't know the right answer. You want help, don't you? You want to be saved from this predicament.",
+				"Don't be ashamed to ask for help. Besides, you're only a little boy.",
+				"You don't want to be a boy anymore?",
+				"Come with me to a place of no return. Bid farewell to your childhood."
+			],
+			"Forest Fox Leader": [
+				"Rinoa! I heard your base is in serious trouble. Come over to my place until things settle down.",
+				"I'll let you know if anything chanes. 'Til then, make yourself at home."
+			],
+			"Forest Fox Daughter": [
+				"Upstairs... Hurry!",
+				"She'll be fine. The legend goes...that my mother took down many soldiers with her strength, cooking, and beauty."
+			],
+			"Woman (Control Room)": [
+				"Boosters on standby. All systems normal.",
+				"Clear."
+			]
+		},
+		"SeeD 2": {
+			"Male SeeD": [
+				"That's what I thought. Who's this Garden Master anyway?"
+			],
+			"Other baddie SeeD": [
+				"The junior classmen are with her. Don't let them escape."
+			],
+			"Male SeeD (Garage)": [
+				"If those bastards attack us all at once, we won't stand a chance, even if we are SeeDs.",
+				"Xu."
+			]
+		}
+	}
+}

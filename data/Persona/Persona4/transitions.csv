@@ -1,0 +1,16 @@
+folder,series,game,from,to,frequency
+../data/Persona/Persona4/,Persona,Persona 4,-,-,3
+../data/Persona/Persona4/,Persona,Persona 4,-,male,1341
+../data/Persona/Persona4/,Persona,Persona 4,male,-,1335
+../data/Persona/Persona4/,Persona,Persona 4,-,female,1408
+../data/Persona/Persona4/,Persona,Persona 4,female,male,1406
+../data/Persona/Persona4/,Persona,Persona 4,male,female,1412
+../data/Persona/Persona4/,Persona,Persona 4,male,male,1505
+../data/Persona/Persona4/,Persona,Persona 4,female,-,1425
+../data/Persona/Persona4/,Persona,Persona 4,female,female,928
+../data/Persona/Persona4/,Persona,Persona 4,-,neutral,45
+../data/Persona/Persona4/,Persona,Persona 4,neutral,-,34
+../data/Persona/Persona4/,Persona,Persona 4,male,neutral,1
+../data/Persona/Persona4/,Persona,Persona 4,female,neutral,3
+../data/Persona/Persona4/,Persona,Persona 4,neutral,female,14
+../data/Persona/Persona4/,Persona,Persona 4,neutral,male,1

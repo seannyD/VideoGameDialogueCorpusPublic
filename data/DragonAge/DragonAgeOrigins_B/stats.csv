@@ -1,0 +1,8 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/DragonAge/DragonAgeOrigins_B/,False,Dragon Age: Origins,Dragon Age,TOTAL,61108,701258,166056,833206,0.07725438062397849,102.03038261848133,6.053969729138796,1252
+../data/DragonAge/DragonAgeOrigins_B/,False,Dragon Age: Origins,Dragon Age,male,26957,377660,83807,450448,0.24172302413097846,101.35578547755813,6.141464170171704,783
+../data/DragonAge/DragonAgeOrigins_B/,False,Dragon Age: Origins,Dragon Age,female,12311,179001,39108,213536,0.27166295839612076,101.26721207926067,5.923622195826535,288
+../data/DragonAge/DragonAgeOrigins_B/,False,Dragon Age: Origins,Dragon Age,neutral,215,2073,546,2466,-0.07223795741161787,102.34285121896919,6.064208668755267,61
+../data/DragonAge/DragonAgeOrigins_B/,False,Dragon Age: Origins,Dragon Age,trans,5,40,10,51,1.0150000000000006,94.91000000000003,6.203399999999999,1
+../data/DragonAge/DragonAgeOrigins_B/,False,Dragon Age: Origins,Dragon Age,cut,1874,10335,3978,12216,-0.6291304533424391,104.20054462278382,6.12431388201144,120
+../data/DragonAge/DragonAgeOrigins_B/,False,Dragon Age: Origins,Dragon Age,playerChoice,19776,132255,38671,154613,-0.4613821096795814,104.46187833099052,5.9922929809368375,1

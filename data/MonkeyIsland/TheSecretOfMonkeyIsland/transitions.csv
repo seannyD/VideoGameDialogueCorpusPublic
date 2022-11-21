@@ -1,0 +1,13 @@
+folder,series,game,from,to,frequency
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,-,-,1
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,-,male,222
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,male,male,778
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,male,-,222
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,-,neutral,10
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,neutral,male,28
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,male,neutral,28
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,neutral,-,10
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,-,female,10
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,female,-,9
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,female,male,70
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,Monkey Island,The Secret of Monkey Island,male,female,69

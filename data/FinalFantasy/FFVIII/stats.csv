@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFVIII/,False,Final Fantasy VIII,Final Fantasy,TOTAL,4189,51368,18538,62746,-0.09562954479876318,100.68359845569232,6.7617684634812925,144
+../data/FinalFantasy/FFVIII/,False,Final Fantasy VIII,Final Fantasy,male,2785,33147,12657,40511,-0.14713161600604963,100.78195449879354,6.718892863250391,93
+../data/FinalFantasy/FFVIII/,False,Final Fantasy VIII,Final Fantasy,female,1310,15749,5397,18868,-0.315016987411358,102.5185763154295,6.593540259825502,28
+../data/FinalFantasy/FFVIII/,False,Final Fantasy VIII,Final Fantasy,neutral,94,2472,483,3367,2.478274035659007,86.41036302237234,8.470219921003435,23

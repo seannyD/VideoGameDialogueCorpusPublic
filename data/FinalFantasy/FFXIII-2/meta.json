@@ -1,0 +1,563 @@
+{
+	"game": "Final Fantasy XIII-2",
+	"series": "Final Fantasy",
+	"year": 2011,
+	"source": "https://gamefaqs.gamespot.com/pc/846193-final-fantasy-xiii-2/faqs/64861",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "partial"
+	},
+	"notes": "PlayStation 3 version",
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "0",
+		"truePositive_notes": "N/A",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "N/A"
+	},
+	"characterInfoSource": "https://finalfantasy.fandom.com/wiki/",
+	"parserParameters": {
+		"parser": "FFXIII2Parser",
+		"actionCue": "(",
+		"textDivId": "faqtext",
+		"startText": "let us begin...",
+		"endText": "Acknowledgements",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Serah", "Noel", "Mog"],
+	"characterGroups": {
+		"male": [
+			"Caius",
+			"Maqui",
+			"Gadot",
+			"Yuj",
+			"Sazh",
+			"Jed",
+			"Duncan",
+			"Dajh",
+			"Thorne",
+			"Snow",
+			"Arbiter of Time",
+			"Assistant",
+			"Baxter",
+			"Boy",
+			"Brant",
+			"Captain",
+			"Captain Cryptic",
+			"Chester",
+			"Cole",
+			"Commander",
+			"Corporal Thunder",
+			"Dr. M",
+			"Falcon",
+			"Government Agent",
+			"Sentry",
+			"Guard 1",
+			"Guard 2",
+			"Guard 3",
+			"Guard 4",
+			"Guard at Exit to Main Ruins Area",
+			"Hope",
+			"Jonah",
+			"Laborer",
+			"Lester",
+			"Lex",
+			"Male Academia Citizen 1",
+			"Male Academia Citizen 2",
+			"Male Bounty Hunter 1",
+			"Male Bounty Hunter 2",
+			"Male Bounty Hunter 3",
+			"Male Bounty Hunter 4",
+			"Male Bounty Hunter 5",
+			"Male Citizen 1",
+			"Male Citizen 2",
+			"Male Guard (Bresha)",
+			"Male Guard 1",
+			"Male Guard 2",
+			"Male Hunter 1",
+			"Male Hunter 2",
+			"Male Hunter 3",
+			"Male Hunter 4",
+			"Male Hunter 5",
+			"Male Hunter 6",
+			"Male Hunter on Chocobo-back",
+			"Male Laborer",
+			"Male NORA Member Guarding Exit",
+			"Male Operator 1",
+			"Male Operator 2",
+			"Male Researcher",
+			"Male Researcher 1",
+			"Male Researcher 2",
+			"Male Researcher 3",
+			"Male Researcher 4",
+			"Male Researcher near Entrance Time Gate",
+			"Male Resident",
+			"Male Soldier",
+			"Male Soldier 1",
+			"Male Soldier 2",
+			"Male Tourist 1",
+			"Male Tourist 2",
+			"Male Voice",
+			"Man",
+			"Man at Terminal",
+			"Man in Corner",
+			"Man on Stairway",
+			"Marlow",
+			"Mog",
+			"Morris",
+			"Noel",
+			"Porter",
+			"Professor",
+			"Ray",
+			"Raymond",
+			"Male Resident of Academia",
+			"Rhett",
+			"Roaming Male NORA Member",
+			"Roaming Male NORA Member 1",
+			"Roaming Male NORA Member 2",
+			"Roaming Male NORA Member 3",
+			"Roaming Male NORA Member 4",
+			"Roaming Male NORA Member 5",
+			"Ronan",
+			"Sergeant Blitz",
+			"Sitting Man",
+			"Technical Engineer",
+			"Thunder",
+			"Thurston",
+			"Tipur",
+			"Torreno",
+			"Walter",
+			"Wandering Man 1",
+			"Wandering Man 2",
+			"Soldier",
+			"Soldier 1",
+			"Soldier 2",
+			"Soldier 3",
+			"Soldiers",
+			"Roaming Soldier",
+			"Roaming Soldier 1",
+			"Roaming Soldier 2",
+			"Roaming Soldier 3",
+			"Roaming Soldier 4",
+			"Roaming Mercenaries",
+			"Roaming Mercenary 4",
+			"Roving Mercenary 1",
+			"Roving Mercenary 2",
+			"Roving Mercenary 3",
+			"Operator",
+			"Pilot",
+			"Patrolling Man 1",
+			"Patrolling Man 2",
+			"Patrolling Man 3",
+			"Patrolling Man 4",
+			"Patrolling Man 5",
+			"Patrolling Man 6",
+			"Guard",
+			"Resident Holed Up in Shack",
+			"Wandering Kid 2",
+			"Male NORA Member near lower barrier",
+			"Male Guard",
+			"Male Hunter",
+			"Man guarding Barrier"
+		],
+		"female": [
+			"Serah",
+			"Alyssa",
+			"Yeul",
+			"Chocolina",
+			"Lebreau",
+			"Vanille",
+			"Alyssa's Duplicate",
+			"Brenda",
+			"Bridget",
+			"Casino Staff",
+			"Casino Vender",
+			"Catlin",
+			"Cordelia",
+			"Fake Lightning",
+			"Fang",
+			"Female Academia Citizen 1",
+			"Female Academia Citizen 2",
+			"Female Citizen 1",
+			"Female Citizen 2",
+			"Female Citizen 3",
+			"Female Guard",
+			"Female Guard 1",
+			"Female Guard 2",
+			"Female NORA Member",
+			"Female Operator",
+			"Female Researcher",
+			"Female Researcher 1",
+			"Female Researcher 2",
+			"Female Researcher 3",
+			"Female Researcher 4",
+			"Female Researcher 5",
+			"Female Resident",
+			"Female Tourist 1",
+			"Female Voice",
+			"Girl",
+			"Female Hunter (Chocobo Stables)",
+			"Female Hunter (Weather Device)",
+			"Female Hunter 1",
+			"Female Hunter 2",
+			"Female Hunter 3",
+			"Female Hunter 4",
+			"Female Hunter 5",
+			"Female Hunter 6",
+			"Lightning",
+			"Millie",
+			"Miss Horizon",
+			"Mystic",
+			"Myta",
+			"Nell",
+			"Paddra Nsu-Yeul",
+			"Pat",
+			"Racing Teller",
+			"Receptionist",
+			"Roaming Female NORA Member 2",
+			"Young Patrolling Woman",
+			"Roaming Female NORA Member",
+			"Roaming Female NORA Member 3",
+			"Shannon",
+			"Uma",
+			"Wandering Woman 1",
+			"Wandering Woman 2",
+			"Wandering Woman 3",
+			"Wandering Woman 4",
+			"Wandering Woman 5",
+			"Woman 2",
+			"Woman 3",
+			"Woman 1",
+			"Female Researcher on guard",
+			"Female Researcher near orb",
+			"Other Female Researcher",
+			"Female Hunter"
+		],
+		"neutral": ["Kids", "NORA Members and Children", "Voices"],
+		"genderless": ["Proto fal'Cie Adam"]
+	},
+	"aliases": {
+		"DummyAction": "ACTION",
+		"Serah and Noel": ["Serah", "Noel"],
+		"Noel and Serah": ["Noel", "Serah"],
+		"Yeul and Serah": ["Yeul", "Serah"],
+		"Caius and Yeul": ["Caius", "Yeul"],
+		"Children": ["Boy", "Girl"],
+		"Patrolling Men": [
+			"Patrolling Man 1",
+			"Patrolling Man 2",
+			"Patrolling Man 3",
+			"Patrolling Man 4",
+			"Patrolling Man 5",
+			"Patrolling Man 6"
+		],
+		"Arbiter": "Arbiter of Time",
+		"Moogle": "Mog",
+		"NORA Member Guarding Exit": "Male NORA Member Guarding Exit",
+		"NORA Member where a Barrier was Before": "Man guarding Barrier",
+		"Roaming Female 1": "Roaming Female NORA Member 2",
+		"Voice of Caius": "Caius",
+		"Voice of Yeul": "Yeul",
+		"Roaming Female 2": "Young Patrolling Woman",
+		"Female NORA Member Near Exit": "Female NORA Member",
+		"Roaming Male NORA Member 6": "Roaming Male NORA Member 3",
+		"Woman": "Roaming Female NORA Member 3",
+		"Wandering Kid 1": "Girl",
+		"Patrolling Male NORA Member 1": "Patrolling Man 1",
+		"Patrolling Male NORA Member 2": "Patrolling Man 2",
+		"Patrolling Male NORA Member 3": "Patrolling Man 3",
+		"Patrolling Male NORA Member 4": "Male NORA Member near lower barrier",
+		"Male NORA Member on Shallow Path": "Male NORA Member near lower barrier",
+		"Male NORA Member along Shortcut": "Male NORA Member near lower barrier",
+		"Male NORA Member": "Roaming Male NORA Member 2",
+		"Male NORA Member 1": "Roaming Male NORA Member 1",
+		"Male NORA Member 3": "Roaming Male NORA Member 3",
+		"Male NORA Member 4": "Roaming Male NORA Member 4",
+		"Woman in Corner Area": "Woman 1",
+		"Woman in Corner Area 2": "Woman 2",
+
+		"ACTION": {
+			"Noel": ["Hey there, Noel. This might be hard to believe"],
+			"SYSTEM": ["Final Fantasy XIII-2, the story so far..."]
+		},
+		"???": {
+			"Yeul": ["Serah..."],
+			"Alyssa": [
+				"Serah! Is that you!? (It's the girl from before. She falls to the ground.)",
+				"(auto-talk) Alyssa Zaidelle. I'm an Academy intern. I heard you apprehended our two observers, so here I am..."
+			],
+			"Snow": ["Serah! Serah!"],
+			"Arbiter of Time": [
+				"(deep voice) Who dares? Explain this intrusion!"
+			],
+			"Thorne": [
+				"Who am I? Where am I? Why can't I remember anything? If only... If only I could remember my name!",
+				"I don't know... That doesn't seem to ring a bell. No, that's not it. That's not my name."
+			],
+			"Alyssa's Duplicate": ["(Alyssa-entity) Nice to meet you."],
+			"Vanille": [
+				"(auto-talk) Serah!",
+				"(auto-talk) Keep going.",
+				"(auto-talk) You can do it.",
+				"(auto-talk) Not far now.",
+				"Serah?",
+				"Don't be fooled.",
+				"(sounding a bit depressed) Serah.",
+				"Serah.",
+				"Stay strong.",
+				"Over here."
+			]
+		},
+		"Female": {
+			"Female Voice": ["Welcome. You have accessed the Academy Datanet."]
+		},
+		"Hunter": {
+			"Male Hunter": [
+				"I just can't figure it out. Flan isn't the faeryl's meal of choice. So why was it causing the storm and swooping up the little beasties?",
+				"I wonder... Could the faeryl have just been that hungry?",
+				"Maybe this faeryl had a mutant gene.",
+				"Well, the storm is over. That's all that matters."
+			],
+			"Female Hunter (Chocobo Stables)": [
+				"I've heard of what you've done. You're one of us now! In fact, you may be the bravest of us all! Here, take this chocobo. You deserve it. (auto-talk) I've bred these chocobos myself. You won't find any better."
+			]
+		},
+		"Female Hunter": {
+			"Female Hunter (Chocobo Stables)": [
+				"(auto-talk) Chocobos find food to eat on their own, and they don't break down like machines. If you can learn to ignore the smell, they're the best way to travel the plains."
+			],
+			"Female Hunter (Weather Device)": [
+				"There is a direct correlation between weather and monsters. I can teach you how to use the weather control device if you'd like.",
+				"This is a weather control device. It affects the weather within a certain distance. It is complicated, but do you want to know how it works?",
+				"If you want to learn how to use the machine, I'm your girl.",
+				"Come, I'll teach you how to operate the machine. Use the lever to shift the direction of the wind. That's the first step in changing the weather. The weather will change depending on which levers you use. There are four possible combinations-- and four possible weather conditions. There is a correlation between monsters and the weather. For example, if you make it rain, the monsters near watering holes will become more vicious. And rare monsters with extraordinary strength may appear. By controlling the weather, you can control what kind of monsters you'll run into. That's about it. If you forget how to work it, come talk to me again."
+			]
+		},
+		"Male Guard": {
+			"Male Guard (Bresha)": [
+				"(auto-talk) I wish something would happen. This is one of my easiest missions ever. Nothing to report today. Things are as peaceful as ever."
+			]
+		},
+		"Resident": {
+			"Female Resident": [
+				"The cats have been on edge ever since that rock fell out of the sky. I've never heard them sound so excited.",
+				"The kitties seem very pleased with themselves. I wonder if they found some food.",
+				"Sunbathing seems to be a favorite feline pastime.",
+				"Huh? A what? Have I seen any arti-what now?",
+				"Kitties just love to crawl inside boxes, don't they?",
+				"Looks like you found your kitty-cat! Isn't that great?",
+				"Your kitty's all sleek and brushed today!",
+				"I think 'Esmerelda' suits your cat much better."
+			],
+			"Male Resident of Academia": [
+				"You have to stay away from the security bots! They're outta control and attacking humans left and right!",
+				"The Proto fal'Cie is turning everyone into monsters! That thing is supposed to protect us, not destroy us!",
+				"The defense system has gone haywire. It's targeting humans as hostile intruders!",
+				"I don't wanna stick around here. But someone has to warn people about those crazy killer machines out there!"
+			]
+		},
+		"Woman 2": {
+			"Woman 3": ["(auto-talk) Leave this to me! Let's finish them off!"]
+		},
+		"Guard": {
+			"Guard 3": [
+				"So you managed to cut Atlas off from the source of his existence? It might be a good idea for us to team up with the scientists. - I have a feeling that more incidents like this paradox will occur. We need to be prepared for anything if we want to have a future. - Maybe we should see if the guys in the lab can create weapons inspired by the paradox. - Even if we could forget the tragedy of Cocoon, the army's job is never done.",
+                "So you managed to cut Atlas off from the source of his existence?"
+			],
+			"Female Guard": [
+				"The thing is... the scratch marks suggested they were inflicted by people. - The group that stayed on Cocoon and the ones who moved to Pulse aren't on great terms. If things escalate, we might have another war. - People fighting against each other in a time like this is just plain stupid. But we can't seem to stop it from happening. - Everyone seems to be supporting the Academy. Probably because their inventions helped make our lives more convenient. But it'll only take one catalyst for the people to revolt against the Academy.",
+				"Whoa, hold up. This is a restricted area. There's an important investigation going on here.",
+				"The area up ahead is being excavated in the hope of finding something significant.",
+				"If you've not part of the excavation team, I'm afraid I can't let you through. At least, not until the area's been combed thoroughly.",
+				"If you want to pass through, you'll need the Academy's consent.",
+                "The thing is... the scratch marks suggested they were inflicted by people.",
+                "The group that stayed on Cocoon and the ones who moved to Pulse aren't on great terms.",
+                "People fighting against each other in a time like this is just plain stupid.",
+                "Everyone seems to be supporting the Academy."
+			]
+		},
+		"NORA Member": {
+			"Roaming Male NORA Member 2": [
+				"That's right. Gadot and the others went to check out the meteorite.",
+				"Gadot and the others went to examine the meteorite.",
+				"The meteorite fell over there--in that area near Cocoon."
+			],
+			"Female NORA Member": [
+				"You're worried about them, too? Don't worry--the kids and Lebreau are safe and sound. They're inside that building by the shore.",
+				"Serah, I didn't know you were such a worrywart.",
+				"A moogle that moves? That's so cute.",
+				"Lebreau's fine. The kids are taking care of her, so you have nothing to worry about.",
+				"We'll keep patrolling the area.",
+				"You guys make a really good team, you know that? I bet Snow would be jealous if he found out!",
+				"It takes courage and strength to protect other people.",
+				"Speaking of Snow, where is he, anyway? It's been a heck of a long time since he left.",
+				"I can't believe he hasn't even dropped you a line, you know what I'm saying? I know it must be hard on you, with you guys just having moved in together.",
+				"You're tougher than you look. You remind me a lot of your sister."
+			],
+			"Male NORA Member Guarding Exit": [
+				"Now that you mention it, there is another route along the shore",
+				"Some great waves out there, but I'm on duty all day.",
+				"When it comes to surf and seafood, Pulse rocks!",
+				"You get monster waves this time of year, bigger than anything on Cocoon. You risk your life riding those babies!",
+				"Yuj's is coming out with me next time I go surfing. I can't wait!",
+				"The houses along the shore are built to withstand even harsh storms."
+			],
+			"Roaming Male NORA Member 3": [
+				"We used to live in a place called Bodhum. That's where we created NORA. But we had to find another place to live after that incident three years back. We left Cocoon and created this town.",
+				"He's strong like an ox, but he's no leader. Here in town, Lebreau's actually in command. She is the head of NORA, after all. At least, for now.",
+				"She's a grade school teacher. A really strict one, too.",
+				"Well, to be perfectly honest, not much at all. We did send out a warning to Cocoon, though. Their new provisional government might send help.",
+				"Yeah, I've heard that, too. Apparently, the provisional government is taking over what used to be the job of the fal'Cie. And us NORA members are taking over what should be the job of the government. I guess we have to rely on ourselves.",
+				"I hear there are still lots of people holed up on Cocoon. But I doubt they would come to visit this small backwater town.",
+				"They're constructing an elevator that can transport us to Cocoon, but it'll take years to finish.",
+				"It's been three years since the Sanctum and PSICOM were destroyed, and the provisional government was created. I have to ask; how's it still 'provisional' after three years?",
+				"Scientists and engineers are in charge of this provisional government. Instead of the fal'Cie, people and technology have to keep Cocoon running now.",
+				"I hear people are arguing about whether to restore Cocoon, or relocate residents to Pulse. I'm perfectly happy right here in the boonies!"
+			],
+			"Roaming Female NORA Member": [
+				"That's a strange question all right. I wish I could help you, but I've been pretty busy with security duty. Frankly, these days lots of things seem out of the ordinary!",
+				"Well, we can't ask them to fight off the monsters themselves.",
+				"Things are almost back to normal on Cocoon, thanks to the provisional government the army created.",
+				"Bodhum was destroyed three years ago, and now there's nothing left of it. It's ironic to think now, but I would have died if it hadn't been for the Purge.",
+				"My younger sister lives near Cocoon. She says she's too scared to live around here 'cause of the monsters.",
+				"I hear they're constructing a giant elevator to reach Cocoon. The problem is, the airships just can't handle the traffic.",
+				"I thought moogles were make believe animals from fairy tales. The longer I live here, the less I seem to know about Gran Pulse.",
+                "I thought moogles were make-believe animals from fairy tales."
+			],
+			"Man guarding Barrier": [
+				"I'm sorry, but we can't let you through. We have a dangerous situation on our hands.",
+				"Artefact? Is that some kind of food?",
+				"We can't let you through. Too dangerous!",
+				"No can do. Gadot's orders!",
+				"You've seen the monsters, right? Be careful!",
+				"Hold on. Why are you so interested in that gate thing?"
+			]
+		},
+		"Researcher": {
+			"Female Researcher 1": [
+				"Exactly. It's as if it sprung up here from an entirely different dimension.",
+				"To be honest, Atlas scares me. It's not a fal'Cie, or a monster, or like anything made by humans.",
+				"Some say that Atlas is actually a weapon, but I don't know. There aren't any records of a weapon of that stature.",
+				"Mysterious light emitting structures... ... and the paradox I think they're both connected with the appearance of Atlas.",
+                "Mysterious light-emitting structures"
+			],
+			"Female Researcher 2": [
+				"Good to hear! You know, you need to be able to handle anything in this day and age. (auto-talk) The people at the Academy are so picky. A lot of people even complain about how good their lives used to be. Can you believe it? Hmph. There are trainees who refuse to eat vegetables. It's a shame--the vegetables of Gran Pulse are much tastier than the ones grown on Cocoon. They use the Gran Elevator to transport vegetables from Gran Pulse. That elevator is amazing. Now, getting back and forth from Gran Pulse is a snap!",
+				"Don't worry I think you two did the right thing. It was too advanced for us to control anyway. It's a very dangerous technology.",
+				"Personally, I don't want to rely on crystals. For all we know, that could lead to the fal'Cie ending up in charge again. And nobody wants that.",
+				"The Academy was created by the provisional government. Its mandate was clear: To replace the fal'Cie with science and modern technology.",
+				"The Academy strives for self sufficiency. The policy is strongly supported by the provisional government they don't want a repeat of what happened here on Cocoon.",
+				"Don't worry I think you two did the right thing. It was too advanced for us to control anyway.",
+                "Don't worry--I think you two did the right thing.",
+                "The Academy was created by the provisional government.",
+                "The Academy strives for self-sufficiency."
+			],
+			"Female Researcher 3": [
+				"Is that right? You're such a cute little boy!",
+				"Piggy Kitty? What a perfect name!"
+			],
+			"Male Researcher 1": [
+				"We can also try and figure out its spatial manipulation mechanism. I wonder if the paradox has anything to do with it. (auto-talk) An unexplainable phenomenon, a contradiction--that's the paradox. I wonder what kind of world gave birth to Atlas. I doubt a very peaceful one. Is Atlas unstable, or is its main physical component flawed in some fashion? There's also the possibility it uses an advanced form of camouflage. We scientists don't even know how to wield a weapon, but I guess we'll have to learn how to take care of ourselves someday.",
+				"I can't stop shaking! My head is numb, my nose is stuffed up--I feel weird. (auto-talk) I guess walking around in the rain wasn't the best idea. My head is starting to pound. On top of that, I think I have a fever. I don't want to get anyone else sick. I suppose I should go home."
+			],
+			"Male Researcher 2": [
+				"And because of what happened to Cocoon, you gave up your studies? I'm sorry that happened.",
+				"Well, that's good to hear. Resolve can sometimes be a powerful weapon.",
+				"Now that things seem to have calmed down, I should get back to my research.",
+				"I'm hoping my expertise will help us figure out what kind world is beyond the gate.",
+				"You know Alyssa, that trainee? She's as sharp as a tack, and a genius with numbers.",
+				"We here at the Academy have a great responsibility. With the fal'Cie gone, people rely on us to protect humanity.",
+				"We need to develop our technology in order to maintain Cocoon.",
+				"I can tell you this: the Academy respects ability and potential."
+			],
+			"Male Researcher 3": [
+				"We always have room for another keen young mind with ambition and potential. With our budget increase, there are a lot of new research projects in the works.",
+				"A project to rebuild Cocoon will be starting up any day soon now. But before we can start, we can use all the bright minds we can get.",
+				"We're all one big happy family here at the Academy. I have to tell you, though: there's a lot of competition for bright students for our various projects.",
+				"Young people complain about being misunderstood by adults, but we can tell which kids have promise and that's who we want.",
+                "Young people complain about being misunderstood by adults"
+			],
+			"Male Researcher": [
+				"Yaschas Massif, 10 AF, sir.",
+				"I must say, this is the first time anyone asked me what year it was. I don't suppose you happen to be time travelers?",
+				"Ah, yes. I almost forgot. I'm supposed to hand out this map. Take it, it's free.",
+				"Keep your wits about you. There's no telling what kind of monsters the paradox has let loose here.",
+				"Yes. The great fal'Cie Fenrir blocked out the sun. It was predicted he would appear two hundred years from now. Which means...",
+				"Ah, you've done your homework, I see. Yes, we've found multiple gates in the site.",
+				"Some areas may still be sealed off. We've yet to determine if those sections are safe.",
+				"We have no idea what caused the aberration.",
+				"There are several paradox theories floating around.",
+				"It's terrifying to consider what the fal'Cie's purpose might be.",
+				"The ancient recordings state that Fenrir appears only once every few centuries.",
+				"According to the calculations, Fenrir shouldn't have appeared for another two hundred years."
+			],
+			"Female Researcher on guard": [
+				"I'm very sorry. Only persons on official Academy business are permitted beyond this point.",
+				"S-security!",
+				"We didn't feel in danger... ... since the army was always there to protect us. But we were too confident; we got too careless.",
+				"Our success at predicting your unconventional arrival has proven our theory to be true.",
+				"The director can't wait to meet you. He's been holding his breath in anticipation!",
+				"The phasing activity of the gate is consistent with that of the gate found within the Bresha Ruins five years ago. That's when the director spoke up and said he knew for certain that the gates are linked through time."
+			],
+			"Female Researcher near orb": [
+				"Welcome to the fallen city of Paddra, site of ancient ruins. We don't get a lot of visitors around these parts. Although I'm not very surprised, since there's not much to see or do here. There was a powerful paradox effect in these ruins. A group of Academy staff who were investigating the area just disappeared without trace. That's why so many sections have been closed off.",
+				"I think it's safe to assume that the red orbs are part of the paradox effect.",
+				"It looks like the spacetime surrounding the orbs is distorted.",
+				"Did you come to visit the ruins? You may want to rethink your plans. The paradox effect has grown out of hand and a large number of people have simply disappeared. Do you see the red sphere-like objects floating everywhere? The Academy is currently attempting to analyze their properties. That said, the area is not restricted. So feel free to explore, if you dare.",
+				"Here at the Academy, we've had our hands full dealing with the paradox.",
+				"We still have no clue as to what those orbs are. Don't let your guard down.",
+				"The longer I stay on Pulse, the stranger this planet gets."
+			],
+			"Other Female Researcher": [
+				"A paradox is the existence or materialization of something that shouldn't be.",
+				"The orbs don't appear to be sentient.",
+				"A substance that's not animal, vegetable, or mineral. Fascinating.",
+				"I wonder what will happen to Pulse in the future."
+			]
+		},
+		"Female Researcher": {
+			"Female Researcher 3": [
+				"What a unique little pet! Well-behaved, too! Is he a monster of some sort?"
+			],
+			"Female Researcher on guard": [
+				"I'm terribly sorry about how I treated you before. It was very rude. Especially since I hear you two are the time travelers the director was waiting for."
+			]
+		},
+		"Patrolling Man 1": {
+			"Patrolling Man 5": [
+				"(auto-talk) Can you imagine what would happen if Cocoon was hit by a meteorite? Cocoon looks amazing at night. Leave this area to us. Go hide somewhere safe. Stay safe. Don't want to upset Snow! Phew! Friendlies... What's the deal with rocks falling from the sky? That kid Maqui's up ahead. Hey there! Hey, bro."
+			]
+		},
+		"Patrolling Man 2": {
+			"Patrolling Man 1": [
+				"(auto-talk) Cocoon makes a good landmark. Oh man, Yuj really drives us hard... The path is way too dangerous!"
+			]
+		},
+		"Patrolling Man 3": {
+			"Patrolling Man 5": [
+				"(auto-talk) A monster!? ... Oh, it's just you. The army's got nothin' on NORA! Come out, come out, wherever you are! Snow, we need you here!"
+			]
+		},
+		"Patrolling Man": {
+			"Patrolling Man 1": [
+				"(auto-talk) I didn't know monsters like that existed on Pulse. I wonder if they get a kick out of attacking us humans. So those sentry bots are just junk, huh?"
+			],
+			"Patrolling Man 3": [
+				"(auto-talk) Don't trust your eyes. Let's head to the meteorite. Do we really have to go investigate? I think it might be time to evacuate. Agh! ... Oh, it's just you."
+			]
+		},
+		"Patrolling Man 5": {
+			"Patrolling Man 2": [
+				"You don't think... Could the people on Cocoon have dropped that rock? You know, Maqui might know something about it. Serah, you came too? It's dangerous. I see the shelters here are still intact. Stay in contact, now. Yuj and Maqui went ahead. Hey there! If the monsters want to come and get me, now's their shot!"
+			]
+		},
+		"Final Fantasy XIII-2": {
+			"SYSTEM": ["The story so far"]
+		}
+	}
+}

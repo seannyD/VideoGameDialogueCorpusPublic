@@ -1,0 +1,225 @@
+---
+title: "Perpetuated gender differences in Stardew Valley"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+papersize: a4
+header-includes: 
+- \pagestyle{empty}
+- \pagenumbering{gobble} 
+urlcolor: blue
+---
+
+```{r echo=F,eval=F}
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/Appendices/"))
+```
+
+# Introduction
+
+Stardew Valley is a farming simulator, role-playing game (RPG) created in 2016. The playable character (PC) finds themselves the inheritor of their grandfather’s run-down farm in Stardew Valley. Escaping their city life, they till the soil to create the farm and life of their dreams, all while interacting with the townsfolk in the local village. Stardew Valley has been praised for its inclusion of same-sex relationship options between the PCs and NPCs (Gayming 2020).
+
+At the start of the game, the player can choose the gender of their player character. This affects some of the NPC dialogue. This report asks whether the content of these differences perpetuate (align with) or subvert gendered stereotypes.
+
+# Methods
+
+104 lines from *Stardew Valley* were identified that differ according to the gender of the player character. Each line was coded by hand according to whether it perpetuated or subverted a gendered stereotype. If there were differences that did not obviously relate to gendered stereotypes, these were coded as "neutral". These include differences due to grammatical elements ("he"/"she"), forms of address ("lad"/"lass"), and other neutral phrases ("fine young woman"/ "good guy"). During coding, a fourth category of gender-specific flirting was identified.
+
+# Results
+
+```{r}
+d = read.csv("../../data/StardewValley/StardewValley/StardewValleyGenderDiff.csv",
+             stringsAsFactors = F)
+```
+
+That there is no significant difference in the amount of dialogue to male and female PCs (measured in text character length):
+
+```{r}
+t.test(d$dialogueToMalePC.length, d$dialogueToFemalePC.length)
+```
+
+The results of stereotype coding were as follows:
+
+```{r}
+cbind(Number = table(d$Verdict),
+      Percentage = paste(round(prop.table(table(d$Verdict))*100,2),"%"))
+```
+
+`r round(100*prop.table(table(d$Verdict))["Neutral"],2)`% of cases were coded as 'neutral' (see appendix). `r round(100*prop.table(table(d$Verdict))["Perpetuate"],2)`% of cases perpetuated gendered stereotypes. Below are some specific examples.
+
+Examples 1 and 2 perpetuate stereotypes of gendered food, where certain foods are seen as "for" certain genders (see e.g. McPhail et al., 2012). This feeds into notions of diet and weight loss that are seen as essential to feminie beauty ideals (e.g. Malkin et al., 1999).
+
+Example 1 occurs while at a bar with the character Elliot:
+
+>  Elliot with male PC: Bartender! Two of your finest ales, please!
+>
+>  Elliot with female PC: Bartender! Fetch me your finest ale. And bring some wine for the lady!
+
+These gendered drink choices perpetuate stereotypes associating ale with men and wine with women.
+
+Example 2 occurs when at a restaurant. The PC does not get to choose their meal (the "@" symbol indicates that the player character's name is used)
+
+>  To male PC: I've got a linguini with mushroom cream sauce for Mr. @.
+>
+>  To female PC: I've got a kale and walnut salad for the lady.
+
+The salad is a "light" food associated with dieting, while the pasta with cream sauce is a high-calorie food, which perpetuate gendered food stereotypes.
+
+Examples are not limited to food and drink. For instance, Example 3 is spoken by Abigail in the context of the player character playing a video game:
+
+>  To male PC: Well thanks, @. You seem to really know your way around a joystick, huh? I guess that makes sense.
+>
+> To female PC: Thanks, @. I didn't think you'd know how to work a joystick so well! But it seems you're experienced.
+
+Here the dialogue reinforces the idea that men play video games and women do not. This does not reflect the real world, where there are roughly equal numbers of male and female video game players (ESA, 2021; ISFE, 2021; Nico Partners, 2021; Newzoo, 2019; Pandurov, 2021; Korea Creative Content Agency, 2020).
+
+There were two cases where gender stereotypes are mildly subverted:
+
+>  To male PC: "I'd ask you to throw the ball around, but you don't really seem like the sports type."
+>
+>  To female PC: "If you weren't a girl I'd ask you to play catch."
+
+This is a mild subversion of a male stereotype ('men like sports'), although note that there's nothing gendered in the language targeted at the male, which treats the PC just like a person. There is, however, a perpetuation of negative female stereotype in the dialogue to the female NPC ('throw like a girl' - trope: "Gendered Insult").
+
+The second case refers to the player character's fast drinking (of alcohol):
+
+> To male PC: "Heh... fast drinker, huh? Man after my own heart."
+>
+> To female PC: "Heh... fast drinker, huh? Woman after my own heart."
+
+The text is nearly identical for both genders. However, there is mild subversion here as the NPC treats fast drinking as equally admirable for both genders, while alcohol consumption is often seen as a masculine trope (e.g. De Visser & McDonnell, 2011).
+
+There were no cases of more significant subversion of gendered sterotypes.
+
+Below is a table with a comment on each case of perpetuation:
+
+```{r}
+knitr::kable(d[d$Verdict=="Perpetuate",
+               c("dialogueToMalePC","dialogueToFemalePC","Comment")],
+             row.names = F,col.names = c("to Male","to Female","Comment"))
+```
+
+\clearpage
+\newpage
+
+## Gender differences in flirting and romance
+
+`r round(100*prop.table(table(d$Verdict))["Gender-specific flirting"],2)`% of cases differed due to gender specific flirting (see appendix). Some of these examples did display gendered attitudes, for example:
+
+>  To a male PC: Hey, farmer guy. You look a little burnt.
+>
+>  To a female PC: Hey Farmer girl. You've got a nice tan going.
+
+The male PC's tan is treated as a possible medical condition, while the female PC's tan is treated as a beauty asset. This perpetuates gendered norms of behaviour related to tanning and beauty (e.g. Cox et al., 2009).
+
+More generally, we note that a female PC is repeatedly described as beautiful, while the male gets praised for a bigger range of attributes (rugged, handsome, full of energy etc.).
+
+We note that several differences relate to heteronormativity. When the player romances Alex (a male character), the dialogue differs, with dialogue to a male PC hinting at internalised homophobia:
+
+> To male PC: I kept telling myself 'You can't have these kinds of feelings for another guy'.
+>
+> To female PC: Normally, when I have a crush on someone, the feeling goes away pretty quick...
+
+Similarly, female-female attraction is called out specifically when romacing Abigail (a female NPC):
+
+> To male PC: You don't have to say anything right now. Let's just stay here for a while...	
+>
+> To female PC: I didn't know I felt this way about other girls... until I met you.
+
+It also appears that a male PC romancing Elliott requires comment:
+
+```json
+{"PC": "I'm happy."},
+{"CHOICE": [
+		[
+			{"STATUS": "Player is male"},
+			{"Elliott": "... I was worried you might not feel this way about another man. "}],
+		[
+			{"STATUS": "Player is female"},
+			{"Elliott": "So am I."}]]}
+```
+
+And for Sebastian:
+
+>  To male PC:  Um... I've never... felt anything like this with another guy before... But you're different.	
+>
+> To female PC: I don't usually bring girls to this place... In fact, you're the only one.
+
+Homophobic views are also expressed by other NPCs. For example, if the PC romances Alex, the lines below are spoken by George, Alex's grandfather:
+
+> To male PC: How can two men get married? It's unnatural... Hmmph. I guess I'm just old fashioned ...
+>
+> To female PC: You're part of the family, now. I'm glad that my grandson found such a nice wife.
+
+Including narratives of sexual discovery does not perpetuate stereotypes in itself. And we also note that George changes their mind ("I'll admit, I thought it was... strange... for two men to be together. But you're such a nice young man, and I know you two are in love... I've changed my mind."). However, heterosexuality is consistently portrayed as the non-marked norm.
+
+## Letters
+
+The PC in Stardew Valley can receive written letters. While these are not dialogue, we note that there are differences based on gender. For example, at the beginning of the game, a male PC will receive a letter from "Mom":
+
+>  Dear @, How are you doing, sweety? I've missed you so much since you left. I hope the farming life is everything you hoped for. Love, Mom. PS, I sent your favorite cookies.
+
+If the PC is female, they will instead receive a letter from "Dad":
+
+>  Dear @, Have you settled into your new life yet? I can't believe you're all grown up now ... Time sure flies. Now that you're gone I have all this extra money laying around, so I included a little gift. Love, Dad.
+
+The cookies from Mom have an in-game value of 140g ('g' being short for 'gold', or the in-game currency), while Dad provides 500g in cash. The difference in value leads to many speedrunners choosing a female PC (e.g. this advice [https://www.speedrun.com/stardew_valley/guide/ldpiz](https://www.speedrun.com/stardew_valley/guide/ldpiz)). We note that this difference broadly aligns with tropes that females provide love while males provide material support.
+
+# Conclusion
+
+In many ways, Stardew Valley is a positive, inclusive game. There are no mechanical differences when choosing the gender of the PC, the dialogue is 46% female overall (relatively balanced in comparison to many others), and there are no significant differences in the amount of dialogue spoken to male and female PCs. Furthermore, the option for same-sex marriages and relationships has been in the game since its inception. However, the content of some dialogue does perpetuate gender stereotypes, particularly related to food and beauty standards. The perpetuation of the idea that video games are a masculine hobby is particularly disappointing for a video game in a genre that has more female players than male (around 69% female players according to this study [https://quanticfoundry.com/2017/01/19/female-gamers-by-genre/](https://quanticfoundry.com/2017/01/19/female-gamers-by-genre/)). 
+
+The portrayal of stereotypes in fiction is not necessarily harmful. For example, some of the sexist attitudes of Alex are clearly part of his personality and not necessarily praised. However, there were no clear cases of subverting of gender stereotypes, and little push-back on the idea that gendered attitudes are normal, default attitudes. Interactive fictional media possesses the ability to be both aspirational and subversive, and could strive to be more inclusive.
+
+
+# References
+
+Gayming 2020. Can you be gay in Stardew Valley? Available at: https://gaymingmag.com/2020/10/can-you-be-gay-in-stardew-valley/ [Accessed: 10 May 2021].
+
+McPhail, D., Beagan, B., & Chapman, G. E. (2012). “I Don't Want to be Sexist But…” denying and re-inscribing gender through food. Food, Culture & Society, 15(3), 473-489.
+
+Malkin, A. R., Wornian, K., & Chrisler, J. C. (1999). Women and weight: Gendered messages on magazine covers. Sex Roles, 40(7), 647-655.
+
+De Visser, R. O., & McDonnell, E. J. (2011). ‘That’s OK. He’s a guy’: A mixed-methods study of gender double-standards for alcohol use. Psychology and Health, 1–22,
+
+Cox, C. R., Cooper, D. P., Vess, M., Arndt, J., Goldenberg, J. L., & Routledge, C. (2009). Bronze is beautiful but pale can be pretty: the effects of appearance standards and mortality salience on sun-tanning outcomes. Health Psychology, 28(6), 746.
+
+ESA (2021). 2021 essential facts about the video game industry. Entertain. Softw. Assoc.
+
+ISFE (2021). 2021 key facts about the european video games sector. Interact. Softw. Fed. Eur..
+
+Nico Partners (2021). The china gamers report. https://nikopartners.com/china-gamers-report/.
+
+Newzoo (2019). Newzoo and gamma data report. https://newzoo.com/insights/articles/newzoo-and-gamma-data-report-female-
+mobile-gamers-in-japan-play-more-per-week-than-men.
+
+Pandurov, M. (2021) 15 amazing video game statistics for Canada in 2021.
+
+Korea Creative Content Agency (2020). 7th survey report of video gamers in korea. https://seoulz.com/the-korea-creative-content-
+agency-kocca/.
+
+
+# Appendix
+
+Cases of Neutral differences:
+
+```{r}
+knitr::kable(d[d$Verdict=="Neutral",
+               c("dialogueToMalePC","dialogueToFemalePC")],
+             row.names = F)
+```
+
+Cases of Gender-specific flirting:
+
+```{r}
+knitr::kable(d[d$Verdict=="Gender-specific flirting",
+               c("dialogueToMalePC","dialogueToFemalePC")],
+             row.names = F)
+```
+
+Uncoded case. This is a different reaction (mock disbelief to the male? I'm not sure without context; earnest acceptance to the female), but it's not obviously tropey. 
+
+> To male PC: Get out!
+>
+> To female PC: That's good to know.
+
+

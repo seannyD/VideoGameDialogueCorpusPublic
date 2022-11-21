@@ -1,0 +1,223 @@
+---
+title: "Recruitment strategies in Daggerfall"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+papersize: a4
+header-includes: 
+- \pagestyle{empty}
+- \pagenumbering{gobble} 
+---
+
+# Introduction
+
+This report looks at what negotiation strategies female characters use in *Daggerfall* and whether they reflect real-life usage. 
+
+While *Daggerfall* belongs to a previous generation of games, it has been remade and re-released to be played on modern consoles, reaching a new audience and therefore continuing to influence players and game creators. The game puts the player in the position of a hero in a medieval fantasy world. Completing "quests" is a central part of the game. 
+
+The source for the dialogue of Daggerfall marks "quest offers": dialogue where an NPC tries to convince the player character to accept a quest. This involves a line of dialogue from the NPC that explains the details of the quest and (usually) proposes a reward. The player character can accept or decline, after which the NPC speaks another line depending on the player's decision. The game content is partly procedurally generated, with the gender of the NPC possibly randomly determined. However, this report focusses on a sub-sample of the quests which are scripted for specific NPC characters with pre-set genders.
+
+For this report a pragmatic approach will be taken to analyse how female characters negotiate. Literature surrounding gender stereotypes in relation to female behaviour in negotiations will be reviewed along with research into what constitutes typically female features of speech.
+
+## Gender differences in negotiation strategies
+
+Gender stereotypes are deeply ingrained within society (Fiske and Stephens 1993) with women thought to be warm, nurturing and friendly. Men’s interactional styles are noted to be assertive, dominant and task-oriented, while women’s are indirect, supportive and person-oriented (Holmes and Stubbe, 2003, 574; Lee et al., 2021). Kray and Thompson (2005) argue that this gender belief system dictates how men and women behave in negotiations; women are expected to behave emotionally, with concern for others, and passively. Miller (2002) points out that generally, women place more importance on relationships, preferring to engage in social talk before negotiations start, while men prefer to get straight down to business. In addition, Miller advises women to make men feel comfortable in negotiations by trying to give in on the first request in order for them to drop their guard and want to do something in return. This suggests that conforming to gender stereotypes can work to a woman’s advantage.
+
+Real life differences in speech between men and women have been identified. Lakoff (1973) noted features such as hesitations, question tags, and qualifiers and intensifiers that act as hedges, are typical of female speech. These features of language are associated with passiveness and a lack of confidence. Furthermore, it has been found that women prefer to suggest, rather than command (Goodwin 1980). However subsequent research has questioned whether these features really are favoured by women. For example, Dubois and Crouch (1975) found that men use tag questions more than women. Others question whether the features of language attributed by Lakoff to women, are actually better described as powerless language (O’Barr and Atkins 1980). In a courtroom study, O’Barr and Atkins found that witnesses holding less power, for example in terms of their social and professional standing, displayed more use of what Lakoff identified as female language features. This supports the assertion by Wodak and Meyer (2009, 10) that differences in power in hierarchical social structures can be expressed through language. The result is a clash between what society expects of women and what society expects from a person with a high status (Coates, 204: 201).
+
+Translating this to the world of Daggerfall, NPCs are either male or female, and also have a range of social statuses from peasants to royalty. While the game only contains minimal interaction during negotiation, it may still reflect and perpetuate beliefs about how language varies by gender and power relations.
+
+# Methodology
+
+Quest offers from Daggerfall were identified where the gender of the quest setter was specified. The data relating to female characters was analysed using a discourse analysis approach. Due to the juxtaposition of feminist issues with those of social status in relation to power it more specifically falls under the category of feminist critical discourse analysis (Lazar 2007). Lazar describes the central concern of feminist critical discourse analysts as "critiquing discourses which sustain a patriarchal social order – relations of power that systematically privilege men as a social group, and disadvantage, exclude, and disempower women as a social group."  (Lazar, 2007: 145)
+
+Firstly, linguistic features such as hesitations, question tags and hedging language were identified and highlighted. Secondly, the content of the dialogue was analysed to see if any features stereotypically attributed to one gender were present. Finally, the age and social class of the character was noted. Throughout, dialogue attributed to male characters was analysed to see if there were any differences between male and female characters. 
+
+# Results
+
+The source for Daggerfall includes 128 quest offers by male quest-givers, 13 from female quest-givers, and 68 from quest-givers whose gender is determined procedurally. Quests from pre-set named characters are a sub-set of all of these quests, including 11 quests offered by females and 3 quests offered by males. The named characters include:
+
+-  Cyndassa
+-  King of Worms
+-  Lady Brisienna
+-  Mynisera
+-  Prince Helseth
+-  Prince Lhotun
+-  Princess Elysana
+-  Princess Morgiah
+-  Queen Akorithi
+-  Queen Aubk-i
+-  Queen Barenziah
+
+As an aside, we note that there is an imbalance in the gender distribution of procedural quests: there are only 2 procedural quests which specify a female quest-giver, but 125 procedural quests which specify a male quest-giver.
+
+## Hedging
+
+Hedging can be used to indicate less certainty and act to soften language (see e.g. Lakoff, 1972). Studies have showed them to be a feature of women’s language with Holmes (2008) stating it shows women lack confidence in talk. Qualifiers are a form of hedging which can indicate uncertainty and soften an assertion. For example, Princess Elysana says: 
+
+> ‘Perhaps you can help me out of a bit of an embarrassing predicament?’.
+
+The use of ‘perhaps’ and 'a bit' indicates uncertainty that the player will do what she wants, despite her royal status, and presents an indirect request that downplays the extent of the imposition on the player. This reflects a polite negotiation strategy typically percieved as more feminine (Lee et al., 2021), and has the effect of making the player feel in a position of power, thus contributing to making the player feel comfortable which is what women have been advised to do in negotiations with men (e.g. Bowles and Flynn, 2010). 
+
+Similarly, Queen Barenziah uses the hedge 'rather' to soften the impact of the request: 
+
+> "There is a rather sensitive situation brewing". 
+
+In contrast male characters get straight to the point with direct language. Prince Helseth opens his quest with 
+
+>  “I need a courier.” 
+
+Upon acceptance of his quest he says:
+
+>  “Excellent. Meet me here this time tomorrow.” 
+
+No hedges are present. This is assertive and decisive language more associated with males (see Lee et al., 2021). These examples of the characters’ use of hedges reflects differences found in male and female usage in real-life (Lakoff 1973).
+
+Hesitations are another form of hedging and can be observed in spoken language by pauses of various lengths. The pauses can be represented in written text as elipses ("…"). Other hesitation markers include "er", "um", "uh" and "ah". Queen Akorithi responds with the hesitation marker ‘hmmm’ when the player declines her quest, before stating 
+
+>  “Hmmm. I shall have to rethink your standing in this court.” 
+
+While this is a hesitation, the followup sentence is a veiled threat. While she is using her social status to threaten the player, the form of the threat is less assertive and direct than some male dialogue. For example, Prince Helseth responds in a more abrupt way when a player declines his quest: 
+
+>  “Dullard. Why did you let me waste my time with the likes of you?”
+
+This is direct impoliteness.
+
+## Question tags
+
+Question tags such as ‘don’t you?’ at the end of a question, can have two functions according to Holmes (1984): modal and affective. Modal question tags request confirmation of information while affective question tags indicate concern for the addressee. Therefore, affective question tags can act as softeners or invite the listener to take part in a conversational turn. For example, Princess Morgiah uses a question tag in as her opening line to the player:
+
+>  "You’re trying to track down that letter of the Emperor’s, yes?"
+
+This serves the purpose of inviting the listener to take part in a conversational turn, which is part of the relationship building expected of women in negotiations. 
+
+Cyndassa, a maid, also uses an affective question tag when the player declines a quest:
+
+>  "You only work for the likes of kings, don’t ya?," 
+
+Here, the alternative spelling of you as ‘ya’ represents informal, uneducated, speech, and she is expecting confirmation of her question from the player. The character’s language as a female of a lower social class serves to boost the status of the player. 
+
+In contrast, when a quest is declined from King of the Worms, he says:
+
+>  “You must have strong sentiments for Queen Akorithi. What a pity.” 
+
+This could have been said with a question tag: “You have strong sentiments for the queen, don’t you?” but the choice of stronger, more direct language reflects society’s expectations that men are more direct.
+
+## Topics
+
+The majority of the quests offered by female characters include details of topics typically associated with females such as such family and relationships. For example, one of Queen Aubk-i’s quests involves concern for her husband’s grandmother, who is in poor health and Mynisera, the mother of King Gothryd, is concerned that her son may be enraged by her quest. Similarly, Princess Elysana’s quest involves returning a cloak she borrowed from her father’s good friend. In other quests, the females’ relationships to other male characters are mentioned: Mynisera describes Queen Aubk-i as the daughter of late King Camaron, Princess Elysana describes herself as King Eadwyre’s child and Queen Akorithi talks about her son, Prince Lhotun. 
+
+Concern for others well-being is also present. For example, Queen Alkorithi hopes that the player character has "had a comfortable stay so far”, and Queen Barenziah is concerned about her family’s reputation. This conforms to the trope of women as caregivers, concerned for the well-being of others. 
+
+Male characters do occasionally show concern for others (e.g. Prince Lhotun’s quest also involves finding out information about his brother). However, male quest givers have a broader set of topics such as catching a thief, finding an ingredient to complete a ritual, and helping with an exorcism.
+
+## Compliments
+
+Empirical studies suggest the women use flattery and compliments more often than men (e.g. Holmes, 1988; Herbert, 1990). This is reflected in the vocabulary used by female NPCs in Daggerfall. For example, Princess Elysana’s first words to the player, before revealing her quest, are 
+
+>  “You are even more dashing in person than Lord Woodborne said.” 
+
+As well as using flattery to build a relationship for a negotiation, the use of the adjective ‘dashing’, which is typically used to describe a good-looking man, suggests that the player is assumed to be a male. 
+
+When Queen Aubk-I’s offer of a quest is rejected, she responds with:
+
+>  “Still, I had hoped for more gallantry from you.” 
+
+Gallantry is most often associated with men and can either mean brave behaviour, especially during battle, or a form of courtesy and respect from a man towards a woman. This again suggests the characters are expecting the player to be a male.
+
+## Social status
+
+The majority of the female characters in the sample have royal status with the exception of Cyndassa, the maid. Within the characters of royal status there are older and younger characters. These differences in status and age can be seen in the language of the characters. 
+
+The princesses in particular use phrases that are fun-loving and child-like. For example, Princess Elysana, after her initial flattery mentioned earlier, uses the word ‘dashing’ and exclaims ‘I love men and women of action!’ and “How exciting!”. When the player declines the quest she says ‘You’re not nearly as fun as Lord Woodborne said you would be.” This dialogue makes the character appear to be uninterested in the serious implications of the mission, and more interested in fun and excitement, which is more associated with youth. Indeed, Princess Elysana negotiates her quest with:
+
+>  “Would you do this teensy-weensy favour for me?”. 
+
+The reduplicated form is characteristic of child-like speech, and similarly she says:
+
+>  “How frightfully nice of you to help a silly girl like myself.”
+
+The use of ‘silly girl’ serves to put herself in a weakened position to the player. It conforms to a trope of using infantalised speech to refer to women ("girl" instead of "woman", MacArthur et al., 2020). While this is used by a female character about themselves, possibly as a negotiation strategy, it appeals to paternalism - a type of "benevolent sexism" that promotes the idea that females need protecting (Glick & Fiske, 1996).
+
+The characters vary in how they use status. Princess Morgiah gives the impression that she is interested in gossip, another typically female topic: 
+
+>  “There are very few scandals in the Bay of which I am totally ignorant.” 
+
+The older characters’ language does not show the same level of powerlessness, although their power is sometimes stated in relation to a man’s. Lady Brisienna says: 
+
+>  “The Emperor has instructed me to gift you with an artifact of great power and renown” 
+
+This suggests her ability to reward the player comes from a man and therefore makes her appear less powerful and more dependant.
+
+Senior female characters are given more assertive dialogue than younger ones, although this is usually preceded by a softening statement. Queen Akorithi shows more direct language, after enquiring in a typically female way about the player’s comfort, stating ‘Let me get right to the point.’ She also says “I need you to promise…” but this again is preceded by a softer “I do not know even how to broach this subject.”
+
+Cyndassa, the maid, is portrayed differently from the royal characters. She does not display the same feminine qualities such as friendliness and concern for others in her negotiation opening. Instead, she gets to the point straight away: 
+
+>  “Hey, if I told you I could give you a bit of information ...”. 
+
+Her powerlessness is displayed in her language by the use of colloquialisms associated with the less powerful classes. She refers to the Queen as ‘my lady’ which shows deference. Furthermore, it is spelled ‘milady’ which is a marked form that distances her linguistically from the more powerful characters. This style of speech is repeated in her attempts to persuade in the negotiation: 
+
+> “Now, mind you, I ain’t givin’ it away...” 
+
+Softening language is used to take power away from female characters, but in Cyndassa's case, she was not given power to begin with, and her language is indicative of her less powerful social class.
+
+# Conclusion
+
+This report found evidence of gender differences in negotiation strategies in the dialogue of Daggerfall. Female characters negotiate by conforming to gender stereotypes (focus on family and relationships) and using many typically female linguistic features (hedges, tag questions, compliments). The language used to describe the player (‘dashing’ and ‘gallant’) suggests that the average player is assumed to be male.
+
+The extent to which feminine language is used is related to the social status and age/seniority of the NPC. For example, younger female characters are given more feminine language than older, higher status ones. This may suggest that negotiation strategies do not rely only on gender, but are related to power and status. For example, the maid does not use some of the feminine language, but her status is undermined by the use of marked dialectal variants associated with lower classes. 
+
+Overall, the dialogue exhibits gendered stereotypes. One source of this limitation is the relatively low number of quests given by female characters. The inclusion of a greater number of female quest givers would provide scope for additional diversity in their speech and the potential to subert some stereotypes. Since negotiation is a key context for the interplay of gender and power, and a common occurance in the mechanics of video games, understanding genered tropes during negotiation could help bring about some positive changes in the representation of female characters' speech in video games.
+
+# References
+
+Babcock, L. and Laschever, S. (2003) Women Don't Ask: Negotiation and the Gender Divide, Princeton University Press.
+
+Bogost, I. (2007) Persuasive games: The expressive power of videogames. Boston Review. https://doi.org/10.7551/mitpress/5334.001.0001
+
+Bowles, H.R., Flynn, F. (2010) Gender and persistence in negotiation: A dyadic perspective. The Academy of Management Journal, 53 (4):769-787, 
+
+Braun C.M.J, and J. Giroux. (1989) Arcade video games: Proximic cognitive and content analyses. Journal of Leisure Research 21, 92-105
+
+Coates, J. (2004) Women, Men and Language. Harlow: Longman. 
+
+Goodwin, M. H. (1980) Directives-response speech sequences in girls’ and boys’ task activities. In: McConnell-Ginet, S, Borker, R & Fruman, N.(Eds.) Women and Language in Literature and Society. New York: Praeger. 
+
+Goorimoorthee, T., Csipo, A., Carleton, S., and Ensslin, A. (2019). Forms of sociophonetic othering in accented character speech. In: Astrid, Ensslin, & Isabel Balteiro. (2019). Approaches to Videogame Discourse : Lexis, Interaction, Textuality. Bloomsbury Academic.
+
+Fiske, S. T., and Stevens, L. E. (1993). What’s so special about sex? Gender stereotyping and discrimination. In: S. Oskamp & M. Costanzo (Eds), Gender Issues in Contemporary Society (pp. 173–196). Newbury Park, CA: Sage.
+
+Glick, P., & Fiske, S. T. (1996). The ambivalent sexism inventory: Differentiating hostile and benevolent sexism. Journal of Personality and Social Psychology, 70, 491–902.
+
+Herbert, R. K. (1990). Sex-based differences in compliment behavior1. Language in society, 19(2), 201-224.
+
+Holmes, J. (1988). Paying compliments: A sex-preferential politeness strategy. Journal of pragmatics, 12(4), 445-465.
+
+Holmes, J. (2008) An introduction to Sociolinguistics (3rd Ed.). 
+
+Holmes, J., and Stubbe, M., (2003) “Feminine” Workplaces: Stereotype and Reality. In: Holmes, J. and Meyerhoff, M. (Eds.) The handbook of language and gender. Blackwell Publishing. 
+
+Ivory, J. (2009) Still a Man's Game: Gender Representation in Online Reviews of Video Games. Mass Communication and Society. 9. 10.1207/s15327825mcs0901_6.
+
+Jansz, J., and Martis, R.G. (2007) The Lara Phenomenon: Powerful Female Characters in Video Games. Sex Roles 56, 141–148. https://doi.org/10.1007/s11199-006-9158-0
+
+Kray, L. J., & Thompson, L. (2005) Gender stereotypes and negotiation performance: An examination of theory and research. In B. M. Staw & R. M. Kramer (Eds.), Research in organizational behavior. Research in organizational behavior: An annual series of analytical essays and critical reviews, Vol. 26 (p. 103–182). Elsevier Science/JAI Press.
+
+MacArthur, H. J., Cundiff, J. L., & Mehl, M. R. (2020). Estimating the prevalence of gender-biased language in undergraduates’ everyday speech. Sex Roles, 82(1), 81-93.
+
+Michelle M. Lazar (2007) Feminist Critical Discourse Analysis: Articulating a Feminist Discourse Praxis, Critical Discourse Studies, 4:2, 141-164, DOI: 10.1080/17405900701464816
+
+Miller, J., & Miller, L. E. (2002) A woman’s guide to successful negotiating: How to convince, collaborate, and create your way to agreement. New York: McGraw-Hill. 
+
+Lakoff, G. (1972) Hedges: A study of meaning criteria and the logic of fuzzy concepts. In P.Peranteau., J. Levi., & G. Phares. (Eds.). Papers from the Eighth Regional Meeting of Chicago Linguistic Society. Chicago: Chicago University Press. 
+
+Lakoff, R. (1973). Language and woman's place. Language in society, 2(1), 45-79.
+
+Lee, A. J., Mason, M. F., & Malcomb, C. S. (2021). Beyond cheap talk accounts: A theory of politeness in negotiations. Research in Organizational Behavior, 41, 100154.
+
+Sarkeesian, A. (2016) All the Slender Ladies: Body Diversity in Video Games, Tropes vs Women in Video Games (video) https://www.youtube.com/watch?v=qbqRtp5ZUGE (accessed 31 May 2021).
+
+Williams, D., Martins, N., Consalvo, M. and Ivory, J. (2009) The virtual census: Representations of gender, race and age in video games. New Media & Society. 11. 815-834. 10.1177/1461444809105354.
+
+Wodak, R. and Meyer, M. (2009) Critical Discourse Analysis: History, Agenda, Theory, and Methodology. In R. Wodak and M. Meyer (Eds.), Methods for Critical Discourse Analysis. London: Sage.
+

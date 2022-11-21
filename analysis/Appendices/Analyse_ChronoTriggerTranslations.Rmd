@@ -1,0 +1,590 @@
+---
+title: "Chrono Trigger Translations"
+header-includes:
+  - \usepackage{xeCJK}
+  - \setCJKmonofont{MS Mincho} 
+  - \setCJKsansfont{MS Gothic} 
+  - \pagestyle{empty}
+  - \pagenumbering{gobble} 
+papersize: a4
+output: 
+  pdf_document:
+    latex_engine: xelatex
+editor_options: 
+  chunk_output_type: console
+urlcolor: blue
+---
+
+```{r eval=F,echo=F,message=F}
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/Appendices/"))
+```
+
+
+# Introduction
+
+This project attempts to quantify the amount of dialogue spoken by characters of different genders in video games. The main analyses are based on English language versions of the games, but several game scripts in the corpus are translations of original Japanese scripts. There is a possibility that the measures of the amount of dialogue might have been different had they been based on the original scripts. While the English translations have been the main experience for a large proportion of players, it is still interesting to ask whether the gender bias is in the original version or has been emerged during translation. In this report, we test this possibility by looking at different translations of *Chrono Trigger*. 
+
+*Chrono Trigger* is an appropriate game for several reasons. The first is that the source transcript for Chrono Trigger in the corpus has three versions that have been parsed to create a parallel corpus. Thes versions include the original Japanese script (1995), the original English translation (1995), and a retranslation created by a fan (completed in 2007). For future work, it also includes an official retranslation, and various translations into other languages.
+
+The ideal game for this test of robustness would allow us to test many different causes of differences between translations. These include: 
+
+-  Problems with translation including fluency or human error.
+-  Wider issues such as the inherent differences between languages, between orthographic systems, or between cultures
+-  Different aims of the developers or marketing campaigns for different audiences
+-  Different censorship norms in different countries. 
+-  Diachronic change, including differences in language norms, cultural norms, and fasion, if the translations are made years apart.
+
+The ideal game would also have a lot of qualitative differences between translations, in order to get a conservative estimate of the robustness.  
+
+*Chrono Trigger* is a good fit for these requirements. Firstly, some fans have noted differences between the translations. Fan retranslations exist for many games for a variety of reasons (Sánchez, 2009), but according to its authors, their aim was to create "a clearer portrayal of Chrono Trigger as intended by its Japanese creators", and "It is not the opinion of this project that Ted Woolsey's official translation was bad or insufficient in any way -- only that some essence of the game was lost or altered, given Nintendo of America's censorship standards and the inability of the game to hold all the original text when translated to English." (https://www.chronocompendium.com/Term/Retranslation.html). The final point relates to text length limits due to the screen resolution (the same message may take up less space in written Japanese than in written English). In general, the retranslation is a more direct translation.
+
+Further qualitative differences have been noted by various previous studies on the translation of *Chrono Trigger*. For example, Antonijevic (2018) suggests that the character of "Frog" (an anthropomorphic frog warrior) is portrayed in the original Japanese text as "a tough stereotypical [Japanese] warrior", but was originally translated to be a "pseudo-Shakespearean speaking knight". The example below demonstrates this, with the retranslation being a more direct translation:
+
+> **Frog**: バ、バカヤロー！ それより、あお白いツラした マントのヤローは、いなかったか！？
+>
+> **Translation**: P, perish the thought, lass! By the way, whither the blue-haired one?
+>
+> **Retranslation**: Wh, why you! More importantly, that pale-faced caped bastard wasn't there!?
+
+The translation changes are due to Western censorship norms (ommitting swearwords), and an attempt to convert the cultural tropes to ones familiar to a Western audience (a "poor attempt to adapt a form of Shakespearean-style of speech", Antonijevic, 2018, p.28).
+
+Various other changes during translation of *Chrono Trigger* are noted by Müller Galhardi (2014), including "dialogue additions and omissions; the re-creation of play on words; the re-naming of characters and terminology; censored items; the deliberate use of regional expressions, and the modification of a character's speech style" (see Mangiron, O'Hagan & Orero, p.15).
+
+Finally, Williams (2014)'s examination of the development of Chrono Trigger includes interviews with the original English translator. These document various complications with the Japanese, including communicating the game world through text.
+
+In short, there is good reason to believe that *Chrono Trigger*'s translations have many qualitative differences. If the measures of dialogue proportions for different genders are robust here, it's likely that they will be robust for many other games.
+
+## Measuring text length
+
+The Texstatistic package provides estimates of text length in English in terms of number of words, number of syllables and number of alphanumeric characters. This was used to calculate measures of length for the original English translation and the fan retranslation:
+
+-  **eng_char**: number of alphanumeric characters (excluding spaces and punctuation).
+-  **eng_syll**: number of syllables.
+-  **eng_word**: number of words.
+
+There are two main challenges to estimating length in the Japanese text. Firstly, the text of *Chrono Trigger* is a mix of Kanji, Hiragana and Katakana characters. These have different relationships with phonetic word length. Secondly, the estimate for English words, which is the main measure used in the main paper, depends heavily on spaces and punctuation in the orthography. The Japanese text typically does not include spaces between orthographic words. 
+
+To address this, we used the *Pykakasi* package (version 2.2.1, [https://pypi.org/project/pykakasi/](https://pypi.org/project/pykakasi/)) to tokenise the string of Japanese text into words. After removing punctuation and spaces from this tokenisation, the number of tokens are counted. This is used as a measure of the number of 'words'. These tokens are then used to calculate various measures of text length:
+
+-  **jap_char**: Number of text characters in the original Japanese game text (mix of writing systems), excluding punctuation and spaces. This does not relate easily to a particular spoken linguistic unit, but is not converted by the *Pykakasi* package, so does not contain any biases from conversion.
+-  **jap_kana**: Original is converted to pure Katakana (a syllabic system). The number of katakana syllabograms is then used as a measure of the number of syllables in the text.  
+-  **jap_romaji**: Original is converted to Romaji (phoneticisation using latin alphabet) based on Kunrei-shiki conventions. This is used as an estimate of the number of phonemes.  Kunrei-shiki is preferred here over Hepburn conventions because it more closely represents one phoneme as one orthographic character (し = 'si' in Kunrei-shiki, but 'shi' in Hepburn).
+-  **jap_word**: The number of romaji tokens identified in the tokenisation step (excluding punctuation and spaces). This is used as a measure of the number of words.
+
+See the script in the corpus repository for more details: `data/ChronoTrigger/ChronoTrigger/compareTranslations.py`. 
+
+As is shown below, all of these measures are highly correlated and all lead to the same conclusion regarding our goal of estimating dialogue length. 
+
+\clearpage
+\newpage
+
+# Estimates of gender bias
+
+We can estimate the proportion of female dialogue according to the three texts: Original Japanese, original English translation, and later retranslation.
+
+Load libraries:
+
+```{r message=F, warning=F}
+library(ggplot2)
+library(GGally)
+library(lmtest)
+library(sjPlot)
+library(ggpubr)
+```
+
+Load the data:
+ 
+```{r}
+# Read the data
+d = read.csv(
+  "../../data/ChronoTrigger/ChronoTrigger/compareTranslations.csv",
+  stringsAsFactors = F,encoding = "UTF-8")
+# Remove non-dialogue data
+d = d[!d$charName %in% c("SYSTEM","ACTION", "LOCATION"),]
+# Remove characters in the 'netural' gender group
+d = d[d$gender %in% c("male","female"),]
+```
+
+Calculate the proportion of dialogue by female characters:
+
+```{r}
+measures = c(
+  "eng_char","eng_syll","eng_word", 
+  "re_char", "re_syll", "re_word",
+  "jap_char","jap_romaji","jap_kana", "jap_word")
+propFemaleDialogue = 
+  sapply(measures,function(X){
+  total=tapply(d[,X],d$gender,sum)
+  prop.table(total)[1]})
+maxDiff = max(abs(
+  outer(propFemaleDialogue,propFemaleDialogue,"-")))
+ests = data.frame(Measure = measures,
+  "PercentFemaleDialogue" = 
+    paste0(round(propFemaleDialogue *100,2),"%"))
+knitr::kable(ests)
+```
+
+The estimates are very close, all within `r round(maxDiff*100,1)` percentage points of each other. This suggests that the estimate of the proportion of dialogue does not differ greatly according to the translation.  
+
+\clearpage
+\newpage
+
+## Correlation between different measures of length
+
+The correlation between the lengths of individual lines was analysed. First, we plot the correlation between English words and Japanese characters. We use a simple linear model to plot a straight line through the data (though this isn't used for inference).
+
+```{r}
+m1 = lm(d$jap_word~d$eng_word)
+plot(d$eng_word,d$jap_word,
+     xlab = "Number of English words",
+     ylab = "Number of Japanese characters")
+abline(m1,col=2)
+```
+
+The relationship seems strong and linear. A simple Pearson correlation is very high:
+
+```{r}
+cor(d$eng_word, d$jap_word)
+```
+
+While this is a suitable measure of association, establishing significance requires meeting some assumptions. The data is essentially discrete (counts of characters/ words / syllables), and has many ties. So we'll use Kendall rank correlation:
+
+```{r}
+cor.test(d$eng_word,d$jap_word, method = "kendall")
+```
+
+The correlation is highly significant.
+
+The plot shows two extreme outliers. These are extended speeches by two characters, explaining lore or game rules. However, the correlation is almost identical without these:
+
+```{r}
+cor.test(d$eng_word[d$eng_word<200],
+         d$jap_word[d$eng_word<200], method = "kendall")
+```
+
+99% of the data has an English word length of `r round(quantile(d$eng_word,c(0.99)))` or less. But the correlation remains very similar when looking at just these:
+
+```{r}
+wordThreshold = quantile(d$eng_word,c(0.99))
+cor.test(d$eng_word[d$eng_word <= wordThreshold],
+         d$jap_word[d$eng_word <= wordThreshold],
+         method = "kendall")
+```
+
+The correlation between the number of Retranslated English words and the number of Japanese characters is higher, which fits with the Retranslation being generally closer in content.
+
+```{r}
+m2 = lm(d$jap_word~d$re_word)
+plot(d$re_word[d$eng_word <= wordThreshold],
+     d$jap_word[d$eng_word <= wordThreshold],
+     xlab = "Number of English words",
+     ylab = "Number of Japanese characters")
+abline(m2,col=2)
+cor.test(d$re_word,d$jap_word, method = "kendall")
+```
+
+\clearpage
+\newpage
+
+Plot correlation between all measures:
+
+```{r message=F,warning=F, fig.height = 7, fig.width = 7.5}
+corK = function(data,mapping,...){ 
+  ggally_cor(data,mapping,method="kendall")
+  }
+ggpairs(d[d$eng_word< wordThreshold,measures],
+        upper = list(continuous = corK),
+        title="Correlation betwen different measures of length") 
+```
+
+The measures are very similar, though the Japanese characters are more highly correlated with the Retranslation measures than the original English measures.
+
+
+
+\clearpage
+\newpage
+
+## Gender bias during translation
+
+Even though the estimates are very similar, the translation may still cause a confound if it is done differently according to gender. For example, if male dialogue is given longer translations than female dialogue. Although this process might be evidence of a gender bias in itself, it would suggest that part of the bias was in translation rather than the original authorial intent.
+
+One way to test this is to build a statistical model that tries to predict the amount of dialouge for a given line in English from two sources of information: the amount of dialogue for a given line in Japanese, and the gender of the speaker of that line. The models below use Poisson regression, to reflect the fact that the data are counts that are highly skewed. 
+
+The first model predicts the number of English words from the number of Japanese characters. Since the data are counts and highly skewed, we should use a Poisson regression:
+
+```{r}
+mI1.poisson = glm(
+  eng_word ~ jap_char, 
+  family = "poisson",
+  data = d[d$eng_word < wordThreshold,])
+summary(mI1.poisson)
+pseudo.R2 = cor(d[d$eng_word < wordThreshold,]$eng_word,
+    predict(mI1.poisson))^2
+pseudo.R2
+```
+
+The second model adds the gender of the character. We use sum coding for the contrasts for the gender variable. The results below suggest that, overall, female characters receive fewer words on average than male characters. This is the general bias we demonstrate in the corpus as a whole.
+
+```{r}
+d$gender = relevel(factor(d$gender), "male")
+contrasts(d$gender) = contr.sum(2)/2
+mI2 = update(mI1.poisson, ~.+gender)
+summary(mI2)
+```
+
+The third model adds an interaction between the number of Japanese characters and gender. This helps test whether there is a bias for the translations of male characters to be different in length compared to translations of female characters.
+
+```{r}
+mI3 = update(mI2, ~.+jap_char:gender)
+summary(mI3)
+```
+
+The third model significantly improves the fit compared to the previous two:
+
+```{r}
+lrtest(mI1.poisson, mI2, mI3)
+```
+
+Plot the estimates:
+
+```{r}
+p1 = plot_model(mI3,'pred')
+p2 = plot_model(mI3,'int') + 
+  theme(legend.position = "top")
+ggarrange(p1[[1]] +ggtitle(element_blank()),
+          p1[[2]]+ggtitle(element_blank()),
+          p2+ggtitle(element_blank()), nrow=1)
+```
+
+
+This suggests that there is a bias in XXX
+
+We can repeat this analysis for predicting the retranslated words. This comes to the same conclusion:
+
+```{r}
+mI1.Re = glm(re_word ~ jap_char, 
+            family= "poisson",
+  data = d[d$eng_word <= wordThreshold,])
+mI2.Re = update(mI1.Re, ~.+gender)
+mI3.Re = update(mI2.Re, ~.+jap_char:gender)
+summary(mI1.Re)
+summary(mI2.Re)
+summary(mI3.Re)
+lrtest(mI1.Re, mI2.Re, mI3.Re)
+p1R = plot_model(mI3.Re,'pred')
+p2R = plot_model(mI3.Re,'int') + 
+  theme(legend.position = "top")
+ggarrange(p1R[[1]] +ggtitle(element_blank()),
+          p1R[[2]]+ggtitle(element_blank()),
+          p2R+ggtitle(element_blank()), nrow=1)
+```
+
+\clearpage
+\newpage
+
+## Translator comments
+
+The retranslator left comments for various lines. These may be indications that there was some issue with the initial English translation. It might be a problem for the study if there were more issues with translation for female characters than for male characters. This might suggest that the female dialogue was being distorted.
+
+Look at the proportion of lines with translator comments by gender:
+
+```{r}
+tProp = prop.table(
+  table(d$re_comment>0,
+        d$gender),margin = 2)
+rownames(tProp) = c("No comment", "Comment")
+round(tProp*100,1)
+chisq.test(table(d$re_comment>0,d$gender))
+```
+
+Male character dialogue have significantly more comments than female character dialogue. 
+
+Below we use a permutation test to see if the *length* of the comments (where there are comments, counted in English words) differs between genders.
+
+```{r}
+perm = function(){
+  diff(tapply(sample(
+    d$re_comment[d$re_comment>0]), 
+    d$gender[d$re_comment>0], mean))
+}
+trueDiff = diff(tapply(
+  d$re_comment[d$re_comment>0], 
+  d$gender[d$re_comment>0], mean))
+n = 1000
+permDiff = replicate(n,perm())
+perm.p = sum(permDiff <= trueDiff)/n
+perm.z = (trueDiff - mean(permDiff))/sd(permDiff)
+```
+
+The comments are not significantly different in length for female and male characters (p = `r round(perm.p,4)`, z = `r round(perm.z,4)`).
+
+In sum, it seems like there are not greater problems in translations for male or female character dialogue.
+
+\clearpage
+\newpage
+
+## Closer analysis of lines
+
+We can use the correlation above to identify lines that differ from the expected lengths. These lines be candidates for helping explain the differences. For the analysis below, this was done with a copy of the data that included the raw dialogue. However, the files provided in the archive do not include the raw dialogue, so the code below is only for illustration.
+
+```{r eval=F}
+# Measure how far each point is from the 
+# value expected by the regression 
+# (the residual)
+d$diff = resid(m1)
+
+# Focus on the shorter lines
+shorts = d[d$eng_word<50,]
+# Look at the largest outliers:
+View(head(shorts[order(shorts$diff),]))
+View(tail(shorts[order(shorts$diff),]))
+```
+
+This helped find specific lines where deviation was observed to be the highest between the Japanese characters and the English text. The text was then analysed from a critical discourse perspective to account for how the dialogue has been modified in translation and whether it suggests any gender bias. Various examples are discussed below. 
+
+### Emotional language
+
+Example 1 is a line of dialogue from Lucca, a female character that joins the player's party. She is reacting to a village that has been devestated.
+
+
+> Example 1
+> --------- 
+> **Lucca**:	なんて事…… この時代まで……。
+>
+> **Translation**: This is so depressing. No era is safe, and there isn't much of a future to look forward to.
+>
+> **Retranslation**: It can't be...... This era too......
+
+
+The line is longer in the English translation compared to the original Japanese. The original script lacks any indications of gender and its shortness conveys the unspeakable horror Lucca is faced with. The English translation has increased Lucca's dialogue, adding emotional descriptions. Compared to the minimal Japanese dialogue which conveyed no emotional attachment and both sentences were elliptical,the English version adds more overt emotionality. This conforms to the belief that women express emotions more than men (Kring & Gordon, 1998; Jansz, 2000; Timmers et al., 2003).
+
+Example 2 comes from Marle, a female princess who joins the player's party. 
+
+> Example 2
+> --------- 
+> **Marle**: こわかった…… いしきがないのに、冷たい所にいるのが わかるの。
+>
+> **Translation**: It was awful... I can't recall it all... I was somewhere cold, dark...and lonely. Is that what it's like to...die?
+>
+>  **Retranslation**: I was scared...... Even though I'm not conscious, knowing I'm in a cold place.....
+
+Something similar occurs in example 2 where Marle’s dialogue is also expanded upon in English, with additional adjectives and a question at the end. The English switches to the third person when describing the trauma behind the experience whereas the Japanese dialogue has Marle admit she was scared, unable to elaborate further on her fear of death.
+
+In example 3, the English translation includes wordplay ("permanent pit stop") and a comment on the character's appearance. This is a more humorous and direct line than the original Japanese, which is closer to the retranslation, which appears more dismissive.
+
+> Example 3
+> --------- 
+>  **Marle**: はやいだけってのもね……。 
+>
+> **Translation**: Someone ought to tell him to take a permanent pit stop. Look at that hair!
+>
+> **Retranslation**: All he is is fast, too......
+
+In example 4, there are two differences. The original Japanese begins with a hesitation or stutter ("そ、そうだよ", retranslated as "That, that's"), while the English translation does not. Secondly, the original Japanese uses the equivalent of "let's" with the present tense (like the Retranslation). In contrast, the original English translation does not include a stutter and is an immediate call to action, with the modal "must" denoting necessity, which is a stronger demand on interlocutor's negative face.
+
+> Example 4
+> --------- 
+>  **Marle**: そ、そうだよ！ 変えちゃおう！　クロノが 私を助けてくれたみたいに！
+>
+> **Translation**: There's only one thing we can do! We must change history! Just like Crono did when he saved me! 
+>
+> **Retranslation**: That, that's it! Let's go ahead and change it! Like when Crono saved me!
+
+These kind of changes may have affected the player's interpretation of the character. Anecdotally, in a Japanese language wiki (written presumably by fans who played in Japanese), she is described as "好奇心旺盛な性格で" (having a curious personality, [see here](https://kamigame.jp/%E3%82%AF%E3%83%AD%E3%83%8E%E3%83%88%E3%83%AA%E3%82%AC%E3%83%BC/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/%E3%83%9E%E3%83%BC%E3%83%AB.html), while in the English language *Fandom* Chrono Trigger wiki, Marle is described as "vivacious, optimistic and strong-willed" (see here: [https://chrono.fandom.com/wiki/Marle](https://chrono.fandom.com/wiki/Marle)). 
+
+Example 5 is a case of the opposite effect of translation. At the end of the game, the developers appear as creatures in the debug room as an Easter egg for players who finished the game. The characters share jokes or information from the game’s development. Fumi Nakashima was a member of the development team and the only member we could identify as female.
+
+> Example 5
+> ---------
+> **Fumi Nakashima**: どもども、中プウだケロ。 ワールドマップのちびキャラいたケロ。 ルッカは本を読んでるケロ。 クロノは急がせてるケロ。わかるケロ？
+>
+> **Translation**: Someone kiss me!
+>
+> **Retranslation**: Thank you, thank you, (?), ribbit. There's chibi characters on the world map, ribbit. Lucca reads a book, ribbit. Crono urges you on, ribbit. Know that, ribbit?
+
+Fumi appears as a frog and, in Japanese, drops a few hints regarding character models and animations, as she was the one who handled character graphics. However, in the original English translation, her dialogue is reduced to "Somebody kiss me!", a reference to the folk tale of a frog turning into a prince with a kiss, and reminiscent of the "smooch of victory" trope which s part of the trope that portrays women as rewards. This omits the reference to her actual work on the game, and brings in a sexual or amorous dimension where there was none in the original.
+
+### Information giving
+
+There are a few cases of minor female NPCs who give more information in the original Japanese than in the translation. In example 6, the appearance of Marle at the Millenial Fair is foreshadowed:
+
+> Example 6
+> ---------
+>  **Young woman**: ねえ、知ってる？　ここガルディア王国が できて、今年で1000年。現ガルディア王 つまり、今の王様だけど33代なのよ。 で、その王様のなやみのタネは 一人娘の王女様。 なんでもすっごい、おてんばなんですって。 たぶん今ごろは、お城のなかで 『あたしも、お祭りいきたーい！』 なんて、おおさわぎしてるんじゃ ないかしらね。
+>
+>  **Translation**:Hard to believe Guardia is now 1000 years old, and our King is the XXXIII descendant to the throne! But how can he rule a kingdom when he can't even control his own daughter?!
+>
+>  **Retranslation**: Hey, did you know? It's 1000 years this year since Guardia Kingdom here was formed. The current King Guardia, our king now in other words, is the 33rd. And the root of that king's worries is the princess, his only daughter. They say she's an incredible tomboy. I wonder if she isn't making a big fuss in the castle about now, something like “I wanna go to the festival too!”",
+
+In the Japanese, Marle is depicted as a source of concern for the King and depicted as an "incredible tomboy". However, this is cut from the original translation. Instead, we get a character who questions the leadership of a man based on his inability to control a woman. 
+
+Examples 7-9 are cases of female characters giving the player more information in the Japanese version than the original English translation:
+
+> Example 7
+> ---------
+> **Woman**: 南の地下水道をぬけた大陸には 行かない方がいいわ。 大災害の源……『死の山』があるから。 もっとも地下水道に巣くっている 強力なミュータントは、さすがに あなた達でも……
+>
+> **Translation**: You can reach the continent to the south through the Sewer Access, but stay off of «Death Peak.
+>
+> **Retranslation**": "You'd better not go to the continent past the underground waterway to the south. The great disaster's source......”Death Mountain” is there. But then, I'm sure even for you guys the powerful mutants lurking in the underground waterway are......"
+
+> Example 8
+> ---------
+> **young woman**: ハイパーほしにく？ ああ、遠い祖先が作ったらしいけど あたいはレシピがわかんないねえ。 今じゃパレポリの名物になってるよ。
+>
+> **Translation**: Jerky? Seems one of his ancestors first made it, but I don't know the recipe.
+>
+> **Retranslation**: Hyper Dried Meat? Oh right, I hear a distant ancestor made it, but I don't know the recipe. It's Parepoley's specialty now.
+
+The English translation in example 9 conveys roughly the same narrative information as the Japanese, though in a shorter space. However, it omits a comment that reveals the young woman's opinion of the events.
+
+> Example 9
+> ---------
+> **young woman**: サイラス様には、グレンという名前の 親友がいたんですって！ そのグレンという人は、サイラス様が 魔王に殺された後、伝説の剣を手に 魔王軍と戦ったそうよ。 男の友情よねェ、うるうる。
+>
+> **Translation**: Cyrus's best friend, Glenn, used a legendary sword to beat the Magus's troops.
+>
+> **Retranslation**: Cyrus-sama had a best friend named Glenn! They say that Glenn took up the legendary sword and fought Magus's army after Cyrus-sama was killed by Magus. That's male camaraderie, how moving.
+
+There are some cases where more information is added during the original translation, increasing the amount of female dialogue. However, this does not necessarily work against gendered tropes. In example 10, the translation adds the line "I forgot" to Lucca's dialogue. This makes her seem more absent-minded, rather than portraying her as suggesting a clever solution.
+
+> Example 10
+> ---------
+> **Lucca**: たーいむ　マシーーン[heart]が あるじゃない！ オーッホッホッホ！
+>
+> **Translation**: I forgot! We have a Time Machine! Nya ha ha!
+>
+> **Retranslation**: We've got a Time Machiiinnne{heart}! Oh ho ho ho!
+
+There are some lines that have been changed due to references to the female body. In example 11, Marle has received a letter that mentions the possibility of having children in the future. Ayla, a woman from prehistory whose speech is rendered as very "primitive", tries to encourage her and give her advice. The original Japanese refers to Marle's breasts, but this is removed in the Original English. The retranslator explains: "It's clear from the concept art that Marle does have breasts, but of a modest size (unlike Ayla and most other anime females), and her clothing is fairly baggy as well. It seems that Ayla is concerned that Marle may have trouble nursing her future kids, and doesn't realize that saying this could be considered embarrasing or insulting."
+
+> Example 11
+> ---------
+>**Ayla**: すだつ！　ねねする！ 子供うむ！　おっぱいやる！ そしてまた　子がすだつ！オマエ　だいじょぶか？ おっぱいないな……。
+>
+> **Translation**: Leave nest! Have baby! Baby grow big! Leave nest too! Sure you ready leave nest? Not too big yet.
+>
+> **Retranslation**: Leave nest! Sleep! Bear kids! Give boobs! And then kids leave nest again! You be okay? Not have boobs......"
+
+### Sexuality
+
+Although not directly related to gender bias, we note that there are a few cases where references to a character's sexuality have been changed in the original English translation. In example 12 and 13, the suggestion that Ayla and Lucca might be sexually attracted to women is ommitted in the translation. Just before example 12, Alya has just said that she "likes" Crono, which was interpreted by Marle and Lucca as saying that she is attracted to Chrono. When Alya says that she likes men and women, Lucca denies that she feels the same way, with the implication that Lucca has interpreted Alya as being bisexual. 
+
+> Example 12
+> ----------
+> Ayla: お前達も　強い。 エイラ　強い者　好き。 男でも　女でも。
+> 
+> Marle: な～んだ、そういう事か。
+>
+> Lucca: わ、私は、そのケはないわよ！
+> 
+> **Translation**:
+>
+> Ayla: You strong too. Ayla respect strong people. Men and women.
+>
+> Marle: Oh, brother...
+>
+> Lucca: Where have they been keeping her?
+>
+> **Retranslation**:
+>
+> Ayla: Yous strong too. Ayla like strong people. Even if man, even if woman.
+>
+> Marle: What's THAT supposed to mean?
+>
+> Lucca: I, I'm not interested in that sort of thing!
+
+In example 13, Lucca and Marle are reviewing characters they met during the game (a rare case of females objectifing male characters). Lucca once again denies that she is sexually attracted to women.  
+
+> Example 13
+> ----------
+> Marl: 「へへっ、カッコいいのをそろえたわ！
+> 
+> Lucca: 「さすがね。私もうドキドキしちゃう！
+>
+> Marl: 「彼だけには、どっかんピストル使わな かったでしょ。 彼の名前はピーター。でも女なの。
+>
+> Lucca: 「ぐらっ！ 私、その気はないわよ！！
+>
+> **Translation**:
+>
+> Marl: Goodness! VERY nice scenery!
+>
+> Lucca: But of course, my dear!
+>
+> Marl: I guess you never took a shot at him, right? Say, didn't he just wink at you?
+>
+> Lucca: RELAX, Marle!!
+>
+> **Retranslation**:
+>
+> Marl: Heh, heh, he's got his coolness all in order!
+>
+> Lucca: Fitting for a soldier. My heart's already racing!
+>
+> Marl: He's the only one you didn't use your blast pistol on, right? His name's Peter. But he's a woman.
+>
+> Lucca: Ghrah! I'm NOT into girls!!
+
+Player interpretations may vary, but the emphasis on "NOT" suggests that Lucca is annoyed that she is having to repeat this again. This is omitted in the original English translation. Also ommitted is Marl's suggestion that Peter is a woman, directly changing the player's interpretation of that character's gender.
+
+In example 14, in Japanese, Lucca speculates that another character is a gay man. This is changed in the original English translation to a comment that does not refer to sexuality.
+
+> Example 14
+> ----------
+> Marle: トマちゃん。あたいのお気に入り！
+>
+> Lucca: 「ただの酒のみよ。
+>
+> Marle: 「それに、女好きだったりして。
+>
+> Lucca: 「ひょっとしたら男好きだったりして！
+>
+> **Translation**:
+>
+> Marle: Hi, Toma! Now HE'S definitely my type!
+>
+> Lucca: Aw, he's just a flake.
+>
+> Marle: Probably has a dozen girlfriends.
+>
+> Lucca: Actually, I see him as more of an intellectual!
+>
+> **Retranslation**:
+>
+> Marle: Toma-chan. My fave!
+>
+> Lucca: He's just another heavy drinker.
+>
+> Marle: Besides, what if he's a woman-chaser?
+>
+> Lucca: What if maybe he's a man-chaser!
+
+The examples above related to sexuality show differences between the original Japanese and the original English translations. However, both versions have weaknesses: the English translation erases mention of same-sex attraction/bisexuality/homosexuality, whereas the re-translation acknowledges the possibility but doesn't do so particularly positively (it portrays non-straight sexuality as undesirable, and naming someone as gay is used for humor).
+
+
+# Conclusion
+
+This report showed that the measures of dialogue length were highly similar between original, translation and retranslation texts. We showed some individual examples of translations that changed the representation of female characters compared to the original, including where gender tropes were reinforced. However, despite these differences, the main measure of dialogue length differed very little between the original Japanese and either of the Engilsh translations. For example, all of the estimates of the percentage of female vs. male dialogue were all within 1 percentage point of each other. This suggests that issues of translation are unlikely to affect the main quantitative results related to gender bias in the corpus as a whole. 
+
+
+# References
+
+Antonijevic, F. (2018). Translation of time: A translation analysis of Chrono Trigger. Student essay. Göteborgs Universitet. https://gupea.ub.gu.se/handle/2077/57305
+
+Kring, A. M.; Gordon, A. H. (1998). "Sex differences in emotion: expression, experience, and physiology". Journal of Personality and Social Psychology. 74 (3): 686–703.
+
+Jansz, J (2000). "Masculine identity and restrictive emotionality". Gender and Emotion. Gender and Emotion: Social Psychological Perspectives. pp. 166–186.
+
+Mangiron, C., O'Hagan, M., & Orero, P. (2014). Fun for all: translation and accessibility practices in video games. Bern: Peter Lang.
+
+Müller Galhardi, R. (2014). Video game and Fan translation: A case study of Chrono Trigger. Fun for All: Translation and Accessibility Practices in Video Games, 175-195.
+
+Sánchez, P. M. (2009). Video game localisation for fans by fans: The case of romhacking. The Journal of Internationalization and Localization, 1(1), 168-185.
+
+Timmers, M., Fischer, A. H., & Manstead, A. S. R. (2003). Ability versus vulnerability: Beliefs about men's and women's emotional behavior. Cognition and Emotion, 17, 41–63.
+
+Williams, M. P. (2014) Chrono Trigger. Boss Fight Books.
+
+
+

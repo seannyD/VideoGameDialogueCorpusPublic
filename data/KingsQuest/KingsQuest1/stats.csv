@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingsQuest/KingsQuest1/,False,King's Quest I: Quest for the Crown,King's Quest,TOTAL,103,1396,276,1656,0.3803164320418606,101.34471242888584,6.387081666043768,12
+../data/KingsQuest/KingsQuest1/,False,King's Quest I: Quest for the Crown,King's Quest,male,90,1236,250,1449,0.17165514563106932,102.63771378640779,6.436738581229773,9
+../data/KingsQuest/KingsQuest1/,False,King's Quest I: Quest for the Crown,King's Quest,female,12,156,24,203,2.300128205128207,90.14903846153848,6.084476923076923,2
+../data/KingsQuest/KingsQuest1/,False,King's Quest I: Quest for the Crown,King's Quest,neutral,1,4,1,4,-2.2299999999999986,118.17500000000001,0.1984,1

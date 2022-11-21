@@ -1,0 +1,3604 @@
+{
+	"game": "Persona 5",
+	"series": "Persona",
+	"year": 2016,
+	"source": "https://lparchive.org/Persona-5/",
+	"sourceFeatures":{
+		"type": "fan transcript",
+		"completeness": "sample",
+		"dialogueOrder": true,
+		"choices": "partial"
+	},
+    "error checks": {
+        "truePositive_numTestsDone": "5",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "1",
+        "truePositive_notes": "The source only provides a sample, first because some of the dialogue is in untranscribed images, but also because it only shows one path through each dialogue tree.",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "N/A"
+    },
+	"parserParameters": {
+		"parser": "Persona5BParser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Joker", "Morgana", "Ryuji Sakamoto", "Ann Takamaki", "Yusuke Kitagawa", "Makoto Niijima", "Futaba Sakura", "Haru Okumura"],
+	"characterGroups": {
+		"male": [
+			"Joker",
+			"Ryuji Sakamoto",
+			"Yusuke Kitagawa",
+			"Goro Akechi",
+			"Igor",
+			"Morgana",
+			"Sojiro Sakura",
+			"Munehisa Iwai",
+			"Shinya Oda",
+			"Yuuki Mishima",
+			"Shadow Yuuki Mishima",
+			"Toranosuke Yoshida",
+			"Hiruta",
+			"Inui",
+			"Ushimaru",
+			"Suguru Kamoshida",
+			"Shadow Suguru Kamoshida",
+			"Ichiryusai Madarame",
+			"Shadow Ichiryusai Madarame",
+			"Junya Kaneshiro",
+			"Kunikazu Okumura",
+			"Shadow Kunikazu Okumura",
+			"Masayoshi Shido",
+			"Shadow Masayoshi Shido",
+			"Yaldabaoth",
+			"SIU Director",
+			"Natsuhiko Nakanohara",
+			"Shadow Natsuhiko Nakanohara",
+			"Sugimura",
+			"President Tanaka",
+			"Arsene",
+			"Armored Soldier",
+
+			"Busy Young Man",
+			"Drunk Man",
+			"Flashy Man",
+			"Homeless Man",
+			"Transient Man",
+			"Man 2",
+			"Plump Man",
+			"Man 5",
+			"Young Male Customer",
+			"Man 7",
+			"Man 8",
+			"Man 9",
+			"Over-Friendly Guy",
+			"Menacing Man",
+			"Miwa-Chan's Physician",
+			"Neighborhood Man",
+			"Elderly Male Customer",
+			"Dazed Old Man",
+			"Talkative Old Man",
+			"Sad Old Man",
+			"Old Shadow Prisoner",
+			"Old Man 3",
+			"Old Man 4",
+			"Old Man talking to Rocker",
+			"Pierced Man",
+			"Pretentious Man",
+			"Rural Young Man",
+			"Wealthy Looking Man",
+			"Wealthy Man",
+			"Young Man",
+			"Boy 1",
+			"Boy 10",
+			"Boy 11",
+			"Boy 12",
+			"Boy 13",
+			"Stylish Male Student",
+			"Boy 2",
+			"Boy 3",
+			"Boy 4",
+			"Quiet Student",
+			"Scary-looking Student",
+			"Cowardly Student",
+			"Boy 5",
+			"Boy 6",
+			"Boy 7",
+			"Boy 9",
+			"Defiant Boy",
+			"Quiet Boy",
+			"Reserved Boy",
+			"ATM",
+			"Accomplice",
+			"Accomplice 2",
+			"Agent",
+			"Agent 2",
+			"Agent 3",
+			"Akiyama",
+			"Anchor 1",
+			"Anchor 2",
+			"Slouching Office Worker",
+			"Exhausted Office Worker",
+			"Anime Cop",
+			"Anime Cop 2",
+			"Archangel",
+			"Art Patron",
+			"Asakura",
+			"Asmodeus",
+			"Protesting Man",
+			"Clear-Eyed Man",
+			"Shadow Junya Kaneshiro",
+			"Shadow Yuichi Fukurai",
+			"Bar Promoter",
+			"Beefy Trendsetter",
+			"Scruffy Romantic",
+			"Benzo",
+			"Taxi Driver",
+			"Bodyguard",
+			"Convenience Store Manager",
+			"Bossy AD",
+			"Broadcaster",
+			"Brother",
+			"Cameraman",
+			"Cameraman 2",
+			"Cameraman 3",
+			"Casino Shadow",
+			"Casino Shadow 2",
+			"Chairman Fukurai",
+			"Cheerful Host",
+			"Chief",
+			"Chief Detective",
+			"Cleaner",
+			"ClerkBot",
+			"ChiefBot",
+			"Partying College Student",
+			"College Student 2",
+			"Timid Cop",
+			"Patrolling Officer",
+			"Patrolling Officer 2",
+			"Counselor",
+			"Crying Grade Schooler",
+			"Curious Child",
+			"Customs",
+			"Daisoujou",
+			"Shadow Takanashi",
+			"Deliveryman",
+			"Detective",
+			"Older Detective",
+			"Hard-Boiled Detective",
+			"Detective 5",
+			"Dionysus",
+			"Doctor",
+			"Drunk Regular",
+			"Shogi Magazine Editor",
+			"Calm Employee",
+			"Exhibit Staff",
+			"FianceBot",
+			"Fishy Hawker",
+			"Foreign Barker",
+			"Former noble",
+			"Friendly Promoter",
+			"Futsunushi",
+			"Fuu ki",
+			"Upset Gamer",
+			"Nishiyama",
+			"Girimehkala",
+			"Goemon",
+			"Rebellious Grade Schooler",
+			"Innocent Grade Schooler",
+			"Interrogation Room Guard",
+			"Guide",
+			"Haughty Regular",
+			"Hecatoncheires",
+			"Hell Biker",
+			"Shadow Honyo",
+			"Iida",
+			"Ikeda",
+			"Ikesugi",
+			"Incubus",
+			"Injured Student",
+			"Tired Investigator",
+			"Investigator 2",
+			"Ippon Datara",
+			"Irritated Promoter",
+			"Jack Frost",
+			"Jikokuten",
+			"Shadow Jochi",
+			"Junior Detective",
+			"Kaoru",
+			"Captain Kidd",
+			"Kin ki",
+			"Shadow Kiritani",
+			"Shadow Kishi",
+			"Shinsuke Kishi",
+			"Kushi Mitama",
+			"Legislator",
+			"Psychiatrist",
+			"Light hearted Promoter",
+			"Lighthearted Scout",
+			"Menacing Man",
+			"Shadow Makigami",
+			"Manager",
+			"Shadow Asakura",
+			"Masa",
+			"Matador",
+			"Matsushita",
+			"Melchizedek",
+			"Mementos Warden",
+			"Michael",
+			"Kotaro",
+			"Mokoi",
+			"Moloch",
+			"Shadow Mr Magario",
+			"Takase's Male Relative",
+			"Shadow Naguri",
+			"Nakaoka",
+			"Nebiros",
+			"Shadow Nejima",
+			"Neko Shogun",
+			"Skinny Man",
+			"Nice Detective",
+			"Shadow Odo",
+			"Okuninushi",
+			"Older Employee",
+			"Ooe",
+			"Orobas",
+			"Overbearing Detective",
+			"Shadow Oyamada",
+			"Paramedic",
+			"Pazuzu",
+			"Personal Trainer",
+			"Photoshoot Assistant",
+			"Shadow Tsuboi",
+			"Priest",
+			"Principal",
+			"Principality",
+			"Private Doctor",
+			"Pyramid Shadow",
+			"Raphael",
+			"Researcher",
+			"Rocker",
+			"Shadow Sakoda",
+			"Sandalphon",
+			"Secretary",
+			"Seth",
+			"Shadow Mr Takase",
+			"ShadowTsuda",
+			"Shop Manager",
+			"Shopper",
+			"Thin-Browed High Schooler",
+			"Siegfried",
+			"Slave",
+			"Souse",
+			"Sports Fan",
+			"Stern Detective",
+			"Vulgar Detective",
+			"Second-Hand Shop Owner",
+			"Street Accessory Seller",
+			"Subordinate",
+			"Sui ki",
+			"Takakura",
+			"Take Minakata",
+			"Takeishi",
+			"Takekuma",
+			"Taxi Driver 1",
+			"Teacher",
+			"Teacher 1",
+			"Teacher 2",
+			"Man in a Suit",
+			"Short-Haired High Schooler",
+			"Third Guy",
+			"Thor",
+			"Fellow Teacher",
+			"Tohru",
+			"Tsuda",
+			"Tsukasa",
+			"Shadow Uchimura",
+			"Futaba's Uncle",
+			"Unfriendly Promoter",
+			"Uriel",
+			"Vice Principal",
+			"Shadow Wakasa",
+			"WorkerBot",
+			"Yamauchi",
+			"Yasuo Jochi",
+			"Yokoda",
+			"Yoshitsune",
+			"Young Cameraman",
+			"Young Homeless",
+			"Yuuta",
+			"Zaou Gongen",
+			"Zouchouten",
+			"Trainer",
+			"Demon",
+			"Detective 2",
+			"Glasses-wearing worker",
+			"Middle Aged Office Worker",
+			"Elderly Office Worker",
+			"Office Worker in Cafe Leblanc",
+			"Hard-Faced Man",
+			"Middle-Aged Legislator",
+			"Tired Office Worker",
+			"Serious Man",
+			"Passerby Office Worker",
+			"Grim-Faced Man",
+			"Police Director",
+			"Man in a Business Suit",
+			"Suspicious Salesman",
+			"Young Office Worker",
+			"Earnest Office Worker",
+			"Timid Man",
+			"Miserable Office Worker",
+			"Red-Faced Man (Nagai)",
+			"Fast-Talking Man",
+			"Loud Spectator",
+			"Young Man's Voice",
+			"Akitsu",
+			"Talent Scout",
+			"Younger Employee",
+			"Male Passerby",
+			"Sullen Office Worker",
+			"Bespectacled Office Worker",
+			"Shiro Asakura",
+			"Office Worker",
+			"Earnest Office Worker",
+			"Diligent Office Worker",
+			"Assemblyman",
+			"Veteran Pick-Up Artist",
+			"Tall Man",
+			"Persistent Male Fan",
+			"Covetous Man",
+			"Arcade Spectator",
+			"Guy talking to Fishy Hawker",
+			"Agency Employee",
+			"Male Pedestrian",
+			"Novice Pick-Up Artist",
+			"Flustered Gamer",
+			"Mild-Mannered Investigator",
+			"Male Volleyball Player",
+			"Male Student",
+			"Fiery Soccer Player",
+			"Light-Hearted Student",
+			"Dull Male Student",
+			"Excited Male Student",
+			"Stylish Male Student",
+			"Yoshimora Sakoda",
+			"Panicked Male Student",
+			"Starry-Eyed Student",
+			"Student Council Member",
+			"Bored Male Student",
+			"Studious Male Student",
+			"Volleyball Player",
+			"Fair-faced Male Student",
+			"Daisuke Takanashi",
+			"Calm Basketball Player",
+			"Friend of Studious Male Student",
+			"Friend of Tired Student",
+			"Energetic-Looking Guy",
+			"Suave Male Student",
+			"Wise Guy Student",
+			"Student Athlete 2",
+			"Student Athlete in a Jersey",
+			"Dissatisfied First-Year",
+			"Friend of Food-Loving Student",
+			"Glib Male Student",
+			"Daisuke's Friend",
+			"Third-year Guy",
+			"Scared Student",
+			"Flippant Student",
+			"Post-Festival MC",
+			"Male Council Member",
+			"Bespectacled Council Member",
+			"Girl s Father",
+			"Concerned Student",
+			"Causally-dressed Student",
+			"Victoria's Housekeeping",
+			"Shadow",
+			"Security Guard Shadow",
+			"Security Guard Shadow (Red)",
+			"Shadow 2",
+			"Shadow 3",
+			"Security Guard",
+			"Security Guard Shadow (Oni)",
+			"Aggressive Shadow",
+			"Cautious Shadow",
+			"Security Shadow",
+			"Male Student's Voice",
+			"Pale Young Man",
+			"Boy on Game Show",
+			"Adult Male Voice (Futaba's Palace)",
+			"Prime Minister",
+			"Businessman",
+			"Young Man",
+			"Calm Journalist",
+			"Angry Businessman",
+			"Dissaffected Youth",
+			"Casino Security Guard",
+			"Middle-aged Man in a Suit",
+			"Older Man in a Suit",
+			"Trendy Boyfriend",
+			"DTD Co-host",
+			"Drained Businessman",
+			"Befuddled Man",
+			"Stern Businessman",
+			"Exhausted Young Man",
+			"Dull-Eyed Young Man",
+			"Resigned Middle-Aged Man",
+			"Cynical Middle-Aged Man",
+			"Vacant Young Man",
+			"Resigned Young Man",
+			"Calm Young Man",
+			"Tired Businessman",
+			"Timid Young Man",
+			"Fishing Pond Attendant",
+			"IT Company President",
+			"TV Station President",
+			"DTD Reporter",
+			"Alibaba",
+			"Tabloid Show Host",
+			"Newscaster",
+			"Male Host",
+			"Pro Shogi Player",
+			"Sharp Detective",
+			"Pundit",
+			"TV Reporter",
+			"Sharp Lawyer",
+			"Serious-looking Lawyer",
+			"Captain",
+			"Cop",
+			"Unfriendly Officer",
+			"Aggressive Officer",
+			"Arrogant Officer",
+			"Burly Officer",
+			"Policeman",
+			"Officer on Patrol",
+			"Frowning Officer",
+			"Young Officer",
+			"Foreign Tourist",
+			"Easygoing Man",
+			"Shrimp Stand Owner",
+			"Holy Grail",
+			"Igor",
+			"Yaldabaoth",
+            "Excited Student",
+            "Coward voice",
+            "Deep voice",
+            "Fussy Man",
+            "Film Protagonist Voice",
+            "Gangster voice",
+            "Ninja voice",
+            "Man who cannot sing or act voice",
+            "Other man’s voice"
+		],
+
+		"female": [
+			"Ann Takamaki",
+			"Makoto Niijima",
+			"Futaba Sakura",
+			"Shadow Futaba Sakura",
+			"Haru Okumura",
+			"Sadayo Kawakami",
+			"Ichiko Ohya",
+			"Tae Takemi",
+			"Chihaya Mifune",
+			"Caroline",
+			"Justine",
+			"Hifumi Togo",
+			"Sae Niijima",
+			"Shadow Sae Niijima",
+			"Chouno",
+			"Usami",
+			"Shiho Suzui",
+			"Wakaba Isshiki",
+			"Mika",
+			"Female Newscaster",
+
+			"Adorable Woman",
+			"Almond eyed Woman",
+			"Cheerful Woman",
+			"Gaudy Woman",
+			"Hawaii Woman 1",
+			"Hawaii Woman 2",
+			"Elderly Female Customer",
+			"Kind Old Woman",
+			"PR Woman",
+			"Shoe Woman",
+			"Uptight Woman",
+			"Woman",
+			"Woman 1",
+			"Woman 10",
+			"Woman 2",
+			"Elegant Woman",
+			"Woman 4",
+			"Waitress",
+			"Woman 5",
+			"Kind Mother",
+			"Young Female Customer",
+			"Middle-Aged Woman",
+			"Arrogant Housewife",
+			"Modest Housewife",
+			"Office Lady",
+			"Dog loving Girl",
+			"Girl 1",
+			"Girl 2",
+			"Girl 3",
+			"Awful friend of Melancholic student",
+			"Female Volleyball Player",
+			"Girl 4",
+			"Girl 6",
+			"Girl With Watering Can",
+			"Innocent Girl",
+			"Sick Girl",
+			"Schoolgirl",
+			"Alice",
+			"Ame no Uzume",
+			"Female Employee",
+			"Lady in a Pink Yukata",
+			"Troubled Woman",
+			"Sister",
+			"Carmen",
+			"Clara",
+			"Clotho",
+			"Cute Announcer",
+			"Cybele",
+			"Eiko Takao",
+			"Fangirl",
+			"Hanasaki",
+			"Gabriel",
+			"Gaudy Female Student",
+			"Hariti",
+			"Tall Student",
+			"Hawaii Student 2",
+			"Succubus",
+			"Johanna",
+			"Juice Lady",
+			"Kikuri Hime",
+			"Kushinada",
+			"Lachesis",
+			"Lala Escargot",
+			"Student Librarian",
+			"Lilim",
+			"Beautiful Maid",
+			"Milady",
+			"Shadow Mogami",
+			"Mother",
+			"Shadow Mrs Magario",
+			"Takase's Female Relative",
+			"Nanami",
+			"Newspaper Club Member",
+			"Unfamiliar Woman's Voice",
+			"Pixie",
+			"Woman Pushing Promotion",
+			"Aggressive Reporter",
+			"Scathach",
+			"Shadow Mrs Takase",
+			"Shadow Shimizu",
+			"Creepy Female Student",
+			"Student Maid",
+			"Lady in a Black Yukata",
+			"Collaborator 1",
+			"Collaborator 2",
+			"Talkative Office Worker",
+			"Aging Businesswoman",
+			"Nav",
+			"Gaudy Customer",
+			"Shopping Enthusiast",
+			"Female Host",
+			"Interviewer",
+			"Female Shadow Prisoner",
+			"Doubting Businesswoman",
+			"Struggling Woman",
+			"Lazy Woman",
+			"Young-Looking Woman",
+			"Dream-Chasing Woman",
+			"Fiancee of Busy Young Man",
+			"Black-Haired Student",
+			"Calm Student",
+			"Timid Female Student",
+			"Prim Female Student",
+			"Female Student",
+			"Surprised Female Student",
+			"Loud Student",
+			"Anxious Student",
+			"Scared Female Student",
+			"Hungry Student",
+			"Shrewd Girl",
+			"Easygoing Shujin Girl",
+			"Gossiping Female Student",
+			"Carefree Female Student",
+			"Motivated First-Year",
+			"Energetic First-Year",
+			"Energetic Student",
+			"Friendly Female Student",
+			"Piggybacking Girl",
+			"Well-behaved Female Student",
+			"Brown-haired Student",
+			"Melancholic Female Student",
+			"First-Year Volleyball Player",
+			"Mature-Looking Girl",
+			"Gentle Girl",
+			"Friend of Scared Student",
+			"Thieves-loving Student",
+			"Obsessive Female Student",
+			"Sharp Student",
+			"Bandwagoning Student",
+			"Chatty Female Student",
+			"Nervous Girl",
+			"Worried Volleyball Player",
+			"Ill-looking Girl",
+			"Long-haired Student",
+			"Female Student in a Jersey",
+			"Hesitant Female Student",
+			"Mature-Looking Girl",
+			"Fast-talking Student",
+			"Discerning Student",
+			"Third-Year Girl",
+			"Procrastinating Girl",
+			"Concerned Girl",
+			"Calm Girl",
+			"Slightly Excited Girl",
+			"Short-Haired Student",
+			"Female Council Member",
+			"Woman in tartan miniskirt",
+			"Lavenza",
+			"Laid-Back Woman",
+			"Female Student's Voice",
+			"Female Student's Voice 2",
+			"Dolled-up Office Worker",
+			"Heavily Made-up Woman",
+			"Loud Lady",
+			"Knowledgeable Office Worker",
+			"Talkative Woman",
+			"Skeptical Woman",
+			"Futaba's Mother",
+			"Gossipy Woman",
+			"Observant Woman",
+			"Inquisitive Girl",
+			"Foodie Girl",
+			"Young Woman",
+			"Flight Attendant",
+			"Uninformed Girlfriend",
+			"Dull-Eyed Student",
+			"Wry-smiling Woman",
+			"Smirking Woman",
+			"Unfriendly Woman",
+			"Tired Middle-Aged Woman",
+			"Reliable Woman",
+			"Fancy Girl",
+			"Female Assistant",
+			"IkesugiFriend",
+			"Train Intercom",
+			"Festival Announcement",
+			"School Intercom",
+            "Woman 7"
+		],
+
+		"neutral": [
+			"Agathion",
+			"Alligater",
+			"Ananta",
+			"Surprised Office Worker",
+			"New Recruit",
+			"Elite Office Worker",
+			"Artie Lury",
+			"Bicorn",
+			"Bugs",
+			"Byakko",
+			"Cat",
+			"Chatter",
+			"Whisper",
+			"Flauros",
+			"Genbu",
+			"Horus",
+			"Jatayu",
+			"Kodama",
+			"Mementos Shadow",
+			"Mot",
+			"Murmur",
+			"Necronomicon",
+			"Nue",
+			"Port Shadow",
+			"Pyramid Shadow 2",
+			"Shiisaa",
+			"Suzaku",
+			"Unicorn",
+			"Yatagarasu",
+			"Commentator",
+			"System Voice",
+			"Naive Office Worker",
+			"Office Subordinate",
+			"Octavius",
+			"Shogi Magazine Journalist",
+			"Mellow Student",
+			"Saki Mitama",
+			"Caring Young Friend",
+			"Lawyer on Game Show",
+			"Fortune-telling Aficianado",
+			"Employee",
+			"Treasure Demon",
+			"TV Interviewer",
+			"Businessman's Boss",
+			"Angry Parent",
+			"Arrogant Youth",
+			"Advisor",
+			"Ring Announcer",
+			"Flashy College Student",
+			"Stylish College Student",
+			"Game Shop Employee",
+			"Bright Student",
+			"Soft-spoken Student",
+			"Handsome Professor",
+			"Exhausted Professor",
+			"Brown-haired Youth",
+			"Black-haired Youth",
+			"Hopeless Student",
+			"Rental Shop Employee",
+			"Broke-ass College Student",
+			"Energetic College Student",
+			"Robot Clerks",
+			"Subordinate 1",
+			"Subordinate 2",
+			"Narrator",
+			"Train Monitor",
+			"Game Show Host",
+			"Play-by-play Announcer",
+			"Boom Box",
+			"Train Announcement",
+			"Speakers",
+			"Robotic Voice",
+			"Mechanical Voice",
+			"Commercial",
+			"Loudspeaker",
+            "Admin",
+            "Anon",
+            "Convenience Store Employee"
+		]
+	},
+	"aliases": {
+		"Protag": "Joker",
+		"Protagonist": "Joker",
+		"Protagonist voice": "Joker",
+		
+		"Queen": "Makoto Niijima",
+		"Skull": "Ryuji Sakamoto",
+		"Ryuji": "Ryuji Sakamoto",
+		"RYUJI": "Ryuji Sakamoto",
+		"Panther": "Ann Takamaki",
+		"Mona": "Morgana",
+		"Fox": "Yusuke Kitagawa",
+		"Yusuke": "Yusuke Kitagawa",
+		"Navi": "Futaba Sakura",
+		"Noir": "Haru Okumura",
+		"Oracle": "Futaba Sakura",
+
+		"Tora": "Toranosuke Yoshida",
+		"MAKOTO": "Makoto Niijima",
+		"ToraChat": "Toranosuke Yoshida",
+		"ToraNoSash": "Toranosuke Yoshida",
+		"ArseneHidden": "Arsene",
+		"Livingston": "Slouching Office Worker",
+		"Root": "Exhausted Office Worker",
+		"Back of Woman s Head": "Gaudy Customer",
+		"Ryan": "New Recruit",
+		"Andy": "Elite Office Worker",
+		"Anne Takamaki": "Ann Takamaki",
+		"BBB Employee": "Female Employee",
+		"BDL": "Protesting Man",
+		"Protestor": "Clear-Eyed Man",
+		"Bael": "Shadow Junya Kaneshiro",
+		"Shadow Mishima": "Shadow Yuuki Mishima",
+		"Pink Yukata": "Lady in a Pink Yukata",
+		"Hifumi": "Hifumi Togo",
+		"Baphomet": "Shadow Yuichi Fukurai",
+		"Fukurai": "Shadow Yuichi Fukurai",
+		"Beauty Thief": "Haru Okumura",
+		"Becky": "Sadayo Kawakami",
+		"BeckyHidden": "Sadayo Kawakami",
+		"Bickle": "Taxi Driver",
+		"Boss": "Convenience Store Manager",
+		"CarmenHidden": "Carmen",
+		"Chief 2": "Chief",
+		"College Student 1": "Partying College Student",
+		"Cop 2": "Timid Cop",
+		"Cop 3": "Patrolling Officer",
+		"Daisuke": "Shadow Takanashi",
+		"Detective 3": "Older Detective",
+		"Detective 4": "Hard-Boiled Detective",
+		"Editor": "Shogi Magazine Editor",
+		"Flower Shop": "Hanasaki",
+		"Man Trying To Look Cool": "Over-Friendly Guy",
+		"Middle aged Man": "Miwa-Chan's Physician",
+		"Gamer": "Upset Gamer",
+		"Generic": "Nishiyama",
+		"Grade Schooler 1": "Rebellious Grade Schooler",
+		"Grade Schooler 2": "Innocent Grade Schooler",
+		"Guard": "Interrogation Room Guard",
+		"capture 003 25042017 150410": "Armored Soldier",
+		"Hacker": "ACTION",
+		"Haughty": "Haughty Regular",
+		"Hawaii Student 1": "Tall Student",
+		"Honjo": "Shadow Honyo",
+		"Investigator": "Tired Investigator",
+		"Jochi": "Shadow Jochi",
+		"JohannaHidden": "Johanna",
+		"Jotaro": "ACTION",
+		"Katsura Hashino": "ACTION",
+		"Kidd": "Captain Kidd",
+		"Kiritani": "Shadow Kiritani",
+		"Woman 6": "Middle-Aged Woman",
+		"Man 3": "Plump Man",
+		"Kishi": "Shadow Kishi",
+		"Kishi 2": "Shinsuke Kishi",
+		"Kumbhanda": "Shadow Kishi",
+		"LHidden": "Lavenza",
+		"LavenzaHidden": "Lavenza",
+		"Leviathan": "Shadow Sae Niijima",
+		"Library": "Student Librarian",
+		"Maaku": "ACTION",
+		"Mafia": "Menacing Man",
+		"Maid": "Beautiful Maid",
+		"Makigami": "Shadow Makigami",
+		"Mara": "Shadow Asakura",
+		"Missile": "Kotaro",
+		"Mogami": "Shadow Mogami",
+		"MrMagario": "Shadow Mr Magario",
+		"MrsMagario": "Shadow Mrs Magario",
+		"MrTakase": "Takase's Male Relative",
+		"MrsTakase": "Takase's Female Relative",
+		"Naguri": "Shadow Naguri",
+		"NecronomiconHidden": "Necronomicon",
+		"Nejima": "Shadow Nejima",
+		"Nerd": "Skinny Man",
+		"Newspaper": "Newspaper Club Member",
+		"NishimaSummer": "Yuuki Mishima",
+		"Obariyon": "Shadow Natsuhiko Nakanohara",
+		"Odo": "Shadow Odo",
+		"Ose": "Shadow Nejima",
+		"Oyamada": "Shadow Oyamada",
+		"Painter": "Shadow Ichiryusai Madarame",
+		"Phone 2": "Unfamiliar Woman's Voice",
+		"Pisaca": "Shadow Tsuboi",
+		"Tsuboi": "Shadow Tsuboi",
+		"Promoter": "Woman Pushing Promotion",
+		"Reporter": "Aggressive Reporter",
+		"S": "Masayoshi Shido",
+		"SHurt": "Masayoshi Shido",
+		"Sakoda": "Shadow Sakoda",
+		"ShadowTakase1": "Shadow Mr Takase",
+		"ShadowTakase2": "Shadow Mrs Takase",
+		"Shimizu": "Shadow Shimizu",
+		"Thin Brow": "Thin-Browed High Schooler",
+		"Short Hair": "Short-Haired High Schooler",
+		"Sonic": "ACTION",
+		"Stalker": "Creepy Female Student",
+		"Star Platinum": "ACTION",
+		"Steely Dan": "ACTION",
+		"Storeowner": "Second-Hand Shop Owner",
+		"TheAssholeICantSeeTheFaceOf": "Man in a Suit",
+		"Toady": "Fellow Teacher",
+		"Uchimura": "Shadow Uchimura",
+		"Un": "Futaba's Uncle",
+		"Wakasa": "Shadow Wakasa",
+		"Writer": "ACTION",
+		"Yaldy": "Yaldabaoth",
+		"Woman 8": "Arrogant Housewife",
+		"Jake Gyllenhaal": "Commercial",
+		"emot laffo.gif": "ACTION",
+		"emot siren.gif": "ACTION",
+		"emot toot.gif": "ACTION",
+		"rip.001.gif": "ACTION",
+		"Doc Louis": "Trainer",
+		"Door": "System Voice",
+		"Mild mannered Man": "Mild-Mannered Investigator",
+		"Dwight": "Glasses-wearing worker",
+		"Jim": "Young Office Worker",
+		"Stuhlbarg": "Serious Man",
+		"Stanley": "Tired Office Worker",
+		"Angela": "Surprised Office Worker",
+		"Marx": "ACTION",
+		"Marx 2": "ACTION",
+		"Miserable Businessman": "Miserable Office Worker",
+		"Woman 3": "Elegant Woman",
+		"Homeless Man 2": "Transient Man",
+		"Man 6": "Young Male Customer",
+		"Famous Newscaster": "Old Man 4",
+		"Boy 14": "Stylish Male Student",
+		"Girl 8": "Easygoing Shujin Girl",
+		"Winger": "Sharp Lawyer",
+		"Holy Grail 1": "Holy Grail",
+		"Holy Grail 2": "Holy Grail",
+        "003": "ACTION",
+        "016": "ACTION",
+        "040": "ACTION",
+        "057": "ACTION",
+        "066": "ACTION",
+        "081": "ACTION",
+        "089": "ACTION",
+        "Foul": "ACTION",
+        "Skeptical Guy": "ACTION",
+        "Yakuza™ 6": "ACTION",
+		"Black Mask": {
+			"Goro Akechi": [
+				"You are the trash of society ... !",
+				"Teammates are nothing but trash!",
+				"Anything goes ... ",
+				"I don",
+				"(screaming in pain)"
+			],
+			"Lady in a Black Yukata": [
+				"Us too! Wanna go together?",
+				"Do you happen to be a model? You look great in that yukata."
+			]
+		},
+		"Kevin": {
+			"Middle Aged Office Worker": [
+				"Yeah. We"
+			],
+			"Naive Office Worker": [
+				"It"
+			]
+		},
+		"Phyllis": {
+			"Talkative Office Worker": [
+				"Apparently they"
+			],
+			"Aging Businesswoman": [
+				"He is so charismatic. Upper management could learn a thing or two from him ... "
+			]
+		},
+		"Oscar": {
+			"Tired Office Worker": [
+				"Yes ...  He seems promising."
+			],
+			"Office Subordinate": [
+				"Not just him, but ALL companies that exploit their employees."
+			]
+		},
+		"Office Worker 2": {
+			"Elderly Office Worker": [
+				"There's no telling why these days. However, I believe they may be able to build their own business.",
+                "There’s no telling why these days. However, I believe they may be able to build their own business.",
+				"A lot of business executives appear to be nervous about his arrest.",
+				"We shouldn",
+				"They have likely given up.",
+				"The company ordered me to return.",
+				"We must prepare for the worst. The initial response is crucial in these types of situations.",
+				"I spent all this time, apologizing and explaining to people. Now my time off for Obon is all gone.",
+				"Medjed's been causing a lot of trouble for me. If the Phantom Thieves exist, I'll cheer them on.",
+                "Medjed’s been causing a lot of trouble for me. If the Phantom Thieves exist, I’ll cheer them on.",
+				"We should be relieved that nothing happened.",
+				"Gaining power moves one closer to becoming an authoritarian.",
+				"We hate to think, therefore we are easily controlled. Japan is becoming a country of imbeciles.",
+				"Many people sympathize with him. Their stock price hit rock-bottom, but it has since rebounded.",
+				"Those who are swayed by fads are fools. The people of this country will never learn.",
+				"Yes, and the ruling party finally split up.",
+				"...You think so? I believe the final outcome is a foregone conclusion. The new political party will definitely win. Their leader is a master of media.",
+				"It's a strategic move so that we don't miss the boat. We want to be connected to the new government.",
+                "It’s a strategic move so that we don’t miss the boat.",
+				"I am not sure of anything any more.",
+				"It is so fragile, both inside and out. It could crumble from the slightest tremor.",
+				"I hope the lessons of this year remain within the hearts of the young for the rest of their lives.",
+				"Did something happen? Well, the world"
+			],
+			"Office Worker in Cafe Leblanc": [
+				"That's what I hear. The driver was acting funny or something. The vice president in our company might've been caught up in it. I'm sure it's chaos in the office.",
+                "That’s what I hear. The driver was acting funny or something.",
+				"Thanks for the coffee.",
+				"Why us? They",
+				"How should I know? Hey,",
+				"Whatever those Phantom Thieves are, people are making too big of a deal about them.",
+				"Haha. Anyway, about the agenda for today ... ",
+				"I don't need vacations. For some reason, they make me feel more tired. Guess I'm not used to them.",
+                "I don’t need vacations.",
+				"I got home late last night, and my wife yelled at me",
+				"No, you moron. I was just drinking with co-workers. Must you always bring up the Phantom Thieves?",
+				"The challenging party",
+				"Well, right now, there",
+				"He was going to get the death penalty, anyway.",
+				"Even you're talking politics? I don't get this Shido fever.",
+                "Even you’re talking politics? I don’t get this Shido fever.",
+				"Well, whatever happened, his accomplices probably helped him if he managed to fool the police.",
+				"I'm sure the police will handle it. Anyway, enough of that. We've got to work.",
+                "I’m sure the police will handle it. Anyway, enough of that."
+			],
+			"Hard-Faced Man": [
+				"No, it appears that the people from the bank have given up.",
+				"I'll be by your side all the way, Akitsu-sama!",
+                "I’ll be by your side all the way, Akitsu-sama!",
+				"What are you saying, Fumio-sama ... !? What happened to you!?",
+				"...I see. In that case, I will follow your lead."
+			],
+			"Middle-Aged Legislator": [
+				"His stance is \"dedication for country\""
+			],
+			"Tired Office Worker": [
+				"Yeah, it was right at the end of the exhibit.",
+                "It’s every man for himself in this world. It’s pretty rotten when I think about it.",
+				"It's every man for himself in this world. It's pretty rotten when I think about it.",
+				"Maybe, behind the scenes, he made a deal with the police or something.",
+				"From what I remember, Medjed attacked whatever it",
+                "That’s all because the Phantom Thieves appeared. I can’t stand getting dragged into this.",
+				"That's all because the Phantom Thieves appeared. I can't stand getting dragged into this.",
+				"They admitted their wrongdoing on their own. If our superiors could do that too",
+                "They’ll target the president if they call themselves heroes. They already got my hopes up.",
+				"They'll target the president if they call themselves heroes. They already got my hopes up.",
+				"What's she talking about? Is she worried that maybe you're overworking yourself?",
+                "What’s she talking about? Is she worried that maybe you’re overworking yourself?",
+				"She's more worried about the company than you? Well, it's kind of the same with my wife ... ",
+                "She’s more worried about the company than you? Well, it’s kind of the same with my wife ... ",
+				"Nah, those phantom thieves must have done something. I heard they tortured and drugged him.",
+				"I saw this feature about all the recent incidents on TV. I realized",
+				"Did he really think suicide was the answer? He was just a kid! And how could the police let him die? Their management and supervision must be a mess.",
+				"Crap, I",
+				"I was going to vote Shido just in case, but then I suddenly came to my senses.",
+				"I'm starting not to care about it anymore. Holding out till the New Year is more important for me.",
+                "I’m starting not to care about it anymore. Holding out till the New Year is more important for me.",
+				"Wh-What's going on here!?",
+                "Wh-What’s going on here!?",
+				"We're always the ones getting the short end of the stick. I've had enough of this.",
+                "We’re always the ones getting the short end of the stick."
+			],
+			"Passerby Office Worker": [
+				"Yeah, well—don't get me started on my bosses. These days they're little more than slave-drivers ... ",
+                "Yeah, well—don’t get me started on my bosses. These days they’re little more than slave-drivers ... ",
+				"I hope they take down my boss when"
+			],
+			"Shogi Magazine Journalist": [
+				"Perhaps her skills ARE of genuine article?",
+				"I'm thinking \"Phony Princess, Real Defeat\" as the headline for our next article.",
+                "I’m thinking \"Phony Princess, Real Defeat\" as the headline for our next article."
+			],
+			"Grim-Faced Man": [
+				"But ...  Maiden ... ",
+				"No ...  A curse is upon us ... !"
+			],
+			"Police Director": [
+				"What did they mean when they said \"nobody has died\"!? Could they have installed a new leader just to threaten us and Shido!?",
+				"Who made those documents ... ? Who was there at the scene of the suicide!?"
+			],
+			"Man in a Business Suit": [
+				"I kind of remember seeing a silhouette of them on a jumbo-screen in the city ... "
+			]
+		},
+		"Office Worker": {
+			"Suspicious Salesman": [
+				"Touch all you want, no added fees. We have the cutest girls in town too."
+			],
+			"Young Office Worker": [
+				"Stuff like that happening makes me not want to eat there, ever.",
+				"Thank you. The curry was delicious.",
+				"Oh, right. I heard about those hackers. I hear",
+				"\"Destructive damage to the Japanese economy\" ...  But",
+				"What are the Phantom Thieves going to do? Well,",
+				"Yeah. But then, we",
+				"Nah. If I did,",
+				"I used to be like that, all excited about taking on the world.",
+				"Oh ...  ",
+				"Well, I don't have any info that'd be valuable to them. They'll only go after the big companies.",
+                "Well, I don’t have any info that’d be valuable to them.",
+				"I have to work as much as I can to keep my job. Everyone else is sucking it up and pitching in ... ",
+				"(sigh) Back to lame",
+				"Ah, Masayoshi Shido's party. Yeah, I think he's very promising.",
+                "Ah, Masayoshi Shido’s party. Yeah, I think he’s very promising.",
+				"It's also strange how no one's seen Shido. Especially since he was so confident at the beginning. I'm starting to not care about the elections. It's not like they're going to change anything, anyway.",
+                "It’s also strange how no one’s seen Shido. Especially since he was so confident at the beginning."
+			],
+			"Earnest Office Worker": [
+				"Yes, they're the ones with the \"calling card.\" I heard they had an altercation with the yakuza.",
+                "Yes, they’re the ones with the \"calling card.\"",
+				"They seem to be very popular among young people.",
+				"I see ...  Although it IS a national election, which is basically a popular vote ... "
+			],
+			"Timid Man": [
+				"Y-Yeah, um ...  A colleague of mine recommended you. He said you can help fix my problems ...  Is that right?",
+				"S-So, um, the thing is ...  I'm engaged to be married. Next spring, I'll be trying the knot with a friend I've had since all the way back in preschool...",
+				"O-Oh, um ...  No,",
+				"Do, um ...  Do you think it would be bad if I declined",
+				"N-No ...  Does this mean breaking off my engagement is the only option ... ?",
+				"W-Wait, you really think someone else would try to go after her ... !?"
+			],
+			"Miserable Office Worker": [
+				"But ...  I was made project lead ... ",
+				"A...All right. Thank you!",
+				"No, no, nooo—I"
+			],
+			"Red-Faced Man (Nagai)": [
+				"This might bore you, but I wanted to ask. What do you think",
+				"I'd like to ask for a young person's opinion on the recent fluctuation in stock prices ... ",
+                "I’d like to ask for a young person’s opinion on the recent fluctuation in stock prices ... "
+			],
+			"Fast-Talking Man": [
+				"Whoa, it's true! She's a real-life tsundere maid! Yeah, harsh on the outside, and shy on the inside.",
+                "Whoa, it’s true! She’s a real-life tsundere maid!",
+				"Don't worry, we'll keep visiting you at \"Alice's Apron\"! It's the promised land for guys like us!",
+                "Don’t worry, we’ll keep visiting you at \"Alice’s Apron\"!",
+				"Waah! Harsh on the outside ...  and harsh on the inside.",
+				"Yeah. It does seem like the Phantom Thieves took it too far.",
+				"The Phantom Thieves are all over the news. People on the internet are always talking about them. If I won that 30 million yen",
+				"Hey, people always switch sides! We gotta cheer on the good guys, whoever they are!",
+				"The announcement",
+				"W-Wait, but having a new ruling party could really make big changes in Japan!",
+				"Bwehehe, only weak-minded people change their opinions based on what others think! Once we set our minds to it, we never stray from our path! That is the way of the otaku!",
+				"I voted for Shido! United Future won with a landslide victory! But then I heard Mr. Shido got sick after campaigning too hard ... ",
+				"H-Hey, is it true!? I heard that"
+			],
+			"Loud Spectator": [
+				"...That's the King.",
+                "...That’s the King.",
+				"Yeah, he's playing two opponents all by himself. And it's still too easy for him.",
+                "Yeah, he’s playing two opponents all by himself.",
+				"That's what happens when he teams up with another player. And why everyone also watches him from a distance ... ",
+                "That’s what happens when he teams up with another player.",
+				"...Yeah, but he's got such a bad attitude.",
+                "...Yeah, but he’s got such a bad attitude.",
+				"I wonder how long that high schooler",
+				"That's Takekuma, isn't it? He's awesome!",
+                "That’s Takekuma, isn’t it? He’s awesome!",
+				"The King got slaughtered! Ha!"
+			],
+			"Young Man's Voice": ["Way to go, Toranosuke!"],
+			"Akitsu": [
+				"I’m going to take all the money I saved",
+                "I'm going to take all the money I saved and move overseas to start a business. That way, we can keep making money and live a life of leisure forever!",
+				"Yes. I returned all the money I took. I was charged with a lot of interest",
+				"Well, the more I thought about it, the more I realized that I can achieve what I want to here."
+			],
+			"Talent Scout": [
+				"Not quite. We had to drop the Phantom Thieves feature after the stunt they pulled. You, on the other hand, would make for a perfect entertainer."
+			],
+			"Younger Employee": [
+				"I'm gonna vote this time for sure! This man has my support.",
+                "I’m gonna vote this time for sure!",
+				"Politics just never interested me before, but this politician seems pretty amazing."
+			],
+			"Male Passerby": ["They were really going at it ... "]
+		},
+		"Innocent Girl": {
+			"Dog loving Girl": ["Kotaro says he likes them!"]
+		},
+		"Office Worker 3": {
+			"Sullen Office Worker": [
+				"They spent so much money on all those ads. The people backing Madarame must be panicking.",
+				"He appeared in court on his own,",
+				"Ahhh, OK, I can buy that. The police",
+				"But isn't this the first time they targeted Japan for a full-scale attack?",
+                "But isn’t this the first time they targeted Japan",
+				"This is those hackers",
+				"Yes, I think so. Nothing bad actually happened",
+				"Hahaha, that'd be great. It'd be even better if that happened in every company.",
+                "Hahaha, that’d be great. It’d be even better if that happened in every company.",
+				"Young people seem excited about them too.",
+				"No. You know how Okumura Food",
+				"Yeah, that president just collapsed all of a sudden. Was it because of stress?",
+				"So they're a dangerous group after all ...  It seems like there might be other victims too.",
+                "So they’re a dangerous group after all ...",
+				"Our company",
+				"Politicians are also to blame.",
+				"You've never gotten into politics. What's gotten into you?",
+                "You’ve never gotten into politics.",
+				"Would a shift in political power change anything?",
+				"The higher-ups there are all rotten. That whole division needs to be replaced.",
+				"Actually, I thought it was kind of funny. In the end",
+				"It's a huge mess, after all. In the end, they're all just playing politics.",
+                "It’s a huge mess, after all.",
+				"There was all this commotion near the end of the year, but"
+			],
+			"Bespectacled Office Worker": [
+				"When are these weird accidents going to end?",
+				"Is that their way of calling our the Phantom Thieves? Everyone seems to be talking about it.",
+				"I'm sure it's to protect us from hacking, but communicating with clients like this is tough.",
+                "I’m sure it’s to protect us from hacking,",
+				"...You're so busy, but you're always on top of everything. Do you ever take a vacation?",
+                "...You’re so busy, but you’re always on top of everything.",
+				"Ahaha! You do something naughty behind her back? Careful, or the Phantom Thieves might target you!",
+				"Now, after the psychotic breakdown stuff, people are putting their hopes in that one party leader.",
+                "That’s true. I suppose it’s fine if this settles everything.",
+				"That's true. I suppose it's fine if this settles everything. I almost missed hearing about this. News of the suicide's been eclipsed by elections coverage.",
+				"I've just never seriously thoughts about it before. Maybe because I'd never seen a politician like him. I think he's got real potential. If nothing else, he's better than the people we've got now.",
+                "I’ve just never seriously thoughts about it before.",
+				"What's gonna happen with the elections? They said that Shido committed a crime ... ",
+                "What’s gonna happen with the elections?"
+			],
+			"Drunk Regular": [
+				"Are you mocking my country? You better shut your mouth before you piss me off!"
+			],
+			"Shiro Asakura": [
+				"I know you",
+                "Just get ‘em to strip down. It’s all easy after that.",
+				"Just get 'em to strip down. It's all easy after that. Looks are important. Clients want a good-looking girl. Maybe we'll get some cosmetic work done, too.",
+				"It's a heavy burden, making my dream—OUR dream—come true. I was unable to shoulder that.",
+                "It’s a heavy burden, making my dream—OUR dream—come true.",
+				"This is important, you idiot. How do you think we get by?",
+				"You wanna make your big debut, right?",
+				"Good, good ...  Never lose that drive.",
+				"This is just business as usual for the industry. Besides, you need to understand something",
+                "No, that’s not what I had in mind. Must be what she wanted",
+				"No, that's not what I had in mind. Must be what she wanted ...  As a show of gratitude, I'll send over our very best girl. No, please, I insist. I look forward to your continued patronage at the Asakura Agency! ...Hello? Hellooo?",
+				"Now, get to work before we lose the guy. The next time you go against the agency,",
+				"Please, you must! I need you to see how sorry I am! You owe me that much, at least!",
+				"(sob) Please! I need you to! I need you to see me make up"
+			],
+			"Shinsuke Kishi": [
+				"Yeah? Well, if"
+			],
+			"Elderly Office Worker": [
+				"I am not so sure about that ...  The internet and media are both skilled at starting fires."
+			]
+		},
+		"Office Worker 4": {
+			"Earnest Office Worker": [
+				"I didn't know he was such a big deal ...  Bravo to the Phantom Thieves.",
+                "I didn’t know he was such a big deal",
+				"Regardless, they",
+				"The hacking incident, yes? Are we being targeted now?",
+				"How so? I thought they did well this time ... ",
+				"Yes, even though many were skeptical of them until recently.",
+				"I guess that means there",
+				"Our company isn",
+				"In that respect, I sort of envy him. To think that could happen to us",
+				"I wonder if the Okumura empire is over now without him at the helm.",
+				"So then he was a sacrificial lamb for their business ...  What a world we live in.",
+				"Is this really what we should be focusing on?",
+				"So we're making our donations to the new political party, then? Not surprising, I suppose.",
+                "So we’re making our donations to the new political party, then?",
+				"I never thought about that ...",
+				"D-Director, please don",
+				"You're right ...  but there are some who display a fighting spirit, like the Phantom Thieves ... ",
+                "You’re right ...  but there are some who display a fighting spirit"
+			],
+			"Diligent Office Worker": [
+				"Haha, I'm sure the big companies are in a panic. I don't think that's an empty threat, either.",
+                "Haha, I’m sure the big companies are in a panic.",
+				"You sure? It might go under if that happened.",
+				"...I see. You have anywhere else to go after quitting?",
+				"Remember high school? The kids on the baseball team would train in heat like this, and love it.",
+				"You should be ready for any new crisis.",
+				"I wonder ...  I bet it",
+				"Probably relax at some luxury resort, then start my own business with the rest of the money",
+				"You can't blame them for worrying. Those representatives are out of a job if they don't get your vote. So, which party are you voting for/ I'm thinking about going with the United Future.",
+                "You can’t blame them for worrying.",
+				"Who knows? Maybe it was a broadcasting accident. I heard it might have been a prank, too."
+			],
+			"Assemblyman": [
+				"Announce that he",
+				"Keep the media out! Dammit, we have to do something ... "
+			],
+			"Office Worker": [
+				"Can they even do anything about a situation like this?"
+			]
+		},
+		"Busy Young Man": {
+			"Fussy Man": [
+				"I knew they were up to no good the moment that stuff came up. I bet"
+			]
+		},
+		"Man 2": {
+			"Diligent Office Worker": [
+				"You remember the cyber attack? Tens of thousands of",
+				"They act like they"
+			],
+			"Pro Shogi Player": [
+				"Well, the first shogi player to use that move was the kind of person"
+			]
+		},
+		"Man 5": {
+			"Veteran Pick-Up Artist": [
+				"People without charm or popularity always use force to get their way ...  Push, pull, and then the smooth follow-up. Without these skills, can you call yourself a man?",
+				"Everyone knows whatever",
+                "It’s all part of the process. Success will come",
+				"It's all part of the process. Success will come, but only after you fail again and again. It's like they said on Madarame's show. The big shots at the top all started as beginners.",
+				"Steal their hearts ...  Kind of like those Phantom Thieves, eh?",
+				"Patience is a virtue at times like this.",
+				"Uhhh ...  you know. Take her out to a cafe or something instead of a bar...",
+				"I'm the romantic phantom thief, here to steal your heart ...  The Love Thief of Pounding Hearts!",
+                "I’m the romantic phantom thief, here to steal your heart",
+				"Idiot, that",
+				"To enter the depths of a",
+				"I've already gotten ...  100 numbers this summer.",
+                "I’ve already gotten ...  100 numbers",
+				"Perhaps you could say",
+				"Out into the world, huh? That reminds me. Anna, Dorothy, Nora",
+				"That's all in the past. Just forget what I said.",
+                "That’s all in the past. Just forget what I said.",
+				"Hoho, you",
+				"All sorts of different places, naturally!",
+				"Are you serious!?",
+				"Y-Yeah ...  It got really annoying, having my phone ring all the time ...  Haha.",
+				"...Who'd you go with? A girl? You did, didn't you?",
+                "...Who’d you go with? A girl?",
+				"Forget about economic reform, and focus more on the female form. We need to pick up more girls!",
+				"W-Well, I'm thinking of learning from Shido. Maybe start the New Pick-Up Party.",
+                "W-Well, I’m thinking of learning from Shido.",
+				"I don't care about the election ...  It's not like we'd get girls by changing politics ... ",
+                "I don’t care about the election ... ",
+				"I see ...  So you",
+				"Who? Who",
+				"...It's my loss, Kouhai.",
+                "...It’s my loss, Kouhai.",
+                "...I’m sorry. Everything I know about talking to women comes from magazines and the internet",
+				"...I'm sorry. Everything I know about talking to women comes from magazines and the internet ...  I accept my shame, and I'm begging you! Please teach me the secrets of picking up girls!"
+			],
+			"Tall Man": [
+				"I've heard it's super effective. Even the most barren deserts will become lush forests of hair ... ",
+                "I’ve heard it’s super effective."
+			],
+			"Persistent Male Fan": [
+				"I can't believe that you're really here ...  in a church ...  I read on the internet that you pray to God for victory. Is that true?",
+				"I can’t believe that you’re really here ...  in a church",
+                "Can I take a selfie with you and post it online?",
+				"By the way, is it true that you",
+                "I’ll be cheering for you to qualify!",
+				"I'll be cheering for you to qualify! You'd be the first woman to surpass the third-dan league! I really believe in you!"
+			],
+			"Covetous Man": [
+				"What am I so mad about? I",
+				"Th-That's the Mothman figurine! Wow! His fur looks like it's real!",
+                "Th-That’s the Mothman figurine! Wow!",
+				"Thank you, thank you so much! This is so awesome!"
+			],
+			"Arcade Spectator": [
+				"Oh, I've heard about him. He's just a little guy, huh? Must still be in grade school ...  He's dual-wielding ... ?",
+				"Oh, I’ve heard about him. He’s just a little guy",
+                "It's like he's bipolar.",
+                "It’s like he’s bipolar.",
+				"The King is getting destroyed ... "
+			],
+			"Guy talking to Fishy Hawker": [
+				"What? Phantom Thieves? What are you talking about?",
+				"Class? You"
+			],
+			"Agency Employee": [
+				"Oh right, you fell victim to it too. Is it OK if I tell her, Mika-chan?",
+				"Do you remember a while back when a bunch of models",
+				"Well, apparently Mika-chan was posing as our agency and telling them the shoot locations changed.",
+				"We had heard rumors that she might have been doing it ...  but we thought people were just jealous of her.",
+				"(sigh) Anyway, let's get started."
+			],
+			"Male Pedestrian": [
+				"It just means that more cases are being exposed thanks to the Phantom Thieves."
+			]
+		},
+		"Man 7": {
+			"Novice Pick-Up Artist": [
+				"I think I get it ...",
+				"I-I see!",
+				"More casual ...  Wait, how would I do that?",
+				"Love Thief ...  of Pounding Hearts ... ?",
+				"S-Senpai ...  You",
+				"Are you serious!? How many people is that per day?",
+				"S-Senpai",
+				"The girls love lines like that.",
+				"Actually, the \"Love Thief\" line",
+				"But with the flak they",
+				"I met a really nice girl, lately. I hope I can take her someplace fancy one day.",
+				"One girl I know got really scared. She made me stay by her side, all day and all night.",
+				"It must've been really tough for you though. Your phone must have been ringing nonstop.",
+                "It must’ve been really tough for you though.",
+				"His aura of popularity was on at full blast. He kinda had the same smell as you ... ",
+				"Of course, I went with a girl.",
+				"You already have plenty of girls though, Senpai!",
+				"Whoa, this is amazing!",
+				"They say \"please\" so much, they sound like pick-up artists.",
+				"Master, why do you look so down?",
+				"What!? What are you talking about, Senpai!?",
+				"Wh-What's wrong, Senpai?",
+                "Wh-What’s wrong, Senpai?",
+				"So it's just like Shido said ...  Political power backed by just vanity and lies isn't needed.",
+                "So it’s just like Shido said ...",
+				"Success will come, but only after you fail again and again ...  But I learned that from you!"
+			],
+			"Flustered Gamer": [
+				"It, um, it won",
+				"But you don't seem to be winning at all.",
+                "But you don’t seem to be winning at all."
+			]
+		},
+		"Old Man": {
+			"Elderly Male Customer": [
+				"How frightening.",
+				"We'll be going now. The payment's on the table.",
+                "We’ll be going now.",
+				"This place is in the back alley, so",
+				"There's been a string of those rampage accidents, you know. I just hope none of them happen around here.",
+                "There’s been a string of those rampage accidents",
+				"Haha, we",
+				"Ah, Madarame, was it?",
+				"That may be true, but...",
+				"Ah, you're right. Thanks for the drink.",
+                "Ah, you’re right. Thanks for the drink.",
+				"They're ...  Ah, you know. They're planning on doing some pretty bad stuff. Hey, thanks. I'll just leave what I owe you here.",
+                "They’re ...  Ah, you know. They’re planning",
+				"No way. You don",
+				"Just ...  All I know is that",
+				"This politician seems quite promising.",
+				"What do you think, Boss?",
+                "It’s the government’s fault.",
+				"It's the government's fault. Why do they pick on people on the National Pension like us? Young people are pathetic, too. They're so quick to complain and claim they're getting exploited.",
+				"Traveling is too much trouble.",
+				"I always thought politicians couldn",
+				"And then, there's that calling card ...  Shido-san denied any of it was true though.",
+                "And then, there’s that calling card",
+				"(sigh) I don't know what I should believe ... ",
+                "(sigh) I don’t know what I should believe"
+			],
+			"Dazed Old Man": [
+				" ...  ... It's the name of my very first love, my teacher back when I was in elementary school!",
+                " ...  ... It’s the name of my very first love"
+			],
+			"Talkative Old Man": [
+				"Their sales had fallen because of Medjed, but they came right back.",
+				"The only one who's giving us a reason to hope is that one politician.",
+				"That's true, but ...  I don't know if we can trust them.",
+                "That’s true, but ...  I don’t know if we can trust them.",
+                "The only one who’s giving us a reason to hope is that one politician."
+			]
+		},
+		"Old Man 2": {
+			"Sad Old Man": [
+				"We can’t trust these suspicious Phantom Thieves.",
+                "We can't trust these suspicious Phantom Thieves. I hope the police finally get their act together. It's getting more dangerous to go outside. If this keeps up, we won't even be able to take walks.",
+				"What are the police doing, letting those fishy Phantom Thieves steal their thunder!?",
+				"Come on ...  Can you really trust someone who hides their face like that!?",
+				"You really think we can rely on them? They have no obligation to save Japan.",
+				"Hmm. Well, that",
+				"No! They",
+				"They should leave reforming society or whatever to the people we elect and put in charge.",
+				"What are you talking about? We",
+				"The world was crazy to treat them like heroes!",
+                "That Shido’s very competent.",
+				"That Shido's very competent. He worked his way up from the Tokyo Metropolitan Assembly. More than anything, I can tell that he's a good, upright, and honest man. I like him.",
+				"But I'm sure we can expect great things from Mr. Shido! Election day can't come soon enough.",
+                "But I’m sure we can expect great things from Mr. Shido!",
+                "It’s because they finally caught the Phantom Thieves.",
+				"It's because they finally caught the Phantom Thieves. That boy, Akechi, is a real hero. I'll admit, I don't have much hope for young people, but this one shows a lot of promise.",
+				"The politician who",
+				"If we could just give him a little of whatever life we have left to live...",
+				"There's nothing we can do about it. Things don't just get better that easily.",
+                "There’s nothing we can do about it. Things don’t just get better that easily.",
+				"I hope it doesn't just dry up and die. It might be better than doing nothing though.",
+                "I hope it doesn’t just dry up and die.",
+				"Hm, but wouldn't this Futaba get angry if they find out you're snooping on them though?",
+                "Hm, but wouldn’t this Futaba",
+				"What can I tell you? You",
+				"It's not a question of money. We've grown attached to this area ... ",
+                "It’s not a question of money.",
+				"What th--?"
+			],
+			"Old Shadow Prisoner": [
+				"In the depths within is a system that grants desires ... ",
+				"He's right. Things like the details on the system, the locked \"Quarantine Cell\" ... ",
+                "He’s right. Things like the details",
+				"Supposedly a great and truly dangerous criminal, but who would want to check a place like that?"
+			]
+		},
+		"Old Man 4": {
+			"Old Man talking to Rocker": [
+				"I saw some pretty hilarious videos of you online, but maybe I got the wrong guy?"
+			]
+		},
+		"Joker": {
+			"ACTION": [
+                "I'm right here, dude.",
+                "I’m right here, dude."
+            ],
+            "Film Protagonist Voice": [
+                "Boss! Boss! No ...  That bastard"
+            ]
+		},
+		"Boy 1": {
+			"Male Volleyball Player": [
+				"Yeah, I heard about him. All the second-years are talking about it.",
+				"It's fine. Mr. Kamoshida's on our side. The transfer student won't do anything to us.",
+                "It’s fine. Mr. Kamoshida’s on our side.",
+				"Ummm ...  I think he was the same as always,"
+			],
+			"Mellow Student": [
+				"Didn't you hear? The guy totally lost it. It's been happening a lot lately.",
+                "Didn’t you hear? The guy totally lost it.",
+				"Well, between the economy sucking and how depressing the news"
+			],
+			"Male Student": ["What the hell!?"],
+			"Fiery Soccer Player": [
+				"I'm sorry, I don't know anything else ...  Is he involved in this?",
+                "I’m sorry, I don’t know anything else ",
+				"Such a disgrace. A famous guy like him, exploiting his own pupil. But I want to know more about the Phantom Thieves. They did the same thing to Kamoshida.",
+				"Is there anyone good out there that we can recruit? I hear that Sakamoto is quick on his feet.",
+				"What are you doing!?",
+				"The Phantom Thieves are just a fad!",
+				"Is now the time to worry about that? We have to do our part as captains if we really want to win.",
+				"You're right. That is a lot to happen in just one year. Maybe this school really is cursed.",
+                "You’re right. That is a lot to happen in just one year.",
+				"You know, I overheard that the president of that corporation is Okumura-senpai",
+				"Stop messing around! We need to devote as much time as we can to our teams.",
+				"I thought those guys were really something, but ...  Maybe I had the wrong idea about them.",
+				"It looks like the guys in my team have been studying different diets and workouts, too.",
+				"I think so. Just one event can make huge changes.",
+				"I'm not really sure. We can't vote yet, so all we can do is watch and see what happens.",
+                "I’m not really sure. We can’t vote yet",
+				"Well, there's been a big change in government. We can make that same kind of change next year!",
+                "Well, there’s been a big change in government."
+			],
+			"Student Athlete 2": [
+				"Nah, bad guys should be punished. And those press conferences where they apologize are fun to watch.",
+				"I can never understand what these smart people are thinking."
+			]
+		},
+		"Boy 2": {
+			"Light-Hearted Student": [
+				"All these accidents are because people are suddenly losing their minds, right?"
+			],
+			"Dull Male Student": [
+				"Rumor has it she",
+				"I heard people saw them in his car together.",
+				"C'mon dude, you can't go after Kamoshida's bitch!",
+                "C’mon dude, you can’t go after Kamoshida’s bitch!",
+				"Is there something wrong with me?",
+				"Yeah, but books make me sleepy ...  Guess I can give it a go",
+                "I can’t stay quiet with all this excitement going on.",
+				"I can't stay quiet with all this excitement going on. Medjed's statement was insane! \"People of Japan, you must not worship the Phantom Thieves,\" they said ...  It could just be a joke. There's talk that this could lead to the biggest leak of private data to date. I wonder if they're gonna target another site ...  I'm curious to see how the Phantom Thieves react."
+			],
+			"Excited Male Student": [
+				"Think it was really those phantom thieves? You know, the whole stealing your heart thing."
+			],
+			"Stylish Male Student": [
+				"You're worrying too much! Just ignore that stuff.",
+                "You’re worrying too much! Just ignore that stuff.",
+                "It’s like what happened with Kamoshida.",
+				"It's like what happened with Kamoshida. I think the calling card is the key. Do you have any idea who put it there?",
+				"He's the mafia boss running Shibuya. It's all over the internet!",
+                "He’s the mafia boss running Shibuya",
+				"Don't trust the cops. The real calling card was posted online!",
+                "Don’t trust the cops.",
+				"You're so nonchalant, as usual...",
+                "You’re so nonchalant, as usual...",
+				"Don't fall for marketing hype so easily. It makes you seem information illiterate.",
+                "Don’t fall for marketing hype so easily."
+			],
+			"Boy 13": [
+				"I suppose the widening gap between the winners and losers is causing the losers to commit more crimes."
+			],
+			"Yoshimora Sakoda": [
+				"Hey, you did all that on your own. You really want me to show this to your teachers, huh, Takanashi-kun?"
+			],
+			"Dissatisfied First-Year": [
+				"Yeah, they've really taken off since the whole Kamoshida thing. The legend of the Phantom Thieves started at OUR school! We're practically one of them!",
+                "Yeah, they’ve really taken off since the whole Kamoshida thing.",
+				"Nothing you could",
+				"Gun About : The Super Real?",
+                "Maybe they’re singling him out for all of the praise he gets?",
+				"Maybe they're singling him out for all of the praise he gets? Besides, there are a bunch of strange rumors starting to surface about his company ... ",
+				"If you ask me, Medjed causes way more trouble. They attack every company they set their sights on."
+			],
+			"Black-Haired Student": [
+				"Duh. Make him have a change of heart. These corrupt companies should just go bankrupt!"
+			]
+		},
+		"Boy 10": {
+			"Boy 13": [
+				"Still, a man who exploited his employees is irredeemable. Perhaps the Phantom Thieves should finish him off.",
+				"I'm certain. Many people can be counted among their victims.",
+                "I’m certain.",
+				"They announced that they"
+			],
+			"Student Athlete in a Jersey": [
+				"I'm not sure if the principal's death was a suicide now. The same guys were probably behind it.",
+                "I’m not sure if the principal’s death was a suicide now."
+			]
+		},
+		"Boy 3": {
+			"Panicked Male Student": [
+				"What!? But you already promised to recommend me..."
+			],
+			"Starry-Eyed Student": [
+				"Y-Yes ... ! Kamoshida tricked people into thinking he was a hero,"
+			],
+			"Student Council Member": [
+				"Our president wants a word with you."
+			],
+			"Bored Male Student": [
+				"I guess they need to set some rules when the",
+                "It’s what I’m looking forward to most this summer.",
+				"It's what I'm looking forward to most this summer. It'll be the perfect escape from exam studies. But the Phantom Thieves need to take action. They're the ones Medjed is after."
+			],
+			"Studious Male Student": [
+				"They can't just tell us to stay away from Shibuya. I have to go to cram school there.",
+                "They can’t just tell us to stay away from Shibuya."
+			],
+			"Boy 13": [
+				"Although in a different era, there have been middle school graduates",
+				"I guess that's what happens when you cut down labor costs too much. Business management is tough work.",
+                "I guess that’s what happens when you cut down labor costs too much."
+			],
+			"Boy 10": [
+				"You know what is a big deal? My Gun About rank going up.",
+				"The multiplayer"
+			],
+			"Student Athlete 2": [
+				"Nah, bad guys should be punished. And those press conferences where they apologize are fun to watch."
+			]
+		},
+		"Boy 4": {
+			"Quiet Student": [
+				"But he might slug us if we look him in the eye..."
+			],
+			"Scary-looking Student": [
+				"Then again,"
+			],
+			"Cowardly Student": [
+				"Don't go into that alley. I saw a blond punk just head in ... ",
+                "Don’t go into that alley."
+			],
+			"Starry-Eyed Student": [
+				"Heh, there",
+				"With all the attention",
+				"It can't be helped. After the Madarame incident, my acclaim has skyrocketed, apparently.",
+                "It can’t be helped. After the Madarame incident",
+				"Heh, I understand if you think that way.",
+				"The calling card was sent to that criminal organization",
+				"Heh ...  Who could have known that Kaneshiro had that up his sleeve",
+				"Nobody knows who I really am, though. Heh ...  If they only knew.",
+				"O-Of course, I beat them at their own game. With the internet, hacking skills, and computers! They were powerless once I started typing at breakneck speeds of 100 words per hour! Muahahaha!",
+				"If I had only paid more attention. I failed to save him as a Phantom Thief of Hearts.",
+				"It's kind of you to say that. Don't worry. I won't make that kind of mistake ever again. Yes, this is a test from fate. I'll do all I can to live up to everyone's faith in me!",
+                "It’s kind of you to say that.",
+				"I've heard his daughter goes to this school, but I can't stay my hand. Evil must be defeated.",
+                "I’ve heard his daughter goes to this school",
+				"Heh, it must be nice to be so carefree. I wish I could live out a normal, quiet civilian life too.",
+				"What? You don",
+				"Ah, sorry ...  I overreacted. I just got too angry at society talking bad about them like this",
+				"Why? Oh, right? As a Phantom Thief, I-I should really consider turning myself in! There has to be a good reason for all this. I really want to believe in them ... ",
+				"I pretended to be a Phantom Thief since I idolized them, but now I wonder what real justice is like. Hey, you think you could tell me what really defines a hero?",
+				"You're right. Here goes. I guess a hero is someone who helps someone ...  who needs ...  help. Aw, I know that sounds dumb! It was all I could think of on the spur of the moment.",
+				"You’re right. Here goes.",
+                "I think I get it. Even if I became a Phantom Thief, I",
+				"Was it all just some illusion? Am I really just going crazy?",
+				"Right!? The Phantom Thieves really do exist!",
+				"Hey, come on!"
+			],
+			"Boy 10": [
+				"Which of them will come out on top?",
+				"I see ...  Well, I just hope something happens soon. But you gotta tell me—who do you think will win?",
+				"He knew all about Kamoshida, but kept his mouth shut. Ridiculous ... ",
+				"Yeah ...  But, wait! What if it messes up our school trip? Maybe we should wait until after.",
+				"Think about Kamoshida",
+				"I mean, there are tons of other companies that do the same thing.",
+				"Oh, you mean like all that stuff happening to his competitors?"
+			],
+			"Boy 13": [
+				"You just need to adopt a new mindset. Get a fresh start in the spirit of the new year."
+			]
+		},
+		"Boy 5": {
+			"Volleyball Player": [
+				"Hey, I know who this guy is.",
+				"Hey, we should stop talking to him. What if he loses it and starts attacking us?"
+			],
+			"Bored Male Student": [
+				"Seriously?",
+				"You know ...  she seems pretty easy, huh?",
+				"Maybe. Maybe you need to do some self-improvement.",
+                "Well, don’t get ahead of yourself because it happened to go well",
+				"Well, don't get ahead of yourself because it happened to go well. Look,",
+				"The Phantom Thieves? Do they kill people?"
+			],
+			"Fair-faced Male Student": [
+				"Oh, are you talking about those psychotic breakdowns?"
+			],
+			"Daisuke Takanashi": [
+				"Only good thing you got going on is that",
+				"No, I'll talk to Sakoda-senpai and get you your money back. I just want to do the right thing for once. I won't drag you into it.",
+				"No, I’ll talk to Sakoda-senpai",
+                "C'mon, you MADE me do it! Damn it...",
+                "C’mon, you MADE me do it!"
+			],
+			"Calm Basketball Player": [
+				"What if they actually went to Shujin?",
+				"Him? You can",
+				"I stayed up reading about it, and",
+				"You're right. The third-years all retired, so I gotta take my role as captain seriously.",
+                "You’re right. The third-years all retired",
+				"Heroes like them must get all the girls.",
+				"I just don't think it's gonna work out. There aren't many talented people I can get to join our team.",
+                "I just don’t think it’s gonna work out.",
+				"No one cares about our tournament coming up!",
+				"Why did I come to Shujinnn? Ever since this year started",
+				"That vicious transfer student,--",
+				"--a suicide attempt, sex crimes by a teacher, our principal died ... ",
+				"That makes sense. A curse would explain why",
+				"Whaat?",
+				"I guess it is better to try to get popular through sports than to act more like those guys.",
+				"No way, the Phantom Thieves are killers.",
+				"I dunno if this big change in government is a good thing.",
+				"We get to see his technique live and in person, though. We should totally get spiked on!"
+			],
+			"Friend of Studious Male Student": [
+				"This is so dumb. The mafia"
+			],
+			"Friend of Tired Student": [
+				"Who cares? Actually, should"
+			],
+			"Energetic-Looking Guy": [
+				"The news this morning said a group called #Millennials are the ones behind the cards.",
+				"Well, let's vote him up on the Phan-Site. I can't imagine the Phantom Thieves wouldn't go after someone so rotten. I'm sure other teachers knew, too. Anyone who did deserves a change of heart.",
+                "Well, let’s vote him up on the Phan-Site.",
+				"Uh, no. I hear",
+                "Why’d the school decide to have the festival so late",
+				"Why'd the school decide to have the festival so late, anyway? I mean, changing the date just because our school's all over the news? Moving it to next Tuesday only makes more work for us!",
+				"We get to see his technique live and in person, though. We should totally get spiked on!",
+				"What was that all about?",
+				"Are you kidding me? I",
+				"Not like I did anything during summer break. I gust stayed in and played online games.",
+                "And who can’t relate to what they’re doing?",
+				"And who can't relate to what they're doing? Punishing corrupt adults up to no good—the police should take notes.",
+				"Everyone online was waiting for the deadline to hit. People sure do love the Phantom Thieves. Speaking of, have you checked out the Phan-Site recently? They added a bunch of new stuff, including the option to rank people to get a change of heart.",
+				"No way, that was the Phantom Thieves sending a message!",
+				"He collapsed during his press conference, right?",
+				"The news says it was because of illness, but either way you spin it?"
+			],
+			"Male Student": [
+				"That was nuts ...  Is he a ninja?",
+				"How could the police let him commit suicide in jail? They need to get their shit together."
+			],
+			"Wise Guy Student": [
+				"I kinda saw that coming. Everyone I know voted for him.",
+				"It probably has to do with the Phantom Thieves.",
+				"Hey, you're right! Maybe he'll tell us some stuff about the case! No way am I gonna miss the panel this year!",
+                "Hey, you’re right! Maybe he’ll tell us some stuff about the case!"
+			],
+			"Suave Male Student": [
+				"It'll be so exciting once they get arrested. You think it'll happen sometime this year?",
+                "It’ll be so exciting once they get arrested.",
+				"I'm not interested in politics at all. I know this serious-looking guy is popular though.",
+                "I’m not interested in politics at all.",
+				"Oh, yeah, and there",
+				"I pretty much failed all my finals. I'm so screwed ... ",
+				"I'm sure he is since he's hit the top rank so fast. I can't wait to see him break down and grovel.",
+                "I’m sure he is since he’s hit the top rank so fast.",
+				"You mean that guy who was all like"
+			],
+			"Causally-dressed Student": [
+				"C'mon, there's no way you could steal someone's heart!",
+                "C’mon, there’s no way you could steal",
+				"Does this mean the Phantom Thieves thing was for real!?",
+				"Who knows? But man, Kamoshida turned out to be one sick bastard."
+			]
+		},
+		"Boy 13": {
+			"Boy 10": [
+				"I do have some Big Bang Burger coupons, but we",
+				"You know, I voted Okumura on the Phan-Site ...  The Phantom Thieves have a duty to punish bad people. I hope they take care of him soon.",
+				"How much longer are they gonna do this? We should be busy preparing for the school festival right now.",
+				"We won't be able to invite friends from other schools now that we're holding the festival on a weekday. It'll also be an inconvenience to anyone we already invited. And what about the post-festival party? Will there be enough people for the Student Sharing Special? (sigh) It's gonna be a real weird festival with morale so low ... ",
+                "We won’t be able to invite friends from other schools",
+				"He knew all about Kamoshida, but kept his mouth shut. Ridiculous ... ",
+				"Akechi suggested they go to this school, right?",
+				"But ...  30 million yen, man. Just let me dream a little."
+			],
+			"Excited Student": [
+				"I thought they were gonna change that CEO",
+				"Oh man, does this mean anyone who gets targeted is screwed!?"
+			],
+			"Starry-Eyed Student": [
+				"The thing is, this celebrity might actually be a criminal ...  What should I do?",
+				"But then I-- Um, I mean, my friend, would live each day in fear of being arrested. If the Phantom Thieves had just stayed heroes, I never would have had to deal with all this. Er, you know I was just talking about my friend, right?"
+			]
+		},
+		"Boy 6": {
+			"Dissatisfied First-Year": [
+				"And why are they pitting us against the teacher team?",
+				"Yeah, OK. You",
+				"Yeah, it's ridiculous. Speaking of, what's up with that calling card? The one sent to Kamoshida. Didn't it say something about \"stealing his distorted desires\" or something weird like that?",
+                "Yeah, it’s ridiculous.",
+				"I hear her older sister",
+				"You think the Phantom Thieves murdered him? But why?",
+				"C'mon, they aren't gonna murder him. Besides, I'm pretty sure the principal killed himself.",
+                "C’mon, they aren’t gonna murder him.",
+				"You're probably better off. It was a total disaster. I never imagined seeing a heart attack would be so unsettling ... ",
+				"You’re probably better off.",
+                "It'll probably be the end of us if we start sniffing around now.",
+                "It’ll probably be the end of us"
+			],
+			"Friend of Food-Loving Student": [
+				"Oh, don't you know? It's always sold out on Mondays, but there's usually some left over on Fridays.",
+                "Oh, don’t you know? It’s always sold"
+			],
+			"Glib Male Student": [
+				"Hey you might feel better if you eat something."
+			],
+			"Dull Male Student": [
+				"We had an amazing conversation after I brought up some of the stuff",
+				"Really? But it takes so much work ..."
+			],
+			"Daisuke's Friend": [
+				"Harsh, Daisuke! Oh man, Hippo"
+			],
+			"Third-year Guy": [
+				"I didn't expect this from the Phantom Thieves ...  That was a full-blown public execution ... ",
+                "I didn’t expect this from the Phantom Thieves"
+			],
+			"Scared Student": [
+				"Seriously!?",
+				"Maybe the rumors are true? Maybe"
+			],
+			"Male Student": [
+				"Really? On a weekday? What kinds of reasons are there?",
+				"Damn ...  I"
+			],
+			"Flippant Student": [
+				"Didn't he say he wasn't gonna make any more appearances though? Why'd he agree to come here?",
+                "Didn’t he say he wasn’t gonna make any more appearances though?",
+				"Oh yeah! That proves they"
+			],
+			"Post-Festival MC": [
+				"Everybody give them another round of applause!",
+				"Round of applause, everyone!",
+				"All right, who has something to say? Anyone, anyone!?",
+				"Well then, come on up!",
+				"Come, come. Everyone",
+				"U-Uhhh ...  I",
+				"So uh, do you have anything you",
+				"Err ...  Here, let me give you a question then ...  Do you think the Phantom Thieves are really Shujin students?",
+				"I mean, they are ...  uh ...  your father",
+				"We're all dying to know what Akechi-kun was going to say about their true identities. So, are they from Shujin? What do you think, Okumura-san?",
+				"We’re all dying to know",
+                "Now this is drama! A boy caught in the throes of bittersweet youth! A stunning confession of love!",
+				"I think it was him!",
+				"Sooo, Okumura-san! What",
+				"My, she's quite flustered! IS this a hot scoop!?",
+                "My, she’s quite flustered!",
+				"But I'm a gentleman. It hurts my heart to bully such a sweet girl! Well, did you all enjoy our blushing beauty? Thank you very much, Okumura-san!",
+                "But I’m a gentleman.",
+				"Everybody give them another round of applause!",
+				"Round of applause, everyone!",
+				"All right, who has something to say? Anyone, anyone!?",
+				"Oooh, this that our lovely student council president over there!?",
+				"Come on up here, Miss Prez!",
+				"Everybody's waiting for you, Miss President!",
+                "Everybody’s waiting for you, Miss President!",
+				"So, with the Kamoshida scandal, Principal Kobayakawa",
+				"I'd be surprised if you've had any time to study for your entrance exams! Now then, on with the show! What would you like to share with us today, Miss President?",
+                "I’d be surprised if you’ve had any time",
+				"...Miss President?",
+				"Here, I'll give you a question ...  Do you think the Phantom Thieves are really Shujin students?",
+                "Here, I’ll give you a question",
+				"Now this is drama! A boy caught in the throes of bittersweet youth! A stunning confession of love!",
+				"I think it was him!",
+				"Sooo, Miss President! What",
+				"My, she",
+				"A rare glimpse into the girly side of our stunning Miss President!",
+				"Everybody give them another round of applause!",
+				"And now, it",
+				"All right, who has something to say? Anyone, anyone!?",
+				"How about ...  the girl in the hoodie with the super bleached hair!?",
+				"Well then, come on up!",
+				"Come, come. Everyone",
+				"Ah, Takamaki-san! Good looks, smokin",
+				"...Takamaki-san?",
+				"So, are they from Shujin? What do you think, Takamaki-san?",
+				"Now this is drama! A boy caught in the throes of bittersweet youth! A stunning confession of love!",
+				"I think it was him!",
+				"Sooo, Takamaki-san!",
+				"Everybody give them another round of applause!",
+				"All right, who has something to say? Anyone, anyone!?",
+				"Hmmm ...  Where is \"this guy\"?",
+				"Ah, Sakamoto-kun! You look like someone filled to the brim with pent-up anger toward society!",
+				"Anyway, on with the show! What would you like to share with us today, Sakamoto-kun?",
+				"Sakamoto-kun ... ?",
+				"What's this!? Our Sakamoto-kun may look tough, but it turns out he has a nasty case of stage fright!",
+                "What’s this!? Our Sakamoto-kun may look tough",
+				"Oooh! Sakamoto-kun",
+				"You over there! Would you like to join in!?",
+				"Well then, come on up!",
+				"Do you have ...  anything?",
+				"Well uh, I guess that",
+				"Everybody give them another round of applause!",
+				"No? I'll just have to pick someone then! How about ...  The good sir over there!",
+                "No? I’ll just have to pick someone then!",
+				"Well then, come on up!",
+				"Now, now! You",
+				"He's either a carefree spirit who does as he pleases or an airhead who's oblivious to the situation!",
+                "He’s either a carefree spirit who does as he pleases",
+				"Let's move on to our next participant ... !",
+                "Let’s move on to our next participant"
+			],
+			"Concerned Student": [
+				"Isn't this just like what that calling card said ... ?",
+                "Isn’t this just like what that calling card",
+				"Was something done to Kamoshida!?",
+				"I wonder what happened..."
+			]
+		},
+		"Boy 8": {
+			"Energetic-Looking Guy": [
+				"Why couldn't they give us today off, too? We have the rest of the week off starting tomorrow ... ",
+                "Why couldn’t they give us today off, too?",
+				"Yeah, something like that ...  I"
+			],
+			"Male Council Member": [
+				"\"They have dirt on me, and they",
+				"This isn't the responsibility of the student council. This is frightening for us too ...  Principal Kobayakawa called you in yesterday, right? Did he tell you anything about this?",
+				"This isn’t the responsibility of the student council.",
+                "If you say so..."
+			],
+			"Student Athlete in a Jersey": [
+				"The food there is cheap",
+				"Maybe the Phantom Thieves bribed him."
+			],
+			"Student Athlete 2": [
+				"I've been hearing that he got murdered. You think whoever did it was ... ?",
+                "I’ve been hearing that he got murdered.",
+				"The mass media might come to our school again."
+			]
+		},
+		"Boy 9": {
+			"Bespectacled Council Member": [
+				"She looked tired, especially because of the Kamoshida incident. I heard she",
+				"I guess she can't rely on us for some reason. I wish she wouldn't handle everything alone like that.",
+                "I guess she can’t rely on us for some reason.",
+				"It's great she's looking out for her fellow students, but I wish she'd let us help her sometimes.",
+                "It’s great she’s looking out for her fellow students"
+			]
+		},
+		"Old Woman": {
+			"Elderly Female Customer": [
+				"What could be going on?",
+				"Who was it again? You know, that famous artist...",
+				"They punished those awful people",
+				"(to Maaku)",
+				"See? Even he says that they",
+				"Ah, OK, so they",
+				"Yeah, it is hotter than usual. It feels",
+				"Ah, that date on that calling card? What kind of crazy thing do you think will happen?",
+				"I have to agree. I hope he can work to ease the anxieties of the elderly.",
+				"You're right, it is pretty nice here. We usually relax here for hours at a time.",
+                "You’re right, it is pretty nice here.",
+				"He's a very eloquent man, and it's very impressive to hear him live. He's got a lot of promise.",
+                "He’s a very eloquent man",
+				"I wonder if Shido-san is OK"
+			],
+			"Kind Old Woman": [
+				"Oh my! You",
+				"My neighbor speaks highly of you. She says your medicines are better than those at the big hospitals.",
+				"Oh, Shibuya is so complicated. These bones",
+				"People are saying there",
+				"He was still arrested in the very end",
+				"I'm sure it'll be fine. The Phantom Thieves will do something about it.",
+                "I’m sure it’ll be fine. The Phantom Thieves will do something about it.",
+				"That may be true ...  But would they really abandon someone in need?",
+				"You think so? I think they work just as hard",
+				"But I knew you weren",
+				"Oh, my. You really don",
+				"I never believed someone like you could have ever done something like that.",
+				"Maybe ...  Hey, shouldn",
+				"(sigh) But why did this happen out of nowhere? They were helping people ... ",
+				"I don't mind who wins, as long as I can live out the rest of my days in peace and quiet...",
+                "I don’t mind who wins, as long as I can live out ",
+				"Why don't we plant a flower? Even we should be able to do that.",
+                "Why don’t we plant a flower?"
+			]
+		},
+		"Woman 1": {
+			"Shopping Enthusiast": [
+				"Same here. Good thing there",
+				"I'll have to check it out tomorrow. It's so popular they always sell out if you don't call the same day.",
+                "I’ll have to check it out tomorrow."
+			],
+			"Female Host": [
+				"Oh, they're perfect for big gatherings!",
+                "Oh, they’re perfect for big gatherings!",
+				"Oh, the phones are already ringing off the hook!",
+				"Oh, another buyer",
+				"Goodbye for now!"
+			],
+			"Female Assistant": [
+				"My daughter"
+			],
+			"Interviewer": [
+				"You have such expansive styles,",
+				"I see.. So the act of emptying"
+			],
+			"Troubled Woman": [
+				"I-I'm fine. It's my fault anyway, Yuya said so ...  He says he doesn't want to hit me, but I just make him so mad ... ",
+                "I-I’m fine. It’s my fault anyway",
+				"B-But I'm the only person that cares about him! If I leave, how will he survive ... ? Please, is there any other way?",
+                "B-But I’m the only person that cares about him!",
+				"Wh-What kind of misery ... ?",
+				"What? Hospitalized!? A-Arrested!? I knew",
+				"My next stone will need to be even bigger.",
+				"I can't abandon Yuya!",
+                "I can’t abandon Yuya!",
+				"U-Um, I'm not entirely sure who you are ...  But do you know of any other way I can approach this problem ... ?",
+                "U-Um, I’m not entirely sure who you are",
+				"Mine? Oh ...  ",
+				" ...  ...  I ...  I trust you.",
+				"It feels like he's telling the truth. Besides, Yuya has all my money. He's going to pay me back someday ...  But for now, I would rather put my trust in this one boy than in thirty-six payments for a Holy Stone.",
+                "It feels like he’s telling the truth"
+			],
+			"Female Shadow Prisoner": [
+				"Don't open the cells, OK? I have no intention of leaving this place ... !",
+                "Don’t open the cells, OK?"
+			],
+			"Doubting Businesswoman": [
+				"H-Hey! That person ...  They just disappeared! Th-They turned into some kind of black fog ... "
+			]
+		},
+		"Woman 2": {
+			"Lazy Woman": [
+				"Oh, I know exactly what you",
+				"It's such a pain to put on makeup, and I hate shopping, so I usually end up just lazing about the house.",
+                "It’s such a pain to put on makeup"
+			],
+			"Struggling Woman": [
+				"If you keep this up ...  Then",
+				"But ...  I just did as I was told...",
+				"No ... ",
+				"Huh? But--",
+				" ...  ...  That young man suddenly attacked him ...  He shoved this gentleman to the ground. And this man ...  got injured ... "
+			]
+		},
+		"Woman 4": {
+			"Waitress": ["I got it. I"]
+		},
+		"Woman 5": {
+			"Young Female Customer": [
+				"Whaaat? But I want to watch TV.",
+				"I hope they get caught soon. They",
+				"Ah, what about the beach? I could buy a new swimsuit!",
+				"What about a beach outside of Japan? Let",
+				"Now everyone",
+				"\"Do you think the Phantom Thieves are innocent?\"",
+				"Not many people voted \"Yes.\" And",
+				"There was no reason to hold an election.",
+				"It was fun news, though. Well, I doubt anyone believes"
+			],
+			"Kind Mother": [
+				"Well, today you lost ...  So that means",
+				"Of course not. You did your best"
+			]
+		},
+		"Woman 7": {
+			"Young-Looking Woman": [
+				"Yeah, Akechi-kun! The way his eyes look to the side is pretty sexy ...  I love the way he runs his hands through his hair too ... ",
+				"Is it because of Medjed? That thing on the internet, right?",
+				"I heard that they can get through any kind of internet security.",
+				"Yes! And I want something to happen!",
+				"I dunno. If the Phantom Thieves",
+				"Thinking about what happened with Okumura Foods made me realize that ... ",
+				"...I told him I was 15 years younger than I really am.",
+				"That's different. Anyway, I asked the Phantom Thieves to give him a change of heart.",
+                "That’s different.",
+				"He had it coming after lying to everyone like that.",
+				"I told him my real age and apologized.",
+				"I think I'll get into politics. We women should take a more active role in our society!",
+                "I think I’ll get into politics.",
+				"I'm gonna start volunteering at the election office. I bet there's a lot of hot, energetic men there!",
+                "I’m gonna start volunteering at the election office",
+				"She goes to Shujin Academy.",
+				"Don't you think Masayoshi Shido and Akechi-kun look alike somehow?",
+                "Don’t you think Masayoshi Shido and Akechi-kun",
+				"I don't know, it just hit me when I was looking at a Shido poster. I guess I just imagined it.",
+                "I don’t know, it just hit me when I was looking at a Shido poster.",
+				"My heart is suffering, too ... ",
+				"It's almost Christmas, and I don't have a boyfriend ... ",
+                "It’s almost Christmas, and I don’t have a boyfriend ... ",
+				"I could never think that way. I want to be the kind of girl that never settles down, you know?"
+			],
+			"Dream-Chasing Woman": [
+				"Huh? I'm fine. Yes, I know there's been some weird incidents lately. Of course, I'll be careful. Don't worry about your big sis, she's not going to let herself get tricked again. I promise. Once I become a singer I'll make that money back and then some. No, I won't be home for a while.",
+                "Huh? I’m fine.",
+				"Well, you see ...  I was already scammed once.",
+				"I do really, really want to be a singer ...  But, can I trust you?",
+				"You did, Mr. Asakura? Just like me? Well, I guess I can trust you!",
+				"Aw, that",
+				"Hm, it seems a little expensive.",
+				"Yeah ...  I gotta work hard to make our dreams come true.",
+				"Of course! I",
+				"About that ...  I think I would really rather stick to singing.",
+				"If this gig",
+				"Why are you being so horrible!?",
+				"What the—you"
+			],
+			"Fiancee of Busy Young Man": [
+				"We saved that money together!",
+				"Huh? Wait, what about your job?",
+				"I wish you",
+				"Wha ... ? But we just signed the contract",
+				"Please, can you stop?",
+				"Is that more info you got from the internet?",
+				"All you talk about is money.",
+				"The Phantom Thieves?"
+			]
+		},
+		"Teacher 1": {
+			"Shiro Asakura": [
+				"Look, lemme produce you."
+			]
+		},
+		"Woman 9": {
+			"Modest Housewife": [
+				"Fortunately, his salary is so low",
+				"I suppose there are just things a rich family like yours could never understand...",
+				"I can only imagine what the police are doing.",
+				"There's certainly nothing we can do. It'd be awful if Medjed set their sights on our company.",
+                "There’s certainly nothing we can do.",
+				"Sometimes, I",
+				"Everyone's all about the Phantom Thieves now. They're all anyone on TV talks about.",
+                "Everyone’s all about the Phantom Thieves now",
+				"Are you sure? My husband, he never receives any overtime pay",
+				"Well, the Phantom Thieves sent out their calling card.",
+				"I thought you were a fan of the Phantom Thieves? Ohoho, I know times are tough right now, but ... ",
+				"You need to relax. I",
+				"Well, actually, because he helped with the case so much, they promoted him to CEO. Ohoho ... ",
+				"Alone? What about your maid? Have you let the poor dear go?",
+				"Such an admirable woman",
+				"Is that so? We just met him the other day, while joining the supporters association. He seemed quite nice. Were you at the event?",
+				"I bet it's a trick meant to discredit Shido-san somehow! That's what the talk shows are saying—that it's just slander due to the elections.",
+                "I bet it’s a trick meant to discredit",
+				"Yes, we need him to bring real change to Japan. My son is nearing his entrance exams.",
+				"Well, if you ever need me to bring you something from the city"
+			],
+			"Office Lady": [
+				"Hello there, Mifune-sensei.",
+				"Wait ...  So he",
+				"Yes. A male coworker of mine was given all the credit for a successful project",
+				"That's why I'm thinking of leaving and starting up my own business! I've actually been planning for some time. I'm not sure if I'll be able to find a foothold in the market though ... ",
+                "That’s why I’m thinking of leaving and starting",
+				"No! Wh-What should I do!?",
+				"Inescapable ... ?",
+				"Overturning fate ... ?"
+			]
+		},
+		"Girl 1": {
+			"Calm Student": [
+				"All the craziness that",
+				"You think maybe the Phantom Thieves go to our school?",
+				"But you know, Hamiru-kun actually debated with Akechi-kun",
+				"I guess it does sound like",
+				"What are the Phantom Thieves trying to achieve?",
+				"It looks like they saved me again.",
+				"Akechi-kun was saying those hackers showed up again because of the Phantom Thieves.",
+				"I'm surprised that they've gotten so famous. Nobody even believed they were real at first.",
+                "I’m surprised that they’ve gotten so famous."
+			],
+			"Timid Female Student": [
+				"Mr. Kamoshida",
+				"Everyone's afraid of him ...  I hope he gets expelled soon...",
+                "Everyone’s afraid of him ",
+				"(sigh) And we're supposed to be an elite college prep school. I wish they'd fix this problem.",
+                "(sigh) And we’re supposed to be an elite college prep school"
+			],
+			"Prim Female Student": [
+				"He seems quiet ...  but I bet when he loses it...",
+				"That means she",
+				"He seems like a punk, but"
+			],
+			"Black-Haired Student": [
+				"I didn't know at all ...  Kamoshida was forcefully pushing himself on you ...  It must've been so hard for you ... !",
+                "I didn’t know at all ...  Kamoshida was"
+			],
+			"Female Student": [
+				"How'd you do?",
+                "How’d you do?",
+				"I can't believe it ...  I at least wanted to hit the average...",
+                "I can’t believe it ...  I at least wanted to hit the average...",
+				"I wish I could get in the top ten ...  People look at smart students differently."
+			],
+			"Surprised Female Student": [
+				"It says they",
+				"I mean, Niijima-san is his favorite."
+			],
+			"Loud Student": [
+				"That's the worst ...  So that's what he's using Niijima-senpai for?",
+                "That’s the worst ...  So that’s what",
+				"I can't believe a high schooler moonlights as a detective. He's just like the Detective Prince.",
+                "I can’t believe a high schooler moonlights as a detective.",
+				"He's smart AND handsome. He's almost TOO perfect!",
+                "He’s smart AND handsome.",
+				"See, I hear his dad",
+				"People say he"
+			],
+			"Anxious Student": [
+				"I didn't think it had anything to do with me, but there are even victims in my class...",
+                "I didn’t think it had anything to do with me",
+				"Oh, are you talking about that posting? I wonder if she was serious about it"
+			],
+			"Scared Female Student": [
+				"I can't believe there's drug dealers in Shibuya now. I wish someone would get rid of them ... ",
+                "I can’t believe there’s drug dealers"
+			],
+			"Hungry Student": [
+				"Frui-Tea",
+                "I want something filling, but with summer coming"
+			],
+			"Shrewd Girl": [
+				"You can speak English, right?",
+				"Hey, if there"
+			],
+			"Easygoing Shujin Girl": [
+				"I'm excited. It'll be my first time overseas. I heard Big Bang Burger has an exclusive menu in Hawaii!",
+                "I’m excited. It’ll be my first time overseas."
+			],
+			"Gossiping Female Student": [
+				"I wonder if that suicide rumor"
+			]
+		},
+		"Girl 2": {
+			"Carefree Female Student": [
+				"I can't believe he's still behaving like this after what he did to the track team. And he's still not expelled because Mr. Kamoshida's covering for him, right?",
+                "I can’t believe he’s still behaving like this",
+				"Our school's seriously full of troublemakers. Didn't something like this happen last year too?",
+                "Our school’s seriously full of troublemakers"
+			],
+			"Motivated First-Year": [
+				"Maybe he called someone up there so he can punch them.",
+				"Stay away from him! We only just started high school",
+				"Whoa, really? But Shibuya",
+				"Yes! Yes! He",
+				"Yeah, I saw. Their logo is pretty cool.",
+				"Yeah, I think Akechi-kun might"
+			],
+			"Energetic First-Year": [
+				"Yeah, I've seen her around. She takes care of the flowers in front of the school.",
+                "Yeah, I’ve seen her around.",
+				"She lives in a different world. This school is just too weird ... ",
+				"I dunno. Everyone here is so ...  ordinary.",
+				"Well, at least we"
+			],
+			"Energetic Student": [
+				"That's great and all, but I'm more excited by something else. Our field trip is coming up, and I want to go see the TV station!",
+                "That’s great and all, but I’m more excited by something else",
+				"Something like that sounds like it could lead to a lot of trouble. Akechi-kun mentioned that too.",
+				"I'm embarrassed that I used to be a fan of Akechi-kun ...  Now it's all about the Phantom Thieves. I'll cheer them on as much as I can!",
+                "I’m embarrassed that I used to be a fan of Akechi-kun"
+			],
+			"Friendly Female Student": [
+				"She says she knit her boyfriend a scarf, which made him super happy.",
+				"Maybe you should ask that genius detective Akechi-kun to get to the bottom of this? Juuust kidding."
+			],
+			"Piggybacking Girl": ["That's amazing!", "That’s amazing!"],
+			"Well-behaved Female Student": [
+				"I think I was passing through there at the time ... "
+			]
+		},
+		"Girl 3": {
+			"Female Volleyball Player": [
+				"Why does he have to come here ... ? I hope he",
+				"I'm really grateful to them for saving me. If they really exist, I'd like to cheer them on ... ",
+                "I’m really grateful to them for saving me.",
+				"They probably can"
+			],
+			"Awful friend of Melancholic student": [
+				"I am not looking forward to that.",
+				"Dealing with her is such a hassle. I wish"
+			]
+		},
+		"Girl 4": {
+			"Brown-haired Student": [
+				"He looks normal though.",
+				"I mean, he was arrested for assault, right...?",
+				"This sucks...",
+				"Does that mean he hit on her before transferring here?",
+				"For real. That side of the room is totally awful."
+			],
+			"Energetic First-Year": [
+				"Oh, do you mean like what happened at track practice last year? I heard it was a big fight...",
+				"That's what Akechi-kun said—that they're dangerous. I hope someone puts a stop to them.",
+                "That’s what Akechi-kun said—that they’re dangerous."
+			],
+			"Melancholic Female Student": [
+				"Yeah, but we can't just ignore her, either, because of what happened with Mr. Kamoshida.",
+                "Yeah, but we can’t just ignore her, either"
+			],
+			"First-Year Volleyball Player": [
+				"You know, I've been hearing rumors about how Mr. Kamoshida and Suzui-senpai stay late ...  She always shows up to meetings though. It's weird she wasn't at the one yesterday...",
+                "You know, I’ve been hearing rumors about how Mr. Kamoshida and Suzui-senpai"
+			],
+			"Mature-Looking Girl": [
+				"Guess you're getting yourself a job. Those",
+                "Guess you’re getting yourself a job"
+			],
+			"Tall Student": [
+				"Takamaki-san, I had you all wrong",
+				"I'm sure there's a ton of people who want to apologize to you. We're so sorry ... !",
+                "I’m sure there’s a ton of people who want to apologize to you",
+				"W-Well, see you later then..."
+			],
+			"Gentle Girl": [
+				"I can't believe there are real-life superheroes. If it's happened twice, it's probably going to happen again. Can't wait to see who's next.",
+                "I can’t believe there are real-life superheroes",
+				"I dunno, I like it.",
+				"A show of support, huh?"
+			],
+			"Friend of Scared Student": [
+				"Yeah, I heard it",
+				"Maybe we should ask the Phantom Thieves? They fight for justice, take down bad guys, right?"
+			],
+			"Motivated First-Year": [
+				"Yeah, there's SO much merch for them. Maybe I should buy some.",
+                "Yeah, there’s SO much merch for them",
+				"I heard she's engaged. Can you believe that? She's still in high school!",
+                "I heard she’s engaged.",
+				"Her dad was on TV saying they called the police about it.",
+				"The Phantom Thieves did it, right? I really hope that rumor",
+				"Um ...  I'd save it and live off the interest.",
+                "Um ...  I’d save it and live off the interest.",
+				"Boring, but practical. Who knows what the new prime minister",
+				"Sure, but the police need to hurry up",
+				"It's like none of it ever happened. Pretty insane, if you ask me.",
+                "It’s like none of it ever happened."
+			],
+			"Thieves-loving Student": [
+				"That doesn't mean that criminals should be left to do whatever they want ... ",
+                "That doesn’t mean that criminals should",
+				"I wonder if Akechi-kun has been right all along ... "
+			],
+			"Obsessive Female Student": [
+				"Isn't this insane!? There are murderers among us!",
+                "Isn’t this insane!? There",
+				"For real!? You gotta report that."
+			]
+		},
+		"Girl 5": {
+			"Sharp Student": [
+				"It's probably because of Mr. Kamoshida, right? Considering what happened with Suzui-san ... ",
+                "It’s probably because of Mr. Kamoshida, right?",
+				"I heard Principal Kobayakawa knew about the sexual harassment too and just turned a blind eye to it. I bet he wants to snuff out any rumors now. Even the volleyball team was told to keep quiet...",
+				"Oh yeah, rumor has it she knew as well.",
+				"We had front row seats. I could practically reach out and touch Akechi-kun!"
+			],
+			"Gentle Girl": ["Maybe I'll swing by the", "Maybe I’ll swing by the"],
+			"Bandwagoning Student": [
+				"You know they're murderers, right?",
+                "You know they’re murderers, right?",
+				"Still, couldn't they have at least left the principal to the police? And I mean, did you see that press conference? No way allies of justice would do that.",
+                "Still, couldn’t they have at least left the principal",
+				"He's so admirable, sticking to his guns even though so many people were against him.",
+                "He’s so admirable, sticking to his guns"
+			],
+			"Chatty Female Student": [
+				"Now that you mention it, there was a guy in Shibuya",
+				"Oh crap, you think so? I snapped a pic, so I should probably put it online just in case. I hope the cops catch him!"
+			],
+			"Nervous Girl": [
+				"I dunno if that"
+			],
+			"Worried Volleyball Player": ["Mr. Kamoshida asked to see her..."],
+			"Ill-looking Girl": [
+				"I haven't been feeling well lately. My head's all foggy, and I have no energy ...  I've tried every drug at the pharmacy, but nothing works. Do I have some new virus? ...Is this the onset of a psychotic breakdown? Wh-What should I do? Am I going to die!?",
+                "I haven’t been feeling well lately."
+			],
+			"Black-Haired Student": [
+				"Wow, really?",
+				"Whoa, he actually knew that?",
+				"He's pretty smart!",
+                "He’s pretty smart!"
+			],
+			"Brown-haired Student": [
+				"They don't have to tell us not to commit suicide.",
+                "They don’t have to tell us not to commit suicide.",
+				"But why else would he start saying things",
+				"She usually looks so tired ... "
+			],
+			"Long-haired Student": [
+				"But look at what happened to Kamoshida.",
+				"Yeah, you might be right. I guess",
+				"I wonder if it"
+			],
+			"Energetic Student": [
+				"I see, so is the thing about him having a criminal record not true, then?",
+				"Right? It's like he's a prince. He's the Detective Prince!",
+                "Right? It’s like he’s a prince.",
+				"I love hearing that suave and soothing voice of his too! I wish he would talk to me like that.",
+				"Akechi-kun should deal with the mafia instead of the Phantom Thieves",
+				"Maybe they want to do it for fame.",
+				"I hope Akechi-kun isn",
+				"Hackers and Phantom Thieves sound like something out of a manga though.",
+				"Hmm, they're probably too busy for us right now. First, they have to focus on Okumura!",
+                "Hmm, they’re probably too busy for us right now",
+				"It's so shocking though. I mean, it's all connected to our school again. Now that President Okumura got that calling card, what do you think will happen?",
+                "It’s so shocking though.",
+				"They're murderers! Someone needs to capture them already!",
+                "They’re murderers!",
+				"It doesn't seem like the police will catch them anytime soon. I wish Akechi-kun would save us ... ",
+                "It doesn’t seem like the police will catch them",
+				"Oh, well. All of that stuff pretty much has nothing to do with us."
+			],
+			"Motivated First-Year": [
+				"Wow! Maybe we know them!",
+				"Maybe, but with all the other crazy stuff"
+			],
+			"Female Student in a Jersey": [
+				"Why don't you try posting online on a fan site? You never know, they might be checking those out.",
+                "Why don’t you try posting online on a fan site?",
+				"Why don't you try consulting with the student council? They were taking applications before.",
+                "Why don’t you try consulting with the student council?",
+				"Let's ask the Phantom Thieves for help. I'm sure they can take down the principal for us.",
+                "Let’s ask the Phantom Thieves for help."
+			],
+			"Hesitant Female Student": [
+				"\"Please consult the student council president if you have any details.\""
+			],
+			"Mature-Looking Girl": [
+				"Yeah, I think it",
+				"It comes with a sticker, right?",
+				"Yeah, it's a new fall fragrance. It's supposed to be mysterious, like the Phantom Thieves. I thought I'd wear it to show my support while they're out there taking down an evil corporation.",
+                "Yeah, it’s a new fall fragrance."
+			],
+			"Fast-talking Student": [
+				"Oooh, I know all about that! These guys supposedly come asking if you want an easy"
+			],
+			"Energetic First-Year": [
+				"But maybe Akechi-san will save us from danger and the two of us will fall in love!",
+				"People are all about them right now. I totally voted \"YES\" in that online poll!",
+				"They should team up and take out Tokyo",
+				"I dunno though. I mean, if he made all his money doing bad stuff, he deserves to be punished.",
+				"They could be right next to us for all we know!?",
+				"That's boring!",
+                "That’s boring!",
+				"Does that mean they don",
+				"The Phantom Thieves are so dangerous ...  Maybe Akechi-kun can do something about it.",
+				"Oh, you mean the new prime minister? Hey, do you remember all the fuss about the Phantom Thieves?",
+				"No one could really steal someone"
+			],
+			"Discerning Student": [
+				"Why don't we get tea? The diner in Shibuya serves Frui-Tea. It smells good, it's great for your skin, and it totally increases your charm!",
+                "Why don’t we get tea?",
+				"Haha, yeah—it really is a",
+				"It's so colorful. I just love watching people try to eat it!",
+                "It’s so colorful",
+				"Yeah, it's good! It kinda makes me think of my childhood. I get this warm feeling inside whenever I eat it that reminds me of my mom...",
+                "Yeah, it’s good!"
+			],
+			"Third-Year Girl": [
+				"It must be tough, organizing the funeral for a bigwig CEO."
+			],
+			"Procrastinating Girl": [
+				"At least the school festival",
+				"Don't say that! You're bummin' me out before the exams ...  Things are bad enough as is. If they cancel the festival, the students will riot!",
+                "Don’t say that! You’re bummin’"
+			],
+			"Calm Student": [
+				"No way ...  Is someone getting arrested?",
+				"If the Phantom Thieves hear this, we might be in danger."
+			],
+			"Female Student": [
+				"With Akechi-kun and Shido-san, it feels like some heroes have been born this year!"
+			]
+		},
+		"Girl 6": {
+			"Concerned Girl": [
+				"Calm down, calm down! Let"
+			],
+			"Brown-haired Student": [
+				"Hamiru seems kind of smart",
+				"Maybe I should ask if I can borrow his notes...",
+				"I didn't expect that. He might not be too bad...",
+                "I didn’t expect that. He might not be too bad..."
+			],
+			"Hungry Student": [
+				"Have you seen the",
+				"I'm amazed whenever someone can eat it really neatly.",
+                "I’m amazed whenever someone can eat",
+				"Have you ever tried the",
+				"Yeah, if comfort had a taste"
+			],
+			"Calm Student": [
+				"Hey, not so loud.",
+				"I don't know, I'm too scared to ask. Anyway, it's probably best not to get too involved with him.",
+                "I don’t know, I’m too scared to ask",
+				"Y-Yeah ...  I knew, but ...",
+				"Poor Okumura-san ... ",
+				"We should never have turned our backs on Akechi-kun. All we can do now is ask him for help ... ",
+				"Ah, don't say that. I get scared just by thinking they could be lurking nearby ...  I've been writing all over the Phan-Site, asking the Phantom Thieves to give themselves up.",
+                "Ah, don’t say that. I get scared",
+				"I have no idea. If someone",
+				"I don't even know anymore ...  Apparently, the Phantom Thieves were also just an internet rumor.",
+                "I don’t even know anymore ...  Apparently"
+			],
+			"Calm Girl": [
+				"Yeah, but ...  Are they still going to hold it? It might get canceled ... "
+			],
+			"Slightly Excited Girl": [
+				"I think I might ask for his autograph after school.",
+				"What? That's probably just a rumor spread by fans to scare the competition.",
+                "What? That’s probably just a rumor"
+			],
+			"Gaudy Female Student": [
+				"I bet it's about that girl that jumped the other day.",
+                "I bet it’s about that girl that jumped",
+				"There was that weird calling card too, so I guess the teachers are freaking out?",
+				"Maybe because it almost got leaked?"
+			],
+			"Short-Haired Student": [
+				"It's got to be made up. Do you seriously believe they exist?",
+                "It’s got to be made up.",
+				"He probably just couldn",
+				"Most importantly, it seriously sucks that our school is gonna be known for stuff like this!"
+			],
+			"Female Council Member": [
+				"We've already received some anonymous information. \"I heard some students are getting threatened. I'm so scared ...  Please do something.\"",
+                "We’ve already received some anonymous information.",
+				"So there are victims even at our school ...  What should we do ... ?"
+			],
+			"Female Student": [
+				"I was so scared I changed the channel ... ",
+				"With all this stuff about the principal and Kamoshida this year",
+				"How'd you do?",
+                "How’d you do?",
+				"Hey, look at that! Look who got the top score!"
+			]
+		},
+		"Girl 7": {
+			"Female Council Member": [
+				"I don't know. She hasn't said anything to me.",
+                "I don’t know",
+				"I don't know ...  She does seem a little worried. All I hear her tell us is, \"Just leave it to me!\"",
+                "I don’t know ...  She"
+			],
+			"Easygoing Shujin Girl": [
+				"Is that site safe to look at?",
+				"Hmm, I think so. Akechi-san was talking about them on TV, after all.",
+				"Oh yeah, the culprits are still a real mystery ...  I wonder if they really are from my school.",
+				"What!? Are the Phantom Thieves at it again?",
+				"I guess it doesn't really matter who did it, as long as they're getting rid of the bad guys.",
+                "I guess it doesn’t really matter who did it"
+			],
+			"Gossiping Female Student": [
+				"Maybe it wasn't suicide ...  Do you think the Phantom Thieves took him down!?",
+                "Maybe it wasn’t suicide",
+				"That would be amazing! Either way, it serves that principal right!"
+			]
+		},
+		"Adorable Woman": {
+			"Woman in tartan miniskirt": ["Ohhh, I see."]
+		},
+		"Phone": {
+			"Convenience Store Manager": [
+				"Thanks for waiting. So, you wanted to apply for a part-time job?"
+			],
+			"Hanasaki": [
+				"Hi, this is the flower shop Rafflesia."
+			],
+			"Manager": [
+				"Hello. This is Ore no Beko on Central Street."
+			],
+			"Victoria's Housekeeping": [
+				"I take it you",
+				"Is there anyone in particular",
+				"Very well! Let"
+			],
+			"Yamauchi": [
+				" ...  ...  And the best part is"
+			],
+            "Convenience Store Employee": [
+                "Hi, this is Triple Seven on Central Street."
+            ]
+		},
+		"Question Mark": {
+			"Art Patron": ["Is someone there?"],
+			"Agent": [
+				"...suspects...not...confirmed...hold...your...positions ... "
+			],
+			"Lavenza": [
+				"A prisoner of fate to a future that has been sealed in advance."
+			],
+			"Futaba Sakura": ["Mwehehe ...  Clues on Medjed, huh ... ?"]
+		},
+		"Shadow 2": {
+			"Security Guard Shadow": [
+				"Hm!? Who are you!? I see, that attire ...  You must be the thieves who dare threaten Lord Madarame!"
+			],
+			"Security Guard Shadow (Red)": [
+				"You expect me to move just because you tell me to!?"
+			]
+		},
+		"Shadow 4": {
+			"Security Guard": [
+				"Excuse me, but do you have an appointment?",
+				"Reception is further in to the right. I strongly advise that you do not attempt to go elsewhere."
+			],
+			"Security Guard Shadow (Oni)": [
+				"The target is still alive! We must deal with them at any cost!",
+				"Don't let them escape! We must take them down!",
+                "Don’t let them escape!"
+			],
+			"Aggressive Shadow": [
+				"What's wrong? Are you nervous? Don't be. We have the keys they need, so things should be OK as long as we protect them.",
+                "What’s wrong? Are you nervous?",
+				"What!? Then that comm earlier ...  How dare you!"
+			],
+			"Cautious Shadow": ["This was a trap!? You bastards!"],
+			"Security Shadow": [
+				"Well, Mr. Kaneshiro ordered me to absolutely not let anyone past this point. Accept your death!"
+			]
+		},
+		"Nue": {
+			"Security Guard Shadow": [
+				"...You cannot go any further! You are trespassing"
+			]
+		},
+		"Chatter": {
+			"Laid-Back Woman": ["So, they're good guys?", "So, they’re good guys?"],
+			"Female Assistant": [
+				"Here is a graph of the profits for stores handling these items.",
+				"I wonder how our guests consider this recent phenomenon.",
+				"Oh, sure. If I were twenty years younger",
+				"A lot of women have been calling him their ideal man, right?",
+				"Shido-san is popular as a man of the people. People really have high hopes in him as a politician.",
+				"Oh, she plays Feather Pink",
+				"Madarama takes in children with no family as his pupils, giving the a home, right?",
+				"She's really gained a lot of sex appeal since she hit 20. And look at how sexy her outfit is, too.",
+                "She’s really gained a lot of sex appeal since she hit 20"
+			],
+			"Male Student's Voice": [
+				"It was scary, but"
+			],
+			"Female Student's Voice": [
+				"I'm glad I don't have to deal with that sexual harassment anymore...",
+                "I’m glad I don’t have to deal with that sexual harassment anymore..."
+			],
+			"Female Student's Voice 2": [
+				"Like, I"
+			],
+			"Female Host": [
+				"It's a fashion statement!",
+                "It’s a fashion statement!",
+				"Oh, the phones are already ringing off the hook!",
+				"Oh, another buyer",
+				"Goodbye for now!",
+				"Yes, if you really want to build muscle",
+				"Oh, the phones are already ringing off the hook!",
+				"You can get as many wounds as you want if you have these!",
+				"Everyone will be impressed by your traditional style as you click-clack down the street!",
+				"It's true, I always think about all sorts of random things while I'm just flossing my teeth.",
+                "It’s true, I always think about",
+				"They're so light, it feels like your feet aren't wearing any socks at all!",
+                "They’re so light",
+				"It's true! Sweets are like a mental tranquilizer!",
+                "It’s true! Sweets are",
+				"It's perfect",
+				"Be careful not to burn yourself!",
+				"It makes you lose your appetite?"
+			],
+			"Bespectacled Office Worker": [
+				"Guh ...  Pollen allergies suck"
+			],
+			"Pale Young Man": [
+				"Sure, the pay"
+			],
+			"Young Office Worker": [
+				"That parliamentarian from when I was a kid ...  Toranosuke something.",
+				"Huh ...  Yeah, I saw him in line for food. It was weird seeing a politician eating at the same place as we do."
+			],
+			"Lawyer on Game Show": [
+				"That's a high school prodigy for you. Today, forcing a confession is forbidden under law, and...",
+                "That’s a high school prodigy",
+				"Fraud involves deceiving a person.",
+				"You consume gas and wear down the tires.",
+				"Okumura Foods is likely only guilty of long hours and unpaid overtime",
+				"If you publicly say something that hurts someone",
+				"Article 1 of our Constitution states \"the Japanese people hold sovereignty.\" The power is yours! I may get flak for saying this, but I think every single person has the power to change society."
+			],
+			"Pro Shogi Player": [
+				"Ah, yes, I",
+				"It's definitely easier for the younger generation to win at speed shogi. Though wait, there is one exception.",
+                "It’s definitely easier for the younger generation",
+				"Wait ...  Hm? If I take this and they take that, will I have enough pawns ... ?",
+				"Oh, was it? I probably have no choice but to give up at this point."
+			],
+			"Boy on Game Show": [
+				"The correct answer is ...  B! Probation officers"
+			],
+			"DTD Co-host": [
+				"It even puts some Chinese food to shame.",
+				"Yes, the Ferris wheel is really popular among couples.",
+				"I'm afraid of heights, so the street stalls in Asakusa might be a better fit for me ...  Hahaha.",
+                "I’m afraid of heights",
+				"Oh, that looks like quite a luxurious snack.",
+				"Such a magical place. If you want to get close to someone, this is the date spot to visit.",
+				"With how everything",
+				"Oh, I go there all the time.",
+				"That sounds nice. It",
+				"I'm actually really into retro games, and I always visit the used game stores in Akihabara. I always get excited when I find an old",
+                "I’m actually really into retro games",
+				"This is from Body Chop, right? I hope the one in the underground mall in Shibuya still has some.",
+				"I heard all sorts of celebrities and even political big shots go there undercover to eat.",
+				"Oh, I love",
+				"Rise Kujikawa went on hiatus for a bit, but maybe her unwavering appeal is from the power of tofu?",
+				"I must say, the young proprietress is quite the beauty!"
+			],
+			"Loud Lady": [
+				"Ah, on that talk show? It was simply dreadful.",
+				"How can anyone seriously suggest supernatural beings are stealing"
+			],
+			"Knowledgeable Office Worker": [
+				"Yeah, I read something about that online. The beautiful fortune teller, or something"
+			],
+			"Priest": [
+				"Lambs who"
+			],
+			"Pundit": [
+				"This dangerous group tampers with"
+			],
+			"Talkative Woman": [
+				"Isn't that what people said about that hacker group, too? It's just a nice way of saying they're blackmailing bad people into confessing their crimes! Who're you to doubt the Phantom Thieves, anyhow?",
+                "Isn’t that what people said about that hacker group, too?"
+			],
+			"Employee": [
+				" ...  ...  Futaba? Over at Sakura"
+			],
+			"Treasure Demon": ["A curse shall befall you ... "],
+			"Adult Male Voice (Futaba's Palace)": [
+				"\"She was always such a bother ... \" It seems you caused your mother a great deal of trouble, Futaba-chan ...  She must have had some kind of maternity neurosis...",
+				"It seems you caused your mother a great deal of trouble, Futaba-chan",
+				"She had worked so hard on it as well ...  She lost her mind",
+				"It's your fault!",
+                "It’s your fault!",
+				"Murderer!"
+			],
+			"Futaba's Mother": [
+				"...Y-You ...  aaaaaareee ... ",
+				"You know I",
+				"...Y-You ...  aaaaaaareee ... "
+			],
+			"TV Interviewer": [
+				"That doesn't seem like a bad move to me, but ...  I suppose you speak from experience.",
+                "That doesn’t seem like a bad move to me",
+				"Well then ...  Let's move on to the postmortem, where we analyze what happened in the game.",
+                "Well then ...  Let’s move on to the postmortem",
+				"Oh, he just moved his pawn to 9-5 ... "
+			],
+			"Prime Minister": [
+				"The government acknowledges the current rumors of the group called the Phantom Thieves. We are currently confirming facts with the police and wish to deal with it in an appropriate--"
+			],
+			"Businessman's Boss": [
+				"I thought it was just an ordinary website ... ",
+				"Huh ...  Maybe I should go vote for our company president."
+			],
+			"Gossipy Woman": [
+				"I read an article about Shujin in a magazine ...  \"High School Horrors: A School-wide Cover-up.\""
+			],
+			"Foodie Girl": ["A stand in Shibuya Station was selling"],
+			"Young Man": [
+				"I mean, even the harshest TV commentators are praising them. A lot of celebrities are talking openly about the Phantom Thieves.",
+				"\"Justice can",
+				"Well, there's been a lot of talk about him being exhausted, maybe even sick. Who knows, though ...  Besides, he'd have been arrested already if any of it were true. Maybe he's waiting on an official statement from the government on who'll be the next prime minister?",
+                "Well, there’s been a lot of talk about him being exhausted"
+			],
+			"Flight Attendant": ["Coming right up."],
+			"Tired Office Worker": [
+				"Do you think Okumura really exploited his employees? Every little rumor goes viral these days. What if it was all just a lie? If so, the real victims here are the employees themselves."
+			],
+			"Calm Journalist": [
+				"Furthermore, these happened to be officials who stood against your proposal for overseas expansion. The same thing also happened to executives at competing companies who were looking to expand abroad. Is all of this true?",
+				"Was it all coincidence?",
+				"We'd like some answers.",
+                "We’d like some answers."
+			],
+			"Angry Businessman": [
+				"Why else would they kill him during a press conference?",
+				"Murdering someone to make a point is textbook terrorism. Like Shido and that Akechi kid say, the Phantom Thieves are a menace."
+			],
+			"Arrogant Youth": [
+				"The government and the police are useless. Are they even trying?"
+			],
+			"Advisor": [
+				"If so, those occurrences back in spring can be attributed to them as well. Moreover ... "
+			],
+			"Casino Security Guard": [
+				"Let him feel like he"
+			],
+			"Ring Announcer": [
+				"Odds are 1.1 to the house, 23.0 to the Phantom Thieves!",
+				"Wow, the Phantom Thieves are surprisingly popular!",
+				"Now then, it",
+				"You know, that",
+				"Quiet down in the peanut gallery.",
+				"Grr, there",
+				"Go, grind his bones to dust! Let the extreme third battle begin!",
+				"Th-the payout will be handed over after this ...  Please wait ... "
+			],
+			"Older Man in a Suit": [
+				"Honestly, it doesn"
+			],
+			"Uninformed Girlfriend": [
+				"Oh, I know Shido-san too! Sounds like he really wants to improve this country!"
+			],
+			"Stylish College Student": [
+				"I don't usually care about elections, but it's exciting when people are so into it!",
+                "I don’t usually care about elections"
+			],
+			"Game Shop Employee": [
+				"That prize postcard and password ... !",
+				"...Ah, sorry. I got all pumped without realizing it. Were there any games you wanted to check out?",
+				"Ohhh, that deep backstory, and those beautiful character designs!",
+				"Oh, I have some prizes left from back then, so I can exchange them with that postcard for you!"
+			],
+			"Commentator": [
+				"He might be small, but",
+				"And right as the bell rings, Joe comes out aggressive!",
+				"The challenger lands an impressive counter, and Joe falters!",
+				"What an intense string of punches! Joe goes down!",
+				"What a combo! Joe goes down!",
+				"Graham Joe has crumbled! Our challenger wins!"
+			],
+			"Bright Student": [
+				"Especially Akechi-kun. He"
+			],
+			"Handsome Professor": [
+				"This election may very well be a historical turning point for this nation."
+			],
+			"Brown-haired Youth": [
+				"I can't believe he turned out to be a criminal ... ",
+                "I can’t believe he turned out to be a criminal",
+				"I dunno what's going on anymore. Opinions are all over the place online. What's this mean for the election? This country's in trouble—we have no prime minister.",
+                "I dunno what’s going on anymore."
+			],
+			"Drained Businessman": [
+				"The world is already complete ..."
+			],
+			"Dull-Eyed Student": [
+				"Nobody listens if we try to oppose them ...  All that happens is our spirits are crushed ...  It might be smarter to just accept life for what it is and surrender to their will ... "
+			],
+			"Befuddled Man": [
+				"All of this is going to end soon anyway ...  You might as well patiently await your demise ... "
+			],
+			"Stern Businessman": [
+				"Following those things is the only correct way of living."
+			],
+			"Exhausted Young Man": [
+				"No matter how much they beat or kick you ...  it is all for your own self-benefit in the end ...  If anything, I should feel thankful ...  This is exactly what I deserve ... "
+			],
+			"Wry-smiling Woman": [
+				"I heard there were some others who escaped this place, but they found their way back recently "
+			],
+			"Dull-Eyed Young Man": [
+				"And besides ...  "
+			],
+			"Smirking Woman": [
+				"So, why don't you guys come join us? The world's going to end soon anyway, so you might as well ... ",
+                "So, why don’t you guys come join us?"
+			],
+			"Resigned Middle-Aged Man": [
+				"I've heard there's a place reserved for the most terribly evil people of them all ... ",
+                "I’ve heard there’s a place reserved"
+			],
+			"Hopeless Student": [
+				"Here, any wish can become reality ..."
+			],
+			"Cynical Middle-Aged Man": [
+				"The only reason you can act so grand is that you live in a safe zone, devoid of possible failure."
+			],
+			"Unfriendly Woman": [
+				"It was a fun joke while it lasted"
+			],
+			"Vacant Young Man": [
+				"I'd rather use that time for myself before it's too late ... ",
+                "I’d rather use that time for myself before it’s too late ... "
+			],
+			"Resigned Young Man": [
+				"And my dreams ... ? I just have to deal with never seeing them come true."
+			],
+			"Tired Middle-Aged Woman": [
+				"It won't matter soon enough anyway ... ",
+                "It won’t matter soon enough anyway"
+			],
+			"Calm Young Man": [
+				"Just let me see out the end of this world in peace ... "
+			],
+			"Tired Businessman": [
+				"I feel sick just thinking about it. All I can really do now is ignore it, I suppose."
+			],
+			"Timid Young Man": [
+				"I might lose the one place I belong if I put myself out there"
+			],
+			"Rental Shop Employee": [
+				"As this is your first time, I will waive the late fee.",
+				"If you miss the due date again, you will need to pay a late fee. Please try to return DVDs on time.",
+				" ... Hm? This isn't the first time you're late, is it? Didn't I warn you?",
+                " ... Hm? This isn’t the first time you’re late",
+				" ...  ...  Ugh, There are a bunch of customers in line",
+				" ...  ...  Since there are extenuating circumstances",
+				"This isn't the first time you're late, is it? Didn't I warn you?  ...  ...  Ugh, There are a bunch of customers in line, and my shift's already over ...   ...  ...  Since there are extenuating circumstances, I'll waive the late fee this time. If you miss the due date again, you will need to pay the fee. Please try to return DVDs on time. Don't count on this again, OK?",
+                "This isn’t the first time you’re late"
+			],
+			"Fishing Pond Attendant": [
+				"Way to go! You caught the Guardian! I can really feel your love for the fishing pond."
+			],
+			"Broke-ass College Student": [
+				"You gotta eat one of their giant burgers though, right? How can anyone actually finish that? Still ...  500 yen is a steal."
+			],
+			"IT Company President": [
+				"News travels quick.",
+				"Don't worry about it. We just have to do what they tell us to do. It's all rumors made up by school kids, anyway. If it's gripping news, who cares if it's not true?",
+                "Don’t worry about it. We just have to do what they tell us to do",
+				"Hm?",
+				"Ah, nothing. I thought some weird kid was looking at us"
+			],
+			"TV Station President": [
+				"It's all about how you frame it. You've got to cater to the idiot public. Ratings go up when you show them crude, sensational news, and make it easy for them to understand.",
+                "It’s all about how you frame it",
+				"Well, that's-- Hmm ... ?",
+                "Well, that’s-- Hmm ... ?",
+				"Haha, who knows? Sorry"
+			],
+			"Subordinate 2": [
+				"It's not even an incident we can take seriously. The whole story is pretty ridiculous. We should probably look into it, but we can also just let the low-ranking scrubs handle it.",
+                "It’s not even an incident we can take seriously",
+				"He's going to be arriving soon. We don't want to keep him waiting, so we better get going too.",
+                "He’s going to be arriving soon"
+			]
+		},
+		"Whisper": {
+			"Dolled-up Office Worker": [
+				"You going snowboarding or something?",
+				"That sounds awful..."
+			],
+			"Caring Young Friend": [
+				"I thought you liked that place"
+			],
+			"Boy on Game Show": [
+				"The correct answer is A, \"queen.\" Yes"
+			],
+			"Young Woman": [
+				"The Phantom Thieves fight for the people! Anyone opposed to them is just behind the times. Just look at that Akechi kid"
+			],
+			"Middle-aged Man in a Suit": [
+				"Of course. He's the only reliable politician there is. Plus the current government has been getting wrapped up in scandal after scandal. Even more importantly, there's just an aura about him. Like he can fix whatever problems we have.",
+                "Of course. He’s the only reliable politician there is"
+			],
+			"Energetic College Student": [
+				"The Big Bang Challenge or whatever. If you go at night, you can eat for only 500 yen."
+			],
+			"Robot Clerks": [
+				"I WONDER HOW THE",
+				"NO MATTER HOW MUCH I WORK",
+				"THIS JOB JUST NEVER ENDS ... ",
+				"APPARENTLY HIS STOMACH IS DONE FOR.",
+				"SOMEDAY I",
+				"OW ...  MY HIP HURTS. I WISH I COULD TAKE A DAY OFF ... ",
+				"I HEAR THE CHIEF CLERK",
+				"THE SECTION CHIEF SAYS \"",
+				"WAKE UP, GO TO WORK, COME HOME, SLEEP ...  RINSE AND REPEAT, FOR THE REST OF MY LIFE ... ",
+				"MY INCOMPETENT BOSS KEEPS MANIPULATING ME. I ALWAYS GET THE WORST OF IT ... ",
+				"THE",
+				"HM, IS IT DAY OR NIGHT?",
+				"IT MUST BE NICE BEING A SECTION CHIEF. ALL YOU HAVE TO DO IS",
+				"THINGS MAY BE TOUGH, BUT THIS IS ALL FOR THE SAKE OF MY FUTURE ... ",
+				"THINGS MAY BE TOUGH, BUT THIS IS ALL FOR THE SAKE OF MY FUTURE",
+				"I'M USED TO",
+                "I’M USED TO",
+				"THERE IS NO FUTURE FOR ANY OF US IF THE COMPANY",
+				"THE SECTION CHIEF ALWAYS SAYS \"",
+				"HE'S SO COCKY, BUT HE BARELY DOES ANY WORK HIMSELF.",
+                "HE’S SO COCKY",
+				"IT'LL ONLY CAUSE TROUBLE FOR EVERYONE IF I COLLAPSE NOW ... ",
+                "IT’LL ONLY CAUSE TROUBLE FOR EVERYONE",
+				"IT-IT-T-IT'LL ONLY CAUSE TROUBLE FOR EVERYONE IF I C-C-C-COLLAPSE NOW ... ",
+                "IT-IT-T-IT’LL ONLY CAUSE TROUBLE",
+				"I'M HAPPY TO BE ABLE TO WORK FOR THIS COMPANY! GARBAGE LIKE US ARE GRATEFUL FOR OUR WORK AT OKUMURA FOODS!",
+                "I’M HAPPY TO BE ABLE TO WORK FOR THIS COMPANY!",
+				"THE CHIEF DIRECTOR ALWAYS SAYS THIS COMPANY IS THE",
+				"BUT I WILL BE OK. THE HEART OF A ROBOT WILL NEVER B-B-B-B-BREAK!",
+				"ISN'T THE SECTION CHIEF'S LAUGH STRANGELY HAPPY? IT GOES \"",
+                "ISN’T THE SECTION CHIEF’S LAUGH STRANGELY HAPPY?",
+				"THEY SAY IT'S GOOD TO STRUGGLE THROUGH LIFE WHILE YOU'RE YOUNG ...  I WON'T BE ABLE TO BECOME A REAL ADULT UNLESS I CAN PUSH THROUGH THIS.",
+                "THEY SAY IT’S GOOD TO STRUGGLE THROUGH LIFE",
+				"AHHH, I'M FA-FA-FA-FA ...  FALLING APART...",
+                "AHHH, I’M FA-FA-FA-FA ...",
+				"I'M TIRED OF THE SECTION CHIEF BOASTING ABOUT",
+                "I’M TIRED OF THE SECTION CHIEF",
+				"I WAS TOLD THAT OTHERS HAVE HIGH HOPES FOR ME. I AM BETTER THAN THEM! I HAVE TO WORK HARDER THAN ANYONE ELSE!",
+				"I'M IN PAIN, BUT I MUST KEEP WORKING. OTHERWISE MY FAMILY WILL BE TURNED INTO FUEL ... ",
+                "I’M IN PAIN, BUT I MUST",
+				"I SIMPLY HAVE TO DO IT! WORK IS THE ONLY OPTION!",
+				"LIFE IS ONLY WORK. THEY MAKE YOU SURRENDER YOUR HOPES, DREAMS, PERSONALITY ... ",
+				"THEN IF YOU WORK TOO HARD, YOU BREAK AND THEY DISCARD YOU.",
+				"DON'T WORRY. SOMEBODY WILL SURELY DO SOMETHING ABOUT THIS EVENTUALLY.",
+                "DON’T WORRY. SOMEBODY WILL SURELY DO SOMETHING",
+				"I'LL JUST HAVE TO STAY QUIET UNTIL THAT DAY COMES.",
+                "I’LL JUST HAVE TO STAY QUIET"
+			]
+		},
+		"Murmur": {
+			"Glasses-wearing worker": [
+				"Well, that's probably his new gimmick, right? Pandering to middle-class people.",
+                "Well, that’s probably his new gimmick",
+				"He hangs out at train stations giving speeches these days",
+				"Well, even if the CEO has a change of heart, the company",
+				"Nah, the rumors about Okumura Foods were all well-known in the industry."
+			],
+			"Lawyer on Game Show": [
+				"Probation officers are civil volunteers. They are only paid the necessary amount when providing a report. Since probation is intended to encourage rehabilitation, overseas travel is not prohibited."
+			],
+			"Heavily Made-up Woman": [
+				"Unfortunately, my precious children all think"
+			],
+			"Fortune-telling Aficianado": [
+				"Some say she can divine your very destiny. Maybe she can tell me who my soulmate will be"
+			],
+			"Skeptical Woman": [
+				"Did the Phantom Thieves really do that? Maybe people are just having fun, giving them credit for a coincidence",
+				"...What?"
+			],
+			"Businessman": [
+				"Lately they",
+				"Given people"
+			],
+			"Observant Woman": [
+				"The principal claimed he"
+			],
+			"Inquisitive Girl": [
+				"Was that incident with Mr. Kamoshida just the beginning?",
+				"Phantom Wafers"
+			],
+			"Angry Parent": [
+				"I read somewhere that Okumura raised his daughter alone."
+			],
+			"Dissaffected Youth": [
+				"A mysterious group of murderers, an inept government"
+			],
+			"Trendy Boyfriend": [
+				"I think Masayoshi Shido is even more amazing though."
+			],
+			"Flashy College Student": [
+				"We might be hearing news about the birth of the Shido administration by the end of the year."
+			],
+			"Soft-spoken Student": [
+				"I'm sure he's just busy investigating. Just keep supporting the election and wait.",
+                "I’m sure he’s just busy investigating."
+			],
+			"Exhausted Professor": [
+				"We should feel lucky to be able to witness such a historic event."
+			],
+			"Black-haired Youth": [
+				"But, didn't the leader of the Phantom Thieves commit suicide? That \"comeback\" video posted online right before the election—it's real?",
+                "But, didn’t the leader of the Phantom Thieves commit suicide?"
+			],
+			"Young Woman": [
+				"I dunno, something about this seems off."
+			],
+			"Reliable Woman": [
+				"It doesn't sound like a serious story to me. Some of the details are pretty far-fetched.",
+                "It doesn’t sound like a serious story to me",
+				"What's wrong?",
+                "What’s wrong?"
+			],
+			"Fancy Girl": [
+				"So the ratings for the news were really that good? It was because it was about that teacher who sexually harassed his student, huh? Was it Kamoshida?",
+				"By the way, do you think these \"sudden changes of heart\" might be real?",
+				"So because he had a sudden change of heart, he just confessed to all his crimes?"
+			],
+			"Subordinate 1": [
+				"...When you really look at it",
+				"Hmm?",
+				"What is he going to discuss with the higher-ups?"
+			],
+			"Futaba Sakura": [
+				"I'm ...  I'm tired of eating dinner alone all the time. It's always just convenience store bentos ... ",
+                "I’m ...  I’m tired of eating dinner alone all the time",
+				"I wanna go somewhere. Take me on a trip!"
+			],
+			"DTD Reporter": [
+				"We've got one more place to introduce in our summer special feature! You've been living under a rock if you've never heard of this one. It's Destinyland in",
+                "We’ve got one more place to introduce",
+				"Next, we talk about the fishing pond in"
+			]
+		},
+		"Alibaba": {
+			"Futaba Sakura": [
+				"I'm not mentally prepared!",
+                "I’m not mentally prepared!",
+                "It’s too sudden.",
+				"It's too sudden.",
+				"The other me?",
+				"Give me some time.",
+				"That's too short! At least minutes. Please!",
+                "That’s too short!",
+				"All right, I'll open it now.",
+                "All right, I’ll open it now."
+			]
+		},
+		"TV": {
+			"Tabloid Show Host": [
+				"The citizens can",
+				"The original Detective Prince was Naoto Shirogane, but people are excited about this new one!",
+				"His many works fetch extraordinary prices, even overseas.",
+				"Tomorrow on Good Morning Japan, our guest is Japanese artist Ichiryusai Madarame. A master who brings fantastical scenes to life, how does he feel about his latest exhibition?",
+				"Popular idol Rise Kujikawa is releasing a new song! This time, the theme is \"mature love\"!",
+				"Kizuna Fest is happening again this year, and it looks like the demand for tickets is huge." ,
+				"It's actually been quietly becoming a boom? Why don't YOU try revisiting your childhood?",
+                "It’s actually been quietly becoming a boom?",
+				"After the commercial break",
+				"Double from last year!? Phantom Thief goods seem to be in especially high demand.",
+				"What do you think, Akechi-kun?",
+				"Well this is surprising. Your stance seems to have softened.",
+				"Come on, you can say it.",
+				"It's all about looking fabulous and mysterious at the same time! Girls really like this look, huh?",
+                "It’s all about looking fabulous and mysterious",
+				"We discuss his private life and the type of person he likes ...  at only eighty percent speculation!",
+				"Our special feature today is on Masayoshi Shido, who just might become our next prime minister.",
+				"Our guest today is Yukari Takeba",
+				"From one handsome detective with red sunglasses, to a legendary gumshoe who took down a bear!"
+			],
+			"Newscaster": [
+				"The effects of yesterday",
+				"The Minister of Transport has made his first public appearance since the tragic train accident. He refused to respond to claims that he had ignored safety risks that may have led to the accident.",
+				"Criticism of the government is on the rise, and the minister may be forced to resign. The incident drastically affected his approval rating, as evidenced by a poll conducted by this show.",
+				"The opposition party is blaming the prime minister for appointing him in the first place ... ",
+				"Many other incidents similar to this one have been reported recently. In all cases, there was no warning or indication exhibited by the afflicted. Police have not released an official statement regarding this similarity, but ... ",
+				"It's called a bank transfer scam, and they've been happening much more frequently in the city. Many young people have been victimized, and the police are being told to stay on the alert.",
+                "It’s called a bank transfer scam",
+				"Criticism of the ruling party has surged, following the resignation of the Minister of Transport.",
+				"However, users of public transport have expressed unease in regard to the frequent accidents of late.",
+				"In the course of addressing the accident, the Minister of Transport ended up resigning. Many questions, however, still remain unanswered, as police struggle in their investigation.",
+				"And now to our next topic ...  Fall from Grace: The story of a dishonored Olympic medalist. Just recently, a high school coach admitted to his school that he had been perpetually abusing students. Given his prior Olympic achievements, this has caused quite a stir. What caused this habitual offender to suddenly confess these heinous crimes to his entire school? The police are hoping that the upcoming interrogations will bring light to this question.",
+				"Police are hurrying to solve the matter as it may relate to the rise in psychotic breakdown incidents.",
+				"A former Olympian in volleyball, he confessed to assaulting and sexually harassing his students. Police will be investigating his high school tomorrow to substantiate the claims.",
+				"The students found it hard to hide their bewilderment at the scandal surrounding a popular teacher. The police plan to finalize the arrest once they collect more evidence and finish investigating.",
+				"The high school where he worked and the board of education have been inundated with protests. Even in town and on the internet, many parents can be seen speaking out about their anger and unease.",
+				"An exhibition featuring Japanese artist Ichiryusai Madarame opens tomorrow in Shibuya. Anticipation for the exhibition is high, with specials broadcast on TV and great ticket sales.",
+				"This scandal has rocked the sports world—everyone ever involved with him is being pressed for answers. The volleyball association is currently considering banning him permanently, and...",
+				"Recently, personal info stored by several domestic companies was decrypted and leaked online.",
+				"An exhibition of Ichiryusai Madarame",
+				"People are out and about in the city, enjoying the early summer breeze. In the city, people can still escape and enjoy nature by visiting Inokashira Park...",
+				"With the recent economic slump, many companies are limiting their number of new hires. Popular companies are overwhelmed with applications, accepting applicants at very low rates.",
+				"Scams are much more intricate now, and many young people have fallen victim to them. Police are working to protect people from scams, but struggle to come up with countermeasures.",
+				"Turnout is much greater than expected, and those involved are pleased by its popularity.",
+				"He's received even more praise for his dynamic art style. Requests for commissions are flooding in.",
+                "He’s received even more praise for his dynamic art style.",
+				"The scandal occurred just before a stockholder meeting, having dire effects on the fast food chain. As for the man behind the scandal, he claims that he was \"fully nude at work before he realized it.\"",
+				"Even those who only came out of curiosity find themselves entranced by his delicate imagery. The exhibition is scheduled to continue until June 5th.",
+				"...And that was from the urgent apology conference by Madarame that took place just a moment ago.",
+				"On top of charges of abuse to his pupils, Madarame is under suspicion of claiming their works as his own. Some doubt the validity that his maiden work \"Sayuri\" was stolen, believing it was used for fraud. This large-scale criminal act has caused a great shock to the art world, and...",
+				"After the conference, Madarame was taken to a police hospital for interrogation due to his age. However, initial psych evaluations state that he is mentally sound and likely responsible for his actions.",
+				"Also, a group calling themselves the Phantom Thieves posted a dubious note at Madarame",
+				"A full psychiatric evaluation will be performed to further",
+				"He has admitted to selling copies of his famous painting \"Sayuri\" as the genuine article. Police intend to thoroughly investigate Mr. Madarame for fraud...",
+				"There's also reports of a strange letter from a group who call themselves \"#Millennials.\" Police are carefully investigating whether this group may have any relation to the case.",
+                "There’s also reports of a strange letter",
+				"Complaints about the authenticity of artwork are flooding in from buyers after the Madarame debacle. It seems this scandal will continue to cause confusion in the art world for some time.",
+				"It is still unclear what led Mr. Madarame to confess his crimes.",
+				"They have high appeal among young people and are said to be involved in Mr. Madarame",
+				"Since the year started, scam victims have been on the rise, mainly in the Tokyo metro area. A massive mafia group is rumored to be behind these scam incidents, but ... ",
+				"The Kanto region is expected to enter its rainy season soon.",
+				"The Japan Meteorological Agency reports that we should be getting average rainfall this year.",
+				"A team of reporters followed a police investigator who is on the mafia case. What was clear is that there is little the police can do.",
+				"An employee was arrested, but claims to be unable to recall any details of the crime. When questioned about his motive, the employee insisted he did not know what came over him. Incidents with suspects whose motives are unclear have been happening often in the restaurant industry ... ",
+				"The police stated that they are dedicating all their efforts to prevent more victims of the mafia.",
+				"The arrested employee continues to state that he cannot recall ever committing the crime. With no testimony to link to a motivation, the cause remains unclear. Crimes with suspects unable to explain their motives continue to occur in the restaurant industry.",
+				"At an event in the city, several people started feeling nausea and were taken to the hospital. The health department suspects food poisoning and is carrying out an investigation.",
+				"The mafia is suspected of being behind a rash of scams",
+				"There's been markedly more damage than a typical year, and people fear public safety has worsened. People are calling for people to be careful, but have yet to enact any effective countermeasures.",
+                "There’s been markedly more damage than a typical year",
+				"The ISP has announced that the problems were caused by an external attack. The perpetrators did not issue a statement, but they are suspected to be an anonymous hacker group.",
+				"Today, we interview a man who was once a con artist.",
+				"The Japan Meteorological Agency announced that the rainy season is expected to end next weekend.",
+				"Today, we'll be sharing the story of a woman who was a victim of such fraud. After she was scammed out of her money, she became emotionally unstable.",
+                "Today, we’ll be sharing the story of a woman",
+				"As before, the ISP has confirmed that this was the result of an external attack.",
+				"Many claim the government",
+				"Many people are surprised that such a major criminal was suddenly arrested.",
+				"Just before his arrest, \"calling cards\" with the suspect",
+				"At 8 o",
+				"Kaneshiro has admitted that he gave orders to his subordinates to carry out crimes. However, countless people fell victim to his scams. Investigating every single scam will take time.",
+				"It seems we'll continue to have localized torrential rainstorms all through next week. If you're heading outside, be prepared for sudden changes in the weather.",
+                "It seems we’ll continue to have localized torrential",
+				"Goodness Food",
+				"In the past few years, the damage they have caused has grown to several hundred billion yen. Even this year, there have been several cyber attacks attributed to Medjed.",
+				"\"The Phantom Thieves remain silent at our question. This proves that we are just. People of Japan, wake up. You must not worship the Phantom Thieves. We will discipline any who worship them. The punishment is the confiscation of possessions. We are Medjed. We are unseen. We will eliminate evil.\"",
+				"Our show managed to get a \"calling card\" left by—as it says here--\"The Phantom Thieves of Hearts.\" On it, they also claim that they will make their target \"confess their sins.\"",
+				"As of now, no one has stepped forward and identified themselves as part of the Phantom Thieves.",
+				"The Medjed homepage has posted a declaration of victory and an announcement of their next crime. This is thought to be yet another provocation against the Phantom Thieves, who have yet to respond.",
+				"After issuing their second statement, people are concerned about an impending cyber attack. The Phantom Thieves, however, continue to remain silent.",
+				"According to experts, there are many corporations that could be potential targets. Companies managing public transport and other utilities are pressured to take countermeasures.",
+				"The Phantom Thieves, however, have gained popularity on the internet as \"allies of justice.\" Support for them is growing, with some saying they are the only ones who can defeat Medjed. The world will be watching what the Phantom Thieves do before the deadline on August 21st.",
+				"...\"Medjed.\" They are a notorious hacker group whose members",
+				"...#Millennials.\" They",
+				"We conducted a survey about the upcoming showdown between the Phantom Thieves and Medjed.",
+				"The police are gathering intel about Medjed and promoting better awareness of security.",
+				"An estimate of the possible damage from a cyberterrorism attack has been announced. According to experts, such damage could reach trillions of yen.",
+				"Trains and planes are packed, and traffic continues to be jammed on the highways.",
+				"This clearly indicates how these international hacktivists have grown in influence and notoriety. Choosing the Phantom Thieves as their opponent is also thought to have increased their publicity ... ",
+				"In response to Medjed announcing its plan to attack, he called for the people to \"remain calm.\"",
+				"People on the internet have high hopes in these phantom thieves. What are your thoughts on this?",
+				"Airports and bus stations are teeming with people carrying souvenirs ... ",
+				"It's only days until August 21st, the day Medjed will attack, and corporations are scrambling. With no sign of a response from the Phantom Thieves, some suspect they've surrendered or ran away.",
+                "It’s only days until August 21st",
+				"With Medjed",
+				"August 21st—the day Medjed says it will attack—is hours away, and Medjed has been unnervingly quiet. If an attack does occur, we cannot rule out the possibility of it triggering a global recession.",
+				"Some citizens are trying to avoid going outdoors, and people have been in a constant state of worry.",
+				"Many corporations have been working around the clock without sleep to prepare for the attack.",
+				"Temperatures are rising across the country, marking the hottest days",
+				"As of now, the kind of damage they were promising has yet to be seen. Meanwhile, people on the internet are celebrating, calling this a victory for the Phantom Thieves.",
+				"They have stated they are \"investigating it carefully,\" with no mention of the Phantom Thieves. Many people have voiced their disappointment in the police, and ... ",
+				"People continue to praise the Phantom Thieves, who are thought to have prevented",
+				"Air pressure continues to be high",
+				"#Millennials",
+				"The Phantom Thieves shocked the world by silencing a globally notorious hacktivist group. Their popularity goes beyond our own borders, with foreign media following them closely as well. Many are heralding them as \"dark heroes\" and \"gentlemen thieves for a new age.\"",
+				"In regard to the so-called \"Phantom Thieves\" events that have been a hot topic among the general public ...  The prime minister held a press conference at his official residence to address the problem.",
+				"Many celebrities have started posting public apologies on their personal blogs and other outlets. The general opinion is that the reason why they are doing this is the Phantom Thieves. The rationale is that they will be spared by the Phantom Thieves if they apologize preemptively.",
+				"But who did it? Could #Millennials be possibly involved? We investigated to try and get to the bottom of this.",
+				"Foreign media outlets around the world have been reporting the fall of Medjed. Around the world, the Phantom Thieves are being praised for saving the world from this threat.",
+				"The Japan Meteorological Agency is concerned it will make landfall and is monitoring its path.",
+				"They're called the Phantom Thieves, and they're at the peak of their popularity. We're going to try to find out who they are. This spring was when they made their first appearance.",
+                "They’re called the Phantom Thieves, and they’re at the peak of their popularity",
+				"With Phantom Thieves inspired movies and TV shows in the works, this craze is still gaining momentum.",
+				"With the economy in a slump, some think that this may help give it the boost it needs.",
+				"Late last night, multiple glass windows were found shattered at the Okumura Foods Corporate HQ.",
+				"However, there were no signs of a break-in. Identifying the culprit is expected to be difficult ... ",
+				"The \"Phantom Thieves of Hearts\" craze has captured the hearts of people of all ages. Why exactly do they have such strong appeal? We asked people around town for their thoughts.",
+				"Police suspect that this is the work of a single criminal and are currently investigating. Okumura Foods released a statement, saying they have \"no clue\" who the vandal might be.",
+				"Former Okumura Foods employees have begun raising their voices in protest.",
+				"After our initial report on the protest, many people voiced their agreement on the internet. They are particularly calling for CEO Kunikazu Okumura to take responsibility.",
+				"The company has remained silent in response to questions from the media. Intense questioning from the media will likely continue until they get a satisfactory explanation.",
+				"It has become clear that harsh work conditions are the norm at Okumura Foods.",
+				"He has testified that he claimed to be a phantom thief in his post because he wanted the attention.",
+				"Police have warned people to be cautious of crimes that exploit the Phantom Thieves bandwagon.",
+				"Okumura Foods has gotten a lot of flak for how its work conditions have worsened in recent years.",
+				"A man living in Tokyo was arrested by police for running a scam. He tricked victims into paying him money with the empty promise of getting to meet #Millennials.",
+				"We followed a student who worked part-time at one of these companies. What we saw was a young person pressured by immense responsibilites.",
+				"The internet is rampant with speculation over the claims made on the calling card. Awareness of the Phantom Thieves is extremely high, and the world will be watching their next move.",
+				"Ever since the calling card was sent out, people have clamored",
+				"Former Okumura Foods employees who feel they are victims have formed an association and held a meeting. The association exchanged ideas among one another and vowed not to give up until justice is done.",
+				"Our reporters succeeded in getting an interview with a man who used to work for the company. What he described was a harsh work environment where employees are not allowed any freedom.",
+				"Their influence has expanded beyond Japan—even foreign nations know about the Phantom Thieves. Some countries are even taking bets about what the Phantom Thieves will do next.",
+				"The popularity of phantom thieves is as strong as ever. More people are becoming fans every day. Some, however, might be going too far with comments like, \"I want them to destroy all evildoers.\"",
+				"Today, we take an in-depth look into Kunikazu Okumura",
+				"The exhibitions reflected the students",
+				"The president of Okumura Foods collapsed during his conference and was taken to the hospital. However, we just received confirmation that he passed away. Truly a shocking turn of events.",
+				"Today, the police investigated President Okumura",
+				"Stock prices are low",
+				"It seems extremely likely #Millennials was involved in the incident with Mr. Okumura.",
+				"After the press conference was broadcast, people are now calling them \"criminals\" and \"murderers.\" On the street, people have also been expressing their concerns and fears about the Phantom Thieves.",
+				"Big Bang Burger had been planning to hold a charity event. However, the event has been canceled due to the recent incident.",
+				"The cause is thought to be discontent with how the government is dealing with #Millennials.",
+				"Those in the know say authorities are undergoing major restructuring to prepare to arrest the culprit.",
+				"After this conference, Akechi-san announced he will be limiting his media appearances and--",
+				"Yesterday, they spent the entire day conducting an investigation at a high school. However, it is unclear if they found any clues, and unease among citizens is at its peak. The government has been criticized by the public for allowing such a dangerous group to run free ... ",
+				"Stock prices of security companies are on the rise due to growing concerns about public safety. Overall stock market performance, though, is down, and phantom thief goods companies are suffering ... ",
+				"We conducted a survey about the Phantom Thieves, who have been the target of intensifying criticism. Close to ninety percent of respondents said they do not support the Phantom Thieves.",
+				"Criticism against him is not only coming from the opposition, but from the ruling party as well. If the ruling party does split, then a snap election may be a real possibility.",
+				"Although things have quieted down until recently, several incidents have occurred once again. Furthermore, new information has come to light about the suspect who suffered sudden mental shutdown ...  He had received a calling card from the Phantom Thieves.",
+				"We now resume our coverage of the Phantom Thieves, the suspects for",
+				"And considering the high amount, it shows how extraordinary the situation has become. Reward money will be supplied by the police and the families of the victims, further--",
+				"We consulted a profiling expert for his analysis.",
+                "It’s believed that all of them have been caused by the Phantom Thieves",
+				"It's believed that all of them have been caused by the Phantom Thieves. The public remains terrified of the cruel and inhumane acts the Phantom Thieves are committing.",
+				"People desperate for protection from the Phantom Thieves are keeping security companies busy. Events this horrific only happen rarely in history, and the terror among the people is palpable.",
+				"The cabinet",
+				"Highly supported by his peers, Representative Masayoshi Shido is rumored to be forming a new party.",
+				"However, fewer tips have been sent in than expected.",
+				"Psychotic breakdowns—thought to be caused by the Phantom Thieves—show no sign of slowing down. Although police claim to have made progress in their investigation, many still have doubts.",
+				"Representative Masayoshi Shido submitted his formal resignation from his current party. With many representatives on his side, the Liberal Co-Prosperity Party will be forced to split. The House of Representatives will also dissolve if the motion of non-confidence is passed ... ",
+				"The prime minister has once again emphasized that he will protect the safety of the people. Few, however, support him. If it comes to an election, the ruling party will fight an uphill battle.",
+				"Mr. Shido's new party, the \"United Future,\" sent a motion of non-confidence against the cabinet. It was approved by a majority vote, which then led to a dissolution of the House. An election is expected to be held before the yearend, and each party has already begun preparing.",
+                "Mr. Shido’s new party, the \"United Future,\"",
+				"Although we have received many tips, we still have not uncovered any new clues. The police are considering rescinding the reward money and will continue their investigation.",
+				"According to a medical institution in Tokyo, the number of patients may rise even further next week.",
+				"Topics of safety, particularly how to deal with the Phantom Thieves, are receiving a lot of attention. The key to winning the election will likely be how the parties address this challenge.",
+				"However, the police intend on continuing this investigation until the case is fully solved.",
+				"Discussion is swirling around potential nominees as the deadline for candidacy announcement nears. Candidates will announce on the 23rd of this month, while voting will be held on the 18th of next.",
+				"The police are likely being careful about what they reveal as this is a rare, unusual incident. The move has been successful, and there has not been any major outcry as of yet.",
+				"Some are insisting for police to take responsibility for failing to prevent the suicide. But most of the public is praising Mr. Goro Akechi and his team for stopping the Phantom Thieves.",
+				"Is it true you withdrew yourself from the media as part of your plan to capture the Phantom Thieves?",
+				"Then, was it also your plan when you said",
+				"Candidates from all parties have taken to the streets, asking for support from voters.",
+				"Taking into account the current political chaos, the period until the election is unusually long. Election day is on the 18th of next month. Each party is in for a long fight.",
+				"The United Future, a new party led by Masayoshi Shido, is garnering a great deal of support. They have been winning the hearts of voters with powerful speeches and easily understood rhetoric.",
+				"They were asked which politician they thought had the most promise",
+				"However, most companies",
+				"The United Future, led by Mr. Shido, has been dominating the other parties. Victory seems certain for them, and people have high hopes about having a new prime minister. As for Mr. Shido himself, he was once again out giving speeches, and ... ",
+				"Here, we have Mr. Taro Namatame, who is an independent newcomer.",
+				"The United Future has an overwhelming amount of support, with more than 50% of the votes. It may be difficult for the ruling party, the Liberal Co-Prosperity party, to turn things around.",
+				"...The so-called perennial candidates are putting more effort into their speeches. In Shibuya, one candidate held up a sign while speaking vigorously and with passion.",
+				"Among them, the United Future—led by Mr. Shido—has captured the hearts of many listeners. Mr. Shido still had not shown his face in public, and some people raised concerns about his health.",
+				"What sort of victory Shido",
+				"Masayoshi Shido",
+				"However, with Masayoshi Shido out on illness, the party leaders have been struggling without him.",
+				"Everyone is wondering who",
+				"...There, they announced the poor health of their leader",
+				"The streets are full of people and illuminated by colored lighting ...  Couples out with their children can be seen shopping for presents.",
+				"It seems there was consensus to try Representative Shido for the countless crimes he confessed. Furthermore, many demands have been made for Representative Shido to resign from his public position. Nationwide protests have begun in support of holding new elections, and an internet proposal has--",
+				"The police have officially withdrawn the arrest warrant on the Phantom Thieves ...  As well as apologized for those who led the investigation, citing they were inadequate for the task. Due to a drastic change in policy, it is speculated that they had a change of heart as well ... ",
+				"The actions of the Phantom Thieves show no sign of stopping. Change of heart police reports have already surpassed one hundred cases.",
+				"Meanwhile, there are reports that the rate of crimes and suicides are declining--"
+			],
+			"Male Host": [
+				"Here's what we've got for you today!",
+                "Here’s what we’ve got for you today!",
+				"This is a limited item!",
+                "Once we’re sold out",
+				"Once we're sold out, that's it! Don't miss out on this deal!",
+                "We’ll try to get your order to you as quickly as possible!",
+                "We'll try to get your order to you as quickly as possible!",
+				"And it can be yours ...  For the incredibly low price of 4980 yen!",
+				"And it can be yours ...  For the incredibly low price of 4980 yen!",
+				"And it can be yours ...  for the low price of 1980 yen!",
+				"And it can be yours ...  For the incredibly low price of 9800 yen!",
+				"And it can be yours ...  For the incredibly low price of 9800 yen!",
+				"And it can be yours ...  For the incredibly low price of 19800 yen!"
+			],
+			"TV Interviewer": [
+				"Ah, is there a special reason why",
+				"So the name doesn",
+				"Yes, I've heard she's started doing some modeling work recently.",
+                "Yes, I’ve heard she’s started doing some modeling work recently.",
+				" ... What?"
+			],
+			"Narrator": [
+				"Is there any way they can regain their lost memories? Revive and fight",
+                "It’s hero against hero in an epic shiritori",
+				"It's hero against hero in an epic shiritori battle—of wits! Revive and fight, Phoenix Rangers! Next episode ...  \"Having the Last Word Actually Means You Lose!\"",
+				"The earth-shattering appearance of a new leader! Revive and fight, Phoenix Rangers! Next episode ...  \"His Name Is Feather Red.\"",
+				"No villain can withstand the power of girls",
+				"Can Yellow Owl overcome the curry, or will he explode first? Revive and fight, Phoenix Rangers! Next episode ...  When It Comes to Curry, Always Bet on Yellow.\"",
+				"Donning a cloak of wind, a Feather Arrow will cleave the sky! Revive and fight Phoenix Rangers!",
+				"What could be in the food tray he had delivered to them!? Revive and fight, Phoenix Rangers!",
+				"However ...  He's not the only traitor! Revive and fight, Phoenix Rangers! Next episode ...  \"You Again, Hawk?\"",
+                "However ...  He’s not the only traitor!",
+				"How will the Feathermen, who are slowly succumbing to avian influenza, get out of this one!? Next episode ...  \"Broken Wings.\"",
+				"Will they be able to return to their original worlds!? Revive and fight, Phoenix Rangers! Next episode ...  \"Return of the Phoenix Rangers.\""
+			],
+			"Sharp Detective": [
+				"...Funny. I never mentioned anything about a gunshot.",
+				"They're happening out there in the real world. Understand?",
+                "They’re happening out there in the real world.",
+				"...I meant \"dying message.\"",
+				"...Criminal Affairs, OCD, 5th Organized Crime Countermeasures Section, Special Task Force.",
+				"Now, your trial should take your extenuating circumstances into account. But, why did you suddenly decide to tell me?",
+				"You killed them all for a reason like that!?"
+			],
+			"Train Monitor": [
+				"\"Volleyball Beating Investigation!\" The school claims to have left teaching methods up to its staff. It has denied once again that it had any knowledge of the beatings. \"Pollen Warning as of Next Week!\" Greater volume and arriving later than in previous years. \"Hotspots of Tokyo!\" Experience art in Shibuya! The Madarame exhibit opens next week.",
+				"\"Employee Posts Nude Chef Selfie!\" Wild-Duck Burger claims to have fired the employee in question. Those close to the man voiced their surprise, vouching for his seriousness at work. \"Is Shibuya Unsafe? Crime Rising!\" The police are issuing warnings for people to be wary of scams. \"Hotspots of Tokyo!\" Tickets for the Madarame exhibit are available until June 5th!",
+				"Now for today",
+				"\"Shibuya Crime Ring Reveals All!\"",
+				"We've even received messages about how the Phantom Thieves are all students talk about these days.",
+                "We’ve even received messages about",
+				"First off, the investigation team has announced new progress in the search for the Phantom Thieves."
+			],
+			"Game Show Host": [
+				"A: Unconsenting cutting of hair; B: Using noise to cause distress; Which of the two would be considered a case of bodily harm!? You be the judge!",
+				"Confessions of crime are the ...  A: \"queen\" of evidence/B: \"jewel\" of evidence/Which one is right? You be the judge!",
+				"Now, when it comes to probation ...  A: Overseas travel is prohibited/B: Probation officers are unpaid/Which one of these statements is true? You be the judge!",
+				"Consider the following ...  A: Paying a machine fake money/B: Ordering food without money/ Which one of these counts as fraud!? You be the judge!",
+				"The correct answer is ...  B! Ordering food when",
+				"A: Take money from a lost wallet/B: Joyride, but return the car/ So which one of these counts as larceny? You be the judge!",
+				"The correct answer is ...  B! Saying you planned on returning it",
+				"Now, which of these is the punishment for forced labor, the most grievous offense? A: Ten years in prison./B: A twenty million yen fine.",
+				"The correct answer is ...  A! An inhumane executive gets ten years in jail!",
+				"Consider the following ...  A: Divulging someone",
+				"The correct answer is...A! Spreading around",
+				"A: The prime minister/B: You in front of your TV/For viewers just tuning in",
+				"The correct answer is ...  B! You and me",
+				"The Diet decides things with a majority vote, but what happens if the vote is split fifty-fifty? A: Speaker of the House decides/B: They flip a coin",
+				"The correct answer is ...  A! The Speaker of the House decides!",
+				"In this case, what kind of crime could the person who fired the gun be tried for? A: Attempted murder/B: Involuntary manslaughter/ Which of these is correct? You be the judge!",
+				"The correct answer is ...  A! Why",
+				"Giving oneself up ...  A: Guarantees leniency in court",
+				"The correct answer is ...  B! You"
+			],
+			"Pro Shogi Player": [
+				"That must be such a difficult loss to accept. I wish we could let him have some time to himself ... ",
+				"But you asked about pawn to 9-5?",
+				"That kind of move tends to anger your opponent. Once provoked, they act very aggressively.",
+				"Plus, once you get the opponent that mad"
+			],
+			"DTD Reporter": [
+				"So many Chinese restaurants! Yes, high-quality Chinese food is true perfection.",
+				"On these irregularly broadcast specials, we share limited-edition items that are all the rage!",
+				"Relaxing at the park is nice, and the view from the Ferris wheel is really something!",
+				"Wow, we're really high up! The view from the observation deck feels like you're walking on air!",
+                "Wow, we’re really high up!",
+				"Right now, we're here at the planetarium in",
+                "Right now, we’re here at the planetarium",
+				"We're here in",
+                "We’re here in",
+				"It's still not too late to hit the beach! It's close enough that you can even make it a day trip!",
+                "It’s still not too late to hit the beach!",
+				"Akihabara is a famous tourist spot. The chaotic atmosphere there is really something.",
+				"People come to enjoy the beauty of nature, and a few come to pray for help in finding love.",
+				"All the food",
+				"The Amagi Inn has a long history"
+			],
+			"TV Reporter": [
+				"This case is said to be a result of the Phantom Thieves",
+				"I see. You",
+				"This case is said to be the result of the Phantom Thieves",
+				"So then, by tampering with hearts, the Phantom Thieves are fabricating crimes that may not exist?",
+				"So in a way, they",
+				"I see.",
+				"Onto other news ...  The international hacktivist group Medjed has released a statement to the Phantom Thieves.",
+				"\"However, we are magnanimous. We will give you an opportunity to repent your ways. If you agree to a change of heart, we will accept you as our own. If you reject our offer, the hammer of justice will find you.\"",
+				"\"We are Medjed. We are unseen. We will eliminate evil.\" Akechi-san, why do you think this announcement was made at this time?",
+				"A nuisance?",
+				"\"To the Phantom Thieves causing an uproar in Japan: Do not speak of your false justice. We do not need the spread of such falsehood. We are the true executors of justice. However, we are magnanimous. We will give you an opportunity to repent your ways. If you agree to a change of heart, we will accept you as our own. If you reject our offer, the hammer of justice will find you.\"",
+				"Just moments ago, a new message has been released on their website. They have announced their victory over the Phantom Thieves. Medjed also warns any Japanese citizens who praised the Phantom Thieves to stop doing so. We will report any further actions by Medjed as they arrive.",
+				"The Phantom Thieves, whom they singled out, have not made any notable actions at this time. Will Medjed carry out their cyberterrorism?",
+				"The site",
+				"Medjed has yet to issue an official reply. Furthermore, their previously announced cleanse of Japan has remained unimplemented for now. Some speculate that they have taken this series of events seriously and ultimately canceled their plan.",
+				"After the commercial break, we will be asking guests from various fields about this turn of events.",
+				"What do you mean?",
+				"Several hospital directors admitted their involvement, contrary to earlier statements denying such.",
+				"A calling card was delivered, so it is speculated that the Phantom Thieves are at it once again. On to other news. A fire broke out at a condominium, and multiple people were injured. Heinous crimes such as arson and burglary are on the rise. Police caution everyone to be vigilant.",
+                "\"To the Phantom Thieves causing an uproar in Japan: Do not speak of your false justice. We do not need the spread of such falsehood. We are the true executors of justice.\""
+			],
+			"Play-by-play Announcer": [
+				"But they haven",
+				"Here's the pitch ...  Strike three! That's his tenth strikeout today! It's a heated pitcher's battle with neither team scoring runs in the tournament's final round ... ",
+                "Here’s the pitch ...  Strike three!"
+			]
+		},
+		"Newscaster": {
+			"Female Newscaster": [
+				"That was direct footage from the accident. According to the police",
+				"Now onto our main story. With this derailment accident, as well as other recent incidents of unknown motive, concern is spreading among the general public. Just what could be causing such a drastic change so suddenly in these people?"
+			]
+		},
+		"Lawyer": {
+			"Serious-looking Lawyer": [
+				"And thanks to the internet, now everyone knows the police were just full of talk.",
+				"I suppose they",
+				"If the economy takes a hit too, the current government",
+				"Just who are they, anyway ... ? Honestly, the idea they exist creeps me out a little bit.",
+				"Who knows? It's not as flashy a target as Medjed though. Companies all over the country exploit their workers. Will taking down one of them change anything?",
+                "Who knows? It’s not as flashy a target as Medjed though.",
+				"Thanks to them, I",
+				"The Phantom Thieves",
+				"It's probably the police sending a message. \"This is what happens when you cross the authorities.\" This whole thing even impacted the government. I doubt the police are looking forward to Christmas.",
+                "It’s probably the police sending a message.",
+				"It's all very shady, including how the leader of the special investigation team died.",
+                "It’s all very shady, including",
+				"Some people are trying to build a case against him",
+				"It's your turn to be on the spot, and be asked what true justice is. I know it's a cliché, but good luck.",
+                "It’s your turn to be on the spot"
+			],
+			"Lawyer on Game Show": [
+				"The Speaker of the House decides, in accordance with Article 56, Section 2 of the Constitution. After the general election, by law, the Diet's first act must be to appoint a new prime minister.",
+				"This was kind of a mean question. The answer is A, but this is two cases of attempted murder",
+				"It's called a \"surrender\" when wanted criminals turn themselves in. They have nothing to give up. If you can and do give yourself up, the judge may decide to be lenient, but that's up to him.",
+                "It’s called a \"surrender\" when wanted criminals turn themselves in",
+                "The Speaker of the House decides, in accordance with Article 56"
+			]
+		},
+		"Cop": {
+			"Unfriendly Officer": [
+				"Yes?",
+				"Really? (sigh)",
+				"What, did you forget something?",
+				"Hm? You want to get to the residence at that address...?"
+			],
+			"Aggressive Officer": [
+				"...What? Hand over your bag. You better not be doing any drugs.",
+				"We passed by Shujin on our way here. There was nothing out of the ordinary about it."
+			],
+			"Arrogant Officer": [
+				"Hmph! I'm here because we received a report. I'll need to see a detailed statement of medical expenses and full medical records. I bet you didn't have enough time to hide any incriminating documents, huh?",
+                "Hmph! I’m here because we received a report.",
+				"Huh ... ?",
+				"Wh-What's going on here ... ?",
+                "Wh-What’s going on here",
+				"What!?",
+				" ... Hey, you!",
+				"A-A bad heart ... ?",
+				"...Fine. You"
+			],
+			"Burly Officer": [
+				"Kamoshida? Oh, that guy who was arrested for sexual harassment?",
+				"We've been getting a lot of reports of extortion. You should go home before you get targeted.",
+                "We’ve been getting a lot of reports of extortion",
+				"Hey, don't even think about it! These young punks don't hold back!",
+                "Hey, don’t even think about it!",
+				"Oh, sorry. This man just decided to lie down here.",
+				"No, he's just drunk. Doesn't he realize that it's still dangerous around here?",
+                "No, he’s just drunk",
+				"Right, I'm a police officer. Come on, let's get you home.",
+                "Right, I’m a police officer",
+				"OK OK",
+				"All right, Akechi-kun",
+				"Geez, my patrol car",
+				"OK, quiet down, sir. Sorry about this.",
+				"OK, OK. Who are you talking to?",
+				"OK, stop right there. Let go of him and head on home, OK?",
+				"(sigh) Everyone's so scared ...  I guess people would be worried since we haven't caught them yet.",
+                "(sigh) Everyone’s so scared",
+				"Yeah, yeah. All right. Pretty good speech.",
+				"Yeah, yeah. It's still night, OK? You're in a better mood than usual, aren't you?",
+                "Yeah, yeah. It’s still night, OK?"
+			],
+			"Patrolling Officer 2": [
+				"They appear and disappear as they please ...  Not only that, but they blend in with normal teenagers...",
+				"Hmph, what a rotten bastard ..."
+			],
+			"Policeman": [
+				"Did you run away from home?",
+				"You're not lying, are you?",
+                "You’re not lying, are you?",
+				"...Very well."
+			],
+			"Officer on Patrol": [
+				"You're gonna break your mother's heart if you keep this up, kid.",
+                "You’re gonna break your mother’s heart",
+				"We've had to tighten city security because of the Phantom Thieves case. Pack your things and be on your way.",
+                "We’ve had to tighten city security"
+			],
+			"Frowning Officer": [
+				"Yeah, OK, good for you. Man ...  The weird ones always come out near the end of the year."
+			],
+			"Young Officer": [
+				"Sir, what's going on here!?",
+                "Sir, what’s going on here!?",
+				"Weren't the Phantom Thieves those--",
+                "Weren’t the Phantom Thieves those--"
+			]
+		},
+		"Foreign Tourist": {
+			"Easygoing Man": [
+				"I read about them in a news article recently. What of it?"
+			],
+			"Shrimp Stand Owner": [
+				"How 'bout them Phantom Thieves, huh? The guys that steal hearts!",
+                "How ‘bout them Phantom Thieves, huh?",
+				"Heard about it on the news!",
+				"Have a change of heart!",
+				"Say, if y'run into 'em, tell 'em I say hello. And ask 'em to change people's hearts so everyone loves shrimp!",
+                "Say, if y’run into ‘em, tell ‘em I say hello.",
+				"By the way, you two honeymoonin' here?",
+                "By the way, you two honeymoonin’ here?"
+			]
+		},
+		"Intercom": {
+			"Train Intercom": [
+				"Ladies and gentlemen, thank you for riding with us today. We will be arriving in Shibuya shortly. This is the last stop for this line. Please transfer here for all subway lines. The doors to your left will open."
+			],
+			"School Intercom": [
+				"Attention, attention.",
+				"Mr. Ushimaru, please come to the faculty office at once.",
+				"(chime) ...Is this on? Ms. Chouno, please come to the faculty office at once.",
+				"Um ...  Mr. Inui, please come to the faculty office at once.",
+				"...Ahem. Ms. Usami, please come to the faculty office at once.",
+				"Ummm ...  Mr. Hiruta, please come to the faculty office at once.",
+				"Uhhh, ahem ...  Mr. Ushimaru, please come to the faculty office at once.",
+				"...Is this on? Ms. Chouno, please come to the faculty office at once."
+			],
+			"Train Announcement": [
+				"The next stop is Shibuya. Shibuya. Doors will open on the left side."
+			],
+			"Festival Announcement": [
+				"Due to the sudden change in weather, a heavy rain and flood warning has been issued nearby. Since the festival cannot proceed in this weather, we truly apologize for cancelling today’s fireworks show."
+			],
+			"Flight Attendant": [
+				"Ladies and gentlemen, we have begun our initial descent into Hawaii. We ask that you return to your seats and ensure that your seatbelts are safely fastened."
+			],
+			"Speakers": [
+				"EVERYONE, MOVE STATIONS! CONTINUE WORKING UNTIL YOU DIE!",
+				"EVERYONE, IT IS TIME TO CHANGE SHIFTS! KEEP WORKING EVEN IF IT DESTROYS YOU!",
+				"CHANGING ARM SPEED!",
+				"NOW CHANGING PRESS SHIFTS!",
+				"LET US WORK EVEN HARDER TO ACCOUNT FOR OUR TIME WASTED SLACKING OFF!",
+				"WE ARE CURRENTLY IN A STATE OF CONSTANT UNPAID OVERTIME! FOR THE GOOD OF THE COMPANY! GLORY TO OUR WONDERFUL PRESIDENT OKUMURA AND HIM ALONE!",
+				"IT IS NOW LUNCHTIME! LET US CONSUME OUR SLOP AND GLEEFULLY REENERGIZE!"
+			],
+			"Robotic Voice": [
+				"Certain areas may be shut off or destroyed. I repeat, emergency launch sequence will soon be activated. All personnel is [sic] advised to evacuate immediately to a safe area of the facility.",
+				"The SS Utopia will soon enter its launch sequence from the shipbuilding dock. After retrieval of the main core, the launch sequence will commence.",
+				"Four ...  Three ...  Two ...  One ...  Goodbye."
+			],
+			"Mechanical Voice": [
+				"Authentication complete. You can now access the following floors: The Standard Floor/The Members Floor.",
+				"Please select your desired floor.",
+				"You can now access the following floors: The Standard Floor./The Members Floor./The High Limit Floor.",
+				"The required number of coins to activate the Bridge of Judgment is",
+				"The required number of coins to activate the Bridge of Judgment is",
+				"Do you wish to activate the Bridge of Judgment?"
+			]
+		},
+		"Employee": {
+			"Calm Employee": [
+				"Do you understand, little boy?",
+				"Do I need to call your mom?"
+			]
+		}
+	}
+}

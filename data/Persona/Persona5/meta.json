@@ -1,0 +1,75 @@
+{
+	"game": "Persona 5",
+	"series": "Persona",
+	"year": 2016,
+	"source": "https://transcripts.fandom.com/wiki/Persona_5",
+	"alternativeMeasure": true,
+	"parserParameters": {
+		"parser":"fandomParser2",
+		"fileType":".html",
+		"scriptHasOptionalDialogueSection": false,
+		"scriptStartCue": "<ul><li>",
+		"scriptEndCue":"<div class=\"printfooter\">",
+		"actionCue":"("
+	},
+	"mainPlayerCharacters": ["Joker"],
+	"characterGroups": {
+        "male": [
+            "Ryuji",
+            "Joker",
+            "Yusuke",
+            "Morgana",
+            "Mishima",
+            "Sojiro",
+            "Shrimp Stand Owner",
+            "Beefy Trendsetter",
+            "Scruffy Romantic",
+            "Man",
+            "Wealthy-looking Man",
+            "Pretentious Man",
+            "Man 2",
+            "Boy",
+            "Man in a Swimsuit"
+
+
+        ],
+
+        "female": [
+            "Ann",
+            "Makoto",
+            "Futaba",
+            "Haru",
+            "Kawakami",
+            "Hifumi",
+            "Chihaya",
+            "Takemi",
+            "Ohya",
+            "Slim Lady",
+            "Voluptuous Lady",
+            "Ms. Kawakami",
+            "Tall Student",
+            "Bespectacled Student",
+            "Lady in Black Yukata",
+            "Woman's Voice",
+            "Pilot",
+            "Flight Attent",
+            "Woman in a Swimsuit",
+            "Lady in Pink Yukata",
+            "Shadow Futaba"
+        ],
+
+        "neutral": [
+
+        ]
+		
+	},
+	"aliases": {
+        "Guy": "Joker",
+        "Futaa": "Joker",
+        "Familiar Voice": "Ryuji",
+        "Brawny Voice": "Beefy Trendsetter",
+        "Deep Voice": "Scruffy Romantic",
+        "Lady in a Pink Yukata": "Lady in Pink Yukata"
+		
+	}
+}

@@ -1,0 +1,22 @@
+folder,series,game,from,to,frequency
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,-,-,2
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,-,male,825
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,male,male,692
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,male,-,1257
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,male,female,369
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,female,male,397
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,-,female,356
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,female,-,516
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,female,female,69
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,male,playerChoice,1709
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,playerChoice,male,1636
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,female,playerChoice,817
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,playerChoice,female,761
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,-,playerChoice,149
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,playerChoice,-,142
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,male,neutral,9
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,neutral,-,4
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,neutral,male,10
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,-,neutral,4
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,female,neutral,3
+../data/ElderScrolls/Skyrim/,The Elder Scrolls,The Elder Scrolls V: Skyrim,neutral,female,2

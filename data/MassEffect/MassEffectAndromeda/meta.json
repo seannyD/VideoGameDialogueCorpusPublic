@@ -1,0 +1,27 @@
+{
+	"game": "Mass Effect: Andromeda",
+	"series": "Mass Effect",
+	"year": 2017,
+	"source": "http://www.masseffectlore.com/transcripts/mass-effect-andromeda-transcripts/",
+	"alternativeMeasure": true,
+	"parserParameters": {
+		"parser":"MassEffectAParser",
+		"fileType": ".html",
+		"mainCharName": "RYDER"
+	},
+	"mainPlayerCharacters": [],
+	"characterGroups": {
+		"male":[
+		],
+		"female":[
+		
+				],
+		"neutral":[
+				
+				]
+	},
+		"aliases":{
+			"White text appears on a black background":"ACTION",
+			"":"ACTION"
+					}
+}

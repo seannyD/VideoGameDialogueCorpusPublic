@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,False,The Secret of Monkey Island,Monkey Island,TOTAL,1221,14619,4169,17362,-0.2083635511743207,102.80209245711794,6.338944175207707,47
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,False,The Secret of Monkey Island,Monkey Island,male,1104,13106,3616,15556,-0.17060579647368002,102.74129245209923,6.315010548975069,37
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,False,The Secret of Monkey Island,Monkey Island,female,79,1123,354,1339,-0.2831617036690446,102.74297064209568,6.099777435843256,3
+../data/MonkeyIsland/TheSecretOfMonkeyIsland/,False,The Secret of Monkey Island,Monkey Island,neutral,38,390,198,467,-0.6920745920745919,103.53268065268067,7.904376456876457,7

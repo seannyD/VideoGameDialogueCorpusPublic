@@ -1,0 +1,9 @@
+folder,series,game,from,to,frequency
+../data/KingsQuest/KingsQuest8/,King's Quest,King's Quest VIII,-,male,1
+../data/KingsQuest/KingsQuest8/,King's Quest,King's Quest VIII,male,neutral,5
+../data/KingsQuest/KingsQuest8/,King's Quest,King's Quest VIII,neutral,female,3
+../data/KingsQuest/KingsQuest8/,King's Quest,King's Quest VIII,female,male,8
+../data/KingsQuest/KingsQuest8/,King's Quest,King's Quest VIII,male,male,15
+../data/KingsQuest/KingsQuest8/,King's Quest,King's Quest VIII,male,female,5
+../data/KingsQuest/KingsQuest8/,King's Quest,King's Quest VIII,female,female,3
+../data/KingsQuest/KingsQuest8/,King's Quest,King's Quest VIII,neutral,male,2

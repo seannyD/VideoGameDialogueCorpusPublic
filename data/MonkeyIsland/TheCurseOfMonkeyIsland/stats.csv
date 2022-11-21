@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,False,The Curse of Monkey Island,Monkey Island,TOTAL,2711,30577,8834,36917,0.006577122714185535,101.18037474862119,6.876119410482747,47
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,False,The Curse of Monkey Island,Monkey Island,male,2565,28499,8295,34346,-0.02913507919791769,101.39081367959764,6.884682838007429,39
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,False,The Curse of Monkey Island,Monkey Island,female,140,2036,530,2526,0.5480708010527504,97.97535711902734,6.750825704859694,4
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,False,The Curse of Monkey Island,Monkey Island,neutral,6,42,9,45,-1.1271428571428554,111.45547619047619,7.251538095238095,4

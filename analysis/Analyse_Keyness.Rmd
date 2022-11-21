@@ -1,0 +1,115 @@
+---
+title: "Untitled"
+author: "sss"
+output: pdf_document
+---
+
+```{r, eval=F,echo=F}
+setwd("~/Documents/Cardiff/VideoGameScripts/project/analysis/")
+```
+
+```{r}
+library(ggplot2)
+library(ggfortify)
+```
+
+
+```{r}
+keynessThreshold = 2
+characterWordCountThreshold = 500
+```
+
+
+```{r}
+keywords = read.csv("../results/keyness/keyness.csv", stringsAsFactors = F)
+keywords = keywords[keywords$keyness>keynessThreshold,]
+# Make sure we're not double counting words
+keywords = keywords[!duplicated(keywords$word),]
+
+# Remove some outliers
+keywords = keywords[!grepl("[0-5]+",keywords$word),]
+
+# Invert keyness score for female words so that lower = more female
+keywords[keywords$group=="female",]$keyness = - keywords[keywords$group=="female",]$keyness
+
+# Read keywords by character
+# Check names = False, to be sure that e.g. "in" is not converted to "in."
+charKeywords = read.csv("../results/keyness/keywordsByCharacter.csv", check.names = F,stringsAsFactors = F)
+
+# Filter characters with little dialogue
+charKeywords = charKeywords[charKeywords$.totalWords >= characterWordCountThreshold,]
+
+numMetadataColumns = sum(grepl("^\\.",names(charKeywords)))
+wordColumns = (numMetadataColumns+1):ncol(charKeywords)
+
+# Remove words that don't appear in multiple games
+wordInOnlyOneGame = apply(charKeywords[,wordColumns],2, function(X){
+    freqPerGame = tapply(X, charKeywords$.folder,sum)
+    sum(freqPerGame > 0) <= 1
+  })
+wordInOnlyOneGame.ColumnNum = which(wordInOnlyOneGame) + numMetadataColumns
+charKeywords = charKeywords[,-wordInOnlyOneGame.ColumnNum]
+wordColumns = (numMetadataColumns+1):ncol(charKeywords)
+keywords = keywords[keywords$word %in% names(charKeywords[,wordColumns]),]
+
+# Remove words that didn't meet the keyness criteria:
+kw = names(charKeywords)[(numMetadataColumns+1):ncol(charKeywords)]
+kwToRemove = which(!kw %in% keywords$word) + numMetadataColumns
+charKeywords = charKeywords[,-kwToRemove]
+wordColumns = (numMetadataColumns+1):ncol(charKeywords)
+
+# Convert frequencies to log frequency
+
+logOrZero = function(X){
+  X[X>0] = log10(X[X>0])
+  return(X)
+}
+
+# Convert frequencies to relative frequencies (per million)
+charKeywords[,wordColumns] = apply(charKeywords[,wordColumns],2,
+                                   function(X){
+                                     #log10((1000000*(X+1)))/log10(charKeywords$.totalWords)
+                                     #(logOrZero((1000000*(X)))+2)/logOrZero(charKeywords$.totalWords)
+                                     logOrZero(((1000000*(X))/logOrZero(charKeywords$.totalWords))+1)
+                                     #(1000000*X)/charKeywords$.totalWords
+                                     })
+# Multiply frequencies by keyness
+keyness = keywords[match(names(charKeywords[,wordColumns]), keywords$word),]$keyness
+
+charKeywords[,wordColumns] = apply(charKeywords[,wordColumns],1,
+                                   function(X){
+                                     X * keyness
+                                     })
+# Sum of keyness
+charKeynessScore = charKeywords[1:numMetadataColumns]
+charKeynessScore$keynessScore = rowSums(charKeywords[,wordColumns])
+head(charKeynessScore[order(charKeynessScore$keynessScore),])
+tail(charKeynessScore[order(charKeynessScore$keynessScore),])
+
+t.test(charKeynessScore$keynessScore~charKeynessScore$.group)
+boxplot(charKeynessScore$keynessScore~charKeynessScore$.group)
+
+```
+
+
+```{r}
+pc = prcomp(charKeywords[,wordColumns],scale. = T)
+plot(pc)
+autoplot(pc, data=charKeywords[1:numMetadataColumns], colour=".group",
+         loadings = TRUE, loadings.colour = 'blue',
+         loadings.label = TRUE, loadings.label.size = 3,
+         frame = TRUE, frame.type = 'norm',frame.level = 0.75)
+
+
+mds <- cmdscale(dist(charKeywords[,wordColumns]), k=2)
+
+mds.cmdscale <- as.data.frame(mds)
+mds.cmdscale$group = charKeywords$.group
+mds.cmdscale$charName = charKeywords$.charName
+ggplot(mds.cmdscale, aes(V1, V2, label=charName)) + 
+  geom_point(aes(colour=factor(group))) +
+  geom_text(aes(colour=factor(group)), #check_overlap = TRUE, 
+            hjust = "center", vjust = "bottom", nudge_x = 0, nudge_y = 0.005)
+
+```
+

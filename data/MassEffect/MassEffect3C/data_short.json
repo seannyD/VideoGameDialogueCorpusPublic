@@ -1,0 +1,191 @@
+{"text": [
+		{"LOCATION": "BioD_CerMir_100Landing_LOC_INT.pcc: cermir_shuttle_down_m_dlg"},
+		{"ACTION": "", "_ID": "643508"},
+		{"CHOICE": [
+				[
+					{"ACTION": "", "_ID": "643562"},
+					{"CHOICE": [
+							[
+								{"STATUS": "James Vega is in party (114/0)"},
+								{"James Vega": "So, what the hell do we know about this place?", "_ID": "643509"},
+								{"Shepard": "EDI?", "_ID": "643563"},
+								{"ACTION": "", "_ID": "643517"},
+								{"ACTION": "", "_ID": "660956"},
+								{"CHOICE": [
+										[
+											{"STATUS": "EDI is in party (114/0)"},
+											{"EDI": "The Sanctuary facility was devoted to aiding refugees from Reaper-controlled systems.", "_ID": "643518"},
+											{"ACTION": "", "_ID": "643565"},
+											{"EDI": "The facility went offline recently, and no communications have come or gone since.", "_ID": "643519"},
+											{"ACTION": "", "_ID": "660957"},
+											{"EDI": "It is unclear why Kai Leng or Cerberus would be interested in Sanctuary.", "_ID": "660933"},
+											{"CHOICE": [
+													[
+														{"ACTION": "AGREE", "_PROMPT": "\"Then let's find out.\""},
+														{"Shepard": "If there's a clue to Cerberus here, we find it.", "_ID": "660960"},
+														{"ACTION": "Cine moment as there is a moment of silence in the shuttle. Everybody know's Shepard is serious.", "_ID": "660937"},
+														{"ACTION": "", "_ID": "660962"},
+														{"CHOICE": [
+																[
+																	{"STATUS": "Shepard is female (12/0)"},
+																	{"Steve Cortez": "Ma'am, I'm picking up a signal from the facility. It's weak, but I'll try to boost it.", "_ID": "681147"},
+																	{"ACTION": "", "_ID": "681149"},
+																	{"Oriana Lawson": "This is Oriana Lawson. Stay away from Sanctuary. It's not what it seems.", "_ID": "660939"},
+																	{"ACTION": "", "_ID": "660964"},
+																	{"Oriana Lawson": "Please, you must listen to me! They're using...", "_ID": "660940"},
+																	{"ACTION": "", "_ID": "660965"},
+																	{"CHOICE": [
+																			[
+																				{"STATUS": " (20182/0)"},
+																				{"ACTION": "", "_ID": "668263"},
+																				{"Shepard": "Oriana? That's Miranda's sister.", "_ID": "660966"},
+																				{"ACTION": "", "_ID": "708531"},
+																				{"Shepard": "If she's here, Miranda can't be far away.", "_ID": "708540"},
+																				{"CHOICE": [
+																						[
+																							{"STATUS": "EDI is in party (114/0)"},
+																							{"EDI": "That's our link to Cerberus.", "_ID": "660950"},
+																							{"ACTION": "", "_ID": "660971"},
+																							{"Steve Cortez": "Approaching the LZ.", "_ID": "660953"},
+																							{"ACTION": "", "_ID": "660974"},
+																							{"Steve Cortez": "Seeing some damage, Commander, but no activity.", "_ID": "660954"}],
+																						[
+																							{"STATUS": " (-1/0)"},
+																							{"EDI": "That's our link to Cerberus.", "_ID": "660952"},
+																							{"ACTION": "", "_ID": "660973"},
+																							{"GOTO": "660953"}]]}],
+																			[
+																				{"STATUS": "[ME3] Warned Miranda about Kai Leng (not sure) (20184/0)"},
+																				{"ACTION": "", "_ID": "668264"},
+																				{"Shepard": "Oriana was kidnapped by their father. He's likely working with Illusive Man.", "_ID": "667781"},
+																				{"ACTION": "", "_ID": "708532"},
+																				{"GOTO": "708540"}],
+																			[
+																				{"STATUS": " (937/0)"},
+																				{"ACTION": "", "_ID": "660942"},
+																				{"ACTION": "", "_ID": "660967"},
+																				{"CHOICE": [
+																						[
+																							{"STATUS": "Liara T'soni is in party (114/0)"},
+																							{"Liara T'Soni": "Oriana? That's Miranda's sister.", "_ID": "660945"},
+																							{"Shepard": "Looks like we've found a first link to Cerberus.", "_ID": "660968"},
+																							{"GOTO": "660953"}],
+																						[
+																							{"STATUS": "Garrus Vakarian is in party (114/0)"},
+																							{"Garrus Vakarian": "Oriana? Miranda's sister?", "_ID": "660943"},
+																							{"GOTO": "660968"}],
+																						[
+																							{"STATUS": "Tali'Zorah is in party (114/0)"},
+																							{"Tali'Zorah": "Oriana? Miranda's sister?", "_ID": "660944"},
+																							{"GOTO": "660968"}],
+																						[
+																							{"STATUS": "EDI is in party (114/0)"},
+																							{"EDI": "Oriana Lawson is Miranda's sister.", "_ID": "660946"},
+																							{"GOTO": "660968"}],
+																						[
+																							{"STATUS": " (-1/0)"},
+																							{"EDI": "Oriana Lawson is Miranda's sister.", "_ID": "660947"},
+																							{"ACTION": "", "_ID": "708541"},
+																							{"CHOICE": [
+																									[
+																										{"STATUS": " (171/0)"},
+																										{"ACTION": "", "_ID": "708533"},
+																										{"Shepard": "If Oriana's here, Miranda can't be far away.", "_ID": "708542"},
+																										{"ACTION": "", "_ID": "708534"},
+																										{"GOTO": "660968"}],
+																									[
+																										{"STATUS": " (-1/0)"},
+																										{"ACTION": "", "_ID": "708535"},
+																										{"GOTO": "660968"}]]}]]}],
+																			[
+																				{"STATUS": " (492/0)"},
+																				{"ACTION": "", "_ID": "660948"},
+																				{"ACTION": "", "_ID": "660969"},
+																				{"CHOICE": [
+																						[
+																							{"STATUS": "EDI is in party (114/0)"},
+																							{"EDI": "Commander, Oriana Lawson is Miranda Lawson's sister. Miranda was one of the Illusive Man's top agents.", "_ID": "660949"},
+																							{"ACTION": "", "_ID": "660970"},
+																							{"CHOICE": [
+																									[
+																										{"STATUS": " (171/0)"},
+																										{"ACTION": "", "_ID": "708536"},
+																										{"Shepard": "If Oriana is here, Miranda can't be far away.", "_ID": "708543"},
+																										{"GOTO": "660950"}],
+																									[
+																										{"STATUS": " (-1/0)"},
+																										{"ACTION": "", "_ID": "708537"},
+																										{"ACTION": "", "_ID": "708544"},
+																										{"GOTO": "660950"}]]}],
+																						[
+																							{"STATUS": " (-1/0)"},
+																							{"EDI": "Commander, Oriana Lawson is Miranda Lawson's sister. Miranda was one of the Illusive Man's top agents.", "_ID": "660951"},
+																							{"ACTION": "", "_ID": "660972"},
+																							{"CHOICE": [
+																									[
+																										{"STATUS": " (171/0)"},
+																										{"ACTION": "", "_ID": "708538"},
+																										{"Shepard": "If Oriana is here, Miranda can't be far away.", "_ID": "708545"},
+																										{"GOTO": "660952"}],
+																									[
+																										{"STATUS": " (-1/0)"},
+																										{"ACTION": "", "_ID": "708539"},
+																										{"ACTION": "", "_ID": "708546"},
+																										{"GOTO": "660952"}]]}]]}]]}],
+																[
+																	{"STATUS": " (886/0)"},
+																	{"Steve Cortez": "I'm picking up a signal from the facility. It's weak, but I'll try to boost it.", "_ID": "681148"},
+																	{"ACTION": "", "_ID": "681150"},
+																	{"GOTO": "660939"}],
+																[
+																	{"STATUS": " (-1/0)"},
+																	{"Steve Cortez": "Sir, I'm picking up a signal from the facility. It's weak. I'll try to boost it.", "_ID": "660938"},
+																	{"ACTION": "", "_ID": "660963"},
+																	{"GOTO": "660939"}]]}],
+													[
+														{"ACTION": "DISAGREE", "_PROMPT": "\"No more guessing!\""},
+														{"Shepard": "We don't leave until we're one step closer to Cerberus.", "_ID": "660961"},
+														{"GOTO": "660937"}]]}],
+										[
+											{"STATUS": " (-1/0)"},
+											{"EDI": "The Sanctuary facility was devoted to aiding refugees from Reaper-controlled systems.", "_ID": "660934"},
+											{"ACTION": "", "_ID": "660958"},
+											{"EDI": "The facility went offline recently, and no communications have come or gone since.", "_ID": "660935"},
+											{"ACTION": "", "_ID": "660959"},
+											{"EDI": "It is unclear why Kai Leng or Cerberus would be interested in Sanctuary.", "_ID": "660936"},
+											{"CHOICE": [
+													[
+														{"ACTION": "AGREE", "_PROMPT": "\"Then let's find out.\""},
+														{"GOTO": "660960"}],
+													[
+														{"ACTION": "DISAGREE", "_PROMPT": "\"No more guessing!\""},
+														{"GOTO": "660961"}]]}]]}],
+							[
+								{"STATUS": "Kaidan Alenko is in party (114/0)"},
+								{"Kaidan Alenko": "All right, Commander, what do we know?", "_ID": "643510"},
+								{"GOTO": "643563"}],
+							[
+								{"STATUS": "Ashley Williams is in party (114/0)"},
+								{"Ashley Williams": "So what do we know, Commander?", "_ID": "643511"},
+								{"GOTO": "643563"}],
+							[
+								{"STATUS": "Javik is in party (114/0)"},
+								{"Javik": "What do we know?", "_ID": "643512"},
+								{"GOTO": "643563"}],
+							[
+								{"STATUS": "Liara T'soni is in party (114/0)"},
+								{"Liara T'Soni": "What do we know, Shepard?", "_ID": "643513"},
+								{"GOTO": "643563"}],
+							[
+								{"STATUS": "Garrus Vakarian is in party (114/0)"},
+								{"Garrus Vakarian": "So what do we know, Shepard?", "_ID": "643514"},
+								{"GOTO": "643563"}],
+							[
+								{"STATUS": "Tali'Zorah is in party (114/0)"},
+								{"Tali'Zorah": "What do we know, Shepard?", "_ID": "643515"},
+								{"GOTO": "643563"}]]}],
+				[
+					{"Shepard": "Cerberus does not get the jump on us this time!", "_ID": "660975"},
+					{"ACTION": "", "_ID": "660955"},
+					{"Shepard": "Stay sharp, people.", "_ID": "660976"}]]}]
+}

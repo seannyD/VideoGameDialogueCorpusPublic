@@ -1,0 +1,90 @@
+{
+	"game": "Final Fantasy XIII",
+	"series": "Final Fantasy",
+	"year": 2009,
+	"source": "https://en.wikiquote.org/wiki/Final_Fantasy_XIII#Dialogue",
+	"sourceFeatures": {
+		"type": "wiki",
+		"completeness": "sample",
+		"dialogueOrder": true,
+		"choices": "NA"
+	},
+	"error checks": {
+    "truePositive_numTestsDone": "10",
+    "truePositive_numParsingErrors": "0",
+    "truePositive_numSourceErrors": "4",
+    "truePositive_notes": "This source is only a sample of dialogue; various main and optional conversations are omitted.",
+
+    "falsePositive_numTestsDone": "5",
+    "falsePositive_numErrors": "0",
+    "falsePositive_notes": "N/A"
+},
+	"sampleOnly": true,
+	"characterInfoSource": "https://finalfantasy.fandom.com/wiki/",
+	"parserParameters": {
+		"parser":"WikiquoteParser",
+		"fileType":".html",
+		"scriptStartCue":"<h2><span class=\"mw-headline\" id=\"Lightning_-_Battle\">",
+		"scriptMidCue": "<h2><span class=\"mw-headline\" id=\"Dialogue\">",
+		"scriptEndCue":"<span class=\"mw-headline\" id=\"External_Links\">External Links</span>",
+		"lineNode": "li",
+		"characterNameNode": "b",
+		"narrativeLineRegexp": "^\\["
+	},
+	"mainPlayerCharacters": ["Lightning", "Snow", "Vanille", "Fang", "Hope", "Sazh"],
+	"characterGroups": {
+		"male": [
+			"Amodar",
+			"Barthandelus",
+			"Cid",
+            "Commander",
+			"Dajh",
+			"Gadot",
+			"Galenth",
+			"Hope",
+			"Maqui",
+            "PSICOM Marauder",
+            "PSICOM soldier",
+			"Rygdea",
+			"Sazh",
+			"Snow",
+            "Titan",
+			"Yaag",
+			"Yuj",
+            "staff 2",
+            "staff 3"
+			],
+		"female": [
+			"Lightning",
+            "Fang",
+			"Jihl",
+			"Lebreau",
+			"Nora",
+			"Serah",
+			"Vanille",
+            "Reporter",
+            "staff 1"
+			],
+		"neutral": [
+			"Orphan",
+            "PSICOM Soldier"
+			]
+	},
+	"aliases": {
+		"'Sazh": "Sazh",
+		"Sazh'": "Sazh",
+		"Vanille (narrating)": "Vanille",
+		"Galenth's Voice": "Galenth",
+		"Lebrau":"Lebreau",
+		"Lightning:":"Lightning",
+		"Marqui":"Maqui",
+		"Yaag Rosch": "Yaag",
+		"Snow Villiers": "Snow",
+		"Sazh Katzroy": "Sazh",
+		"Oerba Dia Vanille": "Vanille",
+		"Hope Estheim": "Hope",
+		"Oerba Yun Fang": "Fang",
+		"Cid Raines": "Cid",
+		"Galenth Dysley/Barthandelus": "Galenth"
+	}
+}

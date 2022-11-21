@@ -1,0 +1,64 @@
+{
+	"game": "Final Fantasy IV",
+	"series": "Final Fantasy",
+	"year": 1991,
+	"source": "http://www.finalfantasyquotes.com/ff4/script",
+	"alternativeMeasure": true,
+	"parserParameters": {
+		"parser":"FFQParser",
+		"fileType":".html",
+		"characterClassIdentifier":"ff7"
+	},
+	"mainPlayerCharacters": [],
+	"characterGroups": {
+		"male": [
+			"Baigan",
+			"Cagnazzo",
+			"Cecil",
+			"Cid",
+			"Corio",
+			"Edge",
+			"Edward",
+			"Fusoya",
+			"Giott",
+			"Golbez",
+			"Gramps",
+			"Kain",
+			"Milon",
+			"Palom",
+			"Rubicant",
+			"Rydia",
+			"Tellah",
+			"Yang",
+			"Zemus",
+			"King",
+			"Man",
+			"Old Man"
+			],
+		"female": [
+			"Anna",
+			"Asura",
+			"Calbrinas",
+			"Cindy",
+			"Luca",
+			"Mindy",
+			"Porom",
+			"Rosa",
+			"Sandy",
+			"Valvalis",
+			"Asura",
+			"Queen",
+			"Yang's Wife"
+			],
+		"neutral": [
+			"Zeromus"
+			]
+	},
+	"aliases": {
+		"Voice Of Cagnazzo": "Cagnazzo",
+		"Voice Of Cid": "Cid",
+		"Voice Of Golbez": "Golbez",
+		"Voice Of Kain": "Kain",
+		"Palom & Porom": ["Palom","Porom"]
+	}
+}

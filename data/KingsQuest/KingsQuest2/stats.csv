@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingsQuest/KingsQuest2/,False,King's Quest II: Romancing the Throne,King's Quest,TOTAL,55,402,70,469,0.41638095238095296,102.306,5.453211385927505,10
+../data/KingsQuest/KingsQuest2/,False,King's Quest II: Romancing the Throne,King's Quest,male,16,69,19,81,-0.32151029748283655,103.8359038901602,5.189669794050342,3
+../data/KingsQuest/KingsQuest2/,False,King's Quest II: Romancing the Throne,King's Quest,neutral,3,60,7,69,1.3228571428571438,100.84500000000003,6.16697619047619,2
+../data/KingsQuest/KingsQuest2/,False,King's Quest II: Romancing the Throne,King's Quest,female,36,273,42,319,0.7332783882783893,101.38255494505496,5.404870695970695,5

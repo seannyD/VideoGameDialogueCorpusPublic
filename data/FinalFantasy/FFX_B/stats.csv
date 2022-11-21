@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFX_B/,False,Final Fantasy X,Final Fantasy,TOTAL,7092,84290,20677,99553,-0.06344969484801943,102.77820827364687,6.649760746658347,629
+../data/FinalFantasy/FFX_B/,False,Final Fantasy X,Final Fantasy,male,4864,56003,13893,66096,-0.09127574191827215,102.89668934884298,6.718805212102529,368
+../data/FinalFantasy/FFX_B/,False,Final Fantasy X,Final Fantasy,female,2119,26634,6466,31490,-0.03214158377108056,102.6295742117066,6.494408750957318,204
+../data/FinalFantasy/FFX_B/,False,Final Fantasy X,Final Fantasy,neutral,109,1653,317,1967,0.4851596084740297,100.87185387050789,6.827704780906907,57

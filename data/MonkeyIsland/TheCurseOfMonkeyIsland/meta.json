@@ -1,0 +1,99 @@
+{
+	"game": "The Curse of Monkey Island",
+	"series": "Monkey Island",
+	"year": 1997,
+	"source": "https://gamefaqs.gamespot.com/pc/29083-the-curse-of-monkey-island/faqs/60819",
+	"sourceFeatures":{
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "partial"
+	},
+    "error checks": {
+        "truePositive_numTestsDone": "5",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "0",
+        "truePositive_notes": "N/A",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "N/A"
+    },
+	"notes": "The CHOICE components here are only for alternative dialogue options (the player only has one chance to make a choice). Parallel options (e.g. list of questions that can all be asked in any order) are not represented",
+	"parserParameters": {
+		"parser":"MonkeyIsland3Parser",
+		"fileType": ".html",
+		"textDivId": "faqtext",
+		"startText": "Monkey grunts are heard",
+		"endText": "*3.2f. End Credits"
+	},
+	"mainPlayerCharacters": ["Guybrush"],
+	"characterGroups": {
+		"male":[
+			"Assistant",
+			"Bartender",
+			"Bill",
+			"Blondebeard",
+			"Boyle",
+			"Charles",
+			"Cruff",
+			"Dinghy Dog™",
+			"Fat Pirate",
+			"Father Pirate",
+			"Fossey",
+			"Gravedigger",
+			"Griswold",
+			"Guybrush",
+			"Haggis",
+			"Hideous Pirate",
+			"Kenny",
+			"LaFoot",
+			"LeChuck",
+			"Lemonhead",
+			"Lost Welshman",
+			"Mort",
+			"Murray",
+			"Palido",
+			"Rottingham",
+			"Skully",
+			"Slappy",
+			"Smuggler King",
+			"Snowcone Guy",
+			"Soldier",
+			"Son Pirate",
+			"Stan",
+			"Thin Pirate",
+			"Cabaña Boy",
+			"Van Helgen",
+			"Walk-Thru Speaker",
+			"Wally",
+			"Wharf Rat™",
+			"Pirate #1"
+		],
+		"female":[
+				"Elaine",
+				"Minnie",
+				"Xima",
+				"Voodoo Lady"
+				],
+		"neutral":[
+			"Skeleton Pirate #1",
+			"Skeleton Pirate #2",
+			"Skeleton Pirate #3",
+			"Skeleton Pirate #4"
+				]
+	},
+		"aliases":{
+			"Chorus": ["Bill","Haggis","Van Helgen"],
+			"Voice": "Mort",
+			"Skull": "Murray",
+			"Lechuck": "LeChuck",
+			"Fortuneteller": "Xima",
+			"Ghost Bride": "Minnie",
+			"Operator": "LaFoot",
+			"Proprietor": "Blondebeard",
+			"Small Pirate": "Kenny",
+			"Sunbather": "Palido",
+			"Actor": "Slappy"
+					}
+}

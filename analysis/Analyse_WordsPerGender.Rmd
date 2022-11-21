@@ -1,0 +1,971 @@
+---
+title: "Analysing gender balance in video game dialogue"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+papersize: a4
+header-includes: 
+- \pagestyle{empty}
+- \pagenumbering{gobble} 
+---
+
+```{r echo=F,eval=F}
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/"))
+```
+
+# Introduction
+
+
+This section looks at the proportion of dialogue in video games for female and male characters. The tests below test:
+
+-  Descriptive statistics of gender balance
+-  Change over time
+-  Statistical difference from hypothetical baselines.
+
+The amount of dialogue can be measured in several different ways, including the number of syllables, words, sentences and script lines. We prefer a measure in words because this measure is:
+
+-  Reliable: Words are not totally straightforward to measure, but there are standard solutions. In contrast, estimates of syllables and sentences rely on additional assumptions.
+-  Valid: Words are a more valid measure of text length than the number of lines, because a line can vary from one word to several sentences.
+
+
+# Basic statistics
+
+Load libraries
+
+```{r}
+library(ggplot2)
+library(ggrepel)
+library(GGally)
+library(grid)
+library(rjson)
+library(tidyr)
+library(lmtest)
+library(mgcv)
+library(tidymv)
+library(ggpubr)
+```
+
+Load statistics for all groups for all games and work out proportion of female dialogue compared to all female and male dialogue for different measures of length.
+
+```{r}
+stats = read.csv("../results/generalStats.csv",stringsAsFactors = F)
+# Remove alternative measures
+stats = stats[stats$alternativeMeasure!="True",]
+stats = stats[!is.na(stats$words),]
+d = NULL
+folders = unique(stats$folder)
+for(folder in folders){
+  sxM = stats[stats$folder==folder & stats$group == "male",]
+  sxF = stats[stats$folder==folder & stats$group == "female",]
+  js = fromJSON(file = paste0(folder,"meta.json"))
+  if(nrow(sxM)>0 & nrow(sxF)>0){
+    d = rbind(d,
+      data.frame(
+        folder = folder,
+        series = sxF$series,
+        game = sxF$game,
+        lines = sxF$lines / (sxF$lines + sxM$lines),
+        words = sxF$words / (sxF$words + sxM$words),
+        sentences = sxF$sentences / (sxF$sentences + sxM$sentences),
+        syllables = sxF$syllables / (sxF$syllables + sxM$syllables),
+        fw = sxF$words,
+        mw = sxM$words,
+        year = js$year,
+        shortName = tail(strsplit(folder,"/")[[1]],1),
+        femCharProp = sxF$numCharacters / (sxF$numCharacters+sxM$numCharacters),
+        maleWordsPerChar = 1000* ((sxM$words/(sxM$words+sxF$words)) / sxM$numCharacters),
+        femaleWordsPerChar = 1000* ((sxF$words/(sxM$words+sxF$words)) / sxF$numCharacters)
+      ))
+  }
+}
+shortNameChanges = list(
+  c("KingdomHearts", "KH"),
+  c("KingsQuest", "KQ"),
+  c("_Remake", "-R"),
+  c("TheSecretOfMonkeyIsland", "MI1"),
+  c("MonkeyIsland2", "MI2"),
+  c("TheCurseOfMonkeyIsland", "MI3"),
+  c("SuperMarioRPG", "SMario"),
+  c("FFX_B", "FFX"),
+  c("MassEffect1", "ME1"),
+  c("MassEffect2", "ME2"),
+  c("MassEffect3C", "ME3"),
+  c("B$", ""),
+  c("DS$", ""),
+  c("StarWarsKOTOR","KOTOR"),
+  c("DragonAgeOrigins","DAO"),
+  c("_","")
+)
+for(snc in shortNameChanges){
+  d$shortName = gsub(snc[1],snc[2],d$shortName)
+}
+```
+
+Overall proportion of female dialogue:
+
+```{r}
+allGamesPropFemale = (sum(stats[stats$group=="female",]$words,na.rm=T)/
+                        (sum(stats[stats$group=="female",]$words,na.rm=T)+
+                           sum(stats[stats$group=="male",]$words,na.rm=T)))*100
+allGamesPropFemale
+allGamesPropMale = 100-allGamesPropFemale
+dx = data.frame(
+  Gender=factor(c("Male","Female"),levels=c("Male","Female")),
+  percentageWords=c(allGamesPropMale,allGamesPropFemale))
+mainStatGraph = ggplot(dx,aes(x=1,y=percentageWords,fill=Gender))+ geom_bar(stat='identity')+
+  geom_hline(yintercept=50,linetype="dotted") +
+  coord_flip(ylim = c(0,100)) +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "top") +
+  scale_fill_discrete(breaks=c("Female","Male"),name="Gender")+
+  ylab("% Words Spoken") +
+  xlab("")
+mainStatGraph
+pdf('../results/graphs/OverallWordsByGender.pdf',width=6,height=3)
+mainStatGraph
+dev.off()
+```
+
+Plots for specific series:
+
+```{r}
+seriesToPlot = names(table(d$series)[table(d$series)>1])
+for(series in seriesToPlot){
+  dx = d[d$series==series,]
+  dx$game = factor(dx$game, levels = unique(dx$game[order(dx$year,decreasing = T)]))
+  dx$words.m = 1 - dx$words
+  sx = pivot_longer(dx,c("words","words.m"))
+  sx$group = factor(sx$name,
+                    levels=c("words.m","words"),
+                    labels=c("Male","Female"))
+  sx$measurement = sx$value*100
+  
+  gx = ggplot(sx, aes(x=game,y=measurement,fill=group)) +
+    geom_bar(stat='identity')+
+    geom_hline(yintercept=50,linetype="dotted") +
+    coord_flip(ylim = c(0,100)) +
+    theme(panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.background = element_blank(),
+          legend.position = "top") +
+    scale_fill_discrete(breaks=c("Female","Male"),name="Gender")+
+    ylab("% Words Spoken") +
+    xlab("")
+  gx
+  
+  # write
+  fileName = paste0("../results/graphs/series/",series,".pdf")
+  fileName = gsub(" ","_",fileName)
+  pdf(fileName,width=5,height=4)
+  gx
+  dev.off()
+}
+```
+
+Summary of proportion of female dialogue according to different measures:
+
+```{r}
+knitr::kable(d[,c("game","syllables","words","sentences","lines")],digits = 3)
+```
+
+Write some stats for the paper:
+
+```{r}
+# Write general stats
+minFemaleProp = d[d$words==min(d$words),]
+maxFemaleProp = d[d$words==max(d$words),]
+
+minFemalePropStr = paste0(round(100*minFemaleProp$words),"\\% (\\emph{",minFemaleProp$game,"})")
+maxFemalePropStr = paste0(round(100*maxFemaleProp$words),"\\% (\\emph{",maxFemaleProp$game,"})")
+
+cat(minFemalePropStr,file="../results/latexStats/gameWithMinimumFemaleWords.tex")
+cat(maxFemalePropStr,file="../results/latexStats/gameWithMaximumFemaleWords.tex")
+
+cat(round(100*d[d$game=="Final Fantasy XV",]$words),
+ file = "../results/latexStats/FFXV_PropFemaleDialogue.tex")
+
+```
+
+The proportion of female dialogue ranges from `r minFemalePropStr` to `r maxFemalePropStr`.
+
+The estimates from different measures of length are highly correlated:
+
+```{r}
+plot(d$words,d$syllables)
+cor(d$words,d$syllables,method = 'k')
+cor(d$words,d$sentences)
+cor(d$syllables,d$sentences)
+```
+
+Correlation between all measures, using Kendall's correlation for significance:
+
+```{r}
+measures = c("syllables","words","sentences","lines")
+corK = function(data,mapping,...){ 
+  ggally_cor(data,mapping,method="kendall")
+  }
+ggpairs(d[,measures],
+        upper = list(continuous = corK),
+        title="Correlation betwen different measures of length") 
+```
+
+What are the maximum differences between measures of syllables, words and sentences?
+
+```{r}
+mx = c("syllables","words","sentences")
+d$maxDiff = apply(d[,mx],1,function(X){max(abs(outer(X,X,"-")))})
+```
+
+For 95% of games, the measures of syllables, words, and sentences were within `r round(100*quantile(d$maxDiff,0.95),1)` percentage points of each other. Two games had higher differences. The first is King's Quest 2, which has a very small amount of dialogue, so small differences in counts can lead to large differences in proportions.
+
+The second is Final Fantasy X-2 (`r round(100*d[d$game=="Final Fantasy X-2",]$maxDiff,1)` percentage points difference), which has a higher estimate for sentences than for words or syllables. 
+
+```{r}
+x2 = read.csv("../data/FinalFantasy/FFX2/stats_by_character.csv",stringsAsFactors = F)
+x2 = x2[x2$group %in% c('male','female'),]
+summary(lm(words~lines*group, data=x2[x2$group %in% c("male","female"),]))
+```
+
+While the overall proportion of female dialogue is high, FFX-2 has large gender differences in the number of words per sentence. Female speak on average 3.4 words per sentence, and males speak 4.4. We note that the Dale-Chall Readability is also higher for males than females, which agrees with this.
+
+We note that, across games, there is considerable variation in the gender differences in words per sentence:
+
+```{r fig.height = 6}
+d$WordsPerSentEffect = NA
+d$WordsPerSentSig = NA
+for(folder in folders){
+  x = read.csv(paste0(folder,"stats_by_character.csv"),stringsAsFactors = F)
+  if(nrow(x)>0){
+    x = x[x$group %in% c("male","female"),]
+    sx = summary(lm(words~sentences*group, data=x))
+    t.val = sx$coefficients[4,3]
+    sig = sx$coefficients[4,4]< (0.05/nrow(d))
+    sig = c("NS","Significant")[sig+1]
+    d[match(folder,d$folder),]$WordsPerSentEffect = t.val
+    d[match(folder,d$folder),]$WordsPerSentSig = sig
+  }
+}
+d$game = factor(d$game,levels=d$game[order(d$WordsPerSentEffect)])
+
+a1 = grobTree(textGrob("Males have\nmore words\nper sentence", x=0.8,  y=0.5))
+a2 = grobTree(textGrob("Females have\nmore words\nper sentence", x=0.15,  y=0.5))
+ggplot(d,aes(x=WordsPerSentEffect,y=game,fill=WordsPerSentSig))+
+  geom_bar(stat="identity") +
+  annotation_custom(a1)+
+  annotation_custom(a2)+
+  theme(legend.position = "top")
+```
+
+## Proportion of characters
+
+Relationship between dialogue proportions and character proportions:
+
+```{r}
+
+poly = data.frame(
+  x = c(-1,2,2),
+  y = c(-1,-1,2),
+  id = c(1,1,1))
+
+bgColours = c("#458fc2","#ec0085")
+bgColours = c("#000000","#AAAAAA")
+
+wordsVCharacters = ggplot(d,aes(y=words,x=femCharProp)) + 
+  geom_polygon(data = data.frame(
+    x = c(-1,2,2,-1,-1,2), 
+    y = c(-1,-1,2,-1,2,2),
+    grp = c("a","a","a","b",'b','b')),
+               aes(x = x, y = y,fill=grp),alpha=0.1)+
+  scale_fill_manual(breaks=c('a','b'),values=bgColours)+
+  coord_cartesian(ylim=c(0,1),xlim=c(0,1))+
+  xlab("Proportion of female characters") +
+  ylab("Proportion of female words") +
+  geom_abline(intercept=0,slope=1,colour="white") +
+  geom_label(label="Females\nover-represented",x=0.19,y=0.85) +
+  geom_label(label="Females\nunder-represented",x=0.75,y=0.15, fill="#AAAAAA")+
+  theme(legend.position = 'none')
+
+wordsVCharacters + geom_point()
+
+pdf("../results/graphs/WordsVsCharacters_noPoints.pdf",width=4,height = 3.5)
+  wordsVCharacters + geom_point(alpha=0)
+dev.off()
+pdf("../results/graphs/WordsVsCharacters.pdf", width=4,height = 3.5)
+  wordsVCharacters + geom_point()
+dev.off()
+```
+
+There is a significant correlation between the proportion of female characters and the proportion of female dialogue:
+
+```{r}
+cor.test(d$words,d$femCharProp)
+```
+
+## Words per character
+
+Is there a difference in the average amount of dialogue given to the average male character compared to the average female character? One confounding aspect of the data is that different games have different amounts of dialogue. So instead of raw words per character, for each game we calculate the average number of words given to a character *per 1000 words of dialogue*. That is, for every 1000 words of dialogue observed, how many go to a single male character on average? And how many to a single female character on average?
+
+On average, a female character says `r round(mean(d$femaleWordsPerChar),1)` words per 1000 words of dialogue.
+
+On average, a male character says `r round(mean(d$maleWordsPerChar),1)` words per 1000 words of dialogue.
+
+That is, the average female character says slightly more than the average male character. This difference is not significant:
+
+```{r}
+t.test(d$femaleWordsPerChar,d$maleWordsPerChar,paired = T)
+```
+
+Here is the distribution over games:
+
+```{r}
+hist(d$femaleWordsPerChar, main="Words per Character\n(Female characters)",
+     breaks = seq(0,175,by=10))
+hist(d$maleWordsPerChar, main="Words per Character\n(Male characters)",
+     breaks = seq(0,175,by=10))
+```
+
+
+\clearpage
+\newpage
+
+# Change over time
+
+This section tests whether the proportion of words spoken by female characters has changed over time. First we can visualise the data:
+
+```{r}
+ggplot(d,
+       aes(x=year,y=words)) + 
+  geom_point() +
+  coord_cartesian(ylim=c(0,1),xlim=c(1975,2025))+
+  ylab("Proportion of female words spoken") +
+  xlab("Year") +
+  geom_text_repel(aes(label=shortName),color="dark gray")
+```
+
+There are clearly two outliers: King's Quest 1 and King's Quest 2. These both have very little dialogue.
+
+Test relationship between proportion of female characters and time:
+
+```{r}
+cor.test(d$words,d$year)
+```
+
+There is no significant relationship overall. However, removing the two outliers shows a significant positive correlation:
+
+```{r}
+dNoOutliers = d[!d$shortName %in% c("KQ2","KQ4"),]
+propFemaleOverTime = cor.test(dNoOutliers$words,dNoOutliers$year)
+propFemaleOverTime
+```
+
+Let's contextualise the linear relationship:
+
+```{r}
+# Increase in prop female over time
+pm = lm(words~year, data=dNoOutliers)
+incPropFemalePerDecade = round((pm$coefficients['year']*100) * 10,1)
+incPropFemalePerDecade
+# Year of parity
+parity = ceiling((0.5 - pm$coefficients[1])/pm$coefficients[2])
+```
+
+The proportion of female dialogue is increasing by `r incPropFemalePerDecade` percentage points per decade. If this rate continues, parity will be reached by `r parity`.
+
+We can also test whether the change over time is non-linear, using a General Additive Model (GAM):
+
+```{r}
+gam0 = bam(words ~ s(year), data=dNoOutliers)
+# The EDF is a measure of non-linearity
+summary(gam0)$edf
+```
+
+The EDF is slightly above 1, which is an indication of non-linearity. The GAM suggests that the increase in female proportions is slowing down, with the average seeming to plateau around 40%.
+
+```{r}
+plot_smooths(gam0,year)
+```
+
+However, the GAM does not significantly improve the fit of the model compared to the linear model:
+
+```{r}
+lrtest(pm,gam0)
+```
+
+Therefore we prefer the linear model.
+
+Write some stats for the paper:
+
+```{r}
+propFemaleOverTimeStr = paste0(
+  "$r$=",round(propFemaleOverTime$estimate,2), 
+  " [",round(propFemaleOverTime$conf.int[1],2),",",
+    round(propFemaleOverTime$conf.int[2],2),"]",
+  ", $n$=",nrow(d), 
+  ", $p$=",round(propFemaleOverTime$p.value,3))
+cat(propFemaleOverTimeStr, file="../results/latexStats/propFemaleOverTime.tex")
+cat(incPropFemalePerDecade, file="../results/latexStats/incPropFemalePerDecade.tex")
+cat(min(d$year), file="../results/latexStats/earliestYear.tex")
+cat(max(d$year), file="../results/latexStats/latestYear.tex")
+cat(parity, file="../results/latexStats/yearOfParity.tex")
+```
+
+Plot for paper:
+
+```{r}
+changeOverTime = ggplot(d,
+       aes(x=year,y=words)) + 
+  annotate("rect", xmin = 0, xmax = 3000, 
+           ymin = 0.5, ymax = 1.5, alpha = .1) +
+#  annotate("rect", xmin = 0, xmax = 3000, 
+#           ymin = 0.5, ymax = 1.5, alpha = .1,fill="#ec0085") +
+#  annotate("rect", xmin = 0, xmax = 3000, 
+#           ymin = -0.5, ymax = 0.5, alpha = .1,fill="#458fc2") +
+  stat_smooth(method=lm, se = F,data = dNoOutliers) +
+  geom_point() +
+  coord_cartesian(ylim=c(0,1),xlim=c(1980,2025))+
+  ylab("Proportion of female words spoken") +
+  xlab("Year") +
+  geom_text_repel(aes(label=shortName),color="dark gray")
+changeOverTime
+pdf('../results/graphs/ChangeOverTime.pdf', width=8,height=6)
+changeOverTime
+dev.off()
+```
+
+
+## Change in proportions of female characters
+
+There is no significant correlation in the total data:
+
+```{r}
+cor.test(d$femCharProp, d$year)
+```
+
+But removing one early outlier (King's Quest II) shows that there is a positive trend:
+
+```{r}
+dx = d[d$game != "King's Quest II: Romancing the Throne",]
+cor.test(dx$femCharProp, dx$year)
+```
+
+```{r}
+ggplot(d,
+       aes(x=year,y=femCharProp)) + 
+  geom_point() +
+  stat_smooth(method=lm, se = F) +
+  coord_cartesian(ylim=c(0,1),xlim=c(1975,2025))+
+  ylab("Proportion of female characters") +
+  xlab("Year") +
+  geom_text_repel(aes(label=shortName),color="dark gray")
+```
+
+
+\clearpage
+\newpage
+
+# Assessing gender bias with random baselines
+
+This section analyses the gender balance in the dialogue of the games in the corpus. It begins with an illustration of the statistical methods applied to *Final Fantasy VII*.  
+
+The proportion of dialogue by gender is assessed in comparison to two "baselines". These reflect two possible sources of bias in the amount of dialogue spoken by each gender:
+
+-  How many characters of each gender there are (i.e. are there more male than female characters).
+-  How much dialogue each character is given (i.e. are males given more dialogue than females).
+
+## Load libraries
+
+```{r warning=F,message=F}
+library(vcd)
+library(MASS)
+library(ggplot2)
+library(ggrepel)
+```
+
+# Demonstration: Gender differences in Final Fantasy VII
+
+Let's load the data for Final Fantasy VII:
+
+```{r}
+d = read.csv("../data/FinalFantasy/FFVII/stats_by_character.csv",stringsAsFactors = F)
+cor(d[d$group=="female",]$words,d[d$group=="female",]$lines)
+```
+
+## Distribution of words by character
+
+What does the distribution of lines per character look like? Here is a plot, showing the number of words of dialogue for each character. The shape of how these values are distributed across the scale is called the "distribution".
+
+```{r}
+lengthVar = "words"
+# estimate the parameters
+distr = d[,lengthVar]
+#plot(1:length(distr),sort(distr),xlab="Character",ylab="Words of dialogue")
+hist(distr, freq = TRUE, breaks = 100, xlim = c(0, quantile(distr, 0.99)),
+     ylab="Number of characters",     
+     xlab="Number of words\n(In FFVII)", main="")
+```
+
+The distribution is very skewed: a small number of characters have a lot of dialogue, and a large number of characters have a small amount of dialogue. For example, `r sum(d[,lengthVar]<100)` characters have less than 100 words of dialogue each, while only `r sum(d[,lengthVar]>3000)` characters have over 3,000 words of dialogue each.
+
+We can formally test whether the distribution fits an ideal "normal" (bell-curve), an exponential distribution or a t-distribution:
+
+```{r, warning=F, message=F}
+# goodness of fit test
+normFit = fitdistr(distr,"normal")
+ks.test(distr, "pnorm", normFit$estimate) 
+expFit = fitdistr(distr, "exponential") 
+ks.test(distr, "pexp", expFit$estimate) 
+tFit = fitdistr(distr, "t") 
+ks.test(distr, "pt", tFit$estimate) 
+
+# plot a graph
+#hist(distr, freq = FALSE, breaks = 100, xlim = c(0, quantile(distr, 0.99)))
+#curve(dexp(x, rate = expFit$estimate), from = 0, col = "red", add = TRUE)
+```
+
+We see that the dialogue by character distribution does not fit any of these ideal distributions. This means that using standard tests such as the t-test is not appropriate in order to compare the distributions (e.g. for testing if the average number of words given to male characters is higher than the average number of words given to female characters).
+
+We can see the departure from an exponential curve by looking at the number of words spoken by a character compared to their rank (black circles): there is a very sharp decrease in characters, then a smaller set of 'main' characters. The turning point is a kind of "elbow" shape. The plot below includes a true exponential line in red for reference:
+
+```{r}
+plot(1:nrow(d)~sort(d$words,decreasing = T),
+     xlab="Number of words",ylab="Character rank")
+# Exponential line
+ys = seq(0,10000,length.out = 100)
+points(ys,rev(1.0006^(ys)),type='l',col=2)
+```
+
+The "elbow" distribution we see in the data can be generated using the following method: Assume that we have 400 characters, and that the distribution of their importance to the plot is exponential (a few characters are much more likely to be chosen to speak than the majority)
+
+```{r}
+nChar = 400
+# Exponential character importance
+charImportance = 1.2^(1:nChar)
+plot(charImportance,xlab="Character ID",ylab="Importance")
+```
+
+Now we can simulate a conversation: We pick one character at random, but weighted in proportion to their importance (we're more likely to choose a more important character). Now pick one other character (that is not the first character) in the same way. They each say 10 words. We run this simple simulation many times, and show that it generates the same kind of "elbow" (black dots). A true exponential line is shown in red for comparison. With comparable settings for FFVII, it also generates roughly the same number of words that the most prolific character speaks.
+
+```{r}
+simulateConversation = function(){
+  chars = 1:nChar
+  char1 = sample(chars,1,prob = charImportance)
+  char2 = sample(chars[chars!=char1],1,prob = charImportance[chars!=char1])
+  # 10 words each
+  10* ((1:nChar) %in% c(char1,char2))
+}
+
+# 8000 lines in FFVII, which is 4000 pairs of lines
+res = replicate(4000,simulateConversation())
+distrSim = rowSums(res)
+
+plot(1:length(distrSim)~sort(distrSim,decreasing = T),
+     xlab="Number of words",ylab="Character rank")
+# Exponential line
+ys = seq(1,max(distrSim),length.out = 100)
+points(ys,rev(1.00047^(ys)),type='l',col=2)
+```
+
+So, the distribution of words by characters may be a product of conversations being *interactive*: at least two speakers are required to have a conversation.
+
+\clearpage
+\newpage
+
+
+## Difference in words per gender
+
+Below we calculate the total number of words for male and female characters. There are other gender groups, but we'll focus just on the comparison between male and female.
+
+```{r}
+dx = d[d$group %in% c("male","female"),]
+totalWords = tapply(dx[,lengthVar],dx$group,sum)
+cbind(words=totalWords,proprtion=totalWords/sum(totalWords))
+```
+
+Total number of male female characters.
+
+```{r}
+totalCharacters = table(dx$group)
+cbind(characters=totalCharacters, proportion = prop.table(totalCharacters))
+```
+
+It's clear that the proportion of male dialogue is to some extent affected by the proportion of male characters. In order to tell whether there is a bias for men to speak more than women independently of the number of male and female characters, we need to compare the true difference in the data to a "baseline". Baselines are a calculation of the range of differences we would expect in particular conditions, such as there being no bias in dialogue length by gender.
+
+Therefore, we calculate the true difference in total number of words for male and female characters in our data. A positive number indicates more words for males, expressed in number of words:
+
+```{r}
+true_diffInWords = diff(totalWords)
+true_diffInWords
+```
+
+### Baseline 1: Randomly assigned gender
+
+In order to contextualise the difference between the amount of male and female dialogue, we need to compare it to a baseline. We use two baselines in this study: In the first baseline, we hold fixed which lines belong to which characters, and randomly assign them a gender (creating roughly 50% female characters). In the second, we randomly shuffle the genders (preserving the proportion of characters). This is explained as follows:
+
+We can simulate what would happen if the gender of each character was assigned randomly, with an even chance of each character being male or female. This can lead to a different number of male and female characters compared to the true game. A typical simulation would have roughly 50% male and 50% female. We know that this baseline is **unbiased**, at least in the sense that there is an equal probability of any character being male or female.
+
+In the simulation, we assign gender randomly then work out the difference in the total number of words between male and female characters. We run this simulation 10,000 times to get lots of values for this measure (a "distribution").
+
+```{r}
+randomGender = function(words,groups){
+  diff(tapply(
+        words,
+        sample(unique(groups),length(words),replace = T),
+        sum))
+}
+set.seed(451)
+random_diffInWords = replicate(10000,
+                         randomGender(dx[,lengthVar],dx$group))
+```
+
+So we now have two types of data: the true difference between the amount of male and female dialogue that we observed in the data. We'll call this the "true gender bias". And we also have lots of estimates of the difference between the amount of male and female dialogue if the gender was assigned randomly. This forms our baseline, and we'll call this the "random distribution".
+
+We can now visualize these values: the random distribution is visualised below as a histogram, and the true gender bias is marked with a red line. If the true gender bias in dialogue is not different from the random distribution, then the true bias should lie in the middle of the random distribution. That is, it could have plausibly been generated by randomly assigning genders. However, in the graph below we see that the true gender bias lies at one extreme of the random distribution. This indicates that it is unlikely that the gender bias we see in the real data was generated by randomly assigning genders. That is, the true gender bias is very different from the baseline.
+
+```{r}
+hist.compareDist = function(perm,trueVal){
+  pmin = min(c(trueVal,perm,0))
+  pmax = max(c(trueVal,perm,0))
+  hist(perm, xlim=c(pmin,pmax),
+       xlab="Difference in number of words\nof dialogue",
+       main="")
+  abline(v=0,col='gray',lty=2)
+  axis(1,c(pmin,pmax),
+       c("More female\ndialogue","More male\ndialogue"),
+       tick=F,line=2,cex.axis=0.7)
+  abline(v=trueVal,col=2)
+  axis(3,trueVal,"True difference",col.axis="red",col.ticks="red")
+}
+hist.compareDist(random_diffInWords,true_diffInWords)
+```
+
+We can quantify the difference between the true bias and the random distribution. The first measure is the z-score, which indicates how far away the true difference is from the mean, expressed in the number of standard deviations. The second measure is a p-value, which indicates the proportion of simulations that resulted in a more extreme measure of difference than the true value.
+
+```{r}
+zstats = function(true,dist){
+  zscore = (true-mean(dist)) / sd(dist)
+  pvalue = 1/length(dist)
+  numAgainst = sum(true < dist)
+  if(numAgainst>0){
+    pvalue = numAgainst/ length(dist)
+  }
+  return(c(zscore=zscore,p=pvalue))
+}
+zstats(true_diffInWords,random_diffInWords)
+```
+
+The p-value is less than 0.05, suggesting that there is less than 5% chance of observing the true bias in a simulation where gender is assigned randomly. That is, the true gender bias is unlikely to have been generated by an unbiased process. Put another way, the difference between male and female dialogue is significant in comparison to this baseline.
+
+### Baseline 2: Permuted gender
+
+We can also specify a different baseline that takes into account the proportion of male and female characters. This can be done by randomly swapping the gender of characters. The difference from the first baseline is as follows: Imagine some real data where the characters were composed of 30% female characters and 70% male characters. The first baseline would change that proportion to roughly 50%/50%. In contrast, the simulation for the second baseline preserves the same proportion (30% female, 70% male), but with a different assignment of which characters are male and which are female. 
+
+There's another way to think about this second baseline that is an equivalent interpretation. Although the implementation below randomly permutes the gender values, it's effectively equivalent to permuting the values of the dialogue. That is, the process effectively randomly swaps all of one character's lines for all of another character's lines. For example, all of (main protagonist) Cloud's lines are now spoken by (party member) Aerith, and all of Aerith's lines are now spoken by (minor character) "Shopkeeper (Items Sector 7)".
+
+If there was no gender bias in the amount of dialogue written for each character, then this random swapping would not produce a big change in the calculation of the difference between genders. So the baseline is unbiased in the sense that we know that there's no bias in the amount of dialogue given to any particular character.
+
+The function below works out the difference in the sum of words between the two gender groups, but where the assignment of characters to gender groups has been randomly permuted (sampled). This preserves the same number of male and female characters as in the true data.
+
+```{r}
+permuteGender = function(words,group){
+  diff(tapply(words,sample(group),sum))
+}
+set.seed(451)
+permuted_diffInWords = replicate(10000, 
+                          permuteGender(dx[,lengthVar],dx$group))
+```
+
+We'll call this second baseline the "permuted distribution". We can now visualise the permuted distribution from these second baseline simulations, and compare it to the true gender bias This time, we see that the true gender bias lies in the middle of the distribution:
+
+```{r}
+hist.compareDist(permuted_diffInWords,true_diffInWords)
+```
+
+And the stats also suggest that the true difference is reasonably likely to be generated by the permuted simulation. That is, it's plausible that the true data was generated by a process that had no bias for the amount of dialogue given to a character based on their gender.
+
+```{r}
+zstats(true_diffInWords,permuted_diffInWords)
+```
+
+## Summary
+
+We discovered a few things about Final Fantasy VII:
+
+-  The distribution of dialogue by character does not approximate common distributions, preventing straightforward statistical tests.
+-  The difference in the number of words of dialogue between male and female characters is biased. There are more words spoken by male characters compared to a game where the gender of each character was randomly determined.
+-  However, there is no dialogue bias in Final Fantasy VII. That is, the proportion of dialogue reflects the proportion of male and female characters, and there's no evidence that the average female character is given fewer lines than the average male character.
+
+In principle, the two types of test are independent: a game might have a small or large proportion of female characters, and those characters might have more or less to say than male characters.
+
+
+\clearpage
+\newpage
+
+# Applying the baselines to all games
+
+We can now apply the methods above to all the games in the corpus. These calculations were run offline in the script `compareToBaselines.R`.
+
+Some games have much larger scripts than others. So for the test that compares the entire corpus as a whole, the length of dialogue was transformed to words-per-thousand within a game.
+
+```{r}
+all = read.csv("../results/compareToBaseline.csv",stringsAsFactors = F)
+all = all[!is.na(all$p.perm),]
+all = all[all$game!="Test",]
+all = all[!all$alternativeMeasure,]
+```
+
+Create a bias plot for the publication:
+
+```{r}
+all$p.random.log = log10(all$p.random)
+all$p.perm.log = log10(all$p.perm)
+
+all$p.random.log[all$z.random<0] = -all$p.random.log[all$z.random<0]
+all$p.perm.log[all$z.perm<0] = -all$p.perm.log[all$z.perm<0]
+
+threshold = log10(0.05)
+
+options(scipen=999)
+xs = c(0.05,0.01,0.001,0.00001)
+xs2 = c(rev(xs),1,xs)
+ls = c(log10(rev(xs)),0,-log10(xs))
+
+gx = ggplot(all, aes(x=p.random.log,y=p.perm.log)) +
+  annotate("rect", xmin = -1000, xmax = 1000, ymin = -threshold, ymax = threshold, alpha = .1) +
+  annotate("rect", xmin = -threshold, xmax = threshold, ymin = -1000, ymax = 1000, alpha = .1) +
+  geom_point() +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  geom_text_repel(aes(label=shortName),color="dark gray",force = 1) +
+  coord_cartesian(ylim=c(-4,4),xlim=c(-5,5)) +
+  scale_x_continuous(breaks=ls,labels=xs2,
+                     sec.axis = sec_axis(~.*1,
+                        breaks = ls,
+                        labels=c("","Less female dialogue\nthan expected","","",
+                                 "No bias",
+                                 "","",
+                                 "More female dialogue\nthan expected",""))) +
+  scale_y_continuous(breaks=ls,labels=xs2,
+                     sec.axis = sec_axis(~.*1,
+                        breaks = ls,
+                        labels=c("","","Less female dialogue\nper character\nthan expected","",
+                                 "No bias","",
+                                 "More female dialogue\nper character\nthan expected","",""))) +
+  theme(panel.grid.minor = element_blank()) +
+  xlab("Character bias\n(random gender p-value)") +
+  ylab("Dialogue bias\n(permuted gender p-value)") 
+gx
+```
+
+Write to file
+
+```{r}
+pdf("../results/graphs/CompareToBaseline.pdf",width=9.5,height=7)
+gx
+dev.off()
+```
+
+
+The graph above shows the p-values for the random baseline compared to the permuted baseline. Values nearer the center are not significantly different from the baseline. The gray rectangles show the threshold of p < 0.05.
+
+
+Full results for the comparison to the random baseline:
+
+```{r}
+knitr::kable(all[,c("game","z.random","p.random")])
+```
+
+Full results for the comparison to the permuted baseline:
+
+```{r}
+knitr::kable(all[,c("game","z.perm","p.perm")])
+```
+
+Mini graph for publication:
+
+```{r}
+xs = c(0.05,0.001,0.00001)
+xs2 = c(rev(xs),1,xs)
+ls = c(log10(rev(xs)),0,-log10(xs))
+gxMini = ggplot(all, aes(x=p.random.log,y=p.perm.log)) +
+  annotate("rect", xmin = -1000, xmax = 1000, ymin = -threshold, ymax = threshold, alpha = .1) +
+  annotate("rect", xmin = -threshold, xmax = threshold, ymin = -1000, ymax = 1000, alpha = .1) +
+  geom_point() +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 0) +
+  coord_cartesian(ylim=c(-4,4),xlim=c(-5,5)) +
+  scale_x_continuous(breaks=ls,labels=xs2,
+                     sec.axis = sec_axis(~.*1,
+                        breaks = ls,
+                        labels=c("","Less female\ndialogue\nthan expected","",
+                                 "No bias",
+                                 "",
+                                 "More female\ndialogue\nthan expected",""))) +
+  scale_y_continuous(breaks=ls,labels=xs2,
+                     sec.axis = sec_axis(~.*1,
+                        breaks = ls,
+                        labels=c("","Less female\ndialogue\nper character\nthan expected","",
+                                 "No bias","",
+                                 "More female\ndialogue\nper character\nthan expected", ""))) +
+  theme(panel.grid.minor = element_blank()) +#,panel.grid.major = element_blank(), axis.ticks = element_blank()) +
+  xlab("Character bias\n(random gender p-value)") +
+  ylab("Dialogue bias\n(permuted gender p-value)") 
+pdf("../results/graphs/CompareToBaseline_Mini.pdf",height=4,width=5)
+gxMini
+dev.off()
+```
+
+\clearpage
+\newpage
+
+Big plot for paper
+
+```{r}
+# pdf("../results/graphs/Big3.pdf",width=10,height=6)
+# ggarrange(ggarrange(gxMini,
+#                     wordsVCharacters+ geom_point(), 
+#                     nrow = 2, labels = c("A", "B")), 
+#           changeOverTime,
+#           ncol = 2, 
+#           labels = "C",widths = c(1,1.5)) 
+# dev.off()
+
+pdf("../results/graphs/Big2.pdf",width=8,height=4)
+ggarrange(gxMini,
+          wordsVCharacters+ geom_point(), 
+          ncol = 2, labels = c("A", "B"),widths=c(1.2,1))
+dev.off()
+
+```
+
+
+\clearpage
+\newpage
+
+# Readability
+
+There are multiple measures of readability calculated by Textatistic:
+
+-  Flesch score
+-  Flesh Kincaid score
+-  Dale-Chall score
+
+The Flesch and Dale-Chall measures are not strongly correlated with each other:
+
+```{r}
+readMeasures = c("FleschKincaidReadability","FleschReadability","DaleChallReadability")
+ggpairs(stats[,readMeasures])
+```
+
+
+```{r}
+getReadabilityTestText = function(readability,rt){
+  p = rt$p.value
+  if(p<0.0001){
+    p  = "< 0.0001"
+  } else{
+    p = round(p,3)
+  }
+  paste0("game-level mean readability for male characters = ",
+         round(mean(readability[1,],na.rm=T),2),
+         ", sd = ",
+         round(sd(readability[1,],na.rm=T),2),
+         ", for female characters = ",
+         round(mean(readability[2,],na.rm=T),2),
+         ", sd = ",
+         round(sd(readability[2,],na.rm=T),2),
+         ", paired t-test t = ",
+         round(rt$statistic,2),
+         ", n = ",
+         sum(!is.na(readability[1,])),
+         ", p ",p
+  )
+}
+
+games = unique(stats$folder)
+grpPerGame =tapply(stats$group,stats$folder,length)
+games = games[games %in% names(grpPerGame[grpPerGame>1])]
+
+readability.DC = sapply(games, function(g){
+  c(stats[stats$folder==g & stats$group=="male",]$DaleChallReadability,
+    stats[stats$folder==g & stats$group=="female",]$DaleChallReadability)})
+readability.DC.t = t.test(readability.DC[1,], readability.DC[2,], paired = T)
+readability.DC.text = getReadabilityTestText(readability.DC,readability.DC.t)
+cat(readability.DC.text,file="../results/latexStats/readability-DC-TTest.tex")
+
+readability.F = sapply(games, function(g){
+  c(stats[stats$folder==g & stats$group=="male",]$FleschReadability,
+    stats[stats$folder==g & stats$group=="female",]$FleschReadability)})
+readability.F.t = t.test(readability.F[1,], readability.F[2,], paired = T)
+readability.F.text = getReadabilityTestText(readability.F,readability.F.t)
+cat(readability.F.text,file="../results/latexStats/readability-F-TTest.tex")
+
+readability.FK = sapply(games, function(g){
+  c(stats[stats$folder==g & stats$group=="male",]$FleschKincaidReadability,
+    stats[stats$folder==g & stats$group=="female",]$FleschKincaidReadability)})
+readability.FK.t = t.test(readability.FK[1,], readability.FK[2,], paired = T)
+readability.FK.text = getReadabilityTestText(readability.FK,readability.FK.t)
+cat(readability.FK.text,file="../results/latexStats/readability-FK-TTest.tex")
+```
+
+The statistical results are as follows:
+
+Dale-Chall: `r readability.DC.text`
+
+Flesch: `r readability.F.text`
+
+Flesch-Kinkaid: `r readability.FK.text`
+
+
+For the Dale-Chall scores, male dialogue has significantly higher values than female dialogue. This suggests that the required reading grade for male text is higher, or in other words male dialogue includes a smaller proportion of high-frequency words. The effect size is roughly the same as for the difference in reading ease between male and female academic journal publications (Hengel, 2022, table 3).
+
+Below, we plot Dale-Chall scores, with values from the same game being connected by a line. The lines are coloured by blue = male > female, red = female > male :
+
+```{r}
+stats = stats[order(stats$folder,stats$group),]
+dir = tapply(stats[stats$group %in% c("male","female"),]$DaleChallReadability,
+             stats[stats$group %in% c("male","female"),]$folder,
+             function(X){X[1]<X[2]})
+stats$dir = dir[stats$folder]
+dcBox = stats[stats$group %in% c("male","female"),] %>%
+  ggplot(aes(x=group,y=DaleChallReadability)) +
+  geom_boxplot(outlier.alpha = 0, width = 0.5,
+               position = position_nudge(x=c(-0.2,0.2))) +
+  geom_point(aes(group=folder), position = position_dodge(0.2)) +
+  geom_line(aes(group=folder,colour=dir),position = position_dodge(0.2))+
+  xlab("Gender") +
+  ylab("Dale-Chall Readability")+
+  theme(legend.position = "none")
+dcBox
+pdf("../results/graphs/Readability.pdf",width=6,height=4)
+dcBox
+dev.off()
+
+```
+
+However, the Flesch measures are not significant. In contrast, in Hengel (2022, table 3), the Flesch measures have stronger effect sizes than the Dale-Chall scores. Taken together with the lack of correlation between the measures, this casts some doubt on the robustness of the results for readability.
+
+\clearpage
+\newpage
+
+# Discussion
+
+This report demonstrated several things:
+
+-  There is about twice as much male dialogue than female dialogue in video games.
+-  There is high agreement between different measures of the amount of dialogue (number of words, lines, syllables).
+-  The proportion of female words is increasing over time.
+-  There is a significant correlation between the proportion of female characters and the proportion of female dialogue.
+-  The average male chararacter does not say significantly more than the average female character.
+-  There is considerable variation between games on the gender difference in number of words per sentence.
+-  There are some differences in readability between male and female dialogue, though the results are not robust over different measures of readability.
+
+\clearpage
+\newpage
+
+# References
+
+Hengel, E. (2022) Publishing while female: Are women held to higher standards? Evidence from peer review. https://www.erinhengel.com/research/publishing_female.pdf

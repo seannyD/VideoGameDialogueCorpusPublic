@@ -1,0 +1,16 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,-,-,1
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,-,female,545
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,female,-,578
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,female,female,832
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,female,male,519
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,male,male,289
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,male,female,547
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,male,-,416
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,-,male,444
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,-,genderless,3
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,genderless,-,3
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,male,genderless,1
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,male,neutral,1
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,neutral,male,1
+../data/FinalFantasy/FFX2/,Final Fantasy,Final Fantasy X-2,genderless,female,1

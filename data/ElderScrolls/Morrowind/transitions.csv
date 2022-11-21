@@ -1,0 +1,13 @@
+folder,series,game,from,to,frequency
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,-,male,1
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,male,playerChoice,3145
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,playerChoice,male,2986
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,playerChoice,female,1619
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,female,playerChoice,1710
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,female,male,80
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,male,male,178
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,male,female,91
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,female,female,35
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,female,neutral,1
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,neutral,playerChoice,3
+../data/ElderScrolls/Morrowind/,The Elder Scrolls,The Elder Scrolls III: Morrowind,playerChoice,neutral,2

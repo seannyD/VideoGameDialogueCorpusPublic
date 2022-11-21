@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFIV_B/,True,Final Fantasy IV,Final Fantasy,TOTAL,1505,11774,4292,14331,-0.1574886258774466,101.07773567732845,7.227214091975448,76
+../data/FinalFantasy/FFIV_B/,True,Final Fantasy IV,Final Fantasy,male,1158,8839,3315,10721,-0.23766148685970379,101.51560636879921,7.196855562276535,22
+../data/FinalFantasy/FFIV_B/,True,Final Fantasy IV,Final Fantasy,female,187,1150,448,1418,-0.038970885093167595,99.91405298913045,7.388656211180124,12
+../data/FinalFantasy/FFIV_B/,True,Final Fantasy IV,Final Fantasy,neutral,4,74,45,100,0.9972792792792795,90.84156456456459,9.906037417417418,1

@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingsQuest/KingsQuest4/,False,King's Quest IV: The Perils of Rosella,King's Quest,TOTAL,201,1772,343,2033,-0.03715338699168669,104.53049131616531,6.218470556568322,20
+../data/KingsQuest/KingsQuest4/,False,King's Quest IV: The Perils of Rosella,King's Quest,male,47,349,73,387,-0.6406656984731303,108.17100443537309,6.633485500647643,8
+../data/KingsQuest/KingsQuest4/,False,King's Quest IV: The Perils of Rosella,King's Quest,neutral,10,30,12,31,-2.421666666666665,116.87750000000001,11.6555,5
+../data/KingsQuest/KingsQuest4/,False,King's Quest IV: The Perils of Rosella,King's Quest,female,144,1393,258,1615,0.19624325948680266,103.27223118638598,6.0013223687652,7

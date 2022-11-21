@@ -1,0 +1,99 @@
+{
+	"game": "Final Fantasy III",
+	"series": "Final Fantasy",
+	"year": 1990,
+	"source": "https://www.romhacking.net/utilities/1226/",
+	"alternativeMeasure": true,
+	"sourceFeatures":{
+		"type": "fan transcript",
+		"completeness": "complete",
+		"dialogueOrder": true,
+		"choices": "not included"
+	},
+	"notes": "This is a fan tralsation of the NES, derived from a patch. We're currently excluding it from the main analysis.",
+	"parserParameters": {
+		"parser":"FF3TranslationParser",
+		"fileType":".txt"
+	},
+	"mainPlayerCharacters": ["Luneth", "Arc", "Refia", "Ingus"],
+	"characterGroups": {
+		"male": [
+            "Luneth",
+            "Arc",
+            "Ingus",
+            "Cid",
+            "Desch",
+            "Alus",
+            "Djinn",
+            "Doga",
+            "Gigameth",
+            "Gill",
+            "Goldor",
+            "Hein",
+            "King Gorn",
+            "King Sasune",
+            "King Argus",
+            "Man",
+            "Odin",
+            "Pops",
+            "Shelco",
+            "Takka",
+            "Topapa",
+            "Xande"
+			],
+		"female": [
+            "Refia",
+            "Sara",
+            "Aria",
+            "Cloud",
+            "Delilah",
+            "Kate",
+            "Mrs.Cid",
+            "Nina",
+            "Salina",
+            "Salina's mom",
+            "Unei"
+			],
+		"neutral": [
+            "Elder Tree",
+            "Giant Rat",
+            "Leviathan"
+        ]
+	},
+	"aliases": {
+		"???": {
+			"Desch": ["Didn't expect to see","Huh? Oh. I'm Desch."]
+		},
+		"of the four orphans": "Nina",
+		"Gigameth,the king's aide": "Gigameth",
+		"King Alus": "Alus",
+        "King": {
+            "King Gorn": [
+                "Die, sweet prince!",
+                "Ughn ...",
+                "I ... won't be controlled ...",
+                "I'd rather die than kill my beloved son! Your plans are foiled!",
+                "Alus ... my son! Gigameth had me under his spell ...",
+                "I thought you'd never forgive me for exiling you ... But you came back. That is what gave me the strength to break free ... My son ... Please bring peace back to Saronia. Ungh ...",
+                "I love you, Alus ..."
+            ],
+            "King Sasune": [
+                "Princess Sara! You're safe!",
+                "I'm worried about your safety ...",
+                "I'm King Sasune. The Djinn cursed everyone ... To lift the curse, the Djinn must be resealed.",
+                "In the Sealed Cave up north. We need a Mythril Ring to seal him.",
+                "Oh! A Mythril Ring from Kazus was made for her! But where is she now? Did the Djinn take her? Oh no ...",
+                "Such Warriors, you are! There's a secret path in the Sealed Cave. Find the skeleton key. Seal the Djinn, and save us all!",
+                "Thank you, warriors. You have sealed the Djinn and rescued Princess Sara."
+            ],
+            "King Argus": [
+                "I am King Argus, ruler of the lands north of the desert ... But now it's an empty kingdom. Hein has cursed my soldiers. I trusted Hein ... Cough ...",
+                "I'm fine. Please, you must defeat Hein!",
+                "Thank you, Warriors. Take this. It's the Argus family heirloom, the Time Wheel, a box created by the Ancients. Bring it to Cid in Canaan. You know him? That's great!",
+                "Off to Canaan! Bring the Time Wheel to Cid!",
+                "Cid built that airship? Now you can go anywhere, even off the continent!"
+            ]
+            
+        }
+	}
+}

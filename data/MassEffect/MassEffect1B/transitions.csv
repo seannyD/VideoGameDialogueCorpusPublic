@@ -1,0 +1,24 @@
+folder,series,game,from,to,frequency
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,-,-,776
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,-,male,7439
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,male,playerChoice,7560
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,playerChoice,-,14578
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,-,female,5482
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,female,playerChoice,5047
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,-,neutral,18552
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,neutral,playerChoice,1275
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,neutral,-,4147
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,male,-,14645
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,-,playerChoice,7337
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,playerChoice,male,7158
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,playerChoice,female,4657
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,female,-,11384
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,playerChoice,neutral,4225
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,neutral,neutral,12
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,female,neutral,481
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,male,neutral,678
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,-,genderless,13
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,genderless,playerChoice,39
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,playerChoice,genderless,47
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,genderless,-,86
+../data/MassEffect/MassEffect1B/,Mass Effect,Mass Effect,genderless,neutral,10

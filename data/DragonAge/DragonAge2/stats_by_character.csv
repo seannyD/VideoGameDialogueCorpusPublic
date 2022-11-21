@@ -1,0 +1,579 @@
+folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,syllables
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Hawke,6202,55799,13258,66385
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Aveline,1596,15812,4352,18826
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Varric,1444,17453,3873,20849
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Bethany,577,6019,1541,6996
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Carver,627,6216,1672,7240
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Fenris,1289,12629,3265,15206
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Merrill,1383,15038,4139,17523
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Sebastian,576,7020,1469,8385
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Isabela,1296,13769,3597,16175
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,playerChoice,Anders,1560,17531,4078,20768
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Carver,627,6216,1672,7240
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Fenris,1289,12629,3265,15206
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Varric,1444,17453,3873,20849
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sebastian,576,7020,1469,8385
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Anders,1560,17531,4078,20768
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Adriano,6,63,19,82
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Quentin,21,277,67,339
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Quintus,41,591,107,718
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Pol,20,173,49,193
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Cerimon,5,47,9,55
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Denier,10,99,21,119
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Huon,7,70,17,82
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Jethann,30,329,82,395
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Leonato,6,55,12,58
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Osric,5,38,11,46
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Saemus,91,1004,247,1171
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Wilmod,3,18,5,20
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Brat,5,56,8,61
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Corff,55,706,139,877
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Martin,63,808,165,936
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Maraas,48,627,148,745
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Alistair,95,1085,302,1290
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Ser Roderick,10,74,41,86
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Talkative Man,21,297,62,333
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Alain,54,751,179,854
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Alienage Elf M1,28,229,59,265
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Alienage Elf M2,23,233,56,270
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Angry Mage M,16,92,22,108
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Angry Refugee,13,100,34,119
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Anso,23,298,74,359
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Arguing Male,12,82,24,92
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Arishok,316,3576,828,4403
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Arishok Guard,24,217,58,275
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bann Teagan,16,141,36,165
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Aden,23,240,55,293
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bartender Friend,6,39,12,52
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bartrand,97,1120,296,1317
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sketch,7,70,18,81
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bodahn Feddic,183,2229,486,2634
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bran,139,1885,409,2549
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Brekker,4,37,5,44
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Ser Alrik,4,45,8,51
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Orwald,26,303,80,341
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gamlen,231,2849,713,3289
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Guardsman Wright,21,271,56,316
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Tobrius,13,203,44,246
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hugin,17,244,77,284
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hubert,115,1652,327,2025
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hugh,20,198,45,238
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Keran,86,1075,273,1228
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Ketojan,25,287,90,336
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Castillon,12,128,30,153
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Master Ilen,33,407,90,479
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hahren Paivel,14,191,41,228
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Fenarel,31,355,81,410
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Junar,16,126,39,141
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hayder,9,107,20,122
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Karl,18,211,59,255
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Cityguard M1,9,61,14,69
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Closet Man,9,72,30,83
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Amaranthine Captain 1,3,18,4,19
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Amaranthine Captain 2,1,11,2,19
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Kirkwall Guard (Secret Rendezvous),3,7,3,10
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Kirkwall Official (Secret Rendezvous),3,37,6,47
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Captain Ewald,32,424,83,509
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Commoner M1,13,79,25,92
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Commoner M2,16,129,36,146
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Comte Guillaume de Launcet,21,213,57,247
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sabin,22,260,73,290
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Cricket,5,60,17,67
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Walter,26,298,75,326
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Cullen,213,2842,558,3551
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Varnell,24,202,55,248
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Danarius,14,178,45,231
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Danzig,13,122,36,142
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Decimus,2,32,4,36
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Yevhen,38,438,102,512
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Merin,17,246,55,281
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Iwan,29,340,85,397
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Emrys,24,305,79,342
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dockworker,4,32,10,33
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dockworker2,3,19,7,26
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dog,0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Donnic,84,788,253,920
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dougal,70,902,185,1056
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Drunk 1,11,128,35,148
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Drunk M1,17,119,38,131
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dwarven Scout,2,22,4,27
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Jansen,53,727,168,832
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Miner1,4,54,8,67
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Taarbas,16,156,35,181
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hybris,7,80,20,97
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Mugger,3,47,7,56
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nabil,8,128,24,155
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nathaniel,67,694,174,887
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nobleman,1,5,1,5
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nobleman 1,3,23,6,33
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nobleman 2,3,33,7,44
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nobleman 3,3,55,8,65
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Harassed Human,5,41,13,45
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Former Werewolf,6,69,22,79
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nuncio,24,345,62,444
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nuncio Guard,1,19,3,21
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Orsino,156,1791,376,2193
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Javaris,81,1081,243,1286
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Jeven,20,250,41,310
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Karras,40,476,101,595
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Evets,3,26,6,29
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Fell Orden,9,67,19,73
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Elren,26,387,76,449
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Emeric,87,991,224,1251
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Arvaarad,40,571,105,701
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nexus Golem,5,50,17,63
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Magus Tavarin Hall,5,64,14,78
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bonny Lem,5,63,15,72
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Tamlen,1,13,6,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Chandan,22,211,46,250
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Feynriel,105,1283,333,1490
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Friedrich,20,201,41,233
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Friedrich Thug,6,56,10,63
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gascard,82,896,254,1041
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gen Turn In 2,6,71,25,82
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gen Turn In 3,6,61,17,77
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gen Turn In 4,6,73,19,81
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gen Turn In 5,6,66,27,75
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Ghyslain,50,570,142,676
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gossip Old M1,15,112,29,130
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gossip Old M2,19,154,35,172
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Guardsman Garol,8,66,17,75
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gustav,11,135,31,151
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Meeran,66,768,166,891
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Harbormaster Liam,10,78,22,94
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Lord Harimann,9,105,19,129
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Pryce,15,210,45,238
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Harshal,10,121,24,138
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Franz (Hightown Guard),15,63,31,78
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Joric (Hightown Guard),20,106,42,133
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hireling 1,21,188,48,209
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hireling 2,16,137,33,154
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hightown Gossip 3,21,240,52,305
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hightown Gossip 4,19,189,44,235
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hightown Nobleman 1,10,55,20,68
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hightown Nobleman 2,8,65,16,75
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hunter Lieutenant,1,1,3,2
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hunter 2,1,12,2,15
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Hunter Captain,3,27,6,36
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Jalen,10,101,25,120
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Joker1,13,161,25,185
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Joker2,9,94,23,104
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Joker3,10,87,18,95
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Justice,44,431,95,504
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Keep Noble,7,79,17,95
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Keep Servant Male,9,80,20,98
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Kelder,20,295,81,331
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Laborer,14,132,38,158
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Tal-Vashoth Leader,2,27,6,32
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Lowlife M1,30,220,61,245
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Lowlife M2,18,129,41,148
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Darktown Man,12,85,30,102
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Lucky,2,14,3,16
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Lyrium Smuggler,2,13,3,14
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Guardsman Grigor,5,72,14,87
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Melson,7,113,23,128
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Jaken,3,25,10,34
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Magistrate Vanard,37,532,113,647
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Male Elf (Darktown),12,87,31,100
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Male Fereldan Urchin,14,125,37,138
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Male Fereldan (Darktown),14,128,38,145
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Male Worshipper,5,85,27,98
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Guardsman (Market),2,22,4,27
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Mekel,11,132,27,146
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Cavril,35,388,102,442
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Korval (Korval's Blades),20,176,53,198
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Solivitus,52,651,131,798
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Stroud,24,296,70,345
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Myron,9,41,13,47
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Wandering Merchant,20,135,40,156
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Tailor (Apparel Shop),10,77,14,93
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Olaf (Olaf's Armory),10,85,19,111
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Terath,7,54,24,59
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dalish Apprentice2,9,45,20,50
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dalish Guard1,12,105,26,119
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Renvil Harrowmont,16,166,36,198
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Renvil Harrowmont's Guard,2,24,3,30
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Carta Lieutenant (Orzammar),6,39,10,53
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Rock Demon,26,268,65,302
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Audacity,7,58,22,81
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Qunari (Lost Patrol),12,115,28,137
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Qunari Ambusher,2,13,4,15
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Qunari Ambusher2,2,12,2,15
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Qunari Assassin,2,20,4,23
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Qunari Captain,1,3,2,4
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Qunari Cut A1,1,3,2,3
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Qunari Hunter,2,14,4,21
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Paxley,14,152,37,192
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Urn Barker,6,59,13,77
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Drunk 2,8,101,28,109
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gossip 1,17,190,40,226
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gossip 2,14,159,31,191
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Refugee Man (Lirene's),5,61,12,71
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Samson,84,1177,222,1329
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sandal,50,164,87,209
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sailor 1,1,12,2,13
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sailor 2,1,5,1,5
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sailor 3,3,6,3,6
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sailor 5,2,17,3,21
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Male Sailor,20,238,54,270
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Shopper M,8,49,15,56
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Shopper M1,3,11,4,11
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Ser Mettin,24,210,57,249
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Edgert the Hound,4,23,8,27
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Supportive Noble,4,49,10,65
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sickly Fereldan Man,11,100,27,109
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Varian Ilithis,11,90,26,106
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Slaver Lord,8,60,17,67
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Smith,8,16,15,17
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Male Dockworker,22,211,59,239
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Elven Dockworker,20,200,53,226
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Worthy,24,285,58,327
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Zevran,67,908,178,1118
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Harimann Guard 1,1,18,5,20
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Coterie Thug 1,1,5,1,6
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Swindler,2,16,4,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Temmerin,11,122,28,152
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Templar Knight,13,156,28,202
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Tevinter Ambusher,3,30,6,35
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Tevinter Magister (Bitter Pill),4,41,7,43
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Thrask,146,2019,385,2486
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Tomwise,24,289,70,339
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Torpor,36,494,99,592
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Darktown Thug (First Sacrifice),1,9,2,12
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Jelden,7,104,19,125
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Urchin Boy,19,108,30,122
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Vashoth Bandits,7,45,14,57
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Velasco,10,98,24,121
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Veld,8,94,20,108
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Vincento,40,551,119,645
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Viscount Dumar,136,1814,409,2250
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Wall-Eyed Sam,1,5,7,5
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Warrens Thug,11,165,25,188
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Warrens Thug2,3,37,9,44
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dalish Hunter (Wayward Son),11,124,28,161
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Wesley,36,387,106,460
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Denerim Merc Leader,7,53,18,56
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Witness,12,160,40,169
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Wk Avern Bandits 0,1,5,2,6
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Wk Avern Bandits 2,1,8,1,11
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Wk Avern Bandits 3,1,12,1,14
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sophia Cultist 2,1,8,1,10
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Wryme,21,282,43,327
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bad Poet,13,148,28,183
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Beggar M1,20,110,32,127
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bureaucrat 1,6,60,12,84
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Templar 2 (Last Straw),1,8,2,9
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Templar 1 (Last Straw),2,15,5,16
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Circle Mage (Generic),16,71,17,84
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Circle Mage (Last Straw),1,3,1,3
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Mage Messenger,2,35,4,46
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Gallows Guard (Prologue),6,51,14,62
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Fereldan Soldier Leader,11,120,26,133
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Fereldan Soldier,6,63,11,71
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Urn Con Leader,2,29,4,32
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Pickpocket (Opening),0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Converted Elf,2,34,8,40
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Nobleman (Demands of the Qun),1,7,2,8
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bandit Leader (attacking Donnic),2,11,3,12
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Assistant Harbormaster (Gallows),4,48,9,62
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Keran's Father,2,25,5,33
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Tranquil Male Elf,10,150,29,187
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Weaponsmith (Lowtown Smithy),20,176,53,198
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Armorer (Lowtown Armor Stand),10,85,19,111
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Lowtown Guard,17,70,29,92
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Jean Luc (Robes by Jean Luc),10,77,14,93
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dockworker (Gallows),2,25,4,30
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Male Elven Servant,7,53,14,64
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Emile De Launcet,39,451,135,499
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Envoy,2,12,4,17
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Male Dalish Elf (Sabrae),1,7,1,9
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,City Guardsman,3,21,5,31
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Sleeping Guard,3,15,11,17
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Woodrow's Warehouse Guard,11,51,21,67
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Woodrow's Warehouse Guard 2,2,5,7,6
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Male Insurgent,1,8,2,9
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Amaranthine Conspirator 1,1,2,1,2
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Amaranthine Conspirator 4,1,4,1,4
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Amaranthine Conspirator 3,1,4,1,5
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Henchman (Blackpowder Courtesy),1,12,2,16
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Henchman 2 (Blackpowder Courtesy),1,15,3,19
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Keep Guard 1,5,43,10,58
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Keep Guard 2,5,41,11,50
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Heborah de Soliere,2,8,2,8
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Jake the Black,2,7,2,7
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Innley of Starkhaven,2,12,2,16
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Bandit Leader (Who Needs Rescuing),1,16,3,16
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Mage,1,6,2,7
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Mage Conspirator,4,20,5,25
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Templar (talking to Macha),1,11,3,13
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Mage 1,1,4,2,5
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Merchant Generic,20,170,36,209
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Shady Merchant,9,88,20,112
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Street Thug 2 (The Fixer),2,19,3,19
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Street Thug 1 (The Fixer),2,15,5,19
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Rival Thug (The Fixer),4,25,8,29
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Note Thug,1,6,3,6
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Overseer,27,303,68,360
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Refugee 2 (Prologue),13,107,19,116
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Refugee 1 (Prologue),7,36,8,38
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Shp Kill Qunari1,2,15,4,15
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Shp Kill Qunari2,1,9,2,10
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Shp Kill Qunari3,1,9,2,12
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Commoner,3,12,3,14
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Dalish Hunter (Sundermount),4,49,10,57
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Templar Messenger,3,41,6,54
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Templar Wandering,13,110,26,137
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Circle Mage 2 (Last Straw),1,2,1,2
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Guardsman Maecon,18,193,60,222
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,male,Templar 1,2,12,2,15
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Aveline,1596,15812,4352,18826
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Bethany,577,6019,1541,6996
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Merrill,1383,15038,4139,17523
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Isabela,1296,13769,3597,16175
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Macha,37,509,111,614
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Madam Lusine,53,438,131,537
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Porfiria,23,182,41,217
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Viveka,31,281,77,337
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Cora,8,71,14,83
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Delilah,16,174,38,201
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Idunna,33,346,85,391
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Katriela,7,81,14,87
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Leliana,3,20,8,24
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Lady Elegant,19,233,46,297
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Sabina,14,128,26,144
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Norah,31,397,74,452
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,A Friend,9,105,29,121
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Nella,6,72,13,78
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Suspicious Lady,15,107,29,131
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Alienage Elf F1,24,169,49,203
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Alienage Elf F2,22,180,45,211
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Arguing Female,15,157,27,171
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Arianni,112,1739,355,2053
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Athenril,64,773,167,895
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Meredith,345,4330,841,5384
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Lilley,18,182,51,217
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Brennan,36,416,102,505
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Caress,15,154,37,182
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Alessa,3,15,6,16
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Cassandra,104,1113,240,1396
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Keeper Marethari,158,2209,436,2620
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Maren,18,124,44,152
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Chanter Taletha,12,165,27,193
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Sister Alema,7,123,15,141
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Sister Colinda,11,135,24,155
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Sister Lorena,21,257,50,320
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Sister Samea,15,205,37,245
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Grand Cleric Elthina,233,2982,587,3685
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Torelin,7,96,17,124
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Petrice,169,2454,482,3111
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Chantry Initiate,6,92,30,104
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Charade,33,461,96,506
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Cityguard F1,10,46,17,62
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Commoner F1,10,76,20,95
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Commoner F2,12,111,29,134
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Margitte,14,153,38,186
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Senestra the Snake,4,38,8,44
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Crazy Woman,1,8,3,9
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Variel,16,201,38,241
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Varania,11,123,32,135
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Dera,19,251,55,284
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Desperate Refugee,3,28,6,30
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Comtesse Dulci de Launcet,26,285,81,326
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Leandra,187,2215,529,2560
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Noblewoman,0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Noblewoman 1,3,32,7,36
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Noblewoman 2,3,40,9,50
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Danyla's Daughter,11,76,26,81
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Nyssa,41,436,134,500
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Orana,55,521,194,589
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Evelina,10,110,28,127
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Lia,32,405,123,450
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Lirene,36,454,86,532
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Elsa,26,396,65,511
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Radha,12,94,28,103
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Female Elf (Darktown),14,114,32,128
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Female Fereldan Urchin,13,109,36,119
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Female Worshipper,5,80,12,90
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Fereldan Woman,13,121,36,133
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Flemeth,101,1111,246,1285
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Gen Turn In 1,6,61,25,67
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Ginnis,12,157,35,188
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Grace,82,1041,221,1192
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Guild Contact,11,153,32,190
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Sergeant Joanna,21,278,53,345
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Hadriana,13,152,31,178
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Harley,37,341,93,424
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Hightown Female Guard 1,20,103,41,133
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Hightown Noblewoman 1,9,58,17,66
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Hightown Noblewoman 2,8,61,17,72
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Hunter 1,1,7,2,7
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Ineria,21,210,49,240
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Insurgent F,1,3,2,4
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Keep Maid,6,45,11,50
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Keep Noblewoman,5,58,10,69
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Keep Servant,11,96,19,113
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Letter Thug,2,16,4,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Darktown Woman,13,96,32,110
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Lowlife F1,14,92,27,104
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Orlanna,6,112,18,127
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Terrie,2,16,3,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Mistress Selby,19,211,53,247
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Captured Apostate,2,14,3,17
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Templar Lieutenant,17,143,37,193
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Ella,18,124,55,135
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Helena,7,91,22,115
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Merchant (Mage Goods),10,103,26,144
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Trinketsmonger (Trinkets Emporium),15,132,30,159
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Clara,18,239,58,273
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Vinell,8,102,22,117
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Dalish Apprentice1,11,64,26,72
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Dalish Guard2,3,34,8,37
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Olivia,2,9,7,11
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Female Sex Worker,25,174,37,198
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Ruvena,16,156,40,195
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Urn Shill,2,7,4,7
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Urn Guard,6,103,15,119
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Refugee Woman (Lirene's),6,65,15,73
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Female Gallows Mage,13,196,28,250
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Female Sailor,20,211,51,241
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Scared Mage F,15,85,19,103
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Shopper F,8,49,14,56
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Shopper F1,3,11,4,11
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Ser Agatha,12,98,29,125
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Barmaid,3,31,6,35
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Ser Marlein,11,136,27,178
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Mage Sympathizer,3,37,11,41
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Wandering Courtesan,11,86,26,98
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Tarohne,15,198,39,255
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Moira,46,540,125,642
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Tevinter Slaver Mage (Ambush),3,19,7,26
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Urchin Girl,13,115,26,132
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Wandering Priest F,32,323,63,369
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Templar (Dalish Camp),9,99,19,123
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Elven Blood Mage,9,75,20,95
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Sophia Dryden,4,47,13,50
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Coterie Lieutenant (Inside Job),10,94,26,104
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Bureaucrat 2,6,53,16,64
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Scared Mage (Last Straw),2,17,4,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Refugee 3 (Prologue),13,96,18,101
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Tevinter Highmage,2,7,2,7
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Woman's Scream,0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Kirkwall Official (Gallows),2,13,2,15
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Unhappy Mage (Gallows),15,186,41,223
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Female Elven Servant,10,62,19,74
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Elven Fanatic (Blackpowder),7,100,23,125
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Female Dalish Elf (Sabrae),1,13,2,14
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Amaranthine Conspirator 2,1,2,1,2
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Housekeeper (Bartrand's Estate),4,31,7,34
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Dalish Elf (Changing One's Nature),4,41,7,52
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Thug Leader (Following the Qun),1,9,2,11
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Serendipity,14,170,39,200
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,female,Templar Trooper,17,92,21,105
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Donation Box,0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Eau Docks Scroll,0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Melson's Guard 1,0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Melson's Guard 2,1,2,6,4
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Ambush Leader,1,6,2,7
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Strange Hunter (Terror on the Coast),5,56,13,68
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Sophia Cultist (Terror on the Coast),1,7,2,11
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Screaming,0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Chase Guard,5,18,6,19
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Chase Thief,5,25,6,26
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Guardman,1,11,2,13
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Raider Reaver,1,11,1,12
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Shw Ors Inform Temp,2,6,3,7
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Shw Ors Secret Thug,2,16,3,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Commoner1,2,30,7,37
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Commoner2,2,37,5,49
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Commoner3,2,35,5,45
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Templar Captain (Gallows),6,57,15,75
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Apostate,2,15,4,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Blood,2,11,3,13
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Carta,2,15,4,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Conspirator,2,10,3,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Dalish,3,20,6,24
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Demon,2,14,4,14
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Extremist,2,13,4,17
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Gen Bandits,3,26,6,27
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Gen Challenge,3,21,5,26
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Gen Racist,3,31,6,34
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Gen Thug,3,24,3,39
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Guards,1,9,2,12
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Guild,3,20,5,31
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Isabelathug,1,5,1,6
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Qunari,4,35,5,42
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Raider,4,22,8,25
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Slaver,3,29,6,32
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Templar,2,19,4,22
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Tevinter,2,20,3,25
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Hate Thugs,2,14,4,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Mage Escort,6,73,16,82
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Smuggler,1,8,1,8
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Templar Recruit,11,128,28,152
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,neutral,Templar Seeker,17,90,23,102
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,trans,Serendipity,14,170,39,200
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Arl Connor,6,58,20,72
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Arl Templar Accost,2,18,4,23
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Arl Bann Teagan,17,144,42,167
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Fake Meredith,11,119,28,141
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Cowan,13,155,38,186
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Earl,17,216,48,251
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Orz Bln Messenger,2,15,5,18
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Orz Bln Official,12,156,34,191
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Orz Bln Servant,6,70,19,91
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Orz Bln Traitor Lead,2,19,4,24
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Shp Mag Guard,22,261,49,312
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Arthuris,5,55,13,65
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Cam1 5 2,0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Cavern Guard,1,8,3,10
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Desten,6,67,14,81
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Varric (Removed Line),63,671,123,795
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Carver (Removed Line),2,14,3,17
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Bethany (Removed Line),6,58,15,67
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Leandra (Removed Line),2,2,2,2
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Removed Line,24,184,74,207
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Cassandra (Removed Line),19,217,39,264
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Torpor (Removed Line),1,5,1,6
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Isabela (Removed Line),3,18,6,20
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Noblewoman (Removed Line),1,4,4,4
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Qunari Hunter (Removed Line),1,5,2,6
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Meredith (Removed Line),1,2,1,4
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Saarebas (Removed Line),0,NA,NA,NA
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Anders (Removed Line),9,84,24,96
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Orsino (Removed Line),1,3,1,3
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Idunna (Removed Line),1,2,2,2
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Ella (Removed Line),1,2,1,3
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Hawke (Removed Line),28,292,67,346
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Quentin (Removed Line),2,17,3,19
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Corff (Removed Line),1,7,1,8
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Arishok (Removed Line),1,6,1,6
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Viscount Dumar (Removed Line),1,9,1,12
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Bran (Removed Line),1,14,2,23
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Cullen (Removed Line),1,15,2,16
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Fenris (Removed Line),3,35,8,43
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Merrill (Removed Line),34,365,116,431
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Jansen (Removed Line),2,41,6,51
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Hubert (Removed Line),4,61,13,73
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Merin (Removed Line),9,144,24,170
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Circle Highmage Guard,5,37,9,39
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Templar Commander Guard,5,43,11,53
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Confused Guard Ldr,10,72,23,85
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Eau Tmp Angelique,4,32,9,37
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Eau Tmp Conrad,2,18,4,24
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Eau Tmp Terrell,2,26,4,33
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Eau Tmp Flowergirl,3,36,6,43
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Epic Merchant 2,6,79,15,91
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Foreshadow,3,31,5,44
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Guardsman,18,88,25,107
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Hubert Guard,2,26,7,31
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Loyalist Mage Ldr,5,57,11,71
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Pickpocket,5,35,13,40
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Pickpocket Victim,8,37,18,42
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Slave A,5,28,8,31
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Slave B,5,20,7,21
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Slave C,4,28,8,30
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Slaverguard A,3,22,9,25
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Slaverguard B,1,5,1,7
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Templar Lyl Ldr,5,56,11,66
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Aveline (Removed Line),7,73,24,89
+../data/DragonAge/DragonAge2/,False,Dragon Age 2,Dragon Age,cut,Grand Cleric Elthina (Removed Line),1,19,2,27

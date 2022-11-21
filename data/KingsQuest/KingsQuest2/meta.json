@@ -1,0 +1,68 @@
+{
+	"game": "King's Quest II: Romancing the Throne",
+	"series": "King's Quest",
+	"year": 1987,
+	"source": "https://kingsquest.fandom.com/wiki/KQ2_transcript",
+	"notes": "See Readme",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "complete",
+		"dialogueOrder": false,
+		"choices": "NA"
+	},
+    "error checks": {
+        "truePositive_numTestsDone": "5",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "0",
+        "truePositive_notes": "N/A",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "N/A"
+    },
+	"parserParameters": {
+		"parser":"KQ4Parser",
+		"startText": "<span class=\"mw-headline\" id=\"Logic.000\">Logic.000</span>",
+		"endText": "<span class=\"mw-headline\" id=\"Logic.180\">Logic.180</span>",
+		"splitString": "(\\\\\".+?\\\\\")",
+		"quoteRecogniser": "\\\"",
+		"characterCues" : {
+			"genie": "Genie",
+			"muffled": "Grandma",
+			"old": "Antique Shop Lady",
+			"cheery": "Antique Shop Lady",
+			"Grandma": "Grandma",
+			"fairy": "Fairy",
+			"monk": "Monk",
+			"Hood": "Little Red Riding Hood"
+			},		
+		"skipLines" : ["%w1","%w2","%w3","closed.","open.","breaking and entering.","Where am I?", "King's Quest III--To heir is human, to really foul things up takes a computer"]
+	},
+	"mainPlayerCharacters": ["Graham"],
+	"characterGroups": {
+		"male": [
+            "Genie",
+            "Graham",
+            "Monk"
+		],
+		"neutral": [
+            "Winged Horse",
+            "Fish"
+			],
+		"female":[
+            "Antique Shop Lady",
+            "Fairy",
+            "Grandma",
+            "Valanice",
+            "Little Red Riding Hood"
+		]
+	},
+	"aliases": {
+		"Unknown": {
+			"Winged Horse": ["Thank you, kind sir", "SSSsssssss!"],
+			"Graham": ["YECCHHH!!"],
+			"Valanice": ["My name is Valanice", "Oh, Graham, I am forever", "Yes, of course I will!", "I love you, too!", "Come closer, kind sir."],
+			"Fish": ["In return for saving my life, I wish to offer you a ride across this ocean"]
+			}
+	}
+}

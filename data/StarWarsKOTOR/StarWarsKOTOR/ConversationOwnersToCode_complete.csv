@@ -1,0 +1,143 @@
+,charName,gender,source_dlg,text,comment
+23822,Wookiee Guard (upper boughs),,kas23_wookg2_01,You are not permitted to enter the rest of Rwookrrorro. Our children live in the upper boughs. You will not disturb them.,"This guard stands at the opposite end of the village as the entrance from 22ab. He guards the ""entrance to the rest of Rwookrrorro"", which doesn't actually exist, but we are claiming that it does and that only a wookie would be able to climb there."
+23898,Trask,,end_pop02,You need to equip a weapon for combat!,
+23905,Trask,,end_pop03,"Hitting the buttons over and over again will not speed up your attacks and will not help you in combat! Combat uses a real-time, turn based system.",Button mash barkstring 1
+23924,Trask,,end_pop01,"Whenever you attack an enemy, you will enter combat mode. This locks the camera on your target. To exit combat mode and unlock the camera, push the Disengage button.",
+23953,Canderous,,lev40_candtrig,It's Canderous. We took care of the guards. We're inside the Ebon Hawk and all systems are go. As soon as you guys join us we can get out of here.,
+23999,Generic Ithorian,,tat17_12ithor_01,"Go tip a bantha, human.",This is a generic dialogue for the ithorians that do a circuit on the streets of Anchorhead 17.12a
+24007,Gana Lavin,,tar02_gana02ac_d,Help! Daddy!,
+24031,Hulas,,man26_hulas,"A human? There are Selkath everywhere, but you choose to speak with me. Am I so different? Do you think I have answers that others do not?",
+24301,The One,,unk43_battle,The Black Rakata shall never fall to you!, closeup of the one
+24303,SYSTEM,,tar03_dlg_cpbek,"Trigger for bek base is to the left, beside this terminal.",
+24317,SYSTEM,,man28_doorfb,You have yet to recover the Star Map.,
+24318,SYSTEM,,lev40_decomdroid,The droid is actively engaged in its patrol route. You cannot reprogram it anymore.,in patrol mode
+24359,Zaalbar,,k_sta_zaalbar,"Wait! This... this isn't right. What am I doing here? I know you are evil, but I followed you anyway! What have I done?",
+24361,Ambush Speaker,,tat18_12ambus_01,Help! Please! Over here! Under the wreckage!,This character is the recorded voice of a female in distress.  It is a recording played to lure the player into an ambush. There is one additional line in Gurke's dialogue as well
+24370,SYSTEM,,man28_comp,Kolto Control Panel,
+24377,Unknown NPC,,man26_wait,I heard the Republic are the cause of the kolto shortage. I wonder if it's true?," random, if kolto destroyed"
+24392,Sith Patrol Leader,,tar05_sithpatrol,You there! Civillian! This is a restricted area! What are you doing down here?,
+24419,Canderous,,lev40_cand_dlg,It's Canderous. We took care of the guards. We're inside the Ebon Hawk and all systems are go. As soon as you guys join us we can get out of here.,
+24422,Upper City Woman 2,,tar02_woman2,I'm not doing anything wrong! I'm just standing here... you Sith can't arrest me for that!,
+24476,Vek,,man26_vek,"Take your blustering threats somewhere else, human. Ithorak has no desire to meet with you!",
+24534,B'ree,,kor33_weapons,"Greetings; if you haven't heard, there is some trouble over at the academy. Best stay away from there. But anyhow... is there anything I can offer you today?",
+24563,SYSTEM,,tar_rustdroid,The droid is actively engaged in its patrol route. You cannot reprogram it anymore.,in patrol mode
+24581,Bolook,,dan14_bolookt,"You may leave if you wish, but if you do I will have no choice but to tell the Jedi Council that you lacked the wisdom to solve this case.",
+24607,Hijata,,kor35_hijata,"The Twi'lek, Yuthura, is now the master of the academy. I wonder if she will admit more students, now.",
+24648,Bith,,tar09_duros,You there - human. Remember me? You helped me once before when the Sith were trying to arrest me. Outside your apartment. Do you remember?,
+24676,Garrum,,dan13_garrum,I must train harder to become a good Jedi., random 1
+24679,SYSTEM,,dan15_compw,The ancient computer hums and throbs as you approach it. Its screen flickers to life and a stream of incomprehensible characters scrawl across it.,
+24723,SYSTEM,,dan15_compb,The ancient computer hums and throbs as you approach it. Its screen flickers to life and a stream of incomprehensible characters scrawl across it.,
+24754,Generic Black Vulkar,,tar03_vulkar031,This is Black Vulkar turf! You'll pay for this!,
+24755,Alarm,,man27_alarm,Intruders have entered the complex! All units report to battle stations!,
+24756,Bastila,,tar02_bastvision,Is... is something wrong? You seem as if something is troubling you.,
+24773,SYSTEM,,yav47_denied,Access Denied.,
+24796,Carth,,kor35_carth2,"I'm sorry, Dustil. I did all I could, and I... failed you.",
+24804,Darth Malak,,k_sta_darkcut,Perhaps you will triumph. But even if you fail it will give me the time I need to complete my preparations of the station's defenses.,
+24806,Rakata Computer,,unk44_lib_dlg,"Welcome back, Revan. It has been some time since you last accessed my database. I was beginning to wonder if you had been terminated.",
+24893,SYSTEM,,tar02_bartender,This droid is too busy preparing drinks to take your order.,
+25041,SYSTEM,,tat18ab_kraysign,Eastern Dune Sea,
+25046,Sandral Droid,,dan15_sdroid,Nurik extends his thanks to you for your actions with regards to his daughter Rahasia. I am sure that she and Shen will thank you personally once they have been settled in.,
+25071,SYSTEM,,tar03_message,"This is an electronic personal message center, though it looks like it hasn't been used in some time. There is one unread message on the system.",
+25094,SYSTEM,,k_ptar_armor_dlg,You need more privacy before removing the armor.,
+25096,Czerka Guards who killed wookiee,,kas22_czguard_01,"You want to talk, do it with Patrol Captain Dehno. He's the ranking officer in this unit.",Selected This is one of three Czerka officers stanfing around a dead wookie. He leaves when the captain does.
+25114,Unknown NPC,,ptar_dlg_l33t,Here's your money!,
+25115,SYSTEM,,tar10_pooldroid,The droid is busy carrying out the instructions you programmed into it earlier. It can't be reprogrammed right now.,
+25136,Male Sith NPC,,man26_sithkol1,Everybody knows the Republic crippled the kolto production. Why don't the Selkath ban them from the planet?, if kolto destroyed
+25144,Mandalorian Prisoner,,kor35_victim,"Use... use whatever method you wish, Sith. You will not break my will! My mind is my own, and I will tell you nothing!",
+25382,Suvam Tan,,yav47_gizkas,Damn gizka...,
+25383,SYSTEM,,tar03_dlg_cpsp,"3ab to the left, 3ad to the right",
+25384,Carth,,unk41_carth,You're back! But where's Bastila? Is she alive? What happened inside that Temple?,
+25638,Twi'lek (Upper City),,tar02a_alien4,"Oh... uh... hello, officer. Making another patrol, are you? Well, I won't get in your way.",
+25666,SYSTEM,,tar_repdroid,The droid is actively engaged in its patrol route. You cannot reprogram it anymore.,in patrol mode
+25684,Quarren,,tar02a_alien3,"Greetings, officer. Rest assured, if I see anything of interest to the Sith I will be report it to the proper authorities.",
+25688,SYSTEM,,kor39_pillar,"Now that power has been transferred to the right-hand pillar, there is no point in altering the controls further.","END DIALOGUES: ----------------------------- #1 -  the puzzle has been completed set whatever global is required for the force field to be deactivated #2 - something was done wrong, pillars must be reset the party is struck with electrical damage set KOR_PILLAR_START to FALSE #3 - player gives up (or stops) no change"
+25721,Maintenance Droid,,tar02_maint_dlg,"Beep, boop, beep.",
+25722,Ithorian (southeast),,tar02_alien,"Please, don't take me in for questioning... I don't know anything! I swear!",
+25729,SYSTEM,,k_gen_reptest,The droid is actively engaged in its patrol route. You cannot reprogram it anymore.,in patrol mode
+25755,SYSTEM,,tat18aa_kraysign,Eastern Dune Sea,
+25757,Darth Malak,,lev40_darthmalak,"I hope you weren't thinking of leaving so soon, Bastila. I've spent far too much energy hunting down you and your companions to let you get away from me now.",
+25829,SYSTEM,,kor38b_droid1,The droid is actively engaged in its patrol route. You cannot reprogram it anymore.,in patrol mode
+25853,Guard Droid,,dan14_security,"Please be careful on the plains, apprentice. Kath hounds are about.","Dialog Mission Statement   These are the dialogs for the droids guarding the bridge leading to the Jedi Enclave. They are for if the player is an apprentice, or a Padawan, respectively. Exit points in conversation: Exit stream: The line is said and the conversation ends."
+25855,Roland Wann,,man26_repdipt,"You have returned! I was beginning to fear that you, too, might have been lost. Did you find out what had happened down there at the facility?",
+25882,Unknown Elder,,unk42_redrak02,"Few among our tribe ever expected you to return, Revan. Even the Council thought you had betrayed us.",
+25886,Unknown Elder 2,,unk42_redrak03,"It is good to see you again, Revan. There were many among our tribe who feared you had allied yourself with our enemy.",
+25890,Unknown Elder 3,,unk42_redrak04,"Few among our tribe ever expected you to return, Revan. Even the Council thought you had betrayed us.",
+25896,SYSTEM,,tat18ac_marker,Danger! Turn Back.,
+25898,SYSTEM,,ptar_armor_dlg,You need more privacy before removing the armor.,
+25900,Bastila,,dan13_bastila,"If you have questions, you should direct them towards the Jedi Council members.",
+25963,Selkath Bartender,,man26_selbar,"You will find my prices have increased dramatically, human. Kolto production is faltering, and the Manaan government has raised all taxes on goods sold to foreigners.", if player destroyed the kolto
+25983,Bastila,,tat18_bastila,So we have found it. Father's holocron. I suppose I should be thankful the desert sands had not swallowed it up.,
+26007,Countdown,,man28_warn,60 seconds to complete depressurization.,
+26080,SYSTEM,,lev40_droid17a,The droid is actively engaged in its patrol route. You cannot reprogram it anymore.,in patrol mode
+26160,Tar'eelok,,dan13_tareelok,"If you are not a student here, then your questions should be addressed to the Jedi Council.",
+26344,Shuma,,dan13_shuma,"Greeting, young human. You are welcome in my humble abode, as are all others who deign to visit this poor, outcast Hutt.",
+26392,Yellow Female Twi'lek,,tar02_alien4,"Oh... uh... hello, officer. Making another patrol, are you? Well, I won't get in your way.",
+26397,SYSTEM,,tat18ab_dunesign,Anchorhead,
+26576,SYSTEM,,tar05_lever_dlg,"From far off, you hear a loud clanking as if something very large was opened or closed.",
+26578,Leading Jedi Knight,,k_sta_jedi001,"We'll deal with these Sith, the rest of you split up!",
+26602,Sith Masses,,end_55a,All hail Lord Revan!  All hail Lord Revan!  All hail Lord Revan!,
+26604,Admiral Dodonna,,m01aa_c02,"There - a break in the Sith formations! Green squadron, move in!",
+26638,Circuiting Droid,,tat17_12droid_01,Greetings. Have you any maintenence needs today? See Yuka Laka's.,This is a generic dialogue for the droids that do a circuit on the streets of Anchorhead 17.12b
+26662,Whimpering Locker,,man28_sur1,Aieeeeee!,
+26721,Loiterer 1,,tar03_loiterer31,"What... what do you want? You ain't going to arrest me, are you? I don't know anything - I swear!",
+26725,Loiterer 2,,tar03_loiterer32,"What... what do you want? You ain't going to arrest me, are you? I don't know anything - I swear!",
+26740,SYSTEM,,k_ptar_armon_dlg,You have removed the armor.,
+26825,Unknown Citizen 1,,tar03_citizen3,Hey - I saw you in the big swoop race! I'm glad someone finally gave Brejik what he deserves - the guy was nothing but a thug!,
+26831,Unknown Citizen 2,,tar03_citizen2,"What... what do you want? I'm not doing anything wrong. I'm just standing here... please, don't take me in for questioning!",
+26859,Male Citizen,,tar02_man2,"I'm not looking for any trouble with you Sith. Please, just leave me alone.",
+26877,Corpse Pile,,tar05_pile_dlg,"Snort, snort!",
+26882,SYSTEM,,tar02_duelfaker,Bendak is dead. No more duels for you. Goodbye.,
+26910,Bith,,tar02_postraid,"Poor Ixgil. He should never have talked back to that Sith. Thankfully you were here to step in and help us, human.",
+26969,Security Crate,,tar03_bithwarn,Warning: access is restricted to authorized users only. Please activate the holograms in the proper order to confirm authorization.,
+26971,Unknown Jawa,,tat18aa_jawa_01,Sands go forever. Lots of your kind went out and are gone forever too.,
+26979,SYSTEM,,tat18aa_sandsign,Sand People Fortress,
+26981,SYSTEM,,man28_door1,This airlock is sealed from the other side.,
+26997,Duel Announcer,,tar02_duelann022,"Ladies and gentlemen, I draw your attention to the dueling ring. Here, two combatants will battle for your viewing and gambling enjoyment.",
+27014,Janos Wertka,,tempin0001,I welcome you back. Czerka Corporation would like to extend its thanks to you for representing its interests so thoroughly.,Initial initiation following return to 22aa after Chuundar wins
+27041,SYSTEM,,tat18aa_marker,Danger! Turn back.,
+27042,Ahto City Announcement,,man26_exit7,Leaving Ahto City security zone. Cameras deactivated.,
+27043,Survivor,,m28ab_c01,"Come on - hurry up! ## Don't just stand there, we have to keep moving! The water is filled with... ## Ahhhhhhh....",
+27143,Unknown Sith,,unk44_wraidhand,Revan! Darth Malak warned me you might return. Looks like the Dark Lord was right.,
+27163,SYSTEM,,tar08_rustdroid,The droid is actively engaged in its patrol route. You cannot reprogram it anymore.,in patrol mode
+27181,Unknown Customer,,kor33_customer,"Just having a drink, friend, minding my own business.",
+27188,Carth,,tar02_carth022,"Good to see you up, instead of thrashing around in your sleep. You must have been having one hell of a nightmare. I was wondering if you were ever going to wake up.",
+27391,SYSTEM,,tat18ab_marker,Danger! Turn back.,
+27392,Carth,,kor35_carth,That datapad... take a look at it. I wonder if Dustil knows his friend was disposed of like that?,
+27423,Taris Sith Patrol,,tar03_sithpat033,You out on patrol? Consider yourself lucky: we're stuck standing guard over this dump to try and prevent another swoop riot!,
+27507,Bastila,,unk44_evilbast2,"Revan - I knew you'd come for me. Malak thought you might be afraid to enter the Temple again, but he doesn't know you like I do. Not anymore. Not since you've changed.",
+27604,SYSTEM,,man26_assault2,You've accessed the droid's primary circuits to reprogram it.,
+27637,Unknown Child,,tar04_outchildf,You talked to old Rukil Wrinkle-Skin? My mommy says he's crazy! I have to stay away from him!,
+27792,Woorwill,,kas23_woorwil_01,"Thank you, outsider. You are... like I thought Rorworr was. Please, leave me. I want to be alone for a bit.","Post plot, Jaarak alive."
+27906,SYSTEM,,tat18ac_dunesign,Anchorhead,
+27907,Unknown Vulkar,,tar04_blackvulk,Wait - don't kill me! I surrender! I surrender!,"Dialog mission statement:   Surrender villain. As soon as one Vulkar is dead the other should surrender, go neutral and initiate dialog. The player can get information, then kill him or let him escape area."
+27930,Unknown Child 2,,tar04_outchild2,"You from the up-world? My mommy said sometimes water falls from the sky up there, but I think she's joking.",
+27944,Sith War Droid,,man26_sithwdrd,"Move about your business, human.",
+27949,Darth Malak,,k_sta_darthmalak,"Well done, Revan. I was certain the defenses of the Star Forge would destroy you, but I see there is more of your old self in you than I expected.",
+28014,Kadir,,tar03_janitor,I... I don't want no trouble with you Sith. I'm just a janitor - I don't know nothing.,
+28045,Ahto City Announcement,,man26_exit6,Leaving Ahto City security zone. Cameras deactivated.,
+28047,Ahto City Announcement,,man26_exit4,Leaving Ahto City security zone. Cameras deactivated.,
+28048,Ahto City Announcement,,man26_exit5,Leaving Ahto City security zone. Cameras deactivated.,
+28049,Galas,,man27_dyingsel,Tell... tell Shasa... the Sith...,
+28096,SYSTEM,,tat18_xxrustbot,The droid is actively engaged in its patrol route. You cannot reprogram it anymore.,in patrol mode
+28126,Another Male Swoop Fan,,man26_swoop1r,"No offence, but I could have done better than you on that last race. As a true fan, I know how to do these things right.",Player lost last race
+28185,Carth,,carth,"This morning's getting stranger by the minute. First Bastila comes out looking like she saw a ghost, and now you.",
+28393,SYSTEM,,tat18ac_sandsign,Sand People Fortress,
+28394,Ithorian (Upper City),,tar02a_alien,"Please, don't take me in for questioning... I don't know anything! I swear!",
+28419,Unknown Listener,,tar02_gortlistma,I don't know why you Sith allow this guy to preach his violent anti-alien garbage!,
+28484,Race Announcer,,tat17_04annou_01,Looks like we've got another racer up on the line. Let's see how they go.,"random race start This is the announcer for ther races. he periodically calls out things, giving the illusion that people are racing. The random male and female spectators around the track cheer or jeer depending on his random reactions. This would signal a script that sends a swoop to the starting line and then down the track. A minute later the results will announce."
+28502,SYSTEM,,k_sta_maldoor,The door has been locked down. The generators must be deactivated before it can be opened again.,
+28514,Unknown Sith Excavator,,kor36_sithexcavm,"Sorry... I'm rather busy with the excavation planning, right now.",
+28639,Unknown Droid,,ebo_t3m4,Beep. Whoop. Weep. Beep.,
+28658,Darth Malak,,k_sta_lightcut,"Perhaps you will triumph, Bastila. But even if you fail it will give me the time I need to complete my preparations of the station's defenses.",
+28661,Carth,,ebo_carth,"We ran into Malak. He would have killed us, but Bastila sacrificed herself so we could get away.",
+28846,"Music Fan",,tar02_musicf,"Did you hear what happened after the big swoop race? They say Brejik wouldn't pay up when he lost, and a brawl broke out! I can't believe I missed it!",
+28853,Ambush Speaker,,tat18_12gurke_01,Please help! I can't get out! (click) 3... 2... 1.,"This line is the recorded voice of a female in distress.  It is a recording played to lure the player into an ambush. At the ""(click)"" it switches tone from distress to an emotionless short countdown to explosion Player has come within range of the ambush"
+28910,Generic Black Vulkar ,,tar03_vulkar,"I saw what you did to Brejik. I won't be trying anything in here, but if we ever meet out on the street you're dead!",
+28933,Navigation Droid,,pebn_swoopdrd,"Greetings, master. I regret that my database contains no destination coordinates for this planet. I cannot take you anywhere until location data is retrieved.",
+28978,SYSTEM,,tar05_rustdroid,The droid is actively engaged in its patrol route. You cannot reprogram it anymore.,in patrol mode
+29003,Ahto City Announcement,,man26_enter5,Entering Ahto City security zone. Cameras activated.,
+29004,Ahto City Announcement,,man26_enter4,Entering Ahto City security zone. Cameras activated.,
+29005,Ahto City Announcement,,man26_enter7,Entering Ahto City security zone. Cameras activated.,
+29006,Ahto City Announcement,,man26_enter6,Entering Ahto City security zone. Cameras activated.,
+29090,Test (Bastila Duplicate Lines),,test,"Yes, I promised you an answer when we reached the Ebon Hawk, didn't I? But I'm afraid you won't like it. We should have some privacy for this.",
+29130,Rakatan Warrior 1,,unk42_breedx,Thank you for freeing us! You will eternally have the gratitude of the Rakata!,

@@ -1,0 +1,380 @@
+folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,syllables
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,playerChoice,Dragonborn,2433,16209,4491,18963
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Brynjolf,165,4626,739,5529
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Ulfric,155,3684,615,4469
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Galmar,140,2987,537,3534
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Tullius,129,2942,499,3749
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Balgruuf,112,2899,529,3466
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Arngeir,105,3616,544,4381
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Ralof,75,1943,384,2244
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hadvar,65,1775,339,2064
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Esbern,72,2138,498,2636
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Isran,65,1862,304,2191
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Harkon,60,1952,269,2352
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Paarthurnax,65,2636,584,3198
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Erandur,64,1869,288,2425
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Nazir,60,1691,338,2045
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Tolfdir,61,1996,360,2482
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Neloth,58,2044,311,2525
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Mercer,54,1703,271,2157
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Dexion,48,1320,200,1623
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Cicero,44,1554,465,1818
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Kodlak,39,1125,180,1326
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Silus,34,1083,153,1341
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Savos,36,1001,175,1270
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Urag,33,1210,188,1471
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Festus,32,1393,246,1729
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Storn,29,944,164,1109
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Paratus,30,1251,233,1544
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Amaund,27,930,226,1174
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hermaeus,31,972,145,1183
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Farkas,28,499,100,576
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Whiterun Guard,36,366,113,417
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Verulus,23,438,91,513
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sheogorath,26,1202,305,1528
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Delvin,23,513,121,593
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Ancano,25,616,99,787
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Nelacar,31,977,181,1206
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Eorlund,26,477,95,558
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vilkas,24,489,105,581
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Farengar,24,840,139,1056
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Proventus,26,326,73,395
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Garan,23,518,92,633
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gallus,27,642,116,834
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Enthir,23,741,108,961
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Orthorn,22,437,91,484
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Arnbjorn,22,608,125,714
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Razelan,25,520,143,688
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Septimus,20,914,178,1126
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Odahviing,20,559,147,683
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Etienne,20,442,106,492
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Alduin,19,251,74,299
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Aventus,16,457,109,519
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Logrolf,18,228,64,267
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Durnehviir,17,516,62,641
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Clavicus,14,716,130,857
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Skjor,17,441,71,513
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Erikur,18,417,70,497
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Malborn,17,321,70,386
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sabjorn,16,335,63,420
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Mallus,17,564,65,673
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Veezara,19,531,93,646
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Molag Bal,16,400,74,484
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Yamarz,16,380,70,437
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Tsun,16,459,55,545
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Bersi,14,226,50,269
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Titus Mede II,15,475,114,587
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gjalund,14,329,73,400
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Quaranir,18,625,101,807
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vyrthur,14,199,38,249
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hakon,17,168,60,196
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sinding,13,548,115,635
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Ennis,13,401,55,456
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sam,13,198,50,216
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,The Caller,13,271,52,317
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Adril,12,361,63,472
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gunmar,9,317,53,365
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Peryite,12,295,46,363
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hircine,12,262,49,305
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Barbas,12,323,59,395
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Felldir,16,223,61,259
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Lokir,12,138,39,163
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Miraak,11,258,52,299
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Cipius,12,94,33,112
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Tyranus,11,199,49,238
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vekel,16,370,71,424
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Rulindil,11,172,40,208
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Ondolemar,10,203,30,270
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Calcelmo,9,322,45,437
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Raerek,9,239,42,288
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Mehrunes Dagon,8,175,36,212
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Wizard,9,90,27,112
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hadring,8,77,24,89
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gaius Maro,9,388,109,471
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Commander Maro,2,45,7,57
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gaius,8,108,26,133
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Veren,9,127,28,153
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Kesh,8,204,37,244
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Dervenin,8,327,67,387
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Orthus,8,210,34,252
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Alvor,8,176,39,203
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Corpulus,7,170,24,191
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Driver,7,120,17,132
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vingalmo,7,54,21,67
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Agmaer,7,139,41,165
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Durak,7,171,24,222
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vald,7,132,25,146
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Mralki,7,65,22,74
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Anton,7,143,54,164
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Nelkir,7,226,45,268
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hafnar,7,73,16,84
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Arniel,5,89,21,107
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Dirge,8,112,27,131
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gissur,7,87,30,99
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Arvel,7,120,34,133
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Caius,7,115,32,133
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Courier,6,22,11,24
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Jorgen,6,123,26,139
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Malacath,6,145,28,186
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Lod,6,130,18,143
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Augur,8,331,45,406
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Torturer,6,76,22,89
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Tolan,5,149,31,185
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Aringoth,5,61,12,70
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Fultheim,5,169,52,195
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vasha,5,187,31,226
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sanguine,5,183,26,227
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Onmund,3,64,8,76
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Orthjolf,4,30,10,37
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Madesi,4,43,5,46
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Balagog,4,63,30,74
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hern,4,61,14,65
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Lurbuk,4,121,41,143
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Ennodius,4,35,20,44
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Narfi,4,49,27,50
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Thorek,4,26,14,31
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Mathies,4,87,19,99
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,J'zargo,3,30,6,38
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Orgnar,4,19,14,22
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Whiterun Guard 2,4,47,10,52
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Borri,4,5,10,5
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hod,4,46,13,51
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Rargal,3,22,5,23
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vanik,3,48,7,53
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Ronthil,3,23,5,27
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Malkus,3,56,9,66
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stalf,3,42,9,49
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Lokil,3,73,12,87
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Celann,3,35,9,44
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Garthar,3,35,5,39
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Aicantar,3,46,12,55
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vignar,4,102,18,121
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Nobleman,2,30,7,43
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Pelagius,3,51,18,70
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Malyn,3,67,16,84
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Estormo,3,47,16,53
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sahloknir,3,23,5,29
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Wulfgar,3,5,12,5
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Einarth,3,12,11,16
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hrongar,3,77,15,101
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Frodnar,3,44,7,54
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sahrotaar,2,26,7,30
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Feran,2,16,5,20
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Edhelbor,2,53,4,72
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Nirilor,2,55,5,73
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Celegriath,2,51,5,66
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Athring,2,51,6,64
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sidanyis,2,52,6,73
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vipir,2,17,4,21
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Thrynn,2,31,3,35
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Niruin,2,19,5,21
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Ravyn,2,26,4,33
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sailor,2,34,9,36
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Banning,2,24,6,30
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,J'Kier,2,28,5,31
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Whiterun Guard 3,2,21,3,25
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Whiterun Guard 4,2,28,4,32
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vilod,2,7,2,9
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Torolf,2,11,4,14
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Haming,2,15,4,17
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Tharstan,1,17,10,19
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Nikulas,1,13,6,15
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Deor,1,2,4,2
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Krosulhah,1,8,1,11
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Doorman,1,24,3,32
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Watchman,1,6,2,7
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Adalvald,1,19,2,24
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Cynric,2,29,4,33
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Aquilius,1,19,6,22
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Duilis,1,97,19,122
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Frorkmar,1,92,18,120
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Nobleman 2,1,11,2,12
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Rexus,1,2,2,2
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Alain,1,28,3,34
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Francois,1,1,1,1
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Samuel,1,10,3,10
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hroar,1,9,2,10
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Thoring,1,11,2,12
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sanyon,1,11,2,14
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Thongvor,2,35,4,51
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Falk,1,42,4,49
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Rissing,1,6,5,8
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Runil,1,79,7,96
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sulla,1,25,3,27
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Lob,1,9,1,10
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Dagur,1,34,4,36
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Athis,1,3,1,3
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Brill,1,3,1,4
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Girduin,1,11,1,12
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sergius,1,4,4,5
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gavros,1,4,18,8
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Nerien,1,80,6,97
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Ysgramor,1,62,5,72
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Torygg,1,36,2,46
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Greybeards,1,37,4,52
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Mirmulnir,1,2,2,3
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Torturer's Assistant,1,8,2,9
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gunnar,1,4,1,5
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Asgeir Snow-Shod,1,5,6,7
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Brand-Shei,5,41,9,45
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gelebor,56,1685,217,2172
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Gulum-Ei,24,746,128,896
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Headsman,1,1,1,1
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Hogni Red-Arm,2,18,4,21
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Jyrik Gaulderson,1,3,1,4
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Rune,1,17,2,20
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Talvas Fathryon,3,74,14,86
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Wulf Wild-Blood,1,14,2,18
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Phinis Gestor,1,3,1,3
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Conjurer,4,37,8,49
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Penitus Oculatus Agent,4,24,7,31
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Agent 2,4,72,18,95
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Agent,3,46,10,55
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Agent 1,3,93,21,111
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Bandit 1,2,26,4,29
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,I. Soldier 1,1,19,5,22
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,I. Soldier 2,1,13,2,16
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stormcloak 2 (with Galmar),2,20,4,24
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Imperial 2,3,38,7,39
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Imperial 1,3,14,4,16
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stormcloak 1 (ambush Jagged Crown),3,14,4,16
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stormcloak Soldier (escaping with Hadvar),1,13,2,15
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stormcloak (escaping with Hadvar),1,12,2,14
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stormcloak 2 (escaping with Hadvar),1,11,2,16
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Imperial Soldier,21,134,53,162
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stormcloak Soldier (facing execution),2,32,5,40
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stormcloak Soldier (Tower),1,13,1,13
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stormcloak Soldier (in the mist),6,235,27,286
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Stormcloak (questioning),1,4,1,4
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Sailor 2,1,26,5,32
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Silver Hand,1,5,1,5
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Silver Hand 2,1,6,1,7
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Silver Hand 3,1,3,1,6
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Silver Hand 5,1,9,2,11
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Thalmor Soldier (torturing Etienne),1,17,4,21
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Thalmor Soldier (accusing Malborn),2,22,7,31
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Soldier 2,3,53,8,60
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Soldier 1,3,55,9,69
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Whiterun Gate Guard,6,62,18,75
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Falkreath Guard,4,54,10,63
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Emperor's Guard,1,14,3,16
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Solitude Guard,1,27,4,38
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Vampire (entrance Dimhollow),4,59,10,72
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Thrall,1,21,4,23
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Thalmor Wizard,2,9,3,11
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Imperial Soldier 2,2,16,3,18
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Morokei,7,123,37,140
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,Wizards' Guard,1,4,4,4
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Alea,5,149,22,167
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Serana,257,5425,1217,6373
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Karliah,139,3621,525,4582
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Delphine,124,3373,603,3995
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Astrid,115,4767,968,5890
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Rikke,118,2678,484,3315
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Valerica,71,2057,272,2612
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Irileth,47,777,154,917
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Frea,43,1339,247,1589
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Aela,34,920,170,1084
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Gianna,25,834,278,996
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Mirabelle,31,1226,190,1552
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Maven,30,880,118,1109
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Elenwen,27,605,106,821
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Faralda,25,660,105,806
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Gabriella,23,939,147,1242
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Babette,25,705,151,815
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Eola,22,552,106,649
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Gormlaith,23,222,70,247
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Imperial Captain,11,102,27,116
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Aranea,17,583,90,709
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Sorine,14,452,64,560
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Muiri,12,608,171,718
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Vex,12,264,52,285
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Meridia,12,468,65,582
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Gerdur,12,245,65,280
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Ysolda,11,377,58,448
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Senna,11,278,43,347
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Elisif,11,243,36,302
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Brelas,11,190,47,225
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Haelga,10,173,45,199
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Grelod,10,186,38,228
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Atmah,10,96,23,104
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Idgrod,10,191,31,223
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Keerava,9,148,33,174
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Anuriel,9,257,42,327
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Varona,8,163,28,200
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Night Mother,8,204,42,246
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Azura,7,217,29,265
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Priestess,7,246,34,298
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Nocturnal,6,272,44,351
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Vittoria,5,166,34,208
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Brelyna,3,51,7,65
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Nilsine,4,64,20,80
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Beitild,4,47,11,54
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Hestla,3,39,6,44
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Irgnir,3,35,14,36
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Namira,3,89,11,105
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Erdi,3,54,11,63
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Una,3,83,14,91
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Tsavani,3,33,12,35
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Iddra,3,57,12,63
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Sigrid,3,34,9,39
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Salonia,2,41,5,47
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Tonilia,2,47,11,57
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Sapphire,2,29,4,31
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Noblewoman,1,11,2,16
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Mephala,9,381,51,482
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Fruki,2,34,6,38
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Lisbet,2,33,6,40
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Madena,2,18,4,20
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Moira,2,32,5,39
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Elvali,2,15,9,18
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Priestess of Arkay,2,28,4,30
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Morwen,1,21,5,25
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Finna,1,11,1,11
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Aeta,1,10,6,11
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Edla,1,16,2,17
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Fura,2,14,2,15
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Salonia Caelia,1,14,4,21
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Drifa,1,3,1,3
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Faida,1,27,5,31
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Pantea,1,7,2,9
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Alexia,1,2,2,2
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Runa,1,11,3,12
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Hulda,1,28,3,33
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Vaermina,1,35,6,43
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Nimphaneth,1,6,1,6
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Umana,1,12,2,12
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Ugor,1,10,3,12
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Njada,1,5,1,7
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Dorthe,1,17,3,19
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Ingrid,1,4,1,5
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Fanari Strong-Voice,1,19,3,20
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Nura Snow-Shod,1,1,1,4
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Takes-In-Light,5,34,8,37
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Dawnguard Lieutenant,3,19,4,20
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Necromancer,4,62,11,74
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Atub,16,314,69,367
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Boethiah,15,609,95,759
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Bandit 2,1,13,2,13
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Cultist,4,106,17,119
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Stormcloak 1 (with Galmar),4,44,11,48
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Stormcloak 2 (ambush Jagged Crown),3,38,7,39
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Stormcloak Soldier 2 (escaping with Hadvar),1,8,6,9
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Stormcloak Soldier (Ilfhild),2,27,4,34
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Stormcloak Soldier 2 (at execution),2,4,2,7
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Stormcloak Soldier (blonde),1,10,1,10
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Silver Hand 4,2,12,2,14
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Thalmor Soldier (Riften Ratway),1,6,2,6
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Thalmor Guard,3,9,5,15
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Fledgling,4,62,14,73
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Vampire Mistwalker,1,42,6,44
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,Vampire (with Lokil),2,35,8,44
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,Imperial Soldiers,2,2,2,4
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,Kids,2,11,4,12
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,Stormcloaks,1,1,1,4
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,Companions,5,14,9,14
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,Dragon,9,45,13,57
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,Dragons,1,4,1,5
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,Stormcloak (with Gadar),1,3,2,3
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,Stormcloak (Fort Neugrad),1,5,1,5
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,Thalmor Soldier (torturing Brelas),1,2,1,4

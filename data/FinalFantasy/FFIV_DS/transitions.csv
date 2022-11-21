@@ -1,0 +1,15 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,-,-,145
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,-,male,327
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,male,male,932
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,male,-,336
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,-,female,39
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,female,-,32
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,female,male,178
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,male,female,173
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,-,neutral,7
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,neutral,-,5
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,male,neutral,9
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,neutral,male,13
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,female,female,15
+../data/FinalFantasy/FFIV_DS/,Final Fantasy,Final Fantasy IV,female,neutral,2

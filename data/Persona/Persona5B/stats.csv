@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/Persona/Persona5B/,False,Persona 5,Persona,TOTAL,24295,385817,102404,476492,0.4526076463654576,98.52813378069403,7.002187843726429,711
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,13706,225840,57441,278630,0.5016024812300586,98.46912573768576,7.059428401958106,436
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,9193,148100,41703,182990,0.37490023767471925,98.70001530363028,6.842917295484711,197
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,1396,11877,3259,14872,0.6068871407016534,97.20254749026556,7.914657373133945,78

@@ -1,0 +1,462 @@
+{
+	"game": "Lightning Returns: Final Fantasy XIII",
+	"series": "Final Fantasy",
+	"year": 2014,
+	"source": "https://www.youtube.com/watch?v=Kl_EgMs2V4A",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "sample",
+		"dialogueOrder": true,
+		"choices": "NA"
+	},
+    "error checks": {
+        "truePositive_numTestsDone": "10",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "1",
+        "truePositive_notes": "Some sidequest dialogue missing (source is just a sample)",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "N/A"
+    },
+	"notes": "Transcription of https://www.youtube.com/watch?v=Kl_EgMs2V4A and https://www.youtube.com/watch?v=BDXGUhO18O8",
+	"characterInfoSource": "https://finalfantasy.fandom.com/wiki/",
+	"parserParameters": {
+		"parser": "FFXIIILRParser",
+		"fileType": ".txt"
+	},
+	"mainPlayerCharacters": ["Lightning"],
+	"characterGroups": {
+		"male": [
+			"Dajh",
+			"Hope",
+			"Noel",
+			"Raines",
+			"Sazh",
+			"Snow",
+			"Adonis",
+			"Bhakti",
+			"Bhunivelze",
+			"Caius",
+			"Director Sarzhak",
+			"Dr. Gysahl",
+			"Drunk Pyrotechnician",
+			"Elmer",
+			"Funicula",
+			"Holmes",
+			"Thorton",
+			"Inquisitor",
+			"Man Awaiting The End",
+			"Mog",
+			"Witness",
+			"Man at North Platform",
+			"Strange Man",
+			"Cultist on Phone",
+			"Man in Jagd Village",
+			"Man in Jagd Woods",
+			"Mogbo",
+			"Moguire",
+			"Tour Guide",
+			"Adventuring Essentials",
+			"Adventuring Essentials (Wildlands)",
+			"Angel of Valhalla",
+			"Audience member",
+			"Banquet Maitre D'",
+			"Black Market Dealer",
+			"Chocobo",
+			"Fireworks Boss",
+			"Tormented Tourist",
+			"Male Bandit",
+			"Male Bandit 2",
+			"Bandits",
+			"God",
+			"Goddess's Disciple on Phone",
+			"Goddess's Disciple",
+			"Goddess's Disciple 1",
+			"Man on Street",
+			"Hunter",
+			"Hunter Chief",
+			"Hunter Hopeful",
+			"Luxerion Innkeeper",
+			"Man near Sarala",
+			"Kaj",
+			"Knowledgeable Tourist",
+			"Lazy Station Worker",
+			"Man",
+			"Proud Pyrotechnician",
+			"Man 1",
+			"Officer",
+			"Outfitters",
+			"Passenger 1",
+			"Passenger 2",
+			"Rusted Gate Man",
+			"Pilgrims Causeway Man",
+			"Idol Ave Man",
+			"Relieved Man",
+			"Man in Fountain Square",
+			"Man in Pleasure Alley",
+			"Little Boy",
+			"Man on Sacred Path",
+			"Resident Moogle",
+			"Man by Victim",
+			"Man at Machine",
+			"Man at Station",
+			"Cultist",
+			"Sentry by Twin Gates",
+			"Cathedral Plaza Sentry",
+			"Priest",
+			"Man on Steps",
+			"Other Man in Jagd Village",
+			"Man in Restaurant District",
+			"Beseeching Man",
+			"Boy in Jagd Village",
+			"2nd Ave Sentry",
+			"Ruins Gatekeeper",
+			"Secutor",
+			"Seller",
+			"Sentry that confronts Lightning",
+			"Snow's Sentry",
+			"Sentry",
+			"Cactuar Plaza Sentry",
+			"Fountain Square Sentry",
+			"Sentry 1",
+			"Sentry 2",
+			"Seven",
+			"Soldier",
+			"Soldier 2",
+			"Station Attendant",
+			"Supplier",
+			"Surveying Man",
+			"Suspicious Gatekeeper",
+			"Warehouse Employee",
+            "Idol Ave Sentry"
+		],
+		"female": [
+			"Chocolina",
+			"Lightning",
+			"Serah",
+			"Vanille",
+			"Fang",
+			"Aremiah",
+			"Cardesia",
+			"High Priestess",
+			"Lumina",
+			"Lyla",
+			"Nadia",
+			"Sarala",
+			"Pious Cleric",
+			"Resident in tan blazer",
+			"Woman 3",
+			"Paddra Nsu-Yeul",
+			"Yeul who gave Caius the heart of chaos",
+			"Yeul who wishes to save Caius",
+			"Yeul who loves Noel",
+			"Another Yeul",
+			"Yeul",
+			"Girl in the Grasslands",
+			"Woman by road in Grasslands",
+			"Mogwin",
+			"Train Announcement",
+			"Announcer",
+			"Assistant",
+			"Child",
+			"Cleric",
+			"Flighty Tourist",
+			"Tourist 1",
+			"Tourist 2",
+			"Female Bandit",
+			"Young Female Bandit",
+			"Goddess's Disciple 2",
+			"Goddess's Disciple 3",
+			"Guide",
+			"Woman in Jagd Village",
+			"Woman 1",
+			"Woman 2",
+			"Mounted Woman",
+			"Jagd Village Innkeeper",
+			"Woman by machine",
+			"Woman in Luxerion",
+			"Central Ave Woman",
+			"Woman in Jagd Woods",
+			"Woman by Victim",
+			"Pilgrims Passage Woman",
+			"Sentry 3",
+			"Woman in Cathedral",
+			"Woman by Tour Guide",
+			"Woman on Steps",
+			"Young Woman in Yusnaan",
+			"Woman Announcement",
+			"Young Woman in Cactuar Plaza",
+			"Shop Owner",
+			"Central Ave Female Seller",
+			"Woman in Pink",
+			"Slaughterhouse Zoe",
+			"Excited Woman",
+			"Woman",
+			"Woman Seller",
+			"Worker",
+            "Woman in Green",
+            "Yeuls"
+		],
+		"neutral": [
+			"Bystander",
+			"Goddess's Disciples",
+			"Moogle",
+			"Worshippers",
+			"Residents"
+		]
+	},
+	"aliases": {
+		"Location": "LOCATION",
+		"Dr Gyshal": "Dr. Gysahl",
+		"Dr. Gysahl": "Dr. Gysahl",
+		"Dr. Gyshal": "Dr. Gysahl",
+		"Drunk Pyrotechnic": "Drunk Pyrotechnician",
+		"Lightning & Lumina": ["Lightning", "Lumina"],
+		"Vanille and Fang": ["Vanille", "Fang"],
+		"Broadcaster": "Announcer",
+		"Machine": "Woman by machine",
+		"Yeul": {
+			"Paddra Nsu-Yeul": [
+				"You are God's savior. You lead souls to the new world.",
+				"The encounter is ordained. You have been led to the fountainhead once the Chaos flows. Here you will meet the servant of fate, adorned with feathers of white. The Angel of Valhalla.",
+				"Through the Chaos my message was born. I spoke, so that you might know the future. And so that you would learn of my wish, and make it true. Only the savior can. It must be you.",
+				"Save the soul that cannot rest. Please, save Caius. He has lost his undying heart. He no longer wants to live. He yearns to die... But he cannot. The Chaos binds him, and forces life upon him.",
+				"As the savior, you have to help him. Bring him salvation and release his soul.",
+				"Savior, your fate awaits you ahead.",
+				"Savior. Can you hear my voice?",
+				"I could see everything. I could see what you had to do here. So I called out from within the Chaos. To all the people, past and future. I spoke to every person who would listen to me.",
+				"I only pointed the way to your destiny. You and he have always been bound, by the strands of fate. Since long before you came to the Wildlands. See. He was always yours. Your steed, your knight, your champion."
+			],
+			"Yeul who gave Caius the heart of chaos": [
+				"It is the first time for me. The Yeul you met before was a different Yeul.",
+				"Yes. One of the countless Yeuls.",
+				"I had a wish of my own, though.",
+				"I want...to stay."
+			],
+			"Yeul who wishes to save Caius": [
+				"He suffers because of us. Savior, can you save him?",
+				"The truth...lies ahead."
+			],
+			"Another Yeul": [
+				"I am the one to blame for this crisis",
+				"This is the power of Chaos. This is the darkness contained within our souls."
+			],
+			"Yeul who loves Noel": [
+				"I made a promise. I told him that we'd meet again.",
+				"Noel, you did the right thing. Your soul will come to me. We'll meet again. Sooner than you think. I promise."
+			]
+		},
+		"???": {
+			"Snow": [
+				"The legends had told of her coming... Banisher of darkness, bringer of light, redeemer of souls. She'd come at the end of days... to guide our souls to salvation."
+			],
+			"ACTION": [
+				"\"The evil savior will die at the hands of the Shadow Hunter.\""
+			],
+			"Woman in Green": ["The area's locked. What do I do now?"],
+			"Cultist on Phone": [
+				"Show that you are one of us.",
+				"The rites are beginning. Make haste."
+			],
+			"Bystander": ["We see her! It's the savior!"],
+			"Paddra Nsu-Yeul": [
+				"The encounter is ordained. You have been led to the fountainhead whence the chaos flows. Here you will meet the servant of fate, adorned with feathers of white. The Angel of Valhalla."
+			],
+			"Man in Jagd Woods": [
+				"Hey, show time! Everyone drop what you're doing, and eat, that's all."
+			],
+			"Woman by road in Grasslands": [
+				"Farmers have to get their harvest in quickly. Otherwise they might end up losing their whole crop!"
+			],
+			"Mog": [
+				"What's all the noise for, kupo!? Some of us enjoy a little peace!"
+			]
+		},
+		"Adventuring Essentials": {
+			"Adventuring Essentials (Wildlands)": ["Right..."]
+		},
+		"Announcer": {
+			"Train Announcement": [
+				"The Yusnaan train is now arriving. Luxerion North station.",
+				"The train bound for the Wildlands...",
+				"This stop The Wildlands. Passengers for the Dead Dudes and Luxerion South Station. Please board now. Thank you.",
+				"This stop, Dead Dunes.",
+				"All trains are running on schedule. Thank you."
+			]
+		},
+		"Bandit": {
+			"Female Bandit": ["Will we never find the clavis?"],
+			"Young Female Bandit": ["What are we going to do?"],
+			"Male Bandit": ["Where's the treasure at?"],
+			"Male Bandit 2": ["Whoa, whoa, whoa."]
+		},
+		"Goddess's Disciple": {
+			"Goddess's Disciple on Phone": [
+				"In the forest of darkness Chaos holds sway. To the goddess of death, these numbers I say. Seven, eight, nine, one."
+			],
+			"Cultist on Phone": ["Welcome, child. You may enter."]
+		},
+		"Guide": {
+			"Man on Street": [
+				"The guides in Yusnaan get paid by the tourists and shop owners. Not a bad deal."
+			]
+		},
+		"Hunter": {
+			"Mounted Woman": [
+				"Well, it's true what they say. You know, about riders resembling their steeds."
+			]
+		},
+		"Innkeeper": {
+			"Luxerion Innkeeper": [
+				"I'm terribly sorry, I've been ordered not to...",
+				"\"The evil savior will die at the hands of the Shadow Hunter.\" It's certainly an arresting statement."
+			],
+			"Jagd Village Innkeeper": [
+				"Welcome, traveler! Care to rest a while?",
+				"Hey, how's that bird doing? Of course, I speak of the white chocobo that you're caring for! Perhaps you would like to feed him some of this fortifying milk. The truth is one of my regulars wanted it, but I just can't stand by seeing that poor creature suffer. You take it. Visit any time.",
+				"I checked the lodgings"
+			]
+		},
+		"Resident": {
+			"Man in Jagd Village": [
+				"What a fine chocobo! Look at the legs on him! The Angel of Valhalla",
+				"What a fine chocobo! Look at the legs on him!"
+			],
+			"Girl in the Grasslands": [
+                "I'm going to visit one of my friends in another village."
+			],
+			"Man near Sarala": ["Cole, he owns this field here."],
+			"Woman in Luxerion": ["It's time. We're saved!"],
+			"Rusted Gate Man": ["Monsters!"],
+			"Pilgrims Causeway Man": ["It's dangerous! Run!"],
+			"Idol Ave Man": ["Time for work. Please do away with the Chaos!"],
+			"Relieved Man": ["Thank goodness, the trains are running."],
+			"Central Ave Woman": ["No."],
+			"Man in Fountain Square": [
+				"Of course, the Chaos scares me, but there's nothing I can do about it, so I just accept it."
+			],
+			"Man in Pleasure Alley": [
+				"If only I could dream and never wake up."
+			],
+			"Little Boy": ["Wow! I bet she's strong!"],
+			"Woman in Jagd Woods": ["I bet he'd love to try some chocobull."],
+			"Woman in Jagd Village": [
+				"That chocobo runs with such grace and power."
+			],
+			"Man on Sacred Path": [
+				"When I look up beyond the rocky crags and view the temple, I feel that much closer to my goddess."
+			],
+			"Resident Moogle": ["I'm hungry, kupo!"],
+			"Worshippers": [
+				"Don't... Lead us on to the new world of salvation! Take us to the land of promise!"
+			]
+		},
+		"Resident 1": {
+			"Man at North Platform": ["It's getting a little chilly."],
+			"Resident in tan blazer": [
+				"I always said those people would cause trouble. And I was right. Every night, I can see them. Those weirdos in their white cloaks, sneaking around the streets. Whenever I see white, I think \"heretic\"! If there's one thing I know, that wicked Shadow Hunter, he's the ringleader of the heretics! Those fanatics are growing bold. Nowadays, there's always a gang of them in the plaza in front of the station. It's as if they are meeting to go someplace else. Speaking of which, it's usually around this time they start to show up."
+			],
+			"Man by Victim": [
+				"It's another girl.",
+				"I bet it's the heretics' doing."
+			],
+			"Man at Machine": ["Stupid machine."],
+			"Sentry by Twin Gates": [
+				"Those heretics believe in some 'prophecy of the goddess,' from what I hear. They think it's sacred."
+			],
+			"Woman in Cathedral": [
+				"The heretics are creatures of the dark. There's no place for them in the city of light."
+			],
+			"Woman by Tour Guide": ["That's weird..."],
+			"Man on Steps": [
+				"There was a time when people fought over the fal'Cie's production."
+			],
+			"Young Woman in Yusnaan": [
+				"If you can't even see the play, then there's really no point in coming to Yusnaan!"
+			],
+			"Woman Announcement": ["Morning from a Wildlands Resident."],
+			"Man in Jagd Village": [
+				"Frankly, I'm worried about that white chocobo. He's in such a terrible state."
+			]
+		},
+		"Resident 2": {
+			"Woman in Green": ["I want to leave."],
+			"Woman by Victim": ["How awful..."],
+			"Man at Station": ["Has the savior come to help us?"],
+			"Cultist": [
+				"The day is nigh, when God will send his mighty servant to save the souls of only those who believe in the almighty deity!"
+			],
+			"Woman on Steps": ["Isn't he one of the dancers in the play?"],
+			"Young Woman in Yusnaan": [
+				"If you don't want to be single, I suggest you figure something out."
+			],
+			"Other Man in Jagd Village": ["Yeah."],
+			"Man in Restaurant District": ["Such a nice day."],
+			"Young Woman in Cactuar Plaza": ["Good morning!"],
+			"Boy in Jagd Village": ["Angels can fly, right?"]
+		},
+		"Resident 3": {
+			"Pilgrims Passage Woman": [
+				"What I fear isn't the heretics, but people losing their faith."
+			],
+			"Beseeching Man": ["Please do away with the Chaos!"],
+			"2nd Ave Sentry": [
+				"Though that was centuries ago... To think he would appear again now."
+			]
+		},
+		"Seller": {
+			"Central Ave Female Seller": [
+				"I wonder if there's a way to stop the world's destruction?"
+			],
+			"Shop Owner": [
+				"Only the finest quality here"
+			],
+			"Director Sarzhak": [
+				"Next! Look, lively people! We've got a show to put on!"
+			]
+		},
+		"Sentry": {
+			"Idol Ave Sentry": ["Still awaiting orders!"],
+			"Sentry that confronts Lightning": ["What are you doing?"],
+			"Snow's Sentry": ["Sire!"],
+			"Cactuar Plaza Sentry": [
+				"Hey! You there!",
+				"I know your face. You're the one I've seen on the posters.",
+				"Sh-shut up! I don't need you to tell me how to do my job, you damn criminal!"
+			],
+			"Fountain Square Sentry": [
+				"It's her"
+			],
+			"Cathedral Plaza Sentry": [
+				"I have strict orders not to let anyone in, no matter who they might be! I am to use any means to strike down anyone would interfere with the sacred rites!",
+				"Do your worst. Look around us, would you? It's the end of the world and we're all dead anyway. Or didn't you notice? We've been waiting hundreds of years for this day to come! We will gladly give up our lives for God! For God almighty!"
+			]
+		},
+		"Sentry 1": {
+			"Cathedral Plaza Sentry": [
+				"No one will defy us, after all of this."
+			]
+		},
+		"Sentry 2": {
+			"Priest": ["So the Children of Etro have finally been eradicated."]
+		},
+		"Woman": {
+			"Woman in Cathedral": ["No, please, take me!"],
+			"Woman in Pink": ["I always end up eating too much."],
+			"Excited Woman": [
+				"It's Gordon Gourmet! He's visiting the Banquet of the Lord!"
+			]
+		},
+		"Woman 1": {
+			"Woman in Jagd Village": [
+				"Your chocobo looks more powerful than any of our steeds."
+			]
+		},
+		"Woman 2": {
+			"Woman in Jagd Village": [
+				"That chocobo runs with such grace and power."
+			]
+		}
+	}
+}

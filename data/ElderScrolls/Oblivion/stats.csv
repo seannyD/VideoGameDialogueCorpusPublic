@@ -1,0 +1,6 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/ElderScrolls/Oblivion/,False,The Elder Scrolls IV: Oblivion,The Elder Scrolls,TOTAL,62194,777177,167582,933310,0.38925278366985516,100.53190616705703,6.574492198907557,1094
+../data/ElderScrolls/Oblivion/,False,The Elder Scrolls IV: Oblivion,The Elder Scrolls,male,35928,460233,98371,552616,0.4032569770823784,100.50444134869615,6.568754068863471,694
+../data/ElderScrolls/Oblivion/,False,The Elder Scrolls IV: Oblivion,The Elder Scrolls,female,26266,316944,69210,380694,0.3694346713979364,100.57044136221332,6.582890304487833,399
+../data/ElderScrolls/Oblivion/,False,The Elder Scrolls IV: Oblivion,The Elder Scrolls,GenericMale,18229,195378,44341,234869,0.31353001563385163,100.6627745006927,6.672355440968575,14
+../data/ElderScrolls/Oblivion/,False,The Elder Scrolls IV: Oblivion,The Elder Scrolls,GenericFemale,16611,170375,39641,204998,0.28415407147823757,100.6804713256651,6.674593843616968,13

@@ -1,0 +1,83 @@
+{
+	"game": "King's Quest VIII",
+	"series": "King's Quest",
+	"year": 1998,
+	"source": "https://kingsquest.fandom.com/wiki/KQ8_transcript#Connor",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "complete",
+		"dialogueOrder": false,
+		"choices": "NA"
+	},
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "0",
+		"truePositive_notes": "The source doesn't give structure/order to the dialogue, but all tested lines were included.",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "N/A"
+	},
+	"parserParameters": {
+		"parser": "KQ5Parser",
+		"startText": "ALMOST ANGRY AT THE TAUNTING BEAST",
+		"endText": "printfooter",
+		"characterTags": ["h2"]
+	},
+	"mainPlayerCharacters": ["Connor"],
+	"characterGroups": {
+		"male": [
+			"Connor",
+			"Graham",
+			"Wizard",
+			"Azriel",
+			"James",
+			"Archons",
+			"Mudge",
+			"Hector",
+			"Lucreto",
+			"Thork",
+			"King Gryph",
+			"Henchmen",
+			"Lad",
+			"Old/Young Guy",
+			"Oracle of the Tree",
+			"Ferryman",
+			"Weirdling Tradesman",
+			"Hillmen",
+			"Armorer Gnome",
+			"Daventry Official",
+			"Sage Gnome",
+			"Skeletons",
+			"Weapon Gnome",
+			"Gryphs",
+			"Fire Dwarves",
+			"Ice Orcs"
+		],
+		"female": [
+			"Sarah",
+			"Lady of the Lake",
+			"Unicorn/Ugly Beast",
+			"Swamp Witch",
+			"Crystal Dragon",
+			"Frost Nymphs",
+			"Freesa",
+			"Gwennie",
+			"Sylph",
+			"Apothecary Gnome",
+			"Shaman"
+		],
+
+		"neutral": [
+			"Gnome",
+			"Unseen Voice",
+			"Raven",
+			"Whispering Weeds",
+			"Wisps"
+		]
+	},
+	"aliases": {
+		"Old/young guy": "Old/Young Guy"
+	}
+}

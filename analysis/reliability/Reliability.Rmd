@@ -1,0 +1,131 @@
+---
+title: "Gender coding reliability"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+papersize: a4
+header-includes: 
+- \pagestyle{empty}
+- \pagenumbering{gobble} 
+---
+
+```{r echo=F,eval=F}
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/reliability/"))
+```
+
+## Introduction
+
+To establish the reliability of gender coding, a sample of characters was coded by a secondary coder. For each game, 10 characters were randomly chosen with the probability of being chosen being in proportion to the amount of dialogue they spoke. No characters were repeated within series. See the file `getDataForCodingReliability.R` for specific details. This resulted in 444 characters that were second-coded (some games had fewer than 10 characters, or used game data to define the gender of characters rather than human coding). This represents about 3% of all characters in the corpus.
+
+A secondary coder, who was blind to the original coding, coded each of the characters in this sample. To measure agreement, we use Cohen's kappa, which is designed for measuring inter-rater reliability while taking in the agreement that would come about by chance (e.g. because the proportions of cases in different groups are unbalanced).
+
+
+Load libraries:
+
+```{r warning=F,message=F}
+library(rjson)
+library(psych)
+```
+
+Load data:
+
+```{r}
+d = read.csv("reliabilityCoding_S.csv",stringsAsFactors = F)
+d = d[!is.na(d$gender),]
+d$gender.Orig = NA
+
+for(folder in unique(d$folder)){
+  js = fromJSON(file = paste0("../",folder,"meta.json"))
+  g = js$characterGroups
+  g2 = rep(names(js$characterGroups),sapply(js$characterGroups,length))
+  names(g2) = unlist(js$characterGroups)
+  
+  d[d$folder==folder,]$gender.Orig = g2[d[d$folder==folder,]$charName]
+}
+# Some data changed after reliability review
+
+d[d$game=="Final Fantasy VII" & d$charName=="Waitress",]$gender.Orig = "female"
+d[d$game=="Final Fantasy VII" & d$charName=="Barkeeper",]$gender.Orig = "male"
+d[d$game=="King's Quest III: To Heir Is Human" & d$charName=="Squirrel",]$gender.Orig = "neutral"
+d[d$game=="King's Quest III: To Heir Is Human" & d$charName=="Fish",]$gender.Orig = "neutral"
+d[d$game=="King's Quest III: To Heir Is Human" & d$charName=="Bird",]$gender.Orig = "neutral"
+d[d$game=="King's Quest III: To Heir Is Human" & d$charName=="Mouse",]$gender.Orig = "neutral"
+d[d$game=="Persona 4" & d$charName=="Kimono-Clad Woman",]$gender.Orig = "female"
+d[d$game=="Final Fantasy VII Remake" & d$charName=="Elmyra",]$gender.Orig = "male"
+d[d$game=="King's Quest VIII" & d$charName=="Gryphs",]$gender.Orig = "neutral"
+
+d$gender[d$gender %in% c("neutral", "not coded","not gendered")] = "neutral"
+```
+
+
+## Total coding
+
+The agreement matrix for 1st and 2nd coding, including all categories coded:
+
+```{r}
+table(paste0("2nd coding:",d$gender),paste0("1st coding:",d$gender.Orig))
+```
+
+Coders agreed for `r round(100*prop.table(table(d$gender==d$gender.Orig))[2],2)`% of cases.
+
+Formal measure of agreement:
+
+```{r}
+cohen.kappa(x=cbind(d$gender,d$gender.Orig))
+```
+
+According to Landis & Koch (1977), this represents "almost perfect" agreement. There was disagreement for `r sum(d$gender!=d$gender.Orig)` characters which is explored below.
+
+## Coding gendered versus neutral
+
+One hurdle in coding is finding information on the characters, particularly generic characters. Below is a comparison of whether the two coders agreed that there was enough information to make a gendered coding or not:
+
+```{r}
+d$codable = d$gender!="neutral"
+d$codable.Orig = !d$gender.Orig %in% c("neutral","unknown","not coded", "cut")
+
+table(paste0("2nd coding:", d$codable),paste0("1st coding:",d$codable.Orig))
+cohen.kappa(x=cbind(d$codable, d$codable.Orig))
+```
+
+There were 7 cases where the 1st coding suggested the characters were neutral while the 2nd coding gave them genders:
+
+```{r}
+knitr::kable(d[!d$codable.Orig & d$codable,c("game","charName","Comments")],row.names = F)
+```
+
+The Head from Monkey Island can be inferred as male, but only from content outside the original game. Therefore, it's kept as neutral. There are two disagreements about two species in Final Fantasy XII, so these are kept neutral to be consistent with the rest of the coding for that game.
+
+The other cases have positive evidence for gender signifiers which were uncovered in the 2nd coding, so were changed.
+
+There were 7 cases where the 2nd coding suggested the characters were neutral while the 1st coding gave them genders:
+
+```{r}
+knitr::kable(d[d$codable.Orig & !d$codable,c("game","charName","Comments")],row.names = F)
+```
+
+The coding for these were kept as they were.
+
+## Coding male versus female
+
+Below is a table comparing only characters where both coders chose either "male" or "female".
+
+```{r}
+maleOrFemale = d$gender %in% c("male","female") & d$gender.Orig %in% c("male","female")
+
+table(paste0("2nd coding:",d[maleOrFemale,]$gender),
+      paste0("1st coding:",d[maleOrFemale,]$gender.Orig))
+cohen.kappa(x=cbind(d[maleOrFemale,]$gender,d[maleOrFemale,]$gender.Orig))
+```
+
+There were two cases where the initial coding was male and the 2nd coding was female. The first is the "Presidential Aide" in Final Fantasy VIII. They wear generic clothing, and so the initial coding is likely correct. The second is for "Elmyra" from Final Fantasy VII Remake, who is Aerith's mother and clearly female, so this is a case of an error in the initial coding.
+
+There was one case where the initial coding was female and the 2nd coding was male. This is for the "Steward" in Final Fantasy XII. The second coder had identified a similar but different character in a play-through video.
+
+# Conclusion
+
+The agreement was very high. The majority of disagreements involved whether a character was gendered or neutral, rather than whether they were male or female. Only one case of clear incorrect coding was identified.
+
+# References
+
+Landis, J.R.; Koch, G.G. (1977). "The measurement of observer agreement for categorical data". Biometrics. 33 (1): 159–174.

@@ -1,0 +1,15 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,-,female,182
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,female,female,83
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,female,-,182
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,-,male,209
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,male,female,178
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,female,male,180
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,male,-,212
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,male,male,139
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,-,neutral,8
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,neutral,male,2
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,male,neutral,1
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,neutral,-,5
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,neutral,female,4
+../data/FinalFantasy/FFXIII/,Final Fantasy,Final Fantasy XIII,female,neutral,2

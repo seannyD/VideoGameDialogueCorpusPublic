@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFXIII-LR/,False,Lightning Returns: Final Fantasy XIII,Final Fantasy,TOTAL,2182,47916,8949,56301,0.36311921491171617,101.99587329074625,6.083267621701482,172
+../data/FinalFantasy/FFXIII-LR/,False,Lightning Returns: Final Fantasy XIII,Final Fantasy,male,855,21702,3740,25739,0.6680754966273845,100.60801764173638,6.249666965542494,102
+../data/FinalFantasy/FFXIII-LR/,False,Lightning Returns: Final Fantasy XIII,Final Fantasy,female,1317,26151,5192,30486,0.13040993808389878,103.09868468576538,5.94709747270784,65
+../data/FinalFantasy/FFXIII-LR/,False,Lightning Returns: Final Fantasy XIII,Final Fantasy,neutral,10,63,17,76,0.09021475256769484,101.01638655462187,6.326660971055088,5

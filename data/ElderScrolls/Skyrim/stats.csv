@@ -1,0 +1,6 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,TOTAL,7619,150041,29832,181540,0.6487617179019622,99.3694435321104,6.586685059280721,379
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,playerChoice,2433,16209,4491,18963,-0.3775186352716524,104.19762885014894,6.237254540903634,1
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,3587,92905,17587,112770,0.7932948073808515,98.78394580372526,6.66136306531359,265
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,1576,40840,7713,49699,0.8346853627307702,98.50921359984345,6.557989542091128,104
+../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,23,87,39,108,-0.0717241379310316,99.55007957559683,11.732893280282937,9

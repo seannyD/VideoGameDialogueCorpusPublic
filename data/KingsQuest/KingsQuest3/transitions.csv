@@ -1,0 +1,12 @@
+folder,series,game,from,to,frequency
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,-,-,1
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,-,male,51
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,male,-,47
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,-,female,9
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,female,-,13
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,male,female,8
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,-,neutral,9
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,neutral,neutral,46
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,neutral,-,9
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,female,male,4
+../data/KingsQuest/KingsQuest3/,King's Quest,King's Quest III: To Heir Is Human,male,male,5

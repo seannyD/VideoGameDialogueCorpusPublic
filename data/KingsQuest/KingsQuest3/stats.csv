@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingsQuest/KingsQuest3/,False,King's Quest III: To Heir Is Human,King's Quest,TOTAL,330,3151,528,3631,0.33496777718473325,103.29034257102123,6.568345619957109,29
+../data/KingsQuest/KingsQuest3/,False,King's Quest III: To Heir Is Human,King's Quest,male,178,1645,296,1880,0.06311293436293575,104.50849179536682,6.887771748952599,11
+../data/KingsQuest/KingsQuest3/,False,King's Quest III: To Heir Is Human,King's Quest,neutral,98,988,147,1160,0.8854755019416682,100.6851600154232,6.031515783965408,13
+../data/KingsQuest/KingsQuest3/,False,King's Quest III: To Heir Is Human,King's Quest,female,54,518,85,591,0.24964024528730455,104.1270767658415,6.590756652282534,5

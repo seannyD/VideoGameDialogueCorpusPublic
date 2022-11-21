@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/Test/Test/,True,Test,Test,TOTAL,10,10,9,10,-3.3566666666666656,121.10722222222225,16.32361111111111,10
+../data/Test/Test/,True,Test,Test,male,3,3,2,3,-3.2049999999999983,120.7125,19.500899999999998,3
+../data/Test/Test/,True,Test,Test,female,5,5,4,5,-3.3024999999999984,120.96625,19.4885,5
+../data/Test/Test/,True,Test,Test,neutral,0,NA,NA,NA,NA,NA,NA,0

@@ -1,0 +1,52 @@
+[
+{"trader": "«Fang,» «Petal,» «Horn,» «Feather»... Bring 3 each of any 2 items, I give you 1 weapon or 1 item! What you give me?", "_Japanese": "『きば』『はなびら』『つの』『はね』 2しゅるい　3コづつ　あわせて6コと 武器　防具　1つ　交換！ オマエ　何　くれる", "_Retranslate":"“Fang”, “Flower Petal”, “Horn”, “Feather”, 2 type, 3 each, 6 total, then trade 1 weapon, armor! What you give?"},
+{"trader": "«Fang,» «Petal,» «Horn,» «Feather»... Give 3 each of any 2 items, I give you 1 weapon or 1 item! Still want trade?", "_Japanese": "『はなびら』『きば』『つの』『はね』 2しゅるい　3コづつ　あわせて　6コと 武器　防具　1つ　交換！", "_Retranslate": "“Fang”, “Flower Petal”, “Horn”, “Feather”, 2 type, 3 each, 6 total, then trade 1 weapon, armor! You still trade?"},
+{"CHOICE":[
+	[{"STATUS": "No key items"},
+	{"trader": "You have nothing, so no trade!", "_Japanese": "オマエ　持ってない　交換　ダメ！", "_Retranslate": "You no have, trade no good!"}],
+	[
+{"CHOICE":[
+	[{"chrono": "Petal N each", "_Japanese": "はなびら N コ", "_Retranslate": "Flower Petal N"}],
+	[{"chrono": "Fang N each", "_Japanese": "きば N コ", "_Retranslate": "Fang N"}],
+	[{"chrono": "Horn N each", "_Japanese": "つの N コ", "_Retranslate": "Horn N"}],
+	[{"chrono": "Feather N each", "_Japanese": "はね N コ", "_Retranslate": "Feather N"}]
+]},
+{"trader": "What else?", "_Japanese": "あと　何くれる？", "_Retranslate": "What else give?"},
+{"CHOICE":[
+	[{"chrono": "Petal N each", "_Japanese": "はなびら N コ", "_Retranslate": "Flower Petal N"}],
+	[{"chrono": "Fang N each", "_Japanese": "きば N コ", "_Retranslate": "Fang N"}],
+	[{"chrono": "Horn N each", "_Japanese": "つの N コ", "_Retranslate": "Horn N"}],
+	[{"chrono": "Feather N each", "_Japanese": "はね N コ", "_Retranslate": "Feather N"}]
+]},	
+	{"CHOICE":[
+		[{"STATUS": "Gave only one kind"},
+		 {"trader": "Same, no good! Choose 2 different ones!", "_Japanese": "同じ物　ダメ　2つと交換。", "_Retranslate": "Same one no good, trade with 2."}],
+		[{"trader": "Trade for «Ruby Gun?»", "_Japanese": "『ルビーガン』と交換　いいか？", "_Retranslate":"Trade for “Ruby Gun”, okay?"},
+		 {"CHOICE":[
+		 	[{ "crono": "Yes.", "_Japanese": "はい", "_Retranslate": "Yes"}, {"SYSTEM": "You got a Ruby Gun!", "_Japanese": "ルビーガンを手に入れた！", "_Retranslate":"Got a Ruby Gun!"}],
+		 	[{"crono": "No.", "_Japanese": "いいえ", "_Retranslate": "No"},{"trader": "Trade for Sage Bow?", "_Japanese": "『ひじりのゆみ』と交換　いいか？", "_Retranslate": "Trade for “Saint's Bow”, okay?"},
+			 {"CHOICE":[
+				[{ "crono": "Yes.", "_Japanese": "はい", "_Retranslate": "Yes"}, {"SYSTEM": "You got a Sage Bow!", "_Japanese": "ひじりのゆみを手に入れた！", "_Retranslate":"Got a Saint's Bow!"}],
+				[{"crono": "No.", "_Japanese": "いいえ", "_Retranslate": "No"},
+				 {"trader": "Trade for «Stone Arm?»", "_Japanese": "ストーンアーム』と交換　いいか？", "_Retranslate": "Trade for “Stone Arm”, okay?"},
+				 {"CHOICE":[
+					[{ "crono": "Yes.", "_Japanese": "はい", "_Retranslate": "Yes"}, {"SYSTEM": "You got a Stone Arm!", "_Japanese": "ストーンアームを手に入れた！", "_Retranslate": "Got a Stone Arm!"}],
+					[{"crono": "No.", "_Japanese": "いいえ", "_Retranslate": "No"},
+					 {"trader": "Trade for «Flint Edge?»", "_Japanese": "マンモスのつるぎ』と交換　いいか？", "_Retranslate": "Trade for “Mammoth Sword”, okay?"},
+					 {"CHOICE":[
+						[{ "crono": "Yes.", "_Japanese": "はい", "_Retranslate": "Yes"}, {"SYSTEM": "You got a Flint Edge!", "_Japanese": "マンモスのつるぎを手に入れた！", "_Retranslate": "Got a Mammoth Sword!"}],
+						[{"crono": "No.", "_Japanese": "いいえ", "_Retranslate": "No"},
+						 {"trader": "Trade for «Ruby Vest?»", "_Japanese": "『ルビーベスト』と交換　いいか？", "_Retranslate": "Trade for “Ruby Vest”, okay?"},
+						 {"CHOICE":[
+							[{ "crono": "Yes.", "_Japanese": "はい", "_Retranslate": "Yes"}, {"SYSTEM": "You got a Ruby Vest!", "_Japanese": "ルビーベストを手に入れた！", "_Retranslate": "Got a Ruby Vest!"}],
+							[{"crono": "No.", "_Japanese": "いいえ", "_Retranslate": "No"}]
+						 ]}
+					 	]
+				 	]}
+		 	 	]]}] 
+	]} ]
+	]}]]}
+]]}]
+
+	
+	

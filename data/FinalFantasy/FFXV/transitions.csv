@@ -1,0 +1,17 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,-,-,1
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,-,neutral,352
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,neutral,-,255
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,-,male,1643
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,male,-,1682
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,male,male,4155
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,-,female,292
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,female,-,279
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,female,male,381
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,male,female,434
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,neutral,male,406
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,female,neutral,99
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,male,neutral,293
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,neutral,female,50
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,female,female,21
+../data/FinalFantasy/FFXV/,Final Fantasy,Final Fantasy XV,neutral,neutral,5

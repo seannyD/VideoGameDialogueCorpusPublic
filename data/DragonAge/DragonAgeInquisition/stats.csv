@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/DragonAge/DragonAgeInquisition/,True,Dragon Age: Inquisition,Dragon Age,TOTAL,34,429,93,507,0.1544868035190632,102.17108504398827,6.184111188811189,9
+../data/DragonAge/DragonAgeInquisition/,True,Dragon Age: Inquisition,Dragon Age,male,0,NA,NA,NA,NA,NA,NA,0
+../data/DragonAge/DragonAgeInquisition/,True,Dragon Age: Inquisition,Dragon Age,female,0,NA,NA,NA,NA,NA,NA,0
+../data/DragonAge/DragonAgeInquisition/,True,Dragon Age: Inquisition,Dragon Age,neutral,0,NA,NA,NA,NA,NA,NA,0

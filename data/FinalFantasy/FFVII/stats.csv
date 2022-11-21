@@ -1,0 +1,7 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFVII/,False,Final Fantasy VII,Final Fantasy,TOTAL,8379,100584,43409,117973,-0.8463334935330131,105.25743994648761,6.390788153939179,437
+../data/FinalFantasy/FFVII/,False,Final Fantasy VII,Final Fantasy,male,5842,71838,30540,84142,-0.8515826401260504,105.35765472337319,6.464406367832316,291
+../data/FinalFantasy/FFVII/,False,Final Fantasy VII,Final Fantasy,female,2300,25102,11383,29191,-1.0077992953819113,106.21575369225529,6.105383648409998,81
+../data/FinalFantasy/FFVII/,False,Final Fantasy VII,Final Fantasy,system,3,64,12,80,1.2400000000000002,95.67166666666668,6.121502083333334,2
+../data/FinalFantasy/FFVII/,False,Final Fantasy VII,Final Fantasy,ambiguous,4,27,21,37,1.081798941798942,89.59666666666666,9.548419576719574,1
+../data/FinalFantasy/FFVII/,False,Final Fantasy VII,Final Fantasy,neutral,230,3553,1450,4523,0.3871374380077057,96.6513618632142,6.904482360977124,62

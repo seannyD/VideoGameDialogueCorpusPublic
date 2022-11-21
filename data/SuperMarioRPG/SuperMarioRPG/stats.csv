@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/SuperMarioRPG/SuperMarioRPG/,False,Super Mario RPG: Legend of the Seven Stars,Super Mario RPG,TOTAL,977,13755,4806,15911,-0.8242340681018927,106.06956383242323,6.504829781339302,105
+../data/SuperMarioRPG/SuperMarioRPG/,False,Super Mario RPG: Legend of the Seven Stars,Super Mario RPG,male,671,9728,3347,11253,-0.8066564998800949,106.02268660048081,6.4426270380584345,48
+../data/SuperMarioRPG/SuperMarioRPG/,False,Super Mario RPG: Legend of the Seven Stars,Super Mario RPG,female,129,1939,742,2239,-0.9451657146749444,106.49337309155665,6.559291989646481,11
+../data/SuperMarioRPG/SuperMarioRPG/,False,Super Mario RPG: Legend of the Seven Stars,Super Mario RPG,neutral,177,2088,717,2419,-0.7836739126949759,105.86797720386672,6.745347971272383,46

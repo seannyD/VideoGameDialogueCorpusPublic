@@ -1,0 +1,78 @@
+{
+	"game": "Final Fantasy X",
+	"series": "Final Fantasy",
+	"year": 2001,
+	"source": "http://www.finalfantasyquotes.com/ffx/script",
+	"alternativeMeasure": true,
+	"parserParameters": {
+		"parser":"FFQParser",
+		"fileType":".html",
+		"characterClassIdentifier":"ff7"
+	},
+	"mainPlayerCharacters": ["Tidus"],
+	"characterGroups": {
+		"male": [
+			"Auron",
+			"Barthello",
+			"Biran",
+			"Bobba",
+			"Botta",
+			"Braska",
+			"Brother",
+			"Cid",
+			"Clasko",
+			"Datto",
+			"Gatta",
+			"Isaaru",
+			"Jassu",
+			"Jecht",
+			"Jimma",
+			"Jyscal",
+			"Keepa",
+			"Kelk",
+			"Keyakku",
+			"Kimahri",
+			"Kinoc",
+			"Letty",
+			"Luzzu",
+			"Maroda",
+			"Mika",
+			"Pacce",
+			"Rin",
+			"Seymour",
+			"Tromell",
+			"Tidus",
+			"Wakka",
+			"Yenke"
+			],
+		"female": [
+			"Calli",
+			"Dona",
+			"Elma",
+			"Lucil",
+			"Lulu",
+			"Rikku",
+			"Shelinda",
+			"Tidus' Mother",
+			"Yuna",
+			"Yunalesca"
+			],
+		"neutral": [
+			"Aurochs",
+			"Fayth",
+			"Guado"
+			]
+	},
+	"aliases": {
+		"Main Character": "Tidus",
+		"1] Yuna": "Yuna",
+		"2] Wakka": "Wakka",
+		"3] Rikku": "Rikku",
+		"4] Kimahri": "Kimahri",
+		"5] Lulu": "Lulu",
+		"6] Auron": "Auron",
+		"Aurons": "Auron",
+		"Kelk Ronso": "Kelk",
+		"Young Tidus": "Tidus"
+	}
+}

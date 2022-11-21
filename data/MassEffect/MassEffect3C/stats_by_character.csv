@@ -1,0 +1,478 @@
+folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,syllables
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,playerChoice,Shepard,8684,66068,18542,79231
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Garrus Vakarian,2233,20454,5145,24522
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,James Vega,1898,13552,4007,15883
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Javik,1649,13733,3808,17655
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,David Anderson,729,5434,1651,6560
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Urdnot Wreav,624,6231,1285,7476
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Kaidan Alenko,1481,11600,3551,14174
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Admiral Hackett,721,9014,1894,11462
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Admiral Han'Gerrel,82,860,189,1122
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Admiral Zaal'Koris,57,444,123,575
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Armando-Owen Bailey,264,3368,729,4236
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Engineer Adams,178,1856,428,2445
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Grunt,127,1040,305,1262
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Geth Prime,39,329,94,504
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Illusive Man,222,2331,651,3018
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Jacob Taylor,190,1514,487,1816
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Jason Prangley,109,610,170,783
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Kenneth Donnelly,106,1013,293,1250
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Legion,471,4989,1217,7438
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Mordin Solus,505,4401,1499,6788
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,"Jeff ""Joker"" Moreau",465,5107,1305,6285
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Quentius (new turian councilor),23,300,63,376
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Radio (Mars),4,38,9,45
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Donnel Udina,80,1077,245,1391
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Urdnot Wrex,738,7951,1654,9389
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Valern,20,278,72,382
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Sparatus,25,282,55,347
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Zaeed Massani,109,1198,294,1437
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Vendetta (Prothean VI),49,627,131,907
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Pilot,17,66,37,88
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Assault Trooper (C-Sec Perimeter),1,2,1,3
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Kolyat Krios,17,212,56,253
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dr. Charleson,1,16,3,16
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dr. Fredricks,10,63,25,69
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Assault Trooper 2 (Gellix),15,78,27,96
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dr. Webber,6,38,13,43
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dr. Baynar,5,29,6,40
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Henry Lawson,73,709,182,927
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Rupe Elkoss,17,198,38,241
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Citadel Announcer,426,4614,929,6774
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Male Hospital Nurse (Presidium Commons),11,133,35,163
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Human C-Sec Officer (looking for turrets),14,256,51,302
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Zymandis,10,135,31,186
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Citadel News Announcer,65,1204,146,1736
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Departing Soldier (D24),19,277,58,337
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Jondum Bau,59,863,190,1186
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Guy with Mel,18,125,68,138
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Lead Scientist (Hospital),8,97,26,131
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dr. Fraelik,2,11,3,15
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Michael Petrovsky,3,24,6,30
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Alliance Marine (talking to asari doctor),13,98,24,108
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Balak,17,216,54,293
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Barla Von,38,449,102,633
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dehkarr (Batarian Refugee),16,129,44,150
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Batarian in Custody,12,127,32,162
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Siress (Salarian Businessman),7,86,19,120
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Businessman,6,101,18,127
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Elcor Ambassador,14,139,35,182
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Christophe Vasser (Human Refugee),17,154,45,168
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dominic Osoba,19,272,69,324
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Blasto,51,583,139,828
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Gruff Partner Bubin,27,267,68,339
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Vorcha Villain,12,66,25,76
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Stressed-Out Chief,10,160,22,203
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Din Korlack,53,508,183,657
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Ghorek,23,164,57,196
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Guard 1 (outside Purgatory),15,169,57,203
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Guard 2 (outside Purgatory),14,211,42,242
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Thane Krios,93,1265,304,1591
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Kai Leng,90,566,176,679
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,David Archer,13,80,40,102
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Robert (Steve's Husband),6,67,21,72
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Conrad Verner,46,572,176,707
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier (talking to Garrus at docks),6,36,11,46
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Commander,58,569,110,770
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Male Student (Grissom),14,160,41,190
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,C-Sec Assistant,2,31,5,42
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Kannik,13,234,38,279
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Gryll,3,29,8,32
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Gung-ho Civilian (Presidium Commons),10,76,23,99
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Kreete,4,47,10,64
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Narl,9,105,26,117
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,General Oraka,16,247,47,314
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Refugee (Citadel Docks),8,54,21,63
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Human Customer (Refund Guy),10,74,30,83
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Sales Clerk,12,111,24,136
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Sayn,10,118,32,136
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Drunk Soldier 1,7,50,16,59
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Drunk Soldier 2,6,42,17,49
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Drunk Soldier 3,6,62,17,71
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Darner Vosque,11,170,32,208
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Colonel Vaykom,20,284,45,383
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,The Child,8,28,15,33
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Kirrahe,68,712,178,939
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Padok Wiks,556,5889,1367,8287
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Primarch Victus,183,2008,476,2576
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Base Announcer (SurKesh),83,733,180,1271
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Trooper 1 (SurKesh),99,677,183,893
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Assault Trooper 2 (SurKesh),73,436,150,569
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Trooper 3 (SurKesh),18,84,29,114
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Trooper 4 (SurKesh),6,72,17,84
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Trooper 5 (SurKesh),6,24,6,24
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Trooper 6 (SurKesh),6,48,11,60
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Atlas Pilot (SurKesh),1,4,1,6
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 1 (SurKesh),7,38,9,54
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 10 (SurKesh),13,134,27,182
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 11 (SurKesh),7,35,13,49
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 18 (SurKesh),3,23,6,26
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 2 (SurKesh),6,23,6,41
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Scientist 3 (SurKesh),4,63,8,77
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 4 (SurKesh),4,36,7,41
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 5 (SurKesh),3,40,7,52
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 6 (SurKesh),2,22,3,27
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 7 (SurKesh),1,8,2,9
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 8 (SurKesh),7,38,11,50
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 9 (SurKesh),8,74,18,97
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Lieutenant Tolan,29,311,74,400
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Scientist (SurKesh lab),14,131,30,207
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Scientist 2 (SurKesh lab),13,70,15,103
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Solder 3 (SurKesh lab),9,63,16,104
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 4 (SurKesh lab),6,46,13,68
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 5 (SurKesh lab),3,17,6,30
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 6 (SurKesh lab),13,60,17,90
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier 7 (SurKesh lab),8,30,21,54
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Soldier (SurKesh lab),11,92,22,140
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Jorgal Thurak,14,123,27,151
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Krogan Shaman,3,47,7,54
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Krogran Soldier 1,5,49,10,57
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Krogan Soldier 2,2,12,4,17
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Krogan Soldier 3,3,16,6,20
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Krogan Soldier 4,2,24,3,29
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Krogan Soldier 5,1,11,2,17
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Krogan Scout,5,50,10,57
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Pilot (Artimec),20,144,37,193
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Pilot (Artimec Two),6,23,8,33
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian at Maincamp Barrier (Menae),1,10,2,12
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,"Turian Soldier (en route to Victus, Menae)",4,17,6,17
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Maincamp Soldier 2 (Menae),3,20,4,28
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Maincamp Soldier 4 (Menae),3,26,5,33
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier at Tower (Menae),1,7,1,7
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,General Corinthus,56,622,143,809
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Tobestik,5,20,8,29
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Sergeant Bartus,4,10,5,11
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Urdnot Dagg,75,674,177,872
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier (Blackbox Recording),2,11,3,15
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Marnek (Blackbox Recording),2,8,4,16
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Lieutenant Tarquin Victus,119,965,241,1284
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dying Turian 2 (Tuchanka Escape Pod),42,120,60,138
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dying Turian 3 (Tuchanka Escape Pod),36,102,54,114
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Rescued Turian Soldier (Tuchanka Escape Pod),4,34,7,38
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier 1 (Tuchanka Escape Pod),2,22,5,22
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier 2 (Tuchanka Escape Pod),2,8,2,10
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier 3 (Tuchanka Escape Pod),2,12,3,14
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Soldier 1 (Tuchanka Bomb),20,61,27,113
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Soldier 2 (Tuchanka Bomb),16,80,20,160
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Civilian Husband (Benning),5,26,9,28
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Male Civilian 3 (Benning),1,6,1,7
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Male Civilian 4 (Benning),1,3,1,3
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Male Civilian 5 (Benning),1,9,1,9
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Male Civilian 9 (Benning),1,3,1,4
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper 1 (Cannon Tower Tuchanka),2,6,3,10
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper 2 (Cannon Tower Tuchanka),2,8,2,12
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper 3 (Cannon Tower Tuchanka),2,12,2,14
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper 4 (Cannon Tower Tuchanka),4,16,8,28
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper 5 (Cannon Tower Tuchanka),2,6,2,10
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Ensign Copeland,24,225,65,261
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Reiley Bellarmine,1,10,1,12
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Announcer (Grissom),21,237,59,304
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Soldier 1 (Grissom),7,39,11,53
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Soldier 2 (Grissom),2,16,5,18
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Soldier 3 (Grissom),4,28,11,32
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Soldier 4 (Grissom),4,4,4,12
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Soldier 5 (Grissom),3,22,6,30
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Soldier 6 (Grissom),1,12,2,14
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper 7 (Grissom),5,41,8,52
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Froeberg,1,18,4,22
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Isaac,3,19,3,21
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Medic (Prologue Earth),2,23,7,26
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Random Guy (Prologue Earth),1,2,1,3
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Injured Soldier (Prologue Earth),5,37,17,41
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Alliance Councillor 1,5,25,10,39
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Security Officer (Mars),3,29,12,42
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Centurion (Mars),1,8,3,8
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Grunt (Mars),3,18,6,21
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Grunt 1 (Mars),3,38,8,47
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Grunt 2 (Mars),2,9,2,9
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerebrus Grunt 5 (Mars),1,4,2,8
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper Leader (Mars),5,46,14,52
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper (Mars),69,305,93,345
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper 2 (Mars),31,127,38,138
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Garrus's Father,5,52,17,71
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Store VI,2,22,3,27
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Angry Vet,15,132,39,159
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Enforcer,1,14,2,15
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Engineer (C-Sec),1,8,4,14
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Executioner,1,6,2,9
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Centurion (C-Sec),2,4,2,4
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Assault Trooper 3 (Gellix),9,51,12,54
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Civilian 4 (Gellix),6,39,11,47
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Civilian 5 (Gellix),5,37,8,43
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dr. Beck,5,35,9,43
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Citadel Guard (Holding Area),12,106,37,121
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Reluctant Civilian (near C-Sec Outpost),2,22,5,26
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Attending Doctor,12,188,38,216
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Bank Teller,6,93,15,118
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Bank Customer,6,69,15,78
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Frustrated C-Sec Officer,9,95,26,119
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cafe Owner,8,91,25,107
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Patient C-Sec Officer,7,79,16,104
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Angry Merchant,7,81,20,103
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Worried Merchant,8,115,22,147
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Bounty Hunter 2,10,72,24,79
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Physician,6,99,25,126
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Embassy Guard,3,21,5,26
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Recovering Soldier (outside Purgatory),17,225,48,258
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Smuggler,15,98,26,115
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Nurse,8,58,26,74
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Batarian (intimidated by Zaeed),1,2,2,4
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Refugee Camp Doctor,8,116,17,156
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Tactus,14,181,40,233
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Charr,6,139,11,160
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Solik Vass,32,367,84,457
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Dock Officer,6,48,14,60
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dr Silon,8,106,26,136
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Door VI,13,46,31,81
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Computer Console (Shroud),7,26,13,59
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Tram Assault Trooper (Mars),3,22,5,25
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Normandy Guard,1,17,3,28
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Scientist with Jack,3,38,12,46
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Diplomat,5,68,15,74
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Batarian Refugee discussing Kelly,5,35,8,42
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Stargazer Man,50,450,124,510
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Announcer (Citadel),2,23,4,32
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Glyph,76,864,172,1287
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,The Catalyst,597,5748,1515,7632
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Quarian Captain 1,1,13,3,17
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Quarian Marine 2,1,2,1,2
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Quarian Police 1,4,19,6,20
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Quarian Police 2,1,19,2,23
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Megara,2,25,4,28
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Quarian Scientist 2,4,34,7,52
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Quarian Scientist 3,2,11,7,16
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dorn'Hazt,8,110,36,134
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Kozlo,2,6,2,7
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Konesh Distress Call,5,53,12,71
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,C-Sec Officer (Radio),1,14,2,21
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Human Medic,1,5,1,5
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Medic,2,10,4,13
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Reaper (Rannoch),15,128,39,198
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Captain Kar'Danna vas Rayya,3,34,7,45
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Radio Operator,2,9,3,10
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Clerk,1,11,3,16
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Sanctuary Refugee 1,5,49,15,56
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Scientist 2 (Base Log),10,104,29,164
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Scientist 3 (Base Log),9,139,38,185
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper 2 (Cerberus Base),3,27,8,38
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Alliance Marine 2,78,543,163,729
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Alliance Marine 3,4,25,10,31
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Alliance Marine 4,7,24,14,34
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Major Coats,130,971,290,1258
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Communications Tech,5,27,10,34
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Alliance Medic,18,154,41,169
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Fighter Marine,8,20,14,27
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Commander,2,10,2,14
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Geth Fighter,2,12,3,14
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Quarian Captain,2,15,4,19
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Marine (Hammer Base),4,25,7,31
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier talking to Garrus (Earth),9,101,22,119
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Other Turian Soldier talking to Garrus (Earth),12,122,31,143
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Earth Comm Officer 2,2,37,6,58
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Reception (Sanctuary),4,37,7,58
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Reception 2 (Sanctuary),4,53,8,71
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Soldier,1,8,1,10
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Curve Glider Sporting Goods Store Announcement,3,57,8,77
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,"Snap, Crackle and Shock Store Announcement",4,67,10,86
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Assault Trooper (Cerberus Base),5,55,11,69
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Gavin Archer,75,875,232,1127
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Cerberus Assault Trooper (Gellix),18,108,30,135
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,AA Gun Control,4,23,13,45
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Ex-Cerberus Scientist with Dr. Charleson (Arrae),1,16,2,17
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Officer (Purgatory),6,87,17,111
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Angry Accountant,6,84,19,105
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Angry Elcor,6,72,15,98
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,"Alliance Soldier (talking to superior, D24)",5,72,20,99
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian War Strategist,8,130,36,177
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Researcher (Obelisk of Karza),7,98,21,127
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Volus Diplomat (Embassies),6,89,13,113
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Preacher (Batarian),6,87,23,108
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Refugee (Prothean Sphere),6,78,17,95
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Salarian Doctor,14,226,53,286
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Officer Dellk,10,168,33,244
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,C-Sec Officer (Jamming Tech),12,202,37,242
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Sellea,14,234,53,306
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Shepard VI (Male),26,301,67,393
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Alliance Marine (American),2,10,2,12
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Stargazer Child,43,257,50,295
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Rescued Male Quarian Civilian,9,25,10,29
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Sur'Kesh Base Computer,4,12,8,19
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Power Terminal (Sur'Kesh),2,5,3,7
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier (Menae near first gate),1,5,2,6
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier (near Menae LZ),2,23,3,31
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Maincamp Soldier (commanding Soldier 2),3,9,5,10
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Turian Soldier (Maincamp Soldier 3),3,16,6,23
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Dying Turian 1 (Tuchanka Escape Pod),42,114,66,144
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Grateful Turian Soldier (Tuchanka Escape Pod),4,12,5,12
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Alarm System (Noveria),4,31,12,70
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Corporal Nyrek,18,162,65,237
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Male Civilian (Benning),1,4,1,7
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Brennen,2,11,4,13
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Steve Cortez,452,4331,1148,5734
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,Aaron Sommers,19,211,53,270
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Liara T'Soni,2654,22176,6126,27661
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,EDI,2035,18530,4585,26443
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Ashley Williams,1495,10876,3475,13055
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Tali'Zorah,1384,11753,3420,14519
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Admiral Daro'Xen,109,1284,262,1799
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Aria T'Loak,141,1708,345,2080
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dr. Chakwas,225,2275,572,2933
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dr. Michel,167,1722,399,2267
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Esheel (new salarian councilor),28,371,88,481
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Eve,264,2773,653,3420
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Gabriella Daniels,74,592,169,755
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Irissa (new asari councilor),68,750,185,1020
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Jack,263,2665,680,3146
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Kahlee Sanders,114,1319,295,1672
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Miranda Lawson,261,2210,794,2799
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Oriana Lawson,56,405,241,533
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Rodriguez,24,140,53,171
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Tevos,68,736,178,999
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Talon Three (Asari Pilot),7,32,11,43
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Talon One (Asari Pilot),8,40,12,49
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Talon Five (Asari Pilot),25,137,37,177
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Specialist Jineva,0,NA,NA,NA
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Specialist Cayla,25,140,36,168
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Outpost Tykis Survivor,10,92,22,116
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Lieutenant Kurin,56,493,107,620
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,C-Sec VI,11,124,24,178
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Brynn Cole,114,1046,276,1347
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Embassy Clerk helping Teresa,12,120,43,133
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Teresa,19,271,80,313
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Sara,12,80,26,98
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Citadel Female Announcer,474,5028,1229,7380
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Hospital Nurse (Presidium Commons),15,217,39,255
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Mistress (Presidium Commons),14,191,40,231
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Wife (Presidium Commons),16,196,44,231
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari War Strategist,14,226,45,276
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Scientist (Hospital),14,236,45,304
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Hospital Visitor (Debating),7,81,17,102
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Hospital Receptionist (Debating),7,102,17,118
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Kasumi Goto,62,679,165,816
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Departing Soldier's Wife (D24),15,178,40,215
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Psych Consultant,27,224,61,280
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,PTSD Patient,49,757,218,867
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Mel,23,310,61,348
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Citadel Control,2,22,5,38
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Alliance Docking Officer,14,96,27,138
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Matriarch Aethyta,65,858,211,1015
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dr. Perry,2,22,5,27
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Rebekah Petrovsky,3,26,7,32
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Doctor treating wounded marine,14,157,30,214
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Jordan Noles,60,753,185,1002
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Citadel Public Announcement,4,38,9,61
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Private Talavi,15,108,37,130
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Sergeant Olembe,16,148,30,196
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Khalisah Bint Sinan al-Jilani,22,257,57,344
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Attractive Elcor Honey,10,88,24,126
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Weshra,12,90,31,107
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Samara,115,1223,311,1493
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dr. Eva,4,22,8,24
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Samantha Traynor,369,4496,1084,5998
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Diana Allers,176,2125,450,2760
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Private Bethany Westmoreland,24,389,77,460
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Private Sara Campbell,26,415,77,489
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Matriarch Gallae,10,102,25,130
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Rila,3,19,7,24
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Falere,84,744,231,849
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Jenna,4,75,12,98
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Ereba,12,111,33,143
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Blue Rose Customer,7,59,24,66
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Bored Sales Clerk (Citadel Docks),3,31,4,36
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dock Officer (Citadel Docks),12,121,33,148
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Student (Grissom),13,102,24,127
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Immigration officer,2,29,4,35
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Reluctant Civilian (Presidium Commons),13,83,28,103
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Jona Sederis,10,129,28,153
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Admiral Raan,136,1520,362,2097
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Avina,111,1631,238,2643
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dalatrass Linron,63,772,153,1013
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,The Breeder,20,154,87,192
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Rachni Queen,17,173,69,214
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Civilian 10 (Benning),1,5,1,6
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Civilian 2 (Benning),1,5,1,5
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Civilian 6 (Benning),1,3,1,3
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Civilian 7 (Benning),1,5,1,5
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Seanne Bellarmine,4,25,16,26
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Octavia,8,92,16,110
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Officer (Prologue Earth),5,24,10,39
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Alliance Councillor 2,5,41,15,51
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Grace Sato,15,124,37,176
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Lee Riley,52,341,119,485
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Civilian talking to Angry Vet,11,95,18,117
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Evacuation Announcement (Arrae),21,179,52,287
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dr. Hammerlink,7,58,16,63
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Embassy Clerk (helping Neeota's wife),15,198,39,262
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Soldier (Neeota's wife),12,167,26,196
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Gung-ho Civilian (near C-Sec Outpost),2,31,5,38
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Angry C-Sec Officer,6,97,17,115
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Bounty Hunter 1,18,90,35,105
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Din Korlack's Cerberus Contact,9,102,21,143
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Human Physician,7,129,25,169
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Bystander,5,42,12,48
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Selfless Civilian (outside Purgatory),14,109,38,121
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Smuggler Pilot,14,115,27,136
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Tashya Porae,5,57,20,63
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Monastery Student,4,62,10,77
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Shepard VI (Female),26,300,67,392
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dr Kerry,6,76,21,98
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Refugee Teen,15,122,50,134
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Human Refugee discussing Kelly,7,67,13,80
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Stargazer Lady,12,146,31,180
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Quarian Marine 1,2,11,4,13
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Quarian Captain 2,2,18,2,24
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Quarian Protestor 1,2,20,3,23
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Quarian Scientist 1,3,17,4,23
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Quarian Scientist 4,1,5,1,5
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Station VI (Cyone),19,116,44,192
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Udina's Assistant,2,17,4,26
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Quarian Lieutenant,5,29,11,54
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Rescued Quarian Civilian,21,67,28,74
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Soldier (Kurin's Aide),8,59,17,85
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Soldier Medic,8,48,16,53
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Injured Asari Soldier,8,67,19,76
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Soldier 2,2,19,6,24
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Soldier on Gun,9,34,10,43
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Soldier maintaining barrier,3,15,3,17
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Soldier maintaining other barrier,10,30,17,37
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Sanctuary Computer,5,16,10,38
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Sanctuary Refugee 2,4,88,17,102
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Sanctuary Refugee 4,1,8,3,10
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Sanctuary Reception,3,45,6,59
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Cerberus Announcement (Base),10,94,26,167
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Cerberus Scientist 1 (Base Log),9,110,27,144
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,News (Spectre Office),104,1552,219,2232
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Captain,2,7,3,9
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Earth Civilian on Radio,17,173,68,200
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Captain Johnson,65,452,162,601
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Marine (Purgatory),1,3,2,3
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Earth Comm Officer 1,19,217,48,324
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Commando (Hammer),4,26,5,34
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Civilian (Arrae),4,14,7,14
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dr. Brown,6,45,15,50
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Sanctuary Announcement,12,117,25,202
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Military Trainer,7,104,15,132
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Consultant (Huerta),7,116,22,150
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Asari Scientist (Presidium Commons),7,109,29,144
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Dr. Ravin,16,304,46,384
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Alison,14,272,51,340
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Soldier (Cyone),4,55,11,86
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Female Civilian (Benning),5,21,11,24
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,Kelly Chambers,82,945,255,1138
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,Civilian 8 (Benning),1,4,1,4
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,Alliance Scientist (Mars),1,2,2,2
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,citprs_csecpilot,1,12,2,18
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,Unknown Hospital Doctor,1,1,1,3
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,citprs_csec_guard02,4,17,4,20
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,citprs_csec_guard03,6,25,7,31
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,First Geth,1,6,1,7
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,Dismantled Geth,3,38,10,48
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,Geth with Megara,4,37,10,58
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,end001_alliance_captain,1,2,1,2
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,radio_end001_alliance_captain,10,60,15,90
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,SYSTEM,51,815,106,1139
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,test_mac,3,15,3,18
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,owner_promar_level04_b_dlg,3,10,6,12
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,C-Sec Security Guard 1,1,8,1,12
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,genderless,Hanar Bystander,2,27,6,33
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,genderless,This One's Intimate Apparel Store Announcement,3,37,11,46

@@ -1,0 +1,87 @@
+{
+	"game": "King's Quest V",
+	"series": "King's Quest",
+	"year": 1992,
+	"source": "https://kingsquest.fandom.com/wiki/KQ5NES_transcript",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "high",
+		"dialogueOrder": false,
+		"choices": "NA"
+	},
+	"notes": "This is the NES release",
+   	"error checks": {
+    		"truePositive_numTestsDone": "10",
+	   	"truePositive_numParsingErrors": "0",
+	    	"truePositive_numSourceErrors": "1",
+	    	"truePositive_notes": "One line missing from source (Cedric: See! Dead end! Let's go back now); I suspect this is oversight, as it appears in the floppy disc transcript.",
+
+		 "falsePositive_numTestsDone": "5",
+		 "falsePositive_numErrors": "0",
+	    	 "falsePositive_notes": "N/A"
+},
+	"parserParameters": {
+		"parser":"KQ5ParserNES",
+		"startText": "<h2><span class=\"mw-headline\" id=\"Narrator\">Narrator",
+		"endText": "<span class=\"mw-headline\" id=\"Credits\">Credits</span>",
+		"characterTags": ["h2"],
+		"locationTags": ["h3"]
+	},
+	"mainPlayerCharacters": ["Alexander", "Narrator", "Cedric"],
+	"characterGroups": {
+		"male": [
+				"Alexander",
+				"Cedric",
+				"Crispin",
+				"Dink",
+				"Eagle",
+				"Elf",
+				"Gnome",
+				"Graham",
+				"Herbert",
+				"Hermit",
+				"Mordack",
+				"Shoemaker",
+				"Tailor",
+				"Toymaker",
+				"Man fixing Wagon",
+                "Manannan",
+                "Baker",
+                "Yeti",
+                "Antony",
+                "Arabian Knights/Bandits",
+                "Irate Customer"
+		],
+		"neutral": [
+            		"Wolf",
+            		"Rat",
+			"Narrator"
+			],
+		"female":[
+				"Willow Tree/Alicia",
+				"Beetrice",
+				"Madame Mushka",
+				"Cassima",
+				"Harpy 1",
+				"Harpy 2 (Minotta)",
+				"Harpy 3 (Cruleena)",
+				"Icebella",
+				"Shoemaker's Wife"
+		]
+	},
+	"aliases":{
+		"Shoesmaker's Wife": "Shoemaker's Wife",
+		"Narrator":{
+			"Cedric":["Mooaaann!"]
+		},
+		"Harpies": {
+			"Harpy 1": [
+				"Where did you find HIM, Minotta?",
+				"What is he doing?"],
+			"Harpy 2 (Minotta)": ["We found him on the beach","Don't be so picky."],
+			"Harpy 3 (Cruleena)": ["I don't know"],
+			"Harpies 1 and 2": ["Hey, that's not fair!"]
+		},
+		"Harpies 1 and 2": ["Harpy 1","Harpy 2 (Minotta)"]
+	}
+}

@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/MassEffect/MassEffect1/,True,Mass Effect,Mass Effect,TOTAL,419,6609,1357,8345,1.2089487761101108,95.06958250473079,7.144057302233962,25
+../data/MassEffect/MassEffect1/,True,Mass Effect,Mass Effect,male,0,NA,NA,NA,NA,NA,NA,0
+../data/MassEffect/MassEffect1/,True,Mass Effect,Mass Effect,female,0,NA,NA,NA,NA,NA,NA,0
+../data/MassEffect/MassEffect1/,True,Mass Effect,Mass Effect,neutral,0,NA,NA,NA,NA,NA,NA,0

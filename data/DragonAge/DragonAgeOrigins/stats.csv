@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/DragonAge/DragonAgeOrigins/,True,Dragon Age: Origins,Dragon Age,TOTAL,79824,768317,197858,912524,-0.06079592050227234,102.41483037680908,6.052028458325891,1258
+../data/DragonAge/DragonAgeOrigins/,True,Dragon Age: Origins,Dragon Age,male,21513,283778,65796,336888,0.10047851318202916,102.02413487369891,6.04778632322994,140
+../data/DragonAge/DragonAgeOrigins/,True,Dragon Age: Origins,Dragon Age,female,11147,150946,34539,179697,0.16199000644304107,101.685200619117,5.86883380560653,80
+../data/DragonAge/DragonAgeOrigins/,True,Dragon Age: Origins,Dragon Age,neutral,0,NA,NA,NA,NA,NA,NA,0

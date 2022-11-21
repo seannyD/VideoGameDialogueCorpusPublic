@@ -1,0 +1,16 @@
+folder,series,game,from,to,frequency
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,-,-,1
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,-,male,2262
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,male,male,2026
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,male,-,2246
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,male,female,239
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,female,male,221
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,female,-,387
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,-,female,368
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,-,neutral,14
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,neutral,male,17
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,female,female,34
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,neutral,-,11
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,male,neutral,15
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,neutral,neutral,10
+../data/KingdomHearts/KingdomHearts3/,Kingdom Hearts,Kingdom Hearts III,neutral,female,1

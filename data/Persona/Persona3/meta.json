@@ -1,0 +1,274 @@
+{
+	"game": "Persona 3",
+	"series": "Persona",
+	"year": 2006,
+	"source": "https://lparchive.org/Persona-3/",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "sample",
+		"dialogueOrder": true,
+		"choices": "not included"
+	},
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "1",
+		"truePositive_notes": "Screenshots in the source aren't transcribed, so some dialogue is missed.",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "N/A"
+	},
+	"parserParameters": {
+		"parser": "Persona3Parser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Yukari", "Junpei", "Mitsuru", "Akihiko", "Fuuka", "Aigis", "Shinjiro", "Ken", "Koromaru"],
+	"characterGroups": {
+		"male": [
+			"Junpei",
+			"Akihiko",
+			"Ken",
+			"Shinjiro",
+			"Ikutsuki",
+			"Mr. Edogawa",
+			"Mr. Ekoda",
+			"Bunkichi",
+			"Eiichiro",
+			"Hidetoshi",
+			"Igor",
+			"Jin",
+			"Kazushi",
+			"Keisuke",
+			"Kenji",
+			"Kouetsu Kirijo",
+			"Koromaru",
+			"Kurosawa",
+			"Maiko's Dad",
+			"Mamoru",
+			"Mutatsu",
+			"Nozomi",
+			"Pharos",
+			"Ryoji",
+			"Takaya",
+			"Takeharu",
+			"Tanaka",
+			"Akinari",
+			"Bartender",
+			"Bebe",
+			"Punk",
+			"Club Member",
+			"Coach",
+			"Creep",
+			"Male Listener",
+			"Guy",
+			"Male Student",
+			"Monk",
+			"Principal",
+			"Ramen Shop Owner",
+			"Senior (Front)",
+			"Senior (Side)",
+			"Some Guy",
+			"Student Council Member",
+			"Suit",
+			"Teacher",
+			"Teenager",
+			"Voice",
+			"Boy"
+		],
+
+		"female": [
+			"Yukari",
+			"Mitsuru",
+			"Fuuka",
+			"Aigis",
+			"Ms. Kanou",
+			"Ms. Toriumi",
+			"Chidori",
+			"Chihiro",
+			"Elizabeth",
+			"Maiko",
+			"Maiko's Mom",
+			"Natsuki",
+			"Yuko",
+			"Mitsuko",
+			"Nobuko",
+			"Chick",
+			"Classmate",
+			"Female Student",
+			"Listener",
+			"Gossip",
+			"Beautiful Lady",
+			"Maya",
+			"Other Girl",
+			"Passerby",
+			"Representative",
+			"Student's Friend",
+			"Zealot",
+			"Zealot 2",
+			"Black-Socked Girl",
+			"White-Socked Girl",
+			"Creepy Girl",
+			"Nosy Girl",
+			"Girl",
+			"Female Student 2",
+			"Squinty-eyed Student",
+			"Girl in Orange",
+			"Girl in Yellow",
+			"Girls",
+			"Other girl"
+		],
+
+		"neutral": ["Athletes", "Kids", "PHIL"]
+	},
+	"aliases": {
+		"ken": "Ken",
+		"(Note": "ACTION",
+		"(note": "ACTION",
+		"AKihiko": "Akihiko",
+		"Ahikhiko": "Akihiko",
+		"Akiihiko": "Akihiko",
+		"AKinari": "Akinari",
+		"Ekoda": "Mr. Ekoda",
+		"Bukichi": "Bunkichi",
+		"Ikutuski": "Ikutsuki",
+		"Kaz": "Kazushi",
+		"Kirijo-senpai": "Kouetsu Kirijo",
+		"Mitusko": "Mitsuko",
+		"Mistuko": "Mitsuko",
+		"Posted by": "ACTION",
+		"Shinijro": "Shinjiro",
+		"Shinjir": "Shinjiro",
+		"Yoshie": "Chidori",
+		"Chidori Yoshino": "Chidori",
+		"Bonus Video": "ACTION",
+		"Glasses Guy": "Keisuke",
+		"Foreigner": "Bebe",
+		"Gourmet King": "Nozomi",
+		"Gourmet King?": "Nozomi",
+		"Lady": "Beautiful Lady",
+		"Lady?": "Beautiful Lady",
+		"Letter": "Eiichiro",
+		"Note": "ACTION",
+		"Scientist": "Eiichiro",
+		"Server": "Ramen Shop Owner",
+		"Smart Guy": "Jin",
+		"Pale Man": "Takaya",
+		"Some girl": "Listener",
+		"Striped Shirt": "Akinari",
+		"Old Man": "Bunkichi",
+		"Old Woman": "Mitsuko",
+		"Woman": "Maiko's Mom",
+		"Girl A": "Listener",
+		"Girl B": "Gossip",
+		"Brunette": {
+			"Natsuki": [
+				"I-I never thought it'd turn out like this ... Fuuka ..."
+			],
+			"Yukari": ["Who's he?", "... Is it okay for him to be here?"]
+		},
+		"Listener": {
+			"Male Listener": [
+				"It's becaues the building wasn't built that long ago, so everything's still gleaming. You know, I heard from my parents there was an explosion here 10 years ago. They replaced the building after that, but ... there's more to it, too. Around that time, a lot of students stopped coming to school. Maybe that's why they put up the new building ... to start with a clean slate ..."
+			]
+		},
+		"Other Girl": {
+			"Gossip": [
+				"N-no! Not that one! I mean the story about the first-year student! Not only did she stop coming to school, she does nothing but sit and stare at the walls all day. If her mother tries to talk to her, she only mutters to herself, \"It's coming! It's coming!\"",
+				"You don't believe me ... ?"
+			]
+		},
+		"Senior": {
+			"Senior (Front)": ["Huh? ... what're you doing?"]
+		},
+		"Student": {
+			"Female Student": [
+				"Yeah, I've had enough of this. I just wanna get accepted to college and start having some fun.",
+				"Next, we'll hear a word from the Student Council. Please welcome the new President, Mitsuru Kirijo, from Class 3-D.",
+				"If you're gonna flirt with each other, do it outside."
+			],
+			"Nozomi": [
+				"... What difference does it make what I'm eating? You wouldn't understand the artful construction of this limited edition gourmet sandwich. Besides, after I'm done with this, there's a restaurant I must visit. Ahhh, I'm sooo busy ..."
+			],
+			"Chihiro": [
+				"I say this as a member of Student Council ... that kind of behavior shouldn't be tolerated at school! Let's discuss this in our next meeting! If you're on my side, Minato-san, then I have nothing to fear!"
+			],
+			"Male Listener": [
+				"Kirijo? The Student Council President? You know, the Kirijo Company built this school. I wonder how a company that big was contracted to build a school ...",
+				"She's going overseas after she graduates. Probably so she can run the Kirijo Company later ... she's so different from us ... the funny thing is, I hear she still lives in the dorms. I wonder why ... maybe her parents were strict when she was growing up."
+			]
+		},
+		"Voice": {
+			"Fuuka": [
+				"... Are you human? Where am I? Why am I here? Please answer me ... Is someone there? Please answer ..."
+			]
+		},
+		"Zealot": {
+			"Zealot 2": [
+				"My life's been going downhill, and I'm getting tired of it ... at my lowest point, I found out about Nyx-sama, and my heart came to life again. How about it? Will you let Nyx-sama into your heart, too?"
+			]
+		},
+		"Man": {
+			"Tanaka": [
+				"There must be some handsome young man who will drive the housewives wild ...",
+				"(But he's just a high school student. If I trained him, though ... ) Hello there, young man. How would you like to have your dreams come true? I have a golden opportunity for you. I'm only saying this to you, so don't tell anyone, okay? I can make you rich - guarunteed.",
+				"I have some unfortunate news regarding your investment. Things are not running as smoothly as planned. It still has the potential to turn a profit, but ... I would require an additional 10,000 Yen to get things back on track. Are you willing to increase your investment by this amount?",
+				"I'll be in touch once your fortune has been made.",
+				"We ran into a bit of a snag again. Some of the other investors decided to drop out ... since there's fewer investors, each person's profits will be even bigger! Do you mind investing a bit more? Just 10,000 Yen more. That should be plenty!",
+				"Have you not yet realized that you are being decieved? Everything I've said has clearly been suspicious! ... Ignorance should be a crime. Sure, you have some positive qualities, but if you remain so naive, everyone will take advantage of you."
+			],
+			"Maiko's Dad": [
+				"Oh please! This is what happens when you force a child to study non-stop!",
+				"She said she hung out with a high school kid instead of practicing piano.",
+				"Look, we're Maiko's parents, and basically we haven't seen her since this morning. We found a note in her room that said \"I'm running away. -Maiko\""
+			]
+		},
+		"Boy": {
+			"Male Student": [
+				"C'mon, gimme a kiss! Please ...",
+				"You're the Treasurer, right? Why are you in that position if you don't know how to handle money properly? The teachers are in the office right now, so why don't you go fess up and apologize ...",
+				"... Whatever. Just make sure you take care of it.",
+				"Don't worry. I'll keep your little secret ... for now."
+			],
+			"Pharos": [
+				"We've met before.",
+				"I remembered, so I thought I should tell you. The end of everything. ... But to be honest, I don't really know what it is. Oh, looks like you've awakened to your power ... and an unusual power it is. A power that takes many forms, yet is bound by none ... it may prove to be your salvation, depending on where you end up.",
+				"I'll be watching you, even if you forget about me ... okay then, see you later.",
+				"You will enocunter one of THEM. You must prepare for the ordeal, but time is of the essence ... I'm sure you're aware of that, of course. I'll come see you again when it's over. Goodbye for now.",
+				"I'm glad you remembered me.",
+				"I told you, remember? I'm always with you ... but we don't have much time to talk. Tonight there is more than one ordeal you must face. You should hurry ... she's waiting for you. You guys will need her. Okay, then. I hope we can speak again ...",
+				"It doesn't seem so certain, considering the vast potential within you. As a matter of fact, your seems to have changed quite a bit.",
+				"Oh, I see, I need a name ..."
+			]
+		},
+		"Girl": {
+			"Female Student": [
+				"Hey, not so loud ...",
+				"You're so annoying ... okay, fine."
+			],
+			"Maya": [
+				"oh wow, u haven't even finished generating your char yet ... o_O welcome to teh game! good thing i'm using my low level alt. i think its jus u an me, this is kind of a dead MMO these days xD",
+				"we r supposed to be our \"alternate selves\" rite? uhhh ... yeah. =/ sooo ... what r u gonna call ur char? we can meet up later. hm ... hey, i got a good name for u =3"
+			],
+			"Nosy Girl": [
+				"Ekoda's in hot water",
+				"I don't know, but it must be serious. Sexual harassment, maybe?"
+			],
+			"Listener": [
+				"Really? I guess some students transferred out ... but it sounds interesting. I'm tired of going straight home with no extracurriculars ..."
+			],
+			"Aigis": ["I have found you. I have been searching for you."],
+			"Chidori": [
+				"Same here ...",
+				"Nothing. Why?",
+				"Why are you in such a panic ... ?"
+			],
+			"Female Student 2": [
+				"You were the one who was responsible for that money, right? That means you were the last one who saw it ..."
+			],
+			"Squinty-eyed Student": [
+				"I hear she has no father ... there's no way they could have any money, since her mom only works part-time. How could it NOT be her? She has such an innocent face, though ..."
+			]
+		}
+	}
+}

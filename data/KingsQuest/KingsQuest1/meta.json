@@ -1,0 +1,52 @@
+{
+	"game": "King's Quest I: Quest for the Crown",
+	"series": "King's Quest",
+	"year": 1987,
+	"source": "https://kingsquest.fandom.com/wiki/KQ1SCI_transcript",
+	"notes": "See README",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "complete",
+		"dialogueOrder": false,
+		"choices": "NA"
+	},
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "0",
+		"truePositive_notes": "N/A",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "N/A"
+	},
+	"parserParameters": {
+		"parser": "KQ1Parser",
+		"startText": "id=\"Text.001\">Text.001",
+		"endText": "id=\"Vocab\">Vocab"
+	},
+	"mainPlayerCharacters": ["SIR GRAHAM"],
+	"characterGroups": {
+		"male": [
+			"KING EDWARD",
+			"SIR GRAHAM",
+			"GNOME",
+			"RAT",
+			"TROLL",
+			"WOODCUTTER",
+			"ELF",
+			"DOCTOR",
+			"CASTLE GUARD"
+		],
+
+		"female": ["FAIRY GODMOTHER", "WITCH"],
+
+		"neutral": ["CROWD"]
+	},
+
+	"aliases": {
+		"KING EDWARD THE BENEVOLENT": "KING EDWARD",
+		"SQUEAKY VOICE": "WITCH",
+		"KING": "KING EDWARD"
+	}
+}

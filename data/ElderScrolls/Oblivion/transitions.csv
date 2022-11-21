@@ -1,0 +1,18 @@
+folder,series,game,from,to,frequency
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,-,male,1
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,male,GenericFemale,1942
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,GenericFemale,male,2374
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,GenericFemale,GenericMale,12809
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,GenericMale,GenericFemale,13520
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,male,GenericMale,822
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,male,male,2661
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,GenericMale,female,1369
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,female,GenericMale,1591
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,GenericFemale,female,365
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,female,female,985
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,female,male,2406
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,male,female,2350
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,female,GenericFemale,86
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,GenericMale,male,333
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,GenericMale,GenericMale,100
+../data/ElderScrolls/Oblivion/,The Elder Scrolls,The Elder Scrolls IV: Oblivion,GenericFemale,GenericFemale,56

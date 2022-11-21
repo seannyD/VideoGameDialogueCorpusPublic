@@ -1,0 +1,292 @@
+{
+	"game": "Kingdom Hearts 3D: Dream Drop Distance",
+	"series": "Kingdom Hearts",
+	"year": 2012,
+	"source": "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/65008",
+	"sourceFeatures":{
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "not included"
+	},
+    "error checks": {
+        "truePositive_numTestsDone": "5",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "0",
+        "truePositive_notes": "Repeated for new parsing; same results.",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "Repeated for new parsing; same results."
+    },
+	"parserParameters": {
+		"parser": "KingdomHearts3DParser",
+		"fileType": ".html",
+		"scriptHasOptionalDialogueSection": false,
+		"scriptStartCue": "------------------------------------------------------------------------------",
+		"scriptEndCue": "Please check out my other Kingdom Hearts scripts:",
+		"actionCue": "("
+	},
+	"mainPlayerCharacters": ["Sora", "Riku"],
+	"characterGroups": {
+		"male": [
+			"Sora",
+			"Riku",
+			"Mickey",
+			"Joshua",
+			"Flynn",
+			"Sam",
+			"Goofy",
+			"Jiminy",
+			"Neku",
+			"Donald",
+			"Yen Sid",
+			"Beat",
+			"Frollo",
+			"Quasimodo",
+			"Pete",
+			"Phoebus",
+			"Xigbar",
+			"Xehanort",
+			"Pinocchio",
+			"Xemnas",
+			"CLU",
+			"Ansem",
+			"Lea",
+			"Ansem the Wise",
+			"Master Xehanort",
+			"Laverne",
+			"Hugo",
+			"Victor",
+			"Roxas",
+			"Beagle Boy #3",
+			"Beagle Boy #2",
+			"Beagle Boy #1",
+			"Black Guard",
+			"Ienzo",
+			"Geppetto",
+			"Axel",
+			"Aeleus",
+			"Braig",
+			"Ventus",
+			"Terra"
+		],
+		"female": [
+			"Minnie",
+			"Shiki",
+			"Quorra",
+			"Esmeralda",
+			"Rhyme",
+			"Maleficent",
+			"Blue Fairy",
+			"Ursula",
+			"Xion",
+			"Aqua",
+			"Announcer"
+		],
+		"neutral": []
+	},
+	"aliases": {
+		"Everyone": {
+			"Sora, Goofy, Donald, Riku, Mickey & Yen Sid": ["WHOA!"],
+			"Sora, Donald, Goofy & Mickey": [
+				"And one for all!",
+				"And one for all!",
+				"All for one, and one for all!",
+				"All for one, and one for all!"
+			]
+		},
+		"???": {
+			"Lea": [
+				"Where...",
+				"What happened to me? Roxas?",
+				"That's me.",
+				"Dilan, Aeleus, Even, Ienzo -",
+				"We're people again. But only the ones who joined the Organization here.",
+				"I guess Xehanort doesn't count",
+				"Where are they? I've turned this castle upside down.",
+				"Hey. Are the other two still out cold?",
+				"Gotcha. Well, I guess I'll give the castle grounds a sweep.",
+				"So do ya think they were blasted off to some other world, or what?",
+				"No, look, okay - the fact is - we're here. We've been recompleted, right? So they should be here too - plain and simple.",
+				"What a drag. Could they not have been recompleted at all?",
+				"Ah! Forget it.",
+				"You know what? I'll bring 'em back myself.",
+				"Why do I always get stuck with the icky jobs?",
+				"Axel didn't. My name is Lea."
+			],
+			"Sam": [
+				"Are you a prisoner?",
+				"Name's Sam.",
+				"We're on the Grid.",
+				"Riku!"
+			],
+			"CLU": [
+				"You're in luck.",
+				"Only a precious few are granted Light Cycle battle privileges.",
+				"I'll show you."
+			]
+		},
+		"????": {
+			"Neku": [
+				"Shut it.",
+				"Talk about noise... ",
+				"Sora, right?",
+				"Looks like you're not a Player.",
+				"C'mon, keep up. In the Game.",
+				"Players get marked with the time limit. And this Game, I can't afford to lose. I need my Game partner.",
+				"What? Time out. Do you trust every total stranger you meet?",
+				"Now we're friends? It's not that easy.",
+				"Yeah, sounds great. Whatever.",
+				"Dream Eaters!",
+				"Not me. Them.",
+				"Don't let 'em surround us! Let's split up!",
+				"Oh uh, and... it's Neku."
+			],
+			"Beat": [
+				"I gotchu now, Joshua!",
+				"Once I take you down, yo, me and Rhyme is goin' back were we belong!"
+			],
+			"Pete": ["What am I up to?"],
+			"Riku": [
+				"Sora!",
+				"You've gotta wake up... ",
+				"Sora, don't chase the dreams. They'll lead you nowhere, just to an abyss you'll never be able to wake up from.",
+				"Sora! Don't! You've gotta wake up! Sora!"
+			]
+		},
+		"?????": {
+			"Ansem": [
+				"Hey! Is this how you wanted it?",
+				"I am... ",
+				"That's not my name. I'm not \"Xehanort.\"",
+				"My name... is Ansem.",
+				"This world has been connected.",
+				"That is right."
+			],
+			"Rhyme": [
+				"Huh?",
+				"Umm... I'm not really sure. All I know is that my name is Rhyme."
+			],
+			"Shiki": [
+				"Hey, do you mind?",
+				"Seriously, thanks. I'm Shiki, how 'bout you?"
+			],
+			"Roxas": [
+				"Hey, Axel. You haven't forgotten?",
+				"You made us a promise.",
+				"That you'd always be there... to bring us back.",
+				"Got it memorized?"
+			],
+			"Ansem the Wise": ["You were not the visitor I expected."]
+		},
+		"??????": {
+			"Joshua": [
+				"Wow! Where's your Portal?",
+				"It takes something special to jump between grounds without one.",
+				"My name is Joshua.",
+				"Hold on, Sora."
+			],
+			"Frollo": [
+				"Slippery vermin!",
+				"I'm beginning to question having summoned you back from the wars, Captain Phoebus."
+			],
+			"Jiminy": [
+				"That Pinocchio - he must have his poor father worried sick.",
+				"Still, that little fella's some miracle. Imagine... Mr. Geppetto's wooden puppet, brought to life by the Blue Fairy.",
+				"She made his wish for a son come true because he's given so much happiness to others. Now Pinocchio needs me to guide him and be his conscience, so maybe one day, he can be a real -",
+				"Well, now, let's not get ahead of ourselves, Jiminy.",
+				"Did ya say you were really going to help us find Pinocchio?"
+			],
+			"Quorra": [
+				"Look at that boy's weapon. It's different.",
+				"Hey, that weapon. Can I see it?",
+				"This is just incredible. What a program - the weapon and the wielder.",
+				"What a strange User. You're nothing like Flynn or Sam. Come on, Sora. I'll show you the way."
+			],
+			"Xemnas": ["The memory and heart are tightly linked.", "Indeed."],
+			"Xigbar": [
+				"Aw, what's the matter, sleepyhead?",
+				"We jumped through a lot of hoops to get you here.",
+				"But it looks as if it's gonna pay off."
+			],
+			"Mickey": ["Stopza!"]
+		},
+		"???????": "Phoebus",
+        "????????": {
+            "Xehanort": [
+                "How did you get here?",
+                "By choice or chance? You cannot control what you're not aware of.",
+                "This wakeless sleep will be your prison... to wander forever.",
+                "Your best friend is never far.",
+                "Still afraid of the dark, I see.",
+                "Hypocrite. You are the one who has made your heart a prison... ",
+                "Even if you are not the prisoner.",
+                "That's what we do. Put the most precious memories in the back of our minds where they're safe.",
+                "Or in your case, the most precious... hearts?",
+                "You think this is the realm of dreams, but there, you are mistaken. Data does not dream, cannot dream.",
+                "This world is real. You haven't the slightest idea where you are - that you have already wandered off the path.",
+                "So easily you sink into the depths of slumber.",
+                "Beautiful world, isn't it? Almost like a dream.",
+                "You really haven't caught on? Or are you just assuming it's all part of your little \"test\"? I'm not part of the dream. And if you thought I was... ",
+                "... then you're softer than they say.",
+                "But... this will all be over soon.",
+                "Sleep on and we will meet again.",
+                "Yes. The boy chosen by the Keyblade - Riku.",
+                "It was yours first, wasn't it? But you succumbed to the darkness you could not control, and your prize - the Keyblade - passed onto Sora instead. Your mistakes always end up being other people's problems.",
+                "Once again you performed predictably, although on a grander scale than I imagined.",
+                "I don't know how you did it, but you really have found a way to trap darkness inside your heart. And a boy who's immune to darkness is of no use to us.",
+                "Your abyss awaits.",
+                "Come with me.",
+                "Yes. This was where it started.",
+                "At this point, I still had no idea that I was talking to myself. He cast away his bodily form just to set me on the appointed path.",
+                "That is Xehanort reduced to just a heart - the being you and your friends called \"Ansem.\"",
+                "Yes. The point in time that Xigbar mentioned.",
+                "To move through time, you must leave your body behind. Ansem first sent me on my way, and then placed himself here when the time was right. That was what set all these events in motion.",
+                "No, not everything. But remember, Ansem possessed Riku and saw his experiences in real time.",
+                "Simple.",
+                "You've been here many times.",
+                "Your first journey... your voyage through memories... in the datascape... in your dreams. Relived again and again... like déjà vu.",
+                "You just make it too easy. I know you think you've won, but you lost the moment you dived this far in. You're in the deepest pit of slumber, and you've worn yourself down to nothing. There's no returning to the world above.",
+                "We told you. It was not the Sleeping Keyholes that guided you. They are not the reason you are here. You've been on a path, one we laid out for you. That sigil on your chest is the proof.",
+                "See? That sigil, the X, it tells us where you are at all times.",
+                "You had wondered aloud before - why we kept showing up where you were. It's because we need you, Sora. Or, to be more precise, we need what will be left of you - the thirteenth dark vessel.",
+                "Why was it assured you could come here today? Because I followed my destined path, and I'm here looking at you right now. You can move through time, but time itself is immovable."
+            ],
+            "Geppetto": [
+                "Pinocchio!",
+                "Son! Where have you run off to?"
+            ]
+        },
+        "?????????": {
+            "Esmeralda": [
+                "Thank you. You stood up for me.",
+                "I'm Esmeralda."
+            ],
+            "Quasimodo": [
+                "Who... who are you?",
+                "Oh. M-my name's Quasimodo. I'm very sorry, but the Archdeacon is away."
+            ]
+        },
+		"Donald & Goofy": ["Donald", "Goofy"],
+		"Pinocchio & Jiminy": ["Pinocchio", "Jiminy"],
+		"Sora & Riku": ["Sora", "Riku"],
+		"Master Xehanort & Mickey": ["Master Xehanort", "Mickey"],
+		"Mickey, Donald & Goofy": ["Mickey", "Donald", "Goofy"],
+		"Beagle Boys": ["Beagle Boy #3", "Beagle Boy #2", "Beagle Boy #1"],
+		"Mickey & Donald": ["Mickey", "Donald"],
+		"Rhyme & Beat": ["Rhyme", "Beat"],
+		"Sora & Jiminy": ["Sora", "Jiminy"],
+		"Sora, Donald, Goofy & Mickey": ["Sora", "Donald", "Goofy", "Mickey"],
+		"Sora, Donald, Goofy, and Mickey" :["Sora", "Donald", "Goofy", "Mickey"],
+		"Sora, Goofy, Donald, Riku, Mickey & Yen Sid": [
+			"Sora",
+			"Goofy",
+			"Donald",
+			"Riku",
+			"Mickey",
+			"Yen Sid"
+		],
+		"Emeralda": "Esmeralda"
+	}
+}

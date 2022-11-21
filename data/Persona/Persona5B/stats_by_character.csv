@@ -1,0 +1,712 @@
+folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,syllables
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Joker,743,7061,3027,8555
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Ryuji Sakamoto,2804,34008,9781,39460
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Yusuke Kitagawa,1509,22659,6034,28731
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Goro Akechi,527,10427,2325,13495
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Igor,110,2737,616,3688
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Morgana,2812,44483,11080,54442
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Sojiro Sakura,615,10874,2959,12947
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Munehisa Iwai,195,4240,1082,4921
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shinya Oda,167,3570,1159,4138
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Yuuki Mishima,379,8818,2195,10811
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Yuuki Mishima,8,250,79,293
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Toranosuke Yoshida,154,4048,821,5176
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Hiruta,34,1289,207,1630
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Inui,59,1922,279,2538
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Ushimaru,39,1161,223,1505
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Suguru Kamoshida,47,894,218,1158
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Suguru Kamoshida,54,828,214,1027
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Ichiryusai Madarame,29,481,143,610
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Ichiryusai Madarame,47,968,267,1184
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Junya Kaneshiro,17,298,72,343
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Kunikazu Okumura,16,285,69,374
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Kunikazu Okumura,29,559,131,726
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Masayoshi Shido,138,2576,539,3410
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Masayoshi Shido,14,172,46,224
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Yaldabaoth,22,299,96,405
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,SIU Director,69,1639,426,2144
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Natsuhiko Nakanohara,11,374,101,446
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Natsuhiko Nakanohara,6,136,42,154
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Sugimura,15,235,51,296
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,President Tanaka,30,727,129,961
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Arsene,7,116,35,147
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Armored Soldier,3,25,7,27
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Busy Young Man,17,310,75,400
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Drunk Man,5,76,18,91
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Flashy Man,5,75,13,91
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Homeless Man,25,1141,260,1352
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Transient Man,10,249,62,305
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Man 2,2,19,5,25
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Plump Man,16,231,55,282
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Man 5,2,34,4,42
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Young Male Customer,16,225,49,283
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Man 7,1,12,2,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Man 8,1,2,1,3
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Man 9,3,30,8,32
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Over-Friendly Guy,6,71,17,89
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Menacing Man,14,198,60,241
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Miwa-Chan's Physician,5,82,13,100
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Neighborhood Man,1,9,2,9
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Elderly Male Customer,18,211,57,259
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Dazed Old Man,1,17,7,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Talkative Old Man,3,37,8,42
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Sad Old Man,20,335,62,407
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Old Shadow Prisoner,3,53,12,66
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Old Man 3,14,216,48,260
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Old Man 4,3,56,10,65
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Old Man talking to Rocker,1,16,1,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Pierced Man,3,59,8,68
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Pretentious Man,3,30,5,34
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Rural Young Man,17,278,60,324
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Wealthy Looking Man,3,44,6,57
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Wealthy Man,2,15,3,26
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Young Man,4,113,18,151
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 1,1,7,2,11
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 10,17,419,85,524
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 11,2,22,3,25
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 12,7,110,22,142
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 13,10,238,37,309
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Stylish Male Student,16,259,59,340
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 2,5,20,18,27
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 3,3,44,8,56
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 4,1,5,1,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Quiet Student,1,12,3,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Scary-looking Student,1,34,4,39
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Cowardly Student,1,13,4,14
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 5,10,139,46,168
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 6,2,35,12,44
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 7,7,97,20,115
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy 9,1,4,1,4
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Defiant Boy,7,54,16,59
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Quiet Boy,6,54,28,57
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Reserved Boy,2,55,6,66
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,ATM,6,64,44,66
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Accomplice,2,6,2,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Accomplice 2,1,17,2,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Agent,6,34,32,51
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Agent 2,8,77,18,102
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Agent 3,1,7,3,8
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Akiyama,24,188,141,228
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Anchor 1,10,203,29,278
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Anchor 2,5,91,14,134
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Slouching Office Worker,3,70,14,92
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Exhausted Office Worker,1,10,2,10
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Anime Cop,1,7,7,7
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Anime Cop 2,1,6,1,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Archangel,1,11,4,14
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Art Patron,42,1076,243,1392
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Asakura,5,111,21,145
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Asmodeus,14,159,49,176
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Protesting Man,28,549,104,688
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Clear-Eyed Man,21,336,111,405
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Junya Kaneshiro,48,966,229,1203
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Yuichi Fukurai,6,244,48,296
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Bar Promoter,2,14,6,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Beefy Trendsetter,26,418,93,497
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Scruffy Romantic,21,327,71,391
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Benzo,16,341,70,457
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Taxi Driver,11,196,31,235
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Bodyguard,1,4,1,4
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Convenience Store Manager,21,152,35,200
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Bossy AD,4,104,24,134
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Broadcaster,1,16,2,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Brother,7,69,25,78
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Cameraman,6,65,17,89
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Cameraman 2,1,9,1,10
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Cameraman 3,3,27,5,29
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Casino Shadow,25,457,84,566
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Casino Shadow 2,14,380,81,471
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Chairman Fukurai,11,307,53,387
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Cheerful Host,13,216,36,289
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Chief,20,348,81,432
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Chief Detective,4,24,15,28
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Cleaner,16,284,59,327
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,ClerkBot,5,135,23,161
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,ChiefBot,9,250,44,308
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Partying College Student,18,264,56,348
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,College Student 2,15,259,61,322
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Timid Cop,3,16,5,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Patrolling Officer,3,82,23,102
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Patrolling Officer 2,2,29,11,35
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Counselor,8,93,25,117
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Crying Grade Schooler,1,3,4,4
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Curious Child,1,4,1,4
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Customs,1,6,1,7
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Daisoujou,1,18,6,25
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Takanashi,5,75,20,88
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Deliveryman,3,45,10,57
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Detective,20,217,66,279
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Older Detective,5,108,19,134
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Hard-Boiled Detective,2,64,10,91
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Detective 5,1,16,2,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Dionysus,1,22,2,24
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Doctor,15,319,75,432
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Drunk Regular,6,91,16,108
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shogi Magazine Editor,2,27,7,31
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Calm Employee,2,12,2,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Exhibit Staff,7,92,36,113
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,FianceBot,1,9,3,9
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Fishy Hawker,33,808,157,988
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Foreign Barker,24,453,108,558
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Former noble,18,280,58,366
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Friendly Promoter,3,53,14,63
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Futsunushi,1,20,2,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Fuu ki,1,18,1,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Upset Gamer,4,81,12,93
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Nishiyama,6,143,45,169
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Girimehkala,1,14,1,17
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Goemon,1,12,4,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Rebellious Grade Schooler,21,433,64,498
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Innocent Grade Schooler,24,404,85,463
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Interrogation Room Guard,4,32,13,38
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Guide,1,7,1,7
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Haughty Regular,42,1311,225,1685
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Hecatoncheires,1,18,1,24
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Hell Biker,1,20,5,23
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Honyo,4,153,30,199
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Iida,17,352,159,420
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Ikeda,12,266,48,347
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Ikesugi,5,76,23,89
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Incubus,1,12,2,14
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Injured Student,13,181,63,223
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Tired Investigator,2,13,3,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Investigator 2,3,94,19,129
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Ippon Datara,1,4,1,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Irritated Promoter,3,65,22,70
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Jack Frost,1,14,1,14
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Jikokuten,1,16,4,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Jochi,5,86,19,110
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Junior Detective,2,16,8,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Kaoru,35,613,223,726
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Captain Kidd,2,28,11,33
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Kin ki,2,30,6,37
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Kiritani,6,149,29,178
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Kishi,5,150,30,194
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shinsuke Kishi,2,31,5,32
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Kushi Mitama,1,19,2,23
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Legislator,6,112,30,152
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Psychiatrist,9,128,48,178
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Light hearted Promoter,2,51,9,64
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Lighthearted Scout,1,25,10,27
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Makigami,8,174,55,201
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Manager,6,233,38,280
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Asakura,1,10,1,11
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Masa,26,440,92,505
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Matador,1,21,1,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Matsushita,43,918,165,1157
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Melchizedek,1,18,1,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Mementos Warden,1,33,3,38
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Michael,4,80,19,101
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Kotaro,7,6,24,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Mokoi,1,16,6,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Moloch,1,16,5,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Mr Magario,4,85,16,96
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Takase's Male Relative,11,275,63,340
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Naguri,4,80,23,99
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Nakaoka,16,290,99,346
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Nebiros,1,12,3,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Nejima,7,250,57,295
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Neko Shogun,1,12,2,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Skinny Man,13,198,44,253
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Nice Detective,6,114,28,141
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Odo,4,99,27,122
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Okuninushi,1,19,4,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Older Employee,3,46,10,61
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Ooe,17,252,54,320
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Orobas,1,14,1,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Overbearing Detective,1,5,1,5
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Oyamada,8,304,71,403
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Paramedic,2,14,5,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Pazuzu,1,19,2,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Personal Trainer,5,98,16,123
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Photoshoot Assistant,3,45,10,53
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Tsuboi,6,110,17,138
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Priest,4,175,30,240
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Principal,41,1031,232,1325
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Principality,1,17,2,23
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Private Doctor,2,13,6,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Pyramid Shadow,5,75,21,83
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Raphael,1,15,1,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Researcher,4,47,9,67
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Rocker,32,975,190,1153
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Sakoda,6,72,29,78
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Sandalphon,1,16,2,17
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Secretary,3,17,9,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Seth,1,21,2,24
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Mr Takase,5,135,34,169
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,ShadowTsuda,5,204,42,252
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shop Manager,2,38,4,54
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shopper,2,37,10,42
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Thin-Browed High Schooler,5,42,12,52
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Siegfried,1,16,1,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Slave,2,8,14,8
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Souse,45,923,389,1144
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Sports Fan,1,6,2,7
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Stern Detective,5,81,19,103
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Vulgar Detective,9,46,30,48
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Second-Hand Shop Owner,8,156,42,189
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Street Accessory Seller,1,42,11,49
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Subordinate,3,14,7,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Sui ki,1,10,3,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Takakura,23,668,139,847
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Take Minakata,1,19,3,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Takeishi,18,261,92,305
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Takekuma,11,234,71,274
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Taxi Driver 1,8,136,28,178
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Teacher,1,11,1,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Teacher 1,21,364,74,440
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Teacher 2,7,102,17,137
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Man in a Suit,4,89,19,115
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Short-Haired High Schooler,5,70,14,87
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Third Guy,1,31,5,35
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Thor,1,13,1,14
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Fellow Teacher,7,87,20,111
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Tohru,5,37,14,42
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Tsuda,18,382,70,453
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Tsukasa,20,350,82,414
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Uchimura,3,78,19,93
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Futaba's Uncle,20,401,95,474
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Unfriendly Promoter,1,16,5,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Uriel,3,29,5,37
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Vice Principal,3,65,14,86
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow Wakasa,5,112,21,135
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,WorkerBot,1,6,2,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Yamauchi,10,372,92,468
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Yasuo Jochi,4,110,22,132
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Yokoda,9,93,37,108
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Yoshitsune,1,16,4,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Young Cameraman,12,181,50,226
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Young Homeless,3,48,20,55
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Yuuta,12,155,57,168
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Zaou Gongen,1,16,4,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Zouchouten,1,18,3,23
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Trainer,19,350,89,422
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Demon,19,354,104,418
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Detective 2,10,183,34,232
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Glasses-wearing worker,7,182,31,235
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Middle Aged Office Worker,1,19,4,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Elderly Office Worker,22,390,79,506
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Office Worker in Cafe Leblanc,17,289,56,357
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Hard-Faced Man,4,42,13,49
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Middle-Aged Legislator,1,48,4,68
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Tired Office Worker,20,346,67,446
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Serious Man,2,46,9,65
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Passerby Office Worker,2,29,6,35
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Grim-Faced Man,2,8,14,8
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Police Director,2,36,7,41
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Man in a Business Suit,1,16,3,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Suspicious Salesman,1,15,2,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Young Office Worker,19,329,81,412
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Earnest Office Worker,19,267,67,350
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Timid Man,5,153,62,188
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Miserable Office Worker,7,135,47,162
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Red-Faced Man (Nagai),2,69,15,93
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Fast-Talking Man,11,213,35,261
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Loud Spectator,7,71,27,88
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Young Man's Voice,1,4,1,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Akitsu,7,224,44,264
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Talent Scout,1,26,3,32
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Younger Employee,2,45,7,62
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Male Passerby,1,6,3,8
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Sullen Office Worker,19,327,59,433
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Bespectacled Office Worker,11,209,45,272
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shiro Asakura,12,280,55,333
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Office Worker,5,70,20,88
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Diligent Office Worker,12,222,48,289
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Assemblyman,2,16,5,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Veteran Pick-Up Artist,25,435,122,527
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Tall Man,1,16,4,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Persistent Male Fan,4,74,13,91
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Covetous Man,3,95,22,107
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Arcade Spectator,3,29,14,34
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Guy talking to Fishy Hawker,2,23,7,30
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Agency Employee,4,98,14,118
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Male Pedestrian,1,24,3,29
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Novice Pick-Up Artist,23,276,76,322
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Flustered Gamer,2,18,2,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Mild-Mannered Investigator,9,186,38,251
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Male Volleyball Player,3,67,18,80
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Male Student,6,43,24,49
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Fiery Soccer Player,14,291,46,347
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Light-Hearted Student,1,12,1,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Dull Male Student,8,185,32,232
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Excited Male Student,1,15,2,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Yoshimora Sakoda,1,44,4,48
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Panicked Male Student,1,8,4,11
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Starry-Eyed Student,24,698,145,847
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Student Council Member,1,13,2,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Bored Male Student,7,192,30,250
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Studious Male Student,1,18,2,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Volleyball Player,2,47,9,56
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Fair-faced Male Student,1,16,3,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Daisuke Takanashi,3,53,10,61
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Calm Basketball Player,16,260,49,312
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Friend of Studious Male Student,1,33,4,38
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Friend of Tired Student,1,28,3,44
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Energetic-Looking Guy,14,342,68,434
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Suave Male Student,5,90,20,111
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Wise Guy Student,3,52,8,62
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Student Athlete 2,5,76,15,96
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Student Athlete in a Jersey,4,69,11,83
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Dissatisfied First-Year,13,254,43,332
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Friend of Food-Loving Student,1,18,2,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Glib Male Student,1,17,2,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Daisuke's Friend,1,11,2,11
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Third-year Guy,1,15,6,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Scared Student,2,14,5,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Flippant Student,2,28,4,33
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Post-Festival MC,69,901,206,1127
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Male Council Member,3,66,21,87
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Bespectacled Council Member,3,62,8,83
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Girl s Father,16,257,82,332
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Concerned Student,3,18,8,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Causally-dressed Student,3,31,4,35
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Victoria's Housekeeping,3,37,11,49
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow,10,69,19,94
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Security Guard Shadow,2,30,11,37
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Security Guard Shadow (Red),1,16,2,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow 2,7,57,21,67
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shadow 3,8,122,26,141
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Security Guard,2,26,3,35
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Security Guard Shadow (Oni),2,22,4,24
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Aggressive Shadow,2,32,10,35
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Cautious Shadow,1,6,2,7
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Security Shadow,1,16,3,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Male Student's Voice,1,15,1,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Pale Young Man,1,27,5,30
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Boy on Game Show,2,43,9,64
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Adult Male Voice (Futaba's Palace),15,90,36,110
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Prime Minister,1,30,1,44
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Businessman,2,29,3,38
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Calm Journalist,3,43,5,66
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Angry Businessman,2,32,3,43
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Dissaffected Youth,1,15,4,24
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Casino Security Guard,1,18,1,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Middle-aged Man in a Suit,1,39,5,53
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Older Man in a Suit,1,35,5,44
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Trendy Boyfriend,1,17,2,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,DTD Co-host,14,306,45,371
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Drained Businessman,1,10,6,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Befuddled Man,1,17,6,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Stern Businessman,1,36,6,44
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Exhausted Young Man,1,32,12,39
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Dull-Eyed Young Man,1,8,6,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Resigned Middle-Aged Man,1,15,3,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Cynical Middle-Aged Man,1,96,10,119
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Vacant Young Man,1,11,3,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Resigned Young Man,1,20,6,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Calm Young Man,1,12,3,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Tired Businessman,1,18,2,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Timid Young Man,1,28,6,32
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Fishing Pond Attendant,1,17,3,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,IT Company President,4,83,15,96
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,TV Station President,3,54,12,64
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,DTD Reporter,17,483,51,643
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Alibaba,27,440,117,526
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Tabloid Show Host,18,303,41,409
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Newscaster,171,5114,629,7440
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Male Host,29,612,114,780
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Pro Shogi Player,9,209,41,261
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Sharp Detective,6,66,25,97
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Pundit,1,12,2,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,TV Reporter,19,458,61,638
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Sharp Lawyer,17,391,63,494
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Serious-looking Lawyer,12,215,33,286
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Captain,2,24,4,36
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Cop,4,38,16,50
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Unfriendly Officer,4,35,11,44
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Aggressive Officer,2,44,11,52
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Arrogant Officer,7,79,35,108
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Burly Officer,15,184,45,216
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Policeman,3,17,7,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Officer on Patrol,2,32,4,38
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Frowning Officer,1,18,5,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Young Officer,2,10,1,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Foreign Tourist,1,12,7,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Easygoing Man,1,12,2,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Shrimp Stand Owner,13,192,26,222
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Holy Grail,12,269,52,353
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Excited Student,2,27,6,30
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Coward voice,1,9,4,11
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Deep voice,1,2,1,2
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Fussy Man,1,22,2,25
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Film Protagonist Voice,1,8,7,9
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Gangster voice,1,16,2,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Ninja voice,1,28,4,34
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Man who cannot sing or act voice,1,16,5,24
+../data/Persona/Persona5B/,False,Persona 5,Persona,male,Other man’s voice,1,8,2,9
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Ann Takamaki,2203,26767,8400,32077
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Makoto Niijima,1806,28019,7692,35059
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Futaba Sakura,1104,14667,4733,17829
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shadow Futaba Sakura,36,426,120,496
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Haru Okumura,748,11345,3331,13984
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Sadayo Kawakami,345,8211,2129,10037
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Ichiko Ohya,248,5678,1531,7027
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Tae Takemi,251,4916,1463,6178
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Chihaya Mifune,277,6663,1828,8259
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Caroline,195,2955,807,3785
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Justine,197,3138,858,4140
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Hifumi Togo,201,5062,1599,6231
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Sae Niijima,368,7638,1920,9931
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shadow Sae Niijima,46,698,182,846
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Chouno,44,1601,252,2037
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Usami,36,1078,171,1398
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shiho Suzui,32,416,230,491
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Wakaba Isshiki,15,257,71,310
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Mika,24,524,141,639
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Newscaster,2,87,9,128
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Adorable Woman,21,236,68,286
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Almond eyed Woman,3,37,15,45
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Cheerful Woman,1,16,2,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Gaudy Woman,1,3,1,4
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Hawaii Woman 1,2,16,5,17
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Hawaii Woman 2,3,22,5,27
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Elderly Female Customer,11,166,35,204
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Kind Old Woman,15,219,46,261
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,PR Woman,4,108,15,144
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shoe Woman,2,26,8,33
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Uptight Woman,4,28,11,33
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Woman,4,12,11,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Woman 1,3,26,6,29
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Woman 10,1,10,2,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Woman 2,1,16,2,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Elegant Woman,1,10,1,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Woman 4,1,5,1,5
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Waitress,1,10,2,11
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Woman 5,2,13,5,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Kind Mother,2,37,9,41
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Young Female Customer,9,126,22,160
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Middle-Aged Woman,26,370,86,432
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Arrogant Housewife,13,214,44,265
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Modest Housewife,19,350,78,437
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Office Lady,7,209,59,265
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Dog loving Girl,14,176,47,208
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Girl 1,5,34,9,46
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Girl 2,4,23,8,27
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Girl 3,3,28,8,30
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Awful friend of Melancholic student,2,49,7,60
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Volleyball Player,3,52,13,65
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Girl 4,2,17,5,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Girl 6,4,35,15,39
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Girl With Watering Can,5,68,15,78
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Innocent Girl,4,25,9,29
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Sick Girl,8,60,37,73
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Schoolgirl,1,18,3,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Alice,1,13,5,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Ame no Uzume,1,19,2,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Employee,22,490,102,630
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Lady in a Pink Yukata,1,4,1,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Troubled Woman,10,235,71,266
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Sister,6,54,26,62
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Carmen,2,28,10,29
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Clara,10,138,38,164
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Clotho,1,16,6,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Cute Announcer,6,146,15,195
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Cybele,1,21,5,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Eiko Takao,36,875,201,1024
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Fangirl,1,18,3,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Hanasaki,11,320,67,391
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Gabriel,3,68,19,83
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Gaudy Female Student,19,323,60,401
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Hariti,1,18,3,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Tall Student,4,45,14,52
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Hawaii Student 2,1,37,2,46
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Succubus,2,26,4,32
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Johanna,1,7,4,7
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Juice Lady,2,36,8,49
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Kikuri Hime,1,15,3,17
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Kushinada,1,18,3,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Lachesis,1,17,6,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Lala Escargot,71,1078,283,1304
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Student Librarian,3,102,38,120
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Lilim,1,13,3,14
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Beautiful Maid,14,239,54,287
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Milady,1,26,9,29
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shadow Mogami,6,73,17,87
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Mother,17,226,67,263
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shadow Mrs Magario,5,91,33,112
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Takase's Female Relative,7,161,30,198
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Nanami,8,240,54,281
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Newspaper Club Member,53,1542,266,2006
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Unfamiliar Woman's Voice,2,34,7,47
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Pixie,7,135,34,156
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Woman Pushing Promotion,10,472,46,608
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Aggressive Reporter,23,584,70,758
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Scathach,1,14,1,17
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shadow Mrs Takase,4,52,22,63
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shadow Shimizu,6,112,26,130
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Creepy Female Student,5,105,40,119
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Student Maid,7,57,23,74
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Lady in a Black Yukata,2,18,4,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Collaborator 1,3,17,3,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Collaborator 2,2,5,3,7
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Talkative Office Worker,1,52,8,74
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Aging Businesswoman,1,14,4,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Nav,36,200,90,295
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Gaudy Customer,4,76,13,90
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shopping Enthusiast,2,36,6,44
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Host,17,165,23,206
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Interviewer,2,55,8,66
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Shadow Prisoner,1,13,5,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Doubting Businesswoman,1,16,8,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Struggling Woman,5,45,34,51
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Lazy Woman,2,39,4,48
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Young-Looking Woman,18,324,70,391
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Dream-Chasing Woman,12,251,65,291
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Fiancee of Busy Young Man,8,97,34,112
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Black-Haired Student,5,44,16,56
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Calm Student,18,300,67,370
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Timid Female Student,3,37,14,45
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Prim Female Student,3,40,14,49
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Student,11,100,29,111
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Surprised Female Student,2,29,5,38
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Loud Student,5,96,17,129
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Anxious Student,2,50,14,61
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Scared Female Student,1,17,4,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Hungry Student,6,87,18,105
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Shrewd Girl,2,21,2,23
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Easygoing Shujin Girl,12,177,55,206
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Gossiping Female Student,3,42,10,53
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Carefree Female Student,2,42,5,57
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Motivated First-Year,16,228,50,270
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Energetic First-Year,16,223,48,263
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Energetic Student,15,308,47,364
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Friendly Female Student,2,36,4,45
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Piggybacking Girl,1,2,1,3
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Well-behaved Female Student,1,10,3,11
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Brown-haired Student,11,92,30,109
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Melancholic Female Student,1,15,2,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,First-Year Volleyball Player,1,30,8,37
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Mature-Looking Girl,4,112,14,143
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Gentle Girl,4,113,18,136
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Friend of Scared Student,2,34,5,41
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Thieves-loving Student,2,23,7,27
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Obsessive Female Student,2,14,4,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Sharp Student,4,141,25,178
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Bandwagoning Student,3,49,6,62
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Chatty Female Student,2,46,5,51
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Nervous Girl,1,33,7,37
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Worried Volleyball Player,1,6,4,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Ill-looking Girl,1,49,12,58
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Long-haired Student,3,28,8,36
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Student in a Jersey,3,50,8,65
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Hesitant Female Student,1,11,1,17
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Fast-talking Student,1,47,9,60
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Discerning Student,4,73,13,85
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Third-Year Girl,1,36,6,44
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Procrastinating Girl,2,41,11,53
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Concerned Girl,1,23,4,27
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Calm Girl,1,13,7,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Slightly Excited Girl,2,23,4,32
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Short-Haired Student,3,42,5,55
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Council Member,4,61,22,76
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Woman in tartan miniskirt,1,5,2,5
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Lavenza,40,1244,312,1546
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Laid-Back Woman,1,4,1,5
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Student's Voice,1,12,3,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Student's Voice 2,1,18,2,24
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Dolled-up Office Worker,2,8,4,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Heavily Made-up Woman,1,27,4,42
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Loud Lady,2,34,9,50
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Knowledgeable Office Worker,1,27,6,36
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Talkative Woman,1,33,3,44
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Skeptical Woman,2,35,10,48
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Futaba's Mother,3,16,21,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Gossipy Woman,1,34,8,46
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Observant Woman,1,28,2,36
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Inquisitive Girl,2,22,6,28
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Foodie Girl,1,26,5,34
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Young Woman,2,56,10,70
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Flight Attendant,2,30,4,40
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Uninformed Girlfriend,1,15,2,18
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Dull-Eyed Student,1,33,9,41
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Wry-smiling Woman,1,33,7,42
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Smirking Woman,1,20,4,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Unfriendly Woman,1,20,2,24
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Tired Middle-Aged Woman,1,6,3,8
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Reliable Woman,2,19,4,22
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Fancy Girl,3,57,5,68
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Female Assistant,9,151,27,181
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,IkesugiFriend,1,35,6,40
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Train Intercom,1,39,5,47
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Festival Announcement,1,33,2,45
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,School Intercom,8,83,43,103
+../data/Persona/Persona5B/,False,Persona 5,Persona,female,Woman 7,3,21,10,25
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Agathion,1,15,3,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Alligater,4,64,11,69
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Ananta,1,16,1,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Surprised Office Worker,2,34,10,38
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,New Recruit,1,38,3,43
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Elite Office Worker,1,13,1,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Artie Lury,7,121,18,140
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Bicorn,3,93,22,115
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Bugs,1,10,2,11
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Byakko,1,13,5,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Cat,3,3,6,3
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Chatter,192,1873,527,2349
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Whisper,128,1073,307,1358
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Flauros,1,17,3,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Genbu,1,18,1,23
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Horus,1,13,2,14
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Jatayu,1,20,2,23
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Kodama,1,19,5,21
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Mementos Shadow,2,16,8,24
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Mot,1,10,2,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Murmur,121,1051,315,1305
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Necronomicon,2,46,20,52
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Nue,1,9,3,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Port Shadow,2,22,5,26
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Pyramid Shadow 2,1,14,2,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Shiisaa,1,10,7,10
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Suzaku,1,12,3,17
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Unicorn,1,9,1,12
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Yatagarasu,1,20,5,23
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Commentator,8,74,14,94
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,System Voice,1,8,1,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Naive Office Worker,1,12,1,14
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Office Subordinate,1,10,1,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Octavius,3,92,20,112
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Shogi Magazine Journalist,2,20,2,29
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Mellow Student,2,30,5,41
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Saki Mitama,1,20,4,25
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Caring Young Friend,1,13,2,14
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Lawyer on Game Show,11,364,44,501
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Fortune-telling Aficianado,1,25,8,28
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Employee,1,12,13,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Treasure Demon,1,5,3,6
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,TV Interviewer,7,83,26,101
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Businessman's Boss,2,31,10,38
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Angry Parent,1,23,4,28
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Arrogant Youth,1,24,5,30
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Advisor,1,15,4,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Ring Announcer,8,149,28,187
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Flashy College Student,1,35,3,45
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Stylish College Student,1,15,1,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Game Shop Employee,9,365,88,481
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Bright Student,1,16,5,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Soft-spoken Student,1,13,2,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Handsome Professor,1,13,1,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Exhausted Professor,1,13,1,15
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Brown-haired Youth,2,38,8,50
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Black-haired Youth,1,21,2,28
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Hopeless Student,1,15,4,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Rental Shop Employee,6,173,52,194
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Broke-ass College Student,1,22,6,28
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Energetic College Student,1,18,2,20
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Robot Clerks,35,538,135,643
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Subordinate 1,3,50,9,62
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Subordinate 2,2,52,6,67
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Narrator,10,235,72,283
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Train Monitor,8,378,59,523
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Game Show Host,20,396,89,523
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Play-by-play Announcer,2,43,10,55
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Boom Box,14,332,58,427
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Train Announcement,1,13,3,13
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Speakers,7,79,12,107
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Robotic Voice,3,61,20,87
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Mechanical Voice,6,71,14,100
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Commercial,1,17,2,19
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Loudspeaker,2,14,2,16
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Admin,6,26,7,28
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Anon,710,3113,1045,3826
+../data/Persona/Persona5B/,False,Persona 5,Persona,neutral,Convenience Store Employee,1,20,4,25

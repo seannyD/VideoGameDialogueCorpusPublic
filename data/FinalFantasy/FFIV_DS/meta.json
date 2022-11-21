@@ -1,0 +1,262 @@
+{
+	"game": "Final Fantasy IV",
+	"series": "Final Fantasy",
+	"year": 1991,
+	"source": "https://gamefaqs.gamespot.com/ds/939425-final-fantasy-iv/faqs/53978",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "not included"
+	},
+    "error checks": {
+        "truePositive_numTestsDone": "5",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "1",
+        "truePositive_notes": "Plot dialogue included but optional chat with background NPCs missing from source",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "N/A"
+    },
+	"notes": "The script here is for the DS version from 2007.",
+	"parserParameters": {
+		"parser": "FF4Parser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Cecil", "Kain", "Rosa", "Rydia", "Tellah", "Edward", "Yang", "Palom", "Porom", "Cid", "Edge", "Fusoya"],
+	"characterGroups": {
+		"male": [
+			"Baigan",
+			"Cagnazzo",
+			"Cecil",
+			"Cid",
+			"Corio",
+			"Edge",
+			"Edward",
+			"Fusoya",
+			"Giott",
+			"Golbez/Theodor",
+			"Kain",
+			"Palom",
+			"Rubicante",
+			"Rydia",
+			"Tellah",
+			"Yang",
+			"Zemus",
+			"Zeromus",
+			"Bahamut",
+			"Barnabas",
+			"Dark Elf",
+			"Dr Lugae",
+			"King Giott",
+			"Elder",
+			"Former King",
+			"King Of Baron",
+			"King Of Eblan",
+			"King Of Fabul",
+			"Kluya",
+			"Rubicante",
+			"Scarmiglione",
+			"Whyt",
+			"Whyt's Father",
+			"Kokkol",
+			"Monks",
+			"Pigmy",
+			"Soldier",
+			"Soldiers",
+			"Leviathan",
+			"General",
+			"Captain",
+			"Sailor",
+			"Sailors",
+			"Fabul Guard",
+			"Fabul Guards",
+			"Guards",
+			"Dwarf",
+			"Dwarves",
+			"Goblin",
+			"Engineer",
+			"Engineers",
+			"Ninja",
+			"Seneschal",
+			"Observer",
+			"Innkeeper"
+		],
+		"female": [
+			"Anna",
+			"Asura",
+			"Cindy",
+			"Luca",
+			"Mindy",
+			"Porom",
+			"Rosa",
+			"Sandy",
+			"Yang's Wife",
+			"Barbariccia",
+			"Cecilia",
+			"Queen Of Eblan",
+			"Troia Maidens",
+			"Maid",
+			"Midwife",
+			"Sylph",
+			"Epopt",
+			"Nurse"
+		],
+		"neutral": [
+			"Narration",
+			"Calcabrina",
+			"Sahagin",
+			"Mist Dragon",
+			"Townfolk",
+			"Crystals",
+			"Eidolon",
+			"Damcyan Child"
+		]
+	},
+	"aliases": {
+		"Barbariccia's Voice": "Barbariccia",
+		"Palom And Porom": ["Palom", "Porom"],
+		"Magus Sisters": ["Cindy", "Sandy", "Mindy"],
+		"Female Voice": "Rydia",
+		"Edward's Voice": "Edward",
+		"Eidolon King": "Leviathan",
+		"Kain's Voice": "Kain",
+		"Baby": "Cecil",
+		"Mysterious Man": "Golbez/Theodor",
+		"Seneschal's Voice": "Seneschal",
+		"Creature": "Scarmiglione",
+		"Zemus's Spirit": "Zeromus",
+		"Bard": "Edward",
+		"Lugae": "Dr Lugae",
+		"Doctor": "Dr Lugae",
+		"Mechanics": "Engineers",
+		"Dwarf Girl": "Luca",
+		"Dwarven King": "King Giott",
+		"Golbes": "Golbez/Theodor",
+		"Golbez's Voice": "Golbez/Theodor",
+		"Dolls": "Calcabrina",
+		"Golbez": "Golbez/Theodor",
+		"Theodor": "Golbez/Theodor",
+		"Theodore": "Golbez/Theodor",
+		"Heavy Girl": "Cindy",
+		"Small Girl": "Mindy",
+		"Tall Girl": "Sandy",
+		"King": "King Of Eblan",
+		"Queen": "Queen Of Eblan",
+		"Mysterious Voice": "Kluya",
+		"Monk": "Yang",
+		"Yan": "Yang",
+		"Girl": {
+			"Porom": [
+				"Did you need something?",
+				"Oh, that brother of mine... !",
+				"Your name is Cecil, right? Pleased to meet you."
+			],
+			"Rydia": [
+				"Mother, you can't die! Just because your dragon did...",
+				"!",
+				"You - you're the ones who killed her dragon?",
+				"No!",
+				"Stay away!",
+				"Leave me alone! I hate you!!!!!",
+				"...",
+				"I'm sorry, it's all my fault.",
+				"But... you protected me.",
+				"My name's Rydia."
+			]
+		},
+		"Man": {
+			"Tellah": [
+				"You, knight! You wield the dark sword, do you not? I beg you, lend me your aid!",
+				"My daughter Anna was tricked by a silver-tongued bard. He's taken her to Damcyan Castle. I fear I've little time. I sense something sinister."
+			],
+			"Fusoya": [
+				"I am Fusoya, and I am charged with watching over the slumber of the Lunarians."
+			]
+		},
+		"Voice": {
+			"Scarmiglione": ["Such pleasure I will take in delivering"],
+			"Kain": [
+				"Your Majesty!",
+				"I see you have the Crystal.",
+				"This way!",
+				"So you're Cecil!"
+			],
+			"Mist Dragon": [
+				"Leave this place.",
+				"Return whence you came.",
+				"Men of Baron...",
+				"Leave at once, and no harm will befall you. I will abide no further trespass.",
+				"You mean to ignore my warning?",
+				"So be it."
+			],
+			"Rosa": ["Cecil!", "Stop it!"],
+			"Cid": [
+				"Well, well! Look who's home!",
+				"Filthy imposter!",
+				"It's a good thing you've got me, then, isn't it?"
+			],
+			"Baigan": ["Lord Cecil!"],
+			"Barbariccia": [
+				"Ha ha ha ha ha... It seems I underestimated you. I'd not have thought you strong enough to wound Lord Golbez!"
+			],
+			"Calcabrina": ["Yip-ho-ho!"],
+			"Golbez/Theodor": [
+				"Our paths cross once again.",
+				"You are even more meddlesome than I had thought.",
+				"Kain... Return to me, my pawn... Deliver me the Crystal...",
+				"You!"
+			],
+			"Fusoya": ["At last, you've arrived!"],
+			"Zemus": [
+				"A vile thing, isn't he? That brother of yours...",
+				"He is the root of all you've suffered.",
+				"If it weren't for him, your mother and father would both still be alive.",
+				"And you are a vile little insect birthed from a womb",
+				"I name you... Golbez!"
+			]
+		},
+		"Boy": {
+			"Kain": ["I'm Kain - Kain Highwind."],
+			"Palom": [
+				"So you're that filthy dark knight from Baron! I'm only helping you because he told me to. You'd better be thankful!",
+				"What he means is that I'm Mysidia's most esteemed magical prodigy, and you're incredibly lucky to have me along!",
+				"Right... Nice to meet you."
+			]
+		},
+		"ACTION": {
+			"Cecil": ["Your Majesty... what's become of you?"],
+			"Narration": [
+				"Together with Kain,",
+				"The advent of the airship had marked ",
+				"With the unparalleled might of the Red Wings",
+				"And why have fearsome monsters suddenly begun to overrrun the once calm land?",
+				"If the crystals know, they share no answers"
+			]
+		},
+		"King Of Baron": {
+			"Cagnazzo": [
+				"Cecil, you've returned at last! And all the stronger for your journey, by the looks of it.",
+				"Oh, and look at you! You've become a... a paladin, is it? I'm afraid that won't do at all.",
+				"Your liege? Who might that be? Oh, I think I've just remembered! You must mean that old fool who refused to surrender up this kingdom. Yes, that's it - the king of Baron! It's his part I've been playing all this time. Ha ha ha ha ha!",
+				"Would you like to go and see him, this king of yours? You'd best not mistake me for another Scarmiglione. How one as weak as he came to be crowned an archfiend is something I will never know. Mwa ha ha!",
+				"Does it, now? Indeed. Your loyalty and worth are proven once again, Captain Baigan. But the Crystal is all that matters. Bring him before me.",
+				"The kingdom of Baron hails your return, Cecil. You have brought me the Crystal, I trust?",
+				"So it is. See how it shines! That will be all, Cecil. You may leave us now.",
+				"Have you some other matter to discuss?",
+				"As does yours?",
+				"Do you take me for a fool, Cecil? Do you think your treasonous whisperings escape my ears? After all I've done for you, Cecil... You wound me. This is most unfortunate, but I can place no trust in one who offers none in return. I hereby relieve you of command of the Red Wings.",
+				"You will go now of the Valley of Mist instead. There is a task I would have you do. A phantom creature haunts the borders of that land - the Eidolon of Mist. You will slay it, and deliver this ring to the village that lies beyond - they will know its meaning. Be gone at first light on the morrow.",
+				"Ah, Kain. I was not aware this matter concerned you. But as you seem so eager to protect your friend, let your spear accompany his blade on the road to Mist.",
+				"I've no more words. Take the ring and begone, while my mood is yet fair!"
+			]
+		},
+		"Ninja": {
+			"Edge": [
+				"We meet at last. I've been looking forward to this, Rubicante!",
+				"I'm Prince Edge of Eblan!"
+			]
+		}
+	}
+}

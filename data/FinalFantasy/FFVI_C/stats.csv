@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFVI_C/,True,Final Fantasy VI,Final Fantasy,TOTAL,2141,20696,9403,24858,-0.5586105109764965,102.98778470535582,6.823407311272287,125
+../data/FinalFantasy/FFVI_C/,True,Final Fantasy VI,Final Fantasy,male,1263,11556,5363,13813,-0.6449864012531012,103.52470569083309,6.846447432457579,37
+../data/FinalFantasy/FFVI_C/,True,Final Fantasy VI,Final Fantasy,female,344,2887,1618,3466,-0.7275827127530903,103.45704782810117,6.700325225307771,10
+../data/FinalFantasy/FFVI_C/,True,Final Fantasy VI,Final Fantasy,neutral,67,1066,486,1291,-0.4439487642739657,102.15221033207483,7.196578593874258,9

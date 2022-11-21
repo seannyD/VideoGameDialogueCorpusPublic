@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingsQuest/KingsQuest8/,False,King's Quest VIII,King's Quest,TOTAL,1528,15880,4050,19181,0.19206931616755263,100.66926554093979,7.161994841558602,42
+../data/KingsQuest/KingsQuest8/,False,King's Quest VIII,King's Quest,male,1311,13266,3362,16017,0.1958798780958677,100.68625582271973,7.126856873394461,26
+../data/KingsQuest/KingsQuest8/,False,King's Quest VIII,King's Quest,female,167,2199,561,2657,0.1963791514373341,100.63622611639227,7.37810647450348,11
+../data/KingsQuest/KingsQuest8/,False,King's Quest VIII,King's Quest,neutral,50,415,125,507,0.12070361445783284,100.1105012048193,7.149412963855421,5

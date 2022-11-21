@@ -1,0 +1,739 @@
+{
+	"game": "Final Fantasy VII Remake",
+	"series": "Final Fantasy",
+	"year": 2020,
+	"source": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_VII_Remake_script",
+	"sourceFeatures":{
+    		"type": "wiki",
+   		"completeness": "high",
+    		"dialogueOrder": true,
+    		"choices": "complete"
+},
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "0",
+		"truePositive_notes": "N/A",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "N/A"
+	},
+	"parserParameters": {
+		"parser": "FFVII_RemakeParser",
+		"fileType": ".html",
+		"scriptHasOptionalDialogueSection": false,
+		"scriptStartCue": "<span class=\"mw-headline\" id=\"Chapter_1:_The_Destruction_of_Mako_Reactor_1\">Chapter 1: The Destruction of Mako Reactor 1</span>",
+		"scriptEndCue": "<span class=\"mw-headline\" id=\"Notifications\">Notifications</span>",
+		"ignoreCharacters": ["On-Screen", "On-screen"]
+	},
+	"mainPlayerCharacters": ["Cloud", "Aerith", "Tifa", "Barret", "Yuffie"],
+	"characterGroups": {
+		"male": [
+			"Andrea",
+			"Beck",
+			"Betty's Dad",
+			"Biggs",
+			"Burke",
+			"Barret",
+			"Butch",
+			"Chadley",
+			"Cloud",
+			"Damon",
+			"Don Corneo",
+			"Heidegger",
+			"Hojo",
+			"Jay",
+			"Johnny",
+			"Jules",
+			"Kotch",
+			"Scotch",
+			"Leslie",
+			"Moggie",
+			"Narjin",
+			"Oates",
+			"Palmer",
+			"President Shinra",
+			"Red XIII",
+			"Reeve",
+			"Reno",
+			"Roche",
+			"Ronnie",
+			"Rude",
+			"Rufus",
+			"Sam",
+			"Scotch",
+			"Sephiroth",
+			"Tseng",
+			"Wedge",
+			"Wymer",
+			"Zack",
+			"Domino",
+			"Old Snapper",
+
+			"Boy",
+			"Boy (1)",
+			"Boy (2)",
+			"Boy (3)",
+			"Boy (4)",
+			"Boy (In Cloud'S Memory)",
+			"Boy (Vision)",
+			"Boy (Vision, 2)",
+			"Honeyboy",
+			"Johnny's father",
+			"Kind Old Man",
+			"Loitering Man",
+			"Man In Line",
+			"Man In Love",
+			"Old Man",
+			"Scared Man",
+			"Sweet Old Man",
+			"Womanizer",
+			"3-C Soldier",
+			"Air Traffic Controller",
+			"Beastmaster",
+			"Avalanche Helicopter",
+			"Shinra Helicopter",
+			"Security Officer (1)",
+			"Security Officer (2)",
+			"Security Officer",
+			"Security Officer (3)",
+			"Security Officer (4)",
+			"Security Officer (5)",
+			"Security Officer (6)",
+			"Security Officer (7)",
+			"Security Officer (8)",
+			"Security Officer (Computer)",
+			"Senior Officer",
+			"New Recruit",
+			"Neighborhood Watch Member (1)",
+			"Neighborhood Watch Member (2)",
+			"Bandit (1)",
+			"Bandit (2)",
+			"Bandit",
+			"Barker",
+			"Clothing Store Owner",
+			"Clothing Store Owner'S Son",
+			"Researcher (1)",
+			"Researcher (2)",
+			"Subordinate",
+			"Honeybee Receptionist",
+			"Guide",
+			"Collaborator",
+			"Corneo Lackey (1)",
+			"Corneo Lackey (2)",
+			"Corneo Lackey",
+			"Customer",
+			"DJ",
+			"Doctor",
+			"Elite Grenadier",
+			"Elite Security Officer",
+			"Elite Shock Trooper",
+			"Flametrooper",
+			"Gatekeeper",
+			"Grenadier",
+			"Hart",
+			"Helitrooper",
+			"Hoodlum (1)",
+			"Hoodlum (2)",
+			"Hoodlum (3)",
+			"Hoodlum",
+			"Item Store Owner",
+			"Junk Dealer",
+			"Man",
+			"Materia Vendor",
+			"Pharmacist",
+			"Patient",
+			"Restaurant Owner",
+			"Host",
+			"Shinra Employee (lift)",
+			"Shinra Employee (table)",
+			"Shinra Employee (phone)",
+			"Shinra Middle Manager",
+			"Shinra Employee (vent 1)",
+			"Shinra Employee (train 2)",
+			"Shinra Employee (tips)",
+			"Shinra Employee (vending)",
+			"Spectator (male 1)",
+			"Spectator (male 2)",
+			"Spectator (male 3)",
+			"Spectator (male 4)",
+			"Engineering Officer",
+			"Souvenir Shop Owner",
+			"Innkeeper",
+			"Guest",
+			"Mobile Officer",
+			"Mobile Unit Officer",
+			"Mobile Unit Officer (1)",
+			"Mobile Unit Officer (2)",
+			"Weapons Vendor",
+			"Announcer (Anchor)",
+			"Station Worker",
+			"Stablehand",
+			"Singer",
+			"Neighborhood Watch Member (Male 1)",
+			"Neighborhood Watch Member (Male 2)",
+			"Neighborhood Watch Member (Male 3)",
+			"Neighborhood Watch Member (Male 4)",
+			"Radio",
+			"Soldier",
+			"Undercity Resident (Posters)",
+			"Undercity Resident (Crash)",
+			"Undercity Resident (Male 1)",
+			"Undercity Resident (Male 2)",
+			"Undercity Resident (Older Man with Glasses)",
+			"Undercity Resident (Male 3)",
+			"Undercity Resident (Server)",
+			"Undercity Resident (Male 4)",
+			"Undercity Resident (Older Man)",
+			"Undercity Resident (Male 5)",
+			"Undercity Resident (Male 6)",
+			"Undercity Resident (Male 7)",
+			"Undercity Resident (Male 8)",
+			"Topside Resident (2)",
+			"Topside Resident (Male 1)",
+			"Topside Resident (Male 2)",
+			"Topside Resident (Male 3)",
+			"NPC (Male 1)",
+			"NPC (Male 2)",
+			"NPC (Male 3)",
+			"NPC (Male 4)",
+			"Poet",
+			"Staff (1)",
+			"Staff (2)",
+			"Staff (4)",
+			"Staff (Cap)",
+			"Staff (Beasthandler)",
+			"Staff (5)",
+			"Staff (6)",
+			"Thug",
+			"Trooper",
+			"Vending Machine",
+			"Weapon Vendor",
+			"Train Announcer",
+			"Marco",
+			"Avalanche Member",
+			"Billy Bob",
+			"Boy 1",
+			"Boy 2",
+			"Captain",
+			"Chocobo Bill",
+			"Corneo Lackey (3)",
+			"Corneo Lackey (4)",
+			"Robed Man (scrap boulevard)",
+			"Robed Man (first)",
+			"Robed Man (wolves)",
+			"Counterfeiter",
+			"Deepground Soldier",
+			"Nero",
+			"Newspaper Reporter",
+			"Polk",
+			"Research Program",
+			"Shinra Employee (business)",
+			"Shinra Employee (glasses)",
+			"Shock Trooper",
+			"Sonon",
+			"Subordinates",
+			"Train Attendant",
+			"Undercity Resident (tunnel entrance)",
+			"Undercity Resident (Community Center)",
+			"Undercity Resident (Intermission male)",
+			"Weiss",
+			"Zhijie"
+		],
+		"female": [
+			"Aerith",
+			"Betty",
+			"Claudia",
+			"Jessie",
+			"Jessie'S Mom",
+			"Katie",
+			"Kyrie",
+			"Madam M",
+			"Marlene",
+			"Mireille",
+			"Ms. Folia",
+			"Sarah",
+			"Scarlet",
+			"Tifa",
+			"Marlene",
+			"Nayo",
+
+			"Cowgirl",
+			"Critical Woman",
+			"Girl",
+			"Girl (1)",
+			"Girl (2)",
+			"Girl (Vision)",
+			"Honeygirl",
+			"Honeygirl (1)",
+			"Honeygirl (2)",
+			"Honeygirl (3)",
+			"Honeygirls",
+			"Leslie'S Fiancée (Flashback)",
+			"Sharp-Tongued Woman",
+			"Woman",
+			"Woman In Love",
+			"Administrative Assistant",
+			"Announcement",
+			"Announcer (Train)",
+			"Announcer (Corneo Cup)",
+			"Arsenal",
+			"Marle",
+			"Elevator",
+			"Hologram Receptionist",
+			"Reporter",
+			"Console",
+			"Housemother",
+			"Robot",
+			"Server",
+			"Shinra Employee (woman)",
+			"Shinra Employee (vent 2)",
+			"Shinra Employee (train 1)",
+			"Shinra Employee (sim)",
+			"Spectator (female)",
+			"Neighborhood Watch Member (Female)",
+			"Undercity Resident (Cat)",
+			"Undercity Resident (Concerned)",
+			"Undercity Resident (Woman)",
+			"Undercity Resident (Female 1)",
+			"Undercity Resident (Female 2)",
+			"Undercity Resident (Female 3)",
+			"Undercity Resident (Older Female)",
+			"Undercity Resident (Female 4)",
+			"Undercity Resident (Female 5)",
+			"Undercity Resident (Patron)",
+			"Undercity Resident (4)",
+			"Undercity Resident (5)",
+			"Undercity Resident (Female 6)",
+			"Topside Resident (1)",
+			"NPC (Female)",
+			"Staff (3)",
+			"Announcer (TV)",
+			"Combat Simulator",
+			"Item Vendor",
+			"Teacher",
+			"Undercity Resident (Intermission female)",
+			"Yuffie",
+			"Staff (7)",
+			"Staff (8)",
+			"Elmyra",
+			"Gwen"
+		],
+		"neutral": [
+			"Chocobo",
+			"Second Party Member",
+			"Neighborhood Watch Member (Not Found)",
+			"Passenger"
+		]
+	},
+	"aliases": {
+		"Cloud & Aerith": ["Cloud", "Aerith"],
+		"Cloud & Rude": ["Cloud", "Rude"],
+		"Biggs & Jessie": ["Biggs", "Jessie"],
+		"Biggs, Jessie, & Wedge": ["Biggs", "Jessie", "Wedge"],
+		"Cloud & Tifa": ["Cloud", "Tifa"],
+		"Aerith & Tifa": ["Aerith", "Tifa"],
+		"Tifa & Aerith": ["Tifa", "Aerith"],
+		"Biggs & Wedge": ["Biggs", "Wedge"],
+		"Kotch & Scotch": ["Kotch", "Scotch"],
+		"Everyone": ["Biggs", "Wedge", "Tifa", "Jessie", "Barret"],
+		"Dj": "DJ",
+		"Left Front Leg": "SYSTEM",
+		"Left Rear Leg": "SYSTEM",
+		"Right Front Leg": "SYSTEM",
+		"Right Rear Leg": "SYSTEM",
+		"NARRATIVE": "SYSTEM",
+		"On-Screen": "SYSTEM",
+		"On-Screen;": "SYSTEM",
+		"On-screen": "SYSTEM",
+		"Flower Peddler": "Aerith",
+		"Red Xiii": "Red XIII",
+		"Aerith (Computer)": "Aerith",
+		"Aerith (Flashback)": "Aerith",
+		"Aerith (Vision)": "Aerith",
+		"Aeroth": "Aerith",
+		"Baret": "Barret",
+		"Barrett": "Barret",
+		"Barret (In The Distance)": "Barret",
+		"Cloud (In Flashback)": "Cloud",
+		"Cloud (In His Memory)": "Cloud",
+		"Cloud (In His Mind)": "Cloud",
+		"Cloud'": "Cloud",
+		"Could": "Cloud",
+		"Jessie (In Cloud'S Memory)": "Jessie",
+		"Jessie (In Letter)": "Jessie",
+		"Jessie'": "Jessie",
+		"Johny": "Johnny",
+		"Johnny'S father": "Johnny's father",
+		"Johnny'S Father": "Johnny's father",
+		"Johnny's Father": "Johnny's father",
+		"Marlene (Tifa'S Memory)": "Marlene",
+		"Reno (On Phone)": "Reno",
+		"Reno (Radio)": "Reno",
+		"Sephiroth (Flashback)": "Sephiroth",
+		"Sephiroth (In Cloud'S Memory)": "Sephiroth",
+		"Sephiroth (Vision)": "Sephiroth",
+		"Sephiroth (Voice)": "Sephiroth",
+		"Sephiroth (to Aerith)": "Sephiroth",
+		"Sephiroth (to Cloud)": "Sephiroth",
+		"Sephiroth (to Tifa)": "Sephiroth",
+		"Sephiroth (to a party of Cloud-Tifa-Aerith)": "Sephiroth",
+		"Sephiroth (voice)": "Sephiroth",
+		"Tifa (Flashback)": "Tifa",
+		"Tifa (In Flashback)": "Tifa",
+		"Tifa'": "Tifa",
+		"Tseng (Computer)": "Tseng",
+		"Tseng (Flashback)": "Tseng",
+		"Tseng (Radio)": "Tseng",
+		"Wesge": "Wedge",
+		"Annoincement": "Announcement",
+		"Announcemnet": "Announcement",
+		"Chocoboo": "Chocobo",
+		"Betty'S Dad": "Betty's Dad",
+		"Corneo Lackey'": "Corneo Lackey",
+		"Corneo Lackeys": [
+			"Corneo Lackey (1)",
+			"Corneo Lackey (2)",
+			"Corneo Lackey"
+		],
+		"Madam": "Madam M",
+		"Receptionist": {
+			"Honeybee Receptionist": [
+				"Good evening.",
+				"Welcome to the heart and soul of Wall Market—the Honeybee Inn. Is there a honeyboy or girl whose company you desire?",
+				"Ahhh, the shining star of the Honeybee Inn. Now, are you the one who made the appointment, sir? Can I have your name?",
+				"I see... I'm terribly sorry, sir. An appointment is required, and the earliest available slot is three years from now.",
+				"Yes, well, regardless of the circumstances, you cannot meet him without an appointment.",
+				"It is rare, but Mr. Rhodea does occasionally extend invitations to individuals who catch his eye. Otherwise, I'm sorry, but there really is nothing that can be done.",
+				"I'm sorry that I couldn't be of more help to you.",
+				"Good evening. Welcome to the entertainment extravaganza that is the Honeybee Inn.",
+				"You must be Mr. Cloud. He's waiting for you.",
+				"I've been instructed to send you through without delay, sir. Please make your way to the stage in the back.",
+				"The one in the back, sir. Straight through those doors and down the hall.",
+				"The evening performance has ended. We hope to see you again very soon.",
+				"I must say, you were breathtaking.",
+				"My apologies, sir. We are not ready to open at this time.",
+				"Please come back later."
+			],
+			"Hologram Receptionist": [
+				"You must be here for our grand tour. Visitors have access to floors 60, 61, 62, as well as floor 63. You will proceed in that order. By the exit to each floor, you will find a device that will allow you to update the keycard in your possession... thereby allowing you to access the next floor. And now begins your grand tour. Please enjoy the Shinra experience!"
+			]
+		},
+		"Shinra Employee": {
+			"Shinra Employee (lift)": [
+				"Yeah...  Yeah, we're safe here. What about you, Mom? You okay? Good. That's a relief...  ... What? Oh, they gotta be kidding!",
+				"Yeah... Yeah, we're safe here. What about you, Mom? You okay? Good. That's a relief... ... What? Oh, they gotta be kidding!",
+				"... No, we haven't heard anything new yet. But they told us that Avalanche could attack again at any time. Just get somewhere safe, okay? Yeah. About that... "
+			],
+			"Shinra Employee (glasses)": [
+				"Hm? Are you military? Cool, cool. I guess things have been keeping you pretty busy around here. Have you found the guys who did this yet?",
+				"Huh? Uhh... what about the mayor?"
+			],
+			"Shinra Employee (table)": ["Please, just leave me alone."],
+			"Shinra Employee (phone)": [
+				"No, I'm gonna be here a while longer.",
+				"Hey, shhh! I'm on the phone!"
+			],
+			"Shinra Employee (woman)": ["Can I help you?"],
+			"Shinra Employee (business)": [
+				"Depending on the board's decision, we may start two projects simultaneously: rebuilding the plate and the city. Members of the Urban Planning Division will likely take point on both. Director Tuesti has ordered teams to come up with three-, five-, and ten-year plans. Each team needs to come up with a detailed proposal and schedule. We're going to have to put a lot of man-hours into this, so we'll need to start ASAP. Does anyone have any questions at all? If not, then we'll wait for the director to return."
+			],
+			"Shinra Employee (sim)": [
+				"You're gonna train in the sim at a time like this?",
+				"Hm? Are you looking for the mayor? He's not on this floor... "
+			],
+			"Shinra Employee (tips)": [
+				"You're military, right? Can you give me any tips for doing better in the sim?",
+				"Mare? I need to be tough like a horse?"
+			],
+			"Shinra Employee (vending)": [
+				"Yes, what is it?",
+				"Hm? You guys private security or something?",
+				"Are you allowed to be hanging out here on the clock?"
+			]
+		},
+		"Shinra Employee (1)": {
+			"Shinra Employee (vent 1)": [
+				"I'm sure they're safe.",
+				"I heard that all the phone lines are down. It doesn't mean anything.",
+				"Pretty sure... "
+			],
+			"Shinra Employee (train 1)": [
+				"What kind of maniacs would go so far as to bomb a reactor?",
+				"Really? Aren't they the terrorists who tried to kill the president?",
+				"\"Law-abiding\"? Really?",
+				"That's right!"
+			]
+		},
+		"Shinra Employee (2)": {
+			"Shinra Employee (vent 2)": [
+				"But we live right by Sector 7 and I keep calling and calling, but I still can't get through.",
+				"... You sure?"
+			],
+			"Shinra Middle Manager": [
+				"They've yet to announce it publicly, but I heard it was Avalanche's doing."
+			],
+			"Shinra Employee (train 2)": [
+				"Is there nothing they won't do?",
+				"Don't antagonize him!",
+				"That is the Shinra creed!",
+				"We should go."
+			]
+		},
+		"Shinra Employee (3)": {
+			"Shinra Employee (train 2)": [
+				"Is there nothing they won't do?",
+				"We should go."
+			]
+		},
+		"Spectator (1)": {
+			"Spectator (male 1)": [
+				"\"Couple\"!? Get outta here with that lovey-dovey bullshit!",
+				"\"Couple\" my ass! The hell you two tryin' to pull!?"
+			],
+
+			"Spectator (female)": [
+				"Cloud! Cloud! Over here! Look at them! They're so adorable!"
+			]
+		},
+		"Spectator (2)": {
+			"Spectator (male 2)": [
+				"'Sup with the pole!? Gonna do a little dance for us, baby girl?",
+				"You assholes cost me a fortune!"
+			],
+			"Spectator (male 3)": ["You're the man, Cloud!"]
+		},
+		"Spectator (3)": "Spectator (male 4)",
+		"Gym Members": ["Jay", "Ronnie"],
+		"Announcer": {
+			"Announcer (Train)": [
+				"Due to an explosion at Mako Reactor 1, an emergency schedule is now in effect. Your understanding and cooperation is appreciated."
+			],
+			"Announcer (Anchor)": [
+				"Breaking news from Mako Reactor 5. Shinra has confirmed the reactor to be the target of the bomb threat issued by the terrorist group Avalanche. Members of the group were observed entering the facility, and security is currently sweeping it for explosive devices. We now go live to the scene...",
+				"President Shinra has issued a statement providing assurances that the terrorists will soon be brought to justice."
+			],
+			"Announcer (Corneo Cup)": [
+				"Cloud and Aerith. Your match will begin shortly. Please make your way to the gate.",
+				"Contenders, please return to your waiting room.",
+				"Cloud and Aerith. Your match will begin shortly. Please make your way to the gate.",
+				"Cloud and Aerith. The final match will begin shortly. Please make your way to the gate."
+			],
+			"Announcer (TV)": [
+				"Once again, relief supplies are currently being distributed in the lobby of the Shinra Building. Doctors are also stationed at the building's disaster relief center. If you are unable to reach the building on your own, please contact the nearest Shinra employee for assistance. Mayor Domino, in conjunction with President Shinra, has declared a state of emergency in Midgar. The administration have issued assurances that they are doing everything they can that they are doing everything in their power to provide aid to those most in need. As yet, no group has claimed responsibility for the attack, but security services are doing everything they can to identify those involved. If you have any information pertaining to the identity of the perpetrators, please contact your nearest Public Security officer or Security Headquarters."
+			]
+		},
+		"Neighborhood Watch Member": {
+			"Neighborhood Watch Member (Not Found)": [
+				"We've got this area covered, don't worry!"
+			],
+			"Neighborhood Watch Member (Male 1)": [
+				"We need water! Hurry! The fire's spreading!"
+			],
+			"Neighborhood Watch Member (Male 2)": [
+				"If anyone needs any assistance, please let the watch know!",
+				"This underground passage'll take you to Wall Market."
+			],
+			"Neighborhood Watch Member (Female)": [
+				"We can get through this! We just have to work together!",
+				"Get to Wall Market"
+			],
+			"Neighborhood Watch Member (Male 3)": [
+				"It won't budge!",
+				"Hey, you guys might wanna turn around.",
+				"It's too dangerous.",
+				"Do what you gotta... "
+			],
+			"Neighborhood Watch Member (Male 4)": [
+				"We've been getting tremors ever since last night. Roads are collapsing, and sinkholes are opening up all over."
+			]
+		},
+		"Undercity Resident": {
+			"Undercity Resident (Posters)": [
+				"Hah. \"Mako is the lifeblood of the planet\"? The hell it is. Goddamn eco-warriors with their dumbass posters. I tear 'em down and they're back up inside of an hour. Like I've got nothing better to do... ",
+				"I mean, look at all that steelwork...  You're trying to tell me that's not progress?",
+				"I mean, look at all that steelwork... You're trying to tell me that's not progress?",
+				"What the—You okay, buddy?",
+				"What the— You okay, buddy?",
+				"Mako junkie, huh? Figures... "
+			],
+			"Undercity Resident (Cat)": [
+				"Hey, what are you doing in there? Come on out.",
+				"I'm trying to get a cat to come out. It snatched one of my pastries and scurried in there. Will you be a dear and lend me a hand?",
+				"I've been seeing more and more cats around here lately.",
+				"And of course, they all come to",
+				"But I can't complain. They're so adorable.",
+				"Oh, for the love of... I am sick and tired of chasing this little guy around!\\"
+			],
+			"Undercity Resident (Concerned)": [
+				"Oh! Didn't expect to see you here.",
+				"Oh, on your way home from the church?",
+				"Well, I'm glad you're okay. Did any debris hit the church?",
+				"That's something, at least—but you may not be so lucky next time!"
+			],
+			"Undercity Resident (Community Center)": [
+				"This here's the Sector 5 community center.",
+				"Truth be told, it's really just a place for us old folks to sit here and chat.",
+				"Care to stay and keep us company a bit?"
+			],
+			"Undercity Resident (Crash)": ["Look out—it's gonna crash!"],
+			"Undercity Resident (Woman)": ["Thank you."],
+			"Undercity Resident (tunnel entrance)": [
+				"The leader of the rat pack is the worst of 'em all. The loudest, most obnoxious squeaking... Johnny liked to mimic it until we told him to cut that shit out.",
+				"I'm guessing you're the merc who dealt with those damn rats? That wasn't me who put in the request, but as a resident of Culvert Street, I appreciate what you did."
+			]
+		},
+		"Undercity Resident (1)": {
+			"Undercity Resident (Female 1)": [
+				"\"Somebody\" went and stole some blasting agent from a Shinra warehouse. So Public Security started asking questions, and you know how Johnny gets... "
+			],
+			"Undercity Resident (Male 1)": [
+				"We poured so much of our blood and sweat into building that reactor, and now... "
+			],
+			"Undercity Resident (Female 2)": [
+				"Why, hello! What is it? The Guardian Angel of the Slums? Such a mysterious figure. Always talked about, but never",
+				"Well, I could talk all day about the"
+			],
+			"Undercity Resident (Male 2)": [
+				"Hey, everybody! The Angel left another calling card! She's gonna rip off Don Corneo!"
+			],
+			"Undercity Resident (Older Man with Glasses)": [
+				"Hey. You hear 'bout that real narrow street just over there... ?",
+				"You bet I am. Found me a secret route in, one nobody don't know about. Only trouble is, it's filled with drunks 'n' garbage!"
+			],
+			"Undercity Resident (Female 3)": ["Go, go, go!"],
+			"Undercity Resident (Male 3)": [
+				"Damn, man! Knew we couldn't trust Wutai to leave us alone.",
+				"After what they've done? What choice do we have?"
+			],
+			"Undercity Resident (Server)": ["There."],
+			"Undercity Resident (Intermission male)": [
+				"To think this is where those bastards plotted their attacks. Right under our noses."
+			]
+		},
+		"Undercity Resident (2)": {
+			"Undercity Resident (Male 4)": [
+				"It's because of the reactor bombing, I bet. I could be wrong...  But something tells me they're not gonna settle for just roughing him up this time.",
+				"It's because of the reactor bombing, I bet. I could be wrong... But something tells me they're not gonna settle for just roughing him up this time."
+			],
+			"Undercity Resident (Older Female)": [
+				"I can't believe this is happening... "
+			],
+			"Undercity Resident (Female 4)": [
+				"If we're going by rumors, then I've heard that it's actually a monster in disguise."
+			],
+			"Undercity Resident (Female 5)": ["It's about damn time!"],
+			"Undercity Resident (Older Man)": [
+				"You're not still wasting your gil at the Honeybee Inn, are ya?"
+			],
+			"Undercity Resident (Male 5)": ["Quit pushing!"],
+			"Undercity Resident (Male 6)": [
+				"It's the reactors. They want 'em, we got 'em."
+			],
+			"Undercity Resident (Patron)": ["Thank you."],
+			"Undercity Resident (Intermission female)": [
+				"Too bad they made it out before the military could get here. Like chickens flying the coop... "
+			]
+		},
+		"Undercity Resident (3)": {
+			"Undercity Resident (Male 7)": ["Hey, what the hell's going on!?"],
+			"Undercity Resident (Male 8)": [
+				"Don Corneo's no easy mark. I can't wait to see how this goes down!"
+			],
+			"Undercity Resident (Female 6)": [
+				"Does this mean there'll be another war?"
+			]
+		},
+		"Topside Resident": {
+			"Topside Resident (Male 1)": [
+				"The stairs are right there if you wanna try crossing the rubble.",
+				"If you really want to get to the station, you can always climb those stairs. Try picking your way across the rubble... "
+			],
+			"Topside Resident (Male 2)": [
+				"The station? Well, take that fire escape. It'll put you right on the street.",
+				"Once you're on the street, you'll want to head for the plaza with the fountain. Station's not too far."
+			],
+			"Topside Resident (Male 3)": [
+				"Hey. You know a way to get topside other than the train?",
+				"Figured as much. What a goddamn pain in the ass... "
+			]
+		},
+		"Npc": {
+			"NPC (Male 1)": [
+				"Hey, let us through! How else're we supposed to get to Wall Market!?"
+			],
+			"NPC (Female)": ["Oh god. Look out!"],
+			"NPC (Male 2)": [
+				"Whadda we do!?",
+				"I... I can't... ",
+				"Y-y-yessir!"
+			],
+			"NPC (Male 3)": ["Excuse me, sir. Your tie?"],
+			"NPC (Male 4)": ["No more bombings! No more bombings!"]
+		},
+		"Staff": {
+			"Staff (4)": [
+				"Spectators, please enter from the right, and contenders from the left."
+			],
+			"Staff (2)": [
+				"You lost? This is for spectators only.",
+				"Check-in for contenders is over there.",
+				"You better hurry."
+			],
+			"Staff (1)": [
+				"What's this? You're here to compete? I hope you know you're cutting it really close. So—the two of you are a team?",
+				"All right, team it is. Head to the waiting area down below.",
+				"You need to take the elevator down. Don't keep 'em waiting.",
+				"Why didn't you tell me you guys were gonna kick so much ass!? Can I have your autographs?",
+				"I know that you can take on bigger and better opponents, champ! Keep on fighting!"
+			],
+			"Staff (Cap)": [
+				"Hey, lovebirds! Over here!",
+				"You two—wait here until it's time.",
+				"Not bad, not bad.",
+				"You better make sure you rest up nice and good.",
+				"I've been working here a long time, but this has never happened before. Whew—gonna be one helluva match.",
+				"You've got some time before your next match. Get some rest.",
+				"You'd better be ready for this one."
+			],
+			"Staff (Beasthandler)": ["No, please!"],
+			"Staff (5)": [
+				"It's the Angel of the Slums! She took the don's stuff! He's gonna be pissed!"
+			],
+			"Staff (6)": [
+				"Excuse me, miss, but... are you sure you're in the right place?",
+				"This is an arena where men and monsters fight each other to near death—nowhere a delicate flower like you should be."
+			],
+			"Staff (7)": [
+				"This check-in is for spectators only.",
+				"Contenders should take the elevator over to the left.",
+				"If you're in the tournament, you really oughta hurry."
+			],
+			"Staff (8)": [
+				"This check-in is for spectators.",
+				"The entrance for contenders is over there.",
+				"Please go to the designated area."
+			]
+		},
+		"???": {
+			"Marco": ["Reunion... Reunion... "],
+			"Sephiroth": ["Sleep. And dream the sweetest dreams... "],
+			"Train Announcer": [
+				"This train will be stopping at the Sector 7 slums... and is bound for the train graveyard. The train will depart shortly. Please stand clear of the closing doors."
+			]
+		},
+		"Robed Man": {
+			"Robed Man (first)": [
+				"Re... un... ion.",
+				"Urh... Ah... ",
+				"Re... un... ion... "
+			],
+			"Robed Man (wolves)": ["Uh... Urah..."],
+			"Robed Man (scrap boulevard)": [
+				"Je... no... va...",
+				"Je... no... va... "
+			]
+		}
+	}
+}

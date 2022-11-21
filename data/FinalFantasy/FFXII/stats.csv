@@ -1,0 +1,6 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFXII/,True,Final Fantasy XII,Final Fantasy,TOTAL,1817,25785,6273,30698,0.061422829606595286,101.94342790468252,6.461329648325227,113
+../data/FinalFantasy/FFXII/,True,Final Fantasy XII,Final Fantasy,male,1072,16107,3826,19166,0.0928787513236049,101.8949576918647,6.4421753746435195,30
+../data/FinalFantasy/FFXII/,True,Final Fantasy XII,Final Fantasy,female,396,4960,1264,5814,-0.22792670477745958,103.68587893017559,6.260118798489179,9
+../data/FinalFantasy/FFXII/,True,Final Fantasy XII,Final Fantasy,genderless,4,101,22,128,1.1549099909991014,94.95938568856887,7.30361503150315,1
+../data/FinalFantasy/FFXII/,True,Final Fantasy XII,Final Fantasy,neutral,29,568,118,652,-0.1676414418715666,104.83796968250181,6.821977894485557,6

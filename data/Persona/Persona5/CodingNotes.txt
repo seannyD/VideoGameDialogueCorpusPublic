@@ -1,0 +1,3 @@
+The Shrimp Stand Owner can be seen and heard here (https://www.youtube.com/watch?v=Ie78QvT5atQ - 1:51). Male avatar and male voice; coded accordingly. "Tall Student" and "Bespectacled Student" can be see here (https://www.youtube.com/watch?v=LyydmjcoOg8 1:39 and onwards) - female avatars (e.g. girls' school uniform) and voices; coded accordingly. The character coded as "pilot" may be a pilot or may be the flight attendant, it's hard to tell from sound alone, but either way I've coded as female.
+
+Morgana the anthropomorphic cat has a female voice actor in cat form, but a male voice actor in human form, and is referred to throughout the wiki as 'he', so I've coded him as male. 

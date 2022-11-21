@@ -1,0 +1,23 @@
+{
+	"game": "Test",
+	"series": "Test",
+	"year": 3000,
+	"source": "Test",
+	"notes": "For testing",
+	"alternativeMeasure": true,
+	"parserParameters": {
+		
+	},
+	"mainPlayerCharacters": [],
+	"characterGroups": {
+		"male": [
+			"MA","MB","MC","MH","SECOND OP"
+		],
+		"female": [
+			"D","E","F","G","I"
+		],
+		"neutral": []
+	},
+	"aliases": {
+	}
+}

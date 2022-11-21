@@ -1,0 +1,345 @@
+{
+	"game": "Kingdom Hearts",
+	"series": "Kingdom Hearts",
+	"year": 2002,
+	"source": "https://transcripts.fandom.com/wiki/Kingdom_Hearts",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "not included"
+	},
+	"errorChecks": { 
+		"truePositive_numTestsDone": "10", 
+		"truePositive_numParsingErrors": "0", 
+		"truePositive_numSourceErrors": "1", 
+		"truePositive_notes": "As noted and expected, some optional text-based dialogue not captured.",
+
+ 		"falsePositive_numTestsDone": "5", 
+		"falsePositive_numErrors": "0", 
+		"falsePositive_notes": "No errors." 
+	}, 
+	"parserParameters": {
+		"parser":"KingdomHeartsParser",
+		"fileType":".html"
+	},
+	"mainPlayerCharacters": ["Sora", "Donald", "Goofy"],
+	"characterGroups": {
+		"male":[
+			"Sora", 
+			"Donald",
+			"Riku",
+			"Goofy",
+			"Leon",
+			"Pooh",
+			"Philoctetes",
+			"Ansem",
+			"Cid",
+			"Genie",
+			"Aladdin",
+			"Triton",
+			"Hades",
+			"Owl",
+			"Peter Pan",
+			"Piglet",
+			"Jafar",
+			"Rabbit",
+			"Jiminy", 
+			"Captain Hook",
+			"Tigger",
+			"Cheshire Cat",
+			"Pinocchio",
+			"Tarzan",
+			"Finkelstein",
+			"Sebastian",
+			"Beast",
+			"Clayton",
+			"Merlin",
+			"Hercules",
+			"Oogie Boogie",
+			"Cloud",
+			"Geppetto",
+			"Eeyore",
+			"Barrel",
+			"Mayor",
+			"Iago",
+			"Lock",
+			"Doorknob",
+			"White Rabbit",
+			"Roo",
+			"Jetsam",
+			"Flotsam",
+			"Mickey",
+			"Smee",
+			"Flounder",
+			"Tidus",
+			"Sephiroth",
+			"Chip",
+			"Wakka",
+			"Dale",
+			"Jack Skellington",
+			"Xemnas"
+			],
+		"female": [
+			"Kairi",
+			"Maleficent",
+			"Ariel",
+			"Aerith",
+			"Ursula",
+			"Queen of Hearts",
+			"Yuffie",
+			"Jane",
+			"Alice",
+			"Fairy Godmother",
+			"Jasmine",
+			"Cinderella",
+			"Aurora",
+			"Shock",
+			"Snow White",
+			"Wendy",
+			"Sally",
+			"Belle",
+			"Minnie",
+			"Selphie",
+			"Daisy",
+			"Grandmother",
+			"Sora's Mom"
+			],
+		"neutral": [
+			"Card Soldier",
+			"Moogle",
+			"Flower"
+			]
+	},
+	"aliases": {
+		"Hook": "Captain Hook",
+		"Snow Whtie": "Snow White",
+		"Sebstian": "Sebastian",
+		"Jack": "Jack Skellington",
+		"Donald & Goofy": ["Donald", "Goofy"],
+		"Sora & Donald": ["Sora", "Donald"],
+		"Sora & Goofy": ["Sora", "Goofy"],
+		"Flotsam & Jetsam":["Flotsam", "Jetsam"],
+		"Sora, Donald & Goofy": ["Sora", "Donald", "Goofy"],
+		"Donald & Sora": ["Donald", "Sora"],
+		"hades": "Hades",
+		"Voice": "Mickey",
+        "Ansem (in robed form)": "Ansem",
+        "Queen Of Hearts": "Queen of Hearts",
+        "Sora’S Mom": "Sora's Mom",
+		"ACTION": {"Donald":["\"Donald, Sorry to rush off without sayin' goodbye, but there's big trouble brewin'"]},
+		
+		"????": {
+			"Sora": [
+				"I've been having these weird thoughts lately... Like, is any of this for real or not?",
+				"Yes.",
+				"I can't open it...",
+				"Friendship.",
+				"To be strong.",
+				"Being indecisive.",
+				"Sounds good.",
+				"Whoa!",
+				"Gimme a break, Kairi."
+			],
+			"Leon":[
+				"Sora. You did it."
+			],
+			"Riku": [
+				"Hey!"
+			],
+			"Captain Hook": [
+				"And the brat's friends are the king's lackeys. Swoggle me eyes, they're all bilge rats by the look of them.",
+				"Shut up!",
+				"Just remember, this is no pleasure cruise. It won't be a pleasant voyage.",
+				"Not so fast. No shenanigans aboard my vessel, boy.",
+				"That scurvy brat thinks he can order me around!"
+			],
+			"Smee": [
+				"What shall we do, Captain Hook?",
+				"But, Captain, you-know-who is also down-"
+			],
+			"Philoctetes": [
+				"Good timing. Give me a hand, will ya? Move that pedestal over there for me.",
+				"I gotta spruce this place up for the games.",
+				"What? Too heavy? Since when have you been such a little-"
+			],
+			"Pooh": [
+				"Think, think. Think, think.",
+				"Nothing. Just thinking.",
+				"I was thinking of how to say goodbye to Pooh."
+			]
+		},
+		"???????": {
+			"Selphie": [
+				"What's most important to you?",
+				"Is friendship such a big deal?"
+			],
+			"Jasmine": [
+				"Who's there? Hello?",
+				"I'm Jasmine. My father is the sultan of Agrabah."
+			],
+			"Clayton": [
+				"Highly doubtful.",
+				"A circus of clowns. Not much use for hunting gorillas."
+			]
+		},
+		"?????": {
+			"Wakka": [
+				"What do you want outta life?",
+				"To be strong, huh?"
+			],
+			"Mickey":[
+				"Riku, can you hear me? I'll be there soon.","I have the other Keyblade-the one that belongs to this","I've been trying to get through to you, but the darkness in your heart kept me away.", "Your heart won the battle against the darkness", "The Door of Darkness will open soon, but it's a door we can't enter.", "Don't you feel the echoes of their hearts? You already know the answer."
+			],
+			"Tidus": [
+				"What are you so afraid of?",
+				"Being indecisive? Is that really so frightening?"
+			],
+			"Hades": [
+				"That little squirt took down that Heartless! Who'd have thought it?"
+			],
+			"Jafar": [
+				"Such is the power of the Keyblade. The child's strength is not his own.",
+				"What drew the Heartless to that world?",
+				"A weak-hearted fool like him stood no chance against the Heartless. But the boy is a problem. He found one of the Keyholes.",
+				"The Heartless are searching for it now. I'm certain we'll find it soon enough. So that just leaves..."
+			],
+			"Oogie Boogie": [
+				"You're no prize yourself.",
+				"Yeah, he got chomped instead!"
+			],
+			"Fairy Godmother": [
+				"Hello. I'm the Fairy Godmother. Your king asked me to help, too. I will assist throughout your journey."
+			],
+			"Ariel": [
+				"Come on, Sebastian!"
+			],
+			"Mayor": [
+				"And now, allow me to introduce..."
+			],
+			"Peter Pan": [
+				"Ahem!",
+				"How ya doin' there? Looking for a way out?",
+				"I'm the answer to your prayers.",
+				"Okay, then. Fine. Have it your way.",
+				"No. I'm just waiting for someone.",
+				"Tinker Bell, what took you so long?",
+				"Great job. So you found Wendy?",
+				"Hold on. There was another girl there, too?",
+				"Are you crazy? There's no way I'm gonna leave Wendy there!",
+				"Come on, Tink! Open up the door!",
+				"I'm Peter Pan."
+			],
+			"Wendy": [
+				"Peter? Peter Pan?"
+			],
+			"Ansem": [
+				"I've come to see the door to this world.",
+				"This world has been connected.",
+				"Tied to the darkness... Soon to be completely eclipsed.",
+				"You do not yet know what lies beyond the door.",
+				"There is so very much to learn. You understand so little.",
+				"A meaningless effort. One who knows nothing can understand nothing.",
+				"Know this.",
+				"The heart that is strong and true shall win the Keyblade.",
+				"For that instant, it was.",
+				"However, you can become stronger.",
+				"You showed no fear in stepping through the door to darkness. It held no terror for you. Plunge deeper into the darkness, and your heart will grow even stronger.",
+				"It's really quite simple. Open yourself to the darkness. That is all. Let your heart, your being become darkness itself."
+			]
+		},
+		"???": {
+			"Cid": [
+				"Hey there, how can I... Aw, it's only a kid.",
+				"Okay, okay, simmer down. So why the long face, Sora? You lost or somethin'?",
+				"Huh?",
+				"Don't call me gramps! The name's Cid!"
+			]
+		},
+		"??????": {
+			"Leon": [
+				"They'll come at you out of nowhere.",
+				"And they'll keep on coming at you, as long as you continue to wield the Keyblade.",
+				"But why? Why would it choose a kid like you?",
+				"Never mind. Now, let's see that Keyblade.",
+				"All right, then have it your way."
+			],
+			"Aerith": [
+				"Excuse me. Did the king send you?"
+			],
+			"Yuffie": [
+				"I'm the great ninja Yuffie.",
+				"Hey, you found it. Nice going, Leon."
+			],
+			"Ursula": [
+				"Why don't we turn him into a Heartless?",
+				"That'll settle things quick enough.",
+				"Yes, the princesses..."
+			],
+			"Tarzan": [
+				"Sabor, danger.",
+				"Thank you.",
+				"This place, this place.",
+				"Friends!",
+				"Look for Riku, friends?",
+				"Kairi, friends?",
+				"Friends here.",
+				"Tarzan. Tarzan go."
+			],
+			"Merlin": [
+				"Well, well.",
+				"You've arrived sooner than I expected.",
+				"Of course.",
+				"Oh, my. No. My name is Merlin. As you can see, I am a sorcerer. I spend much of my time traveling. It's good to be home. Your king has requested my help."
+			],
+			"Piglet": [
+				"Hello, i-is anyone there?",
+				"Wh-Wh-What am I to do? I'm all alone. (calling) Pooh? Pooh? Where are you? It's me, Piglet."
+			],
+			"Rabbit": [
+				"Nobody's home! And I'm out of honey!",
+				"That's right, Nobody!",
+				"No! No Rabbit here! There's no one here!"
+			],
+			"Tigger": [
+				"Hey, there! Name's Tigger! T-I-double-guh-RR. That spells Tigger!"
+			],
+			"Jiminy": [
+				"Over here!",
+				"Cricket's the name. Jiminy Cricket, at your service."
+			],
+			"Xemnas": [
+				"Ah, it seems you are special, too.",
+				"That name rings familiar.",
+				"You remind me of him.",
+				"It means you are not whole.",
+				"You are incomplete. Allow me-to test your strength.",
+				"Impressive.",
+				"This will be enjoyable.",
+				"It is beyond your comprehension, for now.",
+				"Until we meet again.",
+				"I am-",
+				"... but a mere shell."
+			]
+		},
+		"??????????": {
+			"Maleficent": [
+				"Enough.",
+				"The Keyblade has chosen him. Will it be he who conquers the darkness? Or will the darkness swallow him? Either way, he could be quite useful.",
+				"As you wish. Fight to your heart's content.",
+				"The hunter lured them there. It was his lust for power that was the bait. But it seems the bait was too tasty for his own good.",
+				"Fear not. It will take him ages to find the rest.",
+				"Besides, he remains blissfully unaware of our other plan.",
+				"They are falling into our hands, one by one. Speaking of which..."
+			]
+		},
+		"????????": {
+			"Geppetto": [
+				"What have you got there, Pinocchio?",
+				"Really? With this big block? You think so?",
+				"Oh, my. So the whale swallowed all of you, too? My goodness.",
+				"My name is Geppetto. I'm Pinocchio's father. When we got separated, I traveled all over, looking for him."
+			]
+		}
+	}
+}

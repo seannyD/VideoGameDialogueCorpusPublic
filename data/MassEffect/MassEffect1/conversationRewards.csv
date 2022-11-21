@@ -1,0 +1,535 @@
+Mission,Character,AutoGender,ShepardGender,Paragon,Renegade,Text
+Background and Psych Profile,"Starting Paragon and Renegade Points
+",,,20,,Spacer/War Hero 20 Paragon
+Background and Psych Profile,"Starting Paragon and Renegade Points
+",,,15,,Colonist/War Hero 15 Paragon
+Background and Psych Profile,"Starting Paragon and Renegade Points
+",,,10,,Earthborn/War Hero 10 Paragon
+Background and Psych Profile,"Starting Paragon and Renegade Points
+",,,15,5,"Spacer/Sole Survivor 15 Paragon, 5 Renegade"
+Background and Psych Profile,"Starting Paragon and Renegade Points
+",,,10,10,"Colonist/Sole Survivor 10 Paragon, 10 Renegade"
+Background and Psych Profile,"Starting Paragon and Renegade Points
+",,,5,15,"Earthborn/Sole Survivor 5 Paragon, 15 Renegade"
+Background and Psych Profile,"Starting Paragon and Renegade Points
+",,,,10,Spacer/Ruthless 10 Renegade
+Background and Psych Profile,"Starting Paragon and Renegade Points
+",,,,15,Colonist/Ruthless 15 Renegade
+Background and Psych Profile,"Starting Paragon and Renegade Points
+",,,,20,Earthborn/Ruthless 20 Renegade
+Prologue: Find the Beacon,"Joker and Kaidan
+",Joker::male; Kaidan::male,,2,,"2 Paragon for saying ""I agree."""
+Prologue: Find the Beacon,"Joker and Kaidan
+",Joker::male; Kaidan::male,,,2,"2 Renegade for saying ""Cut the chatter!"""
+Prologue: Find the Beacon,"Richard L. Jenkins and Doctor Chakwas
+",Richard L. Jenkins::male; Doctor Chakwas::female,,2,,"2 Paragon for saying ""Relax, Jenkins."""
+Prologue: Find the Beacon,"Richard L. Jenkins and Doctor Chakwas
+",Richard L. Jenkins::male; Doctor Chakwas::female,,,2,"2 Renegade for saying ""Part of the job, Doc."""
+Prologue: Find the Beacon,"First Contact
+",,,2,,"2 Paragon for saying ""He deserves a burial."""
+Prologue: Find the Beacon,"First Contact
+",,,,2,"2 Renegade for saying ""Forget about him."""
+Prologue: Find the Beacon,"Ashley Williams
+",Ashley Williams::female,,2,,"2 Paragon for saying ""Are you okay?""
+plus (be sure to ask Ashley what happened to her squad to get these options)"
+Prologue: Find the Beacon,"Ashley Williams
+",Ashley Williams::female,,2,,"2 Paragon for saying ""Don't blame yourself."""
+Prologue: Find the Beacon,"Ashley Williams
+",Ashley Williams::female,,,2,"2 Renegade for saying ""You abandoned them.""
+plus"
+Prologue: Find the Beacon,"Ashley Williams
+",Ashley Williams::female,,,2,"2 Renegade for saying ""Fine, come with us."" (Must first say ""Stay here."")"
+Prologue: Find the Beacon,"Manuel and Dr. Warren
+",Manuel::male; Dr. Warren::female,,2,,"2 Paragon for saying ""You're safe.""
+plus"
+Prologue: Find the Beacon,"Manuel and Dr. Warren
+",Manuel::male; Dr. Warren::female,,,9,9 Renegade for shutting up Manuel
+Prologue: Find the Beacon,"Cole and his fellow colonists
+",Cole::male,,2,,"2 Paragon for saying ""It's safe.""
+plus"
+Prologue: Find the Beacon,"Cole and his fellow colonists
+",Cole::male,,,2,"2 Renegade for Intimidating ""You're holding out on me."" need 1 Intimidate
+plus"
+Prologue: Find the Beacon,"Cole and his fellow colonists
+",Cole::male,,2,,"2 Paragon for Charming ""He may know something."" need 2 Charm"
+Prologue: Find the Beacon,"Cole and his fellow colonists
+",Cole::male,,,2,"2 Renegade for Intimidating ""Is he worth dying for?"" need 2 Intimidate"
+Prologue: Find the Beacon,"The Smuggler
+",,,2,,"2 Paragon for saying ""Let it go, Williams."" (Must have gotten Powell's name from the Farmers)
+plus"
+Prologue: Find the Beacon,"The Smuggler
+",,,,2,"2 Renegade for Intimidating ""You're lying!"" need 3 Intimidate"
+Prologue: Find the Beacon,"Kaidan back on the SSV Normandy (if Shepard is female)
+",SSV Normandy::,,2,,"2 Paragon for saying ""You helped."""
+Prologue: Find the Beacon,"Kaidan back on the SSV Normandy (if Shepard is female)
+",SSV Normandy::,,,2,"2 Renegade for saying ""The mission failed."""
+Prologue: Find the Beacon,"Ashley back on the Normandy
+",,,2,,"2 Paragon for saying ""You helped."""
+Prologue: Find the Beacon,"Ashley back on the Normandy
+",,,,2,"2 Renegade for saying ""The mission failed."""
+Citadel: Expose Saren,"Arrival at the Citadel
+",Citadel::,,,2,"2 Renegade for saying ""They're blind."""
+Citadel: Expose Saren,"Go to the Tower
+",,,2,,"2 Paragon for saying ""Quit protecting him!"""
+Citadel: Expose Saren,"Citadel: Garrus
+",Citadel: Garrus::,,2,,"2 Paragon for saying ""It was a big risk."""
+Citadel: Expose Saren,"Citadel: Garrus
+",Citadel: Garrus::,,,2,"2 Renegade for saying ""Nice shot."""
+Citadel: Expose Saren,"Take Down Fist (need charm/intimidate points, otherwise the workers will attack you no matter how fast you are)
+",Fist::,,2,,"2 Paragon for Charming ""Save yourselves."" need 3 Charm"
+Citadel: Expose Saren,"Take Down Fist (need charm/intimidate points, otherwise the workers will attack you no matter how fast you are)
+",Fist::,,,2,"2 Renegade for Intimidating ""You're making a mistake."" need 3 Intimidate
+plus"
+Citadel: Expose Saren,"Take Down Fist (need charm/intimidate points, otherwise the workers will attack you no matter how fast you are)
+",Fist::,,,2,"2 Renegade for saying ""You don't deserve to live."" (if Wrex isn't in the squad)"
+Citadel: Expose Saren,"Take Down Fist (need charm/intimidate points, otherwise the workers will attack you no matter how fast you are)
+",Fist::,,,2,"2 Renegade for saying ""He deserved it."" (if Wrex is in the squad)"
+Citadel: Expose Saren,"Return to the Tower
+",,,2,,"2 Paragon for saying ""It's the best solution."""
+Citadel: Expose Saren,"Return to the Tower
+",,,,2,"2 Renegade for saying ""Quit holding us back!"""
+Citadel: Expose Saren,"Speak to the Ambassador
+",,,2,,"2 Paragon for saying ""I'll be careful."""
+Citadel: Expose Saren,"Speak to the Ambassador
+",,,,2,"2 Renegade for saying ""That's your job."""
+Citadel: Expose Saren,"Departing Speech
+",,,2,,"2 Paragon for saying ""Humanity must do its part."""
+Citadel: Expose Saren,"Departing Speech
+",,,,2,"2 Renegade for saying ""Nobody's going to help us.""
+plus"
+Citadel: Expose Saren,"Departing Speech
+",,,2,,"2 Paragon for saying ""Everyone is counting on us."""
+Citadel: Expose Saren,"Departing Speech
+",,,,2,"2 Renegade for saying ""Humanity's in this alone!"""
+Citadel: Expose Saren,"Navigator Pressly
+Note: You can choose both responses only if you choose the Paragon response first.
+",Navigator Pressly::male,,2,,"2 Paragon for saying ""They're on our side.""
+plus"
+Citadel: Expose Saren,"Navigator Pressly
+Note: You can choose both responses only if you choose the Paragon response first.
+",Navigator Pressly::male,,,2,"2 Renegade for saying ""You doubt my decisions?"""
+Citadel: Assignments,Citadel: Asari Consort,Citadel: Asari Consort::,,2,,"2 Paragon for saying ""Glad to help."""
+Citadel: Assignments,Citadel: Asari Consort,Citadel: Asari Consort::,,,2,"2 Renegade for saying ""Let's talk payment."""
+Citadel: Assignments,Citadel: Doctor Michel,Citadel: Doctor Michel::,,2,,"2 Paragon for saying ""Let's work this out."""
+Citadel: Assignments,Citadel: Doctor Michel,Citadel: Doctor Michel::,,8,,"8 Paragon for Charming ""You should reconsider."" need 6 Charm"
+Citadel: Assignments,Citadel: Doctor Michel,Citadel: Doctor Michel::,,,2,"2 Renegade for saying ""Kill him."""
+Citadel: Assignments,Citadel: Doctor Michel,Citadel: Doctor Michel::,,,9,"9 Renegade for Intimidating ""Talk and you're dead!"" need 3 Intimidate"
+Citadel: Assignments,"3rd encounter:
+",,,8,,"8 Paragon for Charming ""It's not that easy,"" ""There are other fights,"" or ""Let's talk about trust."" need 2 Charm"
+Citadel: Assignments,"3rd encounter:
+",,,,9,"9 Renegade for Intimidating ""That's a load of crap,"" ""There are no good fights,"" or ""Here's a test."" need 2 Intimidate"
+Citadel: Assignments,"Clerk Bosker
+",,,8,,"8 Paragon for Charming ""This isn't right."" need 2 Charm"
+Citadel: Assignments,"Clerk Bosker
+",,,,9,"9 Renegade for Intimidating ""I'm releasing the body."" need 2 Intimidate"
+Citadel: Assignments,"Explanation to Samesh if his wife's body isn't released
+",,,8,,"8 Paragon for Charming ""This is important."" need 3 Charm"
+Citadel: Assignments,"Explanation to Samesh if his wife's body isn't released
+",,,,9,"9 Renegade for Intimidating ""This is war."" need 3 Intimidate"
+Citadel: Assignments,"To Chorban in the Markets:
+",Chorban::,,,9,"9 Renegade for saying ""You're not leaving."" (not previously received ""Citadel: Scan the Keepers"" from Chorban)"
+Citadel: Assignments,"To Chorban in the Markets:
+",Chorban::,,8,,"8 Paragon for saying ""No more."" (previously received ""Citadel: Scan the Keepers"" from Chorban)
+plus"
+Citadel: Assignments,"To Jahleed at C-Sec Academy:
+",Jahleed::masculine,,8,,"8 Paragon for Charming ""Then do it legally."" need 7 Charm"
+Citadel: Assignments,"To Jahleed at C-Sec Academy:
+",Jahleed::masculine,,,2,"2 Renegade for Intimidating ""Take it back!"" need 6 Intimidate"
+Citadel: Assignments,"To the hanar:
+",,,8,,"8 Paragon for Charming ""This is unworthy of you."" need 4 Charm"
+Citadel: Assignments,"To the hanar:
+",,,,9,"9 Renegade for Intimidating ""This is dangerous."" need 4 Intimidate"
+Citadel: Assignments,"To the officer:
+",,,8,,"8 Paragon for Charming ""It's not causing trouble."" need 7 Charm"
+Citadel: Assignments,"To the officer:
+",,,,9,"9 Renegade for Intimidating ""There's trouble anyway."" need 6 Intimidate"
+Citadel: Assignments,"If previously spoken to Emily Wong before dealing with Fist:
+",Emily Wong::female; Fist::,,,2,"2 Renegade for Intimidating ""You owe me more."" need 2 Intimidate"
+Citadel: Assignments,Citadel: Rita's Sister,Citadel: Rita's Sister::,,2,,"2 Paragon for Charming ""You don't need her."" need 7 Charm"
+Citadel: Assignments,Citadel: Rita's Sister,Citadel: Rita's Sister::,,,2,"2 Renegade for Intimidating ""Pathetic."" need 6 Intimidate
+plus"
+Citadel: Assignments,Citadel: Rita's Sister,Citadel: Rita's Sister::,,8,,8 Paragon for returning the shipment to Chellick
+Citadel: Assignments,Citadel: Rita's Sister,Citadel: Rita's Sister::,,,9,9 Renegade for fighting Jax
+Citadel: Assignments,Citadel: Xeltan's Complaint,Citadel: Xeltan's Complaint::,,2,,"2 Paragon for saying ""Don't worry."""
+Citadel: Assignments,UNC: Hostile Takeover,UNC: Hostile Takeover::,,8,,"8 Paragon for saying ""No. I won't do this."""
+Citadel: Assignments,UNC: Hostile Takeover,UNC: Hostile Takeover::,,,2,"2 Renegade for saying ""Not a problem"" or ""I'll do it""
+plus"
+Citadel: Assignments,UNC: Hostile Takeover,UNC: Hostile Takeover::,,2,,"2 Paragon for saying ""You're under arrest."""
+Citadel: Assignments,UNC: Hostile Takeover,UNC: Hostile Takeover::,,8,,"8 Paragon for Charming ""Walk away."" need 10 Charm"
+Citadel: Assignments,UNC: Hostile Takeover,UNC: Hostile Takeover::,,,2,"2 Renegade for saying ""Then we're fine."""
+Citadel: Assignments,UNC: Hostile Takeover,UNC: Hostile Takeover::,,,2,"2 Renegade for saying ""You better stay clean."""
+Citadel: Assignments,UNC: Hostile Takeover,UNC: Hostile Takeover::,,,9,"9 Renegade for Intimidating ""Disband the group."" need 7 Intimidate"
+Citadel: Assignments,UNC: Privateers,UNC: Privateers::,,2,,"2 Paragon for saying ""I'll do it."""
+Citadel: Assignments,UNC: Privateers,UNC: Privateers::,,,2,"2 Renegade for saying ""Forget it.""
+plus"
+Citadel: Assignments,UNC: Privateers,UNC: Privateers::,,2,,"2 Paragon for saying ""This must be hard on you."""
+Citadel: Assignments,UNC: Privateers,UNC: Privateers::,,,2,"2 Renegade for saying ""You were fooling yourself."""
+Citadel: Assignments (after 1 plot world),Citadel: Family Matter,Citadel: Family Matter::,,8,,"8 Paragon for Charming ""It's still her choice."" need 2 Charm"
+Citadel: Assignments (after 1 plot world),Citadel: Family Matter,Citadel: Family Matter::,,8,,"8 Paragon for Charming ""It's worth it."" need 3 Charm"
+Citadel: Assignments (after 1 plot world),Citadel: Family Matter,Citadel: Family Matter::,,,9,"9 Renegade for Intimidating ""You're not helping."" need 3 Intimidate"
+Citadel: Assignments (after 1 plot world),Citadel: Family Matter,Citadel: Family Matter::,,,9,"9 Renegade for Intimidating ""Think of the child."" need 2 Intimidate"
+Citadel: Assignments (after 1 plot world),Citadel: Planting a Bug,Citadel: Planting a Bug::,,2,,"2 Paragon for saying ""It's a good cause."" or ""You're welcome."""
+Citadel: Assignments (after 1 plot world),Citadel: Planting a Bug,Citadel: Planting a Bug::,,8,,"8 Paragon for Charming ""I've changed my mind."" need 4 Charm"
+Citadel: Assignments (after 1 plot world),Citadel: Planting a Bug,Citadel: Planting a Bug::,,,9,"9 Renegade for Intimidating ""[LIE] I already did it."" need 5 Intimidate"
+Citadel: Assignments (after 1 plot world),Citadel: The Fourth Estate,Citadel: The Fourth Estate::,,2,,"2 Paragon for saying ""This interview is over."""
+Citadel: Assignments (after 1 plot world),Citadel: The Fourth Estate,Citadel: The Fourth Estate::,,8,,"8 Paragon for Charming ""The turians helped build it."" then ""The crew is still Alliance."" need 6 Charm"
+Citadel: Assignments (after 1 plot world),Citadel: The Fourth Estate,Citadel: The Fourth Estate::,,,2,"2 Renegade for saying ""Time to shut you up."""
+Citadel: Assignments (after 1 plot world),Citadel: The Fourth Estate,Citadel: The Fourth Estate::,,2,9,"9 Renegade for Intimidating ""A great human innovation."" then ""I command the Normandy."" need 5 Intimidate (Note: If you then use ""This interview is over."" or ""Time to shut you up."" for the next question, you do not get these points, only the above given 2 Paragon or 2 Renegade, respectively. The 2 Paragon or 2 Renegade points are awarded immediately at the end of the interview, however the points for Intimidating/Charming aren't awarded until speaking with Admiral Hackett at the Normandy's Galaxy Map."
+Citadel: Assignments (after 1 plot world),Citadel: Snap Inspection,Citadel: Snap Inspection::,,2,,"2 Paragon for Charming ""We need to build bridges."" need 9 Charm"
+Citadel: Assignments (after 1 plot world),Citadel: Snap Inspection,Citadel: Snap Inspection::,,,2,"2 Renegade for Intimidating ""We need to kick ass."" need 9 Intimidate"
+Citadel: Assignments (after 1 plot world),Citadel: Snap Inspection,Citadel: Snap Inspection::,,,2,"2 Renegade for saying ""I don't think so,"" then ""I'm afraid so."" or ""Damn right I did."""
+Citadel: Assignments (after 1 plot world),"Note: This assignment can be completed if Shepard goes directly to Sharjila, thus skipping this section's requirement of having finished one mission.
+",Sharjila::,,2,,"2 Paragon for saying ""Don't bother."""
+Citadel: Assignments (after 1 plot world),"Note: This assignment can be completed if Shepard goes directly to Sharjila, thus skipping this section's requirement of having finished one mission.
+",Sharjila::,,,2,"2 Renegade for saying ""It better be."""
+After 2 Plot Worlds,"After 2 plot worlds the Council contacts you
+",,,2,,"2 Paragon for saying ""Good.""
+plus"
+After 2 Plot Worlds,"After 2 plot worlds the Council contacts you
+",,,,2,"2 Renegade for saying ""I don't have time for this."" then ""This is my investigation!"""
+Noveria: Geth Interest,"Port Hanshan Docking Bay
+",,,2,,"2 Paragon for saying ""We'll cooperate.""
+plus"
+Noveria: Geth Interest,"Port Hanshan Docking Bay
+",,,,2,"2 Renegade for saying ""I'm keeping my gun."""
+Noveria: Geth Interest,"Talking with Maeko Matsuo after speaking with Gianna Parasini
+",Maeko Matsuo::female; Gianna Parasini::female,,2,,"2 Paragon for saying ""Forget about it."""
+Noveria: Geth Interest,"Talking with Maeko Matsuo after speaking with Gianna Parasini
+",Maeko Matsuo::female; Gianna Parasini::female,,,2,"2 Renegade for saying ""Humiliating, wasn't it?"""
+Noveria: Geth Interest,"You need either 6 Charm or 4 Intimidate to get Opold to tell you who the recipient is before you can sell it to Inamorda
+",Opold::; Inamorda::,,,2,2 Renegade for selling the package directly to Inamorda
+Noveria: Geth Interest,Noveria: Espionage,Noveria: Espionage::,,8,,"Refuse the job
+8 Paragon for saying ""Not this time."" (ends the mission)"
+Noveria: Geth Interest,Noveria: Espionage,Noveria: Espionage::,,8,,"8 Paragon for saying ""Not this time."" (ends the mission)"
+Noveria: Geth Interest,Noveria: Espionage,Noveria: Espionage::,,2,2,"Take the job
+2 Paragon for saying ""This is wrong.""
+2 Renegade for saying ""It's done."""
+Noveria: Geth Interest,Noveria: Espionage,Noveria: Espionage::,,2,,"2 Paragon for saying ""This is wrong."""
+Noveria: Geth Interest,Noveria: Espionage,Noveria: Espionage::,,,2,"2 Renegade for saying ""It's done."""
+Noveria: Geth Interest,Noveria: Espionage,Noveria: Espionage::,,2,2,"Tell Rafael Vargas ""An asari asked me to spy.""
+2 Paragon for saying ""I told him about you.""
+2 Renegade for saying ""You're both irritating.""
+9 Renegade for saying ""[LIE] It's done"""
+Noveria: Geth Interest,Noveria: Espionage,Noveria: Espionage::,,2,,"2 Paragon for saying ""I told him about you."""
+Noveria: Geth Interest,Noveria: Espionage,Noveria: Espionage::,,,2,"2 Renegade for saying ""You're both irritating."""
+Noveria: Geth Interest,Noveria: Espionage,Noveria: Espionage::,,,9,"9 Renegade for saying ""[LIE] It's done"""
+Noveria: Geth Interest,"Synthetic Insights break-in
+",Synthetic Insights::,,8,,"8 Paragon for Charming ""You're here illegally."" need 6 Charm"
+Noveria: Geth Interest,"Synthetic Insights break-in
+",Synthetic Insights::,,,9,"9 Renegade for Intimidating ""You can't take us."" need 8 Intimidate"
+Noveria: Geth Interest,"Confrontation with Kaira Stirling
+",Kaira Stirling::,,2,,"2 Paragon for saying ""They didn't give me a choice."""
+Noveria: Geth Interest,"Confrontation with Kaira Stirling
+",Kaira Stirling::,,,2,"2 Renegade for saying ""Bring it on."""
+Noveria: Geth Interest,"Convincing Lorik Qui'in to testify
+",Lorik Qui'in::male,,24,,"24 Paragon for Charming ""You'd be a hero."" need 5 Charm"
+Noveria: Geth Interest,"Convincing Lorik Qui'in to testify
+",Lorik Qui'in::male,,,25,"25 Renegade for Intimidating ""Damn right I will."" need 5 Intimidate"
+Noveria: Geth Interest,"Talk to Administrator Anoleis
+",Administrator Anoleis::male,,,25,"25 Renegade for saying ""Gianna is investigating you."""
+Noveria: Geth Interest,"Talk to Administrator Anoleis
+",Administrator Anoleis::male,,,9,"After saying ""No. You're guilty"" or ""What do I get out of this?""
+9 Renegade for making a deal with Anoleis"
+Noveria: Geth Interest,"Talk to Administrator Anoleis
+",Administrator Anoleis::male,,,9,9 Renegade for making a deal with Anoleis
+Noveria: Geth Interest,"Talk to Gianna if you don't make a deal with Anoleis or were able to keep the evidence
+",,,8,,"8 Paragon for saying ""I convinced Qui'in.""
+plus talk to Matsuo"
+Noveria: Geth Interest,"Talk to Gianna if you don't make a deal with Anoleis or were able to keep the evidence
+",,,2,,"2 Paragon for saying ""He was a criminal."""
+Noveria: Geth Interest,"Talk to Gianna if you don't make a deal with Anoleis or were able to keep the evidence
+",,,,2,"2 Renegade for saying ""Your opinion doesn't matter."""
+Noveria: Matriarch Benezia,"Talking to Captain Ventralis
+",Captain Ventralis::,,2,,"2 Paragon for saying ""I'll see what I can do."""
+Noveria: Matriarch Benezia,"Talking to Captain Ventralis
+",Captain Ventralis::,,,2,"2 Renegade for saying ""I'm not here to help.""
+plus"
+Noveria: Matriarch Benezia,"Talking to Captain Ventralis
+",Captain Ventralis::,,2,,"2 Paragon for saying ""No problem."""
+Noveria: Matriarch Benezia,"Talking to Captain Ventralis
+",Captain Ventralis::,,,2,"2 Renegade for running without fighting and saying ""You're welcome."" or ""You couldn't handle it?"""
+Noveria: Matriarch Benezia,"The Rachni Queen
+",Rachni Queen::female,,24,,24 Paragon for letting her go
+Noveria: Matriarch Benezia,"The Rachni Queen
+",Rachni Queen::female,,,25,25 Renegade for killing her
+Noveria: Matriarch Benezia,"Report to the Council
+",,,2,2,"Queen freed:
+2 Paragon for saying ""They won't.""
+2 Renegade for saying ""Should I guess?""
+2 Paragon for saying ""Not these ones."""
+Noveria: Matriarch Benezia,"Report to the Council
+",,,2,,"2 Paragon for saying ""They won't."""
+Noveria: Matriarch Benezia,"Report to the Council
+",,,2,2,"2 Renegade for saying ""Should I guess?""
+2 Paragon for saying ""Not these ones."""
+Noveria: Matriarch Benezia,"Report to the Council
+",,,2,,"2 Paragon for saying ""Not these ones."""
+Noveria: Matriarch Benezia,"Report to the Council
+",,,2,2,"Queen killed:
+2 Paragon for saying ""It was the only way.""
+2 Renegade for saying ""Sometimes."""
+Noveria: Matriarch Benezia,"Report to the Council
+",,,2,,"2 Paragon for saying ""It was the only way."""
+Noveria: Matriarch Benezia,"Report to the Council
+",,,,2,"2 Renegade for saying ""Sometimes."""
+Noveria: Matriarch Benezia,Noveria: Quarantine,Noveria: Quarantine::,,24,,24 Paragon for completing the mission
+Feros: Geth Attack,"Inform Fai Dan
+",Fai Dan::male,,2,,"2 Paragon for saying ""Happy to help."""
+Feros: Geth Attack,"Inform Fai Dan
+",Fai Dan::male,,,2,"2 Renegade for saying ""I didn't do it for you."""
+Feros: Geth Attack,"Talking to Calantha Blake
+",Calantha Blake::,,2,,"2 Paragon for saying ""What's wrong?"""
+Feros: Geth Attack,"Talking to Calantha Blake
+",Calantha Blake::,,,2,"2 Renegade for saying ""I hope you're not contagious."""
+Feros: Geth Attack,"Talking to Ian Newstead in the tunnels
+",Ian Newstead::,,2,,"2 Paragon for saying ""Can I help?"""
+Feros: Geth Attack,"Talking to Ian Newstead in the tunnels
+",Ian Newstead::,,,2,"2 Renegade for saying ""Kill him."""
+Feros: Geth Attack,Feros: Geth in the Tunnels,Feros: Geth in the Tunnels::,,8,,8 Paragon for completing the mission
+Feros: Geth Attack,Feros: Power Cells,Feros: Power Cells::,,8,,8 Paragon for completing the mission
+Feros: Geth Attack,Feros: Varren Meat,Feros: Varren Meat::,,8,,8 Paragon for completing the mission
+Feros: Geth Attack,Feros: Varren Meat,,,,2,"2 Renegade for saying ""Just pay up."""
+Feros: Geth Attack,Feros: Water Restoration,Feros: Water Restoration::,,8,,8 Paragon for completing the mission
+Feros: The Thorian,"Exit ExoGeni
+",,,2,,"2 Paragon for saying ""I believe you,"""
+Feros: The Thorian,"Exit ExoGeni
+",,,,2,"2 Renegade for saying ""I don't care."""
+Feros: The Thorian,"Speak with Jeong
+",,,24,,"24 Paragon for Charming ""What about the big picture?"" need 12 Charm"
+Feros: The Thorian,"Speak with Jeong
+",,,2,25,"25 Renegade for Intimidating ""I'll kill you first."" need 10 Intimidate
+2 Paragon for saying ""Sounds logical.""
+2 Renegade for saying ""Can't take that chance."""
+Feros: The Thorian,"Speak with Jeong
+",,,2,,"2 Paragon for saying ""Sounds logical."""
+Feros: The Thorian,"Speak with Jeong
+",,,,2,"2 Renegade for saying ""Can't take that chance."""
+Feros: The Thorian,"Speak with Jeong
+",,,2,,2 Paragon for accepting the grenades
+Feros: The Thorian,"Speak with Jeong
+",,,,2,"2 Renegade for saying ""No."" (you still get the grenades)"
+Feros: The Thorian,"Minimize Casualties (16)
+",,,32,,2-32 Paragon 2 for each colonist saved
+Feros: The Thorian,"Minimize Casualties (16)
+",,,,32,2-32 Renegade 2 for each colonist killed
+Feros: The Thorian,"The Thorian
+",Thorian::,,2,,"2 Paragon for saying ""Let the colonists go."""
+Feros: The Thorian,"The Thorian
+",Thorian::,,,2,"2 Renegade for saying ""I'll destroy you.""
+plus"
+Feros: The Thorian,"The Thorian
+",Thorian::,,8,,8 Paragon for mission completion
+Feros: The Thorian,"Shiala
+",Shiala::feminine,,,9,"9 Renegade for saying ""I can't let you live."""
+Feros: The Thorian,"Report to the Council
+",,,2,,"2 Paragon for saying ""I help everyone."""
+Feros: The Thorian,"Report to the Council
+",,,2,2,"2 Renegade for saying ""Don't be stupid!""
+2 Paragon for saying ""I understood it.""
+2 Paragon for saying ""I help everyone."" (if you saved the colonists) or ""I wanted to help them."" (if you killed the colonists)"
+Feros: The Thorian,"Report to the Council
+",,,2,,"2 Paragon for saying ""I understood it.""
+2 Paragon for saying ""I help everyone."" (if you saved the colonists) or ""I wanted to help them."" (if you killed the colonists)"
+Feros: The Thorian,"Report to the Council
+",,,2,,"2 Paragon for saying ""I help everyone."" (if you saved the colonists) or ""I wanted to help them."" (if you killed the colonists)"
+Feros: The Thorian,"Ambassador Donnel Udina's Reaction at the Presidium
+",Donnel Udina::male; Presidium::,,2,,"2 Paragon for saying ""That's all you care about?"""
+Feros: The Thorian,"Ambassador Donnel Udina's Reaction at the Presidium
+",Donnel Udina::male; Presidium::,,,2,"2 Renegade for saying ""They were expendable."""
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,28,9,"Calm Wrex
+28 Paragon for Charming ""These aren't your people!"" need 8 Charm
+28 Paragon for saying ""I wouldn't do this otherwise."" or ""We are."" (must complete Wrex: Family Armor)
+9 Renegade for Intimidating ""Don't be so naïve."" need 8 Intimidate"
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,28,,"28 Paragon for Charming ""These aren't your people!"" need 8 Charm"
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,28,,"28 Paragon for saying ""I wouldn't do this otherwise."" or ""We are."" (must complete Wrex: Family Armor)"
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,,9,"9 Renegade for Intimidating ""Don't be so naïve."" need 8 Intimidate"
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,2,25,"Kill Wrex
+25 Renegade for ""[Shoot Wrex.]""
+plus
+2 Paragon for saying ""Damn it""
+8 Paragon for saying ""I'm in command."" (only available if Ashley shoots Wrex, without Shepard signaling her)
+plus (when speaking with Kirrahe afterwards)
+2 Paragon for saying ""He was my friend."" or ""He deserves respect.""
+2 Renegade for saying ""Dump him."""
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,,25,"25 Renegade for ""[Shoot Wrex.]""
+plus"
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,2,,"2 Paragon for saying ""Damn it"""
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,8,,"8 Paragon for saying ""I'm in command."" (only available if Ashley shoots Wrex, without Shepard signaling her)
+plus (when speaking with Kirrahe afterwards)"
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,2,,"2 Paragon for saying ""He was my friend."" or ""He deserves respect."""
+Virmire,Virmire: Wrex and the Genophage,Virmire: Wrex and the Genophage::,,,2,"2 Renegade for saying ""Dump him."""
+Virmire,Virmire: Assisting Kirrahe's Team,Virmire: Assisting Kirrahe's Team::,,2,,"2 Paragon for Disrupted Communications
+plus"
+Virmire,Virmire: Assisting Kirrahe's Team,Virmire: Assisting Kirrahe's Team::,,2,,"2 Paragon for Destroyed Satellite Uplink
+plus"
+Virmire,Virmire: Assisting Kirrahe's Team,Virmire: Assisting Kirrahe's Team::,,8,,"8 Paragon for Destroyed Geth Flyers
+plus The Alarm"
+Virmire,Virmire: Assisting Kirrahe's Team,Virmire: Assisting Kirrahe's Team::,,8,,"8 Paragon for saying ""They've got enough trouble."""
+Virmire,Virmire: Assisting Kirrahe's Team,Virmire: Assisting Kirrahe's Team::,,,9,"9 Renegade for saying ""They can handle it."""
+Virmire,"Cell Block B (Menos Avot)
+",Menos Avot::,,8,,"8 Paragon for saying ""All right. Let him out."""
+Virmire,"Cell Block B (Menos Avot)
+",Menos Avot::,,,2,"2 Renegade for saying ""No."" or ""Sorry. I can't risk it."""
+Virmire,"Cell Block A (Ganto Imness)
+",Ganto Imness::male,,2,,"2 Paragon for saying ""I think I can trust you."" or ""I'm letting you out."""
+Virmire,"Cell Block A (Ganto Imness)
+",Ganto Imness::male,,2,9,"9 Renegade for saying ""I can't trust you."" then ""Too risky.""
+2 Paragon for saying ""I think I can trust you."" or ""I'm letting you out.""
+plus"
+Virmire,"Cell Block A (Ganto Imness)
+",Ganto Imness::male,,2,,"2 Paragon for saying ""I think I can trust you."" or ""I'm letting you out."""
+Virmire,"Cell Block A (Ganto Imness)
+",Ganto Imness::male,,2,,"2 Paragon for saying ""They're no threat."""
+Virmire,"Cell Block A (Ganto Imness)
+",Ganto Imness::male,,,2,"2 Renegade for saying ""Open the door and kill them."" or ""Eliminate them."""
+Virmire,"Rana Thanoptis
+",Rana Thanoptis::feminine,,,9,"9 Renegade for saying ""Too late."""
+Virmire,"Make a Choice
+",,,2,,"2 Paragon for saying ""I'm sorry."""
+Virmire,"Make a Choice
+",,,,2,"2 Renegade for saying ""Of course it was."""
+Virmire,"Saren
+",Saren::,,2,2,"""It's already happened!"" or ""You are indoctrinated.""
+2 Paragon for Charming ""Join me."" need 7 Charm
+2 Renegade for Intimidating ""Sovereign will betray you."" need 7 Intimidate"
+Virmire,"Saren
+",Saren::,,2,,"2 Paragon for Charming ""Join me."" need 7 Charm"
+Virmire,"Saren
+",Saren::,,,2,"2 Renegade for Intimidating ""Sovereign will betray you."" need 7 Intimidate"
+Virmire,"Report to the Council
+",,,2,,"2 Paragon for saying ""You need proof?"""
+Virmire,"Report to the Council
+",,,2,2,"2 Renegade for saying ""Screw you!""
+2 Paragon for saying ""You have to trust me."""
+Virmire,"Report to the Council
+",,,2,,"2 Paragon for saying ""You have to trust me."""
+Race Against Time: Report to the Council,"""It's Just Politics""
+",,,,2,"2 Renegade for saying ""You son of a bitch."""
+Race Against Time: Report to the Council,Citadel: Negotiator's Request,Citadel: Negotiator's Request::,,8,,"8 Paragon for Charming ""You need help."" need 8 Charm"
+Race Against Time: Report to the Council,Citadel: Negotiator's Request,Citadel: Negotiator's Request::,,,2,"2 Renegade for Intimidating ""No. You'll go now."" need 7 Intimidate"
+Race Against Time: Report to the Council,Citadel: Negotiator's Request,Citadel: Negotiator's Request::,,2,,"2 Paragon for Charming ""Then the game is wrong."" or Intimidating ""Don't be an idiot."" and then selecting ""(Give him the stimulant.)"" need 4 Charm or 3 Intimidate, respectively"
+Race Against Time: Report to the Council,Citadel: Negotiator's Request,Citadel: Negotiator's Request::,,,9,"9 Renegade for ""(Give him the depressant.)"""
+Race Against Time: Report to the Council,Citadel: Our Own Worst Enemy,Citadel: Our Own Worst Enemy::,,2,,"2 Paragon for saying ""I won't support you."""
+Race Against Time: Report to the Council,Citadel: Our Own Worst Enemy,Citadel: Our Own Worst Enemy::,,,2,"2 Renegade for saying ""You have my support."""
+Ilos: Find the Conduit,"Enter the Archives
+",,,2,,"2 Paragon for saying ""That's monstrous!"" or ""You betrayed them."""
+Ilos: Find the Conduit,"Enter the Archives
+",,,,2,"2 Renegade for saying ""It was necessary."""
+Race Against Time: Final Battle,"Save the Citadel
+",,,24,,"24 Paragon for Charming ""That's not true."" need 12 Charm"
+Race Against Time: Final Battle,"Save the Citadel
+",,,,25,"25 Renegade for Intimidate ""It's never too late!"" need 12 Intimidate
+(both choices only require 9 points if you used a Charm / Intimidate option when speaking to Saren on Virmire)"
+Race Against Time: Final Battle,"The Council's Fate
+",,,8,9,"8 Paragon and 9 Renegade for saying ""Concentrate on Sovereign."""
+Race Against Time: Final Battle,"The Council's Fate
+",,,28,,"28 Paragon for saying ""Save the Council."""
+Race Against Time: Final Battle,"The Council's Fate
+",,,,29,"29 Renegade for saying ""Let the Council die."""
+Other Assignments,Tali and the Geth,Tali and the Geth::,,1,,"1 Paragon for saying ""All right."" or ""Take it."""
+Other Assignments,Tali and the Geth,Tali and the Geth::,,,1,"1 Renegade for saying ""I can't take that risk."""
+Other Assignments,UNC: Dead Scientists,UNC: Dead Scientists::,,8,,"8 Paragon for Charming ""This isn't Justice."" need 10 Charm"
+Other Assignments,UNC: Dead Scientists,UNC: Dead Scientists::,,,2,"2 Renegade for ""[Shoot him]"""
+Other Assignments,UNC: Dead Scientists,UNC: Dead Scientists::,,,9,"9 Renegade for Intimidating ""Let me do it."" need 8 Intimidate"
+Other Assignments,UNC: ExoGeni Facility,UNC: ExoGeni Facility::,,8,,"8 Paragon for saying ""I can't do that."""
+Other Assignments,UNC: ExoGeni Facility,UNC: ExoGeni Facility::,,,9,"9 Renegade for saying ""I should kill you right now!"""
+Other Assignments,UNC: Geth Incursions,UNC: Geth Incursions::,,,2,"2 Renegade for saying ""I don't have time for this!"""
+Other Assignments,UNC: Hades' Dogs,UNC: Hades' Dogs::,,8,,"8 Paragon for saying ""I don't trust you."" or ""No deal."""
+Other Assignments,UNC: Hades' Dogs,UNC: Hades' Dogs::,,,9,"9 Renegade for saying ""Sounds good."""
+Other Assignments,UNC: Hostage,UNC: Hostage::,,2,,"2 Paragon for saying ""You don't have to die."""
+Other Assignments,UNC: Hostage,UNC: Hostage::,,8,,"8 Paragon for Charming ""You need Burns!"" need 6 Charm"
+Other Assignments,UNC: Hostage,UNC: Hostage::,,,2,"2 Renegade for saying ""Take them down!"""
+Other Assignments,UNC: Hostage,UNC: Hostage::,,,9,"9 Renegade for Intimidating ""Don't be stupid."" need 5 Intimidate"
+Other Assignments,UNC: Lost Module,UNC: Lost Module::,,6,4,"6 Paragon for finding the data module without killing a space monkey
+4 Renegade for killing a space monkey outside"
+Other Assignments,UNC: Lost Module,UNC: Lost Module::,,,4,4 Renegade for killing a space monkey outside
+Other Assignments,UNC: Lost Module,UNC: Lost Module::,,,4,4 Renegade for killing a space monkey
+Other Assignments,UNC: Major Kyle,UNC: Major Kyle::,,2,,"2 Paragon for saying ""Maybe I can reason with him""
+plus"
+Other Assignments,UNC: Major Kyle,UNC: Major Kyle::,,2,,"2 Paragon for Charming ""He needs my help."" need 3 Charm"
+Other Assignments,UNC: Major Kyle,UNC: Major Kyle::,,,2,"2 Renegade for Intimidating ""He'll get you all killed!"" need 5 Intimidate
+plus"
+Other Assignments,UNC: Major Kyle,UNC: Major Kyle::,,2,,"2 Paragon for saying ""I tried to help you."""
+Other Assignments,UNC: Major Kyle,UNC: Major Kyle::,,8,,"8 Paragon for Charming ""You can't help them now."" need 7 Charm (or 8 Charm if opted to fight through the compound and bunker)"
+Other Assignments,UNC: Major Kyle,UNC: Major Kyle::,,,2,"2 Renegade for saying ""Enough crazy talk."""
+Other Assignments,UNC: Major Kyle,UNC: Major Kyle::,,,9,"9 Renegade for Intimidating ""Surrender or they all die!"" need 8 Intimidate (or 10 Intimidate if opted to fight through the compound and bunker)"
+Other Assignments,UNC: Rogue VI,UNC: Rogue VI::,,,2,"2 Renegade for saying ""I've heard that before.""
+plus"
+Other Assignments,UNC: Rogue VI,UNC: Rogue VI::,,2,,"2 Paragon for saying ""Was anyone hurt?"""
+X57: Bring Down the Sky,"Talking to Simon Atwell at Torch Station #1 Exit
+",Simon Atwell::male,,2,,"2 Paragon for saying ""They're not all like this."""
+X57: Bring Down the Sky,"Talking to Simon Atwell at Torch Station #1 Exit
+",Simon Atwell::male,,,2,"2 Renegade for saying ""Why wouldn't they?""
+or"
+X57: Bring Down the Sky,"Talking to Simon Atwell at Torch Station #1 Exit
+",Simon Atwell::male,,,2,"2 Renegade for saying ""That's no excuse."" after saying ""The Conventions don't apply."""
+X57: Bring Down the Sky,"Talking to Charn
+",Charn::,,8,,"8 Paragon for Charming ""Forget Balak."" need 2 Charm"
+X57: Bring Down the Sky,"Talking to Charn
+",Charn::,,8,,"8 Paragon for Intimidating ""Don't be stupid."" need 2 Intimidate"
+X57: Bring Down the Sky,"Talking to Charn
+",Charn::,,,9,"9 Renegade for ""[Attack him]"""
+X57: Bring Down the Sky,"Talking to Balak
+",Balak::,,24,,"24 Paragon for ""[Let him go to save hostages]""
+After saying ""I'm not like him."" to Simon Atwell
+2 Paragon for saying ""Only temporarily."""
+X57: Bring Down the Sky,"Talking to Balak
+",Balak::,,2,,"After saying ""I'm not like him."" to Simon Atwell
+2 Paragon for saying ""Only temporarily."""
+X57: Bring Down the Sky,"Talking to Balak
+",Balak::,,2,,"2 Paragon for saying ""Only temporarily."""
+X57: Bring Down the Sky,"Talking to Balak
+",Balak::,,,25,"25 Renegade for ""[Attack him]""
+[Leave him to die] or [Leave him for the alliance]
+After saying ""No one could've done better."" to Simon Atwell
+2 Renegade for saying ""Damn right I am.""
+2 Renegade for saying ""As hard as possible."""
+X57: Bring Down the Sky,"Talking to Balak
+",Balak::,,,2,"[Leave him to die] or [Leave him for the alliance]
+After saying ""No one could've done better."" to Simon Atwell
+2 Renegade for saying ""Damn right I am.""
+2 Renegade for saying ""As hard as possible."""
+X57: Bring Down the Sky,"Talking to Balak
+",Balak::,,,2,"After saying ""No one could've done better."" to Simon Atwell
+2 Renegade for saying ""Damn right I am.""
+2 Renegade for saying ""As hard as possible."""
+X57: Bring Down the Sky,"Talking to Balak
+",Balak::,,,2,"2 Renegade for saying ""Damn right I am."""
+X57: Bring Down the Sky,"Talking to Balak
+",Balak::,,,2,"2 Renegade for saying ""As hard as possible."""
+Alignment Specific Assignments,UNC: Besieged Base,UNC: Besieged Base::,,,2,"2 Renegade for saying ""That's not my problem."" (won't get the assignment)"
+Alignment Specific Assignments,UNC: Besieged Base,UNC: Besieged Base::,,8,,8 Paragon for 1-4 researchers killed
+Alignment Specific Assignments,UNC: Besieged Base,UNC: Besieged Base::,,24,,24 Paragon for 0 researchers killed
+Alignment Specific Assignments,UNC: Besieged Base,UNC: Besieged Base::,,,9,9 Renegade for 5+ researchers killed
+Alignment Specific Assignments,UNC: The Negotiation,UNC: The Negotiation::,,8,,8 Paragon for completing the mission peacefully
+Alignment Specific Assignments,UNC: The Negotiation,UNC: The Negotiation::,,,9,"9 Renegade for refusing to negotiate with Lord Darius and killing him and his men
+25 Renegade for completing the mission violently"
+Alignment Specific Assignments,UNC: The Negotiation,UNC: The Negotiation::,,,25,25 Renegade for completing the mission violently
+Background Specific Assignments,Citadel: I Remember Me (Colonist),Citadel: I Remember Me::; Colonist::male or female,,8,,"8 Paragon for ""[Give her the sedative.]"""
+Background Specific Assignments,Citadel: I Remember Me (Colonist),Citadel: I Remember Me::; Colonist::male or female,,,9,"9 Renegade for ""[Use the sedative]"""
+Background Specific Assignments,Citadel: I Remember Me (Colonist),Citadel: I Remember Me::; Colonist::male or female,,,9,"9 Renegade for saying ""Shoot her. That's an order."""
+Background Specific Assignments,Citadel: Old Friends (Earthborn),Citadel: Old Friends::; Earthborn::male or female,,2,9,"2 Paragon for saying ""I've got a warning."" or ""This changes things.""
+8 Paragon for Charming ""This won't help you."" need 6 Charm
+9 Renegade for Intimidating ""So what?"" or ""Do whatever you want."" need 6 Intimidate
+9 Renegade for ""(Shoot him.)"""
+Background Specific Assignments,Citadel: Old Friends (Earthborn),Citadel: Old Friends::; Earthborn::male or female,,8,,"8 Paragon for Charming ""This won't help you."" need 6 Charm"
+Background Specific Assignments,Citadel: Old Friends (Earthborn),Citadel: Old Friends::; Earthborn::male or female,,,9,"9 Renegade for Intimidating ""So what?"" or ""Do whatever you want."" need 6 Intimidate"
+Background Specific Assignments,Citadel: Old Friends (Earthborn),Citadel: Old Friends::; Earthborn::male or female,,,9,"9 Renegade for ""(Shoot him.)"""
+Background Specific Assignments,Citadel: Old Friends (Earthborn),Citadel: Old Friends::; Earthborn::male or female,,,9,"9 Renegade for Charming ""I need your help."" need 8 Charm"
+Background Specific Assignments,Citadel: Old Friends (Earthborn),Citadel: Old Friends::; Earthborn::male or female,,,9,"9 Renegade for Intimidating ""Make it negotiable."" or ""There won't be a sentencing."" or ""He's mine to take."" or ""I don't care. Give him to me."" need 8 Intimidate"
+Background Specific Assignments,"Citadel: Old, Unhappy, Far-Off Things (Spacer)","Citadel: Old, Unhappy, Far-Off Things::; Spacer::male or female",,2,,"2 Paragon for saying ""I'll give you the money."""
+Background Specific Assignments,"Citadel: Old, Unhappy, Far-Off Things (Spacer)","Citadel: Old, Unhappy, Far-Off Things::; Spacer::male or female",,8,2,"2 Renegade for saying ""You're just a drunk.""
+After talking to your mother
+8 Paragon for saying ""I'll give you 20 for food.""
+8 Paragon for Charming ""The Veteran's Affairs Office"" need 4 Charm
+2 Renegade for saying ""Screw you.""
+9 Renegade for Intimidating ""No one understands! Waaah!"" need 5 Intimidate"
+Background Specific Assignments,"Citadel: Old, Unhappy, Far-Off Things (Spacer)","Citadel: Old, Unhappy, Far-Off Things::; Spacer::male or female",,8,2,"After talking to your mother
+8 Paragon for saying ""I'll give you 20 for food.""
+8 Paragon for Charming ""The Veteran's Affairs Office"" need 4 Charm
+2 Renegade for saying ""Screw you.""
+9 Renegade for Intimidating ""No one understands! Waaah!"" need 5 Intimidate"
+Background Specific Assignments,"Citadel: Old, Unhappy, Far-Off Things (Spacer)","Citadel: Old, Unhappy, Far-Off Things::; Spacer::male or female",,8,,"8 Paragon for saying ""I'll give you 20 for food."""
+Background Specific Assignments,"Citadel: Old, Unhappy, Far-Off Things (Spacer)","Citadel: Old, Unhappy, Far-Off Things::; Spacer::male or female",,8,,"8 Paragon for Charming ""The Veteran's Affairs Office"" need 4 Charm"
+Background Specific Assignments,"Citadel: Old, Unhappy, Far-Off Things (Spacer)","Citadel: Old, Unhappy, Far-Off Things::; Spacer::male or female",,,2,"2 Renegade for saying ""Screw you."""
+Background Specific Assignments,"Citadel: Old, Unhappy, Far-Off Things (Spacer)","Citadel: Old, Unhappy, Far-Off Things::; Spacer::male or female",,,9,"9 Renegade for Intimidating ""No one understands! Waaah!"" need 5 Intimidate"

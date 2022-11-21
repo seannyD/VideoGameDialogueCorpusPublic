@@ -1,0 +1,6 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,TOTAL,9579,99245,33791,117875,-0.4294966547312349,103.37303932979337,6.563106545140411,525
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,6700,70452,23526,83526,-0.43232550981006135,103.4959470994398,6.581432326569315,350
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,2475,24977,8820,29662,-0.4722185421472087,103.49202355039654,6.49218022915958,127
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,genderless,200,1858,712,2199,-0.606613278746023,104.05961080840824,5.729060726164415,2
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,204,1958,731,2488,0.44869939034359163,96.61640173464929,7.607985975946309,46

@@ -1,0 +1,16 @@
+folder,series,game,from,to,frequency
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,-,-,30079
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,-,female,6204
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,female,playerChoice,350
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,playerChoice,-,2100
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,-,male,8636
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,male,-,15089
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,female,-,10830
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,-,playerChoice,3897
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,playerChoice,male,2188
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,male,playerChoice,612
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,playerChoice,female,1473
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,-,neutral,11
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,neutral,-,11
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,female,male,5
+../data/MassEffect/MassEffect2/,Mass Effect,Mass Effect 2,male,female,8

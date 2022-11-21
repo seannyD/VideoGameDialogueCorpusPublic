@@ -1,0 +1,6 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/StardewValley/StardewValley/,False,Stardew Valley,Stardew Valley,TOTAL,4991,53870,15560,64438,-0.12491136306914363,102.12449866275713,5.947651431681431,40
+../data/StardewValley/StardewValley/,False,Stardew Valley,Stardew Valley,playerChoice,127,745,270,900,-0.25885533184190734,101.83300956997266,6.48627201093711,1
+../data/StardewValley/StardewValley/,False,Stardew Valley,Stardew Valley,male,2606,28967,8716,34756,-0.1356553949927637,101.95457088430042,6.021001650294626,24
+../data/StardewValley/StardewValley/,False,Stardew Valley,Stardew Valley,female,2233,23900,6505,28449,-0.11115243825959276,102.40347370706151,5.837080391973988,14
+../data/StardewValley/StardewValley/,False,Stardew Valley,Stardew Valley,undefined,25,258,67,333,1.142023602915657,93.73346928149948,6.520365231979636,1

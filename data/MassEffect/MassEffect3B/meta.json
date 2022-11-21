@@ -1,0 +1,48 @@
+{
+	"game": "Mass Effect 3",
+	"series": "Mass Effect",
+	"year": 2012,
+	"alternativeMeasure": true,
+	"source": "http://mod.gib.me/masseffect3/testdump2.txt",
+	"parserParameters": {
+		"parser":"MassEffect3GibbedParser",
+		"fileType": "testdump2.txt"
+	},
+	"mainPlayerCharacters": ["Shepard"],
+	"characterGroups": {
+		"male":[
+		],
+		"female":[
+		
+				],
+		"neutral":[
+				
+				]
+	},
+		"aliases":{
+			"CHECK.[bioa_cat002_050shuttle_loc_int.cat002_shuttle_ride_m_d.1": "Liara T'soni",
+			"CHECK.bioa_cat002_050shuttle_loc_int.gthn7a_shuttle_down_m_D.1":"Admiral Xen",
+			"CHECK.biod_citsam_500cell_loc_int.citsam_logs_dead_commando_a_D.1": "Tashya Porae",
+			"CHECK.biod_nor_110tour_loc_int.norpro_tour_m_D.1": "Samantha Traynor",
+			"CHECK.biod_kro001_90openingconvo_loc_int.kro001_base_intro_m_D.1": "Padok Wiks",
+			"CHECK.biod_cat002_100intro_loc_int.cat002_soldier_m_d.1": "Lieutenant Kurin",
+			"CHECK.biod_nor_204gth001_intro_loc_int.norgth_campaign_intro_m_D.1": "Admiral Shala'Raan vas Tonbay",
+			"CHECK.biod_omgjck_340orionconvo_loc_int.omgjck_meet_student_m_d.1": "Ensign Prangley",
+			"CHECK.bioa_cithub_presidium_global_loc_int.citprs_news_ann_a_D.1": "Iris Dunnigan",
+			"CHECK.biod_cithub_embassy_loc_int.citprs_news_ann_a_D.1": "Iris Dunnigan",
+			"CHECK.bioa_gthn7a_000leveltrans_loc_int.gthn7a_shuttle_down_m_D.1": "Admiral Xen",
+			"CHECK.biod_citsam_700entryway_loc_int.citsam_logs_matriarch_a_D.1": "Gallae",
+			"CHECK.biod_gthn7a_430end_loc_int.gthn7a_rescue_endings_v_D.1": "Admiral Zaal'Koris",
+			"CHECK.biod_kro001_100landingarea_loc_int.kro001_elevator_m_D.1": "Senior Research Director Wiks",
+			"CHECK.biod_kron7a_050start_loc_int.kron7a_level01_v_D.1": "Lieutenant Tarquin Victus",
+			"CHECK.biod_gth002_100landingzone_loc_int.gth002_radioreact0_a_D.1": "Admiral Han'Gerrel",
+			"CHECK.biod_gth002_300chase_loc_int.gth002_turret_askhelp_a_D.1": "Admiral Han'Gerrel",
+			"CHECK.biod_krogar_500gate_loc_int.krogar_after_the_bigbrute_m_D.1": "Corinthus",
+			"CHECK.biod_nor_204bhackett_loc_int.norcer_jcb_wrap_vid_v_D.1": "Admiral Hackett",
+			
+			"citsam_falere": "Falere",
+			
+			"Jeff \"Joker\" Moreau": "Joker"
+
+					}
+}

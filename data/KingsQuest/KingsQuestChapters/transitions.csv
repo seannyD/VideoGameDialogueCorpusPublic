@@ -1,0 +1,11 @@
+folder,series,game,from,to,frequency
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,-,-,6
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,-,male,4
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,male,female,339
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,female,male,341
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,male,male,803
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,female,female,34
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,male,-,5
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,-,female,2
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,female,neutral,1
+../data/KingsQuest/KingsQuestChapters/,King's Quest,King's Quest Chapters,neutral,female,1

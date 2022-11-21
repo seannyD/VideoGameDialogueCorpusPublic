@@ -1,0 +1,2627 @@
+{
+	"game": "Final Fantasy X",
+	"series": "Final Fantasy",
+	"year": 2001,
+	"source": "http://auronlu.istad.org/ffx-script/",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "not included"
+	},
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "0",
+		"truePositive_notes": "Previous issues fixed.",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "N/A"
+	},
+	"parserParameters": {
+		"parser": "FF10ParserB",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Tidus", "Wakka", "Lulu", "Auron", "Rikku", "Kimahri", "Yuna"],
+	"characterGroups": {
+		"male": [
+			"\"Old Coot\"",
+			"1st harpooner",
+			"2nd harpooner",
+			"A not-so-handyman",
+			"Abus",
+			"Adult Crusader (back by the data console)",
+			"Adult Ronso",
+			"Al Bhed Child (orange pants)",
+			"Al Bhed in blue cap",
+			"Al Bhed in brown vest",
+			"Al Bhed in command center",
+			"Al Bhed in red vest",
+			"Al Bhed (Navigator)",
+			"Another guy in yellow pants",
+			"Yet Another guy in yellow pants",
+			"Argai Ronso",
+			"Artillery officer in yellow",
+			"Aurochs fan",
+			"Auron",
+			"Bahamut's Fayth",
+			"Barechested man in shorts",
+			"Barthello",
+			"Base Captain",
+			"Basik Ronso",
+			"Beaky guy in red",
+			"Beaky guy on left",
+			"Beaky guy on right",
+			"Beaky guy",
+			"Bearded Al Bhed",
+			"Bearded engineer",
+			"Bearded guy",
+			"Berrik",
+			"Bickson",
+			"Biggs",
+			"Biran",
+			"Blappa",
+			"Blitzball Kid",
+			"Bobba",
+			"Borra",
+			"Botta",
+			"Boy in dark red",
+			"Boy in red",
+			"boy with the green headband",
+			"Braska",
+			"Brother",
+			"Cameraman",
+			"Captain of the S.S. Liki",
+			"Captain of the S.S. Winno",
+			"Chocobo Rider",
+			"Cid",
+			"Clasko",
+			"Crusader by empty cages",
+			"Crusader captain",
+			"Crusader hiding behind bushes",
+			"Crusader in purple and white",
+			"Crusader practicing sword moves",
+			"Daddy the fisherman",
+			"Datto",
+			"Dock guard",
+			"Dome Gatekeeper",
+			"Driver",
+			"Eigaar",
+			"Fabric merchant",
+			"Farplane Custodian",
+			"Father Zuke",
+			"Father",
+			"First little Crusader",
+			"Flaky youth in green",
+			"Gas mask guy",
+			"Gate captain",
+			"Gatekeeper",
+			"Gatta",
+			"Gazna Ronso",
+			"Giera Guado",
+			"Graav",
+			"Gramps",
+			"Green and gold Crusader",
+			"Guado barring entry to upper story of Seymour's mansion",
+			"Guado barring Thunder Plains exit",
+			"Guado guard",
+			"Guado in woods",
+			"Guado Innkeeper",
+			"Guado man",
+			"Guado youth in Fusty Elders' hut",
+			"Guard at lefthand exit",
+			"Guard at righthand exit",
+			"Guard in front of Goers' locker room",
+			"Guard in Monks' Chamber",
+			"Guard on side path",
+			"Guy in green and brown",
+			"Guy in green",
+			"Guy in khaki",
+			"Guy in purple",
+			"Guy in Spiderman jacket",
+			"Guy in yellow pants",
+			"Hefty merchant in blue vest",
+			"Hover driver",
+			"Husband in gold tunic",
+			"Husband in white and blue by loading platform",
+			"Hypello behind shoopuf",
+			"Ifrit's Fayth",
+			"Isaaru",
+			"Isken",
+			"Islander",
+			"Ixion's Fayth",
+			"Jassu",
+			"Jecht",
+			"Jimma",
+			"Journeyman weaver",
+			"Jumal",
+			"Jyscal",
+			"Keepa",
+			"Kelk",
+			"Keyakku",
+			"Kid w/bandana",
+			"Kimahri",
+			"Kindly old priest",
+			"Kinoc",
+			"Kyou",
+			"Larbeight",
+			"Lefthand guard",
+			"Letty",
+			"Little beaky guy",
+			"Al Bhed in a red vest",
+			"Little boy with ball (Mi'ihen)",
+			"Luca guard in blue barring the wrong way",
+			"Luca guard in brown",
+			"Luzzu",
+			"Macho sailor",
+			"Maechen",
+			"Mainlander",
+			"Male Crusader on bench",
+			"Male warrior monk on stadium end of causeway",
+			"Man in blue vest by Al Bhed wreckage",
+			"Man in blue vest on new Mi'ihen Highroad",
+			"Man in brown and green",
+			"Man in brown talking to Giera",
+			"Man in gas mask",
+			"Man in gold tunic on bench",
+			"Man in gold tunic",
+			"Man in green and brown approaches Tidus",
+			"Man in green and brown at south end of Mi'ihen Highroad",
+			"Man in green and purple looking at child",
+			"Man in green and white outside pavillion",
+			"Man in green shirt and brown overalls",
+			"Man in purple and gold in pavillion",
+			"Man in uniform",
+			"Man in yellow and green",
+			"man in yellow pants",
+			"Man in yellow, blue and green",
+			"Man leaving Kilika",
+			"Man sitting in roadway",
+			"Man standing in ruins of hollow tower",
+			"Man with head in her lap",
+			"Man with Spiderman jacket",
+			"Man wrapped in long brown coat",
+			"Man's voice",
+			"Maroda",
+			"Mep",
+			"Merchant in pavillion",
+			"Merchant Ronso",
+			"Messenger from Cid",
+			"Mika",
+			"Monk at inner door",
+			"Monk at the door",
+			"Monk in orange",
+			"Monster Arena Guy",
+			"Nav Guado",
+			"Nedus",
+			"Nimrook",
+			"Nizarut",
+			"Noy Guado",
+			"O'aka",
+			"Old Man by shoopuf",
+			"Old man in blue pants",
+			"Old man in pavillion",
+			"Old man in purple",
+			"Old man leaning on railing up front",
+			"Old man on loading platform",
+			"Old monk in purple",
+			"Old Ronso in red kilt by save sphere",
+			"Older boy",
+			"Pacce",
+			"Portly Crusader",
+			"Portly man beside statue",
+			"Portly tourist",
+			"Queasy man leaning against main cabin",
+			"Raudy",
+			"Righthand guard",
+			"Rin",
+			"Ronso boy",
+			"Ronso in red",
+			"Ropp",
+			"Roving Luca guard in blue",
+			"Sailor with blue cap (S. S. Winno)",
+			"Seated Al Bhed",
+			"Seated Luca guard",
+			"Second Guado",
+			"Seymour",
+			"Shirtless islander",
+			"Shopkeeper",
+			"Short Crusader in purple and green",
+			"Skate rat",
+			"Slumped Crusader",
+			"Soldier1",
+			"Spiked-hair Al Bhed",
+			"Spoony",
+			"Stooped Guado",
+			"Tall Guado",
+			"Tall priest",
+			"Tatts",
+			"Tidus",
+			"Tromell",
+			"Vilucha's son",
+			"Vuroja",
+			"Wakka",
+			"Wantz",
+			"Warrior monk by Mika's ship",
+			"Wedge",
+			"Whichever Crusader you talk to first",
+			"Yenke",
+			"Yojimbo's Fayth",
+			"Zalitz",
+			"Zamzi Ronso",
+			"Zanar",
+			"Zazi Guado",
+			"Zev Ronso",
+			"Besaid Temple Summoner",
+			"Purple-Clad Priest",
+			"Other boy with green headband",
+			"Sailor w/blue cap",
+			"Helmsman (S. S. Liki)",
+			"Crusader in green on end of dock",
+			"Besaid Handyman",
+			"Ferry Greeter",
+			"Crusader in RWB (Kilika)",
+			"Warrior monk patrolling",
+			"Warrior monk patrolling (temple forecourt)",
+			"Crusader slumped against bar",
+			"Old Man (Grandfather)",
+			"Kilika Old Man",
+			"Former Blitzer",
+			"Monk guarding Kilika Temple Steps",
+			"Nervous monk in hat",
+			"Kilika Priest",
+			"Old priest with hat (monk chamber)",
+			"Little Crusader (Sphere Theatre)",
+			"Man in white and blue (Luca)",
+			"Warrior monk (Dock 1)",
+			"Warrior monk (Dock 5)",
+			"Ship captain",
+			"Warrior monk (FoS)",
+			"Warrior monk (Dock 4)",
+			"Warrior monk on bench (where Crusader sat)",
+			"Al Bhed in bright red vest",
+			"Booth merchant (left)",
+			"Cafe Guard in Gray",
+			"Warrior monk at bar",
+			"Crusader at bar",
+			"Guard (Dock 2)",
+			"Guard (Dock 3)",
+			"Guard (Dock 4)",
+			"Guard (Dock 5)",
+			"Little Crusader (Dock 2)",
+			"Little boy (Goers fan)",
+			"Larger man in green outside cafe",
+			"Vendor in green and brown",
+			"Monk in Luca",
+			"Portly man with woman (mainland end)",
+			"Goers Fan",
+			"Roving Luca guard in brown",
+			"Stadium Guard in Gray",
+			"Roving guard in gray (FoS)",
+			"Roving Luca guard",
+			"Crusader sitting on bench (new guy, green and gold)",
+			"Blond Guy (Observation Deck)",
+			"Gas Mask Guy (Observation Deck)",
+			"Gas mask guy (Bikanel)",
+			"Crusader Captain",
+			"Artillery Crusader (purple)",
+			"Crusader (red white blue) hammering stake",
+			"Crusader by command center",
+			"Crusader in green by checkpoint",
+			"Gate guard (red, white, blue)",
+			"Robed Guado at s. end of Mushroom Rock Road",
+			"Warrior monk just s. of Mushroom Rock Road",
+			"Crusader in Green",
+			"Wounded Crusader (RWB)",
+			"Monk on beach",
+			"Crusader in purple (fork)",
+			"Crusader in yellow and purple (fork)",
+			"Crusader in green (fork)",
+			"Warrior monk (orange) on lift to Command Center",
+			"Warrior monk in gold",
+			"Crusader in RWB (Mi'ihen)",
+			"Crusader in green (Mi'ihen)",
+			"Crusader in purple and green (Mi'ihen)",
+			"Man in blue vest (Mi'ihen South)",
+			"Man in blue vest (Mi'ihen Central)",
+			"Monk (Mi'ihen)",
+			"Man in white and blue (Mi'ihen)",
+			"Spikey-haired Al Bhed",
+			"Warrior monk at north gate of Mi'ihen Highroad",
+			"Gate Guard (RWB)",
+			"Warrior monk officer (orange and red) on ocean overlook",
+			"Warrior monk officer (gold) near Chocobo rental agent",
+			"Guado on southern stretch of Highroad",
+			"Worried man in green and brown",
+			"Man in yellow and blue (Mi'ihen)",
+			"Man in green and white",
+			"Warrior monk on staircase into Luca",
+			"Pacing warrior monk",
+			"Crusader in green down on Old Highroad where Djose Knights' chocobos were coralled",
+			"Man on guard in brown coat",
+			"Former Warrior Monk",
+			"Crusader in red,white,blue",
+			"First Guado",
+			"Crusader in green and gold (The Scar)",
+			"Elderly Guado Man",
+			"Guard on Lord Seymour's Mansion",
+			"Helmsman (S. S. Winno)",
+			"Sailor with binoculars",
+			"Dog man",
+			"Guy in shorts with the hopper-monkey",
+			"Sailor in blue (S. S. Winno)",
+			"Sailor in white pants slumped nearby",
+			"Sailor in blue slumped against mast",
+			"Crusader in green (Djose Highroad)",
+			"Crusader in purple/white",
+			"Green Crusader with wound",
+			"Crusader in red, white and blue lying beside road",
+			"Crusader in green guarding Djose Temple",
+			"Crusader in purple (Djose Bridge)",
+			"Monk (Djose Bridge)",
+			"Warrior monk patrolling highroad",
+			"Monk (Djose Temple)",
+			"Seated monk in righthand chamber",
+			"Old monk in red in Djose Temple Great Hall",
+			"Crusader (R/W/B)",
+			"Crusader (purple/white)",
+			"Monk at door to Cloister of Trials",
+			"Warrior monk outside front doors (left)",
+			"Warrior monk outside front doors (right)",
+			"Warrior monk (south wharf)",
+			"Crusader in RWB (Moonflow)",
+			"Warrior monk (north wharf)",
+			"Warrior monk (Bevelle Crossroads)",
+			"Guard by park bench",
+			"Blond Spikey-hair",
+			"Guado youth in green robe",
+			"Guado outside Macalania Temple",
+			"Monk on stairs (Macalania)",
+			"Guado barring the road past the Agency",
+			"Al Bhed child by fire",
+			"Wrapped-up monk in Agency",
+			"Guy squatting by curb",
+			"Warrior monk (Thunder Plains)",
+			"Background PA broadcast",
+			"Warrior monk (Highbridge)",
+			"Barechested guy outside inn",
+			"Guy in red shorts",
+			"Kilika Handyman",
+			"Lefthand warrior monk",
+			"Righthand warrior monk",
+			"Roving guard in blue (FoS)",
+			"Sailor in blue (Dock 1)",
+			"Man",
+			"Priest"
+		],
+		"female": [
+			"Al Bhed in bikini",
+			"Al Bhed woman in leggins (Mi'ihen)",
+			"Al Bhed Woman (khaki with green cap)",
+			"Al Bhed woman in bikini",
+			"Al Bhed woman in bumblebee-striped robe",
+			"Al Bhed woman with leggings",
+			"Another Captain Nopants north of Ochu",
+			"Another redhead",
+			"Another woman in long skirt",
+			"Auda Guado",
+			"Balgerda",
+			"Belgemine",
+			"Blue-haired female Ronso",
+			"Calli",
+			"Chocobo trainer",
+			"Crusader behind podium",
+			"Crusader in need of pants",
+			"Shopping Crusader in yellow and green",
+			"Deim",
+			"Djose Innkeeper",
+			"Dona",
+			"Doram",
+			"Elma",
+			"Engineer",
+			"Female Crusader by ferry",
+			"Female Crusader in blue on bridge",
+			"Female Crusader in gray",
+			"Female Crusader in green and gold",
+			"Female Crusader on bench (new, faded blue outfit)",
+			"Female Crusader on opposite side",
+			"Wounded Female Crusader",
+			"Female Guado by park bench on Guadosalam side",
+			"Female Ronso in red",
+			"Female Ronso in yellow",
+			"Female sailor beside gangway",
+			"Female sailor in striped pants",
+			"Female warrior monk on stadium end of causeway",
+			"Female warrior monk patrolling square",
+			"Female warrior monk",
+			"Girl running from person to person",
+			"Girl with doggie",
+			"Grandma Guado",
+			"Guado teenaged girl",
+			"Guado woman in brown",
+			"Guado woman in purple",
+			"Guado woman",
+			"Hooded guado woman near pavillion",
+			"Hooded woman in shop",
+			"Irga Ronso",
+			"Isken's friend",
+			"Islander woman in halter top",
+			"Judda",
+			"Kilika Innkeeper",
+			"Kiyuri",
+			"Kulukan's little sister",
+			"Kulukan",
+			"Lady behind counter",
+			"Lakkam",
+			"Linna",
+			"Little girl in red shorts",
+			"Little girl with balloon",
+			"Little Nun",
+			"Lucil",
+			"Lulu",
+			"Macalania Innkeeper",
+			"Cindy's Fayth",
+			"Merchant in pink",
+			"Merchant woman in green smock",
+			"Merchant",
+			"Midriff-baring lady in blue in cafe",
+			"Mifurey",
+			"Miyu",
+			"Mother in tan and orange",
+			"Mother on bench",
+			"Naida",
+			"Nhadala",
+			"Nun at south end of Highroad",
+			"Nun in green",
+			"Nun in lefthand chamber",
+			"Nun in purple",
+			"Nuvy Ronso",
+			"Officer in need of pants",
+			"Old woman in pavillion",
+			"Old woman merchant",
+			"Old woman outside pavillion",
+			"Macalania Old Woman",
+			"Older Guado woman",
+			"Opportunistic woman in green",
+			"Pah Guado",
+			"Pious woman",
+			"Pom-pom lady",
+			"Priestess",
+			"Receptionist",
+			"Redhead",
+			"Redheaded girl in purple in Glories' house",
+			"Redheaded woman",
+			"Refugee",
+			"Rikku",
+			"Ronso girl",
+			"Ronso woman in purple robe",
+			"Seated woman",
+			"Seymour's mother",
+			"Shaami",
+			"Shelinda",
+			"Shiva's Fayth",
+			"Short nun",
+			"Shuu",
+			"Snooty Guado in yellow",
+			"Soldier2",
+			"Soldier fighting with boy",
+			"Boy fighting with soldier",
+			"Svanda",
+			"Teenaged girl in halter top",
+			"Tidus' Mom",
+			"Tiny nun by door of temple",
+			"Tourist",
+			"Valefor's Fayth",
+			"Vilucha",
+			"Weaver",
+			"White-haired female Ronso",
+			"Wife in green skirt by loading platform",
+			"Woman (Shuu clone) just east of him",
+			"Woman 1 conversing on bench near reporter",
+			"Woman 2 conversing on bench near reporter",
+			"Woman clasping hands",
+			"Woman in bikini",
+			"Woman in blue and yellow at railing",
+			"Woman in blue near Mushroom Rock Gate",
+			"Woman in brown with Giera",
+			"Woman in gold and tan by loading platform",
+			"Woman in green skirt in pavillion",
+			"Woman in leggings",
+			"Woman in long skirt",
+			"Woman in pink top",
+			"Woman in purple apron",
+			"Woman in purple by loading platform",
+			"Woman in striped skirt",
+			"Woman in white and blue",
+			"Woman in winter clothes in the Agency",
+			"Woman in winter clothes",
+			"Woman leaving Kilika",
+			"Woman near Rin's billboard",
+			"Woman on right (khaki coat and green cap again)",
+			"Woman sitting on rear deck",
+			"Woman talking on mainland side of causeway",
+			"Woman talking on stadium end of causeway",
+			"Woman w/nerdy specs",
+			"Woman w/red headband",
+			"Woman with red headband",
+			"Young woman in blue up front",
+			"Young woman in halter-top at railing",
+			"Young woman up front",
+			"Yuma Guado",
+			"Yuna's little friend",
+			"Yuna",
+			"Yunalesca",
+			"Yocun's Guardian",
+			"Besaid Old Woman",
+			"Grieving woman looking out to sea",
+			"Female Crusader in Red (Kilika)",
+			"Studious Little Nun",
+			"Playful Little Nun",
+			"Bare-legged Crusader (Luca)",
+			"Female warrior monk on bench (where Crusader sat)",
+			"Booth merchant (right)",
+			"Cafe Barkeeper",
+			"Woman in blue (Luca)",
+			"Warrior monk stationed at dock 2",
+			"Second warrior monk",
+			"Bustling female sailor",
+			"Little girl (aspiring sailor)",
+			"Old Woman (Grandmother)",
+			"Female Crusader in Red (Luca)",
+			"Calli's Mother",
+			"Vendor in purple",
+			"Woman in green skirt by TV studio",
+			"Woman in orange tunic (Luca)",
+			"Nun in Luca",
+			"Female warrior monk (Sphere Theatre)",
+			"Nun (Dock 4)",
+			"Little nun (Dock 4)",
+			"Crusader blocking path south",
+			"Crusader in yellow and green (fork)",
+			"Crusader by water-lift",
+			"Rental agent",
+			"Woman in tan and orange (Mi'ihen)",
+			"Second little Crusader (in blue)",
+			"Gate guard in yellow and green",
+			"Old woman (Mi'ihen)",
+			"Wife in tan and orange",
+			"Grieving Mother",
+			"Grieving Woman",
+			"Elderly Guado Woman",
+			"Guado Woman in hood on upper level",
+			"Girl in red shorts",
+			"Disgruntled passenger on top deck",
+			"Bird-counting person on top deck",
+			"Female Crusader accompanying friend",
+			"Young Crusader with red hat",
+			"Crusader standing by bed of another (unresponsive)",
+			"Woman in pavillion (Looks like Shuu)",
+			"Little nun (Sphere Theatre)",
+			"Woman",
+			"Woman in green skirt"
+		],
+		"neutral": [
+			"[Sign by northern save sphere of Central Desert",
+			"[Sign in N area of Central Desert",
+			"[Sign in NE area of Central Desert",
+			"[Sign in SW corner of Western Desert",
+			"[Sign in sw of Western Desert]",
+			"[Sign on south side of Central Desert",
+			"Access panel",
+			"All",
+			"Another frog drummer",
+			"Another horn-player",
+			"Another pompous harpist",
+			"Chest",
+			"Child on right",
+			"Child",
+			"Chocobo",
+			"Critter",
+			"Crowd",
+			"Drumming frog musician",
+			"Honking cat musician",
+			"Information sphere",
+			"Kid in Abes T-shirt",
+			"Kid w/dreads",
+			"Pompous bird musician",
+			"Crusaders",
+			"Crusader guarding Kilika temple steps",
+			"Pair of Crusaders talking to Captain Nopants",
+			"Pukara",
+			"Daraya",
+			"Hypello adult",
+			"Hypello child",
+			"Hypello",
+			"Little Crusader near screen",
+			"Crusader guard",
+			"Al Bhed in khaki",
+			"Crusader in Stadium",
+			"Crusader patrolling",
+			"Artillery captain",
+			"Al Bhed at lift to former Command Center",
+			"Al Bhed child (rust pants)",
+			"Al Bhed child (blue pants)",
+			"Al Bhed child kneeling",
+			"Recovered Crusader in gold and green",
+			"Crusader in purple (Mushroom Rock)",
+			"Uncertain Crusader in purple",
+			"Peaceful Crusader in purple",
+			"Crusader in gold and rust",
+			"Little Crusader",
+			"Crusader on steps into Luca",
+			"Crusader patrolling on the balcony",
+			"Crusader in blue and gold",
+			"Crusader in blue armor",
+			"Eavesdropping on crowd",
+			"Al Bhed Child running around",
+			"another kid",
+			"Epitaphs",
+			"Warrior monk near stadium 1",
+			"Warrior monk near stadium 2"
+		]
+	},
+	"aliases": {
+		"Aurochs": ["Datto", "Letty", "Jassu", "Botta", "Keepa"],
+		"Kids together": [
+			"Kid w/bandana",
+			"Kid in Abes T-shirt",
+			"Kid w/dreads"
+		],
+		"LucilElma": ["Lucil", "Elma"],
+		"Al Bhed": "Al Bhed (Navigator)",
+		"Barechested sailor on top deck (Guy who asked Yuna's permission to harpoon Sin)": "1st harpooner",
+		"Boy": "Seymour",
+		"Dad": "Daddy the fisherman",
+		"Little boy (after you kick ball)": "Little boy with ball (Mi'ihen)",
+		"Little boy (before you kick ball)": "Little boy with ball (Mi'ihen)",
+		"Little boy (the same one whose ball Tidus kicked)": "Little boy with ball (Mi'ihen)",
+		"Male crusader on bench": "Male Crusader on bench",
+		"Guardian": "Yocun's Guardian",
+		"Handy bug": "ACTION",
+		"Vision": "ACTION",
+		"Younger weaver in shorts": "Journeyman weaver",
+		"Young weaver": "Journeyman weaver",
+		"Young weaver in shorts": "Journeyman weaver",
+		"Younger weaver": "Journeyman weaver",
+		"Younger weaver at his loom": "Journeyman weaver",
+		"Little girl (Yuna's friend)": "Yuna's little friend",
+		"Woman weaver": "Weaver",
+		"Doggie": "ACTION",
+		"Old weaver": "\"Old Coot\"",
+		"Old weaver:": "\"Old Coot\"",
+		"Yojimbo's fayth": "Yojimbo's Fayth",
+		"Kindly old priest in Monks' Chamber (righthand side)": "Kindly old priest",
+		"Little boy in green headband": "Vilucha's son",
+		"Handyman (in woods by broken hut)": "Besaid Handyman",
+		"Fabric merchant in purple shirt": "Fabric merchant",
+		"Fabric salesman in purple coat": "Fabric merchant",
+		"Fabric seller in purple shirt": "Fabric merchant",
+		"Priest(entering)": "Besaid Temple Summoner",
+		"Summoner's voice": "Besaid Temple Summoner",
+		"Kid in dark red": "Older boy",
+		"Ten-year-old boy": "Older boy",
+		"Handyman (and Beatles fan)": "Besaid Handyman",
+		"Man in green and white (looking into jungle)": "Besaid Handyman",
+		"Another little boy w/green headband": "Other boy with green headband",
+		"Other little boy w/green headband": "Other boy with green headband",
+		"Little boy #1 with green headband": "Other boy with green headband",
+		"Little boy #2 with green headband": "Vilucha's son",
+		"Little boy w/green headband": "Vilucha's son",
+		"Second little boy": "Other boy with green headband",
+		"Old woman (comforting little girl)": "Besaid Old Woman",
+		"Priestess (Nuns' Chamber)": "Priestess",
+		"Priestess in Nuns' Chamber": "Priestess",
+		"Old priest (Monks' Chamber)": "Kindly old priest",
+		"Old Lady": "Besaid Old Woman",
+		"Portly sailor in gold vest": "Helmsman (S. S. Liki)",
+		"Portly sailor on gangplank": "Helmsman (S. S. Liki)",
+		"Short monk in side chamber": "Kindly old priest",
+		"Short priest [Monks' quarters]": "Kindly old priest",
+		"Short priest in side room": "Kindly old priest",
+		"Guy in green and white by wrecked hut": "Besaid Handyman",
+		"Crusader behind podium (different than before)": "Gatekeeper",
+		"Crusader in green talking to helmsman": "Crusader in green on end of dock",
+		"Crusader on dock": "Crusader in green on end of dock",
+		"Man sitting on crates who lost his family": "Tatts",
+		"Handyman blocks gangway , hammering": "Kilika Handyman",
+		"Man in green and white hammering by Isken's hut": "Kilika Handyman",
+		"Guy hammering near Isken's hut": "Kilika Handyman",
+		"Guy in green and white near Isken's house": "Kilika Handyman",
+		"Another handyman hammering by Isken's hut": "Kilika Handyman",
+		"Man who greeted us at the ferry": "Ferry Greeter",
+		"Man who met us at the ferry": "Ferry Greeter",
+		"Middle-aged man": "Ferry Greeter",
+		"Not-so-handy man slumped in front of bar": "A not-so-handyman",
+		"Girl hopping behind treasure chest": "Kulukan's little sister",
+		"Woman in white gazing out to sea": "Grieving woman looking out to sea",
+		"Woman in white looking out to sea": "Grieving woman looking out to sea",
+		"Grieving woman near Isken's hut": "Grieving woman looking out to sea",
+		"Old woman in open hut": "Old woman merchant",
+		"Crusader in red, white, and blue running on the dock": "Crusader in RWB (Kilika)",
+		"Slumped Crusader, survivor of Operation Mi'ihen": "Crusader slumped against bar",
+		"Barechested guy doing lunges outside inn": "Barechested guy outside inn",
+		"Guy in white pants exercising near in": "Barechested guy outside inn",
+		"Guy in white pants exercising outside  inn": "Barechested guy outside inn",
+		"Shirtless man lounging in front of inn": "Barechested guy outside inn",
+		"Little boy running around": "Blitzball Kid",
+		"Old man outside near inn": "Old Man (Grandfather)",
+		"Second old man on dock near inn": "Old Man (Grandfather)",
+		"Old man near the Inn": "Kilika Old Man",
+		"Old man outside Inn": "Kilika Old Man",
+		"Young man leaving": "Man leaving Kilika",
+		"Woman leaving": "Woman leaving Kilika",
+		"Female crusader in red": "Female Crusader in Red (Kilika)",
+		"Monk with purple hat": "Nervous monk in hat",
+		"Little nun 1": "Studious Little Nun",
+		"Little Nun 2": "Playful Little Nun",
+		"Nun-in-training #2": "Studious Little Nun",
+		"Other little nun": "Playful Little Nun",
+		"Second li'l nun": "Playful Little Nun",
+		"Old priest (red robes purple hat) in lefthand chamber": "Old priest with hat (monk chamber)",
+		"Older Monk": "Old priest with hat (monk chamber)",
+		"Older priest": "Old priest with hat (monk chamber)",
+		"Priest with spiffy hat": "Old priest with hat (monk chamber)",
+		"Younger priest in lefthand chamber": "Mep",
+		"Younger priest": "Mep",
+		"Crusader in green and gold by data terminal": "Adult Crusader (back by the data console)",
+		"Harp player": "Borra",
+		"Horn player": "Pukara",
+		"Young hypello looking at frog guy": "Hypello child",
+		"Roving guard (gray)": "Roving guard in gray (FoS)",
+		"Al Bhed in gas mask": "Nedus",
+		"Al Bhed woman": "Nhadala",
+		"Female crusader in need of pants": "Bare-legged Crusader (Luca)",
+		"Female crusader on bench": "Miyu",
+		"Female Crusader on bench": "Miyu",
+		"Lady behind ticket counter": "Receptionist",
+		"Stadium Receptionist": "Receptionist",
+		"Stadium receptionist": "Receptionist",
+		"Pom-pom hat lady": "Pom-pom lady",
+		"Receptionist in front of stadium": "Receptionist",
+		"Woman in pom-pom hat": "Pom-pom lady",
+		"Guy in white and blue": "Man in white and blue (Luca)",
+		"Luca guard (blue)": "Roving guard in blue (FoS)",
+		"Luca guard (gray)": "Roving guard in gray (FoS)",
+		"Roving Luca guard (blue)": "Roving guard in blue (FoS)",
+		"Roving Luca guard (gray)": "Roving guard in gray (FoS)",
+		"Man in bright red vest": "Al Bhed in bright red vest",
+		"Crazy hair Al Bhed": "Al Bhed in bright red vest",
+		"Beaky guy in purple": "Little beaky guy",
+		"Blond guy in red vest": "Al Bhed in red vest",
+		"Guy in khaki in cafe": "Guy in khaki",
+		"Purple beaky guy in Luca cafe": "Little beaky guy",
+		"Drunk in khaki on the left": "Guy in khaki",
+		"Luca guard": "Cafe Guard in Gray",
+		"Luca guard in cafe": "Cafe Guard in Gray",
+		"Luca guard in gray": "Cafe Guard in Gray",
+		"Lady behind bar": "Cafe Barkeeper",
+		"Lady behind the counter": "Cafe Barkeeper",
+		"Lady behind counter in Luca Cafe": "Cafe Barkeeper",
+		"Lady at the counter": "Cafe Barkeeper",
+		"Man in crowd": "Spoony",
+		"Warrior monk beside gangway": "Warrior monk by Mika's ship",
+		"Woman in crowd": "Woman in blue (Luca)",
+		"Luca Guard for Dock 3 (behind monks)": "Guard (Dock 3)",
+		"Warrior Monk by Bevelle ship": "Warrior monk by Mika's ship",
+		"Warrior monk 2": "Lefthand warrior monk",
+		"Warrior monk 3": "Righthand warrior monk",
+		"Another man": "Shirtless islander",
+		"Busy female sailor": "Bustling female sailor",
+		"Female sailor": "Bustling female sailor",
+		"Luca Guard at Dock 2": "Guard (Dock 2)",
+		"Luca guard stationed at dock 2": "Guard (Dock 2)",
+		"Sailor w/blue cap next to S.S. Winno": "Sailor with blue cap (S. S. Winno)",
+		"Barechested guy in white pants": "Shirtless islander",
+		"Barechested man in white pants": "Shirtless islander",
+		"Man in white pants": "Shirtless islander",
+		"Chunky man in green outside cafe": "Larger man in green outside cafe",
+		"Chunky guy in green outside cafe": "Larger man in green outside cafe",
+		"Guy in blue vest": "Aurochs fan",
+		"Seated guard": "Seated Luca guard",
+		"Seated Lucan guard:": "Seated Luca guard",
+		"Girl's mother on bench": "Mother on bench",
+		"Little girl running around": "Little girl with balloon",
+		"Little girl with balloon (not running around, for a change)": "Little girl with balloon",
+		"Woman in purple by cart": "Vendor in purple",
+		"Woman in purple by vendor": "Vendor in purple",
+		"Guy in green and brown , one of vendors": "Vendor in green and brown",
+		"Guy in green and brown , righthand vendor": "Vendor in green and brown",
+		"Rabid Seymour groupie in square": "Guado teenaged girl",
+		"Woman in gold with brown leggings": "Woman in orange tunic (Luca)",
+		"Luca guard in brown uniform": "Luca guard in brown",
+		"Lucan guard in brown": "Luca guard in brown",
+		"Beaky red guy": "Beaky guy in red",
+		"Little beaky guy in red": "Beaky guy in red",
+		"Man in red shorts": "Guy in red shorts",
+		"Nun who fussed about her clothes earlier": "Nun in Luca",
+		"Kilika Beasts fan in white pants": "Shirtless islander",
+		"Kilika fan in white pants": "Shirtless islander",
+		"Random Lucan": "Man in yellow and green",
+		"Fancy woman in blue": "Woman in blue (Luca)",
+		"Man talking on mainland side of causeway": "Portly man with woman (mainland end)",
+		"Portly man with her": "Portly man with woman (mainland end)",
+		"Woman in green skirt seated on circular bench": "Woman 1 conversing on bench near reporter",
+		"Woman in green skirt sitting": "Woman 1 conversing on bench near reporter",
+		"Woman in yellow and blue talking to her": "Woman 2 conversing on bench near reporter",
+		"Woman in yellow talking to her": "Woman 2 conversing on bench near reporter",
+		"Woman on mainland side of causeway": "Woman talking on mainland side of causeway",
+		"Woman on mainland side": "Woman talking on mainland side of causeway",
+		"Woman talking at stadium end": "Woman talking on stadium end of causeway",
+		"Man talking at stadium end": "Mainlander",
+		"Man talking on stadium end of causeway": "Mainlander",
+		"Man in gold tunic on bench by bridge to Sphere Theater": "Man in gold tunic on bench",
+		"Man on bench": "Man in gold tunic on bench",
+		"Man in green shirt, brown overalls": "Guy in green and brown",
+		"Man in brown overalls": "Guy in green and brown",
+		"Mom looking for lost son earlier": "Mother in tan and orange",
+		"Mother looking for her son earlier": "Mother in tan and orange",
+		"Luca Guard": "Guard in front of Goers' locker room",
+		"Little boy in red": "Little boy (Goers fan)",
+		"Man in orange tunic": "Goers Fan",
+		"Old lady": "Old Woman (Grandmother)",
+		"Old woman in brown": "Old Woman (Grandmother)",
+		"Guard for dock 4, slumped": "ACTION",
+		"Al Bhed woman in red": "Nhadala",
+		"Man wrapped up in long brown coat": "Man wrapped in long brown coat",
+		"Guy in gray": "Stadium Guard in Gray",
+		"Roving Luca guard in gray": "Stadium Guard in Gray",
+		"Man in green": "Guy in green",
+		"Man in purple coat": "Guy in purple",
+		"Man in purple": "Guy in purple",
+		"Righthand Luca guard at railing": "Righthand guard",
+		"Righthand guard at railing": "Righthand guard",
+		"Righthand guard in stands": "Righthand guard",
+		"Lefthand guard at railing": "Lefthand guard",
+		"Lefthand guard in stands": "Lefthand guard",
+		"Lefthand Luca guard at railing": "Lefthand guard",
+		"Crusader in dark purple": "Crusader in purple and white",
+		"Al Bhed doing squats": "Bearded engineer",
+		"Man doing squats in back": "Bearded engineer",
+		"Man doing stretches": "Bearded engineer",
+		"Mr. Gas Mask": "Man in gas mask",
+		"Standing (gas mask)": "Man in gas mask",
+		"Standing Man": "Man in gas mask",
+		"Bikini woman": "Woman in bikini",
+		"Woman in leggings on left": "Woman in leggings",
+		"Woman on left in leggings": "Woman in leggings",
+		"Exercising blitzer": "Nimrook",
+		"Blond guy on left": "Blond Guy (Observation Deck)",
+		"Blond Guy on left": "Blond Guy (Observation Deck)",
+		"Blond guy on right": "Blond Guy (Observation Deck)",
+		"Keyakku clone": "Blond Guy (Observation Deck)",
+		"Al Bhed on lefthand side (Keyakku clone)": "Blond Guy (Observation Deck)",
+		"Blond guy on right (yeah they swapped sides)": "Blond Guy (Observation Deck)",
+		"Gas mask guy on left": "Gas Mask Guy (Observation Deck)",
+		"Gas mask guy on right": "Gas Mask Guy (Observation Deck)",
+		"Man further away": "Gas Mask Guy (Observation Deck)",
+		"Man in a gas mask (right side of ship)": "Gas Mask Guy (Observation Deck)",
+		"Mr. Gas mask": "Gas Mask Guy (Observation Deck)",
+		"Gas mask on left": "Gas Mask Guy (Observation Deck)",
+		"Soldiers": ["Soldier1", "Soldier2"],
+		"Captain pacing in front of soldiers": "Crusader Captain",
+		"Gate captain (purple/white)": "Gate captain",
+		"Female Crusader": "Wounded Female Crusader",
+		"Beclem lookalike": "Wounded Crusader (RWB)",
+		"Man in blue vest by wreckage of Operation Mi'ihen": "Man in blue vest by Al Bhed wreckage",
+		"Barechested guy in shorts slumped over by a column": "Barechested man in shorts",
+		"Attendant": "Rental agent",
+		"Al Bhed in bikini (scary mom)": "Al Bhed woman in bikini",
+		"Al Bhed woman (Red skin-tight outfit) on overlook": "Al Bhed woman in leggins (Mi'ihen)",
+		"Man in green and purple near child": "Man in green and purple looking at child",
+		"Woman in purple near billboard": "Woman near Rin's billboard",
+		"Woman near billboard": "Woman near Rin's billboard",
+		"Al Bhed Kid on ocean overlook": "Al Bhed child (rust pants)",
+		"Man in shorts": "Barechested man in shorts",
+		"Man in shorts blocking check-in counter at Travel Agency": "Barechested man in shorts",
+		"Woman in green skirt (Calli's mom?)": "Calli's Mother",
+		"Crusader in yellow and rust": "Crusader in gold and rust",
+		"Man in white and blue near cages outside gate": "Man in white and blue (Mi'ihen)",
+		"Little Crusader (Purple and green)": "First little Crusader",
+		"Crusader in red, white and blue": "Gate Guard (RWB)",
+		"Crusader in Yellow and Orange": "Crusader in gold and rust",
+		"Monk on bridge": "Monk (Mi'ihen)",
+		"Red, white and blue Crusader": "Crusader in RWB (Mi'ihen)",
+		"Man in green and purple": "Guy in green",
+		"Girl": "Little girl in red shorts",
+		"Portly man in white vest": "Portly man beside statue",
+		"Young woman in yellow and blue talking to him": "Woman in blue and yellow at railing",
+		"Guy on bench with dog and cat": "Worried man in green and brown",
+		"Guy with Crusader's dog and cat": "Worried man in green and brown",
+		"Warrior monk on stairs up to Highroad": "Warrior monk on staircase into Luca",
+		"Little boy in dark red": "Boy in dark red",
+		"Husband in gold tunic, brown pants, green sleeves": "Husband in gold tunic",
+		"Woman in tan and orange (probably the one who keeps losing track of her son or husband)": "Wife in tan and orange",
+		"Blond Spikey-haired Al Bhed around the side": "Messenger from Cid",
+		"Spike-haired Al Bhed": "Messenger from Cid",
+		"Female crusader in yellow": "Female Crusader in green and gold",
+		"Young Guado in blue": "Guado youth in Fusty Elders' hut",
+		"Young woman in blue": "Guado youth in Fusty Elders' hut",
+		"Old fart in green": "Elderly Guado Man",
+		"Old fartess in yellow": "Elderly Guado Woman",
+		"Snooty Guado in brown and gold": "Snooty Guado in yellow",
+		"Snooty elder in Glories' house": "Snooty Guado in yellow",
+		"Hooded woman by counter": "Hooded woman in shop",
+		"Redheaded girl in in purple": "Guado woman in purple",
+		"Woman in Inn": "Guado woman in purple",
+		"Custodian to the Farplane": "Farplane Custodian",
+		"Guard in front of mansion doors": "Guard on Lord Seymour's Mansion",
+		"Woman in brown and yellow talking to him": "Woman in brown with Giera",
+		"Woman in brown by house of Fusty Elders": "Woman in brown with Giera",
+		"Flaky girl in green": "Flaky youth in green",
+		"Flaky teen in green wandering around Guadosalam": "Flaky youth in green",
+		"Flaky youth wandering near them": "Flaky youth in green",
+		"Helmsman on gangplank": "Helmsman (S. S. Liki)",
+		"Older woman with the kids": "Woman w/red headband",
+		"Old man who's her husband": "Old man leaning on railing up front",
+		"Lady with midriff-baring blue outfit next to him": "Young woman in blue up front",
+		"Guy with dog up front": "Dog man",
+		"Teenaged girl in halter top staring at pair up front": "Young woman up front",
+		"Guy in shorts on top deck calling to hopping beastie": "Guy in shorts with the hopper-monkey",
+		"Sailor in white pants (harpooner)": "1st harpooner",
+		"Man in prow with dog": "Dog man",
+		"Guy with dogs": "Dog man",
+		"Sailor in white pants collapsed next to him": "Sailor in white pants slumped nearby",
+		"Man propped against wall": "Queasy man leaning against main cabin",
+		"Guy with head in her lap": "Man with head in her lap",
+		"Woman on top deck (not the huffy one)": "Bird-counting person on top deck",
+		"Woman sitting in back": "Woman sitting on rear deck",
+		"Young woman on forward railing": "Young woman in halter-top at railing",
+		"Sailor in blue by mast": "Sailor in blue slumped against mast",
+		"Crusader in purple & green": "Short Crusader in purple and green",
+		"Short Crusader in purple & green": "Short Crusader in purple and green",
+		"Crusader in purple just south of fork": "Short Crusader in purple and green",
+		"Crusader in red, white, blue at south end": "Crusader captain",
+		"Female Crusader standing beside him": "Female Crusader accompanying friend",
+		"Crusader lying just past fork from Djose Highroad": "Green Crusader with wound",
+		"Crusaders run up as if to intercept": [
+			"Crusader in green guarding Djose Temple",
+			"Kyou"
+		],
+		"Tall priest": "Monk (Djose Temple)",
+		"Tall priest bustling about": "Monk (Djose Temple)",
+		"Short priest in righthand chamber": "Seated monk in righthand chamber",
+		"Seated Monk": "Seated monk in righthand chamber",
+		"Short priest reading scripture": "Seated monk in righthand chamber",
+		"Crumpled Crusader": "SYSTEM",
+		"Old Monk in Red": "Old monk in red in Djose Temple Great Hall",
+		"Nun by Yuna's bed": "Nun in lefthand chamber",
+		"Slumped Crusader in lefthand chamber": "Slumped Crusader",
+		"Monk at top of steps": "Monk at door to Cloister of Trials",
+		"Nun at counter": "Djose Innkeeper",
+		"Hypello under tail": "Hypello behind shoopuf",
+		"Guy beside pavillion": "Man in green and white outside pavillion",
+		"Old guy on shoopuf loading platform": "Old man on loading platform",
+		"Female merchant in green": "Merchant woman in green smock",
+		"Woman in purple on left": "Woman in purple by loading platform",
+		"Man in purple coat inside pavillion": "Man in purple and gold in pavillion",
+		"Man in purple inside pavillion": "Man in purple and gold in pavillion",
+		"Man in purple jacket in pavillion": "Man in purple and gold in pavillion",
+		"Old guy in green baggy pants in pavillion": "Old man in pavillion",
+		"Guado woman wearing hood": "Hooded guado woman near pavillion",
+		"Old Woman outside pavillion": "Old woman outside pavillion",
+		"Old woman outside": "Old woman outside pavillion",
+		"Wife in green skirt": "Wife in green skirt by loading platform",
+		"Woman in green skirt in pavilion": "Woman in green skirt in pavillion",
+		"Woman in gold near shoopuf": "Woman in gold and tan by loading platform",
+		"Guado guard, green hair": "Guard by park bench",
+		"Spikey hair": "Blond Spikey-hair",
+		"Weird Bird Man with harp": "Borra",
+		"Youth": "Guado youth in green robe",
+		"Monk at top of stairs": "Monk on stairs (Macalania)",
+		"Monk lying on back at foot of stairs": "Monk on stairs (Macalania)",
+		"Monk in purple who told you Seymour's backstory": "Old monk in purple",
+		"Nun watching lizard-cat": "Nun in green",
+		"Winter-dressed woman with face in hands": "Woman in winter clothes",
+		"Monk in purple": "Old monk in purple",
+		"Monk in hat sitting and drinking": "Guard in Monks' Chamber",
+		"Al Bhed Child by hot stove": "Al Bhed child by fire",
+		"Al Bhed sitting down": "Seated woman",
+		"Al Bhed child running around": "Al Bhed Child running around",
+		"Girl in pink top": "Woman in pink top",
+		"Redhead w/UFO hat": "Redheaded woman",
+		"Merchant Ronso, gold kilt": "Merchant Ronso",
+		"Ronso in red kilt": "Ronso in red",
+		"Old Ronso": "Old Ronso in red kilt by save sphere",
+		"Ronso woman in red": "Female Ronso in red",
+		"Ronso woman (blue hair, yellow tunic)": "Female Ronso in yellow",
+		"Ronso woman in yellow": "Female Ronso in yellow",
+		"Fancy woman in blue:": "Woman in blue (Luca)",
+
+		"Voiceover (Zanar)": "Zanar",
+		"Watnz": "Wantz",
+		"Luzzu Gatta": "Luzzu",
+		"Lucil and Elma": ["Lucil", "Elma"],
+		"Portly man with her (always worried about ferry)": "Portly man with woman (mainland end)",
+		"\"Spoony Bard\"": "Spoony",
+		"Man in green and white (\"spoony bard\")": "Spoony",
+		"Auda Guado , talking to her": "Auda Guado",
+		"Auda Guado talking to her": "Auda Guado",
+		"Auda , the gung-ho blitzer on upper level": "Auda Guado",
+		"2nd Harpooner": "2nd harpooner",
+		"Harpooner #1": "1st harpooner",
+		"Harpooner #2": "2nd harpooner",
+		"Harpooner 1": "1st harpooner",
+		"Harpooner 2": "2nd harpooner",
+		"Kulukan (Female bitzer)": "Kulukan",
+		"Kulukan (Kilika Beasts)": "Kulukan",
+		"Isken (Kilika Beasts)": "Isken",
+		"Isken (blitzer)": "Isken",
+		"Isken (redheaded blitzer)": "Isken",
+		"Tall priest in righthand chamber": "Tall priest",
+		"Vendor in purple apron": "Vendor in purple",
+		"Daddy on bench (Jumal)": "Jumal",
+		"Father (Jumal)": "Jumal",
+		"Father on bench (Jumal)": "Jumal",
+		"Girl's father on bench (Jumal)": "Jumal",
+		"Yuna's friend (little girl possibly orphaned grandchild)": "Yuna's little friend",
+		"Yuna's friend": "Yuna's little friend",
+		"Woman in red (Shuu)": "Shuu",
+		"Shuu (girl in red)": "Shuu",
+		"Shuu in cafe": "Shuu",
+		"Al Bhed blitzer doing squats (Nimrook)": "Nimrook",
+		"Al Bhed blitzer standing (Eigaar)": "Eigaar",
+		"Standing blitzer (Eigaar)": "Eigaar",
+		"Al Bhed in brown": "Al Bhed in brown vest",
+		"Pompous base captain": "Base Captain",
+		"Base captain": "Base Captain",
+		"Al Bhed on the way in (Linna)": "Linna",
+		"Al Bhed in gas mask (Nedus)": "Nedus",
+		"Two crusaders and a monk chase Tidus away": "Monk (Djose Bridge)",
+		"Announcer (Bobba)": "Bobba",
+		"Color Guy (Jimma)": "Jimma",
+		"Retired sailor on curb (Zalitz)": "Zalitz",
+		"Ex-sailor (Zalitz)": "Zalitz",
+		"Zalitz (man on curb)": "Zalitz",
+		"Girl with doggie (merchant's sister)": "Girl with doggie",
+		"Girl with doggie (shopkeeper's sister)": "Girl with doggie",
+		"Girl with doggie (usually)": "Girl with doggie",
+		"Pah Guado (in corner)": "Pah Guado",
+		"Pah Guado (standing)": "Pah Guado",
+		"Pah Guado in Glories' house": "Pah Guado",
+		"Nuvy Ronso (Fang)": "Nuvy Ronso",
+		"Irga Ronso (Fang)": "Irga Ronso",
+		"Argai Ronso (Fang)": "Argai Ronso",
+		"Ronso Fang (Zev)": "Zev Ronso",
+		"Zamzi Ronso (Fang)": "Zamzi Ronso",
+		"Zazi Guado (on chair)": "Zazi Guado",
+		"Zazi Guado (seated)": "Zazi Guado",
+		"Zazi Guado in Glories' house": "Zazi Guado",
+		"Yma Guado": "Yuma Guado",
+		"Giera Guado (outside Elders' House)": "Giera Guado",
+		"Giera Guado (outside Elders' house)": "Giera Guado",
+		"Nedus on dock 1": "Nedus",
+		"Gazna Ronso (Fang)": "Gazna Ronso",
+		"Zev Ronso (Fang)": "Zev Ronso",
+		"Basik Ronso (Fang)": "Basik Ronso",
+		"Vuroja (Kilika Beasts captain)": "Vuroja",
+		"Vuroja (Team captain swimming laps)": "Vuroja",
+		"Vuroja (one-eyed guy swimming off the dock)": "Vuroja",
+		"Al Bhed behind check-in desk (Ropp)": "Ropp",
+		"Al Bhed Woman (Linna)": "Linna",
+		"Abus (Luca Goers)": "Abus",
+		"Raudy (Luca Goers)": "Raudy",
+		"Doram (Luca Goers)": "Doram",
+		"Graav (Luca Goers)": "Graav",
+		"Kneeling blitzer (Judda)": "Judda",
+		"Keepa with saw barring path to mainland": "Keepa",
+		"Blitzer against wall (Berrik)": "Berrik",
+		"Blitzer who looks like Wolverine (Berrik)": "Berrik",
+		"Blitzer leaning against wall (Berrik)": "Berrik",
+		"Blitzer doing squats (Nimrook)": "Nimrook",
+		"Blitzer doing stretches (Nimrook)": "Nimrook",
+		"Blitzer exercising (Nimrook)": "Nimrook",
+		"Blitzer running in circles (Blappa)": "Blappa",
+		"Blitzer running laps (Blappa)": "Blappa",
+		"Running blitzer (Blappa)": "Blappa",
+		"Female blitzer (Lakkam)": "Lakkam",
+		"Deim (female blitzer)": "Deim",
+		"Female blitzer (Deim)": "Deim",
+		"Blitzer (Judda) sitting in the middle of the room": "Judda",
+		"Blitzer in Inn (Noy Guado)": "Noy Guado",
+		"Blitzer kneeling in middle (Judda)": "Judda",
+		"Blitzer kneeling in middle of floor (Judda)": "Judda",
+		"Blitzer on floor (Judda)": "Judda",
+		"Blitzer with arms in air (Nizarut)": "Nizarut",
+		"Balgerda (Luca Goers)": "Balgerda",
+		"Priest (Mep)": "Mep",
+		"Seated man (blond, blue overalls)": "Seated Al Bhed",
+		"Jogging Female blitzer (Lakkam)": "Lakkam",
+		"Jogging blitzer (Lakkam)": "Lakkam",
+		"Jogging female blitzer (Lakkam)": "Lakkam",
+		"Larbeight (Kilika Beast), on main dock": "Larbeight",
+		"Larbeight (blitzer hammering on dock)": "Larbeight",
+		"Larbeight hammering on dock": "Larbeight",
+		"Yuma Guado (Blitzer in back)": "Yuma Guado",
+		"Yuma Guado (wandering)": "Yuma Guado",
+		"Vilucha (blitzball free agent)": "Vilucha",
+		"Blue cap": "Al Bhed in blue cap",
+		"Creepy Kid": "Bahamut's Fayth",
+		"Isken's friend (or sister?)": "Isken's friend",
+		"Isken's friend(?) minding store": "Isken's friend",
+		"Creepy Little Kid": "Bahamut's Fayth",
+		"Shoopuf driver": "Driver",
+		"Farplane Gatekeeper": "Farplane Custodian",
+		"Crusader (Gatekeeper)": "Gatekeeper",
+		"Guard to Farplane": "Farplane Custodian",
+		"Wizened Guado guarding tunnel to Farplane": "Farplane Custodian",
+		"Woman in gold and tan": "Woman in gold and tan by loading platform",
+		"Gas mask": "Gas mask guy",
+		"O’aka": "O'aka",
+		"O'aka O'aka": "O'aka",
+		"\"Old Coot\" weaver at loom": "\"Old Coot\"",
+		"\"Old Coot\" weaver who (almost) never leaves loom": "\"Old Coot\"",
+		"“Old Coot” weaver at loom": "\"Old Coot\"",
+		"Guy sitting on crates (Tatts)": "Tatts",
+		"Man (Tatts) sitting on crates": "Tatts",
+		"Shirtless man lying outside inn": "Barechested guy outside inn",
+		"Guado blitzer": "Noy Guado",
+		"Guado blitzer (Noy)": "Noy Guado",
+		"Hooded woman on upper level": "Guado Woman in hood on upper level",
+		"Guard to upper story of mansion": "Guado barring entry to upper story of Seymour's mansion",
+		"Travel Agency Innkeeper (Naida)": "Naida",
+		"(Graav exchanges glance with Bickson)\nBickson": "Bickson",
+		"Bickson (Luca Goers)": "Bickson",
+		"Goers Bickson": "Bickson",
+		"Innkeeper (Mifury)": "Mifurey",
+		"Jecht's voice": "Jecht",
+		"Kid in Abes shirt": "Kid in Abes T-shirt",
+		"Kid in Abes tee": "Kid in Abes T-shirt",
+		"Lord Jyscal": "Jyscal",
+		"Maester Kelk": "Kelk",
+		"Music Sphere": "Beaky guy on left",
+		"Reporter": "Shaami",
+		"Reporter (Shaami)": "Shaami",
+		"Shaami the reporter": "Shaami",
+		"Man and woman talking at stadium end": "Mainlander",
+		"Nav Guado (running everywhere)": "Nav Guado",
+		"Nav Guado (running)": "Nav Guado",
+		"Running blitzer (Nav Guado)": "Nav Guado",
+		"Nizarut (blitzer)": "Nizarut",
+		"Nizarut(raising arms)": "Nizarut",
+		"Miyu (Crusader on bench)": "Miyu",
+		"Crusader on bench (Miyu)": "Miyu",
+		"Crusader in red (Miyu)": "Miyu",
+		"Crusader in red, white, blue (Kyou)": "Kyou",
+		"Crusader in red,white,blue (Kyou)": "Kyou",
+		"Snooty elder in Guado Glories' house": "Snooty Guado in yellow",
+		"Snooty guado in yellow": "Snooty Guado in yellow",
+		"Spiked blond hair": "Keyakku",
+		"Spiked hair": "Keyakku",
+		"Dream Sequence": "ACTION",
+		"FMV": "ACTION",
+		"Flashback": "ACTION",
+		"Magus Sisters (only one speaks)": "Cindy's Fayth",
+		"Trainer": "Chocobo trainer",
+		"receptionist": "Receptionist",
+		"[Slight fast forward": "ACTION",
+		"[Remastered Edition": "ACTION",
+		"Note": "ACTION",
+		"[NOTE": "ACTION",
+		"[Note": "ACTION",
+		"(Note": "ACTION",
+		"*Note": "ACTION",
+		"Vilucha’s son": "Vilucha's son",
+		"k by Bevelle ship": "Warrior monk by Mika's ship",
+		"\"Nhadala\" (at least, it looks like her)": "Nhadala",
+		"Al Bhed woman in red (Nhadala)": "Nhadala",
+		"Righthand guard (Wedge)": "Wedge",
+		"right of stadium steps (Wedge)": "Wedge",
+		"Stadium entrance guard, left (Biggs)": "Biggs",
+		"Stadium entrance guard, right (Wedge)": "Wedge",
+		"Luca guard left of stadium steps (Biggs)": "Biggs",
+		"Luca guard right of stadium steps (Wedge)": "Wedge",
+		"Winter-wrapped woman (Svanda?)": "Svanda",
+		"Obtained Masamune!   Auron": "ACTION",
+		"Al Bhed beside Travel Agency": "Messenger from Cid",
+
+		"Luca Guards at stadium entrance (Biggs and Wedge)": {
+			"Biggs": ["No admittance!"],
+			"Wedge": ["We are sorry"]
+		},
+		"Chocobo trainer in far nw corner of Calm Lands": "Chocobo trainer",
+		"Tidus": {
+			"ACTION": [
+				"(Lose ... )",
+				"(Win ... )",
+				"(Subsequent wins ... )",
+				"(Subsequent losses ... )",
+				"(If you beat your own time but not her ... )"
+			],
+			"Chocobo trainer": [
+				"All right! You crossed the finish line!",
+				"Hey, you've got to pass between me and my chocobo!"
+			]
+		},
+		"Priest": {
+			"ACTION": ["(As Mintywolf points out"],
+			"Besaid Temple Summoner": [
+				"Lord Braska, Lady Yocun ... Lord Ohalland, and Lord Gandof.",
+				"Only sworn guardians may approach the Cloister of Trials.",
+				"Putting your transgression aside for now, let us celebrate the birth of a summoner!",
+				"Perhaps your transgression shall be pardoned on account of the toxin.",
+				"The Crusaders are planning an operation that defies the teachings of Yevon.",
+				"You look better than you did yesterday.",
+				"The summoner undergoes the trials.",
+				"I've not told the people yet, but I hear Maester Mika has passed away.",
+				"This ship of the air, could it be an Al Bhed machina?"
+			],
+			"Purple-Clad Priest": [
+				"Infidel! Prepare to charge! (summons Dark Valefor)"
+			],
+			"Kilika Priest": [
+				"I must reluctantly admit that the people are distancing themselves from the temple.",
+				"I hear Bevelle was devastated by Sin."
+			],
+			"Monk in Luca": [
+				"Some of Luca's residents are making light of the teachings. What sacrilege."
+			]
+		},
+		"Shopkeeper": {
+			"Merchant": [
+				"Welcome! Thank you! Come again!",
+				"You're going with Lady Yuna? Does that mean you're a guardian?",
+				"You're saving it for the tournament then!",
+				"If there's anything you need to know about guardians, ask Lulu.",
+				"I hope your toxin wears off soon."
+			]
+		},
+		"Innkeeper": {
+			"Kilika Innkeeper": [
+				"M'lady Summoner!",
+				"Did you rest well? The others left some time ago.",
+				"We're still cleaning up here. Uh ... Shouldn't you be on your way?",
+				"We're still cleaning up here.",
+				"We're still cleaning up."
+			],
+			"Djose Innkeeper": [
+				"This inn belongs to Djose Temple. Will you be staying with us for the night?",
+				"Welcome to the Djose Temple Inn."
+			],
+			"Guado Innkeeper": [
+				"The Guado welcome all guests. Would you like to rest here?",
+				"Then let me show you a Guado's hospitality.",
+				"Very well. Come back anytime.",
+				"Oh? You want to rest here?",
+				"Very well. I know about you",
+				"He that is too secure is not safe"
+			],
+			"Maechen": ["Can't get enough? Like to hear it one more time?"],
+			"Mifurey": [
+				"Ah, Lady Summoner. Yes, just over that way.",
+				"Welcom to Rin Travel Agency! We have a wide selection of quality merchandise to choose from."
+			],
+			"Macalania Innkeeper": [
+				"Welcome to the Lake Macalania branch of Rin's Travel Agency, now Spira-wide! Thank you for your patronage! Please use our other agencies in your travels!"
+			]
+		},
+		"Gatekeeper": {
+			"Dome Gatekeeper": [
+				"But fear not. Lady Yunalesca will show you the path. The Final Aeon will be yours. The summoner and the Final Aeon will join powers. Go to her now. Inside, the lady awaits. (Makes symbol of Yevon and vanishes)"
+			]
+		},
+		"Gatekeeper in priest's outfit": "Dome Gatekeeper",
+		"Blond Guy (Observation Deck)": {
+			"Bahamut's Fayth": ["Well?"]
+		},
+		"Crusader": {
+			"Crusader in gold and rust": [
+				"We'll defeat Sin any way we can!",
+				"Enough! (Storms off)"
+			],
+			"Crusader guarding Kilika temple steps": ["You shall not pass!"],
+			"Crusader in Stadium": ["I'm off duty. Let me be."],
+			"Crusader in yellow and purple (fork)": [
+				"The command center is strategically located on a ledge overlooking the sea.",
+				"We have neutralized all fiends around the command center."
+			]
+		},
+		"Yuna": {
+			"Epitaphs": ["Rest in peace. A peaceful death."]
+		},
+		"Another pompous harpist": {
+			"Guard in Monks' Chamber": [
+				"Both Guado and human blood flow through Maester Seymour's veins. This mixed heritage caused him a deal of grief in his childhood. But because of that very experience ... he grew to become a great leader who aspired to bring Guado and humans together in friendship.",
+				"Lord Braska vanquished Sin when Lord Seymour was about your age. During the celebration of the Calm's arrival, Maester Mika ordained Lord Jyscal a maester of Yevon. He praised Lord Jyscal's achievements, including the conversion of the Guado to the teachings of Yevon. Maester Seymour was still a young lad then, but he tried hard to assist Lord Jyscal.",
+				"As a monk, Maester Seymour soon distinguished himself. His accomplishments were many and acclaimed by all. He shot up through the ranks quickly, he did. Aye, he rose high on his own, never riding Lord Jyscal's coattails. He's truly a remarkable young man.",
+				"As a summoner, Maester Seymour's strength is matchless. Yet, he became a maester of Yevon instead of undertaking the pilgrimage to battle Sin. I think he believes that there's more to a summoner's duty than just destroying Sin.",
+				"Don't you hold back now."
+			]
+		},
+		"Warrior monks on stadium end of causeway": {
+			"Male warrior monk on stadium end of causeway": [
+				"What do you say we ditch",
+				"Hmph! That's the problem",
+				"We're in sunny Luca now"
+			],
+			"Female warrior monk on stadium end of causeway": [""]
+		},
+		"Crusader plus warrior monk at bar": {
+			"Crusader at bar": [
+				"With Operation",
+				"What?",
+				"It may",
+				"-What?",
+				"-It may"
+			],
+			"Warrior monk at bar": [""]
+		},
+		"Woman plus girl conversing on bench near reporter/cameraman": {
+			"Woman 1 conversing on bench near reporter": [
+				"I was really surprised",
+				"-I'm keeping a close eye",
+				"-I like how they",
+				"-The Ronso?",
+				"What? The Besaid",
+				"-So, how did those fiends",
+				"Who knows what would"
+			],
+			"Woman 2 conversing on bench near reporter": [""]
+		},
+		"Woman plus girl conversing on bench near reporter": {
+			"Woman 1 conversing on bench near reporter": [
+				"I was really surprised",
+				"-I'm keeping a close eye",
+				"-I like how they",
+				"-The Ronso?",
+				"What? The Besaid",
+				"-So, how did those fiends",
+				"Who knows what would"
+			],
+			"Woman 2 conversing on bench near reporter": [""]
+		},
+		"Woman plus girl conversing near reporter": {
+			"Woman 1 conversing on bench near reporter": [
+				"I was really surprised",
+				"-I'm keeping a close eye",
+				"-I like how they",
+				"-The Ronso?",
+				"What? The Besaid",
+				"-So, how did those fiends",
+				"Who knows what would"
+			],
+			"Woman 2 conversing on bench near reporter": [""]
+		},
+		"Soldier and boy fighting": {
+			"Soldier fighting with boy": [
+				"-Come on! Swing like a man!",
+				"-Okay, come on now! Pretend I'm a fiend!"
+			],
+			"Boy fighting with soldier": [
+				"-I'm gonna beat Sin!",
+				"-Die, die, die!"
+			]
+		},
+		"Little beaky guy and Al Bhed in a red vest": {
+			"Little beaky guy": [
+				"-The fiends were the Al Bhed's doing!",
+				"-Yeah, I guess you're right.",
+				"So, basically, you don't know anything, huh?"
+			],
+			"Al Bhed in a red vest": [
+				"-What're you saying? You know the Al Bhed use machina!",
+				"The fiends were the Crusaders' doing!"
+			]
+		},
+		"Pair of warrior monks near Stadium": {
+			"Warrior monk near stadium 1": [
+				"-Let him go. Even the two of us",
+				"-Our duties? We missed the ship to Bevelle",
+				"We wear the armor of the temple"
+			],
+			"Warrior monk near stadium 2": [""]
+		},
+		"Man plus woman talking at stadium end": {
+			"Mainlander": ["-The Aurochs won the tournament"],
+			"Woman talking on stadium end of causeway": [""]
+		},
+		"Guy in red shorts": {
+			"Portly man with woman (mainland end)": [
+				"-Is it true that",
+				"-At this rate",
+				"I just wish"
+			]
+		},
+		"Man plus woman talking on stadium end of causeway": {
+			"Mainlander": [
+				"-I wonder how",
+				"-Psshhh!",
+				"-But you know",
+				"Oh, yeah?"
+			],
+			"Woman talking on stadium end of causeway": [""]
+		},
+		"Frog drummer": {
+			"Beaky guy on left": [
+				"Just as the name implies, it is a sphere that plays music, performed by the Yevon Musical Troupe. Each sphere contains one song. You will also need to use the audiovisual control panel found in the main hall. So, would you like to purchase a memento of your travels?",
+				"Please come again."
+			],
+			"Beaky guy on right": [
+				"Excellent. Please close your eyes and concentrate. Let's see how many images you can currently record onto Movie Spheres. Ahh ... Looks like #. You don't have enough Gil, sir.",
+				"it captures the moment, so to speak. However, the Movie Sphere differs mainly in that it records images from the past rather than the present. You will also need to use the audiovisual control panel found in the main hall. So, would you like to purchase a memento of your travels?",
+				"Please come again."
+			],
+			"Lady behind counter": ["Please come again."],
+			"Daraya": [
+				"If it's our music you want to hear, then go to the back and buy a sphere!"
+			]
+		},
+		"Guard at lefthand exit": {
+			"O'aka": [
+				"Hey, lad. I appreciate yer offer, but ye ain't got enough Gil.",
+				"Blimey, lad! Will ye actually lend me X Gil?"
+			],
+			"Guard (Dock 2)": [
+				"A ferry bound for Kilika is anchored here at dock number 2.",
+				"The ferry docked here is headed for Kilika Port."
+			]
+		},
+		"Woman": {
+			"Woman talking on mainland side of causeway": [
+				"The Crusaders are blustering on about destroying Sin, but, heh ... I doubt they will."
+			],
+			"Kilika Innkeeper": [
+				"Our loved ones ... We feared they would become fiends!"
+			],
+			"Grieving Woman": [
+				"I hope you live your next life in a world without Sin."
+			],
+			"Al Bhed woman in bumblebee-striped robe": [
+				"I will check over here."
+			]
+		},
+		"Little girl": {
+			"Calli": ["You're a summoner?", "I'm Calli."],
+			"Yuna's little friend": ["Lady Yuna, come play with me some more!"],
+			"Kulukan's little sister": [
+				"(Weeping)",
+				"(Gives Yevon bow and runs off)",
+				"I'm gonna grow up to be a blitzer just like my sister!"
+			],
+			"Little girl (aspiring sailor)": [
+				"This guard is so mean! He won't let me in to see Sir Graav!",
+				"I don't care if I have to wait for hours!",
+				"I hope Sir Graav's not hurt ...",
+				"Big boats, small boats, gotta love 'em all!",
+				"I want to be a sailor and sail all over Spira when I grow up."
+			]
+		},
+		"Al Bhed in red vest": {
+			"Little beaky guy": [
+				"-The fiends were the Al Bhed's doing! They're out to get the temples!",
+				"-Yeah, I guess you're right.",
+				"The fiends were the Crusaders' doing! They're out to sabotoage the tournament!",
+				"-Yeah, I agree."
+			],
+			"Al Bhed in bright red vest": [
+				"Sin is lurking in the waters nearby."
+			]
+		},
+		"The young guns believe everything will go as planned. We veterans know otherwise": {
+			"Crusader in green (Mi'ihen)": [
+				"it's not going to be easy.",
+				"Of course when the time comes, we'll march in full force to victory. Victory must be the goal to win any battle.",
+				"They say luck decides the battle, but we can't afford to lose.",
+				"The young guns believe everything will go as planned. We veterans know otherwise"
+			]
+		},
+		"Weaver": {
+			"Journeyman weaver": [
+				"Well, the last summoner almost ...",
+				"Ah, my apologies."
+			]
+		},
+		"Monster Arena Guy": {
+			"ACTION": [
+				"After collecting",
+				"After facing Ultima Buster",
+				"After beating Nemesis",
+				"Species conq",
+				"After finishing an area",
+				"If you ",
+				"Before finishing Calm Lands collection",
+				"Before obtaining Celestial Mirror",
+				"After obtaining Celestial Mirror",
+				"After Arena is"
+			],
+			"Tidus": [
+				"Sorry, no time for that.",
+				"All right, I'll do it!",
+				"Would you explain that again?"
+			]
+		},
+		"Old man": {
+			"Monster Arena Guy": [
+				"Wowzers!",
+				"Thanks to you",
+				"You've captured",
+				"I've just got",
+				"You've beaten my",
+				"I've done",
+				"I've been researching",
+				"You beat him",
+				"What? You lost?",
+				"Awww. Not up to it?",
+				"Hmm ... And I was thinking to",
+				"That's the spirit, sonny!",
+				"So far, you've collected",
+				"Ah! You've caught all the fiends",
+				"Now what?"
+			],
+			"ACTION": [
+				"Obtained Nirvana!",
+				"The Celestial Mirror seems to react.",
+				"It won't open."
+			],
+			"Gramps": [
+				"Lady Yuna! Be careful!",
+				"Some wild youngsters are saying the Aurochs won after a 23-year losing streak!",
+				"Looks like you got over the toxin. Praise be to Yevon, eh?",
+				"We Besaiders all know Lady Yuna's no traitor.",
+				"I think I'll stick around long enough to see Sin get what's coming to it! Heh!"
+			],
+			"Kilika Old Man": [
+				"This is my home, and no matter how bad it gets, I ain't movin'.",
+				"Repairs to the village are going well, but it'll take more than wood to repair the hearts of the people.",
+				"I ain't leaving my home. Nope. Never, I tell you.",
+				"The people of Kilika are used to destruction. It's nothing new."
+			],
+			"Former Blitzer": [
+				"Climbing those stone steps every day has kept me in shape.",
+				"I used to be a blitzer back in my day.",
+				"I recognize your face, sonny. You were here praying for victory, right?",
+				"Not many visitors at the temple these days. It is a pity, really."
+			],
+			"Old Man by shoopuf": [
+				"Sin took my daughter, but I just saw her again for the first time in five years.",
+				"I've seen my daughter, so I have no regrets."
+			]
+		},
+		"Guado": {
+			"SYSTEM": [
+				"A maester of Yevon",
+				"A Ronso youth",
+				"An Al Bhed girl ",
+				"She was taken to ",
+				"Star player of the ",
+				"The legendary guardian who, ",
+				"Yuna's blitzball-toting guardian. ",
+				"Yuna's guardian, and an accomplished black mage."
+			],
+			"First Guado": [
+				"Halt!",
+				"Lord Seymour's commands must be obeyed. You will come!"
+			],
+			"Guado outside Macalania Temple": [
+				"Fool! To come back to Macalanaia Temple a traitor!"
+			]
+		},
+		"Bird Harpist": {
+			"LOCATION": ["Lady behind the counter ..."],
+			"Cafe Barkeeper": [
+				"...",
+				"Hey there",
+				"Amazing. I can say",
+				"Our ancestors received"
+			],
+			"Borra": [
+				"The butterfly that changes color attracts the red and blue butterflies."
+			]
+		},
+		")": {
+			"Portly man with woman (mainland end)": [
+				"-Is it true that the ferry is out of service?",
+				"-At this rate, who knows when we'll make it back to Kilika?"
+			],
+			"Woman talking on mainland side of causeway": [
+				"-I hear Sin may still be lurking in the sea nearby."
+			],
+			"Nedus": ["Nothing beats blitz! I wish you luck."],
+			"Wedge": [
+				"I'm right by the stadium, but I can't watch the game. What a bummer ...",
+				"Did you forget something inside? Give it up. I doubt you'll find it."
+			],
+			"Biggs": [
+				"The first match has already begun. Please hurry to your seat.",
+				"We are currently assessing the damage from the fiends. No admittance."
+			]
+		},
+		"Another guy in yellow pants": {
+			"Yet Another guy in yellow pants": [
+				"All of Zanarkand's watching now, so put on a show for 'em!",
+				"Show them what blitzball's all about!"
+			]
+		},
+		"Helmsman": {
+			"LOCATION": ["Besaid Beach/Dock"],
+			"Helmsman (S. S. Liki)": [
+				"Oh, what a great day! The breeze must feel wonderful.",
+				"Wanna man the helm? Yeah, right. Just kidding.",
+				"So, you're with Lady Yuna? That means you're a guardian.",
+				"Maybe I'll go have chat [sic] with Lady Yuna, too.",
+				"There was talk about warrior monks coming on board to guard the ship.",
+				"If Sin can't sink this ship, nothing can! We're guaranteed a safe voyage.",
+				"There's been turmoil on shore, but it's got nothing to do with us out here."
+			],
+			"Helmsman (S. S. Winno)": [
+				"No offense, but I'm a diehard Luca Goers fan. Good luck, pal. You're gonna need it.",
+				"Maybe you're better off asking the Goers to coach you.",
+				"You're from Zanarkand? Everyone on the ship's been talking about you.",
+				"You've got the biggest mouth of any blitzer I've ever seen!",
+				"I can't believe the Aurochs won!",
+				"The Aurochs just got lucky.",
+				"Like I said before, you're no match for the Goers!",
+				"I've heard the Al Bhed attacked Bevelle with a flying ship."
+			]
+		},
+		"Boy in dark red": {
+			"LOCATION": ["Gorge/Crusaders Camp", "The Gorge/Scar"]
+		},
+		"Captain": {
+			"Captain of the S.S. Liki": [
+				"We'll arrive in Kilika before nightfall. Go on, take a nap or something.",
+				"The S.S. Liki is funded by Yevon.",
+				"Ocean weather can be fickle, but I doubt we'll see any storms today.",
+				"The cargo that the Crusaders loaded on board worries me.",
+				"It's a miracle this ship can still sail",
+				"Let's hope that the great sea will ease the pain of a battered sailor."
+			],
+			"Captain of the S.S. Winno": [
+				"We're doing double duty on the watch to avoid ending up like the S.S. Liki.",
+				"This ship is just a ferry. We're doomed if we run into Sin.",
+				"We have two summoners and the Goers onboard.",
+				"What, the Besaid Aurochs? They're more like cargo.",
+				"We used to ferry a lot of Crusaders before Operation Mi'ihen",
+				"Let us pray that the souls of the fallen reach the Farplane."
+			]
+		},
+		"Female Crusader in green and gold": {
+			"LOCATION": ["Mt. Gagazet"]
+		},
+		"Man in brown coat": {
+			"Chocobo trainer": [
+				"Wow! That's a new personal best! Congratulations!",
+				"Don't give up. Someday you'll hold the record!",
+				"I may have won, but that was your best run yet.",
+				"Unbelievable! That was a perfect run!",
+				" I guess I'm the challenger. Enjoy it while you can!",
+				"Come challenge me again sometime. I'll keep a record"
+			],
+			"ACTION": ["Have you the Celestial"],
+			"Man on guard in brown coat": [
+				"Hey, hey! You can't go down there!",
+				"Hey, I saw it! I saw the race!",
+				"It's been ages since I could get my mind off my job!"
+			],
+			"Man in brown and green": [
+				"The Guado have apparently lost their willpower and are in low spirits."
+			]
+		},
+		"Nun in lefthand chamber": {
+			"LOCATION": ["Djose/Mi'ihen Highroad"]
+		},
+		"Yojimbo's Fayth": {
+			"LOCATION": ["The Scar / Crusaders' Training Camp"]
+		},
+		"Bare-legged Crusader (Luca)": {
+			"LOCATION": ["Stadium"]
+		},
+		"Priestess": {
+			"ACTION": [
+				"(As Mintywolf points out, the priest guarding the Cloister entrance"
+			],
+			"Nun in Luca": [
+				"The Macalania temple is losing its faith. I do not wish to live there anymore."
+			]
+		},
+		"Woman in white": {
+			"ACTION": ["PHEW, that's everyone in Spira we've met so far."],
+			"Pious woman": [
+				"It's the machina's fault that so many of our Crusaders died.",
+				"I can't believe Lady Yuna would ever turn her back to the teachings! Never!",
+				"How unfortunate that Lady Yuna's engagement to Maester Seymour was put off.",
+				"I pray that the next Calm will last a long time."
+			]
+		},
+		"NARRATION": {
+			"Tidus": [
+				"Listen to my story. This may be our last chance.",
+				"I thought about a lot of things",
+				"I had made it out of the frying pan",
+				"So I told her everything there was to tell about Zanarkand",
+				"My Zanarkand, some kind of holy place?",
+				"Yevon? Sin? Luca? I thought Sin just",
+				"(fistpump) Finally, things were starting to look up.",
+				"I felt like I could trust this Wakka, so I just had to ask.",
+				"It was just as Rikku said.",
+				"I appreciated the fact that Wakka was trying to cheer me up.",
+				"I thought then that blitzball and Sin were the only two things that Spira",
+				"I didn't know it in the first place",
+				"Of course I'd never prayed before in my life.",
+				"Any blitzball player would know that prayer.",
+				"It was then, standing in that place, I began to realize",
+				"It was funny hearing myself make the same excuse over and over.",
+				"So what he meant ... was that we should respect some kinda great men",
+				"Maybe this wasn't such a good idea after all.",
+				"Man, was I surprised. And here I was thinking summoners were all old geezers.",
+				"I had never seen anything like it in my life.",
+				"Miracles and oddities were starting to become daily routine on this trip.",
+				"When Sin attacked Zanarkand that day, I woke up in Spira.",
+				"I was just fooling myself. Maybe it was that day",
+				"I wished there would never be a next time.",
+				"That moment when Wakka told me I had talent in battle",
+				"Wakka, Lulu, and Wakka's brother Chappu.",
+				"Even ten years after he left",
+				"A guardian is someone a summoner can rely on.",
+				"What's she smiling about?",
+				"I thought I had put my feelings for Zanarkand behind me.",
+				"So, Yuna, wanna come over to my place?",
+				"I didn't think my old man would come to Luca.",
+				"It didn't even occur to me to think that the Auron Yuna was talking about",
+				"To be honest, I did kind of feel left out, but",
+				"Even for a little while ... people can sleep in their beds",
+				"That sunset was different from the one I saw in Kilika.",
+				"I knew it couldn't be my Zanarkand.",
+				"From the first time I laid eyes on him",
+				"It would be a long time ... before I ever really understood",
+				"I remembered Auron telling me. Sin is my old man. Sin is Jecht.",
+				"I have no idea what I was thinking when I ran after Sin that day.",
+				"I thought I sensed my old man there.",
+				"How many died today?",
+				"People die, and Yuna dances.",
+				"Sin had come and gone, but I remained here.",
+				"Yeah, maybe when I was a kid. Maybe a little now. Just a little.",
+				"I hadn't really laughed like that in a long time.",
+				"Where there's a will, there's a way.",
+				"It was strange. Even though Wakka had always hated the Al Bhed ...",
+				"He never realized Rikku was one of them.",
+				"I had to stop myself from shouting What's there to think about?",
+				"I wondered why none of the others ever asked Yuna.",
+				"The Farplane was cool, but I couldn't stop thinking",
+				"Trying not to think about my old man made me think about him",
+				"He isn't here because he's not dead.",
+				"What if my old man really is Sin? ",
+				"Whenever my old man was around, my mother wouldn't even look at me.",
+				"The old lady next door told me",
+				"Somehow, my bad feelings always come true.",
+				"It's funny how calm I was. Maybe it was because",
+				"I guess I understood. My old man",
+				"Maybe I had to start accepting my own fate.",
+				"\"Praise be to Yevon.\" That's what I would have said",
+				"It was then I knew ... that Sin really was my old man.",
+				"I told Yuna I would find a way.",
+				"Sometimes Yuna would just stare off into the distance.",
+				"I wanted to see Yuna's statue, too.",
+				"A city dead for a thousand years.",
+				"My thoughts, they kept floating up",
+				"Listen to my story. This may be our last chance."
+			],
+			"SYSTEM": [
+				"Sphere lying in lefthand ruins =Introduction to Al Bhed",
+				"On blue plaque in righthand ruins",
+				"Something is written here. Kilika and Bikanel join as one.",
+				"Blue plaque by path t e p s w r s V C O I U",
+				"[Blue plaque on nw corner of Central Desert ... lefthand is Al Bhed cipher",
+				"[There's a clue on the rock spire next to Svanda ... ] With the vale",
+				"Inside the ruined tower There is a valley in a vast plain"
+			]
+		},
+		"Bird-counting person on top deck": {
+			"LOCATION": ["Beach/Dock"]
+		},
+		"Gas Mask Guy (Observation Deck)": {
+			"SYSTEM": [
+				"Ten fiends still seek eternal repose. (After killing ten) The fiends, now freed, release the seal of Yevon!"
+			]
+		},
+		"ACTION": {
+			"Gatta": ["(snnnnoooore)"]
+		},
+		"Gatta Luzzu": {
+			"Luzzu": ["Best to let him sleep."]
+		},
+		"Luzzu": {
+			"Gatta": ["Be on guard. There're fiends on the road today!"]
+		},
+		"Blond Spikey-hair": {
+			"LOCATION": ["Airship Corridor, Level Three"]
+		},
+		"Warrior monk patrolling": {
+			"Warrior monk patrolling (temple forecourt)": [
+				"I have quit the Crusaders and have joined the warrior monks to protect the temple!",
+				"The warrior monk I respect most is Sir Auron"
+			]
+		},
+		"Old man near inn": {
+			"Old Man (Grandfather)": ["My grandchildren are on the Farplane."],
+			"Kilika Old Man": ["I just want to live in Kilika in peace."]
+		},
+		"Man in green and white": {
+			"Besaid Handyman": [
+				"Sir Luzzu and Gatta aren't back yet.",
+				"I'm no fiend-fighter, so I fix things and help the Crusaders that way."
+			],
+			"Spoony": [
+				"Is it true that the temple is in chaos? I don't believe that one bit!",
+				"Is it true that Maester Seymour isn't a normal Guado?",
+				"I asked a warrior monk out to the cafe, but she called me a spoony bard! Unbelievable!"
+			]
+		},
+		"Hypello": {
+			"Hypello adult": [
+				"Thish ishn't the shtadium ... ? I shink I'm losht."
+			]
+		},
+		"Luca guard on patrol": {
+			"Roving guard in gray (FoS)": [
+				"We were supposed to get some time off after the tournament"
+			],
+			"Roving guard in blue (FoS)": [
+				"Please report any suspicious activity."
+			]
+		},
+		"Warrior monk on bench where Crusader used to sit": {
+			"Warrior monk on bench (where Crusader sat)": [
+				"We are protecting Luca under Maester Kinoc's orders."
+			],
+			"Female warrior monk on bench (where Crusader sat)": [
+				"So many Crusaders have died and yet people are watching blitzball?"
+			]
+		},
+		"Guy in khaki": {
+			"ACTION": [
+				"[You're not fooling anybody with that mask and blond hair, Mr. Al Bhed.]"
+			]
+		},
+		"Guard": {
+			"Guard (Dock 2)": [
+				"Patrolling a large structure such as this would be next to impossible.",
+				"Dock number 3 lies straight ahead."
+			],
+			"Guard (Dock 3)": [
+				"A watchman is posted at every dock for your safety.",
+				"To my left is dock number 2 and to my right is dock number 4."
+			],
+			"Guard (Dock 4)": [
+				"Dock number 3 lies straight ahead.",
+				"The sphere monitor makes our job a lot easier."
+			],
+			"Guard (Dock 5)": [
+				"This is Dock number 5. Dock number 4 lies straight ahead.",
+				"If you're looking for the entrance, please go back the other way.",
+				"I turned away for a second, and look what happened!",
+				"I'll have these crates moved in no time, sir!"
+			]
+		},
+		"Little boy": {
+			"Vilucha's son": [
+				"Yeah, but ...",
+				"Yeah!",
+				"Let's go help the summoner! I promise I'll be a good boy!"
+			],
+			"Blitzball Kid": ["I'm gonna be a blitzball when I grow up!"],
+			"Little boy (Goers fan)": [
+				"I'm gonna practice blitz real hard and be just like Bickson!",
+				"Guess what, guess what? I shook Bickson's hand!",
+				"Take it easy, sis! You're too obsessed with ships.",
+				"Sis once got caught trying to sneak onto that ferry."
+			]
+		},
+		"Sailor with blue cap on gangway": {
+			"Sailor w/blue cap": [
+				"I kinda got to liking this town. Maybe I'll be giving up seafaring.",
+				"Someone saw an Al Bhed ship near the island.",
+				"One of my friends is on your ship. I'll pray for both of you.",
+				"No matter what happens in the temples, it's life as usual here.",
+				"I heard the Guado blew up the Al Bhed's home!",
+				"That flying ship was spectacular!"
+			],
+			"Sailor with blue cap (S. S. Winno)": [
+				"I'm sorry, sir, but the ferry will remain at anchor for a while."
+			]
+		},
+		"Sailor in blue cap": {
+			"Sailor w/blue cap": [
+				"Seems kind of odd to pray for the temple's sake, ya?"
+			],
+			"Sailor with blue cap (S. S. Winno)": [
+				"This ferry will take you to",
+				". Would you like to board?",
+				"Would you like to board?",
+				"We can leave any time you're ready.",
+				"Give me a holler when you're ready."
+			]
+		},
+		"Lucan guard": {
+			"Cafe Guard in Gray": [
+				"The tournament's finally over. Gimme some peace, will you?",
+				"It's terrible. The fiends attacked while His Holiness was here."
+			],
+			"Luca guard in brown": ["If anything had happened to Maester Mika"]
+		},
+		"Female warrior monk on stadium end of causeway": {
+			"Female warrior monk (Sphere Theatre)": [
+				"I admire that young Crusader's dedication."
+			]
+		},
+		"Little girl in nun's habit": {
+			"Playful Little Nun": [
+				"What happened to the Crusaders? They all look so sad."
+			],
+			"Little nun (Sphere Theatre)": [
+				"I came to buy a sphere, but I don't have enough money.",
+				"I asked a monk to buy me a sphere"
+			],
+			"Little nun (Dock 4)": [
+				"I'm still in training, so I'm watching the game on the sphere."
+			]
+		},
+		"Roving Luca guard in blue": {
+			"Roving guard in blue (FoS)": [
+				"Please report any suspicious activity."
+			]
+		},
+		"Roving guard in gray": {
+			"Stadium Guard in Gray": ["What are you doing out here?"],
+			"Roving guard in gray (FoS)": [
+				"Aren't you a blitzer? Better check the rules while you still can."
+			]
+		},
+		"Roving Luca guard": {
+			"Stadium Guard in Gray": [
+				"Since games are played every day, the guards are always on duty."
+			]
+		},
+		"Engineer": {
+			"Bearded engineer": ["The ship is fine, even inside Sin, I think."]
+		},
+		"Gas mask guy": {
+			"Man in gas mask": [
+				"If you are prepared, we can attack Sin at any time!",
+				"The gravity, it bends! And with Sin at the center!",
+				"You attack from the front? It is a crazy, but delightful plan!"
+			],
+			"Gas mask guy (Bikanel)": [
+				"But then, we still have blitz, you see?"
+			]
+		},
+		"Crusader in need of pants": {
+			"Bare-legged Crusader (Luca)": [
+				"I quit the Crusaders after the operation, but I'm back in again.",
+				"I'm rooting for the Al Bhed Psyches this year."
+			]
+		},
+		"Barechested man in shorts": {
+			"Guy in red shorts": ["The Aurochs are a completely new team!"]
+		},
+		"Warrior monk in gold": {
+			"Warrior monk (FoS)": [
+				"Please report any suspicious activity to me immediately!"
+			],
+			"Warrior monk (Dock 4)": [
+				"Look at the size of those Ronso! The fact that I'm supposed to be guarding them is pretty funny, don't you think?"
+			]
+		},
+		"Crusader in purple and green": {
+			"Short Crusader in purple and green": [
+				"We incurred heavy casualties in last year's Djose coast",
+				"I found this lying on the battlefield.",
+				"All I can offer now are my prayers."
+			],
+			"Crusader in purple and green (Mi'ihen)": [
+				"Here's a little something to cheer you up before the big fight.",
+				"I'm gonna vanquish Sin and return home a hero.",
+				"Us Crusaders ... We're gonna make history with this operation.",
+				"No doubt we're gonna win."
+			]
+		},
+		"Man in blue vest": {
+			"Aurochs fan": [
+				"Hey, did you see the lady summoner?",
+				"The Aurochs really improved this year, but their success was overshadowed by the fiend incident.",
+				"Only a few have returned alive.",
+				"Why use machina, when we have summoners?",
+				"The only thing the people can really do is to pray for the Calm.",
+				"Hurray! With the Crusaders back I feel like we could take on two Sins!"
+			],
+			"Man in blue vest (Mi'ihen South)": [
+				"We all had a swell time singing when the ship flew over us."
+			],
+			"Man in blue vest (Mi'ihen Central)": [
+				"Everyone looks calm, but they are still afraid of Sin."
+			]
+		},
+		"Bearded Al Bhed": {
+			"Bearded guy": ["Yes! It is so!"]
+		},
+		"Woman in blue": {
+			"Isken's friend": [
+				"The Kilika Beasts didn't win, but that's okay.",
+				"Sin's been around for a thousand years and will probably be around for a thousand more."
+			],
+			"Midriff-baring lady in blue in cafe": [
+				"Seymour's aeon was really something, wasn't it?",
+				"I'd like to believe that a maester of such power could keep Spira peaceful.",
+				"There are warrior monks everywhere you look.",
+				"The high summoner's daughter would never turn traitor."
+			],
+			"Woman in blue (Luca)": [
+				"Don't you think it's disrespectful of the Al Bhed to play in the Yevon Cup?",
+				"Up until last year, it was the Crusaders who were in charge of security.",
+				"Those warrior monks were useless. They didn't do a thing."
+			],
+			"Woman in blue near Mushroom Rock Gate": [
+				"The warrior monks and the Guado guarding this area have left."
+			]
+		},
+		"Little Crusader": {
+			"Little Crusader (Sphere Theatre)": [
+				"Travellers check this monitor for fiend information before setting out on their journey.",
+				"You should check the sphere monitor before you set out.",
+				"A fiend might be attracted to the music!"
+			],
+			"Little Crusader (Dock 2)": ["Nothing out of the ordinary, sir!"]
+		},
+		"Man in blue and white": {
+			"Man in white and blue (Luca)": [
+				"Looks like that last machina attack sent Sin back to the sea for now."
+			],
+			"Man in white and blue (Mi'ihen)": [
+				"Hey there, guardians. Here. Use this to defend our summoner well.",
+				"I hear some big operation's about to start.",
+				"I don't know what the Crusaders are up to,",
+				"The Crusaders can't beat Sin."
+			]
+		},
+		"Old woman": {
+			"Besaid Old Woman": [
+				"Me favorite's Lord Ohalland, ya? Spitting image of me old hubby.",
+				"Stay away from the summoner!",
+				"What do you want, heathen?",
+				"I've nothing to say to a breaker of the precepts!",
+				"Do not disturb our prayers, heathen!",
+				"What? You? A guardian? The toxin's still got you, eh?",
+				"When the Calm comes, we'll be putting up a statue of a new high summoner."
+			],
+			"Old Woman (Grandmother)": [
+				"My granddaughter wants to be a sailor when she grows up. What a dreadful thought!",
+				"I tell her how dangerous it is out on the ocean, but she never listens."
+			],
+			"Old woman merchant": [
+				"Feel free to buy loads of merchandise, but I ain't giving you a discount."
+			],
+			"Old woman (Mi'ihen)": [
+				"My grandpa and I ... We used to take a stroll through here almost every day."
+			]
+		},
+		"Woman in green skirt": {
+			"Refugee": [
+				"A summoner named Lord Isaaru came to the village, but he left so soon.",
+				"The Crusaders' operation failed as expected, because they used machina!",
+				"Operation Mi'ihen was a crushing loss for the Crusaders",
+				"Maybe I should learn Besaid weaving ... make a place for myself here.",
+				"I doubt some old song is going to help anyone beat Sin."
+			],
+			"Woman in green skirt by TV studio": [
+				"There must be a hundred people in red out there.",
+				"Seymour's aeon may be able to destroy Sin.",
+				"With only the Crusaders and the Al Bhed helping",
+				"I don't know much about religion, but there's something weird about the temple."
+			],
+			"Calli's Mother": ["My Lady Summoner!"]
+		},
+		"Man in green and brown at south end of Mi'ihen Highroad": {
+			"Worried man in green and brown": [
+				"Their owner's a Crusader and he hasn't returned yet ..."
+			]
+		},
+		"Man in green and brown": {
+			"Guy in green and brown": ["I feel bad for the Crusaders."],
+			"Worried man in green and brown": ["They haven't eaten at all."]
+		},
+		"Man in gold tunic": {
+			"Goers Fan": [
+				"The Goers didn't win, but a true fan",
+				"I just want to wish the Goers luck"
+			]
+		},
+		"Man in yellow and blue": {
+			"Ferry Greeter": [
+				"I hear Sin has gone far away.",
+				"Did you hear? When you see the flying ship",
+				"So, uh ... I sang the Hymn of the Fayth"
+			],
+			"Man in yellow and blue (Mi'ihen)": [
+				"Please give this to the lady summoner as a token of my gratitude.",
+				"The Crusaders are really active.",
+				"I heard that Crusaders are marching in from all over Spira.",
+				"Mum's the word. I hear the temples of Yevon are in on this, too."
+			]
+		},
+		"Al Bhed child (blue pants)": {
+			"Al Bhed child kneeling": ["My dad is riding on an airship."]
+		},
+		"Woman in tan and orange": {
+			"Mother in tan and orange": [
+				"Have you seen a little boy? My son and I got separated in the crowd."
+			],
+			"Woman in tan and orange (Mi'ihen)": [
+				"You look awful depressed, and it's such a beautiful day.",
+				"That flying ship will bring about the Calm."
+			],
+			"Wife in tan and orange": [
+				"Our son won't stay away from that Al Bhed. "
+			]
+		},
+		"Boy in red": {
+			"Older boy": [
+				"The priest told me the story of Lady Yunalesca and Lord Zaon."
+			]
+		},
+		"Mother": {
+			"Mother on bench": [
+				"I never believed that the fiends would attack this city. This is horrible."
+			],
+			"Calli's Mother": [
+				"We're looking forward to another Calm, My Lady Summoner.",
+				"And good luck to your guardians as well."
+			],
+			"Seymour's mother": [
+				"There is no other way. Use me and defeat Sin. Only then will the people accept you.",
+				"I don't ... have much time left."
+			],
+			"Grieving Mother": [
+				"Our son was killed in Operation Mi'ihen.",
+				"Never did I imagine our son would depart before our time."
+			]
+		},
+		"Guado girl in purple": {
+			"Guado teenaged girl": [
+				"I don't want to go back to Guadosalam because it reminds me of my brother."
+			],
+			"Redheaded girl in purple in Glories' house": [
+				"You find it difficult telling us Guado apart, don't you?",
+				"Actually, we Guado tend to have trouble telling one human from another, too."
+			]
+		},
+		"Redheaded girl in purple": {
+			"Redheaded girl in purple in Glories' house": [
+				"I prayed and prayed on the Farplane"
+			],
+			"Guado woman in purple": [
+				"Soon Sin will come for us all. Human, Guado, it makes no difference."
+			]
+		},
+		"boy with the green headband": {
+			"Woman w/red headband": [
+				"-Hey! Stop that! Just watch what your big sis is doing and learn!"
+			],
+			"Girl in red shorts": ["-Yay!"]
+		},
+		"Sailor": {
+			"Sailor w/blue cap": [
+				"Is it true that Sin showed up near here?",
+				"Seafaring is hard work. Gotta kick back sometimes.",
+				"I sure hope we don't run into Sin on our next voyage.",
+				"I saw the apprentice summoner and two guardians enter the temple yesterday.",
+				"I do hope they come back safely.",
+				"If you muck around here, the ship will leave without you!",
+				"I'm gonna kick back in town till the next ship gets here.",
+				"I really, really hope we don't run into Sin on this voyage."
+			],
+			"Sailor with binoculars": [
+				"Huh? You want to use the binoculars?",
+				"No way. Remember what you did last time?",
+				"I see."
+			]
+		},
+		"Sailor in blue": {
+			"Sailor in blue (Dock 1)": [
+				"The ferries that run to Kilika and Besaid have resumed operation."
+			],
+			"Sailor in blue (S. S. Winno)": [
+				"The Aurochs are the team to watch this year.",
+				"Ha! No way. I only meant it'll be fun to watch.",
+				"You're a blitzer from Zanarkand, right?",
+				"That guy poking around back there is taking sphere shots of Lady Yuna.",
+				"The Aurochs are getting too hyped up before the match.",
+				"I'm glad I got here safely."
+			],
+			"2nd harpooner": [
+				"Ever since Sin got to him, my partner has turned into a gutless wonder.",
+				"Sin's toxin probably got to him.",
+				"Ever since Sin attacked us, my shipmate has been terrified of the sea."
+			]
+		},
+		"Sailor in white pants slumped nearby": {
+			"ACTION": ["He's fallen asleep."]
+		},
+		"Crusader in purple": {
+			"Crusader in purple and white": [
+				"Those Ronso players are massive!"
+			],
+			"Crusader in purple (fork)": [
+				"A summoner's entourage! Please accept this.",
+				"After the operation, my compadres and I are heading straight to Luca.",
+				"Do you think Yevon will take us back in if we succeed?"
+			],
+			"Crusader in yellow and purple (fork)": [
+				"Give this to the lady summoner, and grant us your help when the time comes."
+			],
+			"Crusader in green (fork)": [
+				"Be sure to make thorough preparations.",
+				"We've concentrated our forces along the coast to prevent Sin from reaching land.",
+				"My friend is stationed there."
+			],
+			"Crusader in yellow and green (fork)": [
+				"We've secured the command center perimeter.",
+				"This is a mechanical lift built by the Al Bhed.",
+				"Relying on machines goes against the teachings"
+			],
+			"Crusader in purple (Mushroom Rock)": [
+				"Fiends are on the rampage!"
+			],
+			"Uncertain Crusader in purple": [
+				"I thought I'd quit the Crusaders for good, but singing the Hymn changed my mind."
+			],
+			"Peaceful Crusader in purple": [
+				"Lord Mi'ihen once passed along this road.With the Crusaders in disarray"
+			],
+			"Crusader in purple (Djose Bridge)": [
+				"You can't defeat Sin with machina.",
+				"Here, take this. I don't need it anymore.",
+				"We should live according to the teachings."
+			]
+		},
+		"Monk in righthand chamber doing flying kick": {
+			"Monk in orange": [
+				"I'm offering prayers for all the soldiers who lost their lives in that futile operation.",
+				"So many youths have died, all because of that Al Bhed machina."
+			],
+			"Monk (Djose Temple)": [
+				"We plan to station warrior monks in various locales to prepare for a possible raid by fiends"
+			]
+		},
+		"Slumped Crusader": {
+			"Crusader slumped against bar": [
+				"Once Sin is destroyed, it's celebration time!"
+			]
+		},
+		"Crusader in green": {
+			"Adult Crusader (back by the data console)": [
+				"I've configured this monitor to display information on fiends roaming around the Luca area.",
+				"Once you leave Luca, you'll have to travel the long and winding Mi'ihen Highroad."
+			],
+			"Crusader in green by checkpoint": [
+				"The Crusaders supplied us with some goods. Here you go.",
+				"Maester Seymour came to witness our deeds here today.",
+				"I must relay Lord Seymour's message to the men."
+			],
+			"Crusader in green (Mi'ihen)": [
+				"Providing is preventing. Need I say more? This'll help.",
+				"it's not going to be easy.",
+				"Of course when the time comes, we'll march in full force to victory.",
+				"They say luck decides the battle, but we can't afford to lose."
+			],
+			"Crusader in green and gold (The Scar)": [
+				"This land, where Lady Yocun trained, is sacred to the Crusaders."
+			],
+			"Crusader in green (Djose Highroad)": [
+				"My comrades are dead, all because we ignored the teachings.",
+				"This'll hardly make amends, but ... I want the lady summoner to have this.",
+				"I guess it's time to seek the monks' help and embrace the teachings once again."
+			],
+			"Crusader in green guarding Djose Temple": [
+				"The Crusaders have fallen apart, so I'm going to help out with guard duty",
+				"Maybe I should quit the Crusaders and become a warrior monk.",
+				"This temple's security is pretty tight.",
+				"I hear Lady Yuna's getting married."
+			],
+			"Green Crusader with wound": [
+				"So Lady Yuna's getting married, huh? That's great news.",
+				"By the time we get home, they'll be celebrating their marriage."
+			]
+		},
+		"Man in green and white outside pavillion": {
+			"LOCATION": ["Pavillion,"]
+		},
+		"Old Man": {
+			"Elderly Guado Man": [
+				"Our youth are all dead. Our future seemeth likewise dead."
+			],
+			"Old man on loading platform": [
+				"I thought that flying airship was Yevon's secret weapon"
+			]
+		},
+
+		"Crusader in yellow and green": {
+			"Shopping Crusader in yellow and green": [
+				"I'm short on various stuff",
+				"Well, I guess I should just be thankful.",
+				"Time to shop!"
+			],
+			"Female Crusader accompanying friend": [
+				"The Guado can't stop talking about the marriage.",
+				"I want to quit the Crusaders and settle down in the country."
+			],
+			"ACTION": [
+				"(This crusader and the one in green look like the pair of buddies"
+			]
+		},
+		"Woman in purple": {
+			"Weaver": [
+				"A summoner arrived here just recently.",
+				"I believe his name was Lord Isaaru ... yes, that's it.",
+				"I've heard that the Crusaders who fought Sin were defeated!",
+				"When those children calling themselves Crusaders come back, they're in for a scolding.",
+				"I'm glad the ferry's on its way, but Sin will be back, he will.",
+				"I heard the sailors' gossip about Lady Yuna getting married?",
+				"I should think Lady Yuna would be the last to marry and quit her pilgrimage!",
+				"The people of Besaide are friends to Lady Yuna.",
+				"All these warrior monks were here looking for Lady Yuna.",
+				"If Lady Yuna defeats Sin I'm sure those nasty rumors will go away.",
+				"That flying ship–now that's what I call a blessing of Yevon.",
+				"I wonder who was riding on that ship in the sky?",
+				"Everyone in the village is all excited about that flying ship."
+			],
+			"Woman in purple by loading platform": [
+				"Riding the shoopuf is free because the temple pays for it.",
+				"The temple provides for the people. We are truly blessed."
+			]
+		},
+		"Crusader in red, white, blue": {
+			"Crusader in RWB (Kilika)": [
+				"Even if Sin is destroyed, there will always be fiends around."
+			],
+			"Crusader in RWB (Mi'ihen)": [
+				"A fellow Crusader and I promised to meet here after the operation and have some drinks.",
+				"That guy always keeps his promises. I'm not leaving here until he comes.",
+				"I'll stay on to guard the Highroad, even without my fellow Crusaders.",
+				"Nothing you say will sway us.",
+				"I am well aware of the risks of this mission."
+			],
+			"Crusader captain": [
+				"The Crusaders have been ordered to regroup at Djose Temple.",
+				"It's my fault. My men died in vain because of me."
+			],
+			"Crusader in red, white and blue lying beside road": [
+				"Unbelievable! A flying ship that sings"
+			],
+			"Crusader in RWB (Moonflow)": [
+				"Please rest assured, the shoopuf is operating as usual.",
+				"The fight against Sin continues."
+			]
+		},
+		"Man in white and blue": {
+			"Man in white and blue (Luca)": [
+				"The Goers are gonna win. Everyone else is goin' down!",
+				"Ending the tournament with the fiend attack left a bad taste in my mouth.",
+				"The Crusaders are kicking up a real ruckus down the Highroad.",
+				"Well, if they really can wipe out Sin, I guess",
+				"I hear Lady Yuna's wedding was called off."
+			],
+			"Man in white and blue (Mi'ihen)": [
+				"The collapse of the Crusaders, the conflict in Bevelle"
+			],
+			"Husband in white and blue by loading platform": [
+				"My wife and I ran away from Bevelle."
+			]
+		},
+		"Hooded guado woman near pavillion": {
+			"Eavesdropping on crowd": [
+				"Lord Braska must be bursting with pride up on the Farplane at having such a fine daughter!"
+			]
+		},
+		"Woman in orange tunic": {
+			"Woman in orange tunic (Luca)": [
+				"Hmmm ... A guy in a red coat, huh?",
+				"This guy in a red robe took down a fiend in one blow!",
+				"With all these warrior monks, it feels more like they're occupying Luca than defending it."
+			],
+			"Woman in gold and tan by loading platform": [
+				"I thought I was lucky not to run into any wily merchants",
+				"His goods are cheaper than the other merchants'"
+			]
+		},
+		"Little nun": {
+			"Tiny nun by door of temple": [
+				"I knew all along you weren't traitors."
+			],
+			"Studious Little Nun": [
+				"Guess what? I really like studying the scriptures!",
+				"My mommy and daddy are at a place called the far plain.",
+				"We all sang together, so why isn't Sin dead yet?"
+			],
+			"Little nun (Sphere Theatre)": [
+				"The monks have been looking stern lately."
+			],
+			"Little Nun": [
+				"Maester Seymour always smells so nice! Isn't he grand?"
+			]
+		},
+		"Nun": {
+			"Nun in Luca": [
+				"You think I stand out in this temple attire?",
+				"The Crusaders are devising a sacrilegious operation."
+			],
+			"Nun (Dock 4)": [
+				"Everybody loves blitz! Even the warrior monks love it!"
+			],
+			"Nun in lefthand chamber": [
+				"Despite hearing rumors about your rebellion, I always believed you were innocent.",
+				"Yevon's blessing has saved many Crusaders from Sin's onslaught."
+			],
+			"Nun in green": ["Lord Jyscal! A sphere, in Lady Yuna's belongings"]
+		},
+		"Old Woman": {
+			"Besaid Old Woman": [
+				"What trick have you pulled on the good Lady Yuna?"
+			],
+			"Elderly Guado Woman": [
+				"Lord Seymour took many lives. It seems he is now revenged on both Guado and human."
+			],
+			"Macalania Old Woman": [
+				"Those who once criticized the Al Bhed are now blaming the Guado."
+			]
+		},
+		"Al Bhed woman in leggings": {
+			"Al Bhed woman in leggins (Mi'ihen)": ["The children are happy."],
+			"Al Bhed woman with leggings": [
+				"They say that Sin has fallen on Bevelle. All the Yevon folk are in a panic",
+				"!"
+			]
+		},
+		"Warrior monk": {
+			"Warrior monk patrolling (temple forecourt)": [
+				"No, no, I am not a warrior monk! I have rejoined the Crusaders."
+			],
+			"Warrior monk at bar": [
+				"The Crusaders and warrior monks share a common desire to protect the people.",
+				"The temple is a wreck. I really want to quit the warrior monks."
+			],
+			"Warrior monk (Dock 1)": [
+				"Luca is such a strange place. The Al Bhed are walking around freely."
+			],
+			"Warrior monk (Dock 5)": ["Cargo is scattered all over the place!"],
+			"Former Warrior Monk": [
+				"Don't get me wrong. I used to be a warrior monk"
+			],
+			"Warrior monk (south wharf)": [
+				"There have been reports of Al Bhed sightings in this area.",
+				"The Al Bhed have green eyes with a swirl pattern.",
+				"The Al Bhed are roaming this area, targeting summoners.",
+				"The Al Bhed have green eyes with a swirl pattern."
+			],
+			"Warrior monk (north wharf)": [
+				"Seems you destroyed the Al Bhed's machina.",
+				"The Al Bhed hide their green eyes with goggles."
+			],
+			"Warrior monk (orange) on lift to Command Center": [
+				"You're out of luck. "
+			],
+			"Warrior monk (Bevelle Crossroads)": [
+				"The road to Bevelle is closed."
+			],
+			"Warrior monk (Thunder Plains)": ["You heathen!"]
+		},
+		"Warrior Monk": {
+			"Warrior monk (Highbridge)": [
+				"Infidel!",
+				"You'll regret showing your face here!",
+				"Prepare to charge!",
+				"Captain?",
+				"Then ... what are we to do?"
+			],
+			"Warrior monk patrolling highroad": [
+				"There are some suspicious Al Bhed prowling around the Highroad.",
+				"Please notify me if you run into any Al Bhed."
+			]
+		},
+		"Handyman": {
+			"Besaid Handyman": [
+				"Don't bother people when they're praying! It's against the teachings!",
+				"He looks pretty weak. Maybe he just can't take it.",
+				"Oh! There are so many things I want to tell her.",
+				"Hey, you! The sea's crawling with fiends, so give this to Yuna, okay?"
+			],
+			"Kilika Handyman": [
+				"I hear the Crusaders are going to fight Sin without the aid of a summoner.",
+				"Seeing blitzball players here is a sure sign that the tournament is approaching."
+			]
+		},
+		"Crusader in gold and green": {
+			"Crusader in green on end of dock": [
+				"Sin is still out there. This is a job for the Crusaders!"
+			],
+			"Recovered Crusader in gold and green": [
+				"I took a bad hit fighting Sin. I couldn't walk for a while."
+			],
+			"Crusader in green guarding Djose Temple": [
+				"We're facing tough times.",
+				"The warrior monks left for Bevelle, so it's our job to protect this temple.",
+				"Take care! Damn, I wish I could go with you.",
+				"Good luck! Destroy Sin for us all, all right?",
+				"Come back anytime!"
+			]
+		},
+		"Monk": {
+			"Kilika Priest": [
+				"The Kilika Beasts may have lost the tournament",
+				"The Besaid Aurochs have done well this year."
+			],
+			"Monk guarding Kilika Temple Steps": [
+				"You, there! Your kind is not welcome in this holy place!"
+			],
+			"Monk in Luca": [
+				"The people are indulging in merrymaking, but we must keep in mind that",
+				"Glory be to Maester Seymour's aeon",
+				"I shall remain in Luca for a while and spread the word of Yevon among the citizens."
+			],
+			"Monk (Mi'ihen)": ["I guess all children are innocent"],
+			"Monk (Djose Bridge)": [
+				"The Crusaders deeply regret their actions.",
+				"Should you need a place to recuperate, please return.",
+				"I believe the wounded soldiers will find solace in our prayers.",
+				"This is Djose Temple, located at the heart of the Djose Continent.",
+				"There is nothing I can do but pray."
+			],
+			"Monk (Djose Temple)": [
+				"Oh, my ... We are out of funeral shrouds.",
+				"All I have to offer are my prayers.",
+				"My fellow monks have left the temple. They said nothing will change so long as we remain within these confines."
+			],
+			"Monk at the door": [
+				"The Guado have left the temple, restoring peace to this holy place."
+			]
+		},
+		"Female Crusader in red": {
+			"Female Crusader in Red (Kilika)": [
+				"I've givin' [sic] up on becoming a warrior monk",
+				"When we were training in the forest",
+				"The Crusaders of Kilika will disband soon"
+			],
+			"Female Crusader in Red (Luca)": ["Luca is a free city."]
+		},
+		"Guado woman in hood": {
+			"Hooded woman in shop": [
+				"My husband has long served as a guardian to the leaders of the Guado.",
+				"We imagine Lord Seymour will rise to great glory in Spira."
+			],
+			"Eavesdropping on crowd": [
+				"Lord Braska must be bursting with pride up on the Farplane at having such a fine daughter!"
+			],
+			"Guado Woman in hood on upper level": [
+				"I suppose you think we look ... odd, don't you?",
+				"But if you ask me, you humans look absolutely disgusting.",
+				"Once, a human child simply looked at me and then burst into tears. That hurt.",
+				"Is Lord Seymour really going to marry? Aww ...",
+				"One of my friends patrols the roads.",
+				"We lost so many in the recent struggles"
+			],
+			"Hooded guado woman near pavillion": [
+				"So that's Lady Yuna? Hmm ... No wonder.",
+				"I can see why the Al Bhed would go after someone like Lady Yuna."
+			]
+		},
+		"Crusader in green and gold": {
+			"Crusader by empty cages": [
+				"There aren't many guards beyond here, so watch it."
+			],
+			"Crusader in green and gold (The Scar)": [
+				"Our comrades have gathered from all over, to this place where Lady Yocun once trained."
+			]
+		},
+		"Wakka": {
+			"Journeyman weaver": [
+				"Mainlanders love the fabrics we weave here in Spira.",
+				"I suppose you can't run a business on tradition alone, ya?"
+			],
+			"ACTION": [
+				"Journeyman weaver (I'm just guessing because he's young)"
+			]
+		},
+		"Botta": {
+			"SYSTEM": ["My best memories are here"]
+		}
+	}
+}

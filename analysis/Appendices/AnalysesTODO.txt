@@ -1,0 +1,108 @@
+ Chrono Trigger
+This was very clear - I understood what the analysis was getting at etc 🙂 Comments follow.  
+
+typo - 'exapmle' instead of example near the bottom of page 1. 
+
+Top of page 8, under 'Gender Bias during translation': 
+
+    There's 'XXXX'
+    The first sentence looks unnecessary (the idea looks to be captured in the second, and as it stands reads as repetitive). I realise that the first sentence is about all the models below, and the second about just the first model, and maybe it doesn't matter, but perhaps it could be clearer with less repetition? 
+
+Bottom of page 10: incomplete sentence. 'This suggests that there is a bias in'
+Bottom of page 14: 'In sum, it seems like there are not greater problems in translation for male and female character dialogue' - should that be 'or' rather than 'and'?
+
+Top of page 15: 'These may be candidates for helping explain the differences'. Which differences are being referred to here? 
+
+Emotional language: 'it can be argued that the English version empowers Lucca by presenting a wider spectrum of emotions'. Could you tell me a bit about this argument? I'm not clear why that would be empowering. Indeed, increased emotionality with a female character looks to be perpetuating a stereotype. 
+
+There's also a typo a the start of the above paragraph: 'comapred' instead of 'compared'. 
+
+Bottom of page 15: the idea that Marle reads as braver in the English - I don't read it that way. The retranslation gives her ownership over her feeling - being scared. And the question at the end reads as her looking for affirmation/confirmation from someone else (a man, perhaps?). I wouldn't hang my flag on this one way or the other, but if we want to make the claim that arguably it does x, I'd like to see some extra reason for thinking so. 
+
+Example 4 - again, I don't read 'let's' as a hesitation (that might be my poor understanding of English). I read it as the call to action; Marle taking leadership and doing something active. People say 'we must' a lot without actually doing anything. 
+
+Example 5 also potentially has 'smooch of victory' overtones ('Woman as Reward' trope) - you've won the game, now a lady gives you (i.e. is) your prize. 
+
+Typo in the discussion of example 6: 'controll' instead of 'control'. Also, the idea of criticising a man because they can't 'control' a woman is yuck. 
+
+p. 18 - 'this does not necessarily work against gendered tropes'. Does it ever? 
+
+Example 13 - 'Marle' consistently misspelled as 'Marl'. Also, I should double-check how we've coded Peter! 
+
+Example 14 - 'I see him as more of an intellectual' could be queer-coding, but it's pretty subtle, so I think it's fine not to mention it. 
+
+'However, we do not make a claim here about whether the differences improve diversity of representation' - but you sort of go on to do so! Also, I'm not sure what to make of the sentence that starts 'Omitting the lines...'. Neither translation is great: the English translation erases mention of same-sex attraction/bisexuality/homosexuality, whereas the re-translation acknowledges the possibility but doesn't do so particularly positively. We might say something like that instead. 
+
+Re the conclusion: I'm not convinced that there were good cases of subversion in the English translation. Perhaps we should discuss? 
+
+
+
+
+
+
+# Oblivion
+This one reads like a paper in and of itself! 
+
+Typos in the abstract: 'thier' instead of 'their' and 'mascunline' instead of 'masculine'
+
+Typos in the intro: 'Carillo Masso's' instead of 'Carillo Masso'
+
+I found the definition given of backgrounding (from Fairclough) a bit odd. That's not to say that women aren't implied/assumed, but rather that's just not what I have in mind when I think about what backgrounding is (i.e. that male characters are in the foreground, doing the action, while women are in the background, as decoration or reaction). The claim that women are 'supplemental' was more compelling. 
+#TODO
+
+I'm surprised to see 'disgust' as specifically female. Intuitively I would have guessed that disgust was a free-for-all. 
+
+First sentence on page 2 - is there a word missing here? 
+
+I guess I don't think some of these hypotheses are as at odds as they seem. They're just multi-tiered: without looking at the results I might well expect a) women to be backgrounded (and thus to show less diversity in emotion/intensity) on the whole, and b) where there are women in the foreground (e.g. main characters) them to be characterised as more emotional than their male counterparts. Can we test this, looking at characters with more lines for instance? 
+
+page 9 - extra word 'Female NPCs have are significantly more likely to have' first 'have' can be omitted. 
+
+'(this test is run on non-neutral...' needs a capital letter. 
+
+Typos page 9, penultimate paragraph: 'genered' instead of 'gendered', 'netural' instead of 'neutral'. 
+
+Conclusion on page 10: 'This suggests that we should prefer the second model: both sources of information explain the distribution of emotions over genders'. I found this a little bit hard to understand. Maybe you could specify what the 'both sources of information' are here? 
+
+page 10 - under 'emotional intensity', words missing in the second sentence': 'However, there are only 20 unique values'
+
+Cues in angry dialogue - is the test for profanities looking just at angry dialogue? It wasn't clear from what's written here, but seems to be indicated by the heading. 
+
+
+TODO: Backgrounded + Intensity + more Emotional.
+Do major females characters exhibit more emotional range? (split by number of lines)
+
+
+Survey
+Intro currently says 'from nearly 50 games' - if we get to 50, this will need updating. It's a nice intro though! 
+
+Methodology - you might add 'facebook', as that's how I got folks to do it, as well as the University of Glasgow Games and Gaming Lab. 
+
+Page 3 typo - 'distirbutions' instead of 'distributions'
+
+'We re-code categories that are obviously equivalent to 'male' and 'female' below'. Should we mention explicitly somewhere that we use these words to denote gender rather than sex? Because reading it as it is, someone might object that 'women' isn't 'obviously equivalent' to 'female' (if you read 'woman' as referring to gender and 'female' to sex). 
+
+There are lots of helpful pictures/graphs in the sections that follow, but not a lot of contextualising text like you've used elsewhere. Could you add a sentence or two to each section saying what the data showed? 
+
+Currently the conclusion seems incomplete. 
+
+
+---
+
+Chrono Trigger: Show differences, these are interesting. Plus perpetuating stereotypes. But don't argue for subversion (not well enough substantiated).
+
+Example 1 "It can be argued" is a stretch
+
+Example 2 empowering is a stretch.
+
+
+Example 4 - Marle comment
+Split into hesitation and modal. Justify modal.
+'it can be argued that the English version empowers Lucca by presenting a wider spectrum of emotions.' - remove.
+
+
+
+
+Cases of subversion aren't clear.
+
+"someone kiss me" - trope of 'women as reward'

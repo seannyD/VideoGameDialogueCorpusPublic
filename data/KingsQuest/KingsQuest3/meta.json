@@ -1,0 +1,221 @@
+{
+	"game": "King's Quest III: To Heir Is Human",
+	"series": "King's Quest",
+	"year": 1986,
+	"source": "https://kingsquest.fandom.com/wiki/KQ3_transcript",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "complete",
+		"dialogueOrder": false,
+		"choices": "NA"
+	},
+    "error checks": {
+        "truePositive_numTestsDone": "5",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "0",
+        "truePositive_notes": "Previous errors fixed.",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "Previous errors fixed."
+    },
+	"parserParameters": {
+		"parser":"KQ3Parser",
+		"startText": "<span class=\"mw-headline\" id=\"Logic.000\">Logic.000</span>",
+		"endText": "class=\"mw-headline\" id=\"Words.tok\">Words.tok",
+		"splitString": "(\\\\\".+?\\\\\")",
+		"quoteRecogniser": "\\\"",
+		"characterCues" : {
+			"shopkeeper": "Storekeeper",
+			"storekeeper": "Storekeeper",
+			"store": "Storekeeper",
+			"wizard": "Manannan",
+			"Manannan": "Manannan",
+			"Papa": "Papa Bear",
+			"Mama": "Mama Bear",
+			"fish": "Fish",
+			"hens": "Hen",
+			"hen": "Hen",
+			"chickens": "Hen",
+			"Oracle": "Oracle",
+			"seamen": "Sailor",
+			"sailors": "Sailor",
+			"sailor": "Sailor",
+			"ship": "Sailor",
+			"salt": "Sailor",
+			"surly-looking": "Sailor",
+			"growls": "Mama Bear",
+			"captain": "Captain",
+			"Captain": "Captain",
+			"pirate": "Pirate",
+			"pirates": "Pirate",
+			"mate": "First Mate",
+			"rogues": "Sailor",
+			"bandits": "Bandit",
+			"barmaid": "Barmaid",
+			"tosses": "Barmaid",
+			"gnome": "Gnome",
+			"Rosella": "Rosella",
+			"Valanice": "Valanice",
+			"mother": "Valanice",
+			"Graham": "Graham",
+			"flings": "Graham",
+			"mouse": "Mouse",
+			"mice": "Mouse",
+			"bird": "Bird",
+			"friend": "Bird",
+			"squirrel": "Squirrel",
+			"lizards": "Lizard",
+			"lizard": "Lizard",
+			"sister": "Rosella",
+			"You": "Gwydion",
+			"you": "Gwydion"
+			},		
+		"skipLines" : ["Ancient Arabic Mythology,", "A Study of the Heavens,", "The Philosophies of Socrates.", "King's Quest IV,", "King's Quest III.", "your own.", "No pain, no magic.","wizard's", "Powdered Fish Bone,", "Nightshade Juice,","Nightshade Juice", "Mandrake Root Powder,", "Saffron,", "Toad Spittle,", "Toad Spittle", "Toadstool Powder" , "Toadstool Powder.", "Saffron", "missing.", "Ration", "King's Quest III!!", "King's Quest IV!", "do chore.", "Powdered Fish Bone", "Mandrake Root Powder", "Hi.", "You're welcome."] 
+	},
+	"mainPlayerCharacters": ["Gwydion"],
+	"characterGroups": {
+		"male": [
+			"Bandit",
+			"Captain",
+			"First Mate",
+			"Gnome",
+			"Graham",
+			"Gwydion",
+			"Manannan",
+			"Papa Bear",
+			"Pirate",
+			"Sailor",
+			"Storekeeper"
+		],
+		"neutral": [
+			"Oracle",
+			"Fish 1",
+			"Fish 2",
+			"Cat",
+			"Bird 1",
+			"Bird 2",
+			"Squirrel 1",
+			"Squirrel 2",
+			"Mouse 1",
+			"Mouse 2",
+			"Unknown",
+			"Lizard 1",
+			"Lizard 2"
+			],
+		"female":[
+			"Valanice",
+			"Rosella",
+			"Barmaid",
+			"Hen",
+			"Mama Bear"
+		]
+	},
+	"aliases": {
+		"Unknown": {
+			"Mama Bear": ["AND STAY OUT!!!"],
+			"Fish 1": ["My, that was a tasty little bug."],
+			"Oracle": ["Years ago, a terrible", "Sadly, your own sister", "Behold the", "You, Gwydion", "are the only one"],
+			"Captain": ["Ya little cheat!"],
+			"Barmaid": ["I'll be happy to take yer order"],
+			"Pirate": ["Arrr!", "What d'ya think yer", "I gotcha, boy"],
+			"Sailor": ["You'd bet'er get aboard boy, or we'll sail without ya.", "Ya better skedaddle, sonny!", "Climb aboard, laddie! We won't be awaiting all day for ye."],
+			"Mouse": ["What happened to the last", "Didn't you hear?"],
+			"Cat": ["Screeeeeeeeee", "Get lost, Gwydion", "Ha, ha! Missed me", "HEY! That hu", "Ow! I'll get you for t", "Wait till I catch yo", "The next scratch is gonna be"],
+			"Manannan": ["Out of my way, Gwydion", "I mean it, boy.", "Gwydion, let this be a lesson to", "Attempt to use magic around me, ", "Shoo, boy! I don't want to", "our kitchen is filthy! ", "Gwydion, my chamber pot needs servicing.", "My office is dusty.", "You've been neglecting my chickens again", "When I assign a chore", "Go find something to do.", "Instead of fooling around in here", "You look mighty funny falling", "Gwydion, I have awakened.", "Gwydion, I have decided", "I have returned, Gwydion", "I am going to bed, Gwydion"],
+			"Gwydion": ["Wait a second"],
+			"Bird": ["I know what you mean"],
+			"Squirrel": ["Well, who are they", "I bet he can't.", "I know how you", "Not quite yet", "Do you?"],
+			"Lizard": ["Well,", "When he was a baby", "I would guess that he's probably"]
+			},
+		"Fish 1": {
+			"Fish 2": ["Not well, I'm afraid. The school's much too crowded. They don't know if they're coming or going!"]
+			},
+		"Bandit": {
+			"Barmaid": ["If ya says so", "That'll be two gold"],
+			"Gwydion": ["I'd like to buy these two gentlemen a round."]
+		},
+		"Barmaid":{
+			"Gwydion": ["I'd like to buy these two"],
+			"Bandit": [
+				"Wench! Come o'er here with more ale!"]
+		},
+		"Narrator": {
+			"Bandit": ["There ya go, boys. Now, drink up an' behave yer selves."]
+		},
+		"Manannan": {
+			"Gwydion": ["The kitchen floor is FILTHY"]
+		},
+		"Rosella": {
+			"Gwydion": ["I'm your long-lost brother"]
+		},
+		"Gwydion": {
+			"Bird": ["See that young fellow over there"],
+            "Bandit": ["...squirmed jist like a pig."],
+			"Squirrel 1":["Have you got your winter's supply"],
+			"Squirrel 2": ["Not quite yet", "Do you?"],
+			"Bird 1": ["See that young fellow over there?"]
+		},
+		"Squirrel": {
+			"Squirrel 1": [
+				"See that young man over there?",
+				"Poor thing, he doesn't even know",
+				"He's really a prince.",
+				"That boy over there lives with the terrible wizard",
+				"I bet he can't.",
+				"Manannan's terrorizing the countryside again",
+				"Have you got your winter's supply",
+				"Oh sure",
+				"Ages ago."],
+			"Squirrel 2": [""]
+		},
+		"Lizard" : {
+			"Lizard 2": [
+				"No, I haven't heard that story",
+				"How did he get here?",
+				"That's too bad,",
+				"I agree. What do you think",
+				"That's terrible",
+				"I know how much they hurt"],
+			"Lizard 1": [""]
+		},
+		"Fish": {
+			"Fish 1": ["See that boy swimming here?",
+						"He's really from the Kingdom of Daventry.",
+						"There's that boy from Daventry",
+						"I wonder if he would like to return",
+						"How are your smallfry doing in school?",
+						"That boy ought to swim back to shore",
+						"I'm afraid he'll drown way out here"],
+			"Fish 2": [""]
+		},
+		"Bird": {
+			"Bird 1": ["Notice that boy down there?", 
+					"I know what you mean", 
+					"Do you think that young man looks anything",
+					"Well, he ain't exactly chopped liver",
+					"I'm getting so frustrated!",
+					"No matter how early I get up",
+					"Hah!",
+					"That's easy for you to say"],
+			"Bird 2": [""]
+		},
+		"Mouse": {
+			"Mouse 1": [
+				"Do you know where the pirates are taking us?",
+				"Oh, I remember!",
+				"Remember when they first buried",
+				"You know the pirate's buried treasure?",
+				"Well, I just heard the captain talking",
+				"What do you think the pirates",
+				"What happened to the last cabin boy they had?",
+				"I heard the pirates talking about bringing a CAT on board!",
+				"I mean it!",
+				"It's getting so musty",
+				"Yes, but it is safer down here",
+				"I guess we gotta take the bad"
+			],
+			"Mouse 2": [""]
+		}
+	}
+}

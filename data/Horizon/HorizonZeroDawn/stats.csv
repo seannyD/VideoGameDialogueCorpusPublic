@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,TOTAL,2832,50348,10818,61552,0.6509650194601235,98.68495546882035,6.678294293118306,154
+../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,male,1317,27999,5600,34388,0.8525336644038326,97.85558465726457,6.758373781522809,101
+../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,1513,22337,5215,27151,0.42355527005032556,99.65480423097921,6.581818806410527,51
+../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,neutral,2,12,2,13,-0.4666666666666668,109.09500000000001,5.249933333333333,2

@@ -1,0 +1,4 @@
+folder,maxF.maleWords,maxF.femaleWords,maxM.maleWords,maxM.femaleWords,totalNonChoice.maleWords,totalNonChoice.femaleWords
+../data/Test/Test/,NA,NA,NA,NA,3,1
+../data/Test/Test/,0,0,4,0,NA,NA
+../data/Test/Test/,0,2,1,1,NA,NA

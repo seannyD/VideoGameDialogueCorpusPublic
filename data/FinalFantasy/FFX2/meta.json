@@ -1,0 +1,284 @@
+{
+	"game": "Final Fantasy X-2",
+	"series": "Final Fantasy",
+	"year": 2003,
+	"source": "https://www.ffcompendium.com/h/faqs/ffx2scriptaschthehated.txt",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "partial"
+	},
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "0",
+		"truePositive_notes": "Previous error has been addressed.",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "N/A"
+	},
+	"parserParameters": {
+		"parser": "FF10_2Parser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Yuna", "Paine", "Rikku"],
+	"characterGroups": {
+		"male": [
+			"Ayde",
+			"Auron",
+			"Barthello",
+			"Bayra",
+			"Botta",
+			"Baralai",
+			"Braska",
+			"Brother",
+			"Beclem",
+			"Benzo",
+			"Buddy",
+			"Borra",
+			"Cid",
+			"Clasko",
+			"Chappu",
+			"Datto",
+			"Daraya",
+			"Donga",
+			"Garik",
+			"Gippal",
+			"Isaaru",
+			"Jassu",
+			"Jecht",
+			"Keepa",
+			"Lian",
+			"Logos",
+			"Ormi",
+			"Kimahri",
+			"Kinoc",
+			"Maroda",
+			"Maechen",
+			"Maroda",
+			"Nooj",
+			"O'aka",
+			"Pacce",
+			"Rin",
+			"Shinra",
+			"Shuyin",
+			"Tromell",
+			"Taro",
+			"Tidus",
+			"Tobli",
+			"Wakka",
+			"Wantz",
+			"Yaibal",
+			"Male Al Bhed 1",
+			"Male Al Bhed 2",
+			"Man",
+			"Man 1",
+			"Man 2",
+			"Man 3",
+			"Man 4",
+			"Man with Two Guns",
+			"Boy",
+			"Bulky Man",
+			"Fayth",
+			"Hypello",
+			"Guado",
+			"Elderly Guado",
+			"Al Bhed 1",
+			"Al Bhed 2",
+			"Al Bhed (male voice)",
+			"Al Bhed (wounded)",
+			"Al Bhed (outside temple)",
+			"Al Bhed running The Experiment",
+			"Al Bhed (Thunder Plains)",
+			"Al Bhed (Hovercraft)",
+			"Balloon Vendor",
+			"Barkeep",
+			"Citizen",
+			"Vuroja",
+			"Prophet",
+			"Goon",
+			"Goon 1",
+			"Goon 2",
+			"Guard",
+			"Guard 1",
+			"Guard 2",
+			"Kid",
+			"Pilot",
+			"Temple Priest",
+			"Youth League Member 1",
+			"Youth League Member 2",
+			"Youth League Member 3",
+			"New Yevon Member 1 at concert",
+			"New Yevon Member 2 at concert",
+			"Youth League Member 2 at concert",
+			"Yaibal's Youth League Member 1",
+			"Elma's Youth League Member 1",
+			"Elma's Youth League Member 2"
+		],
+		"female": [
+			"Calli",
+			"Dona",
+			"Elma",
+			"Hana",
+			"Lucil",
+			"Lulu",
+			"Lenne",
+			"Rikku",
+			"Shelinda",
+			"Nhadala",
+			"Paine",
+			"Yuna",
+			"Darling",
+			"Leblanc",
+			"Fem-Goon 1",
+			"Fem-Goon 2",
+			"Female Al Bhed",
+			"Female Ronso",
+			"Old Woman",
+			"Woman",
+			"Girl",
+			"Pukara",
+			"Pukutak",
+			"Clerk",
+			"Youth League Member 1 at concert",
+			"Yaibal's Youth League Member 2"
+		],
+		"genderless": ["Picket"],
+		"neutral": ["Youth League Member"]
+	},
+	"aliases": {
+		"Lian & Ayde": ["Lian", "Ayde"],
+		"Logos & Ormi": ["Logos", "Ormi"],
+		"Ormi & Logos": ["Logos", "Ormi"],
+		"Paine & Yuna": ["Paine", "Yuna"],
+		"Rikku & Paine": ["Rikku", "Paine"],
+		"Yuna & Rikku": ["Yuna", "Rikku"],
+		"Yuna, Rikku, And Paine": ["Yuna", "Rikku", "Paine"],
+		"Pacce & Hana": ["Pacce", "Hana"],
+		"Rikku, Lian & Ayde": ["Rikku", "Lian", "Ayde"],
+		"Taro & Hana": ["Taro", "Hana"],
+		"The Kinderguardians": ["Pacce", "Taro", "Hana"],
+		"All the Gullwings": ["Buddy", "Brother", "Rikku", "Paine", "Shinra"],
+		"Brother, Buddy & Shinra": ["Buddy", "Brother", "Shinra"],
+		"Yuna, Rikku and Paine": ["Yuna", "Rikku", "Paine"],
+		"Yuna, Rikku, and Paine": ["Yuna", "Rikku", "Paine"],
+		"Voice of Auron": "Auron",
+		"Voice of Jecht": "Jecht",
+		"Voice of Braska": "Braska",
+		"Voice of Fayth": "Fayth",
+		"Ex-Prophet": "Prophet",
+		"Man's Voice": "Kinoc",
+		"Guado": {
+			"Elderly Guado": [
+				"My, I certainly have a lot of visitors today, don't I?",
+				"Oh, dear. I don't think I was supposed to say that.",
+				"I was supposed to say, \"Don't walk over there!\""
+			]
+		},
+		"Al Bhed": {
+			"Al Bhed (male voice)": ["Gippal!"],
+			"Al Bhed 2": [
+				"Dra vunafusyh ec fyedehk ujan drana. (The forewoman is waiting over there.)"
+			],
+			"Al Bhed 1": ["Cra'c pylg! (She's back!)"],
+			"Al Bhed (wounded)": [
+				"(dying) Fryd fyc ed? Dryd rika cryba, taab fedreh dra myga. E fiend ... machina? (What is it? That huge shape, deep within the lake. A fiend ... machina?)",
+				"Dyga drec. E vuiht ed rayn dra myga. (Take this. I found it near the lake.)"
+			],
+			"Al Bhed (outside temple)": [
+				"Frana ec Gippal frah fa haat res? (Where is Gippal when we need him?)",
+				"Fa dneat vekrdehk dra veahtc uh uin ufh, pid fa uhmo syta drehkc funca. Dra veahtc vuiht y fyo du sanka fedr uin machina. (We tried fighting the fiends on our own, but we only made things worse. The fiends found a way to merge with our machina.)"
+			],
+			"Al Bhed running The Experiment": [
+				"Fa tet nacaynlr uh machina luhcdnildeuh yht piemd y cibanfaybuh! Hud ajah oui luimt payd drec drehlk. (We did research on machina construction and built a superweapon! Not even you could beat this thing.)",
+				"Ruf ypuid ed? Nayto du muca? (How about it? Ready to lose?)",
+				"Hu funneac. Fryd ec kuut ypuid machina ec drao lyh pa piemd yhaf, oui caa? (No worries. What is good about machina is they can be built anew, you see?)",
+				"Ur, dra runnun! Fa kud lulgo yht cuibat ib uin machina duu silr. Huf id ic uid uv luhdnum. (Oh, the horror! We got cocky and souped up our machina too much. Now it is out of control.)",
+				"Fa yna taabmo nabahdyhd. (We are deeply repentant.)",
+				"Iv oui drehg oui lyh payd id aycemo, oui yna secdygah! (If you think you can beat it easily, you are mistaken!)",
+				"Hela fung! (Nice work!)"
+			],
+			"Al Bhed (Thunder Plains)": [
+				"Fiends!",
+				"Dryhgc y mud! Tet oui lralg dra dufan uid oad? Drana'c y cdnyhka ruma. (Thanks a lot! Did you check the tower out yet? There's a strange hole.)",
+				"E lyh dygam oui du dra ruma. (I can take you to the hole.)"
+			],
+			"Al Bhed (Hovercraft)": [
+				"Lusa yht kad ouin jeldiymc! (Come and get your victuals!)"
+			]
+		},
+		"Citizen": {
+			"Vuroja": ["What did you say?"]
+		},
+		"????": {
+			"Isaaru": [
+				"Muahahahaha!",
+				"You have done well to make it this far, sphere hunters. But you will not have the treasure you seek so easily.",
+				"If you want the treasure, you must speak the password!",
+				"Uh...yes, good. Uh, okay! So now tell me: What is the meaning of life?",
+				"Uh ... yes, good. Uh, okay! So now tell me: What is the meaning of life?",
+				"Is that your final answer?",
+				"Uh...fine.",
+				"Uh ... fine."
+			],
+			"Calli": [
+				"I see. Sorry to bother you ...",
+				"You aren't Lady Yuna, be any chance?",
+				"I don't suppose you remember me, do you?"
+			],
+			"Leblanc": [
+				"Boys!",
+				"Want in on this number? Then show me your moves!",
+				"Sorry, no time for an encore.",
+				"That's quite enough sniveling, boys.",
+				"Persistent, aren't you?",
+				"Didn't you girls ever learn to share?",
+				"Very well, it's yours.",
+				"But it won't be yours for long, loves!"
+			],
+			"Shuyin": [
+				"You know, you're all I can count on to save Lenne.",
+				"You're wrong! If you'd stop attacking, there wouldn't be a war!",
+				"Someday ... your precious weapons will end up destroying you.",
+				"Can you hear me?",
+				"Ah, you can hear me.",
+				"Right here!",
+				"I finally found you."
+			],
+			"Beclem": ["Fussing, you say?"]
+		},
+
+		"Youth League Member 1": {
+			"Youth League Member 1 at concert": "The Yevonites are here, too?"
+		},
+		"New Yevon Member 1": {
+			"New Yevon Member 1 at concert": "Hey! You Youth League dogs will"
+		},
+		"New Yevon Member 2": {
+			"New Yevon Member 2 at concert": "If the praetor were here"
+		},
+		"Youth League Member 2": {
+			"Youth League Member 2 at concert": "What I wanna know is"
+		},
+		"Youth League Members 1, 2 and 3": [
+			"Youth League Member 1",
+			"Youth League Member 2",
+			"Youth League Member 3"
+		],
+		"Youth League Members": {
+			"Elma's Youth League Members": ["Right away"],
+			"Yaibal's Youth League Members": ["Sir"]
+		},
+		"Elma's Youth League Members": [
+			"Elma's Youth League Member 1",
+			"Elma's Youth League Member 2"
+		],
+		"Yaibal's Youth League Members": [
+			"Youth League Member 2 at concert",
+			"Yaibal's Youth League Member 1",
+			"Yaibal's Youth League Member 2"
+		]
+	}
+}

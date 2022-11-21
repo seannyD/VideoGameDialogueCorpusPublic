@@ -1,0 +1,27 @@
+{
+	"game": "Mass Effect",
+	"series": "Mass Effect",
+	"year": 2007,
+	"alternativeMeasure": true,
+	"source": "http://www.masseffectlore.com/transcripts/mass-effect-1-transcripts/",
+	"parserParameters": {
+		"parser":"MassEffectAParser",
+		"fileType": ".html",
+		"mainCharName": "SHEPARD"
+	},
+	"mainPlayerCharacters": [],
+	"characterGroups": {
+		"male":[
+		],
+		"female":[
+		
+				],
+		"neutral":[
+				
+				]
+	},
+		"aliases":{
+			"White text appears on a black background":"ACTION",
+			"":"ACTION"
+					}
+}

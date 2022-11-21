@@ -1,0 +1,717 @@
+---
+title: "Player perceptions of gender balance"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=F,eval=F}
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/survey/"))
+```
+
+
+# Introduction
+
+The aim of this survey is to identify what people’s perceptions are regarding the balance of dialogue between male and female characters in role-playing video games. This is part of a larger project that involves collecting a corpus of video game dialogue and making objective measures of gender bias. We’ve found that almost all games have more male dialogue than female dialogue, even when the main protagonists are female.
+
+The purpose of the current study is to see whether the objective measures of gender bias align with gamer’s subjective intuitions. This will help us frame the added value of objective corpus-based measures.
+
+We have objective findings from 50 video games that demonstrate a clear bias against female dialogue. The main findings are:
+
+-	Games have an average of around 30% female dialogue.
+-	Very few games have more than 50% female dialogue.
+-	The proportion of female dialogue is increasing over time.
+
+The first two statistics surprised us, suggesting that the severity of the bias isn’t well known. But we want to be able to demonstrate this objectively. 
+
+We now want to compare this objective measure with people’s subjective perceptions. The survey asks participants to guess what the main findings are. However, people may be aware of an imbalance without thinking it is necessarily a problem. So there is also a section that asks whether the participant thinks that male and female characters are under represented, and whether the representation needs to be improved.
+
+We expect that people’s intuitions may be influenced by their experience with role-playing games and identity (age category, gender). Therefore, we collected basic information about these aspects to control for these influences. 
+
+This study gained ethical approval from Cardiff University's ENCAP Research Ethics Committee (SREC reference: ENCAP/Roberts/17-01-2022).
+
+## Methodology
+
+188 participants were recruited via online platforms including twitter, facebook, reddit  (r/JRPG, r/rpg_gamers, r/FinalFantasy), Cardiff University yammer, Cardiff University Gaming Society Discord, and University of Glasgow Games and Gaming Lab. They followed a link that redirected them randomly to one of two surveys. The surveys were identical, except one asked questions framed in terms of the proportion of female dialogue, and one asked questions in terms of the proportion of male dialogue. Below, text in square brackets show how these two options varied.
+
+Participants confirmed they were older than 18 years of age, then answered the following questions:
+
+1.  Age category
+2.  What is your gender? (free text)
+3.  How much experience do you have playing Role-Playing video games (RPGs)? (I've never played an RPG, I occasionally play RPGs, I play an RPG at least once a month, I play an RPG at least once a week)
+
+
+4.  What do you think? Let's say we counted all the words spoken by male and female characters (playable characters or NPCs) in a typical game. What percentage of words would be spoken by [female/male] characters? (number between 0 and 100)
+5.  What percentage of RPG games do you think have more [female/male] dialogue than [male/female] dialogue? (number between 0 and 100)
+
+6.  This question takes a bit more thought. Imagine we picked 10 popular RPG games. How many games do you think would have ...
+  -  ... between 0% and 10% [female/male] dialogue?
+  -  ... between 10% and 30% [female/male] dialogue?
+  -  ... between 10% and 30% [female/male] dialogue?
+  -  ... between 50% and 70% [female/male] dialogue?
+  -  ... between 70% and 90% [female/male] dialogue?
+  -  ... between 90% and 100% [female/male] dialogue?
+  
+5 point scales for strongly disagree, disagree, neither agree nor disagree, agree, strongly agree:
+
+7.  Do you disagree or agree with the following statements?
+  -  [female/male] characters are under-represented in video games
+  -  [male/female] characters are under-represented in video games
+  -  The representation of [female/male] characters should be improved
+  -  The representation of [male/female] characters should be improved
+
+8.  How do you think the proportion of [female/male] dialogue has changed over the last 20 years? (5 point scale: Increased a lot (more [female/male] dialogue now than before), Increased a bit, Stayed the same, Decreased a bit, Decreased a lot (less [female/male] dialogue now than before))
+
+Responses for questions 4, 5 and 6 for the male-framed surveys were flipped to express the answers in terms of amount of female dialogue.
+
+Below, we analyse the responses.
+
+# Analysis
+
+## Load survey data
+
+```{r,message=F,error=F,warning=F}
+library(ggplot2)
+library(ggpubr)
+library(cowplot)
+library(viridis)
+library(party)
+library(rjson)
+```
+
+The survey data is in two files: one for each framing of the questions.
+
+```{r}
+df = read.csv("surveyFemaleFraming.csv",stringsAsFactors = F)
+dm = read.csv("surveyMaleFraming.csv", stringsAsFactors = F)
+
+varNames = read.csv("varNames.csv",stringsAsFactors = F)
+names(df) = varNames[match(names(df),varNames$SurveyQ),]$Label
+names(dm) = varNames[match(names(dm),varNames$SurveyQ),]$Label
+df = df[,names(dm)]
+
+df$framing = "female"
+dm$framing = "male"
+
+d = rbind(df,dm)
+
+```
+
+Flip the responses for the male-framed condition:
+
+```{r}
+d[d$framing=="male",]$percentFemaleDialogue = 100-d[d$framing=="male",]$percentFemaleDialogue
+d[d$framing=="male",]$percentGamesMoreFemale = 100-d[d$framing=="male",]$percentGamesMoreFemale
+
+d[d$framing=="female",]$FemaleChange20y = as.character(
+  factor(d[d$framing=="female",]$FemaleChange20y,
+         levels = c("Decreased a lot (less female dialogue now than before)",
+                    "Decreased a bit",
+                    "Stayed the same",
+                    "Increased a bit",
+                    "Increased a lot (more female dialogue now than before)"),
+         labels = c("Decreased a lot",
+                    "Decreased a bit",
+                    "Stayed the same",
+                    "Increased a bit",
+                    "Increased a lot")))
+
+d[d$framing=="male",]$FemaleChange20y = as.character(
+  factor(d[d$framing=="male",]$FemaleChange20y,
+         levels = c("Decreased a lot (less male dialogue now than before)",
+                    "Decreased a bit",
+                    "Stayed the same",
+                    "Increased a bit",
+                    "Increased a lot (more male dialogue now than before)"),
+         labels = c("Increased a lot",
+                    "Increased a bit",
+                    "Stayed the same",
+                    "Decreased a bit",
+                    "Decreased a lot")))
+
+d$FemaleChange20y = factor(d$FemaleChange20y,
+  levels = c("Decreased a lot",
+                    "Decreased a bit",
+                    "Stayed the same",
+                    "Increased a bit",
+                    "Increased a lot"))
+```
+
+Quickly check the variation with framing using a t-test and a permutation test (since the distributions are skewed). The guesses of the percentage of female dialogue do not vary by framing, but the guesses of the percentage of games with more than 50% female dialogue do vary, which we address below.
+
+```{r}
+t.test(d$percentFemaleDialogue~d$framing)
+trueDiff = diff(tapply(d$percentFemaleDialogue,d$framing,mean))
+perm = function(){
+  diff(tapply(sample(d$percentFemaleDialogue),d$framing,mean))
+}
+permDiff = replicate(1000,perm())
+sum(permDiff>trueDiff)/1000
+
+t.test(d$percentGamesMoreFemale~d$framing)
+trueDiff2 = diff(tapply(d$percentGamesMoreFemale,d$framing,mean))
+perm2 = function(){
+  diff(tapply(sample(d$percentGamesMoreFemale),d$framing,mean))
+}
+permDiff2 = replicate(1000,perm2())
+sum(permDiff2>trueDiff2)/1000
+```
+
+Flip the responses for question 6. We assume that the participants have an accurate, symmetrical understanding of the scale.
+
+```{r}
+fcats = c("f10","f30","f50","f70","f90","f100")
+d[d$framing=="male",fcats] = d[d$framing=="male",rev(fcats)]
+```
+
+Participants were given a free text box to describe their gender. We re-code categories that are obviously equivalent to 'male' and 'female' below (at least in terms of gender, rather than sex). There were only 4 participants who did not identify as either male or female. This is too few to analyses statistically. While their responses are analysed in general, they are not part of the analyses that focus on responses from male and female participants.
+
+```{r}
+genderCoding = read.csv("genderCodes.csv",stringsAsFactors = F)
+d$gender = tolower(d$genderString)
+d[d$gender %in% genderCoding$string,]$gender = genderCoding[
+      match(d[d$gender %in% genderCoding$string,]$gender,
+      genderCoding$string),]$code
+d$gender[d$gender==""] = NA
+d$gender2 = d$gender
+d[!is.na(d$gender2) & !(d$gender2 %in% c("female","male")),]$gender2 = "other"
+```
+
+Overall means:
+
+```{r}
+percentFemaleDialogueGuessMean = mean(d$percentFemaleDialogue)
+percentFemaleDialogueGuessSD = sd(d$percentFemaleDialogue)
+percentGamesMore50FemaleMean = mean(d$percentGamesMoreFemale)
+percentGamesMore50FemaleSD = sd(d$percentGamesMoreFemale)
+```
+
+The mean guess for the average percentage of female dialogue was `r round(percentFemaleDialogueGuessMean,2)`% (sd = `r round(percentFemaleDialogueGuessSD,2)`). 
+
+The mean guess for the percentage of games with more than 50% female dialogue was `r round(percentGamesMore50FemaleMean,2)`% (sd = `r round(percentGamesMore50FemaleSD,2)`). 
+
+```{r}
+cat(nrow(d),file="../../results/latexStats/Survey_N.tex")
+cat(round(percentFemaleDialogueGuessMean),
+    file="../../results/latexStats/Survey_percentFemaleDialogueGuessMean.tex")
+cat(round(percentFemaleDialogueGuessSD,2),
+    file="../../results/latexStats/Survey_percentFemaleDialogueGuessSD.tex")
+cat(round(percentGamesMore50FemaleMean),
+    file="../../results/latexStats/Survey_percentGamesMore50FemaleMean.tex")
+cat(round(percentGamesMore50FemaleSD,2),
+    file="../../results/latexStats/Survey_percentGamesMore50FemaleSD.tex")
+```
+
+## Load game data
+
+Obtain the true values from the corpus
+
+```{r}
+folders = list.dirs("../../data", recursive = T)
+folders = folders[sapply(folders,function(X){
+  "stats_by_character.csv" %in% list.files(X)
+})]
+
+
+trueFemaleDialogue = c()
+for(folder in folders){
+  alternativeMeasure = FALSE
+  js = fromJSON(file = paste0(folder,"/meta.json"))
+  if(!is.null(js$alternativeMeasure)){
+    alternativeMeasure = js$alternativeMeasure
+  }
+  if(!alternativeMeasure){
+    stats = read.csv(paste0(folder,"/stats.csv"),stringsAsFactors = F)
+    fprop = stats[stats$group=="female",]$words/
+      (stats[stats$group=="female",]$words +
+         stats[stats$group=="male",]$words)
+    trueFemaleDialogue = c(trueFemaleDialogue,fprop)
+  }    
+}
+trueFemaleDialogueDist = trueFemaleDialogue[!is.na(trueFemaleDialogue)]
+truePercentFemaleDialogue = mean(trueFemaleDialogueDist)
+truePercentGamesMoreThan50 = sum(trueFemaleDialogueDist>=0.5)/length(trueFemaleDialogueDist)
+```
+
+Statistical test: is the mean guess significantly different from the true value?
+
+```{r}
+mainTestPercentFemaleDialouge = t.test(d$percentFemaleDialogue,
+                                       mu=truePercentFemaleDialogue*100)
+mpx = "p < 0.0001"
+if(mainTestPercentFemaleDialouge$p.value>0.0001){
+  mpx = paste0("p = ",round(mainTestPercentFemaleDialouge$p.value,4))
+}
+cat(paste0("t = ",round(mainTestPercentFemaleDialouge$statistic,2),", ",mpx),
+    file = "../../results/latexStats/Survey_percentFemaleDialogue_Stat.tex")
+mainTestPercentFemaleDialouge
+```
+
+
+```{r}
+mainTestPercentGamesMoreThan50 = t.test(d$percentGamesMoreFemale,
+                                       mu=truePercentGamesMoreThan50*100)
+mpx = "p < 0.0001"
+if(mainTestPercentGamesMoreThan50$p.value>0.0001){
+  mpx = paste0("p = ",round(mainTestPercentGamesMoreThan50$p.value,4))
+}
+cat(paste0("t = ",round(mainTestPercentGamesMoreThan50$statistic,2),", ",mpx),
+    file = "../../results/latexStats/Survey_percentMoreThan50_Stat.tex")
+mainTestPercentGamesMoreThan50
+```
+
+
+\clearpage
+\newpage
+
+## Variation by gender
+
+Below we visualise the data in various ways. In particular, we are interested in whether the estimates vary by the gender of the participant.
+
+Distribution of guesses for the percentage of female dialogue:
+
+```{r}
+gghistogram(
+  d[d$gender %in% c("female","male"),],
+  bins = 10,
+  x = "percentFemaleDialogue", 
+  y = "..density..",
+  add = "mean", #rug = TRUE,
+  fill = "gender", palette = c("#00AFBB", "#E7B800"),
+  add_density = TRUE,
+  xlim=c(0,100),
+  legend.title="Player Gender") +
+  xlab("Percent Female Dialogue")
+
+ggplot(d[d$gender %in% c("female","male"),],
+       aes(x=percentFemaleDialogue)) +
+  geom_histogram(aes(y = ..density.., fill=gender),breaks=seq(0,100,5), color='black')+
+  geom_density() +
+  xlim(0,100) +
+  facet_grid(rows=vars(gender)) +
+  scale_x_continuous(breaks = seq(0,100,10)) +
+  geom_boxplot(width=0.01,position=position_nudge(y=0.07),outlier.alpha = 0) +
+  xlab("Percent Female Dialogue") +
+  geom_vline(xintercept = truePercentFemaleDialogue,color="red") +
+  theme(legend.position = "none")
+```
+
+Distribution of guesses for the percentage of games with more than 50% female dialogue:
+
+```{r}
+gghistogram(
+  d[d$gender %in% c("female","male"),],
+  bins = 10,
+  x = "percentGamesMoreFemale", 
+  y = "..density..",
+  add = "mean", #rug = TRUE,
+  fill = "gender", palette = c("#00AFBB", "#E7B800"),
+  add_density = TRUE,
+  xlim=c(0,100),
+  legend.title="Player Gender") +
+  xlab("Percent Games with more than 50% female dialogue")
+
+ggplot(d[d$gender %in% c("female","male"),],
+       aes(x=percentGamesMoreFemale)) +
+  geom_histogram(aes(y = ..density.., fill=gender),breaks=seq(0,100,5), color='black')+
+  geom_density() +
+  xlim(0,100) +
+  facet_grid(rows=vars(gender)) +
+  scale_x_continuous(breaks = seq(0,100,10)) +
+  geom_boxplot(width=0.01,position=position_nudge(y=0.05),outlier.alpha = 0) +
+  xlab("Percent Games with more than 50% female dialogue") +
+  geom_vline(xintercept = truePercentGamesMoreThan50,color="red") +
+  theme(legend.position = "none")
+```
+
+
+
+\clearpage
+\newpage
+
+## Variation by Age
+
+Below we plot the distribution of guesses by the age of the respondent. One hypothesis is that older players may be more likely to have played earlier games compared to younger players (or less likely to have played newer games). Given that earlier games have less female dialogue, guesses of older players may be lower than younger players. Having said this, accessing games has become much easier in the last 10 years, so we may not expect a strong result.
+
+There were relatively few participants over 40, so these are collapsed into a "+40" category.
+
+The red dotted line shows the actual proportion in the corpus.
+
+```{r}
+d$age2 = d$age
+d$age2[d$age2 %in% c("40-49","50-59","60-69","70+")] = "40+"
+d$age2 = factor(d$age2,ordered = T)
+
+ggplot(d, aes(x=percentFemaleDialogue)) +
+  geom_histogram(aes(y = ..density.., fill=age2),breaks=seq(0,100,5), color='black')+
+  geom_density() +
+  xlim(0,100) +
+  facet_grid(rows=vars(age2)) +
+  geom_boxplot(width=0.01,position=position_nudge(y=0.07),outlier.alpha = 0) +
+  xlab("Percent Female Dialogue") +
+  theme(legend.position = "none")
+
+ggplot(d,aes(y=percentFemaleDialogue,x=age2,fill=age2)) +
+  geom_boxplot() +
+  xlab("Age") + ylab("Percent Female Dialogue") +
+  theme(legend.position = "none") +
+  geom_hline(yintercept = truePercentFemaleDialogue*100, color="red",linetype="dashed")
+```
+
+Similar plots for the proportion of games with more than 50% dialogue (red dotted line shows .
+
+```{r}
+ggplot(d, aes(x=percentGamesMoreFemale)) +
+  geom_histogram(aes(y = ..density.., fill=age2),breaks=seq(0,100,5), color='black')+
+  geom_density() +
+  xlim(0,100) +
+  facet_grid(rows=vars(age2)) +
+  geom_boxplot(width=0.01,position=position_nudge(y=0.07),outlier.alpha = 0) +
+  xlab("Percent Games with more than 50% female dialogue") +
+  theme(legend.position = "none")
+
+ggplot(d,aes(y=percentGamesMoreFemale,x=age2,fill=age2)) +
+  geom_boxplot() +
+  xlab("Age") + ylab("Percent Games with more than 50% female dialogue") +
+  theme(legend.position = "none") +
+  geom_hline(yintercept = truePercentGamesMoreThan50*100, color="red",linetype="dashed")
+```
+
+\clearpage
+\newpage
+
+# Variation by experience
+
+Below we plot the data by experience. One hypothesis is that more experienced players will have more accurate guesses. Since many players over-estimate the measures, this might lead to more experienced players having lower guesses. It might also predict a smaller variation for more experienced players
+
+## Female dialogue
+
+```{r}
+d$rpgExperience = factor(d$rpgExperience,
+    levels = c("I've never played an RPG", "I occasionally play RPGs",
+        'I play an RPG at least once a month',"I play an RPG at least once a week"),
+        labels = c("Never","Occasionally","Every month","Every week"))
+
+ggplot(d[d$rpgExperience!="Never",], 
+    aes(x=percentFemaleDialogue)) +
+  geom_histogram(aes(y = ..density.., fill=rpgExperience),breaks=seq(0,100,5), color='black')+
+  geom_density() +
+  xlim(0,100) +
+  facet_grid(rows=vars(rpgExperience)) +
+  geom_boxplot(width=0.01,position=position_nudge(y=0.07),outlier.alpha = 0) +
+  xlab("Percent Female Dialogue") +
+  theme(legend.position = "none")
+
+ggplot(d[d$rpgExperience!="Never",],
+    aes(y=percentFemaleDialogue,x=rpgExperience,fill=rpgExperience)) +
+  geom_boxplot() +
+  xlab("Age") + ylab("Percent Female Dialogue") +
+  theme(legend.position = "none") +
+  geom_hline(yintercept = truePercentFemaleDialogue*100, color="red",linetype="dashed")
+```
+
+## Games with more than 50% female dialogue
+
+```{r}
+ggplot(d[d$rpgExperience!="Never",], 
+    aes(x=percentGamesMoreFemale)) +
+  geom_histogram(aes(y = ..density.., fill=rpgExperience),breaks=seq(0,100,5), color='black')+
+  geom_density() +
+  xlim(0,100) +
+  facet_grid(rows=vars(rpgExperience)) +
+  geom_boxplot(width=0.01,position=position_nudge(y=0.07),outlier.alpha = 0) +
+  xlab("Percent Games with more than\n50% female dialogue") +
+  theme(legend.position = "none")
+
+ggplot(d[d$rpgExperience!="Never",],
+    aes(y=percentGamesMoreFemale,x=rpgExperience,fill=rpgExperience)) +
+  geom_boxplot() +
+  xlab("Age") + ylab("Percent Games with more than\n50% female dialogue") +
+  theme(legend.position = "none") +
+  geom_hline(yintercept = truePercentGamesMoreThan50*100, color="red",linetype="dashed")
+```
+
+\clearpage
+\newpage
+
+# Overall predictions
+
+We use a regression model to identify what factors predict player guesses. For guesses of the percentage of female dialogue, player gender is the only siginficant predicting factor:
+
+```{r}
+m0 = lm(percentFemaleDialogue ~
+          age2 + framing + gender2 + rpgExperience, 
+        data=d)
+summary(m0)
+```
+
+We can use a decision tree that takes all the gender categories into account. This splits the data into two groups. The first is 'female' and 'nonbinary', who on average guess lower than the second group, 'male', 'agender' and 'demiboy'.
+
+```{r}
+tree = ctree(percentFemaleDialogue ~
+          age2 + factor(framing) + factor(gender) + rpgExperience,
+          data=d)
+plot(tree)
+```
+
+Question framing seems to be the main predictor for percentage of games with more than 50% female dialogue. The guesses for the proportion of games with more than 50% dialogue are higher for participants asked to estimate the proportion of games with more *male* dialogue than female (their guesses were then inverted for the analyses above and below). This suggests that there is a framing bias.
+
+```{r}
+m0B = lm(percentGamesMoreFemale ~
+          framing, 
+        data=d)
+summary(m0B)
+
+m1B = lm(percentGamesMoreFemale ~
+          age2 + framing + gender2 + rpgExperience, 
+        data=d)
+summary(m1B)
+
+treeB = ctree(percentGamesMoreFemale ~
+          age2 + factor(framing) + factor(gender) + rpgExperience,
+          data=d)
+plot(treeB)
+```
+
+\clearpage
+\newpage
+
+# Change over time
+
+Summary of the responses to the question of "How do you think the proportion of female dialogue has changed over the last 20 years?". Most respondents say it has increased a bit.
+
+```{r}
+ggplot(d,aes(x=FemaleChange20y)) +
+  geom_bar() +
+  xlab("How do you think the proportion\nof female dialogue has changed\nover the last 20 years?")
+```
+
+Variation by gender:
+
+```{r}
+
+d$Change = factor(d$FemaleChange20y,
+  levels = c("Increased a lot",
+                    "Increased a bit",
+                    "Stayed the same",
+                    "Decreased a bit",
+                    "Decreased a lot"))
+
+ggplot(d[d$gender2 %in% c("female","male"),],
+       aes(x=gender2,fill=Change)) +
+  geom_bar(position="fill") +
+  xlab("Gender")+
+  scale_fill_viridis_d() 
+```
+
+Test whether the responses differ by gender:
+
+```{r}
+changeTable = table(d[d$gender2 %in% c("female", "male"),]$FemaleChange20y,
+                 d[d$gender2 %in% c("female", "male"),]$gender2)
+changeTable
+fisher.test(changeTable)
+```
+
+No significant variation by gender.
+
+\clearpage
+\newpage
+
+# Representation
+
+Responses for the 5-point agreement scales.
+
+```{r}
+OpLevels = rev(c("Strongly disagree","Disagree",
+           "Neither agree nor disagree","Agree",
+           "Strongly Agree"))
+OpLables = rev(c("Strongly disagree","Disagree",
+           "Neither","Agree",
+           "Strongly Agree"))
+d$OpFemaleRepImprove = factor(d$OpFemaleRepImprove,levels = OpLevels,labels=OpLables,ordered=T)
+d$OpMaleRepImprove = factor(d$OpMaleRepImprove,levels = OpLevels,labels=OpLables,ordered=T)
+d$OpFemaleUnderRepresented = factor(d$OpFemaleUnderRepresented,levels = OpLevels,labels=OpLables,ordered=T)
+d$OpMaleUnderRepresented = factor(d$OpMaleUnderRepresented,levels = OpLevels,labels=OpLables,ordered=T)
+
+dx = data.frame(
+  Response = c(
+    d$OpFemaleRepImprove,
+    d$OpMaleRepImprove,
+    d$OpFemaleUnderRepresented,
+    d$OpMaleUnderRepresented),
+  Question = c(
+    rep("Females are\nunder-represented",nrow(d)),
+    rep("Males are\nunder-represented",nrow(d)),
+    rep("Female representaion\nshould be\nimproved",nrow(d)),
+    rep("Male representaion\nshould be\nimproved",nrow(d))
+  )
+)
+
+ggplot(dx[!is.na(dx$Response),],
+       aes(x=Question,fill=Response)) +
+  geom_bar(position="fill") +
+  scale_fill_manual(values=c("darkgreen","gold","gray","darkorange","darkred")) +
+  theme(axis.title.y = element_blank())
+  
+
+```
+
+The majority of respondents agreed that females are under-represented and represention should be improved. The majority disagreed that male representation should be improved. And there was a mixed response to whether males are under-represented. This suggests that there may be different factors and key issues for improving female representation and male representation.
+
+\clearpage
+\newpage
+
+# Distribution
+
+In the main analysis of the corpus, the proportion of female dialogue as a whole was not particularly surprising to the authors. The authors were more surprised by the distribution, with very few games havng more than 50% female dialogue. Question 6 of the survey included detailed questions that attempted to identify what players thought the distribution looked like.
+
+6.  This question takes a bit more thought. Imagine we picked 10 popular RPG games. How many games do you think would have ...
+  -  ... between 0% and 10% [female/male] dialogue?
+  -  ... between 10% and 30% [female/male] dialogue?
+  -  ... between 10% and 30% [female/male] dialogue?
+  -  ... between 50% and 70% [female/male] dialogue?
+  -  ... between 70% and 90% [female/male] dialogue?
+  -  ... between 90% and 100% [female/male] dialogue?
+
+Participants were free to specify any number between 0 and 10 in each of their responses, so their totals could add up to more than the 10 we asked for. We need to control for this so that participants specifying the distribution for 100 games doesn't bias the estimate.
+
+Instead of working with raw numbers, we convert each particpant's responses into proportions across the scale:
+
+```{r}
+f = d[,grepl("f[1-9]0",names(d))]
+rs = rowSums(f,na.rm = T)
+fNormed = f/rowSums(f,na.rm=T)
+fNormed[is.na(fNormed)] = 0
+```
+
+Collect the data:
+
+```{r}
+rx = data.frame(
+  n = unlist(f),
+  p = unlist(fNormed),
+  category.boundary = rep(c(10,30,50,70,90,100),each=nrow(f)),
+  category.middle = rep(c(5,20,40,60,80,95),each=nrow(f)),
+  category.names = rep(c("0-10","10-30","30-50","50-70","70-90","90-100"),each=nrow(f)),
+  rowSum = rep(rs,6)
+)
+
+brks = c(10,30,50,70,90,101)
+tn = table(cut(trueFemaleDialogueDist*100,c(0,brks)))
+tp = tn/sum(tn)
+trueDist = data.frame(
+  p = as.vector(tp),
+  category.middle = c(5,20,40,60,80,95),
+  category.names = c("0-10","10-30","30-50","50-70","70-90","90-100"))
+```
+
+Plot the mean guesses as boxplots, with the true distribution indicated as red triangles
+
+```{r}
+ggplot(rx, aes(x=factor(category.names),y=p))+
+  geom_boxplot() +
+  geom_point(data=trueDist,aes(y=p),stat="identity",
+             colour="red",size=3,shape="triangle") +
+  xlab("Percent female dialogue") +
+  ylab("Estimated proportion of games")
+
+```
+
+Did people understand the question? What totals did they actual use?
+
+```{r}
+hist(rs)
+# Proportion of participants responding with 10 games
+sum(rs==10)/length(rs)
+```
+
+Only about half of respondents used 10 items. So let's see the distribution for only participants that specified a total of 10:
+
+```{r}
+ggplot(rx[rx$rowSum==10,], aes(x=factor(category.names),y=p))+
+  geom_boxplot() +
+  geom_point(data=trueDist,aes(y=p),stat="identity",
+             colour="red",size=3,shape="triangle")+
+  xlab("Percent female dialogue") +
+  ylab("Estimated proportion of games")
+```
+
+People seem to over-estimate the number of games that have more than 50% dialogue.
+
+For each percentage category except 70-90, the mean guesses are significantly different from the true values:
+
+```{r}
+distTest = data.frame()
+for(i in 1:nrow(trueDist)){
+  mx = rx$category.middle==trueDist[i,]$category.middle
+  tt = t.test(rx[mx,]$p,
+         mu=trueDist[i,]$p)
+  distTest = rbind(distTest,data.frame(
+    category = rx[mx,]$category.names[1],
+    participantMean = tt$estimate, trueMean = trueDist[i,]$p,
+    t = tt$statistic,p = tt$p.value
+  )) 
+}
+# Adjust for multiple comparisons
+distTest$p = distTest$p * 6
+distTest
+```
+
+Write out stats for the 50-70 category for the paper
+
+```{r}
+tx = distTest[distTest$category=="50-70",]
+cat(round(100*tx$participantMean),file="../../results/latexStats/Survey_dist50_70_partGuess.tex")
+cat(round(100*tx$trueMean),file="../../results/latexStats/Survey_dist50_70_true.tex")
+px = "p < 0.0001"
+if(tx$p>0.0001){
+  px = paste0("p = ",round(tx$p,4))
+}
+cat(paste0("t = ",round(tx$t,2),", ",px)
+  ,file="../../results/latexStats/Survey_dist50_70_stat.tex")
+```
+
+```{r echo=F,eval = F}
+# Are participants choices consistent with a normal distribution?
+boundaries = c(-Inf,10,30,50,70,90,Inf)
+mids = c(5,20,40,60,80,95)
+normToDisc = function(n,m,sd){
+  table(cut(rnorm(n,m,sd),boundaries))
+}
+
+res = c()
+for(i in 1:nrow(d)){
+  dists = d[i,c("f10", "f30", "f50", "f70", "f90", "f100")]
+  if(sum(dists,na.rm = T)>0){
+    dists[is.na(dists)] = 0
+    estMean = sum(dists*mids)/sum(dists)
+    estSD = sum(abs(mids-estMean)*dists)/sum(dists)
+    sim = replicate(1000,normToDisc(sum(dists),estMean,estSD))
+    #diff = apply(sim,2,function(X){sum((X-dists))})
+    #apply(sim,1,mean)
+    propSimGreaterThanObserved = sapply(1:6,function(j){
+      sum(sim[j,] >= as.numeric(dists[j]))/length(sim[j,])
+    })
+    res = c(res,all(propSimGreaterThanObserved>0.05))
+  }
+}
+```
+
+
+
+\clearpage
+\newpage
+
+# Conclusion
+
+
+The mean guess for the average percentage of female dialogue was `r round(percentFemaleDialogueGuessMean,2)`% (sd = `r round(percentFemaleDialogueGuessSD,2)`). This is not signficiantly different from the empirical estimate. Male respondents estimated a higher percentage of female dialogue than female respondents.
+
+
+The mean guess for the percentage of games with more than 50% female dialogue was `r round(percentGamesMore50FemaleMean,2)`% (sd = `r round(percentGamesMore50FemaleSD,2)`). This is significantly higher than the empirical estimate. The main predictor of this measure was the whether the survey was framed to ask about female or male dialogue. 
+

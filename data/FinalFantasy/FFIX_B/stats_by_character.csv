@@ -1,0 +1,526 @@
+folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,syllables
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Zidane,2009,18020,7010,20830
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Blank,143,1380,445,1609
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Marcus,156,1147,396,1342
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Puck,48,486,144,548
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Baku,117,1548,428,1835
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Amarant,172,1440,672,1720
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Benero,23,98,42,115
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,"Blutzen, Pluto Knight II",8,73,23,89
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Bunce,15,139,34,160
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Cinna,88,793,274,909
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Engineer Zebolt,10,130,35,158
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Fratley,18,224,84,261
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Garland,76,1740,451,2153
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,"Haagen, Pluto Knight VIII",14,95,29,122
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,"Kohel, Pluto Knight III",7,52,12,63
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,"Weimar, Pluto Knight VII",10,96,23,112
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Harold Pathknower,11,131,17,148
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Innkeeper Hal,12,220,95,256
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,King of Burmecia,10,107,22,133
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Kuja,119,2845,863,3461
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mene,50,998,238,1137
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Minister Artania,37,540,113,692
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Morrid,19,248,71,292
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Phillipo,2,19,5,19
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Ramuh,24,529,132,643
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Steiner,508,5280,1775,6324
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Stiltzkin,35,393,80,451
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Thorn,93,555,139,654
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Tot,118,1807,563,2190
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Vivi,465,3300,1880,3778
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Zenero,27,121,56,146
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Zorn,99,523,139,623
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Moguta,35,174,88,177
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Choco,10,13,18,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Kupo,33,320,85,373
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Kuppo,5,27,16,29
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Lich,1,13,2,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Moco,20,129,49,156
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Atla,10,98,24,119
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Grimo,6,32,11,35
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Gumo,9,69,21,76
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Kumool,8,66,23,79
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Kumop,5,27,9,30
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mochos,3,24,7,28
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mogki,22,166,52,188
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mogmatt,4,26,8,29
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mogrich,17,93,30,106
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mogryo,14,102,32,120
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mois,12,91,32,104
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mojito,4,32,10,37
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Chimomo,18,189,57,213
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Momatose,16,152,52,160
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mocha,7,58,16,65
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Monev,3,34,7,44
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Monty,14,152,54,181
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Moodon,16,130,33,157
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Moonte,8,55,13,62
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Moorock,8,81,19,87
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Morrison,33,437,114,530
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mopli,12,75,28,86
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mosco,15,121,22,138
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mosh,14,107,29,128
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Noggy,7,49,18,57
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Artemecion,8,115,47,132
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Ashley,4,53,10,60
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Aspiring Artist Michael,7,85,16,109
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Bishop,8,315,47,365
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage 1,2,2,2,2
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage 2,3,1,14,1
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage 3,1,1,1,1
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage Crewmember,3,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 234,15,74,32,80
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 163,14,136,83,164
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 111,18,112,47,127
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 12,4,36,9,43
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 123,3,49,9,62
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 144,3,30,8,38
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 189,1,9,6,9
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 192,8,51,23,64
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 199,2,54,10,76
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 239,4,18,20,21
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 24,4,49,14,57
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 288,45,717,248,855
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 32,6,25,13,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 33,18,114,48,132
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 44,3,47,20,56
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 55,2,25,5,30
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 56,8,181,46,204
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 69,3,33,14,41
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 78,4,92,19,106
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage No. 87,2,14,6,15
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Waltz No. 1,6,30,19,31
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Waltz No. 2,8,102,23,117
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Waltz No. 3,11,156,69,193
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Boatman,3,94,15,116
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Bobo,5,50,20,58
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,"Breireicht, Pluto Knight VI",7,170,41,215
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Bryan Rootrunner,8,84,30,96
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Burmecian Kid Adam,13,48,19,55
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Burmecian Kid Jack,13,44,16,52
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Burmecian Soldier Dan,19,221,48,249
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Burmecian Soldier Din,2,17,7,22
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Burmecian Soldier Doyle,5,50,8,63
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Burmecian Soldier Gary,2,19,2,20
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Burmecian Soldier Gidd,2,22,5,24
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Burmecian Soldier Gray,7,52,19,57
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Card Boy,3,31,6,35
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Chief Engineer,6,190,31,242
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Cid,182,2452,700,2999
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Craftsman,2,17,4,19
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Cymbalist,8,80,25,96
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Violinist,8,54,17,67
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Trumpeter,5,20,7,30
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Drummer,8,56,16,63
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dante the Signmaker,5,75,15,81
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,David Heavenguard,15,180,73,218
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dead Man,3,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Derek Stonehammer,4,53,9,59
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Devon,1,15,5,15
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dishmeister,6,21,9,26
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,"Dojebon, Pluto Knight V",3,14,4,18
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dolf,3,32,6,37
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Doug,4,40,8,49
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dragoos,4,59,9,68
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Earth Guard,6,51,25,57
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Eggmeister,6,22,7,29
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Engineer Gabin,3,42,8,46
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Fat Chocobo,13,277,95,331
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Father,6,56,21,61
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Gilgamesh,34,758,192,895
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Gatz,6,44,8,44
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Genero,5,20,8,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Geoffrey Treefeller,2,48,4,66
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Grandpa,3,95,18,109
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Granin Miller,4,35,11,42
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Gus,2,38,14,50
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Guy Doing Research,5,96,20,124
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Hades,4,55,11,69
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Herald,1,9,4,13
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Hippaul,30,196,103,249
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Honorable Lord,2,14,2,15
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Hunk,1,10,1,11
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Jacob,1,7,2,9
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Jinkus Emptybottle,3,36,6,41
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Olivier,3,22,6,26
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Jobless Jeff,9,133,32,158
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,John Fruitbringer,2,16,4,18
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Justin,4,115,26,132
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Kal,18,176,55,204
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,"Laudo, Pluto Knight IV",9,75,20,94
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Locke,2,105,13,120
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Lowell,11,132,43,159
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Ludruff,1,39,7,47
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Male Red Mage,5,69,21,78
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Marco,7,83,23,95
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mario,10,85,19,102
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Marolo,3,46,8,59
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Matthew Watchman,10,63,18,74
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mayor Kapu,9,121,41,137
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mayor's Son,1,5,1,5
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Meltigemini,1,7,6,9
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Nikolai,3,29,9,40
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mick,2,44,8,52
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Moggy,9,73,26,77
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mogreg,1,4,1,5
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mogriffin,2,23,3,26
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mogster,35,1467,186,1860
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Moss,1,6,3,6
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Naked Soldier,1,10,3,10
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Nimitz,1,17,2,22
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Noble Lord,1,12,6,15
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Old Man with a Cane,2,40,5,51
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Old Pops,2,20,3,24
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Onionmeister,4,40,7,48
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Ovenmeister,6,32,8,36
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Pasty Yacha,13,122,32,136
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Pigeon Lover,6,53,16,63
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Policeman,1,3,1,3
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Priest Theodore,2,44,6,54
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Quan,14,260,92,337
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Retired Boatman,5,62,13,75
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Richard Watchman,14,87,27,102
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Rio,2,15,3,20
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Robert Dogherder,4,23,16,28
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Rosco,2,21,4,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Rupta,1,29,3,36
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Ryan,4,63,16,70
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Shamis Gatekeeper,10,79,15,102
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Shig,1,26,4,32
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Silly Old Man,2,20,4,23
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Slai's Father,3,42,8,51
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Sleepy Soldier,4,15,10,19
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Snot-nosed Gudo,10,77,31,85
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Son,5,27,9,32
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Staff,1,7,2,7
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Stubborn Geezer,2,29,4,37
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Synthesist,3,34,8,43
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Thomas,2,48,9,59
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Thomas Goldpiler,2,25,4,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Thug,7,89,23,97
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Tim,1,17,2,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Tom,5,33,15,39
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Torres,5,74,18,82
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Wayne,6,121,26,138
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Treasure Hunter,12,279,60,335
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Unnamed Black Mage,1,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Koo,1,1,1,1
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Wounded Burmecian Soldier,5,59,35,82
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage Near Pond,2,36,8,44
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Other Black Mage Near Pond,1,22,3,24
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage naming a Genome,2,19,5,20
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Other Black Mage naming a Genome,1,6,2,6
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Walter Teamaker,4,50,14,54
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Wimpy Guy,1,20,3,23
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Wind Guard,2,12,5,16
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Yaff,3,58,14,71
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Young Man,8,94,32,115
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Debating Young Man,11,165,31,200
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Young Man 2,1,4,7,4
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Shopkeeper (Alexandria),4,35,7,37
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Fish Man,9,79,29,93
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Ticketmaster,11,129,16,181
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Beaten-up Guard,2,4,7,5
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Scholar (Alexandria Library),16,191,32,243
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Conductor (Tantalus),4,17,9,21
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Man (Dali Village),5,57,12,65
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dali Village Worker,2,6,4,6
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Elite Guard,22,334,85,409
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Umaeda,2,46,28,48
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Aviator (Lindblum Docks),9,115,23,143
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Attendant,29,393,76,484
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Tiny Chef,2,27,5,34
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Card Freak Gon,7,92,22,113
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Yaup,1,8,3,10
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Roch,1,26,2,33
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Chet,1,16,2,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Uzu,2,26,6,31
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Village Sculptor,1,8,4,8
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Widget,1,33,4,39
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Barry,1,8,2,8
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Cujo,1,1,1,1
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Newbie Soldier,4,73,48,90
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Soldier,90,929,241,1123
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Lindblum Mechanical Worker,8,119,26,134
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Customer,3,31,8,35
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Poncho,2,19,5,21
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Captain,3,16,12,23
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Officer (Green Jacket),5,49,9,63
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Lindblum Officer,7,121,24,153
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Breeder,3,23,8,30
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Baraki,1,24,2,36
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Merchant,2,47,8,57
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dying Burmecian Soldier,2,28,33,31
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Burmecian Soldier fighting black mages,4,10,18,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Short Guard,14,211,69,243
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Tall Guard,16,220,53,267
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dying Burmecian Soldier 2,2,24,24,29
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Carpenter Hans,4,51,14,67
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,South Gate Worker,4,73,17,77
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Item Seller,3,8,5,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Construction Worker,3,34,13,39
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Conductor,20,220,58,287
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dying Burmecian Soldier 3,3,16,29,17
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Brave Burmecian Soldier,3,12,7,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Cable Car Enthusiast,3,73,9,90
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Worker at Rest Stop (sitting),1,12,1,15
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Worker at Rest Stop (standing),1,25,2,31
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Chef,3,41,9,49
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Shopkeeper (Rest Stop),1,9,1,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Guard (Treno Gate),3,44,9,49
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Treno Guard,6,33,12,39
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Drunk,5,44,26,49
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Hard of Hearing Old Man,6,77,27,90
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Scholar (Bishop's Mansion),2,44,6,54
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Scholar (Daguerro),6,113,16,168
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Young Nobleman (Auction),5,23,16,37
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Young Nobleman (Pink),2,20,3,20
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Bidder,1,2,1,2
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Bidder 2,2,4,2,4
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Bidder 4,1,2,1,2
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Card Seller,8,82,31,113
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Card Game Usher,11,420,49,539
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Barkeep,5,38,16,40
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Carpenter (Treno Slums),2,21,4,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Criminal,2,15,3,20
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Auctioneer,10,82,39,95
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Clerk (Bishop's Mansion),5,22,8,29
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Dali Villager,1,15,3,20
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Cleyran High Priest,6,88,14,108
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mourning Old Man,3,47,9,62
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Lindblum Man,4,44,10,54
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Seth,1,17,2,22
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Male Dwarf,3,6,3,6
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Kelley Fingerwaver,3,52,5,57
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Friendly Black Mage,4,14,9,18
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Friendly Black Mage 2,10,2,11,2
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Soulcage,8,144,30,176
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Tour Guide,3,69,12,96
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Cook,1,4,1,4
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Alexandrian Man,4,47,11,56
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Alexandrian Boy,6,55,14,64
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Esto Gaza Boy,8,73,13,80
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Man in Esto Gaza,6,75,12,92
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Nobleman (Pink Jacket),4,34,7,39
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Nobleman (Motley),2,28,5,30
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Nobleman (Auction House),9,135,29,169
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Young Nobleman (Outside Auction),4,33,11,34
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Black Mage,25,17,66,17
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Idle Soldier,3,23,10,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Veteran Engineer,2,44,4,50
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Industrial District Engineer,2,38,4,57
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Supervisor,2,37,9,50
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Supervising Soldier,3,17,5,18
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Carpenter's Apprentice,2,29,4,35
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Carpenter's Apprentice 2,2,20,5,22
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Carpenter,2,26,5,30
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Youth,7,62,13,75
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Immigrant From Lindblum,1,12,5,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Innkeeper,2,23,4,24
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Lazy Carpenter,2,21,5,22
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Unnamed Boy,8,40,10,44
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Unnamed Kid,1,8,6,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Unnamed Running Boy,1,1,1,1
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Mooel,4,53,11,69
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,New Engineer,2,9,2,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Bull Engineer,1,24,2,35
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Synthesist Expert,1,13,2,17
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Bookworm,1,9,6,9
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Trude,1,20,4,20
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Adventurer (Male Red Mage),4,122,23,147
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Soldier on Gondola,4,19,5,21
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Librarian,2,74,9,92
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Ilia's Grandfather,4,48,9,57
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Old Man in Esto Gaza,5,74,11,85
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Old Man in Daguerro,7,255,59,305
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Weaponsmith,3,58,7,69
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Crew Member (Sailor),3,42,7,53
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Crew Member (Black-haired Sailor),9,118,24,167
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Guard,7,6,43,8
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Guard 2,2,9,5,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Genome (Pink),11,74,20,100
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Genome (Pink - Hall),1,17,1,22
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Genome (Pink 2 - Hall),1,11,4,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Genome (Pink - Lab),1,3,1,4
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Genome (Pink 3 - Hall),1,16,3,18
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Genome (Purple),16,106,68,130
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Pluto Knight,1,1,3,2
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Scientist,1,8,2,10
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Other Pluto Knight,1,2,1,2
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,male,Scarlet Hair,1,13,4,15
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Beatrix,99,975,366,1147
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Brahne,49,709,265,882
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Cornelia,7,134,22,156
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Garnet,806,7037,3356,8357
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Eiko,431,4451,1425,5194
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Erin,23,253,75,326
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Flower Maiden Sharon,14,63,22,71
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Water Maiden Shannon,12,47,21,50
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Freya,246,2394,823,2880
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Hilda,32,520,134,637
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Lani,42,522,110,621
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Lilian,4,26,9,30
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Lucella,11,78,27,86
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Maliris,2,18,9,19
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Mikoto,49,659,227,789
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Mog,36,85,89,93
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Mogmi,15,154,57,183
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Moon Maiden Claire,3,46,15,57
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Part-time Worker Mary,14,187,57,212
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Ruby,27,359,88,405
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Shopkeeper Eve,9,38,16,49
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Wendy Grocer,8,79,16,89
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Mimoza,5,41,12,48
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Mogrika,6,60,12,68
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Mozme,5,43,10,48
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Nazna,6,47,16,54
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Serino,6,54,17,63
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Suzuna,3,37,8,48
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Alice,11,135,39,158
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Alicia,1,12,3,15
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Barbara Gibgab,3,52,5,58
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Betsy Lightcatcher,2,54,5,56
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Bratty Marin,13,145,41,172
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Darcy Skywatcher,4,46,5,50
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Burmecian Refugee Learie,12,61,31,73
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Burmecian Refugee Lorena,2,19,2,22
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Crista,3,67,18,82
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Dead Woman,3,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Dutiful Daughter Slai,21,221,67,263
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Eisha,4,111,28,129
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Elena,4,44,8,50
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Female Adventurer,2,29,5,34
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Female Customer,2,20,5,24
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Female Red Mage,9,112,34,134
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Fire Guard,7,62,28,80
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Flower Girl,3,50,9,62
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Lisa,12,104,31,119
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Grandma Pickle,19,242,53,288
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Grandma Potpourri,4,53,10,62
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Heather,2,11,6,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Helen Birdkeeper,3,42,3,48
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Hippolady,8,94,22,110
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Honorable Lady,4,39,6,49
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Ilia,6,49,12,51
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Jenny Greeter,12,112,18,136
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Joanna,4,17,10,17
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Wei,16,133,42,162
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Lady with an Apron,1,40,3,48
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Maggie,4,28,5,32
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Margaret Miller,10,89,20,99
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Marsha,6,58,25,66
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Mayor's Daughter,1,10,4,13
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Mayor's Wife,2,16,5,16
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Marian,1,22,2,27
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Fan Club Chairman,6,40,12,44
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Member No. 12,3,16,2,17
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Member No. 28,1,7,3,8
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Member No. 29,1,9,5,10
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Member No. 3,2,9,1,9
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Member No. 36,3,36,5,39
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Member No. 44,3,10,5,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Member No. 56,1,14,2,17
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Michelle,2,14,3,16
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Mogliana,1,10,1,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Molly,1,8,2,9
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Natalie,13,248,58,292
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Noble Lady,1,7,1,9
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Old Lady,14,216,49,247
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Alexandrian Old Lady,2,23,7,32
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Old Margaret,2,59,10,67
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Pricilla,1,22,3,27
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Queen Stella,11,146,45,179
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Rita,2,33,10,39
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Star Maiden Nina,2,11,7,15
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Synthesist's Wife,1,22,4,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Tiffany,4,23,7,28
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Tom's Mother,3,25,7,32
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Yaup's Grandma,1,2,6,2
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Unnamed Woman,0,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Waitress,2,45,9,51
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Wind Maiden Eileen,2,36,5,50
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Woman's Voice,3,6,13,6
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Young Lady,3,53,9,62
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Alexandrian Soldier,78,899,208,1110
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Alexandrian Officer,4,74,23,91
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Unnamed Jump-roping Girl,2,8,2,8
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Hanna,1,14,1,18
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Girl near Treno Tower,4,60,15,73
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Bidder 3,2,4,2,4
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Old Woman (Treno Equipment Shop),7,84,22,98
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Old Woman (Esto Gaza),6,59,9,72
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Shopkeeper (Treno Slums),2,20,5,24
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Servant,3,46,9,54
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Forest Oracle Kildea,17,318,61,392
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Maron,1,20,2,23
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Senior Officer,2,26,4,35
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Cannoneer,1,28,3,35
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Girl in Alexandria,5,40,7,45
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Aspiring Queen in Pink,2,13,4,18
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Noblewoman (outside auctionhouse),4,45,5,48
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Noblewoman (Green Dress),1,9,4,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Noblewoman (Purple Dress),2,17,4,20
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Noblewoman (Yellow Dress),4,39,11,41
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Alexandrian Guard,3,13,3,16
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Ilia's Grandmother,5,36,19,41
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Unnamed Girl,8,34,9,36
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Sales Clerk,10,130,29,138
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Booklover,1,18,4,29
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Chesnut,1,6,1,6
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Adventurer (Female Red Mage),2,64,9,76
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Genome (Orange),9,100,27,137
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Genome (Orange - Storage),1,18,6,28
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Genome (Orange - Hall),1,14,4,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Genome (Orange 2 - Hall),1,20,4,21
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Genome (Orange - Lab),1,20,1,27
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Genome (Orange 2 - Lab),1,6,2,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,female,Genome (Orange near gate),1,10,1,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,genderless,Quale,22,191,90,220
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,genderless,Quina,178,1667,621,1979
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Antlion,1,1,1,3
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Bulletin Board,2,30,3,32
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Kraken,1,10,4,13
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Taharka,4,38,38,48
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Necron,7,150,46,190
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Tiamat,1,11,4,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Moogle,2,21,9,23
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Mogsam,4,31,7,34
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Moolan,6,53,16,64
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Blue Choco,1,4,1,4
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Bystander,2,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Dead Guard,2,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Gold Choco,6,22,17,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Kid #1,4,14,5,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Kid #2,3,7,7,7
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Kid #3,4,12,6,13
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Kid #4,3,7,7,7
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Kid #5,3,11,5,12
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Letter,2,81,12,97
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Narrative,33,264,82,341
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Noise,1,4,2,8
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Party Member #1,2,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Party Member #2,2,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Party Member #3,2,NA,NA,NA
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Plaque,14,210,34,286
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Reef Choco,1,3,1,4
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Sign,6,66,9,86
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Sleeping Kid,6,14,31,20
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Valia Pira,3,50,18,103
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Voice,15,159,84,196
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Stone Face,2,118,65,177
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Guard (Dali Gate),16,225,54,251
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Bidder 1,1,1,3,1
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Night Oracle Donnegan,7,61,17,72
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Sand Oracle Safrea,9,57,28,66
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Tree Oracle Wylan,7,74,26,89
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Sky Oracle Mylan,3,21,4,25
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Sun Oracle Florin,2,42,4,47
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Tantarian,3,11,9,14
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Judge,1,9,1,16
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Crew Member (Engine),2,9,2,13
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Genome (Purple near gate),1,7,1,10
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Genome (Purple - Storage),1,28,2,40
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Person 2,1,2,3,2
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Genome (Purple - Hall),1,4,3,5
+../data/FinalFantasy/FFIX_B/,False,Final Fantasy IX,Final Fantasy,neutral,Shopkeeper (Esto Gaza),4,16,7,16

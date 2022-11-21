@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingdomHearts/KingdomHearts2/,False,Kingdom Hearts II,Kingdom Hearts,TOTAL,5990,47843,14959,55556,-0.6403379187326355,105.34997793271552,6.510355698661921,147
+../data/KingdomHearts/KingdomHearts2/,False,Kingdom Hearts II,Kingdom Hearts,male,5103,40249,12650,46705,-0.6563840313612985,105.43556782690796,6.56322330208798,99
+../data/KingdomHearts/KingdomHearts2/,False,Kingdom Hearts II,Kingdom Hearts,female,852,7359,2225,8553,-0.5855542573413874,105.15159716742171,6.162932655120764,37
+../data/KingdomHearts/KingdomHearts2/,False,Kingdom Hearts II,Kingdom Hearts,neutral,35,235,82,298,0.4910871821484193,96.64615853658538,8.347667618059157,11

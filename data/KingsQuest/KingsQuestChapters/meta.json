@@ -1,0 +1,187 @@
+{
+	"game": "King's Quest Chapters",
+	"series": "King's Quest",
+	"year": 2015,
+	"source": "https://kingsquest.fandom.com/wiki/KQC1_transcript",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "high",
+		"dialogueOrder": false,
+		"choices": "NA"
+	},
+	"notes": "see Readme",
+	"error checks": {
+        "truePositive_numTestsDone": "10",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "1",
+        "truePositive_notes": "A line of dialogue was missing from Chapter 1 re the ridiculous feeding contraption; completeness changed to high.",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "N/A"
+    },
+    "parserParameters": {
+		"parser":"KQCParser",
+		"optionsForChapters":{	
+			"page01.html": {
+				"startText": "<h3><span class=\"mw-headline\" id=\"Achaka_VO\">Achaka VO",
+				"endText": "class=\"mw-headline\" id=\"Graham_Game\"",
+				"reForDialogue": "\\(Text=\".+?\""
+			},
+			"page02.html": {
+				"startText": "class=\"mw-headline\" id=\"Chapter_2_Transcript\"",
+				"endText": "class=\"page-footer\"",
+				"reForDialogue": "=\".+?\""
+			},
+			"page03.html": {
+				"startText": "class=\"mw-headline\" id=\"VO_E3_Acorn",
+				"endText": "class=\"page-footer\"",
+				"reForDialogue": "Text=\".+?\""
+			},
+			"page04.html": {
+				"startText": "class=\"mw-headline\" id=\"Forest_Rood_Trip_Road",
+				"endText": "class=\"page-footer\"",
+				"reForDialogue": "=\".+?\""
+			},
+			"page05.html": {
+				"startText": "<span class=\"mw-headline\" id=\"AchakaVO\">AchakaVO",
+				"endText": "class=\"page-footer\"",
+				"reForDialogue": "=\".*?\""
+			},
+			"page06.html": {
+				"startText": "class=\"mw-headline\" id=\"VO_E6_Gwendolyn",
+				"endText": "class=\"page-footer\"",
+				"reForDialogue": "Text=\".*?\""
+			}
+		}
+	},
+	"mainPlayerCharacters": ["Graham","Gwendolyn"],
+	"characterGroups": {
+		"male":	[
+			"Chester",
+			"Gart",
+			"Graham",
+			"Kyle",
+			"Merchant",
+			"Mordon",
+			"Olfie",
+			"Royal Guard 1",
+			"Royal Guard 2",
+			"Royal Guard 3",
+			"Wente",
+			"Whisper",
+			"Larry",
+			"Alexander",
+			"Waddles",
+			"Manannan",
+			"Royal Knight",
+			"Achaka"
+			],
+		"female":[
+			"Acorn",
+			"Amaya",
+			"Bramble",
+			"Gwendolyn",
+			"Muriel",
+			"Hagatha",
+			"Neese",
+			"Valanice",
+			"Vee",
+			"Icebella",
+			"Pillare",
+			"Sphinx",
+			"Rosella",
+			"Taskia"
+			],
+		"neutral":[
+			"EscRoomPullSwitch08"
+		]
+	},
+	"aliases":{
+		"AC": "Acorn",
+		"Give": "Acorn",
+		"AB": "Amaya",
+		"Ask1": "Amaya",
+		"Ask2": "Amaya",
+		"Ask3": "Amaya",
+		"Ask4": "Amaya",
+		"Ask5": "Amaya",
+		"Ask6": "Amaya",
+		"GiveStarFruit": "Amaya",
+		"AK": "Achaka",
+		"BF": "Bramble",
+		"VBF": "Bramble",
+		"CH": "Chester",
+		"GA": "Gart",
+		"Ga": "Gart",
+		"GW": "Gwendolyn",
+		
+		"OG": "Graham",
+		"Old Graham": "Graham",
+		"GG": "Graham",
+		"NarGlassSlippers": "Graham",
+		"KG": "Graham",
+		"Graham": "Graham",
+		"P11": "Graham",
+		"P12": "Graham",
+		"P21": "Graham",
+		"P22": "Graham",
+		"P31": "Graham",
+		"P41": "Graham",
+		"P42": "Graham",
+		"GrahamAddendumRepeat": "Graham",
+		"KB": "Graham",
+		"Hi": "Graham",
+		"Low": "Graham",
+		"Med": "Graham",
+		"AKCreedChoiceA3YG": "Graham",
+		"Pre": "Graham",
+		"SirVerArrows-YG": "Graham",
+		"YB": "Graham",
+		"YG": "Graham",
+		"EscRoomNotGood": "Graham",
+		"EscRoomOneTry": "Graham",
+		"OldGraham": "Graham",
+
+		"KY": "Kyle",
+		"Ky": "Kyle",
+		"MM": "Merchant",
+		"MO": "Mordon",
+		"MH": "Muriel",
+		"HobIdleLowF01": "Muriel",
+		"OL": "Olfie",
+		"RG1": "Royal Guard 1",
+		"RG2": "Royal Guard 2",
+		"RG3": "Royal Guard 3",
+		"RG": "Royal Guard 1",
+		"RoyalKnight": "Royal Knight",
+		"WF": "Wente",
+		"OF": "Wente",
+		"WH": "Whisper",
+		"I": "Whisper",
+		"J": "Whisper",
+		"K": "Whisper",
+		"HG": "Hagatha",
+		"NS": "Neese",
+		"VA": "Valanice",
+		"VE": "Vee",
+		"LA": "Larry",
+		"AL": "Alexander",
+		"Puz3Spikes03": "Alexander",
+		"DA": "Alexander",
+		"IC": "Icebella",
+		"IG": "Ice Guard",
+		"MA": "Manannan",
+		"Manny": "Manannan",
+		"MR": "Rosella",
+		"SP": "Sphinx",
+		"TA": "Taskia",
+		"ALT": "Taskia",
+		"RO": "Rosella",
+		"PI": "Pillare",
+		"WA": "Waddles",
+		"WaddlesPiece": "Waddles",
+		"AgendaEnd": "Waddles",
+		"E1P2": "Olfie"
+	}
+}

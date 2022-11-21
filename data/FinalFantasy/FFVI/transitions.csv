@@ -1,0 +1,16 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,-,-,74
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,-,male,287
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,male,male,584
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,male,-,283
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,-,neutral,4
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,neutral,-,4
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,-,female,65
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,female,-,69
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,female,male,236
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,male,female,239
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,male,neutral,2
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,female,female,13
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,neutral,female,2
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,female,neutral,1
+../data/FinalFantasy/FFVI/,Final Fantasy,Final Fantasy VI,neutral,male,1

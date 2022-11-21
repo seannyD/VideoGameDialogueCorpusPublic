@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingdomHearts/KingdomHearts3D/,False,Kingdom Hearts 3D: Dream Drop Distance,Kingdom Hearts,TOTAL,1749,18484,4821,21459,-0.3955067360432274,104.72705887096511,6.380883798205579,51
+../data/KingdomHearts/KingdomHearts3D/,False,Kingdom Hearts 3D: Dream Drop Distance,Kingdom Hearts,male,1626,17253,4514,20025,-0.4034985146772243,104.76307110793547,6.387730231570753,40
+../data/KingdomHearts/KingdomHearts3D/,False,Kingdom Hearts 3D: Dream Drop Distance,Kingdom Hearts,female,123,1231,307,1434,-0.2802912808897169,104.21398476385028,6.285335949692658,11
+../data/KingdomHearts/KingdomHearts3D/,False,Kingdom Hearts 3D: Dream Drop Distance,Kingdom Hearts,neutral,0,NA,NA,NA,NA,NA,NA,0

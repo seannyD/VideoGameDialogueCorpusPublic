@@ -1,0 +1,11 @@
+"1 - Dialogue Options",
+"2 - Investigate",
+"3 - Investigate",
+"4 - General",
+"5 -  General",
+"6 - General",
+"Cassandra",
+"Dialogue Options",
+"Leliana",
+"Next",
+"PC"

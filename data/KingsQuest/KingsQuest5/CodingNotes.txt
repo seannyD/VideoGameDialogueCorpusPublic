@@ -1,0 +1,8 @@
+No voice acting in NES version, so 'narrator' uncoded (as it's not obvious it's a voice versus system messages in terms of player experience). May be revisited. (Edited to add: On second pass coded as 'neutral', in keeping with subsequent decision to code all dialogue.)
+
+Some dialogue is dependent on others. For example, when entering a shop, you get the text "Please select something.", then the item descriptions appear as you select items. https://youtu.be/Bcv8RUWKrEg?t=478. This structure is not coded.
+
+In the CD-Rom version, 'rat' is a mother rat. It's less clear from the NES version (where it sometimes called 'The Mouse'), so I have coded as neutral. 
+
+
+Yeti is referred to as "he"

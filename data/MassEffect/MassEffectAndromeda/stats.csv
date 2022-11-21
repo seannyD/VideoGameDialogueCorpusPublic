@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/MassEffect/MassEffectAndromeda/,True,Mass Effect: Andromeda,Mass Effect,TOTAL,1470,17279,4008,21594,0.8380959983788454,96.7324618935201,7.060602785135209,76
+../data/MassEffect/MassEffectAndromeda/,True,Mass Effect: Andromeda,Mass Effect,male,0,NA,NA,NA,NA,NA,NA,0
+../data/MassEffect/MassEffectAndromeda/,True,Mass Effect: Andromeda,Mass Effect,female,0,NA,NA,NA,NA,NA,NA,0
+../data/MassEffect/MassEffectAndromeda/,True,Mass Effect: Andromeda,Mass Effect,neutral,0,NA,NA,NA,NA,NA,NA,0

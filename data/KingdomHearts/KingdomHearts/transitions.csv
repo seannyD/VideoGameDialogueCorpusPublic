@@ -1,0 +1,15 @@
+folder,series,game,from,to,frequency
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,-,-,12
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,-,male,911
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,male,-,923
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,male,male,711
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,-,female,214
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,female,male,152
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,male,female,139
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,female,-,200
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,female,female,42
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,female,neutral,1
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,neutral,-,5
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,-,neutral,4
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,neutral,male,1
+../data/KingdomHearts/KingdomHearts/,Kingdom Hearts,Kingdom Hearts,male,neutral,1

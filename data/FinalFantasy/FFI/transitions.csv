@@ -1,0 +1,14 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,-,-,243
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,-,female,35
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,female,-,38
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,-,male,79
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,male,-,78
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,male,female,5
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,female,male,2
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,-,neutral,39
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,neutral,-,37
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,male,neutral,1
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,neutral,male,3
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,male,male,10
+../data/FinalFantasy/FFI/,Final Fantasy,Final Fantasy,neutral,neutral,6

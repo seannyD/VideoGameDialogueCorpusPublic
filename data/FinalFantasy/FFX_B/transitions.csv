@@ -1,0 +1,17 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,-,-,437
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,-,male,943
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,male,-,977
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,-,female,389
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,female,male,1182
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,male,female,1186
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,male,male,2362
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,male,neutral,34
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,neutral,female,12
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,female,female,398
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,neutral,male,34
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,neutral,-,31
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,neutral,neutral,24
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,female,neutral,17
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,female,-,404
+../data/FinalFantasy/FFX_B/,Final Fantasy,Final Fantasy X,-,neutral,23

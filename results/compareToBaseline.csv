@@ -1,0 +1,68 @@
+"","shortName","game","series","year","alternativeMeasure","z.random","p.random","z.perm","p.perm"
+"zscore.male","ChronoTrigger","Chrono Trigger","Chrono Trigger",1995,FALSE,0.471216588097741,0.49771,0.610260461431564,0.17736
+"zscore.male1","DragonAge2","Dragon Age 2","Dragon Age",2011,FALSE,1.09801557028546,0.06246,1.69605715881293,0.00877
+"1","DragonAgeInquisition","Dragon Age: Inquisition","Dragon Age",1997,TRUE,NA,NA,NA,NA
+"zscore.male2","DragonAgeOrigins","Dragon Age: Origins","Dragon Age",2009,TRUE,0.848157566190487,0.24615,1.12265721056304,0.13137
+"zscore.male3","DragonAgeOrigins_B","Dragon Age: Origins","Dragon Age",2009,FALSE,2.81003497169907,0.03148,3.55109059270421,0.00109
+"zscore.male4","Daggerfall","The Elder Scrolls II: Daggerfall","The Elder Scrolls",1996,FALSE,6.49621233852447,1e-05,0.745717369722625,0.23421
+"zscore.male5","Morrowind","The Elder Scrolls III: Morrowind","The Elder Scrolls",2002,FALSE,0.660966507306787,0.50423,0.700577157230341,0.34632
+"zscore.male6","Oblivion","The Elder Scrolls IV: Oblivion","The Elder Scrolls",2006,FALSE,1.56514591995481,0.05877,-0.776537472732449,0.78045
+"zscore.male7","Skyrim","The Elder Scrolls V: Skyrim","The Elder Scrolls",2011,FALSE,3.27307194722983,0.00038,-0.495037362867498,0.69546
+"zscore.male8","FFI","Final Fantasy","Final Fantasy",1987,FALSE,2.58299835032,0.00062,1.44481998772182,0.04117
+"zscore.male9","FFII","Final Fantasy II","Final Fantasy",1988,FALSE,0.789101102606615,0.3955,0.948572568881441,0.21896
+"zscore.male10","FFIII","Final Fantasy III","Final Fantasy",1990,TRUE,1.38670831000105,0.08583,0.296210340662672,0.39586
+"zscore.male11","FFIV_B","Final Fantasy IV","Final Fantasy",1991,TRUE,2.71918760164294,0.00076,2.1735393420859,0.00307
+"zscore.male12","FFIV_DS","Final Fantasy IV","Final Fantasy",1991,FALSE,3.38406052138643,6e-05,1.64811415428741,0.03165
+"zscore.male13","FFIX","Final Fantasy IX","Final Fantasy",2000,TRUE,1.1496816774931,0.14995,0.606353437614249,0.34642
+"zscore.male14","FFIX_B","Final Fantasy IX","Final Fantasy",2000,FALSE,3.67269967489078,0.01761,4.38392825332037,0.00111
+"zscore.male15","FFV","Final Fantasy V","Final Fantasy",1992,FALSE,0.88988927657871,0.29979,1.06154153297709,0.21703
+"zscore.male16","FFVI","Final Fantasy VI","Final Fantasy",1994,FALSE,2.94338271938989,0.00083,-0.223857051927888,0.61135
+"zscore.male17","FFVI_B","Final Fantasy VI","Final Fantasy",1994,TRUE,2.6468974076554,0.00286,-0.12531774224063,0.572
+"zscore.male18","FFVI_C","Final Fantasy VI","Final Fantasy",1994,TRUE,2.4528907477478,0.0054,0.161707916803651,0.46292
+"zscore.male19","FFVII","Final Fantasy VII","Final Fantasy",1997,FALSE,2.51999983353734,0.00271,-0.542097871299681,0.72154
+"zscore.male20","FFVII_Remake","Final Fantasy VII Remake","Final Fantasy",2020,FALSE,1.25751803194183,0.10966,-1.22497818907381,0.87908
+"zscore.male21","FFVIII","Final Fantasy VIII","Final Fantasy",1999,FALSE,0.682242302925635,0.41525,0.809673393605627,0.23098
+"zscore.male22","FFX","Final Fantasy X","Final Fantasy",2001,TRUE,0.914382882295859,0.19411,-0.857756215097772,0.7999
+"zscore.male23","FFX_B","Final Fantasy X","Final Fantasy",2001,FALSE,2.16482994872638,0.00887,0.453073308407234,0.36258
+"zscore.male24","FFX2","Final Fantasy X-2","Final Fantasy",2003,FALSE,0.133784285323398,0.45468,-2.69138677935038,0.99228
+"zscore.male25","FFXII","Final Fantasy XII","Final Fantasy",2006,TRUE,1.98468874028491,0.02028,-0.0519473522839803,0.55908
+"zscore.male26","FFXII_B","Final Fantasy XII","Final Fantasy",2006,FALSE,6.14375198029254,1e-05,1.15158184347857,0.12595
+"zscore.male27","FFXIII","Final Fantasy XIII","Final Fantasy",2009,FALSE,0.481929796288134,0.31968,-0.78425008770951,0.77992
+"zscore.male28","FFXIII-2","Final Fantasy XIII-2","Final Fantasy",2011,FALSE,0.603525692840408,0.25938,-0.461116203834981,0.67899
+"zscore.male29","FFXIII-LR","Lightning Returns: Final Fantasy XIII","Final Fantasy",2014,FALSE,-0.250046251699732,0.62486,-0.875070084373925,0.82245
+"zscore.male30","FFXIV","Final Fantasy XIV","Final Fantasy",2010,FALSE,0.922722354141531,0.25101,1.61033855424933,0.069
+"zscore.male31","FFXV","Final Fantasy XV","Final Fantasy",2016,FALSE,2.09506665149875,0.0157,1.12918968020078,0.15687
+"zscore.male32","HorizonZeroDawn","Horizon Zero Dawn","Horizon",2017,FALSE,0.403004569240931,0.40493,-0.863836475798487,0.74498
+"zscore.male33","KingdomHearts","Kingdom Hearts","Kingdom Hearts",2002,TRUE,2.8121800022253,5e-04,1.10257407915178,0.12616
+"zscore.male34","KingdomHearts_B","Kingdom Hearts","Kingdom Hearts",2002,FALSE,2.79623764675091,0.00059,1.08525109423013,0.13089
+"zscore.male35","KingdomHearts2","Kingdom Hearts II","Kingdom Hearts",2005,FALSE,3.44605217832256,1e-05,1.45463418694876,0.01302
+"zscore.male36","KingdomHearts3","Kingdom Hearts III","Kingdom Hearts",2019,FALSE,3.31536315294312,1e-05,0.976477825553962,0.11716
+"zscore.male37","KingdomHearts3D","Kingdom Hearts 3D: Dream Drop Distance","Kingdom Hearts",2012,FALSE,3.42289242173371,1e-05,1.70271034201657,0.0097
+"zscore.male38","KingsQuest1","King's Quest I: Quest for the Crown","King's Quest",1987,FALSE,2.08205356116801,0.0166,0.78521879464536,0.2192
+"zscore.male39","KingsQuest2","King's Quest II: Romancing the Throne","King's Quest",1987,FALSE,-1.2977745509569,0.87385,-1.14676884932602,0.82143
+"zscore.male40","KingsQuest3","King's Quest III: To Heir Is Human","King's Quest",1986,FALSE,1.40055202871705,0.08311,0.553775392176706,0.35642
+"zscore.male41","KingsQuest4","King's Quest IV: The Perils of Rosella","King's Quest",1988,FALSE,-1.39800673796782,0.90203,-1.87573037804456,0.98008
+"zscore.male42","KingsQuest5","King's Quest V","King's Quest",1992,FALSE,1.52377090338956,0.06591,0.0712877017146952,0.48851
+"zscore.male43","KingsQuest6","King's Quest VI","King's Quest",1992,FALSE,1.37313477133087,0.00137,0.727137015125952,0.20225
+"zscore.male44","KingsQuest7","King's Quest VII: The Princeless Bride","King's Quest",1994,FALSE,0.0578734487304179,0.4749,-1.34834664798501,0.89441
+"zscore.male45","KingsQuest8","King's Quest VIII","King's Quest",1998,FALSE,1.41451172607463,0.01187,0.701614721889317,0.26181
+"zscore.male46","KingsQuestChapters","King's Quest Chapters","King's Quest",2015,FALSE,0.808277698774066,0.30192,0.532438815503922,0.49298
+"11","MassEffect1","Mass Effect","Mass Effect",2007,TRUE,NA,NA,NA,NA
+"zscore.male47","MassEffect1B","Mass Effect","Mass Effect",2007,FALSE,0.714394611093099,0.24692,-1.31625774795557,0.89131
+"zscore.male48","MassEffect2","Mass Effect 2","Mass Effect",2010,FALSE,0.80676535026953,0.21425,-1.84394879061014,0.9611
+"12","MassEffect3","Mass Effect 3","Mass Effect",2012,TRUE,NA,NA,NA,NA
+"13","MassEffect3B","Mass Effect 3","Mass Effect",2012,TRUE,NA,NA,NA,NA
+"zscore.male49","MassEffect3C","Mass Effect 3","Mass Effect",2012,FALSE,0.387819731473183,0.49747,0.410536187813872,0.32394
+"14","MassEffectAndromeda","Mass Effect: Andromeda","Mass Effect",2017,TRUE,NA,NA,NA,NA
+"zscore.male50","MonkeyIsland2","Monkey Island 2: LeChuck's Revenge","Monkey Island",1991,FALSE,2.54320438609377,0.01942,5.3020303094065,0.00472
+"zscore.male51","TheCurseOfMonkeyIsland","The Curse of Monkey Island","Monkey Island",1997,FALSE,2.08368945933101,5e-05,0.232012739945711,0.59692
+"zscore.male52","TheSecretOfMonkeyIsland","The Secret of Monkey Island","Monkey Island",1990,FALSE,2.46785108025306,5e-05,-0.0479110346721803,0.76657
+"zscore.male53","Persona3","Persona 3","Persona",2006,FALSE,0.61372218430916,0.27697,0.131800973648726,0.45482
+"zscore.male54","Persona4","Persona 4","Persona",2008,FALSE,0.220177980382267,0.42006,-0.0602077475860183,0.52554
+"zscore.male55","Persona5","Persona 5","Persona",2016,TRUE,0.171575065935828,0.50046,0.16923579490081,0.58508
+"zscore.male56","Persona5B","Persona 5","Persona",2016,FALSE,0.978196572691971,0.17144,-0.89417705611747,0.8108
+"zscore.male57","StardewValley","Stardew Valley","Stardew Valley",2016,FALSE,0.449190493388768,0.32962,-1.22215306075683,0.88629
+"zscore.male58","StarWarsKOTOR","Star Wars: Knights of the Old Republic","Star Wars: Knights of the Old Republic",2003,FALSE,3.56983479694672,1e-05,-2.60134845472257,0.98781
+"zscore.male59","SuperMarioRPG","Super Mario RPG: Legend of the Seven Stars","Super Mario RPG",1996,FALSE,1.29985536669256,0.03616,1.66074653472578,0.18181
+"15","TalesOfVesperia","Tales of Vesperia","Tales",2008,TRUE,NA,NA,NA,NA
+"zscore.male60","Test","Test","Test",3000,TRUE,-0.709721163403202,0.63761,NA,1e-05

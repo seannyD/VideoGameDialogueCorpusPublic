@@ -1,0 +1,335 @@
+{
+	"game": "Horizon Zero Dawn",
+	"series": "Horizon",
+	"year": 2017,
+	"source": "https://game-scripts.fandom.com/wiki/Horizon_Zero_Dawn",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "sample",
+		"dialogueOrder": true,
+		"choices": "not included"
+	},
+    "error checks": {
+        "truePositive_numTestsDone": "10",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "2",
+        "truePositive_notes": "Some sidequest and choice dialogue missing (this is to be expected as it's just a sample)",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "N/A"
+    },
+	"characterInfoSource": "https://horizon.fandom.com/wiki/",
+	"parserParameters": {
+		"parser": "HorizonZeroDawnParser",
+		"fileType": ".html",
+		"scriptStartCue": "<p><i>[We see stunning views",
+		"scriptEndCue": "<center>THE END</center>"
+	},
+	"mainPlayerCharacters": ["Aloy"],
+	"characterGroups": {
+		"male": [
+			"Sylens",
+			"Erend",
+			"Rost",
+			"Varl",
+			"Olin",
+			"Avad",
+			"Teb",
+			"Uthid",
+			"Karst",
+			"Resh",
+			"Helis",
+			"Balahn",
+			"Dervahl",
+			"Ligan",
+			"Cren",
+			"Bahavas",
+			"Dran",
+			"Walid",
+			"Nil",
+			"Odund",
+			"Kikuk",
+			"Elkend",
+			"Itamen",
+			"Lut",
+
+			"Adolescent Male",
+			"Adolescent Male #1",
+			"Adolescent Male #2",
+			"Child Male #1",
+			"Child Male #2",
+			"Bashar Mati",
+			"Bast",
+			"Blameless Marad",
+			"Boy",
+			"Charles Ronson",
+			"FAS Spokesman 1",
+			"FAS Spokesman 2",
+			"FAS Spokesman 3",
+			"General Herres",
+			"Patrick Brochard-Klein",
+			"Male Proctor",
+			"Ted Faro",
+			"Travis Tate",
+			"Cultist Leader",
+			"Nora Youth",
+			"Attacker",
+			"Three-Toed Huadiv",
+			"Carja Archer",
+			"Carja Spearman",
+			"Carja Guard",
+			"Male Carja Artisan 1",
+			"Male Carja Artisan 2",
+			"Brad Andac",
+			"Male Contestant",
+			"Sun Priest",
+			"Unknown Man",
+			"Unknown Man 2",
+			"Carja Artisan",
+			"Eclipse Officer",
+			"Nora Brave Veteran",
+			"Nora Gate Guard",
+			"Seasoned Nora Brave",
+			"Nora Keeper",
+			"Nora Brave",
+			"HADES",
+			"Military Commander",
+			"Military Commander 2",
+			"Oseram Heavy",
+			"Mercenary Warrior",
+			"Oseram Outlander",
+			"Cultist Dredger",
+			"Cultist Thug",
+			"Shadow Carja Crier",
+			"Synthetic Voice (Zero Dawn)",
+			"Shadow Heavy",
+			"Shadow Soldier",
+			"Cultist Punisher",
+			"Multiservitor (Father)",
+			"Multiservitor, Male",
+			"Oseram Guard 1",
+			"Oseram Guard 2",
+			"Oseram Guard 3",
+			"Vanguard Regular",
+			"Vanguard Regular 2",
+			"Geo-Thermal Maintenance Tech",
+			"Greeting Nora Brave",
+			"Heavy Oseram Vanguard",
+			"Kikuk's Killers Outlander",
+			"Connor Chasson",
+			"Guliyev",
+			"Jackson Frye",
+			"Ron Felder",
+			"Wandari",
+			"Tom Paech",
+			"Male interviewer",
+			"Male Counselor",
+			"Code Expert",
+			"Corporate Spokesman",
+			"Father",
+			"Male Voice",
+			"Male Voice (Full Stop)",
+			"Usrc Tech"
+		],
+		"female": [
+			"Aloy",
+			"Teersa",
+			"Vanasha",
+			"Sona",
+			"Marea",
+			"Lansra",
+			"Vala",
+			"Jezza",
+			"Aidaba",
+			"Petra",
+			"Ersa",
+			"Kam",
+			"Girl",
+
+			"Elisabet Sobeck",
+			"Adolescent Female",
+			"Adolescent Female #1",
+			"Adolescent Female #2",
+			"Child Female #1",
+			"Child Female #2",
+
+			"FAS Spokeswoman",
+			"Margo Shěn",
+			"Nora Mother",
+			"Nora Woman",
+
+			"Proctor",
+			"Samina Ebadji",
+			"Female Carja Villager 1",
+			"Female Carja Villager 2",
+			"Female Contestant",
+			"Synthetic Voice",
+			"GAIA",
+			"Maintenance Tech",
+			"Multiservitor",
+			"Multiservitor (System)",
+			"Multiservitor (Healer)",
+			"Multiservitor, Female",
+
+			"Ayomide Okilo",
+			"Christina Hsu-Vhey",
+			"Susanne Alpert",
+			"Ella Pontes",
+			"Mia Sayied",
+			"Mills",
+			"Mrs. Guliyev",
+			"Skylar Rivera",
+			"Acosta",
+			"Murell",
+			"Selection Counselor",
+			"Female Counselor",
+			"Female Voice",
+			"Female Voice (FAS)",
+			"Girl's Voice",
+			"Woman's Voice"
+		],
+		"neutral": ["Greeting Nora Child", "Greeting Young Nora Hunter"]
+	},
+	"aliases": {
+		"Graphic": "SYSTEM",
+		"Hades": "HADES",
+		"Gaia": "GAIA",
+		"Alby": "Aloy",
+		"Aldy": "Aloy",
+		"Aluki": "Aloy",
+		"Nll": "Nil",
+		"Leader": "Cultist Leader",
+		"Margo Shën": "Margo Shěn",
+		"Margo Shĕn": "Margo Shěn",
+		"CHARLES RONSON": "Charles Ronson",
+		"TED FARO": "Ted Faro",
+		"TOM PAECH": "Tom Paech",
+		"TRAVIS TATE": "Travis Tate",
+		"Herres": "General Herres",
+		"GENERAL HERRES": "General Herres",
+		"Unknown Killer": "Helis",
+		"Unknown Caller": "Sylens",
+		"Unknown Woman": "Elisabet Sobeck",
+		"FAS Firmware Coder": "Brad Andac",
+		"BRAD ANDAC": "Brad Andac",
+		"CAPTAIN OKILO": "Ayomide Okilo",
+		"DR. ALPERT": "Susanne Alpert",
+		"DR.ALPERT": "Susanne Alpert",
+		"Dr. Alpert": "Susanne Alpert",
+		"RON FELDER": "Ron Felder",
+		"Counselor": "Female Counselor",
+		"Psychiatrist": "Selection Counselor",
+		"COUNSELOR": {
+			"Female Counselor": [
+				"To be clear,",
+				"If you could try to remain calm",
+				"Medical!",
+				"... to discuss?",
+				"Pardon?",
+				"A... tobacco cigarette?",
+				"I believe Dr. Sobeck listed",
+				"Mr. Tate, I'm clearing you",
+				"... previously worked",
+				"Would you like to take a moment?"
+			],
+			"Male Counselor": [""]
+		},
+		"Male Voice": {
+			"Male interviewer": ["Dr. Hsu-Vhey?"],
+			"Male Voice (Full Stop)": [
+				"I saw them lining up in the community room"
+			]
+		},
+
+		"Contestant": {
+			"Female Contestant": [
+				"She was behind me!",
+				"Bast, with Vala right behind!",
+				"How'd she get up there?"
+			],
+			"Male Contestant": [
+				"Who's in the lead? I can't see!",
+				"Hey - out there! The outcast!",
+				"Look! The outcast is catching up!"
+			]
+		},
+		"Proctor": {
+			"Male Proctor": [
+				"Slow and steady now.",
+				"Looked strong, I thought",
+				"Ho now!"
+			]
+		},
+		"Carja Artisan": {
+			"Male Carja Artisan 1": ["What happened?"],
+			"Male Carja Artisan 2": ["I haven't heard a blast like that"]
+		},
+		"Carja Villager": {
+			"Female Carja Villager 1": ["There's smoke rising"],
+			"Female Carja Villager 2": ["Are we under attack?"]
+		},
+		"Unknown Man": {
+			"Unknown Man 2": "Serve, and they live."
+		},
+		"Synthetic Voice": {
+			"Synthetic Voice (Zero Dawn)": [
+				"Welcome to Project: Zero Dawn.",
+				"Facility diagnostics detect multiple failures. Attempting repair.",
+				"Please take a seat and wait for your name to be called. A selection of beverages and snacks are available.",
+				"Please proceed into Viewing Room 1 for an important message regarding the purpose of your visit.",
+				"ZD_0_1 data intact. Initiating playback.",
+				"ZD_0_2 data intact. Initiating playback.",
+				"Alert. Medical wing inaccessible.",
+				"Alert. Area inaccessible. Elevators non-operational. Stairwells have collapsed.",
+				"Alert. H-Lock structural failure. Repeat: H-Lock structural failure.",
+				"Alert. Malfunction. APOLLO offline.",
+				"Master Override, armed. To activate, state name and rank.",
+				"Master Override, activated. Purging Extinction Protocol."
+			]
+		},
+		"Multiservitor": {
+			"Multiservitor (Father)": [
+				"Children, let's run and jump and blow off steam!",
+				"After what just happened, I can't leave you two alone. You broke community rules.",
+				"I'm sorry, children. But I must provide supervision.",
+				"You sound frustrated. Let's run and jump and blow off steam!",
+				"Children, that area is not yet available."
+			],
+			"Multiservitor (System)": [
+				"Physical aggression detected! Physical aggression is not permitted!"
+			],
+			"Multiservitor (Healer)": [
+				"Children may I be of assistance?",
+				"Lena, you have suffered mild bruising."
+			]
+		},
+		"Oseram Guard": {
+			"Oseram Guard 1": [
+				"So who are these guys?",
+				"I don't know. They used to be Carja, and Carja are always yammering about sun and shade."
+			],
+			"Oseram Guard 2": [
+				"What does that even mean?",
+				"Oh. Is that supposed to sound scary or something?",
+				"Well, if they used to be Carja, how tough can they be?"
+			],
+			"Oseram Guard 3": [
+				"Yeah. Their best guys dress like birds. We'll rip their little feathers off."
+			],
+			"Oseram Guards": ["Hit 'em like a hammer, 'til they can't hit back!"]
+		},
+		"Vanguard Regular": {
+			"Vanguard Regular 2": ["All of you - be ready to fire!"]
+		},
+		"Female Voice": {
+			"Female Voice (FAS)": [
+				"Welcome to Faro Automated Solutions, where all the problems of tomorrow"
+			],
+			"ACTION": [
+				"This datapoint is obtained automatically during the main quest Maker's End. It cannot be missed."
+			]
+		},
+		"Oseram Guards": ["Oseram Guard 1", "Oseram Guard 2", "Oseram Guard 3"]
+	}
+}

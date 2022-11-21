@@ -1,0 +1,5 @@
+# Monkey Island 2
+
+The author states: 
+
+>  This is a transcript of Monkey Island 2: LeChuck's Revenge.  It's a transcript of this video: https://www.youtube.com/watch?v=rpBShSvEkmc&t=2530s which is the Special Edition. The voiced dialogue sometimes deviates from the written text, but the transcription below is the written text (which is the same as in the original). The video plays through only the actions required to reach the ending. It's not a speedrun, but it does skip a lot of lore, backstory and chatting. There is also a lot less repetition than there would be in a 'blind' playthrough. There is a lot more dialogue in the game than represented here. Only dialogue between characters is transcribed, and none of Guybrush's options are listed.  Guybrush describes objects and voices his thoughts for player, but these lines are not transcribed.

@@ -1,0 +1,9 @@
+folder,series,game,from,to,frequency
+../data/Persona/Persona5/,Persona,Persona 5,-,male,37
+../data/Persona/Persona5/,Persona,Persona 5,male,male,229
+../data/Persona/Persona5/,Persona,Persona 5,male,female,201
+../data/Persona/Persona5/,Persona,Persona 5,female,male,204
+../data/Persona/Persona5/,Persona,Persona 5,male,-,39
+../data/Persona/Persona5/,Persona,Persona 5,-,female,40
+../data/Persona/Persona5/,Persona,Persona 5,female,-,37
+../data/Persona/Persona5/,Persona,Persona 5,female,female,99

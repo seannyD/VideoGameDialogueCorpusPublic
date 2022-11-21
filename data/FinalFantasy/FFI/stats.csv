@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFI/,False,Final Fantasy,Final Fantasy,TOTAL,212,2763,544,3332,0.6208670176811246,99.65762038345468,6.522944656277278,112
+../data/FinalFantasy/FFI/,False,Final Fantasy,Final Fantasy,male,117,1563,307,1869,0.5057427772949801,100.50466279455068,6.5358439960320185,58
+../data/FinalFantasy/FFI/,False,Final Fantasy,Final Fantasy,female,41,464,98,559,0.47247888810696637,100.10816502463057,6.38957357494722,32
+../data/FinalFantasy/FFI/,False,Final Fantasy,Final Fantasy,neutral,54,736,137,904,0.9986607426213912,97.47128371945416,6.584689777054903,22

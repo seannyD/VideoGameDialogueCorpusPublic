@@ -1,0 +1,1765 @@
+{
+	"game": "Final Fantasy IX",
+	"series": "Final Fantasy",
+	"year": 2000,
+	"source": "https://gamefaqs.gamespot.com/ps/197338-final-fantasy-ix/faqs/42207",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "complete"
+	},
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "0",
+		"truePositive_notes": "N/A",
+	
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "N/A"
+	},
+	"parserParameters": {
+		"parser": "FF9BParser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": [
+		"Zidane",
+		"Vivi",
+		"Steiner",
+		"Garnet",
+		"Amarant",
+		"Freya",
+		"Quina",
+		"Eiko"
+	],
+	"characterGroups": {
+		"male": [
+			"Zidane",
+			"Blank",
+			"Marcus",
+			"Puck",
+			"Baku",
+			"Amarant",
+			"Benero",
+			"Blutzen, Pluto Knight II",
+			"Bunce",
+			"Cinna",
+			"Engineer Zebolt",
+			"Fratley",
+			"Garland",
+			"Haagen, Pluto Knight VIII",
+			"Kohel, Pluto Knight III",
+			"Weimar, Pluto Knight VII",
+			"Harold Pathknower",
+			"Innkeeper Hal",
+			"King of Burmecia",
+			"Kuja",
+			"Marcus",
+			"Mene",
+			"Minister Artania",
+			"Morrid",
+			"Phillipo",
+			"Ramuh",
+			"Steiner",
+			"Stiltzkin",
+			"Thorn",
+			"Tot",
+			"Vivi",
+			"Zenero",
+			"Zorn",
+			"Moguta",
+			"Choco",
+			"Kupo",
+			"Kuppo",
+			"Lich",
+			"Moco",
+			"Atla",
+			"Grimo",
+			"Gumo",
+			"Kumool",
+			"Kumop",
+			"Mochos",
+			"Mogki",
+			"Mogmatt",
+			"Mogrich",
+			"Mogryo",
+			"Mois",
+			"Mojito",
+			"Chimomo",
+			"Momatose",
+			"Mocha",
+			"Monev",
+			"Monty",
+			"Moodon",
+			"Moonte",
+			"Moorock",
+			"Morrison",
+			"Mopli",
+			"Mosco",
+			"Mosh",
+			"Noggy",
+			"Artemecion",
+			"Ashley",
+			"Aspiring Artist Michael",
+			"Bishop",
+			"Black Mage 1",
+			"Black Mage 2",
+			"Black Mage 3",
+			"Black Mage Crewmember",
+			"Black Mage No. 234",
+			"Black Mage No. 163",
+			"Black Mage No. 111",
+			"Black Mage No. 12",
+			"Black Mage No. 123",
+			"Black Mage No. 144",
+			"Black Mage No. 189",
+			"Black Mage No. 192",
+			"Black Mage No. 199",
+			"Black Mage No. 239",
+			"Black Mage No. 24",
+			"Black Mage No. 288",
+			"Black Mage No. 32",
+			"Black Mage No. 33",
+			"Black Mage No. 44",
+			"Black Mage No. 55",
+			"Black Mage No. 56",
+			"Black Mage No. 69",
+			"Black Mage No. 78",
+			"Black Mage No. 87",
+			"Black Waltz No. 1",
+			"Black Waltz No. 2",
+			"Black Waltz No. 3",
+			"Blutzen, Pluto Knight II",
+			"Boatman",
+			"Bobo",
+			"Breireicht, Pluto Knight VI",
+			"Bryan Rootrunner",
+			"Burmecian Kid Adam",
+			"Burmecian Kid Jack",
+			"Burmecian Soldier Dan",
+			"Burmecian Soldier Din",
+			"Burmecian Soldier Doyle",
+			"Burmecian Soldier Gary",
+			"Burmecian Soldier Gidd",
+			"Burmecian Soldier Gray",
+			"Card Boy",
+			"Chief Engineer",
+			"Cid",
+			"Craftsman",
+			"Cymbalist",
+			"Violinist",
+			"Trumpeter",
+			"Drummer",
+			"Dante the Signmaker",
+			"David Heavenguard",
+			"Dead Man",
+			"Derek Stonehammer",
+			"Devon",
+			"Dishmeister",
+			"Dojebon, Pluto Knight V",
+			"Dolf",
+			"Doug",
+			"Dragoos",
+			"Earth Guard",
+			"Eggmeister",
+			"Engineer Gabin",
+			"Fat Chocobo",
+			"Father",
+			"Gilgamesh",
+			"Gatz",
+			"Genero",
+			"Geoffrey Treefeller",
+			"Grandpa",
+			"Granin Miller",
+			"Gus",
+			"Guy Doing Research",
+			"Haagen, Pluto Knight VIII",
+			"Hades",
+			"Herald",
+			"Hippaul",
+			"Honorable Lord",
+			"Hunk",
+			"Jacob",
+			"Jinkus Emptybottle",
+			"Olivier",
+			"Jobless Jeff",
+			"John Fruitbringer",
+			"Justin",
+			"Kal",
+			"Laudo, Pluto Knight IV",
+			"Locke",
+			"Lowell",
+			"Ludruff",
+			"Male Red Mage",
+			"Marco",
+			"Mario",
+			"Marolo",
+			"Matthew Watchman",
+			"Mayor Kapu",
+			"Mayor's Son",
+			"Meltigemini",
+			"Nikolai",
+			"Mick",
+			"Moggy",
+			"Mogreg",
+			"Mogriffin",
+			"Mogster",
+			"Moss",
+			"Naked Soldier",
+			"Nimitz",
+			"Noble Lord",
+			"Old Man with a Cane",
+			"Old Pops",
+			"Onionmeister",
+			"Ovenmeister",
+			"Pasty Yacha",
+			"Pigeon Lover",
+			"Policeman",
+			"Priest Theodore",
+			"Quan",
+			"Retired Boatman",
+			"Richard Watchman",
+			"Rio",
+			"Robert Dogherder",
+			"Rosco",
+			"Rupta",
+			"Ryan",
+			"Shamis Gatekeeper",
+			"Shig",
+			"Silly Old Man",
+			"Slai's Father",
+			"Sleepy Soldier",
+			"Snot-nosed Gudo",
+			"Son",
+			"Staff",
+			"Stubborn Geezer",
+			"Synthesist",
+			"Thomas",
+			"Thomas Goldpiler",
+			"Thug",
+			"Tim",
+			"Tom",
+			"Torres",
+			"Wayne",
+			"Treasure Hunter",
+			"Unnamed Black Mage",
+			"Koo",
+			"Wounded Burmecian Soldier",
+			"Black Mage Near Pond",
+			"Other Black Mage Near Pond",
+			"Black Mage naming a Genome",
+			"Other Black Mage naming a Genome",
+			"Walter Teamaker",
+			"Wimpy Guy",
+			"Wind Guard",
+			"Yaff",
+			"Young Man",
+			"Debating Young Man",
+			"Young Man 2",
+			"Shopkeeper (Alexandria)",
+			"Fish Man",
+			"Ticketmaster",
+			"Beaten-up Guard",
+			"Scholar (Alexandria Library)",
+			"Conductor (Tantalus)",
+			"Man (Dali Village)",
+			"Dali Village Worker",
+			"Elite Guard",
+			"Umaeda",
+			"Aviator (Lindblum Docks)",
+			"Attendant",
+			"Tiny Chef",
+			"Card Freak Gon",
+			"Yaup",
+			"Roch",
+			"Chet",
+			"Uzu",
+			"Village Sculptor",
+			"Widget",
+			"Barry",
+			"Cujo",
+			"Newbie Soldier",
+			"Soldier",
+			"Lindblum Mechanical Worker",
+			"Customer",
+			"Poncho",
+			"Captain",
+			"Officer (Green Jacket)",
+			"Lindblum Officer",
+			"Breeder",
+			"Baraki",
+			"Merchant",
+			"Dying Burmecian Soldier",
+			"Burmecian Soldier fighting black mages",
+			"Short Guard",
+			"Tall Guard",
+			"Dying Burmecian Soldier 2",
+			"Carpenter Hans",
+			"South Gate Worker",
+			"Item Seller",
+			"Construction Worker",
+			"Conductor",
+			"Dying Burmecian Soldier 3",
+			"Brave Burmecian Soldier",
+			"Cable Car Enthusiast",
+			"Worker at Rest Stop (sitting)",
+			"Worker at Rest Stop (standing)",
+			"Chef",
+			"Shopkeeper (Rest Stop)",
+			"Guard (Treno Gate)",
+			"Treno Guard",
+			"Drunk",
+			"Hard of Hearing Old Man",
+			"Scholar (Bishop's Mansion)",
+			"Scholar (Daguerro)",
+			"Young Nobleman (Auction)",
+			"Young Nobleman (Pink)",
+			"Bidder",
+			"Bidder 2",
+			"Bidder 4",
+			"Card Seller",
+			"Card Game Usher",
+			"Barkeep",
+			"Carpenter (Treno Slums)",
+			"Criminal",
+			"Auctioneer",
+			"Clerk (Bishop's Mansion)",
+			"Dali Villager",
+			"Cleyran High Priest",
+			"Mourning Old Man",
+			"Lindblum Man",
+			"Seth",
+			"Male Dwarf",
+			"Kelley Fingerwaver",
+			"Friendly Black Mage",
+			"Friendly Black Mage 2",
+			"Soulcage",
+			"Tour Guide",
+			"Cook",
+			"Alexandrian Man",
+			"Alexandrian Boy",
+			"Esto Gaza Boy",
+			"Man in Esto Gaza",
+			"Nobleman (Pink Jacket)",
+			"Nobleman (Motley)",
+			"Nobleman (Auction House)",
+			"Young Nobleman (Outside Auction)",
+			"Black Mage",
+			"Idle Soldier",
+			"Veteran Engineer",
+			"Industrial District Engineer",
+			"Supervisor",
+			"Supervising Soldier",
+			"Carpenter's Apprentice",
+			"Carpenter's Apprentice 2",
+			"Carpenter",
+			"Youth",
+			"Immigrant From Lindblum",
+			"Innkeeper",
+			"Lazy Carpenter",
+			"Unnamed Boy",
+			"Unnamed Kid",
+			"Unnamed Running Boy",
+			"Mooel",
+			"New Engineer",
+			"Bull Engineer",
+			"Synthesist Expert",
+			"Bookworm",
+			"Trude",
+			"Cable Car Enthusiast",
+			"Adventurer (Male Red Mage)",
+			"Soldier on Gondola",
+			"Librarian",
+			"Ilia's Grandfather",
+			"Old Man in Esto Gaza",
+			"Old Man in Daguerro",
+			"Weaponsmith",
+			"Crew Member (Sailor)",
+			"Crew Member (Black-haired Sailor)",
+			"Guard",
+			"Guard 2",
+			"Genome (Pink)",
+			"Genome (Pink - Hall)",
+			"Genome (Pink 2 - Hall)",
+			"Genome (Pink - Lab)",
+			"Genome (Pink 3 - Hall)",
+			"Genome (Purple)",
+			"Pluto Knight",
+			"Scientist",
+			"Other Pluto Knight",
+			"Scarlet Hair"
+		],
+		"female": [
+			"Beatrix",
+			"Brahne",
+			"Cornelia",
+			"Garnet",
+			"Eiko",
+			"Erin",
+			"Flower Maiden Sharon",
+			"Water Maiden Shannon",
+			"Freya",
+			"Hilda",
+			"Lani",
+			"Lilian",
+			"Lucella",
+			"Maliris",
+			"Mikoto",
+			"Mog",
+			"Mogmi",
+			"Moon Maiden Claire",
+			"Part-time Worker Mary",
+			"Ruby",
+			"Shopkeeper Eve",
+			"Wendy Grocer",
+			"Mimoza",
+			"Mogrika",
+			"Mozme",
+			"Nazna",
+			"Serino",
+			"Suzuna",
+			"Alice",
+			"Alicia",
+			"Barbara Gibgab",
+			"Betsy Lightcatcher",
+			"Bratty Marin",
+			"Darcy Skywatcher",
+			"Burmecian Refugee Learie",
+			"Burmecian Refugee Lorena",
+			"Crista",
+			"Dead Woman",
+			"Dutiful Daughter Slai",
+			"Eisha",
+			"Elena",
+			"Female Adventurer",
+			"Female Customer",
+			"Female Red Mage",
+			"Fire Guard",
+			"Flower Girl",
+			"Lisa",
+			"Grandma Pickle",
+			"Grandma Potpourri",
+			"Heather",
+			"Helen Birdkeeper",
+			"Hippolady",
+			"Honorable Lady",
+			"Ilia",
+			"Jenny Greeter",
+			"Joanna",
+			"Wei",
+			"Lady with an Apron",
+			"Maggie",
+			"Margaret Miller",
+			"Marsha",
+			"Mayor's Daughter",
+			"Mayor's Wife",
+			"Marian",
+			"Fan Club Chairman",
+			"Member No. 12",
+			"Member No. 28",
+			"Member No. 29",
+			"Member No. 3",
+			"Member No. 36",
+			"Member No. 44",
+			"Member No. 56",
+			"Michelle",
+			"Mogliana",
+			"Molly",
+			"Natalie",
+			"Noble Lady",
+			"Old Lady",
+			"Alexandrian Old Lady",
+			"Old Margaret",
+			"Pricilla",
+			"Queen Stella",
+			"Rita",
+			"Star Maiden Nina",
+			"Synthesist's Wife",
+			"Tiffany",
+			"Tom's Mother",
+			"Yaup's Grandma",
+			"Unnamed Woman",
+			"Waitress",
+			"Wind Maiden Eileen",
+			"Woman's Voice",
+			"Young Lady",
+			"Alexandrian Soldier",
+			"Alexandrian Officer",
+			"Unnamed Jump-roping Girl",
+			"Hanna",
+			"Girl near Treno Tower",
+			"Bidder 3",
+			"Old Woman (Treno Equipment Shop)",
+			"Old Woman (Esto Gaza)",
+			"Shopkeeper (Treno Slums)",
+			"Servant",
+			"Forest Oracle Kildea",
+			"Maron",
+			"Senior Officer",
+			"Cannoneer",
+			"Girl in Alexandria",
+			"Aspiring Queen in Pink",
+			"Noblewoman (outside auctionhouse)",
+			"Noblewoman (Green Dress)",
+			"Noblewoman (Purple Dress)",
+			"Noblewoman (Yellow Dress)",
+			"Alexandrian Guard",
+			"Ilia's Grandmother",
+			"Unnamed Girl",
+			"Sales Clerk",
+			"Booklover",
+			"Chesnut",
+			"Adventurer (Female Red Mage)",
+			"Genome (Orange)",
+			"Genome (Orange - Storage)",
+			"Genome (Orange - Hall)",
+			"Genome (Orange 2 - Hall)",
+			"Genome (Orange - Lab)",
+			"Genome (Orange 2 - Lab)",
+			"Genome (Orange near gate)"
+		],
+		"genderless": ["Quale", "Quina"],
+		"neutral": [
+			"Antlion",
+			"Bulletin Board",
+			"Kraken",
+			"Taharka",
+			"Necron",
+			"Tiamat",
+			"Moogle",
+			"Mogsam",
+			"Moolan",
+			"Blue Choco",
+			"Bystander",
+			"Dead Guard",
+			"Gold Choco",
+			"Kid #1",
+			"Kid #2",
+			"Kid #3",
+			"Kid #4",
+			"Kid #5",
+			"Letter",
+			"Narrative",
+			"Noise",
+			"Party Member #1",
+			"Party Member #2",
+			"Party Member #3",
+			"Plaque",
+			"Reef Choco",
+			"Sign",
+			"Sleeping Kid",
+			"Valia Pira",
+			"Voice",
+			"Stone Face",
+			"Guard (Dali Gate)",
+			"Bidder 1",
+			"Night Oracle Donnegan",
+			"Sand Oracle Safrea",
+			"Tree Oracle Wylan",
+			"Sky Oracle Mylan",
+			"Sun Oracle Florin",
+			"Tantarian",
+			"Judge",
+			"Crew Member (Engine)",
+			"Genome (Purple near gate)",
+			"Genome (Purple - Storage)",
+			"Person 2",
+			"Genome (Purple - Hall)",
+			"Shopkeeper (Esto Gaza)"
+		]
+	},
+	"aliases": {
+		"Both": ["Eiko", "Momatose"],
+		"Rat Kid": "Puck",
+		"Hippo Woman": "Hippolady",
+		"Rat Child": "Burmecian Kid Jack",
+		"Rat Child 2": "Burmecian Kid Adam",
+		"Red-haired Man": "Amarant",
+		"Red-headed Man": "Amarant",
+		"Dagger": "Garnet",
+		"Hooded Girl": "Garnet",
+		"Little Girl": "Eiko",
+		"Frea": "Freya",
+		"Mysterious Girl": "Mikoto",
+		"Queen Garnet": "Garnet",
+		"Queen Brahne": "Brahne",
+		"Regent Cid": "Cid",
+		"Sir Fratley": "Fratley",
+		"Stranger": "Fratley",
+		"Vivi?": "Vivi",
+		"Monster": "Taharka",
+		"Moogle Man": "Lowell",
+		"Alexandria": "Beatrix",
+		"Alleyway Jack": "Gilgamesh",
+		"Four-armed Man": "Gilgamesh",
+		"Card Freak": "Card Freak Gon",
+		"Artania": "Minister Artania",
+		"Jester": "Zorn",
+		"Jester 2": "Thorn",
+		"Struggling Artist Michael": "Aspiring Artist Michael",
+		"Bearded Guy": "Baku",
+		"Black Mage No": "Black Mage No. 234",
+		"Black Mage No 163": "Black Mage No. 163",
+		"Boisterous Woman": "Lani",
+		"Briereicht, Pluto Knight VI": "Breireicht, Pluto Knight VI",
+		"Dutiful Daugster Slai": "Dutiful Daughter Slai",
+		"Earnest Young Man": "Chief Engineer",
+		"Female Crew Member": "Erin",
+		"Gray": "Burmecian Soldier Gray",
+		"Haagen": "Haagen, Pluto Knight VIII",
+		"Head Chef": "Quina",
+		"Kohel, Pluto Knight II": "Kohel, Pluto Knight III",
+		"?????": "Soulcage",
+		"Florist": "Flower Girl",
+		"Jenny Grocer": "Wendy Grocer",
+		"Hippaul (Level 1)": "Hippaul",
+		"Hippaul (Level 10)": "Hippaul",
+		"Hippaul (Level 15)": "Hippaul",
+		"Hippaul (Level 20)": "Hippaul",
+		"Hippaul (Level 21)": "Hippaul",
+		"Hippaul (Level 25)": "Hippaul",
+		"Hippaul (Level 26)": "Hippaul",
+		"Hippaul (Level 27)": "Hippaul",
+		"Hippaul (Level 28)": "Hippaul",
+		"Hippaul (Level 29)": "Hippaul",
+		"Hippaul (Level 30)": "Hippaul",
+		"Hippaul (Level 31)": "Hippaul",
+		"Hippaul (Level 32)": "Hippaul",
+		"Hippaul (Level 33)": "Hippaul",
+		"Hippaul (Level 34)": "Hippaul",
+		"Hippaul (Level 35)": "Hippaul",
+		"Hippaul (Level 5)": "Hippaul",
+		"Remaining Moogle": "Chimomo",
+		"Hippo": "Hippaul",
+		"King to Burmecia": "King of Burmecia",
+		"Knight of Pluto": "Blank",
+		"Laudo": "Laudo, Pluto Knight IV",
+		"Mysterious Voice": "Hades",
+		"Mystery Man": "Kuja",
+		"NOTE": "ACTION",
+		"No --> Current location": "ACTION",
+		"Part-time Worker Jeff": "Jobless Jeff",
+		"Passerby": "Marco",
+		"Pointy-Hat Boy": "Vivi",
+		"Priscilla": "Pricilla",
+		"Qu Clan Member": "Quale",
+		"Lindblum Soldier": "Soldier",
+		"R1a": "Card Game Usher",
+		"R1b": "Card Game Usher",
+		"R1c": "Card Game Usher",
+		"R1d": "Card Game Usher",
+		"R1e": "Card Game Usher",
+		"R2a (Ticketmaster)": "Ticketmaster",
+		"R2b (Ticketmaster)": "Ticketmaster",
+		"R3a (Ticketmaster)": "Ticketmaster",
+		"R3b (Ticketmaster)": "Ticketmaster",
+		"R3c (Ticketmaster)": "Ticketmaster",
+		"R3d (Ticketmaster)": "Ticketmaster",
+		"R3e (Ticketmaster)": "Ticketmaster",
+		"R2b": "Gilgamesh",
+		"R2c": "Gilgamesh",
+		"R2d": "Gilgamesh",
+		"R2e": "Gilgamesh",
+		"Regent": "Cid",
+		"Richard": "Richard Watchman",
+		"Experienced Engineer": "Veteran Engineer",
+		"Scholarly Man": "Tot",
+		"Shanis Gatekeeper": "Shamis Gatekeeper",
+		"Gatekeeper": "Shamis Gatekeeper",
+		"Boy in Brown": "Snot-nosed Gudo",
+		"Boy in Blue": "Pasty Yacha",
+		"Unnamed Dog": "Koo",
+		"Unnamed Old Woman": "Yaup's Grandma",
+		"Weimar": "Weimar, Pluto Knight VII",
+		"Y": "Letter",
+		"Woman at the Counter": "Freya",
+		"Young Nobelman": "Young Nobleman (Auction)",
+		"King Leo": "Baku",
+		"Oracle Kildea": "Forest Oracle Kildea",
+		"Bandit": "Criminal",
+		"SYSTEM": {
+			"SYSTEM": [
+				"From Ruby to Zidane",
+				"Zidane! Are you alright? I'm doin' good!",
+				"p.s. Tell the boys in Tantalus I said Hi!",
+				"From Kupo to Monty",
+				"I think Queen Brahne is up to something",
+				"Kupo! (He gives the letter.)",
+				"Good Omen ",
+				"Very Good Omen ",
+				"Bad Omen ",
+				"From Mois to Gumo",
+				"Yo! Man, I got totally iced up by",
+				"From Kumop to Mogki",
+				"Stiltzkin visited me! Kupo!",
+				"From Ruby to Zidane",
+				"Ain't y'all comin' back to Alexandria",
+				"From Stiltzkin to Moonte",
+				"I left Lindblum and headed north.",
+				"Kupo!",
+				"From Moodon to Mogmi",
+				"This year's Festival",
+				"Kupo! The highest score was points!",
+				"From Mogki to Atla",
+				"I heard that Stiltzkin is headed in your direction",
+				"From Grimo to Nazna",
+				"I feel so sad when I see Mary",
+				"Have you ever fallen in love?",
+				"From Stiltzkin to Mogrich",
+				"There's trouble in this rainy city",
+				"From Kupo to Mogrich",
+				"There's an amazing new champion sprinter",
+				"From Mogki to Moodon",
+				"Alexandria is in a horrible",
+				"From Mimoza to Mooel",
+				"I haven't received any mail lately",
+				"From Mojito to Mogsam",
+				"According to rumors, Stiltzkin is on a",
+				"From Artemecion to Mogrika",
+				"Mogrika! I'm in trouble",
+				"From Mogrika to Moolan",
+				"Artemecion rubbed it all over himself",
+				"From Mogki to Kumool",
+				"Hey, Kumool. How are you, kupo?",
+				"From Moorock to Mozme",
+				"This is my first time using Mognet!",
+				"Kupo! Hmm, what should I write about?",
+				"From Kupo to Atla",
+				"From Atla to Mogryo",
+				"From Mogryo to Kumool",
+				"From Kumool to Mois",
+				"From Mois to Noggy",
+				"From Noggy to Kupo"],
+			"Gumo": ["He always sounds so gruff","Stiltzkin is traveling"],
+			"Kumop": ["letter to Mogki!"],
+			"Grimo": ["letter to Nazna!"],
+			"Mogki": ["Stilzkin! Stiltzkin! Stiltzkin!", "a letter to Moodon!", "letter to Kumool!"],
+			"Mogmi": ["of congratulations on our marriage"],
+			"Cid": ["I'm still heavier than the other"],
+			"Mogster": []
+		},
+		"R1 (ACTION)": "SYSTEM",
+		"R2 (ACTION)": "SYSTEM",
+		"All": ["Eggmeister", "Dishmeister"],
+		"Narrative?": ["Eiko", "Garnet"],
+		"??????": "Zidane",
+		"Villager": "Jenny Greeter",
+		"Burmecian Refuge Learie": "Burmecian Refugee Learie",
+		"Supervisor": {
+			"Supervising Soldier": [
+				"Can't you see we're working!?",
+				"The other way! To the right!",
+				"The other way! To the left!"
+			]
+		},
+		"Qu": {
+			"Quina": ["You got frog!", "Me?"],
+			"Quan": [
+				"... Hungry. Maybe is end of attempting to fish Mist from sky and eat it... Is no possible to prove theory of nourishment with no eating... Hmm? I catch something."
+			]
+		},
+		"Moogle": {
+			"Kupo": ["Sorry 'bout that, kupo!"],
+			"Mene": [
+				"Kupooo!!! I'm Mene, master of this forest! This chocobo is my friend, kupo. His name is Choco."
+			],
+			"Mogmi": [
+				"Darling! Can you hear me!? Darling!!! Please say something!"
+			],
+			"Moguta": ["Kupooo!", "Kupooo! I love Kupo Nuts!"],
+			"Mois": [
+				"Hot! Hot! Hot! You bastards!!! Oh, I can move again. Thanks, kupo!"
+			],
+			"Lowell": [
+				"(Ouch! Damn. I can't see a thing.) Thank you for coming to see 'Moogle Wannabe 2'...k-kupo.",
+				"Phew."
+			],
+			"Mogrich": ["Kupo!"],
+			"Chimomo": [
+				"Kupo!",
+				"Um... How many people do I need to account for, kupo?",
+				"people! Kupo! {Pour Water / Think Again}",
+				"Water spilled over! Kupo? (You'll have to try again.)",
+				"Kupopo..."
+			],
+			"Momatose": [
+				"I caught one! Kupo! It's heavy... Kupo!",
+				"Kupo!",
+				"This person keeps telling me to catch more fish... Kupo."
+			],
+			"Mosco": [
+				"ATE, kupo! Active Time Event is a system that lets you see other events that are happening at the same time elsewhere, kupo!"
+			]
+		},
+		"Monty": {
+			"Mogster": [
+				"Wait! Kupo! I'm impressed, kupo! First time I've seen anyone escape from Evil Forest. You all must be strong, kupo! But don't get cocky, kupo. Lots of stronger monsters ahead. Before you go out to the world, Mogster will teach you a few things.",
+				"I have a gift for you, kupo. Take this flute. With this flute, you can call us anywhere in the world, kupo. Press (()) to play it. Happy trails! Kupo!",
+				"Kupopo!",
+				"Kupoo!",
+				"Your friends already left, kupo."
+			]
+		},
+		"Creature": {
+			"Cid": [
+				"<Gwok-gwok.> <Gwok-gwok!> Greetings!",
+				"(Gwok-gwok.) Gwok-gwok! Greetings!"
+			],
+			"Black Waltz No. 2": [
+				"Princess Garnet, the queen is waiting for you at the castle!",
+				"Are you the one who defeated No. 1? I am Black Waltz No. 2! My power, magic, and speed make me far superior to No. 1! Resistance is futile! Come, Princess. The queen awaits!"
+			]
+		},
+		"Pluto Knight": {
+			"Blank": [
+				"I-I'll go first, sir!",
+				"Captain, sir! I'm stuck, sir!",
+				"Hehehe. He bought it!",
+				"You needn't worry, Your Highness!",
+				"Hehehe! Just relax, Princess. We'll get you outta here!"
+			]
+		},
+		"R2a": {
+			"Old Woman (Treno Equipment Shop)": [
+				"Are you sure? I can't guarantee your safety. Go stand in the middle of the cage."
+			],
+			"Gilgamesh": [
+				"When several arrows face each other, multiple card battles may occur. You can choose where to begin the card battle when that happens. Where you choose to begin the battle affects how the rest of the battles play out. Let's see... You can also use combos."
+			]
+		},
+		"Carpenter": {
+			"Carpenter (Treno Slums)": [
+				"Our houses need repair constantly. Not like the nobles' houses.",
+				"Sure, our houses are crappy, but at least they're still standing."
+			]
+		},
+		"Voice": {
+			"Blank": ["Who's there!?"],
+			"Black Waltz No. 1": ["Why didn't you fall asleep?"],
+			"Zorn and Thorn": [
+				"You defeated No. 1, but No. 2 and No. 3 will reclaim the princess!"
+			],
+			"Vivi": [
+				"<Sniff... Sniff...>",
+				"Ouch! Let me go! I'm not one of them!",
+				"Come on, Zidane, wake up!"
+			],
+			"Zidane": ["OW! OOOWWWWWWCH!!!", "I'm coming with you!"],
+			"Wounded Burmecian Soldier": ["Regent..."],
+			"Clerk (Bishop's Mansion)": ["Somebody down there?"],
+			"Fratley": ["Minions of evil, you have gone too far!"],
+			"Puck": ["As a matter of fact, I'll tell ya!"],
+			"Cleyran High Priest": ["Eeeeek!"],
+			"Brahne": ["Beatrix!", "What is all this ruckus!?"],
+			"Lani": ["What a view."],
+			"Ramuh": [
+				"You're exactly right... It's not what the people say afterward... What's important is being true to oneself. She may not have realized it, but when she wished to learn how to use summon magic... The summon power returned to her. Summon magic can e used for good or evil. She is still young, but there is room for growth... So I chose her as my master. I'll be watching over her... I hope you two will also protect her."
+			],
+			"Richard Watchman": ["Thief!"],
+			"Amarant": ["Hold it!", "Uh...", "Hey, Zidane!"],
+			"Marcus": ["Beatrix."],
+			"Ruby": ["You can still fly high, darlin'!"],
+			"Baku": [
+				"AAA-CHOO! AAA-CHOO!",
+				"AAH... ACHOOO!!!",
+				"What the heck are ya doin'!?",
+				"So this is where you were wastin' time!!!"
+			],
+			"Kuja": [
+				"Peace is but a shadow of death Desperate to forget its painful past... Though we hope for promising years After shedding a thousand tears, Yesterday's sorrow constantly nears. An while the moon still shines blue, By dawn, it will turn to scarlet hue.",
+				"... Farewell, Zidane...",
+				"You still have time... Forget about me and go."
+			],
+			"Quina": ["Finally, I found you!"],
+			"Stone Face": [
+				"%/\\()oo+x...",
+				"Visitors... Climb atop the stone...",
+				"Visitors, listen well... This is the record of our civilization"
+			],
+			"Valia Pira": [
+				"Intruder alert. Defense system activated. Initializing automatic countermeasures. Transferring from observation to attack mode."
+			],
+			"Cinna": ["I missed my ride!"],
+			"Soldier": [
+				"Mr. Zidane...",
+				"Hey, we got a live one here! Watch out! It might attack! Hey, this one's much smaller than the others.",
+				"Then why are you dressed like a black mage!?"
+			],
+			"Taharka": ["M-Mirror... Return...to me..."],
+			"Earth Guard": ["I've been waiting for you..."],
+			"Garnet": ["Zidane!"],
+			"Garland": [
+				"So, we meet again.",
+				"The body becomes a vessel, which greets a new soul...",
+				"You could never build an eternal kingdom...",
+				"Do you think a defect like you could last forever...?",
+				"I built you to last only until the worthy Genome, Zidane, grew. It was too dangerous to let you last any longer than that.",
+				"There's a limit to your life... You'll be dead soon... Even as I die, you'll have died without ever leaving your mark on the world...",
+				"You were created to destroy. You are a mortal...",
+				"... Zidane, can you hear me?",
+				"... I am speaking only to you.",
+				"Memoria... A place of memories.",
+				"Yes, your memories brought forth this place... Here, you shall witness the truth. You have no choice. Now, go...",
+				"I feared Gaia's eidolons more than anything... However, I decided to deal with them before they became a major problem.",
+				"... Zidane, can you hear me? ... Zidane. What you just saw was from your memory, and not Garnet's.",
+				"You still don't understand... You will find out soon enough...",
+				"Once you accept everything, the answer will appear before you. A tremendous force was summoned to Gaia during the age of war... However, the Gaians were not ready to harness so great a power... They were terrified and broke the jewel into four pieces...and they prayed never to see it again.",
+				"That is a picture of Gaia being assimilated by Terra.",
+				"Life on Terra was coming to an end... We had no choice but to proceed with the fusion",
+				"This is the birth of Gaia.",
+				"Over 5,000 years ago...",
+				"See for yourself. Terra reached the peak of its prosperity at this time.",
+				"This is space.",
+				"Your journey is not yet over. Do not fear.",
+				"You have entered a new realm. There are no more worlds.",
+				".........",
+				"... Do not limit memory to just one individual's experiences from birth.",
+				"... A presence that presides over all life and memories. The crystal...",
+				"You are on your own now. Zidane...take care of Kuja. ...and protect the crystal. Farewell...",
+				"Even if I were created to serve one purpose alone, I do not regret being born to this world."
+			],
+			"Eiko": ["Zidane!", "Wake up, Zidane!"],
+			"Mikoto": [
+				"You haven't got a chance.",
+				"This is the Red Rose.",
+				"My name is Mikoto. Everyone is alive. You are very close to them."
+			],
+			"Necron": [
+				"You stand before the final dimension, and I am the darkness of eternity...",
+				"All life bears death from birth. Life fears death, but lives only to die. It starts with anxiety. Anxiety becomes fear. Fear leads to anger...anger leads to hate...hate leads to suffering... The only cure for this fear is total destruction. Kuja was a victim of his own fear. He concluded he could only save himself by destroying the origin of all things--the crystal.",
+				"... Now, the theory is undeniable. Kuja's actions prove it. All things live to perish. At last, life has uncovered this truth. Now, it is time to end this world.",
+				"I exist for one purpose... To return everything back to the zero world, where there is no life and no crystal to give life. In a world of nothing, fear does not exist. This is the world that all life desires.",
+				"Foolish creature... Your fears have already deluded you. One day, you will choose destruction over existence, as Kuja did. When he sought to destroy the crystal, the purpose of life ended. Now, come... Enter the zero world that you desire."
+			],
+			"Steiner": ["Beatrix!"],
+			"Kuppo": [
+				"Ku... Kupo... KUPO! (The wall collapses and a moogle is (thrown out.)"
+			],
+			"Black Mage Near Pond": [
+				"Why does Mr. 192 call his synthesis shop 'Black Cat'? His cat isn't black.",
+				"Oh, I get it now! 'Black Cat Synthesis Shop' is much easier to say and remember! Wow, Mr. 192 is really smart!"
+			],
+			"Other Black Mage Near Pond": [
+				"Mr. 32 wanted to call it the 'Black Mage and Cat's Synthesis Shop,' but Mr. 192 thought the name was too long."
+			],
+			"Kid": ["Okay. (Five little rat kids run over.)"],
+			"Black Mage naming a Genome": [
+				"I think his name should be No. 444!",
+				"Oh, you don't like even numbers? Then how about No. 555?"
+			],
+			"Other Black Mage naming a Genome": ["No, it should be No. 888!"],
+			"Quan": ["Quina! You stop!"],
+			"Beatrix": ["Bingo!", "Moron!"]
+		},
+		"Chosen Moogle": {
+			"Mocha": ["Kupo!"],
+			"Momatose": ["Kupo!"]
+		},
+		"Woman": {
+			"Hilda": [
+				"Pardon me, but is someone there?",
+				"Who might you be? Where has that... Kuja gone?",
+				"What? You chased him away? I know not who you are, but you have my sincere gratitude.",
+				"Could this be... Princess Garnet? Why is it! It is you!",
+				"Oh, how long has it been! I haven't seen Your Highness for ages! Why, look how you've grown... So, whatever brought you to this dreadful place?"
+			],
+			"Margaret Miller": ["Come hither, ya!"],
+			"Wei": ["I think it is."]
+		},
+		"Young Man": {
+			"Debating Young Man": [
+				"We're having a debate right now. In 'I Want to Be Your Canary,' why do you think Cornelia had to die?",
+				"No! It was to prove that she loved Marcus just as much as she loved her father. What do you think?",
+				"Heh, heh, heh! I told you!",
+				"We're having a debate right now.",
+				"No! It's all about aesthetics.",
+				"Heh, heh, heh! I told you!",
+				"We're having a debate right now about the importance of having nations.",
+				"No! Nobody can live on his own.",
+				"Heh, heh, heh! I told you!",
+				"We seem to agree on a lot of stuff.",
+				"We never agree on anything. I wonder why..."
+			],
+			"Justin": [
+				"What did you just say!?",
+				"Lies! They may look human, but that's where the similarity ends!",
+				"They didn't even flinch, even when one of their own got killed."
+			]
+		},
+		"Officer": {
+			"Lindblum Officer": [
+				"It may be tradition, but this is a dreadful festival. So many lives lost each year, especially because of him...",
+				"Very good. Now we wait for the signal.",
+				"Whoa!",
+				"I like to look at this statue while I wait for the airship to arrive.",
+				"It gets so busy once the ships arrive."
+			],
+			"Officer (Green Jacket)": [
+				"What!? We haven't even received the minister's authorization!",
+				"Alright, release the mus before they let him loose. Hurry!",
+				"The Industrial District is gone, and the Business and Theater Districts are also in ruins.",
+				"Yes, sir.",
+				"The guards here fool around sometimes, so I have to watch over them closely."
+			]
+		},
+		"Conductor": {
+			"Conductor (Tantalus)": [
+				"Okay, let's really liven up this place!",
+				"Alright!",
+				"Hey, Zidane, what are you doing here?",
+				"Zzzz... Zzzz...",
+				"(You can't speak with him for some reason.)"
+			]
+		},
+		"Burmecian Kid": {
+			"Burmecian Kid Jack": [
+				"Daddy's gone!",
+				"Are we safe now?",
+				"Alright!",
+				"Waaa!!!",
+				"Where's dad?"
+			],
+			"Burmecian Kid Adam": [
+				"Waaaah!",
+				"No more monsters?",
+				"Yeah!",
+				"No!",
+				"Waaa!"
+			]
+		},
+		"Alexandrian Soldier": {
+			"Alexandrian Officer": [
+				"My, my... They have an oglop for a regent and buffoons for soldiers.",
+				"Any word from the lookout?",
+				"This must be Regent Cid's doing. He's hiding something...",
+				"Come with us, you two. Find the regent!"
+			]
+		},
+		"Old Lady": {
+			"Alexandrian Old Lady": [
+				"I'm glad we're going to have a queen again. Alexandrian men are unreliable.",
+				"I can't sleep at night. The attack was so terrifying..."
+			]
+		},
+		"Nobleman": {
+			"Nobleman (Pink Jacket)": [
+				"How do you like the scenery? Isn't it beautiful?",
+				"I-I'll protect you!",
+				"P-Please don't interrupt our date.",
+				"Y-Y-You must be a thief! B-B-But I'm not scared of you!"
+			],
+			"Nobleman (Motley)": [
+				"What do you want? I have nothing to say to the likes of you.",
+				"What do you want? I have nothing to say to the likes of you."
+			],
+			"Nobleman (Auction House)": [
+				"The main attraction of tonight's auction is Reflect Ring, supposedly.",
+				"You never know. If other people spend money buying other items, it could be cheaper. The man who always sits in the front row is there to buy the main attraction. You can try recommending other items to him, maybe...",
+				"The main attraction of tonight's auction is Dark Matter, supposedly.",
+				"I purchased a life-sized griffon statue the other day...",
+				"Indeed, it is. I had to add a room to my mansion for it!",
+				"Everything costs so much!",
+				"Ha ha ha..."
+			],
+			"Young Nobleman (Outside Auction)": [
+				"I-It's not junk!",
+				"Come on, don't be mad...",
+				"Don't get mad... I'll tell you what: I'll sell off that thing I bought the other day.",
+				"But honey, we might use it someday!"
+			]
+		},
+		"Noblewoman": {
+			"Noblewoman (Green Dress)": [
+				"It looks splendid... But isn't it dangerous around here?"
+			],
+			"Noblewoman (Purple Dress)": [
+				"It's beautiful. I'll come back with someone else.",
+				"Oh, yes, I'm happy just to be with you."
+			],
+			"Noblewoman (Yellow Dress)": [
+				"But if that's true, there's no chance in the world I could ever afford to buy it.",
+				"Oh, my...",
+				"Tee hee hee..."
+			],
+			"Noblewoman (outside auctionhouse)": [
+				"Why did you have to pay 5,000 Gil to buy a piece of junk like that!?",
+				"I'm taking it out of your allowance!",
+				"Why did you buy it if you were going to sell it off so quickly!?",
+				"THAT'S IT! I've had it with you!"
+			]
+		},
+		"Young Nobleman": {
+			"Young Nobleman (Pink)": [
+				"How do you like it here? Isn't it nice?",
+				"Oh, I'm so glad you joined me for tea again tonight."
+			],
+			"Young Nobleman (Auction)": [
+				"How wonderful! I bet it's gorgeous.",
+				"I was also thinking about buying a behemoth statue for our mansion.",
+				"Ha ha ha..."
+			]
+		},
+		"Burmecian Soldier": {
+			"Wounded Burmecian Soldier": [
+				"Please forgive my intrusion... I bring urgent news... from our king.",
+				"Our kingdom is being attacked by some unknown force! We are severely outmatched! Please send reinforcements immediately!",
+				"The enemy looks like an army of mages wearing... steeple-crowned hats.",
+				"Thank you, Regent! The kind... and all"
+			],
+			"Dying Burmecian Soldier": [
+				"... Black mages... Couldn't do anything.",
+				"Ugh... I'm done for. Take this bell"
+			],
+			"Burmecian Soldier fighting black mages": [
+				"ARGH!",
+				"Take this bell...",
+				"PLease... protect Burmecia...",
+				"Please... protect Burmecia..."
+			],
+			"Dying Burmecian Soldier 2": [
+				"Freya... Please be careful... Master Gizamaluke has gone mad. He's being controlled by some strange clowns.",
+				"Don't worry... about me"
+			],
+			"Dying Burmecian Soldier 3": [
+				"Ugh... Get the bell... by the bed",
+				"......"
+			],
+			"Brave Burmecian Soldier": [
+				"Burmecia will never fall! Prepare to die!!!",
+				"B-Beatrix!?",
+				"... Thank you, Freya."
+			]
+		},
+		"Black Mage": {
+			"Friendly Black Mage": [
+				"Ahh! H-H-Humans...",
+				"HUmans! Run!!!",
+				"The humans are here!"
+			],
+			"Black Mage No. 111": ["It's born!!!", "Oh..."],
+			"Friendly Black Mage 2": ["? What's wrong?", "!"],
+			"Black Mage No. 32": ["Why are you here!?", "Yeah!"],
+			"Black Mage No. 192": [
+				"This is our village!",
+				"You forced the little guy to guide you here, didn't you!? That's all you humans ever think about, using us!"
+			],
+			"Black Mage No. 234": ["I am Mr. 234.", "Yes."]
+		},
+		"Scholar": {
+			"Scholar (Alexandria Library)": [
+				"The princess? No, she hasn't visited today.",
+				"Oh, I do wonder how the princess's royal tutor, Doctor Tot, is doing.",
+				"You know, this globe of Gaia was presented by the late king in celebration of the birth of Princess Garnet.",
+				"Now, where is that script for 'I Want to Be Your Canary' that Princess Garnet asked for?",
+				"We haven't seen the princess today.",
+				"Her Majesty ordered some texts about eidolons, but we've got a lot of books here, you know.",
+				"It may have something to do with the secret in the queen's chamber.",
+				"I found an old reference material that talked about a purple flame, but I don't know if it has any significance.",
+				"The queen is trying to collect the jewels?",
+				"The jewels you speak of are actually not a whole jewel, but shards of a single jewel.",
+				"It seems that the jewel was divided into several pieces.",
+				"Alexandria, Lindblum, and Cleyra each recieved a piece of the jewel for safekeeping.",
+				"Has Her Highness evacuated the castle yet?",
+				"There are enemies in town? Well, I guess we had better escape.",
+				"I see. I'm leaving right now.",
+				"Really? We're under attack?"
+			],
+			"Scholar (Bishop's Mansion)": [
+				"Bishop, the master of this mansion, likes to fund scholastic research. He also runs a synthesis shop and rents out a nearby tower to a researcher. Rich people do strange things.",
+				"Many things come into Treno. This means you can always find something new."
+			],
+			"Scholar (Daguerro)": [
+				"Most people believe that moonlight is a reflection of sunlight, but some astronomers have refuted this theory with the fact that moonlight is visible even during a dual lunar eclipse.",
+				"How unfortunate that most scientists and engineers concentrate on airship development",
+				"The theory of a second world, an 'underworld,' has existed since ancient times",
+				"I can't find 'The Eidolon and I.' I've looked everywhere.",
+				"Oh, really? Thank you.",
+				"I enjoy my life here, being surrounded by all these books."
+			]
+		},
+		"Narrative": {
+			"Zidane": [
+				"I hear someone talking.",
+				"Magic seems effective.",
+				"Nice!",
+				"10 Gil, huh?",
+				"This fire's so hot, it could probably melt steel instantly.",
+				"Pigeon turd alert!",
+				"The sandstorm is too fierce!",
+				"There are pickles scattered everywhere. It smells awful around here.",
+				"The flame looks so cold... It's as though it's weeping.",
+				"There's a hole.",
+				"There's something written on the wall. Eiko, 3 years old. Mog, 3 years old. Same age!",
+				"... There's nothing new.",
+				"... There's nothing here."
+			],
+			"Tantarian": [
+				"Challenge me, if you dare.",
+				"Save your energy...",
+				"You are worthy..."
+			],
+			"SYSTEM": ["Choose option."]
+		},
+		"Old Woman": {
+			"Ilia's Grandmother": [
+				"Whew, I'm almost done...",
+				"I'm not done with Ilia's dress yet. Come back later.",
+				"Is that you, Ilia? Your new dress is almost done...",
+				"Ilia's dress isn't finished yet...",
+				"I was almost finished with Ilia's clothes..."
+			],
+			"Old Woman (Treno Equipment Shop)": [
+				"What can I do for you?",
+				"(Buy/sell screen opens up.)",
+				"The master of the Knight family, who owns this building, keeps that monster as a pet.",
+				"(Dialogue cancelled.)",
+				"Wow, I can't believe it... Here's your prize. (He gets a Tonberry Card.)",
+				"Are you sure? I can't guarantee your safety.",
+				"Wow, I can't believe it... Here's your prize. (Win: Circlet)",
+				"(Buy/sell screen opens up)"
+			],
+			"Old Woman (Esto Gaza)": [
+				"Oh, so you're here to see the Shimmering Island, too, eh?",
+				"The Shimmering Island is the Path of Souls, you know.",
+				"Young man, don't you think the bishop is a right fine man?",
+				"I feel a little younger whenever I visit.",
+				"The Shimmering Island is the Path of Souls, you know.",
+				"I feel a little younger whenever I visit."
+			]
+		},
+		"Man": {
+			"Man (Dali Village)": [
+				"Why is it moving? Is it true that the mayor's brother found it?",
+				"... Wasn't he on the old lady's side before?",
+				"I guess the guys at the castle will take care of it.",
+				"Gotcha.",
+				"I wonder what they're gonna use them for? We've been making lots of 'em since they set up the factory six months ago."
+			],
+			"Fratley": [
+				"Yes... Beatrix. I hear there are many fierce warriors out in the world--some even more powerful than even I... ... Beatrix of Alexandria, in particular. They say her swordsmanship is the best in the land."
+			],
+			"Garland": [
+				"You have gone too far, Kuja. I granted you the freedom to do as you wish in Gaia for one purpose alone."
+			],
+			"Kal": ["Hey, isn't that...?"],
+			"Lindblum Man": [
+				"Listen, Lindblum is Alexandrian territory now.",
+				"Are you ready?",
+				"Follow me. The regent is waiting on the Base Level.",
+				"Let me know when you're ready."
+			],
+			"Alexandrian Man": [
+				"Isn't the new queen a little young? Personally, I think General Beatrix would make a better queen.",
+				"Well, that's it for today. Time to get ready to see the play.",
+				"I don't have a lot to do, but too much work is also problematic...",
+				"Rebuild the bar!"
+			],
+			"Man in Esto Gaza": [
+				"I come from Lindblum.",
+				"Once in a while, there's a ship that flies around the Shimmering Island. I wonder where it comes from.",
+				"The bishop sometimes hears voices from the Path of Souls.",
+				"I wonder what sort of place the Shimmering Island is. Someday I want to visit there!",
+				"I wonder what sort of place the Shimmering Island is. Someday I want to visit there!"
+			]
+		},
+		"Girl": {
+			"Ilia": [
+				"Are you awright? Here! You dwopped your ticket. Bye-bye!"
+			],
+			"Girl near Treno Tower": [
+				"This tower is always closed. Something fishy's going on!",
+				"I saw him! I saw an old man wearing glasses walking out of this tower! This is big...",
+				"That girl with the ribbon in her hair and the boy with the pointy hat looked suspicious...",
+				"Alexandria and Lindblum fell. Anything can happen in this world. I can only rely on myself!"
+			],
+			"Girl in Alexandria": [
+				"I'm gonna be a strong and beautiful woman like Princess Garnet when I grow up!",
+				"Do you think Princess Garnet is in love?",
+				"I don't wanna die!",
+				"(Same as in AL15.)",
+				"I found a card from the rubble. You can have it! (Receive Alexandria Card)",
+				"A school!"
+			],
+			"Aspiring Queen in Pink": [
+				"I'm the queen! My orders are absolute! Hey, what does absolute mean?",
+				"wins!"
+			],
+			"Lisa": [
+				"This star lives like we do. The Shimmering Island is proof of the Path of Souls.",
+				"He's the seventh in a long line of bishops.",
+				"Hi. Did you come to see the Shimmering Island, too?",
+				"Once in a while I see a strange ship fly overhead.",
+				"This is the only place you can see the Shimmering Island from.",
+				"They say the bishop is really a great man."
+			],
+			"Eiko": ["Mog, hurry!"],
+			"Mikoto": [
+				"She will soon awaken.",
+				"Where is your man?",
+				"Tell him I am waiting in the underground laboratory.",
+				"Yes. I am glad you understand.",
+				"They are my peers. We are Genomes. We live in this village.",
+				"Not just them, but you and me, too. It is the name of the seed given to all of us. Its name is Genome.",
+				"Why are you not happy? You have returned to the place of your birth.",
+				"What can we do? After all, we are made that way. And we are built to watch over each other and work together as soulless Genomes.",
+				"Because you are... special.",
+				"We are mere vessels. You have been given a greater purpose. The will of Garland is absolute...",
+				"Garland watches over this planet. His mission is to restore the people of Terra.",
+				"They are merely vessels. So am I, and so are you. But the true people of Terra have been asleep for ages",
+				"What else can there be? Terra has always absorbed new planets to survive.",
+				"Once, Garland tried to use a more forceful method, but failed.",
+				"Because of his failure, he was forced to wait a long time",
+				"Planets have a cycle of souls. Souls are born from the planet, and then return to it.",
+				"Garland is waiting for you. Come...",
+				"He went on his own to see Garland.",
+				"He went... Yes, he went to find out the reason for his existence.",
+				"'I am an enemy of the people of Gaia,' he said as he walked through the gate to Pandemonium.",
+				"Heaven grant the wandering souls eternal repose...",
+				"What's the point? They're only empty vessels...",
+				"... Unlike the rest of them, Garland gave me a soul, that I might replace you and Kuja.",
+				"Did you find an answer?",
+				"...",
+				"Huh?",
+				"My name is... Mikoto.",
+				"This way...",
+				"I told you. You are going to see Garland.",
+				"There is a way. See? You may find him through the portal.",
+				"You learn quickly."
+			]
+		},
+		"Boy": {
+			"Alexandrian Boy": [
+				"I wanted to become a soldier when I grew up, but if this is what I have to put up with...",
+				"This little queen is a bit demanding...",
+				"I wonder if the boy and girl standing over there are lovers?",
+				"This way! Hurry!",
+				"Card games are hard. Are you good at playing them?",
+				"A playground!",
+				"(Same as in Al15.)"
+			],
+			"Esto Gaza Boy": [
+				"The bishop'll get angry if ya talk too loud.",
+				"Gatz says we're here to see the Path of Souls, but I don't see it anywhere.",
+				"They say this place is holy!",
+				"Did you hear what happened in Alexandria!?",
+				"The pigeon flew away.",
+				"I saw it! I saw the big ship fly!"
+			],
+			"Son": [
+				"It's the champion!",
+				"Ewww, Dad, it's an oglop!",
+				"It's the champion's pet?"
+			]
+		},
+		"Worker": {
+			"Dali Village Worker": ["Nope. Not me.", "I hear ya!"],
+			"Lindblum Mechanical Worker": [
+				"What? A girl? Oh yeah. I saw her go upstairs just a while ago.",
+				"Hold on one sec. My job's pretty simple, but the lift wouldn't operate without me.",
+				"Hold on one sec. Darn it. I can't find the screw.",
+				"I'm sorry. It's currently out of service.",
+				"People still use that stuff? I know they used to use 'em in the old days.",
+				"The city's made a real comeback, don't you think?",
+				"(... He kept telling me to go right before.)",
+				"... He kept telling me to go right before."
+			],
+			"South Gate Worker": [
+				"This gate breaks down a lot, 'cause the hinges don't fit very well. This road leads to the bottom of the Mist. No one uses it. There's no need to fix it, really. So, I just polish up the gate and make it look all nice. That takes care of it for a couple months. Hee hee.",
+				"Rub-rub! Rubba-dub!",
+				"Scrubba-dub! Scrubba-dub-dub!",
+				"Ahh... The sun feels great. Hee hee."
+			],
+			"ACTION": ["(Garnet kicks Steiner through the bag.)"],
+			"Steiner": [
+				"(I must tolerate him for the sake of the princess!)",
+				"I must tolerate him for the sake of the princess!"
+			],
+			"Worker at Rest Stop (sitting)": [
+				"I can't believe I'm stuck here, working in the middle of nowhere."
+			],
+			"Worker at Rest Stop (standing)": [
+				"South Gate serves as a gate to airships, as well as cable car travelers. But the gate's broken right now; the airships can't pass through."
+			]
+		},
+		"Aviator": {
+			"Aviator (Lindblum Docks)": [
+				"Wow, check this baby out! She's a classic! They used this ship's engine as the basis for all other airships. Nothing compares to this baby. You can't call yourself a true airman until you've ridden a wooden barge like this one.",
+				"I'm on an airship most of the time, so I often feel uneasy on land.",
+				"I wish that airship would get here already.",
+				"Board the Invincible? {Board, then go to the bridge/ Board, then go to the world map/Don't board}",
+				"You rode that ship, right? I wanna ride it, too.",
+				"I wanted to ride on No. 2 so bad...",
+				"An airman is useless without an airship.",
+				"I heard the restoration of the town is going pretty well.",
+				"Why is the regent taking so long to build another airship?",
+				"Board the Invincible?"
+			],
+			"Erin": [
+				"I heard No. 2 has engine problems. Looks like we won't be going anywhere for a while.",
+				"We now have the technology to fly without Mist, but we don't have an airship. It's so sad."
+			]
+		},
+		"Engineer": {
+			"Engineer Gabin": [
+				"Should I crush its head? How about its chest?",
+				"I don't care if it lives. My friend was burned alive by it!"
+			],
+			"Bull Engineer": [
+				"Judging by our experience with Hilda 2, we are almost finished with the engine."
+			],
+			"New Engineer": ["How come?"]
+		},
+		"Adventurer": {
+			"Adventurer (Male Red Mage)": [
+				"Treno shops sell items from all over. It's an excellent place to prepare for a journey. I hate to get my usual...",
+				"This city thrives on chaos. The black market is fueled by uncertainty. I have to get my usual...",
+				"There's an old legend in this region about a dragon god and his divine protection.",
+				"Many people have come and settled here because of the water."
+			],
+			"Adventurer (Female Red Mage)": [
+				"Daguerreo was built by some strange scientist. To get around this place, you'll have to use the lifts, which are powered by water pressure.",
+				"Oh, I see... That should increase the water pressure to raise the remaining lifts."
+			]
+		},
+		"Clerk": {
+			"Clerk (Bishop's Mansion)": ["Welcome! (Synth shop opens up.)"],
+			"Wendy Grocer": ["Rally-ho!"]
+		},
+		"Old Man": {
+			"Ilia's Grandfather": [
+				"Darlin', I'm home!",
+				"Rahaha. Every year, it's always the same. You're spoilin' them grandkids, I say!",
+				"Maybe Grandma would've finished Ilia's new dress if I didn't demand food all the time...",
+				"Grandma said she would make a dress for Ilia, but it's taking her forever to finish it."
+			],
+			"Hard of Hearing Old Man": [
+				"Huh? My wife? She died 3 years ago.",
+				"Oh, really? I'm doing fine, thanks for asking. I may be old, but I'm still healthy.",
+				"You're still young! Don't give up! Good luck!",
+				"I used to gamble up a storm at the Card Stadium when I was young.",
+				"I used to buy out the entire auction in my younger days...",
+				"Suicide, eh? I've seen many people commit suicide because of gambling debts... What a shame... Rest in peace..."
+			],
+			"Ramuh": ["That is up to you... My name is Ramuh."],
+			"Garland": [
+				"So you finally came. The time has come at last... The one who folds time is here.",
+				"Ask my name, will you? Then let us ask... What is your name?",
+				"What is your name?",
+				"So you believe a given name has meaning... Boy, you have been bewitched by the light of the blue moon.",
+				"Twelve years ago, I lost one of my most prized Genomes. I created him and sent him to Gaia to disrupt the cycle of souls there. You are that Genome... I am glad you have returned."
+			],
+			"Mourning Old Man": [
+				"Finish it off!",
+				"If it's human, make it understand the suffering it caused!",
+				"I wonder what the regent is going to do. Is he going to let them roam free forever?"
+			],
+			"Old Man in Esto Gaza": [
+				"It's so cold.",
+				"Ever since I started coming here, my back's been as good as new. See? Ooof! I'm still as strong as them young'uns!",
+				"If the glow of the Shimmering Island stops, it means the Path of Souls is closed.",
+				"The glow of the Shimmering Island is proof that it is home to the Path of Souls.",
+				"If the glow of the Shimmering Island stops, it means the Path of Souls is closed."
+			],
+			"Old Man in Daguerro": [
+				"A good book lasts forever. It will always be there, in your memories.",
+				"You appear to be quite the traveler. I can tell... If you happen to find an item called the Magical Fingertip",
+				"Huh? You... You have the Magical Fingertip!!!",
+				"Oh, thank you!!! ......",
+				"... I used to be a fairly well-known blacksmith.",
+				"Okay. I understand...",
+				"I don't have many years left, but I'll make the best of them."
+			]
+		},
+		"Crew Member": {
+			"Crew Member (Sailor)": [
+				"Excuse me! Please let me know if you'd like to switch out your party members! I shall assist you in any way that I can during your journey.",
+				"Master Zidane! I'm showing abnormal readings!",
+				"Would you like to change your party members? {Y/N}",
+				"Would you like to change your party members?"
+			],
+			"Crew Member (Engine)": [
+				"The engine is working fine!",
+				"We're going to overheat!"
+			],
+			"Crew Member (Black-haired Sailor)": [
+				"One of the locations you mentioned is just south of us!",
+				"I've been a sailor for a long time! I'm confident in my sense of direction.",
+				"Please don't hesistate to ask me if you forget your destination!",
+				"J-Juding from our current course, our next d-destination is...",
+				"S-Sorry. I'm not very good at explaining things...",
+				"Our next destination is located south of Ipsen's Castle.",
+				"(You can change your party. Afterwards, the Crewman will say: Godspeed!)",
+				"Godspeed!",
+				"(You can change your party.",
+				"Yes, sir! I appreciate it!"
+			],
+			"Zidane": [
+				"Alright, listen carefully... On top of this castle is a mural"
+			]
+		},
+		"Guard": {
+			"Guard (Dali Gate)": [
+				"Huh? What do you want?",
+				"You gotta have a Gate Pass to pass through here. There's no work here right now. Try again when they need construction workers.",
+				"The shopgirl at Vega won't be here for a while.",
+				"Then wait right there.",
+				"(Dialogue cancelled.)",
+				"South Gate is the border of Alexandria and Lindblum. We check every airship and person crossing the border. We're doing the best we can to keep the two nations safe. Have you ever been on an airship?",
+				"(Dialogue cancelled.)",
+				"The Village of Dali is beyond this gate. You gotta go to the other gate if you wanna get to Treno.",
+				"What, you wanna pass through here?",
+				"You got a Gate Pass? ... I guess you do. I'll open it now.",
+				"Will you get outta here? I wanna close the gate.",
+				"Huh? What do you want?",
+				"You gotta have a Gate Pass to pass through here. You got a Gate Pass? ... I guess you do. I'll open it now.",
+				"The airship gate is still broken. But the construction workers are gathering, so it should be fixed soon."
+			],
+			"Guard (Treno Gate)": [
+				"Hey, we gotta lower the gate first. Show me your Gate Pass. Yup, this is it! Hey, will you lower the gate? Be careful out there.",
+				"Treno is only a short walk from this gate.",
+				"The Mist disappeared, and the cable cars stopped working."
+			],
+			"Treno Guard": [
+				"Where did he go...?",
+				"This is the King family auction site!",
+				"But he's a guard for this mansion...",
+				"W-We've got you now!",
+				"Don't run away!",
+				"There are so many criminals here nowadays."
+			],
+			"Soldier": ["Zzzz... Zzzz..."]
+		},
+		"Person": {
+			"Quina": ["Hungry...", "Frogs..."],
+			"Genome (Purple)": [
+				"We possess no age. We were built this way.",
+				"In time, we will receive souls. Then our bodies will begin to grow.",
+				"..."
+			],
+			"Genome (Pink)": [
+				"Why do you rest?",
+				"By night, do you mean the condition in which light recedes?",
+				"There is the entrance.",
+				"We vessels must exercise sufficiently in order to maintain health."
+			],
+			"Genome (Orange)": [
+				"We develop into vessels...",
+				"Asexual beings would lack the genetic diversity to adapt to new environments...",
+				"Heightened recognition of visual stimuli is a necessary condition for bodies to be used as vessels."
+			],
+			"Genome (Purple - Storage)": [
+				"Gaia's blue light causes pain to those of us who were created by the civilization of Terra."
+			],
+			"Genome (Orange - Storage)": [
+				"The waxing and waning of the moon, the respiration of the planets... Motion in stillness, stillness in motion..."
+			],
+			"Genome (Purple near gate)": [
+				"Only the chosen may unlock the barrier."
+			],
+			"Genome (Pink - Hall)": [
+				"A planet's shimmer is its breath, a sign of life-activity caused by the cycling of souls."
+			],
+			"Genome (Purple - Hall)": ["As the planets turn..."],
+			"Genome (Orange - Hall)": [
+				"Fleeting knowledge is useless to vessels... But information is given to prevent mental atrophy."
+			],
+			"Genome (Pink 2 - Hall)": [
+				"A planet's color indicates its shape... Gaia is blue, Terra red."
+			],
+			"Genome (Orange 2 - Hall)": [
+				"The flow of souls means that a planet has life... The stoppage of souls means that a planet is dead."
+			],
+			"Genome (Orange - Lab)": [
+				"We measure their suitability as vessels for our research in order to create and grow a higher breed of Genome."
+			],
+			"Genome (Pink - Lab)": ["Response value: 356."],
+			"Genome (Orange 2 - Lab)": [
+				"Activity measurement: 525. Surpasses basic value."
+			],
+			"Genome (Pink 3 - Hall)": ["When the souls of Terra and Gaia mix"],
+			"Genome (Orange near gate)": [
+				"Our activity is restricted to the area before this gate."
+			]
+		},
+		"Genome": {
+			"Genome (Purple)": [
+				"...",
+				"The light is unpleasant to us...",
+				"Does the water here ever stay still?",
+				"The water of Bran Bal was always still...",
+				"So, water and time both flow in Gaia...?",
+				"I see, so you enclose a captured life-form and conduct research here.",
+				"Water flowing... Time flowing... Things don't stay the same... I don't understand...",
+				"... These people are trying to call me a funny name...",
+				"That's enough! I don't need a name!",
+				"......"
+			],
+			"Genome (Pink)": [
+				"Is this a monster?",
+				"!?",
+				"It won't bite?",
+				"What a strange tribe... It seems like they live in hiding.",
+				"It's obviously an imperfect life-form, but I feel a strange affinity to it...",
+				"Why do the people of Gaia pay special attention to communication through sound?"
+			],
+			"Genome (Orange)": [
+				"Why do you display these items?",
+				"What are customers?",
+				"What is money?",
+				"This life-form flies? Why does it fly? Gaia is full of unnecessary things...",
+				"I'm supposed to be 'assisting' in the operation of this shop. What do I do?",
+				"I guess the people of Gaia decide when to rest based on the presence of light."
+			]
+		},
+		"Red Mage": {
+			"Female Red Mage": [
+				"What!? What do you mean, there's no room!?",
+				"Oh, and that makes everything better!? We made a reservation!",
+				"Well, let's see... We were going to stay three nights.",
+				"Later tonight, huh...?",
+				"Okay! Agreed!",
+				"I can't wait to see that boy grow up and become the master of this inn!"
+			],
+			"Male Red Mage": [
+				"I thought she might get mad again...",
+				"Whaddya mean, there's no vacancies!!!?",
+				"What!? I don't believe this!!! I have a reservation, dammit!!! Geeez!!"
+			]
+		},
+		"Shopkeeper": {
+			"Shopkeeper (Alexandria)": [
+				"I keep telling my son we'll go out of business, but he never comes home.",
+				"There are strange men hanging around my shop. (Buy/ /sell screen opens.)",
+				"(Same as in AL24.)",
+				"I stocked up the shop the best I could.",
+				"No, the roads!"
+			],
+			"Shopkeeper (Rest Stop)": [
+				"Get your supplies here before you cross the border. (Buy/sell screen opens up.)"
+			],
+			"Shopkeeper (Treno Slums)": [
+				"We've got a wide selection! Take your time and see! (Buy/sell screen opens up.)",
+				"We've got a wide selection! Take your time and see! (Buy/sell screen opens up.)"
+			],
+			"Clerk (Bishop's Mansion)": [
+				"Welcome! (Synth buy/sell opens.)",
+				"Oh, it's you, Doctor Tot.",
+				"You should've called me. I'll get yelled at if the inventory's wrong!"
+			],
+			"Shopkeeper (Esto Gaza)": [
+				"How can I help you? (Buy/sell screen opens up.)",
+				"Thanks, come again! (Said when you leave.)",
+				"Thanks, come again! (Said upon leaving the shop.)"
+			]
+		},
+		"Mogster": {
+			"Letter": [
+				"From Ruby to Zidane",
+				"From Kupo to Monty",
+				"From Mois to Gumo",
+				"From Kumop to Mogki",
+				"From Ruby to Zidane",
+				"From Stiltzkin to Moonte",
+				"From Stiltzkin to Mogrich",
+				"From Grimo to Nazna",
+				"From Nazna to Mochos",
+				"From Atla to Monev",
+				"From Ruby to Zidane",
+				"From Monev to Mopli",
+				"From Mopli to Serino",
+				"From Kupo to Mosh",
+				"From Mosh to Monty",
+				"From Stiltzkin to Monty",
+				"From Serino to Moodon",
+				"From Moodon to Moonte",
+				"From Stiltzkin to Mogryo",
+				"From Mogmatt to Suzuna",
+				"From Kuppo to Kupo",
+				"From Stiltzkin to Kupo",
+				"From Kupo to Mogrich",
+				"From Mogki to Moodon",
+				"From Mimoza to Mooel",
+				"From Mojito to Mogsam",
+				"From Artemecion to Mogrika",
+				"From Mogrika to Moolan"
+			],
+			"Ruby": [
+				"Zidane! Are you alright? I'm doin' good!",
+				"p.s. Tell the boys in Tantalus I said Hi!",
+				"Ain't y'all comin' back to Alexandria! I'm so lonely!",
+				"I decided to start a small theater, but I ain't had any luck finding actors"
+			],
+			"Kupo": [
+				"I think Queen Brahne is up to something... but I suspect Princess Garnet even more!",
+				"Kupo! What's goign on in Alexandria!?",
+				"There's an amazing new champion sprinter in the town of Alexandria!"
+			],
+			"Mois": [
+				"Kupo! (He gives the letter.)",
+				"Yo! Man, I got totally iced up by some dude with wings on his back!"
+			],
+			"Fortune": [
+				"Good Omen A nice day to relax and put your mind at ease.",
+				"Good Omen A good day filled with many of life's simple pleasures.",
+				"Good Omen Today will be a day filled with deja vu.",
+				"Very Good Omen An auspicious day for you to go out and have fun!",
+				"Bad Omen There are good days, and there are bad days."
+			],
+			"Gumo": [
+				"He always sounds so gruff. But I'm glad to hear Stiltzkin is traveling."
+			],
+			"Kumop": [
+				"Stiltzkin visited me! Kupo! He said he found a place that seemed interesting, and then he left."
+			],
+			"Mogki": [
+				"Stilzkin! Stiltzkin! Stiltzkin! Kupokupo! I wonder if he stopped in Lindblum!",
+				"Alexandria is in a horrible state right now"
+			],
+			"Stiltzkin": [
+				"I left Lindblum and headed north.",
+				"There's trouble in this rainy city. The guys I saw there were heading towards Vube Desert",
+				"This...",
+				"might be...",
+				"the end of me...",
+				"I'm becoming familiar with the geography of the Outer Continent.",
+				"Alexandria is a great place to be. It's comfortable and fun."
+			],
+			"Grimo": ["I feel so sad when I see Mary, the part-time worker."],
+			"Nazna": [
+				"Grimo, in South Gate's Bohden Station, sent me a letter saying"
+			],
+			"Atla": [
+				"Kupo! Strange people came into town and destroyed the entire place!"
+			],
+			"Monev": [
+				"People are climbing up to Cleyra since the sandstorm disappeared"
+			],
+			"Mopli": ["By the time this letter reaches Serino"],
+			"Mosh": ["Monty! Were you able to escape Evil Forest?"],
+			"Serino": ["I rode an airship called the Red Rose"],
+			"Moodon": ["Oh, it's terrible! Kupo! Mogki, from the castle"],
+			"Mogmatt": [
+				"It's been six months since I started living in Conde Petie"
+			],
+			"Kuppo": ["Fossil Roo is very comfortable! I like it here."],
+			"Mimoza": [
+				"I haven't received any mail lately, kupo. What's going on? "
+			],
+			"Cid": ["I'm still heavier than the other side."],
+			"Mojito": [
+				"According to rumors, Stiltzkin is on a quest to find out why Mognet stopped functioning!"
+			],
+			"Artemicion": ["Mogrika! I'm in trouble... I used too much."],
+			"Mogrika": ["Artemecion rubbed it all over himself!"],
+			"Dutiful Daughter Slai": [
+				"You didn't know about the earthquake...? Huge roots, buried under ground, tore up cracks that Mist could escape through."
+			]
+		},
+		"Dwarf": {
+			"Harold Pathknower": ["Rally-ho! Ye can pass!"]
+		},
+		"Zorn and Thorn": ["Zorn", "Thorn"],
+		"Kid": ["Kid #1", "Kid #2", "Kid #3", "Kid #4", "Kid #5"]
+	}
+}

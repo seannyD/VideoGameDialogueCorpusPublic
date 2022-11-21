@@ -1,0 +1,17 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,-,-,1
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,-,female,158
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,female,male,239
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,male,female,226
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,male,-,356
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,female,-,144
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,-,male,336
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,male,male,501
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,female,female,146
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,-,neutral,23
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,neutral,-,17
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,neutral,male,13
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,male,neutral,6
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,female,neutral,8
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,neutral,female,7
+../data/FinalFantasy/FFV/,Final Fantasy,Final Fantasy V,neutral,neutral,6

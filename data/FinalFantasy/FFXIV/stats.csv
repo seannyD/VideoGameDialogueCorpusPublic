@@ -1,0 +1,7 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FinalFantasy/FFXIV/,False,Final Fantasy XIV,Final Fantasy,TOTAL,20364,689360,107994,860743,1.633112579581697,94.72337810106163,6.935772454487245,1166
+../data/FinalFantasy/FFXIV/,False,Final Fantasy XIV,Final Fantasy,playerChoice,536,3582,1351,4204,-0.7069430589083261,104.85340784232045,6.126369170757149,1
+../data/FinalFantasy/FFXIV/,False,Final Fantasy XIV,Final Fantasy,male,12367,446516,68399,558313,1.7104014895948794,94.42714081856276,7.0067178031337445,771
+../data/FinalFantasy/FFXIV/,False,Final Fantasy XIV,Final Fantasy,female,6893,224083,35402,279001,1.5705017719136727,95.07671507954223,6.803084705968773,277
+../data/FinalFantasy/FFXIV/,False,Final Fantasy XIV,Final Fantasy,genderless,296,8516,1380,10445,1.2895702411828367,96.80826857543516,6.647797208460119,17
+../data/FinalFantasy/FFXIV/,False,Final Fantasy XIV,Final Fantasy,neutral,272,6663,1461,8780,1.737776263597958,90.72650269455184,7.635431517303716,100

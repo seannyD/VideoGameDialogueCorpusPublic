@@ -1,0 +1,15 @@
+folder,series,game,from,to,frequency
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,-,-,1
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,-,male,3071
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,male,-,3002
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,male,male,823
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,male,female,148
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,female,male,110
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,-,female,52
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,female,-,90
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,female,female,40
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,male,neutral,58
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,neutral,-,42
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,neutral,male,28
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,neutral,neutral,9
+../data/KingsQuest/KingsQuest6/,King's Quest,King's Quest VI,-,neutral,12

@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingsQuest/KingsQuest6/,False,King's Quest VI,King's Quest,TOTAL,4968,72074,12381,88630,1.1908808605489263,96.89301390556747,6.521341038530302,81
+../data/KingsQuest/KingsQuest6/,False,King's Quest VI,King's Quest,male,4582,66597,11292,82198,1.2743745842859564,96.4304398691811,6.575749048633079,47
+../data/KingsQuest/KingsQuest6/,False,King's Quest VI,King's Quest,female,288,4585,867,5388,0.3390652534026657,102.05079193599308,5.74814352189012,17
+../data/KingsQuest/KingsQuest6/,False,King's Quest VI,King's Quest,neutral,98,892,222,1044,-0.21221064113440669,103.74056821395388,6.4910627519896575,17

@@ -1,0 +1,199 @@
+{
+	"game": "Final Fantasy XV",
+	"series": "Final Fantasy",
+	"year": 2016,
+	"source": "https://thelifestream.net/final-fantasy-xv-lore/final-fantasy-xv-chapter-by-chapter-lore-exposition-and-development/",
+	"sourceFeatures":{
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "partial"
+	},
+	"error checks": {
+		"truePositive_numTestsDone": "10",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "2",
+		"truePositive_notes": "Previous errors fixed. Some optional/incidental dialogue missing from source file.",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "No errors noted."
+	},
+	"characterInfoSource": "https://finalfantasy.fandom.com/wiki/",
+	"parserParameters": {
+		"parser": "TheLifestreamParser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Noctis", "Ignis", "Gladiolus", "Prompto"],
+	"characterGroups": {
+		"male": [
+			"Ardyn",
+			"Biggs",
+			"Caligo",
+			"Cid",
+			"Cor",
+			"Dave",
+			"Dino",
+			"Drautos",
+			"Dustin",
+			"Gladiolus",
+			"Iedolas",
+			"Ignis",
+			"Jared",
+			"Loqi",
+			"Navyth",
+			"Noctis",
+			"Prompto",
+			"Randolph",
+			"Ravus",
+			"Regis",
+			"Takka",
+			"Talcott",
+			"Tony",
+			"Verstael",
+			"Vyv",
+			"Wedge",
+			"Weskham",
+			"Wiz",
+			"Bahamut",
+			"Gilgamesh",
+			"Man",
+			"Melusine Hunter",
+			"Old Man",
+			"Boy",
+			"Altissian Guard",
+			"Proprietor (Wishing Birds)",
+			"Proprietor (Delivery)",
+			"Gatekeeper",
+			"Boyfriend",
+			"Receptionist",
+			"Server",
+			"Estate Guard",
+			"Vendor",
+			"Staff",
+			"Assassin",
+			"Hunter1",
+			"Hunter2"
+		],
+		"female": [
+			"Aranea",
+			"Camelia",
+			"Coctura",
+			"Cindy",
+			"Ezma",
+			"Holly",
+			"Iris",
+			"Kimya",
+			"Luna",
+			"Maria",
+			"Monica",
+			"Sania",
+			"Gentiana",
+			"Shiva",
+			"Leviathan",
+			"Melusine",
+			"Woman",
+			"Announcement",
+			"Old Woman",
+			"Girl",
+			"Newscaster",
+			"Girlfriend",
+			"Radio Narrator",
+			"Radio Interviewer"
+		],
+		"neutral": [
+			"Naga",
+			"Soul",
+			"NARRATIVE",
+			"SYSTEM",
+			"Broadcast",
+			"Attendant"
+		]
+	},
+	"aliases": {
+		"Gladio": "Gladiolus",
+		"Gladiols": "Gladiolus",
+		"Lunafreya": "Luna",
+		"Noct Gar": "Noctis",
+		"Noct": "Noctis",
+		"Prompmto": "Prompto",
+		"Giglamesh": "Gilgamesh",
+		"Suspicious Stranger": "Ardyn",
+		"Suspcious Stranger": "Ardyn",
+		"Research log": "Verstael",
+		"Gatekeepr": "Gatekeeper",
+		"Hunter": {
+			"Hunter1": [
+				"I just don't know what to make of it.",
+				"Not just that—what if you slip up?"
+			],
+			"Hunter2": ["Not worth the risk."],
+			"Gladiolus": [
+				"So, you my backup?",
+				"Anyway, place is crawling with daemons.",
+				"Save the talk. We got hunting to do. Now, if we're done with the introductions, follow me.",
+				"There they are. You ready to rumble?",
+				"Some pretty fancy moves you've got there. Reminds me of a certain king I know.",
+				"You think so?",
+				"I ain't one to leave unfinished business. Can't speak for him, though.",
+				"Well, how 'bout you prove it?",
+				"Think so.",
+				"When have I ever?",
+				"Will do. Now, let's scram."
+			],
+			"Melusine Hunter": [
+				"Hey there, \"brother.\"",
+				"Don't act so surprised. I know a fellow Hunter when I see one.",
+				"And, as my \"brother\"... I was hoping you might take care of a little problem for me—a problem named \"Melusine.\"",
+				"A real pretty lady who appears at the Vesperpool",
+				"Attaboy. Good luck!",
+				"Damn, that was quick. I knew I could count on you, \"brother.\"",
+				"... Sadly, it does.",
+				"Because I'm the one who wrote it.",
+				"Ex-partner. We had it out a couple of times, and one night she just up and left.",
+				"Now I know why she never wrote back.",
+				"Well, what's done is done—and thanks to you, her killer has been brought to justice."
+			]
+		},
+		"???": {
+			"Talcott": ["Uh..."],
+			"Iedolas": [
+				"The ring...",
+				"Thieves cannot escape the hand of justice."
+			]
+		},
+		"Proprietor": {
+			"Proprietor (Wishing Birds)": [
+				"They're launching wishing birds. Would you boys like to give it a try?",
+				"They're an old Altissian tradition."
+			],
+			"Proprietor (Delivery)": [
+				"Y'all came all the way out here to deliver the goods?"
+			]
+		},
+		"SYSTEM": {
+			"Cor": ["\"Do you dare risk all"],
+			"Sania": [
+				"\"Ooh, this specimen is ",
+				"\"Back so soon?",
+				"\"There you are"
+			],
+			"Luna": [
+				"If you know of any who are bedridden, or unable to come to me",
+				"It would be selfish of me to complain",
+				"Though I am still young, my blood",
+				"When war has ended, so too will suffering subside"
+			],
+			"Radio Interviewer": [
+				"I understand you have a message for us?",
+				"Is it hard giving blessings?",
+				"What is your opinion of the treaty?"
+			],
+			"Radio Narrator": [
+				"That marked the ascension",
+				"In time, her strength",
+				"The world watched on with worry"
+			]
+		}
+	}
+}

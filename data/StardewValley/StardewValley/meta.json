@@ -1,0 +1,96 @@
+{
+	"game": "Stardew Valley",
+	"series": "Stardew Valley",
+	"year": 2016,
+	"source": "https://drive.google.com/drive/folders/0BwyXuxAqGS7ueVdFX2dQSUVzcUk",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "complete"
+	},
+    "error checks": {
+        "truePositive_numTestsDone": "10",
+        "truePositive_numParsingErrors": "",
+        "truePositive_numSourceErrors": "4",
+        "truePositive_notes": "Television reports (such as weather report, fortune teller) are missing from the source file. Some sidequest dialogue (eg Willy fishing quest) is missing too.",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "1",
+        "falsePositive_notes": "Some system text identified (line starts with %), and fixed."
+    },
+	"characterInfoSource": "https://stardewvalleywiki.com",
+	"parserParameters": {
+		"parser":"StardewValleyParser",
+		"fileType": ".yaml"
+	},
+	"mainPlayerCharacters": ["PC"],
+	"characterGroups": {
+		"playerChoice": ["PC"],
+		"male":[
+			"Sam",
+			"Sebastian",
+			"Alex",
+			"Elliott",
+			"Shane",
+			"Harvey",
+			"Lewis",
+			"Demetrius",
+			"Pierre",
+			"Clint",
+			"Linus",
+			"Wizard",
+			"George",
+			"Gus",
+			"Willy", 
+			"Kent",
+			"Vincent",
+			"Morris",
+			"Gunther",
+			"Marlon",
+			"Grandpa",
+			"Mister Qi",
+			"Gil",
+			"Krobus"
+			],
+		"female":[
+			"Abigail",
+			"Leah",
+			"Haley",
+			"Emily",
+			"Maru",
+			"Penny",
+			"Pam",
+			"Jodi",
+			"Robin",
+			"Marnie",
+			"Evelyn",
+			"Caroline",
+			"Sandy",
+			"Jas"
+			],
+		"undefined":[
+			"Dwarf"
+			]
+	},
+	"aliases": {
+		"Haley": {
+			"SYSTEM": ["Haley is ignoring you."]
+			},
+		"Marnie": {
+			"SYSTEM": ["Marnie doesn't seem to notice"]
+			},
+		"Abigail": {
+			"SYSTEM": ["Abgail is lost in her music"]
+		},
+		"Pam": {
+			"SYSTEM": ["Pam isn't responding", "Pam seems out of it"]
+		},
+		"Sebastian": {
+			"SYSTEM": ["Sebastian seems lost in thought"]
+		},
+		"Shane": {
+			"SYSTEM": ["Shane's hard at work."]
+		}
+	}
+}

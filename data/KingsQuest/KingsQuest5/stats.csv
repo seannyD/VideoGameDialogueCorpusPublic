@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingsQuest/KingsQuest5/,False,King's Quest V,King's Quest,TOTAL,763,10833,1958,13495,1.2673692285526759,95.83051132562548,6.753208701168176,33
+../data/KingsQuest/KingsQuest5/,False,King's Quest V,King's Quest,male,175,2513,561,2891,-0.26806429028942524,104.96295840595042,6.177230796932598,21
+../data/KingsQuest/KingsQuest5/,False,King's Quest V,King's Quest,neutral,530,7277,1180,9397,2.05279053227839,91.32912638205353,7.056115733620905,3
+../data/KingsQuest/KingsQuest5/,False,King's Quest V,King's Quest,female,58,1043,215,1207,-0.042629445472586625,104.00867283551474,6.087414893977569,9

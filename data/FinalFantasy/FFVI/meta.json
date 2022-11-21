@@ -1,0 +1,161 @@
+{
+	"game": "Final Fantasy VI",
+	"series": "Final Fantasy",
+	"year": 1994,
+	"source": "https://gamefaqs.gamespot.com/snes/554041-final-fantasy-iii/faqs/70118",
+	"notes": "The original script is explicit about various parts that are left out. This includes that 'random townsfolk talking will likely not be included'. Note that link suggests FFIII, but the script is really for the (Japanese number) FFVI.",
+	"sourceFeatures":{
+    		"type": "fan transcript",
+    		"completeness": "high",
+    		"dialogueOrder": true,
+    		"choices": "not included"
+},
+    "error checks": {
+        "truePositive_numTestsDone": "5",
+        "truePositive_numParsingErrors": "0",
+        "truePositive_numSourceErrors": "0",
+        "truePositive_notes": "N/A",
+    
+        "falsePositive_numTestsDone": "5",
+        "falsePositive_numErrors": "0",
+        "falsePositive_notes": "N/A"
+    },
+	"parserParameters": {
+		"parser": "FF3Parser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Terra", "Locke", "Celes", "Edgar", "Sabin", "Cyan", "Shadow", "Gau", "Setzer", "Strago", "Relm", "Mog", "Gogo", "Umaro"],
+	"characterGroups": {
+		"male": [
+			"Henchman",
+			"Edgar",
+			"Man 1",
+			"Man 2",
+			"Rachel's Dad",
+			"Arvis",
+			"Banon",
+			"Chancellor",
+			"Cid",
+			"Commander",
+			"Gogo",
+			"Curley",
+			"Larry",
+			"Moe",
+			"Cyan",
+			"Doma Sentry",
+			"Draco",
+			"Duane",
+			"Duncan",
+			"Elder",
+			"Esper Elder",
+			"Maduin",
+			"Gau",
+			"Gestahl",
+			"Guard",
+			"Guard 1",
+			"Gungho",
+			"Henchmen",
+			"Ifrit",
+			"Impresario",
+			"Innkeeper",
+			"Kefka",
+			"King Doma",
+			"Leo",
+			"Locke",
+			"Master",
+			"Mayor",
+			"Merchant",
+			"Mog",
+			"Odin",
+			"Other Sentry",
+			"Owain",
+			"Owzer",
+			"Patriarch",
+			"Ralse",
+			"Ramuh",
+			"Sabin",
+			"Sentry",
+			"Setzer",
+			"Shadow",
+			"Soldier",
+			"Soldier A",
+			"Soldier B",
+			"Soldiers",
+			"Strago",
+			"Thief",
+			"Trooper",
+			"Ultros",
+			"Umaro",
+			"Vargas",
+			"Vicks",
+			"Wedge",
+			"Wolf",
+			"Youth",
+			"Yura"
+		],
+		"female": [
+			"Little Girl",
+			"Rachel",
+			"Celes",
+			"Daryl",
+			"Katarin",
+			"Elayne",
+			"Fairy",
+			"Madonna",
+			"Shiva",
+			"Maria",
+			"Matron",
+			"Relm",
+			"Terra"
+		],
+		"neutral": ["Chadarnook", "Kid", "Loud Cheers", "Unknown", "Wrexsoul"]
+	},
+	"aliases": {
+		"Littlegirl": "Little Girl",
+		"Old Man": "Arvis",
+		"Creature": "Gogo",
+		"Esper": "Maduin",
+		"Gerad": "Edgar",
+		"Gestashl": "Gestahl",
+		"Mgo": "Mog",
+		"Warrior": "Cyan",
+		"Yelling": "Guard",
+		"Girl": {
+			"Terra": [
+				"....",
+				"... ... ...",
+				"Where am I...?",
+				"...head...hurts...",
+				"I can't remember a thing...",
+				"My name... is... Terra..."
+			],
+			"Madonna": [
+				"You're... an Esper? What's that pendant for?",
+				"Esper World... Boy, did I take the low road or what?",
+				"You the one who... saved me?"
+			]
+		},
+		"Man": {
+			"Edgar": ["You mean, THIS young woman...?!", "Oh... sorry!"],
+			"Man 1": ["Of course. He left"],
+			"Man 2": [
+				"Shhh I'm a Returner",
+				"I... I'm gonna be sick!",
+				"Urghh... gonna toss it all"
+			]
+		},
+		"Voice": {
+			"Sabin": ["Give it up, Vargas!"],
+			"Cyan": ["A moment Sir! Allow me the honor!"],
+			"Guard 1": ["Got her"]
+		},
+		"Elder": {
+			"Esper Elder": [
+				"We've no choice... We must do what we've been avoiding...",
+				"Here's the plan. We'll cause a tempest that'll sweep all the nasty creatures out of our realm. Then we'll seal the gate... I am the last of our kind able to cast this magical seal.",
+				"Pass away... but at least we will finally be safe.",
+				"Let's do it. We have no other choice."
+			]
+		}
+	}
+}

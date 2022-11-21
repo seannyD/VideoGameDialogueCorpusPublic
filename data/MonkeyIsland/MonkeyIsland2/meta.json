@@ -1,0 +1,90 @@
+{
+	"game": "Monkey Island 2: LeChuck's Revenge",
+	"series": "Monkey Island",
+	"year": 1991,
+	"source": "https://gamefaqs.gamespot.com/pc/562680-monkey-island-2-lechucks-revenge/faqs/79490",
+	"sourceFeatures":{
+		"type": "fan transcript",
+		"completeness": "sample",
+		"dialogueOrder": true,
+		"choices": "Not included"
+	},
+	"error checks": {
+    		"truePositive_numTestsDone": "5",
+    		"truePositive_numParsingErrors": "0",
+    		"truePositive_numSourceErrors": "0",
+    		"truePositive_notes": "N/A",
+
+    		"falsePositive_numTestsDone": "5",
+    		"falsePositive_numErrors": "0",
+    		"falsePositive_notes": "N/A"
+	},
+	"notes": "See Readme",
+	"parserParameters": {
+		"parser": "MonkeyIsland2Parser",
+		"fileType": ".html",
+		"textDivId": "faqtext",
+		"startText": "LOCATION:",
+		"endText": ""
+	},
+	"mainPlayerCharacters": ["Guybrush"],
+	"characterGroups": {
+		"male": [
+			"Barkeep",
+			"Bart",
+			"Bernard",
+			"Captain Dread",
+			"Chef",
+			"Costume shopkeeper",
+			"Dad",
+			"Delivery man",
+			"Dog",
+			"Door guard",
+			"Filbert",
+			"Fink",
+			"Fisherman",
+			"Governor Phatt",
+			"Guard",
+			"Guybrush",
+			"Herman",
+			"Innkeeper",
+			"Largo",
+			"LeChuck",
+			"Man watching spit contest",
+			"Marty",
+			"Ralphie",
+			"Rapp",
+			"Retired pirate",
+			"Rich",
+			"Shopkeeper",
+			"Sleeping pirate1",
+			"3rd sleeping pirate",
+			"Spitmaster",
+			"Stan",
+			"Wally",
+			"Wheel operator",
+			"Woodsmith"
+		],
+		"female": [
+			"Captain Kate Capsize",
+			"Costumed woman",
+			"Elaine",
+			"Librarian",
+			"Mom",
+			"Voodoo Lady",
+			"Woman 1 watching spit contest",
+			"Woman 2 watching spit contest"
+		],
+		"neutral": [
+			"Clown costume",
+			"Moose costume",
+			"NARRATOR",
+			"Parrot",
+			"Pig costume",
+			"Voodoo Priest"
+		]
+	},
+	"aliases": {
+		"Mom and Dad": ["Mom", "Dad"]
+	}
+}

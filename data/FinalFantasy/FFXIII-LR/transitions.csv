@@ -1,0 +1,16 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,-,-,188
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,-,female,512
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,female,-,524
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,-,male,368
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,male,female,417
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,female,male,406
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,male,male,72
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,male,-,355
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,female,female,381
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,-,neutral,3
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,neutral,-,3
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,male,neutral,6
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,neutral,male,4
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,neutral,female,3
+../data/FinalFantasy/FFXIII-LR/,Final Fantasy,Lightning Returns: Final Fantasy XIII,female,neutral,1

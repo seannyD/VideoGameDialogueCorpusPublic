@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,TOTAL,4187,37982,13564,45226,-0.44740082603811615,103.25771596580827,6.967313255033142,226
+../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,male,2296,22110,7634,26514,-0.310067607990959,102.44417640641437,6.963149655834007,145
+../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,female,1638,13571,5021,15888,-0.721255118745173,105.04770680216265,6.8934232478119934,31
+../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,neutral,375,3311,1257,4045,-0.14683432458089385,100.80686427945516,7.587079381041522,51

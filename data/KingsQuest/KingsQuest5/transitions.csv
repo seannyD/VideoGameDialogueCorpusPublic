@@ -1,0 +1,11 @@
+folder,series,game,from,to,frequency
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,-,neutral,78
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,neutral,-,77
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,neutral,male,3
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,male,neutral,2
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,neutral,female,1
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,female,male,6
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,male,female,6
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,male,male,13
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,female,female,7
+../data/KingsQuest/KingsQuest5/,King's Quest,King's Quest V,female,neutral,1

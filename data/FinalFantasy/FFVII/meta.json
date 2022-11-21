@@ -1,0 +1,938 @@
+{
+	"game": "Final Fantasy VII",
+	"series": "Final Fantasy",
+	"year": 1997,
+	"source": "http://www.yinza.com/Fandom/Script/",
+	"sourceFeatures":{
+    		"type": "fan transcript",
+    		"completeness": "high",
+    		"dialogueOrder": true,
+    		"choices": "complete"
+},
+	"error checks": {
+		"truePositive_numTestsDone": "5",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "0",
+		"truePositive_notes": "N/A",
+
+		"falsePositive_numTestsDone": "5",
+		"falsePositive_numErrors": "0",
+		"falsePositive_notes": "N/A"
+	},
+	"parserParameters": {
+		"parser": "FFVIIParser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Cloud", "Barret", "Tifa", "Cait Sith", "Aerith", "Yuffie", "Red XIII", "Vincent", "Cid"],
+	"characterGroups": {
+		"male": [
+			"Cloud",
+			"Barret",
+			"Biggs",
+			"Bugenhagen",
+			"Butch",
+			"Cait Sith",
+			"Cid",
+			"Dio",
+			"Don Corneo",
+			"Dyne",
+			"Elder Bugah",
+			"Elder Hargo",
+			"Heidegger",
+			"Hojo",
+			"Holzoff",
+			"Joe",
+			"Johnny",
+			"King",
+			"Kotch",
+			"Mukki",
+			"Palmer",
+			"President Shinra",
+			"Reeve",
+			"Reno",
+			"Rude",
+			"Rufus",
+			"Scotch",
+			"Sephiroth",
+			"Tseng",
+			"Vincent",
+			"Wedge",
+			"Zack",
+			"Zangan",
+			"Bald Black Man",
+			"Bald Man",
+			"Bald Man in Suspenders",
+			"Rocket Town Barkeeper",
+			"Turtle's Paradise Barkeeper",
+			"Icicle Inn Barkeeper",
+			"Junon Barkeeper",
+			"Cosmo Canyon Barkeeper",
+			"Kalm Barkeeper",
+			"Wall Market Barkeeper",
+			"Bar del Sol Barkeeper",
+			"Bartender",
+			"Big Bald Man",
+			"Big Man",
+			"Billy",
+			"Black Man",
+			"Black Surfer",
+			"Black-haired Man",
+			"Blond Man",
+			"Choco Bill",
+			"Choco Billy",
+			"Chocobo Sage",
+			"Boy",
+			"Brown-haired Guy",
+			"Captain",
+			"Clone",
+			"Clone #11",
+			"Clone #12",
+			"Clone #4",
+			"Clone #5",
+			"Clone #6",
+			"Clone #9",
+			"Clone 2",
+			"Clones",
+			"Small Clone",
+			"Smaller Clone",
+			"Commander",
+			"Corneo",
+			"Dark-clothed Man",
+			"Dark-haired Man",
+			"Delinquent Soldier",
+			"Doctor",
+			"Domino",
+			"Doorman",
+			"Downed Man",
+			"EDK",
+			"Fisherman",
+			"Godo",
+			"Gorky",
+			"Guy",
+			"Guy Near Mog Game",
+			"Guy Near Submarine Game",
+			"Guy Outside",
+			"Guy on Motorcycle Game",
+			"Guy on Snowboard Game",
+			"Hart",
+			"Johnny's Cousin",
+			"Johnny's Dad",
+			"Knight",
+			"Large Man",
+			"Little Boy",
+			"Man",
+			"Man 1",
+			"Man 2",
+			"Man 3",
+			"Man 4",
+			"Man 5",
+			"Man Betting",
+			"Man Cooking Outside",
+			"Man Following",
+			"Man Lifting Weights",
+			"Man Looking at Painting",
+			"Man Looking at Paintings",
+			"Man Near Gate",
+			"Man Near Sea Plane",
+			"Man Outside Dress Shop",
+			"Man Outside Godo's House",
+			"Man Outside Restaurant",
+			"Man Practicing Kicks",
+			"Man Sitting Down",
+			"Man Swimming",
+			"Man Upstairs",
+			"Man Using Punching Bag",
+			"Man Waiting Outside Bathroom",
+			"Man with camera",
+			"Man at Table",
+			"Man by Fence",
+			"Man by Furnace",
+			"Man in Bathroom",
+			"Man in Blue",
+			"Man in Corner",
+			"Man in Hardhat",
+			"Man in Hat",
+			"Man in Nap Room",
+			"Man in Overalls",
+			"Man in Straw Hat",
+			"Man in Thicket",
+			"Man in Yard",
+			"Man on Beach",
+			"Man on Roof of Small House",
+			"Man on Treadmill",
+			"Man on the Beach",
+			"Man on the Path to Godo's House",
+			"Man outside Godo's House",
+			"Man outside Honey Bee Inn",
+			"Man with Hat",
+			"Man with Head on Table",
+			"Men",
+			"Men Doing Squats",
+			"Men on the Beach",
+			"Mr. Coates",
+			"Mr. Hangman",
+			"Naked Man 1",
+			"Naked Man 2",
+			"Naked Man 3",
+			"Old Man",
+			"Old Man Playing with Dog",
+			"Old Man Upstairs",
+			"Old Man at Entrance",
+			"Old Man outside Item Shop",
+			"Older Man",
+			"Red XIII",
+			"Shinra Manager",
+			"Station Man",
+			"Gramps",
+			"Shake",
+			"Staniv",
+			"Tanned Man",
+			"Three Guys Posing",
+			"Voice in Cloud's head",
+			"Wizard",
+			"Zack's Father",
+			"Clothing Shop Owner",
+			"Redhead in Suit",
+			"Wutai Item Shopkeeper",
+			"Tifa's Father",
+			"Beautiful Bro",
+			"Arguing Man",
+			"Boys",
+			"Bulletin",
+			"Bystanders",
+			"Carriage Driver",
+			"Cat Kid",
+			"Crew",
+			"Crew Member",
+			"Crew Member 2",
+			"Crew Member 3",
+			"Crew Member 4",
+			"Customer",
+			"Driver",
+			"Elevator Guard",
+			"Excavator",
+			"Excavator 2",
+			"Excavator 3",
+			"Head Excavator",
+			"Pilot",
+			"Taxi Pilot",
+			"Gatekeeper",
+			"General Store Shopkeeper",
+			"Tool Shopkeeper",
+			"Weapon Shopkeeper",
+			"Materia Shopkeeper",
+			"Materia Shopkeeper (Cosmo Canyon)",
+			"Materia Shopkeeper (Junon)",
+			"Materia Shopkeeper (Sector 5)",
+			"Materia Shopkeeper (Mideel)",
+			"General Storekeeper",
+			"Guard",
+			"Guard 2",
+			"Guards Outside Trailer",
+			"Innkeeper (Shildra Inn)",
+			"Innkeeper (Gongaga)",
+			"Innkeeper (Kalm)",
+			"Innkeeper (Junon)",
+			"Innkeeper (Costa del Sol)",
+			"Innkeeper (Nibelheim)",
+			"Innkeeper (North Corel)",
+			"Item Shopkeeper (Slums)",
+			"Item Shopkeeper (Fort Condor)",
+			"Item Shopkeeper (Costa del Sol)",
+			"Item Shopkeeper (Mideel)",
+			"Item Shopkeeper (Gongaga)",
+			"Item Shopkeeper (Upper Junon)",
+			"Kalm Traveler",
+			"Kid outside Seventh Heaven",
+			"Kid in weapon shop",
+			"Kid in house",
+			"Boy in trio",
+			"Kid in North Corel",
+			"Kid in Cosmo Canyon",
+			"Kid by Cat Statue",
+			"Kid in Nanaki's Room",
+			"Kid near the Cosmo Candle",
+			"Kid outside Bar",
+			"Kid outside Sealed Door",
+			"Manager",
+			"Mayor",
+			"Mechanic",
+			"Mechanic 1",
+			"Mechanic 2",
+			"Mechanic 3",
+			"Other Guys",
+			"Passenger",
+			"Person Outside the Pipe",
+			"Person Running Around",
+			"Person in Blue",
+			"Pharmacy Owner",
+			"Redhead",
+			"Redhead 2",
+			"Sailor",
+			"Sailor 2",
+			"Sailor 3",
+			"Sailor 4",
+			"Sailor Outside Underwater Reactor",
+			"Sailor Running Around",
+			"Sailor on the Helipad",
+			"Shinra Employee",
+			"Shinra Soldier",
+			"Shinra Soldiers",
+			"Shopkeeper (Items Sector 7)",
+			"Shopkeeper (Materia Junon)",
+			"Prison Bartender",
+			"Shopkeeper (Accessory Junon)",
+			"Shopkeeper (Item Mideel)",
+			"Shopkeeper (Weapon Mideel)",
+			"Soldier",
+			"Soldier 1",
+			"Soldier 2",
+			"Soldier 3",
+			"Soldier 4",
+			"Soldier Driving",
+			"Soldier Guarding the Respectable Inn",
+			"Soldier Near Lift",
+			"Soldier Studying",
+			"Soldier by Elevator",
+			"Soldier on the Path to the Airport",
+			"Soldier outside Cargo Ship",
+			"Soldiers",
+			"Soldiers Practicing Victory Poses",
+			"Soldiers Sleeping",
+			"Soldiers at the Airport",
+			"Soldiers in Reactor",
+			"Staff",
+			"Staffer",
+			"Thief",
+			"Three Liars",
+			"Ticket Person",
+			"Train Bum",
+			"Village Headman",
+			"Weapon Seller",
+			"Weapon Shop Owner",
+			"Weapons Shopkeeper (Slums)",
+			"Weapons Shopkeeper (Junon)",
+			"Weapons Shopkeeper (North Corel)",
+			"Weapons Shopkeeper (Gongaga)",
+			"Weapons Shopkeeper (Rocket Town)",
+			"Wutai Weapon Shopkeeper",
+			"White Surfer"
+		],
+		"female": [
+			"Admissions Lady",
+			"Beautiful Girl",
+			"Black Woman",
+			"Chekhov",
+			"Chole",
+			"Black-haired Girl",
+			"Blond",
+			"Honey Bee Girl",
+			"Girl",
+			"Girl Sledding",
+			"Girl Upstairs",
+			"Girl in Blue",
+			"Girl in Blue Outside",
+			"Girls Building a Snowman",
+			"Johnny's Mom",
+			"Lady",
+			"Lady at Entrance",
+			"Lady at the Ticket Desk",
+			"Little Girl",
+			"Little Girls",
+			"Tifa",
+			"Aerith",
+			"Elena",
+			"Elmyra",
+			"Ester",
+			"Jessie",
+			"Marlene",
+			"Priscilla",
+			"Scarlet",
+			"Shera",
+			"Yuffie",
+			"Lucrecia",
+			"Nurse",
+			"Old Woman",
+			"Old Woman in Rocking Chair",
+			"Older Woman",
+			"Registration Lady",
+			"Shopkeeper's Daughter",
+			"Woman",
+			"Woman 2",
+			"Woman 3",
+			"Woman Behind Counter",
+			"Woman Lounging on Sea Plane",
+			"Woman Outside Battle Square",
+			"Woman Sitting Down",
+			"Woman Walking Around",
+			"Woman Walking Near River",
+			"Woman Walking near River",
+			"Woman at Ticket Booth",
+			"Woman at the Information Kiosk",
+			"Woman in Bathroom",
+			"Woman in Blue",
+			"Woman in Shop",
+			"Woman on Treadmill",
+			"Women",
+			"Women Walking Around",
+			"Young Woman",
+			"Zack's Mother",
+			"Arguing Woman",
+			"Black-haired Woman",
+			"Cloud's Mom",
+			"Elevator Attendant",
+			"Excavator 4",
+			"Excavator near Forest",
+			"Materia Shopkeeper (Fort Condor)",
+			"Gossip",
+			"Innkeeper (Icicle Inn)",
+			"Person",
+			"Shinra Receptionist",
+			"Gym Receptionist",
+			"Battle Arena Receptionist",
+			"Redhead in Bathroom",
+			"Secretary",
+			"Shinra Cashier",
+			"Shopper",
+			"Staff Person",
+			"Weapons Shopkeeper (Cosmo Canyon)",
+			"Accessory Shopkeeper",
+			"Costa del Sol Waitres",
+			"Redhead (Junon)",
+			"Shinra Member's Barkeeper"
+		],
+		"system": ["Finger", "On-Screen"],
+		"ambiguous": ["Jenova"],
+		"neutral": [
+			"Flyer",
+			"Flyer on Wall",
+			"Flyer on wall",
+			"Fortune Telling Machine",
+			"Narration",
+			"Narrator",
+			"Pub [Turtle's Paradise] Publicity Flyers! Notice",
+			"Sign",
+			"Sign in Bathroom",
+			"Someone",
+			"Spirit Body",
+			"TV",
+			"TV Producer",
+			"AD",
+			"Time Guardian",
+			"Vending Machine",
+			"Chocobo",
+			"Chocobo Mascot",
+			"Chocobo Mascots",
+			"Little Kid",
+			"(operator)",
+			"A sign to the far left",
+			"All",
+			"Computer",
+			"Cook",
+			"Couple",
+			"Couple 2",
+			"Escapee Report no. 1",
+			"Escapee Report no. 2",
+			"Escapee Report no. 3",
+			"Escapee Report no. 4",
+			"Everyone",
+			"First Speaker",
+			"Second Speaker",
+			"Ghost",
+			"Ghost 2",
+			"Glass Tank",
+			"Second Tank",
+			"Info Board inside the Station",
+			"Item Plaques",
+			"Jockeys",
+			"People Fleeing",
+			"People Playing Wonder Catcher",
+			"People Praying",
+			"Person in Bathroom",
+			"Press Representatives",
+			"Punk",
+			"Ghost Square Receptionist",
+			"Security",
+			"Train Worker",
+			"Zombie",
+			"Train Announcement",
+			"News Anchor",
+			"Library Notice",
+			"Ship Announcement",
+			"Race Announcement",
+			"Report",
+			"Military Announcement",
+			"Submarine Radio",
+			"Control Panel",
+			"Voice on phone",
+			"Wall Market Diner Waiter"
+		]
+	},
+	"aliases": {
+		"Flower Girl": "Aerith",
+		"Little Cloud": "Cloud",
+		"Aeris": "Aerith",
+		"Sephorith": "Sephiroth",
+		"Girl + Boy": ["Girl", "Boy"],
+		"(from outside)": "Cloud",
+		"Man": {
+			"Arguing Man": "But baby, that's way too expensive."
+		},
+		"Woman": {
+			"Arguing Woman": "What did you say?"
+		},
+		"Man + Woman": ["Arguing Man", "Arguing Woman"],
+		"Black man": "Black Man",
+		"Pilot in Training (LV3)": "Pilot",
+		"Pilot in Training (LV4)": "Pilot",
+		"Pilot in Training (LV6)": "Pilot",
+		"Full Fledged Pilot": "Pilot",
+		"Learner Pilot (L10)": "Pilot",
+		"Learner Pilot (L13)": "Pilot",
+		"Learner Pilot (L14)": "Pilot",
+		"Learner Pilot (L8)": "Pilot",
+		"Learner Pilot (LV11)": "Pilot",
+		"Learner Pilot (LV14 Limit Break!)": "Pilot",
+		"Pilot in Training": "Pilot",
+		"Pilot in training (LV6)": "Pilot",
+		"Man with Camera": "Man with camera",
+		"Black-haired girl": "Black-haired Girl",
+		"Cloud + Vincent": ["Cloud", "Vincent"],
+		"Kotch + Scotch": ["Kotch", "Scotch"],
+		"Nanaki": "Red XIII",
+		"Red": "Red XIII",
+		"Wall of Fame Staffer": "Staffer",
+		"Crew Members": "Crew Member",
+		"Weapons Shop Owner": "Weapon Shop Owner",
+		"Weapons Owner": "Weapon Shop Owner",
+		"Rude & Elena": ["Rude", "Elena"],
+		"Shopkeeper's Daughter + Clothing Shop Owner": [
+			"Shopkeeper's Daughter",
+			"Clothing Shop Owner"
+		],
+		"Station man": "Station Man",
+		"Surfer": "Black Surfer",
+		"Surfer 2": "White Surfer",
+		"Shopkeeper": {
+			"Wutai Item Shopkeeper": [
+				"You're still gonna sit here and buy stuff at a time like this?"
+			],
+			"Wutai Weapon Shopkeeper": [
+				"Hey yo! Welcome! You aren't tired of my babbling?"
+			],
+			"Materia Shopkeeper (Cosmo Canyon)": [
+				"Oh... is that so... then leave me alone and let me... yawn... sleep..."
+			],
+			"Shopkeeper (Items Sector 7)": [
+				"Uh oh... ... There goes the pillar. I'm scared, but it's for your own good. If things get too hairy, we'll escape. It's not something you'll see happen too often."
+			],
+			"Shinra Cashier": [
+				"Welcome. Today we have on special... Eagghhh!! Here, t, take the money...",
+				"A, AVALANCHE?",
+				"Ok... ok... well... Thank you and come again... Forget I said that...",
+				"You opened up all those things without asking and, hey wait!"
+			],
+			"Shopkeeper (Materia Junon)": [
+				"There's lots of stores in Junon. If we don't do this... we can't compete. But, what bothers me is that the girls make more than me.",
+				"I hired more girls after hearing that the world's coming to an end, but I wonder if I made a mistake. I keep getting more and more in debt. I've got to get out from under it somehow. Maybe I'll have Weapon help me."
+			],
+			"Prison Bartender": [
+				"A rookie? Then you gotta buy something. Yup, that's the rule here."
+			],
+			"Shopkeeper (Accessory Junon)": [
+				"I used to be in SOLDIER. Recently, I've felt like dressing up like this... I don't know why, it's out of season, but..."
+			],
+			"Shopkeeper (Item Mideel)": [
+				"Welcome! We always welcome cash! Now, about where you want to go... I'm afraid other customers have already booked it up. There's nothing left. ... ... just kidding! Just a little joke. Now what can I do for you? Thank you! Come again!"
+			],
+			"Shopkeeper (Weapon Mideel)": [
+				"Welcome to the charity store, a store of love and courage! What can I get you today? Thank you very much! Please come again.",
+				"Is something wrong... ... ?",
+				"Oh... why, thank you very much.",
+				"Huh? Key? You mean the one to that door?",
+				"Hah, hah, hah! That's a good one!",
+				"Of course there's no key. It's a wall. We just painted a door on it.",
+				"That's right. We drew it on there to make it feel like you could pass through it to another world. Sorry to have surprised you. It's not much of an apology, but please take this.",
+				"If possible, we're hoping to pass through a dream door like that one into another world I got the feeling that you all might be able to make my dreams come true in my place. Weird, isn't it?"
+			],
+			"Materia Shopkeeper (Mideel)": [
+				"Ah, welcome to you! What I get you to-day? Thank very much! You come 'gain."
+			]
+		},
+		"Pilot": {
+			"Taxi Pilot": [
+				"Where to?",
+				"Right! The next town it is!!",
+				"Thanks!!",
+				"Then outside Junon it is! Take care!!!"
+			]
+		},
+		"Materia Shopkeeper": {
+			"Materia Shopkeeper (Sector 5)": [
+				"I don't care if it's scrap metal or materia. We can get anything here in the slums. Got a lot of good materia here. Why don't you look it over?",
+				"Hey! Don't come barging into my house and be opening up my freezer! Didn't your mother ever teach you that?",
+				"Living in a place like this, you could live out several lives, and it still wouldn't be enough! Well, how about some materia? Make some money and then scramble out of here!",
+				"And I just got together enough money to get out of this place... Now it doesn't matter where I go! Ho, ho, ho..."
+			],
+			"Materia Shopkeeper (Fort Condor)": [
+				"Hello. I'm sorry but we're not selling anything now. We're using everything we have for ourselves.",
+				"Hello. Do your best. We will, too."
+			],
+			"Materia Shopkeeper (Junon)": [
+				"Come on, forget about your job! Step right up!!",
+				"Welcome! I was just starting to get worried... You see our sales were pretty bad today.",
+				"Come on in! Welcome!! I just can't believe it. I never thought a monster like Weapon really existed."
+			],
+			"Materia Shopkeeper (Cosmo Canyon)": [
+				"... num... yawn... Sir,... You... forgot... ... your... ... change. ... num... Yes, I'm coming... Are you here to shop?",
+				"Oh... is that so... You're here to shop?",
+				"I'm sorry! We hardly ever get any customers so... ... Oh, but I DO have confidence in our materia! I'm... I'm so sorry! It seems as though I've become so used to being lazy...",
+				"Oh man... Everything is over, once the meteor hits... I've been selling Materia for 10 years now, ever since I was 16. What have I been doing with my life... ? Welcome! Oh, it's nothing. Now, please make yourselves comfortable!"
+			],
+			"Materia Shopkeeper (Mideel)": [
+				"Welcome. Just what you need at time like this--a shop of rest and relaxation. What you want? Thank you! We don't have many goods but you coming again, please."
+			]
+		},
+		"Innkeeper": {
+			"Innkeeper (Kalm)": [
+				"Mr... ... Cloud? Your party is waiting for you on the 2nd floor."
+			],
+			"Innkeeper (Junon)": [
+				"Are you sure it's all right? Nap while on duty?",
+				"Welcome to the 'Inn'd of the line' in Junon. Wait, I shouldn't be sayin' stuff like that. Wanna spend the night?",
+				"Enjoy your stay.",
+				"Good morning! You still seem a little sleepy. Looking forward to seeing you again.",
+				"Come again."
+			],
+			"Innkeeper (Costa del Sol)": [
+				"Uggh! I feel God awful! Oh!! You! Weren't you the one with that big sailor?",
+				"Listen to this... All of a sudden, this big sailor just busts in here, and takes over the restroom. He's been in there moaning ever since. I don't know what I'm gonna do. Ah... ... if you're checking in, would you please pay his bill, too?",
+				"Come on now... He's a friend of yours... ... fibber. What now? Call it a night? 200 gil a night.",
+				"Wrong guy? It puts us in a bad situation. That guy's taken over the john. And he hasn't even paid his hotel bit yet. Ah... ... if you're checking in, would you please pay his bill, too?",
+				"Come on now... He's a friend of yours... ... fibber. What now? Call it a night? 200 gil a night.",
+				"Shucks!! Too bad! Hey! Hey you! Does your friend have a cute lady? She came in here looking for him a while ago. Shouldn't you find her? What are you going to do? Just forget about her and go to bed? 200 gil a night.",
+				"Welcome!! What's it going to be? 200 gil a night.",
+				"You must be tired. Tomorrow in the Costa del Sol area the weather is going to be... ... sunny, again. Cradled by the sound of the ocean waves... ... Sweet dreams...",
+				"Good morning. Be careful traveling. Your party has departed. Oops... ... That's bad luck... ... I mean, they have already left.",
+				"You sure? I'll just be playing around here so drop by whenever you feel like it.",
+				"(lying in bed) I don't feel like doing anything. I just want to spend the rest of my life sleeping. Will you be staying together?"
+			],
+			"Innkeeper (Gongaga)": [
+				"Uh... need somethin'?",
+				"One day, there was a huge explosion. Many townspeople died in it...",
+				"You awake? Those people were so worried that they stayed by your side until you woke up. You sure do have good friends."
+			],
+			"Innkeeper (Shildra Inn)": [
+				"Welcome to 'Shildra Inn'. It'll be 100 gil a night. Would you like to stay?",
+				"Have a great dream of the stars...",
+				"Were you able to hear the stars whispers? Well then, please come again.",
+				"Well then, please come again.",
+				"Welcome to 'Shildra Inn' As long as there are guests, our lights will always be on. It is 100 Gil a night. Would you like to stay?",
+				"Welcome to 'Shindra Inn'. It's times like this a nice, soft bed will do you good."
+			],
+			"Innkeeper (Nibelheim)": [
+				"Hi, welcome.",
+				"It'll be 100 gil a night. Is that all right with you?",
+				"Sir, don't say such awful things. I was born and raised in this town. What you say never happened.",
+				"EXUSE ME... ... That's so rude... If you're going to talk like that to me, I'm going to have to ask you to leave. Oh, I'm so sorry. I've got lots to do..."
+			],
+			"Innkeeper (Icicle Inn)": [
+				"It's colder than usual today... It's 200 gil, you wanna spend the night?"
+			],
+			"Innkeeper (North Corel)": [
+				"You all right? Some townspeople carried you here so the Shinra wouldn't find you. How much more will they have to destroy before they're satisfied!? Isn't anyone brave enough to stick it to Shinra?"
+			]
+		},
+		"Item Shopkeeper": {
+			"Item Shopkeeper (Slums)": [
+				"Ahh... Another slow day... ... If this keeps up, this store's goin' under... Can't sell any really good medicine in a slum like this. Oh!! Look at this! This doesn't happen everyday. You a... ... customer? Yes!! Welcome!! We sell! We buy!",
+				"... stare... ... ... hmph... we only trade items for gil here."
+			],
+			"Item Shopkeeper (Fort Condor)": [
+				"Sorry, but I can't sell you anything now.",
+				"You hang in there!"
+			],
+			"Item Shopkeeper (Costa del Sol)": [
+				"How about a 'Soft' as a memento of this wonderful trip? Made especially in Costa del Sol!",
+				"Wanna buy a souvenir to remember participating in the Meteor tour?"
+			],
+			"Item Shopkeeper (Gongaga)": [
+				"Oh... you here to shop?",
+				"Shinra built the reactor without even thinking about the town's safety. And, this is the result."
+			],
+			"Wutai Item Shopkeeper": [
+				"We got a lot of different stuff here. Take what you want."
+			],
+			"Item Shopkeeper (Upper Junon)": [
+				"They're not going to get me down! Not me!! Weapon, Meteor, even bad customers, aren't going to get me!"
+			],
+			"Item Shopkeeper (Mideel)": [
+				"Welcome! We always welcome cash! What can I do for you today? I'm sorry. Our stock isn't so great now... But that's just the way it is here. If you're looking for other items, why don't you check out the other stores?"
+			]
+		},
+		"Kid": {
+			"Kid outside Seventh Heaven": [
+				"Explosions! Explosions! Oh Man! AVALANCHE is so cool!",
+				"All's quiet!! Shh, I'm spying now! OH!! There's something!! DANGER!! ALERT!!",
+				"Ahh! Now I ain't got no one to pick on!",
+				"(standing by the door to 7th Heaven) When it comes down to it... I'm gutless. I'm still just a no good kid."
+			],
+			"Kid in weapon shop": [
+				"You dried up old geez. You tired? Why don't you rest up on the third floor of my house? There's just one condition. You gotta give me some cash.",
+				"Damn, man!! Just forget about it!",
+				"Oh man, oh man... ... Go ahead 'n' help yourself to the room.",
+				"Cheap %#*^",
+				"This is a slum, so don't think you can stay for free. What are you going to do? Doesn't just seeing the bed make you sleepy?",
+				"Sweet dreams, pops.",
+				"Tough guy, huh!? You'd better sleep when you can. You'd better save when you can. That's the trick to being tough. Remember that, old dude.",
+				"Toot toot! Next stop... Midgar Midgar. Any passengers getting off on Midgar should please ring. You know, Midgar's supposed to be sparkly 'n' springy 'n' sleeky. Oh yeah. Someday, I'm goin' there.",
+				"Wanna see somethin' awesome? Follow me!"
+			],
+			"Kid in house": [
+				"sniff... ... ... sniff... ... ... ... ... 'n' I hid it... ... so nuthin' like this... ... would ever happen... ... ... sniff... ...",
+				"SOLDIER? What about them!? Damn! If they really were from SOLDIER, they would be doing something about all this!!"
+			],
+			"Boy in trio": [
+				"Hey, scary, huh? Dad told me that it's the Shinra's doing."
+			],
+			"Kid in North Corel": [
+				"There was something glowing in that well over there. If I can get my hands on it, I'm gonna sell it and go to the Gold Saucer!",
+				"I got it out of the well. Isn't it an amazing rock!!",
+				"When I grow up, I'm gonna travel the world collecting glowing stones!",
+				"I got a glowing rock from the well. I'll sell it to you for 50000 gil!",
+				"Yay! My house is finished!!",
+				"You don't have enough money! Don't try to take advantage of me just because I'm a kid!!",
+				"I wish someone would buy this rock off of me..."
+			],
+			"Kid in Cosmo Canyon": [
+				"(walking in) Bugenhagen! Several odd looking people have come.",
+				"Don't worry, mom! All of us just need to go through that door! Mr. Bugenhagen sealed it so we wouldn't have to worry bout it! But what's a seal... ?",
+				"What's wrong with Bugenhagen? Is he sick?"
+			]
+		},
+		"Kid from the Weapons Shop": "Kid in weapon shop",
+		"Kid 2": "Kid in weapon shop",
+		"Kid Sleeping": "Kid in house",
+		"Letter": {
+			"Hojo": [
+				"I must get rid of all those that stand in the way of my research. Even that one from the Turks. I scientifically altered him, and put him to sleep in the basement. If you want to find him, then search the area. But... this is merely a game I thought of. It is not necessary for you to participate if you don't want to.",
+				"Move the dial on the safe carefully, but quickly. You have 20 seconds. You can not go past the numbers while turning. The 4 hints for the numbers are...",
+				"\n  dial (1)The lid of the box with the most oxygen.\n  dial (2)Behind the Ivory's short of tea and ray.\n  dial (3)The creek in the floor near the chair on the second floor... then to the left five steps, up nine steps, left two steps, and up six steps.\n  The fourth row has been written in invisible ink... Dial (4) is (Right 97)\n"
+			],
+			"Johnny": [
+				"Tifa, how are you? I just arrived in Midgar eight days ago. Yesterday, all of Nibelheim got together to welcome me. The only person that we couldn't get a hold of was Cloud. But everyone said he wasn't really that close to us. So even if we asked, he probably wouldn't have come anyway. Well, enough about him. Midgar is really something. But to tell the truth, I feel so behind on everything... so out of it. Even the rooms of people in the slums are clean. Right now I'm living in the slums, but I plan to move to a really nice room, like the ones I've seen in magazines, once I make some money. ... but, to do that, I guess I have to find a job first. That's right. I still haven't found a job yet. I lied to my parents and told them I found a great job with Shinra, Inc. I wonder if it's too late to go back. Sometimes I think I should've taken over my parents' store.",
+				"I just made it here to Midgar but all I think about is Nibelheim. Hey, Tifa... Is that stupid old water tower still working? Is the old man at the Inn doing well? Are my parents still at the shop everyday? Have any monsters attacked? And most of all, how are you, Tifa? It feels like I haven't seen you for years. We were all talking about you last night. Everyone likes you. But because everyone idolizes you, I couldn't very well stab them in the back. I always acted cool, but actually, I was just afraid of being jilted. Wow, if I keep writing like this, this'll become a love letter! So, I think I'll stop here. Take care. I'll write again. P.S. Write me back, okay?"
+			]
+		},
+		"Receptionist": {
+			"Shinra Receptionist": [
+				"Excuse me! If you don't have an appointment, you'll just have to...",
+				"Yaagghh!"
+			],
+			"Gym Receptionist": [
+				"You must be a visitor. Please feel free to use any unused machines."
+			],
+			"Ghost Square Receptionist": [
+				"It's our most popular employee, Mr. Hangman."
+			],
+			"Battle Arena Receptionist": [
+				"You know, I've been thinking about it for a while now, but you must be pretty strong? Probably strong enough to take on the top 1 or 2 fighters? Maybe you'll be good enough for the big match... ... How 'bout it? There's a private battle only for the strongest. Wanna try?"
+			]
+		},
+		"Weapons Shopkeeper": {
+			"Weapons Shopkeeper (Slums)": [
+				"He, HEY! Waitaminit you!! You can't just walk outta here without buyin' somethin'... Might be unhealthy fer ya, if ya know what I mean.",
+				"Take care of yourself. It's the law of the slums. But to do that, first you need weapons, right?",
+				"You never know what's going to happen! It's a crazy world, so you'd better at least have a weapon you can depend on! Am I right or what?"
+			],
+			"Weapons Shopkeeper (Junon)": [
+				"If you see a weapon you want, you'd better buy it.",
+				"Oh! Welcome! We don't have anything special now. I kind of messed up the last time I ordered but feel free to look around!"
+			],
+			"Weapons Shopkeeper (Gongaga)": [
+				"... You want something?",
+				"It's been a while since the explosion, but you can still find pieces of it left all over town."
+			],
+			"Weapons Shopkeeper (Cosmo Canyon)": [
+				"Oh, welcome. The people of this canyon hate to compete. So almost everything here are replicas. But that's all right. Some of them you can really use.",
+				"Welcome. You still want more weapons? You sure are weird... Uh, I mean, it's weird. if there weren't people like you, I'll be out of business. Heh, heh, heh... sweat... !"
+			],
+			"Weapons Shopkeeper (Rocket Town)": [
+				"A gun is a MAN'S weapon! Ain't nuthin' else'll do! Let me handle all your weapon and accessory needs!"
+			],
+			"Wutai Weapon Shopkeeper": [
+				"Sorry, listen I... No, nothing... never mind.",
+				"Hey yo! Welcome! Strike while the iron's hot, I say! We got some of the best blades right out of the furnace!"
+			],
+			"Weapon Shopkeeper": [
+				"Weapon was really something. Nothing can compare with his strength, but with a selection like this, our weapons'll win."
+			],
+			"Weapons Shopkeeper (North Corel)": ["My store was all right!"]
+		},
+		"Weapon Shopkeeper": {
+			"Weapons Shopkeeper (North Corel)": [
+				"If you want to survive, then you're gonna need some of my weapons."
+			]
+		},
+		"Accessory Shopkeeper": {
+			"Shopkeeper (Accessory Junon)": [
+				"I used to be in SOLDIER... Once I left, I opened up this shop... But to tell you the truth, I'd rather be at the shop downstairs."
+			]
+		},
+		"????": {
+			"Voice in Cloud's head": [
+				"... ... You all right?",
+				"Back then... ...",
+				"What about now? Can you get up?",
+				"... ... Don't worry about me.",
+				"... ... How about that?",
+				"... seem pretty tired",
+				"I haven't slept in a bed like this",
+				"Ever since that time.",
+				"What are you doing in a place like this?",
+				"That's what I want to ask you. Should you be foolin' around here?",
+				"You can't change anything by just sitting back and looking at it.",
+				"It's started moving.",
+				"Wake up!",
+				"rub, rub,",
+				"Wake up!!",
+				"... That reminds me.",
+				"... You'll find out soon",
+				"When you went to Mt. Nibel then, Tifa was your guide, right?",
+				"But where was Tifa other than that?",
+				"It was a great chance for you two to see each other again.",
+				"Why couldn't you see each other alone?",
+				"Why don't you try asking Tifa?",
+				"Then, get up!",
+				"Wait! Just a little longer!",
+				"Yes, that was how it got started.",
+				"I couldn't figure it out, either.",
+				"I wasn't pursuing Sephiroth",
+				"Sephiroth? Sephiroth?",
+				"Run... Run to the end of the Cannon!!",
+				"... ... I was devastated",
+				"Who.....",
+				"Who... ... ?"
+			],
+			"Reno": ["... ... I know you."],
+			"Sephiroth": [
+				"In my veins courses the blood of the Ancients."
+			],
+			"Jenova": [
+				"Our purpose is to deliver the Black materia to our master.",
+				"Those who carry Jenova's cells",
+				"Of course... Sephiroth."
+			],
+			"On-Screen": ["Five hundred years later..."]
+		},
+		"ACTION": {
+			"News Anchor": [
+				"And now for the news.",
+				"This just in. An accident today"
+			],
+			"Library Notice": [
+				"Materials are non-circulating! It is forbidden to remove any materials from this floor.",
+				"This is the Scientific Research Library.",
+				"This is the Space Dev Research Library.",
+				"This is the Public Order/Weapon Development"
+			],
+			"Ship Announcement": [
+				"Emergency alert! Reports of a suspicious character found! Those not on detail, search the ship. Report when found! I repeat. Suspicious character found on board! Those not on detail, search the ship. Report when found!",
+				"Dock workers--We will be docking in Costa del Sol in 5 minutes. Prepare for docking."
+			],
+			"Race Announcement": [
+				"The race will start in a few moments. Will the jockeys for the next race, please proceed to the paddock. I repeat..."
+			],
+			"Report": [
+				"\"Periodic Report to Professor Hojo\" 1 Clone Activity Report Unfortunately, no 'CLONES' have left this town this quarter. As previously reported, the 'CLONES' seem to be sensing something. But all they say is, 'reunion' or 'Sephiroth' and show no other signs of activity. 2 Confidentiality Report A total of eight people have visited this town this quarter. Fortunately, none knew about the incident five years ago. Therefore, no one knows the town was restored exactly as it was five years ago. Our staff, disguised as townspeople have improved their acting skills, and we do not report any problems at this time. That is all."
+			],
+			"Military Announcement": [
+				"Emergency! Emergency! Weapon's approaching! Attention all military personnel: take your positions!",
+				"Weapon approaching! Speed, 50 Knots! It's heading right toward us!",
+				"Speed, 70 Knots! Weapon, closing in!! Not good! It's attacking!"
+			],
+			"Submarine Radio": [
+				"... All Shinra Submarine Units, do you read... ? ... All Shinra Submarine Units, do you read... ?",
+				"... Report, No. 2...",
+				"... Roger... ... Your next mission is... ... Return to Junon Dock... ... We will transport the Huge Materia from the airport... ... Those without other assignments will report for guard duty... That is all. Over and out...",
+				"... Huge Materia recovered... ... no damage appears to have been sustained...",
+				"... analysis completed... ... exact date of origin cannot be determined... ... estimated to be several thousand years old..."
+			],
+			"Control Panel": [
+				"Passcode input error Unauthorized User identified Protection System will activate in 3 minutes",
+				"Mission Orders: "
+			],
+			"Voice on phone": [
+				"Someone has switched the machine over to mainframe operation! We can't operate it from here."
+			],
+			"STATUS": ["With Cloud as the party leader", "With Tifa as the party leader"],
+			"Vincent": ["If she is happy then... I don't mind."],
+			"Train Announcement": [
+				"Last train out of Sector 8 Station. Last stop is Sector 7, Train Graveyard. Expected time of arrival is 12:23AM, Midgar Standard Time...",
+				"Good Morning, and welcome to Midgar lines. Arrival time at Sector 4 Station will 11:45.",
+				"Type A Security Alert!! Unidentified passengers confirmed... A search of all cars will be conducted! Repeat!! Type A Security Alert!! Unidentified passengers confirmed... A search of all cars will be conducted!",
+				"Unidentified passengers located in Car #1 Preparing for Lock Down",
+				"Car #1: Locked Down Upgrading to Level 2 Warning",
+				"Unidentified passengers located in Car #2 Preparing for Lock Down",
+				"Car #2: Locked down Upgrading to Warning Level 3",
+				"Unidentified Passengers: Moving to front of Train Currently tracking location",
+				"Car #3: Locked Down Upgrading to Warning Level 4",
+				"Car #4: Locked Down Upgrading to maximum security alert!!",
+				"Car #1: Locked Down Car being sent to the Station",
+				"Car #2: Locked down Car being sent to station",
+				"Car #4: Locked down Illegal ID will be taken to Station"]
+		},
+		"Cloud": {
+			"ACTION": ["Sit in the seat", "Submarine Operation Manual"]
+		},
+		"Mechanics": ["Mechanic 1", "Mechanic 2", "Mechanic 3"],
+		"Waitress" : {
+			"Wall Market Diner Waiter": [
+				"Welcome! Sit wherever you like!",
+				"Have a seat over here.",
+				"Yes, what will you have?",
+				"One [dish name].",
+				"In this store, you pay first.",
+				"Hey! Cancel that last order!",
+				"Thank you. Just a second.",
+				"Thank you. Here's an item coupon",
+				"Sorry! But we're completely full! Please come again!"
+			],
+			"Costa del Sol Waitres": [""]
+		},
+		"Redhead": {
+			"Redhead (Junon)": ["I won't charge you for a smile"]
+		},
+		"Girls": ["Redhead (Junon)", "Black-haired Girl"],
+		"Barkeeper": {
+			"Rocket Town Barkeeper": [
+				"Would you like something to drink?",
+				"Did you meet the Captain already?",
+				"... ... that's too bad. Please come again.",
+				"Cid's had some bad breaks.",
+				"You don't feel comfortable here?",
+				"Y'know, I heard Rufus rushed back to headquarters in Midgar"],
+			"Turtle's Paradise Barkeeper": [
+				"Hey, hey, welcome! You on a trip?",
+				"Seems like the town got really boisterous",
+				"First the ground started shaking",
+				"Seems like Palmer of Shinra, Inc",
+				"Even though they failed to blow up Meteor"],
+			"Icicle Inn Barkeeper": [
+				"I've heard there's a snow woman"
+			],
+			"Junon Barkeeper": [
+				"I'd like to close down this shop",
+				"I'm sorry! It's all rented out today!"],
+			"Shinra Member's Barkeeper": [
+				"I'm sorry. I've decided to close this place down",
+				"Hey soldier-boy, aren't you still on duty?"],
+			"Cosmo Canyon Barkeeper": [
+				"How about our original cocktail",
+				"Welcome. How 'bout our original cocktail"],
+			"Kalm Barkeeper": ["They say the remaining members of AVALANCHE broke Shinra's resistance"],
+			"Wall Market Barkeeper": ["Yes? If you want to order, do it at the counter."],
+			"Bar del Sol Barkeeper": ["Welcome to Bar del Sol! Here's to tropical nights!"]
+		}
+	}
+}

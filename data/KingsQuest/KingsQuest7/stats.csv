@@ -1,0 +1,6 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/KingsQuest/KingsQuest7/,False,King's Quest VII: The Princeless Bride,King's Quest,TOTAL,1782,21358,4723,24878,-0.08161956945147786,103.70216379928617,6.446134548285335,69
+../data/KingsQuest/KingsQuest7/,False,King's Quest VII: The Princeless Bride,King's Quest,male,758,10651,2174,12432,0.09384225511648303,103.11591333253064,6.650277132138449,40
+../data/KingsQuest/KingsQuest7/,False,King's Quest VII: The Princeless Bride,King's Quest,female,974,10296,2440,11960,-0.23725716178175027,104.279305514158,6.216749506158686,19
+../data/KingsQuest/KingsQuest7/,False,King's Quest VII: The Princeless Bride,King's Quest,neutral,39,393,96,459,-0.2117581106870201,103.87221016221375,6.69219631043257,7
+../data/KingsQuest/KingsQuest7/,False,King's Quest VII: The Princeless Bride,King's Quest,not coded,11,18,13,27,2.650000000000002,78.52961538461541,13.354621367521368,3

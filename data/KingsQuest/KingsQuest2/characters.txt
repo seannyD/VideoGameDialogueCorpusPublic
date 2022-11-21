@@ -1,0 +1,11 @@
+"SYSTEM" :1000,
+"Antique Shop Lady" :16,
+"Grandma" :11,
+"Genie" :7,
+"Valanice" :5,
+"Monk" :5,
+"Graham" :4,
+"Fairy" :2,
+"Little Red Riding Hood" :2,
+"Winged Horse" :2,
+"Fish" :1

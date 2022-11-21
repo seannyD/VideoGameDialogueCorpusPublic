@@ -1,0 +1,201 @@
+{
+	"game": "King's Quest IV: The Perils of Rosella",
+	"series": "King's Quest",
+	"year": 1988,
+	"notes": "The parser may be overly complicated. There are only 200ish lines, they could be manually assigned",
+	"source": "https://kingsquest.fandom.com/wiki/KQ4SCI_transcript",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "complete",
+		"dialogueOrder": false,
+		"choices": "NA"
+	},
+	"error checks": {
+	    "truePositive_numTestsDone": "5",
+	    "truePositive_numParsingErrors": "0",
+	    "truePositive_numSourceErrors": "0",
+	    "truePositive_notes": "N/A",
+
+	    "falsePositive_numTestsDone": "5",
+	    "falsePositive_numErrors": "0",
+	    "falsePositive_notes": "N/A"
+	},
+	"parserParameters": {
+		"parser": "KQ4Parser",
+		"startText": "<span class=\"mw-headline\" id=\"Text.004\">Text.004</span>",
+		"endText": "<span class=\"mw-headline\" id=\"Text.697\">Text.697</span>",
+		"characterCues": {
+			"bucket": "Dwarf near diamond bucket",
+			"softens": "Dwarf near diamond bucket",
+			"dwarf": "Dwarf",
+			"fisherman": "Fisherman",
+			"fisherman's wife": "Fisherman's wife",
+			"hen": "Hen",
+			"ogress": "Ogress",
+			"ogre": "Ogre",
+			"prince": "Frog prince",
+			"fairy": "Genesta",
+			"Lolotte": "Lolotte",
+			"Edgar": "Edgar",
+			"Rosella": "Rosella",
+			"Genesta": "Genesta",
+			"minstrel": "Minstrel",
+			"tired": "Fisherman",
+			"witches": "Witch",
+			"witch": "Witch",
+			"hags": "Witch",
+			"crones": "Witch",
+			"you": "Rosella"
+		},
+		"skipLines": [
+			"avoid",
+			"get",
+			"James",
+			"King's Quest II,",
+			"Leisure-Suit Larry in the Land of the Lounge Lizards",
+			"King's Quest I.",
+			"Space Quest!",
+			"Space Quest II!",
+			"Police Quest!",
+			"The Black Cauldron!",
+			"King's Quest III!",
+			"Mixed-Up Mother Goose!",
+			"Leisure Suit Larry Goes Looking For Love (in Several Wrong Places.)",
+			"popular ballad.",
+			"leaf",
+			"accidentally",
+			"oldie, but goodie.",
+			"Greensleeves.",
+			"The Compleat Works of William Shakespeare."
+		]
+	},
+	"mainPlayerCharacters": ["Rosella"],
+	"characterGroups": {
+		"male": [
+			"Dwarf",
+			"Dwarf near diamond bucket",
+			"Edgar",
+			"Fisherman",
+			"Frog prince",
+			"Graham",
+			"Ogre",
+			"Minstrel"
+		],
+		"neutral": ["Raven", "Robin", "Unknown","Cockatoo","Swamp monster"],
+		"female": [
+			"Fisherman's wife",
+			"Genesta",
+			"Hen",
+			"Lolotte",
+			"Ogress",
+			"Rosella",
+			"Witch"
+		]
+	},
+	"aliases": {
+		"Fisherman": {
+			"Fisherman's wife": [
+				"What're you doin",
+				"I said GIT",
+				"You're a very kind girl",
+				"Thank you very much",
+				"You have certainly helped us"
+			]
+		},
+		"Unknown": {
+			"Ogress": ["JUST A MINUTE! I'M COMIN'!"],
+			"Fisherman's wife": ["Jest come on in!"],
+			"Fisherman": ["D'ya know what TIME it is?! GO AWAY!!"],
+			"Frog prince": ["Ribbit! Ribbit!"],
+			"Dwarf": [
+				"Go away!",
+				"We're all asleep here! Come back tomorrow!",
+				"...and STAY OUT!"
+			],
+			"Robin": ["Cheep, cheep!"],
+			"Ogre": ["Got ya!"],
+			"Swamp monster": ["Oh, boy! I sure love frog legs!"],
+			"Cockatoo": ["Polly want a cracker!"],
+			"Rosella": [
+				"Phew! I hope that's the last of it!",
+				"Oh, my goodness!!",
+				"A CHASM!!!",
+				"Aaaaahhhhhhh!!",
+				"Oh, Father!",
+				"You're still young; you should have many years ahead of you! Oh, I wish I could help you, Father!",
+				"Aaaaahhhhhhh!!",
+				"Polly want a cracker?"
+			],
+			"Graham": [
+				"Help me,",
+				"Never felt better in my life",
+				"What is IN this fruit"
+			],
+			"Raven": ["Caw, caw!", "Caw! Caw!"],
+			"Edgar": ["Rosella,", "I love you. Will"]
+		},
+		"Rosella": {
+			"Lolotte": [
+				"I don't know how",
+				"Bring me the hen",
+				"If you do just ONE MORE",
+				"I want to have Pandora's Box",
+				"Take her away",
+				"My son, Edgar,",
+				"You'll be married first",
+				"You will sleep in Edgar's",
+				"Rosella. What a pretty name",
+				"Let us relieve you of your burdensome"
+			],
+			"Frog prince": [
+				"Well, ta, ta,",
+				"I'm off. Here, you may keep THIS!"
+			],
+			"Edgar": ["You may now walk freely about the castle. I..."],
+			"Dwarf": ["Is Daventry far from Tamir?", "How did you get here?"],
+			"Graham": [
+				"Never felt better in my life!",
+				"What is IN this fruit, anyway?"
+			],
+			"Minstrel": [
+				"Well, well. Who do we have here?",
+				"Hello, Rosella,",
+				"Let me play for you one of my favorite tunes,",
+				"This is wonderful!",
+				"This gives me a new lease on life! No longer am I a mere minstrel...now I will become a famous ACTOR! 'TO BE OR NOT TO BE.' How's that?"
+			],
+			"Genesta" : [
+				"It will not be easy to reach",
+				"Do you really mean that?",
+				"I am,",
+				"Look in the magic mirror.",
+				"I am the fairy, Genesta.",
+				"But, this is no ordinary fruit;",
+				"Good-bye! We'll never forget you",
+				"Lolotte is very evil",
+				"Further, I cannot send you home without my talisman."
+			]
+		},
+		"Lolotte": {
+			"Rosella": ["Rosella."]
+		},
+		"Genesta": {
+			"Rosella": ["YES!!", "I'm sorry Edgar,"],
+			"Edgar": ["Rosella,", "I love you. Will you marry me?"]
+		},
+		"Dwarf": {
+			"Rosella": ["Daventry."]
+		},
+		"Ogre": {
+			"Genesta": [
+				"My little Hen!",
+				"Where ever did you find her?",
+				"Poor thing,",
+				"Well, at least she's back home now."
+			]
+		},
+		"Dwarf near diamond bucket": {
+			"Rosella": ["hello"]
+		}
+	}
+}

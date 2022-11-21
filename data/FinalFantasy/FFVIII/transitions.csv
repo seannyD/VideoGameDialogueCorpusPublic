@@ -1,0 +1,17 @@
+folder,series,game,from,to,frequency
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,-,-,170
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,-,female,541
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,female,-,508
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,-,male,1037
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,male,female,630
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,female,male,715
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,male,-,1196
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,female,female,152
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,-,neutral,33
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,neutral,female,26
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,neutral,male,34
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,male,male,1100
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,male,neutral,40
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,neutral,-,27
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,neutral,neutral,8
+../data/FinalFantasy/FFVIII/,Final Fantasy,Final Fantasy VIII,female,neutral,13

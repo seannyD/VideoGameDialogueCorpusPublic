@@ -1,0 +1,12 @@
+folder,series,game,from,to,frequency
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,-,-,1
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,-,male,949
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,male,-,957
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,-,female,23
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,female,-,32
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,male,male,1498
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,male,female,118
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,-,neutral,5
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,neutral,-,5
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,neutral,neutral,1
+../data/MonkeyIsland/TheCurseOfMonkeyIsland/,Monkey Island,The Curse of Monkey Island,female,male,109

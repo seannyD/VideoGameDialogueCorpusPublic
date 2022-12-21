@@ -60,7 +60,7 @@ logLikelihood.test = function(freqInCorpus1, freqInCorpus2, sizeOfCorpus1, sizeO
   # A single test is done like this:
   # logLikelihood.test(2554, 3468, 110000, 140000)
   G2 = logLikelihood.G2(freqInCorpus1,freqInCorpus2,sizeOfCorpus1,sizeOfCorpus2)
-  p.value = pchisq(G2, df=2, lower.tail=FALSE)
+  p.value = pchisq(G2, df=1, lower.tail=FALSE)
   #print(paste("Log Likelihood =",G2, ", p = ",p.value))
   return(data.frame(G2 = G2, p = p.value))
 }

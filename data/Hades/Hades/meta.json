@@ -1,0 +1,65 @@
+{
+	"game": "Hades",
+	"series": "Hades",
+	"year": 2018,
+	"source": "https://hades-dialogue-resources.carrd.co/",
+	"alternativeMeasure": true,
+	"sourceFeatures": {
+		"type": "game data",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "None"
+	},
+	"parserParameters": {
+		"parser": "HadesParser",
+		"fileType": ".lua"
+	},
+	"mainPlayerCharacters": ["Hades"],
+	"characterGroups": {
+		"male": [
+			"Hades",
+			"Achilles",
+			"Charon",
+			"Hypnos",
+			"Orpheus",
+			"Patroclus",
+			"Sisyphus",
+			"Storyteller",
+			"Thanatos",
+			"Zagreus",
+			"Ares",
+			"Dionysus",
+			"Hermes",
+			"Poseidon",
+			"Scratch",
+			"Zeus",
+			"Minotaur",
+			"Skelly",
+			"Theseus"
+		],
+		"female": [
+			"Eurydice",
+			"Megaera",
+			"Nyx",
+			"Dusa",
+			"Persephone",
+			"Aphrodite",
+			"Artemis",
+			"Athena",
+			"Demeter",
+			"Alecto",			
+			"Tisiphone"
+		],
+		"neutral": [
+			"Bouldy",
+			"Unknown",
+			"Chaos",
+			"Intercom"
+		]
+	},
+	"aliases": {
+		"Unknown": {
+			"Bouldy": [".   .   .   ."]
+			}
+	}
+}

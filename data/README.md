@@ -12,7 +12,7 @@ Note that some games have multiple folders with alternative sources. Only some o
 | DragonAge/DragonAge2/ |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | DragonAge/DragonAgeOrigins_B/ |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | ElderScrolls/Daggerfall/ |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
-| ElderScrolls/Morrowind/ |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
+| ElderScrolls/Morrowind/ |  :ok: | :ok: | :ok: | :x: | :ok: | :ok: |
 | ElderScrolls/Oblivion/ |  :ok: | :ok: | :ok: | :ok: | :x: | :ok: |
 | ElderScrolls/Skyrim/ |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | FinalFantasy/FFI/ |  :ok: | :ok: | :ok: | :ok: | :x: | :ok: |

@@ -139,6 +139,10 @@ folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,Fles
 ../data/Test/Test/,True,Test,Test,male,3,3,2,3,-3.2049999999999983,120.7125,19.500899999999998,3
 ../data/Test/Test/,True,Test,Test,female,5,5,4,5,-3.3024999999999984,120.96625,19.4885,5
 ../data/Test/Test/,True,Test,Test,neutral,0,NA,NA,NA,NA,NA,NA,0
+../data/Hades/Hades/,True,Hades,Hades,TOTAL,20839,232545,56144,280860,0.2769976664832363,100.45390853286598,6.419048498511469,34
+../data/Hades/Hades/,True,Hades,Hades,male,16273,171517,42666,206545,0.1876479935221358,100.87730187441224,6.433756620968645,20
+../data/Hades/Hades/,True,Hades,Hades,female,4155,56088,12329,67918,0.47305585435139896,99.77377693522615,6.3395366624992,11
+../data/Hades/Hades/,True,Hades,Hades,neutral,411,4940,1148,6397,1.3685063973253957,92.9154547249926,6.8385286574785935,3
 ../data/StarWarsKOTOR/StarWarsKOTOR/,False,Star Wars: Knights of the Old Republic,Star Wars: Knights of the Old Republic,TOTAL,27829,439667,86465,533550,0.712794360508429,99.00900110198099,6.540819141939428,642
 ../data/StarWarsKOTOR/StarWarsKOTOR/,False,Star Wars: Knights of the Old Republic,Star Wars: Knights of the Old Republic,playerChoice,9330,65510,18058,78087,-0.10974126062260225,102.31081675661723,6.52129666994759,1
 ../data/StarWarsKOTOR/StarWarsKOTOR/,False,Star Wars: Knights of the Old Republic,Star Wars: Knights of the Old Republic,male,12787,258877,46745,317269,1.0314411170196678,97.53158150463635,6.597068545003648,461

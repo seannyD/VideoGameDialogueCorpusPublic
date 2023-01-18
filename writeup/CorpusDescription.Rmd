@@ -461,7 +461,7 @@ Pick a random line in the corpus data.json file. Confirm that:
 
 -  The character name is plausible (not some possible parsing error like “and so”).
 -  There are no strange typographic characters.
--  There are no obvious parsing errors (e.g. another character’s dialogue line enclosed in the dialogue string, words not separated properly). If it is possible, find this line in the source transcript. This might involve finding the location of the source in the meta.json file, then using a google search like: "site:http://www.yinza.com/Fandom/Script/ “This is a church in the”"
+-  There are no obvious parsing errors (e.g. another character’s dialogue line enclosed in the dialogue string, words not separated properly). If it is possible, find this line in the source transcript. This might involve finding the location of the source in the meta.json file, then using a Google search like: "site:http://www.yinza.com/Fandom/Script/ “This is a church in the”"
 -  Confirm that the line in the source has been correctly parsed into the corpus.
 
 

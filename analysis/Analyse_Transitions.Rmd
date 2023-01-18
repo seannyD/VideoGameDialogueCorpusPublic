@@ -47,13 +47,13 @@ Therefore, for this study it makes more sense to apply a probabilistic test that
 
 ## Measuring transitions
 
-Data for most games in the corpus captures the local order of dialogue. That is, while players might experience scenes in a different order (e.g. by choosing to speak to characters in a different order), the order within a scene is consistent. For these games, we want to count the number of dialogue transitions between characters of different genders. This can be done by iterating through the game script and counting transitions from one character to the next. This is similar to previous "consecutive" approaches to automating the Betchdel test that build an interaction network between characters based on a consecutive lines of dialogue (Agarwal et al., 2015). 
+Data for most games in the corpus captures the local order of dialogue. That is, while players might experience scenes in a different order (e.g. by choosing to speak to characters in a different order), the order within a scene is consistent. For these games, we want to count the number of dialogue transitions between characters of different genders. This can be done by iterating through the game script and counting transitions from one character to the next. This is similar to previous "consecutive" approaches to automating the Bechdel test that build an interaction network between characters based on a consecutive lines of dialogue (Agarwal et al., 2015). 
 
 However, neither games nor films have a single continuous conversation. Transitions should only be counted for characters who are actually talking *to each other*.  Automated approaches applied to film assume that all characters within a scene are effectively talking to each other, so count only the transitions that happen within scenes (Weng et al., 2009; Agarwal et al., 2015). Some games have scene or location transitions, encoded in "LOCATION" lines. During parsing, games where conversation boundaries were detectable but not labelled were indicated with an ACTION line with the value "---". However, scenes within films are often much shorter than in games (there may be long periods in a game without a narrative "cut"). Furthermore, dialogue is often in short bursts, separated by longer game playing sections. Therefore, in addition to scenes and locations, we treat action descriptions as scene boundaries. 
 
-A python script (`processing/DialogueTransitions.py`) stepped through the script, identifying dialogue transitions between two non-identical characters. It looked up these characters' relative gender categories, and incremented a count for transitions from the first to the second category. In dialogue trees with choices, the algorithm counted all possible dialogue transitions that a player might experience (considering only branching options without re-visiting earlier parts in the tree). The script output the frequency of transitions between each gender category (stored as `transitions.csv`) and the sequence of individual speaker categories and scene breaks (stored as `transitions_all.csv`) for use in the premutation test (see below).
+A python script (`processing/DialogueTransitions.py`) stepped through the script, identifying dialogue transitions between two non-identical characters. It looked up these characters' relative gender categories, and incremented a count for transitions from the first to the second category. In dialogue trees with choices, the algorithm counted all possible dialogue transitions that a player might experience (considering only branching options without re-visiting earlier parts in the tree). The script output the frequency of transitions between each gender category (stored as `transitions.csv`) and the sequence of individual speaker categories and scene breaks (stored as `transitions_all.csv`) for use in the permutation test (see below).
 
-The automated method here will obviously not always be accurate. Agarwal et al., report that their method of scene boundary detection has accuracies of around 65% for identifying whether women talk to each other, so it is likely that there will be many errors. However, the aim of the current study is to identify large-scale gender biases in lingusitic behaviour. So we proceed with the assumption that the errors will be unbiased by gender. That is, the scene boundary cues we use are not distributed differently depending on the gender of the surrounding characters.
+The automated method here will obviously not always be accurate. Agarwal et al., report that their method of scene boundary detection has accuracies of around 65% for identifying whether women talk to each other, so it is likely that there will be many errors. However, the aim of the current study is to identify large-scale gender biases in linguistic behaviour. So we proceed with the assumption that the errors will be unbiased by gender. That is, the scene boundary cues we use are not distributed differently depending on the gender of the surrounding characters.
 
 ## Calculating expected transitions
 
@@ -155,7 +155,7 @@ transitionStrings$folder = gsub("/$","",transitionStrings$folder)
 allGames$folder = gsub("/$","",allGames$folder)
 ```
 
-Analogue of the Betchdel test: try to find games with no transitions between two female characters:
+Analogue of the Bechdel test: try to find games with no transitions between two female characters:
 
 ```{r}
 hasFemaleToFemale = sapply(unique(allGames$folder), function(fld){
@@ -689,7 +689,7 @@ cat(MM.FFX2Stats,
 
 Bechdel, Allison. Dykes to Watch Out For. Firebrand Books (October 1, 1986). 
 
-Agarwal, A., Zheng, J., Kamath, S., Balasubramanian, S., & Dey, S. A. (2015). Key female characters in film have more to talk about besides men: Automating the bechdel test. In Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (pp. 830-840).
+Agarwal, A., Zheng, J., Kamath, S., Balasubramanian, S., & Dey, S. A. (2015). Key female characters in film have more to talk about besides men: Automating the Bechdel test. In Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (pp. 830-840).
 
 Weng, C. Y., Chu, W. T., & Wu, J. L. (2009). Rolenet: Movie analysis from the perspective of social networks. IEEE Transactions on Multimedia, 11(2), 256-271.
 

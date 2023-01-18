@@ -42,4 +42,5 @@ from parsers import DragonAge2Parser
 from parsers import KingdomHeartsParser
 from parsers import TalesOfVesperiaParser
 from parsers import KingdomHearts3DParser
-from parsers import HadesParser
+from parsers import HadesParser2
+from parsers import DiscoElysiumParser

@@ -11,7 +11,7 @@
 		"choices": "None"
 	},
 	"parserParameters": {
-		"parser": "HadesParser",
+		"parser": "HadesParser2",
 		"fileType": ".lua"
 	},
 	"mainPlayerCharacters": ["Hades"],

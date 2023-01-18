@@ -68,7 +68,7 @@ logLikelihood.test = function(freqInCorpus1, freqInCorpus2, sizeOfCorpus1, sizeO
 
 # Load data
 
-Load all texts, split into male and female dialouge, tokenise, and count the total number of words.
+Load all texts, split into male and female dialogue, tokenise, and count the total number of words.
 
 ```{r}
 # Number of lines from mini-sample
@@ -192,7 +192,7 @@ write.csv(rbind(top,bottom),"../results/keyness.csv")
 
 # Politeness
 
-Load the politeness measures, calcualted in `analysis/Analyse_Politeness.py`:
+Load the politeness measures, calculated in `analysis/Analyse_Politeness.py`:
 
 ```{r}
 pol = read.csv("../results/politeness.csv",stringsAsFactors = F)
@@ -376,7 +376,7 @@ swears[!swears %in% nx]= paste0(swears[!swears %in% nx],"*")
 # Specific to games in the corpus
 swears = c(swears,"vermin","scum")
 
-# Bedarek
+# Bednarek
 bednarekSwears = c("god",
   "hell",  "damn", "crap", "screw",
   "fuck", "fucktard", "fuckwad", "fucks", "fucking", "butt-fuck", 

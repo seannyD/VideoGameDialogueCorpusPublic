@@ -46,7 +46,7 @@ cbind(Number = table(d$Verdict),
 
 `r round(100*prop.table(table(d$Verdict))["Neutral"],2)`% of cases were coded as 'neutral' (see appendix). `r round(100*prop.table(table(d$Verdict))["Perpetuate"],2)`% of cases perpetuated gendered stereotypes. Below are some specific examples.
 
-Examples 1 and 2 perpetuate stereotypes of gendered food, where certain foods are seen as "for" certain genders (see e.g. McPhail et al., 2012). This feeds into notions of diet and weight loss that are seen as essential to feminie beauty ideals (e.g. Malkin et al., 1999).
+Examples 1 and 2 perpetuate stereotypes of gendered food, where certain foods are seen as "for" certain genders (see e.g. McPhail et al., 2012). This feeds into notions of diet and weight loss that are seen as essential to feminine beauty ideals (e.g. Malkin et al., 1999).
 
 Example 1 occurs while at a bar with the character Elliot:
 
@@ -88,7 +88,7 @@ The second case refers to the player character's fast drinking (of alcohol):
 
 The text is nearly identical for both genders. However, there is mild subversion here as the NPC treats fast drinking as equally admirable for both genders, while alcohol consumption is often seen as a masculine trope (e.g. De Visser & McDonnell, 2011).
 
-There were no cases of more significant subversion of gendered sterotypes.
+There were no cases of more significant subversion of gendered stereotypes.
 
 Below is a table with a comment on each case of perpetuation:
 
@@ -119,7 +119,7 @@ We note that several differences relate to heteronormativity. When the player ro
 >
 > To female PC: Normally, when I have a crush on someone, the feeling goes away pretty quick...
 
-Similarly, female-female attraction is called out specifically when romacing Abigail (a female NPC):
+Similarly, female-female attraction is called out specifically when romancing Abigail (a female NPC):
 
 > To male PC: You don't have to say anything right now. Let's just stay here for a while...	
 >

@@ -1,5 +1,9 @@
 ---
 title: "Player Choices"
+header-includes:
+  - \pagestyle{empty}
+  - \pagenumbering{gobble} 
+papersize: a4
 output: pdf_document
 editor_options: 
   chunk_output_type: console
@@ -12,6 +16,7 @@ try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/pro
 
 # Introduction
 
+This report explores gender balance in dialogue when taking into account player choice. The first section studies choice within choice structures in the dialogue, providing a worked example from Final Fantasy VII. The second section looks at the effects of the player's choice of gender on the overall gender balance in dialogue.
 
 # Load libraries
 

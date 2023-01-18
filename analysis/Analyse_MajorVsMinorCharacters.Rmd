@@ -1,6 +1,10 @@
 ---
 title: "Gender balance between major and minor characters"
 output: pdf_document
+header-includes:
+  - \pagestyle{empty}
+  - \pagenumbering{gobble} 
+papersize: a4
 editor_options: 
   chunk_output_type: console
 ---
@@ -173,7 +177,7 @@ mInt = lm(propFemaleDialogue~ group * propFemaleCharacters, data = allGames)
 summary(mInt)
 ```
 
-The effect of the proprotion of female characters is significant, but the effect of group is not, nor is the interaction. 
+The effect of the proportion of female characters is significant, but the effect of group is not, nor is the interaction. 
 
 ```{r}
 ggplot(allGames, 
@@ -423,7 +427,7 @@ ggplot(allGames.completeness[!is.na(allGames.completeness$completeness),],
 ```
 
 
-This makes it seem like the the relationship with completeness may be partially driven by the proprotion of female characters and/or by the date of release. Here is a regression, predicting the proportion of female dialogue by completeness and by the proportion of female characters:
+This makes it seem like the the relationship with completeness may be partially driven by the proportion of female characters and/or by the date of release. Here is a regression, predicting the proportion of female dialogue by completeness and by the proportion of female characters:
 
 ```{r}
 mComp = lm(propFemaleDialogue ~ completeness + propFemaleCharacters + year,
@@ -431,7 +435,7 @@ mComp = lm(propFemaleDialogue ~ completeness + propFemaleCharacters + year,
 summary(mComp)
 ```
 
-It seems there is no effect of completeness once the proprotion of female charaters is taken into account.
+It seems there is no effect of completeness once the proportion of female characters is taken into account.
 
 \clearpage
 \newpage
@@ -527,9 +531,9 @@ chrono.stats = getBalanceOverCumulativeCharacterRange(chrono)
 plotCumulativeCharRange(chrono.stats)
 ```
 
-The points in the plot above shows the gender balance when taking into account various numbers of characters. Note that there is not an estiamte for every possible number of characters, since several characters are tied in the number of words they speak. The red line shows the gender balance in the full game. The points are coloured red if they are not significantly different from the gender balance in the full game.
+The points in the plot above shows the gender balance when taking into account various numbers of characters. Note that there is not an estimate for every possible number of characters, since several characters are tied in the number of words they speak. The red line shows the gender balance in the full game. The points are coloured red if they are not significantly different from the gender balance in the full game.
 
-It's clear that the proportion of female dialogue is higher for characters with more dialogue. The first time that the estimate is not signficantly different from the total estimate is after seeing `r chrono.stats$numCharBeforeEstimateFirstNotSigDiff` characters, or after seeing `r round(100* chrono.stats$numCharBeforeEstimateFirstNotSigDiff / tail(chrono.stats$numCharCumulative,n=1))`% of the characters. After this, the estimate does not change significantly. This is indicated with a red diamond on the plot. This also happens to be the same as the point at which the estimate stabilises (the point after which the estimate is never again significantly different from the total estimate).
+It's clear that the proportion of female dialogue is higher for characters with more dialogue. The first time that the estimate is not significantly different from the total estimate is after seeing `r chrono.stats$numCharBeforeEstimateFirstNotSigDiff` characters, or after seeing `r round(100* chrono.stats$numCharBeforeEstimateFirstNotSigDiff / tail(chrono.stats$numCharCumulative,n=1))`% of the characters. After this, the estimate does not change significantly. This is indicated with a red diamond on the plot. This also happens to be the same as the point at which the estimate stabilises (the point after which the estimate is never again significantly different from the total estimate).
 
 Things are a little different for Final Fantasy XII, which has many more characters:
 
@@ -540,7 +544,7 @@ FFXII.stats = getBalanceOverCumulativeCharacterRange(FFXII)
 plotCumulativeCharRange(FFXII.stats)
 ```
 
-Here, it's clear that the proportion of female dialogue is *lower* for characters with more dialogue. The first time that the estimate is not signficantly different from the total estimate is after seeing `r FFXII.stats$numCharBeforeEstimateFirstNotSigDiff` characters, or after seeing `r round(100* FFXII.stats$numCharBeforeEstimateFirstNotSigDiff / tail(FFXII.stats$numCharCumulative,n=1))`% of the characters.
+Here, it's clear that the proportion of female dialogue is *lower* for characters with more dialogue. The first time that the estimate is not significantly different from the total estimate is after seeing `r FFXII.stats$numCharBeforeEstimateFirstNotSigDiff` characters, or after seeing `r round(100* FFXII.stats$numCharBeforeEstimateFirstNotSigDiff / tail(FFXII.stats$numCharCumulative,n=1))`% of the characters.
 
 Things are different again for Daggerfall:
 
@@ -558,7 +562,7 @@ Here, the female dialogue is over-estimated for characters with lots of dialogue
 
 ## Cumulative gender balance over all games
 
-We can now estiamte the statistics above for all games:
+We can now estimate the statistics above for all games:
 
 ```{r}
 folders = list.dirs("../data", recursive = T)
@@ -605,7 +609,7 @@ allGames.Cum$diffFromTotalEstimate =
 ```
 
 
-The graph below visualises the data for all games. The vertical axis plots the distance from the final total estiamte for the specific game, so that all games converge on zero (no difference from the total estimate). The horizontal axis shows the percentage of characters seen, so that each game is normalised for the number of characters. Red diamonds show the points at which the estimate for each game stabilises. The boxplot shows the distribution of the stabilisation points over the horizontal axis.  
+The graph below visualises the data for all games. The vertical axis plots the distance from the final total estimate for the specific game, so that all games converge on zero (no difference from the total estimate). The horizontal axis shows the percentage of characters seen, so that each game is normalised for the number of characters. Red diamonds show the points at which the estimate for each game stabilises. The boxplot shows the distribution of the stabilisation points over the horizontal axis.  
 
 ```{r}
 ggplot(allGames.Cum,
@@ -637,7 +641,7 @@ The mean stabilisation point is after seeing `r mean(allGames.Cum[!duplicated(al
 
 ## Is the estimate biased?
 
-The graphs above show that, when considering only the most prolific characters, there are games which both over- and under- estimate the proprotion of female dialogue.  Additionally, we want to formally test whether the estimate of the estimate of the proportion of female dialogue is biased *in the corpus as a whole*. We can do this by looking at the data after seeing 10% of the characters in a game. The t-test below tests whether there is a bias one way or the other:
+The graphs above show that, when considering only the most prolific characters, there are games which both over- and under- estimate the proportion of female dialogue.  Additionally, we want to formally test whether the estimate of the estimate of the proportion of female dialogue is biased *in the corpus as a whole*. We can do this by looking at the data after seeing 10% of the characters in a game. The t-test below tests whether there is a bias one way or the other:
 
 ```{r}
 firstTenPercent = allGames.Cum[allGames.Cum$percentCharCumulative>=10.00,]
@@ -696,7 +700,7 @@ abline(h=0,col=1)
 abline(v=seq(0,100,by=10), lty=2,col="gray")
 ```
 
-In contrast to the boxplot, the visualisation suggets that female dialogue tends to be *over-estimated* for prolific characters, then slightly under-estimated after seeing about between 20-50% of characters. After about 60% of characters, the estimate stabilises. Note that the range is very small - predicting biases of around 1% at most.
+In contrast to the boxplot, the visualisation suggests that female dialogue tends to be *over-estimated* for prolific characters, then slightly under-estimated after seeing about between 20-50% of characters. After about 60% of characters, the estimate stabilises. Note that the range is very small - predicting biases of around 1% at most.
 
 
 The plot below shows how the stabilisation point varies with the total number of characters in the game. There's no strong relationship between the two.

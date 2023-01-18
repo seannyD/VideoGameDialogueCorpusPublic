@@ -24,7 +24,7 @@ try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/pro
 
 This project attempts to quantify the amount of dialogue spoken by characters of different genders in video games. The main analyses are based on English language versions of the games, but several game scripts in the corpus are translations of original Japanese scripts. There is a possibility that the measures of the amount of dialogue might have been different had they been based on the original scripts. While the English translations have been the main experience for a large proportion of players, it is still interesting to ask whether the gender bias is in the original version or has been emerged during translation. In this report, we test this possibility by looking at different translations of *Chrono Trigger*. 
 
-*Chrono Trigger* is an appropriate game for several reasons. The first is that the source transcript for Chrono Trigger in the corpus has three versions that have been parsed to create a parallel corpus. Thes versions include the original Japanese script (1995), the original English translation (1995), and a retranslation created by a fan (completed in 2007). For future work, it also includes an official retranslation, and various translations into other languages.
+*Chrono Trigger* is an appropriate game for several reasons. The first is that the source transcript for Chrono Trigger in the corpus has three versions that have been parsed to create a parallel corpus. The versions include the original Japanese script (1995), the original English translation (1995), and a retranslation created by a fan (completed in 2007). For future work, it also includes an official retranslation, and various translations into other languages.
 
 The ideal game for this test of robustness would allow us to test many different causes of differences between translations. These include: 
 
@@ -32,7 +32,7 @@ The ideal game for this test of robustness would allow us to test many different
 -  Wider issues such as the inherent differences between languages, between orthographic systems, or between cultures
 -  Different aims of the developers or marketing campaigns for different audiences
 -  Different censorship norms in different countries. 
--  Diachronic change, including differences in language norms, cultural norms, and fasion, if the translations are made years apart.
+-  Diachronic change, including differences in language norms, cultural norms, and fashion, if the translations are made years apart.
 
 The ideal game would also have a lot of qualitative differences between translations, in order to get a conservative estimate of the robustness.  
 
@@ -46,7 +46,7 @@ Further qualitative differences have been noted by various previous studies on t
 >
 > **Retranslation**: Wh, why you! More importantly, that pale-faced caped bastard wasn't there!?
 
-The translation changes are due to Western censorship norms (ommitting swearwords), and an attempt to convert the cultural tropes to ones familiar to a Western audience (a "poor attempt to adapt a form of Shakespearean-style of speech", Antonijevic, 2018, p.28).
+The translation changes are due to Western censorship norms (omitting swearwords), and an attempt to convert the cultural tropes to ones familiar to a Western audience (a "poor attempt to adapt a form of Shakespearean-style of speech", Antonijevic, 2018, p.28).
 
 Various other changes during translation of *Chrono Trigger* are noted by Müller Galhardi (2014), including "dialogue additions and omissions; the re-creation of play on words; the re-naming of characters and terminology; censored items; the deliberate use of regional expressions, and the modification of a character's speech style" (see Mangiron, O'Hagan & Orero, p.15).
 
@@ -101,7 +101,7 @@ d = read.csv(
   stringsAsFactors = F,encoding = "UTF-8")
 # Remove non-dialogue data
 d = d[!d$charName %in% c("SYSTEM","ACTION", "LOCATION"),]
-# Remove characters in the 'netural' gender group
+# Remove characters in the 'neutral' gender group
 d = d[d$gender %in% c("male","female"),]
 ```
 
@@ -208,7 +208,7 @@ The measures are very similar, though the Japanese characters are more highly co
 
 Even though the estimates are very similar, the translation may still cause a confound if it is done differently according to gender. For example, if male dialogue is given longer translations than female dialogue. Although this process might be evidence of a gender bias in itself, it would suggest that part of the bias was in translation rather than the original authorial intent.
 
-One way to test this is to build a statistical model that tries to predict the amount of dialouge for a given line in English from two sources of information: the amount of dialogue for a given line in Japanese, and the gender of the speaker of that line. The models below use Poisson regression, to reflect the fact that the data are counts that are highly skewed. 
+One way to test this is to build a statistical model that tries to predict the amount of dialogue for a given line in English from two sources of information: the amount of dialogue for a given line in Japanese, and the gender of the speaker of that line. The models below use Poisson regression, to reflect the fact that the data are counts that are highly skewed. 
 
 The first model predicts the number of English words from the number of Japanese characters. Since the data are counts and highly skewed, we should use a Poisson regression:
 
@@ -344,7 +344,7 @@ This helped find specific lines where deviation was observed to be the highest b
 
 ### Emotional language
 
-Example 1 is a line of dialogue from Lucca, a female character that joins the player's party. She is reacting to a village that has been devestated.
+Example 1 is a line of dialogue from Lucca, a female character that joins the player's party. She is reacting to a village that has been devastated.
 
 
 > Example 1
@@ -456,7 +456,7 @@ There are some cases where more information is added during the original transla
 >
 > **Retranslation**: We've got a Time Machiiinnne{heart}! Oh ho ho ho!
 
-There are some lines that have been changed due to references to the female body. In example 11, Marle has received a letter that mentions the possibility of having children in the future. Ayla, a woman from prehistory whose speech is rendered as very "primitive", tries to encourage her and give her advice. The original Japanese refers to Marle's breasts, but this is removed in the Original English. The retranslator explains: "It's clear from the concept art that Marle does have breasts, but of a modest size (unlike Ayla and most other anime females), and her clothing is fairly baggy as well. It seems that Ayla is concerned that Marle may have trouble nursing her future kids, and doesn't realize that saying this could be considered embarrasing or insulting."
+There are some lines that have been changed due to references to the female body. In example 11, Marle has received a letter that mentions the possibility of having children in the future. Ayla, a woman from prehistory whose speech is rendered as very "primitive", tries to encourage her and give her advice. The original Japanese refers to Marle's breasts, but this is removed in the Original English. The retranslator explains: "It's clear from the concept art that Marle does have breasts, but of a modest size (unlike Ayla and most other anime females), and her clothing is fairly baggy as well. It seems that Ayla is concerned that Marle may have trouble nursing her future kids, and doesn't realize that saying this could be considered embarrassing or insulting."
 
 > Example 11
 > ---------
@@ -468,7 +468,7 @@ There are some lines that have been changed due to references to the female body
 
 ### Sexuality
 
-Although not directly related to gender bias, we note that there are a few cases where references to a character's sexuality have been changed in the original English translation. In example 12 and 13, the suggestion that Ayla and Lucca might be sexually attracted to women is ommitted in the translation. Just before example 12, Alya has just said that she "likes" Crono, which was interpreted by Marle and Lucca as saying that she is attracted to Chrono. When Alya says that she likes men and women, Lucca denies that she feels the same way, with the implication that Lucca has interpreted Alya as being bisexual. 
+Although not directly related to gender bias, we note that there are a few cases where references to a character's sexuality have been changed in the original English translation. In example 12 and 13, the suggestion that Ayla and Lucca might be sexually attracted to women is omitted in the translation. Just before example 12, Alya has just said that she "likes" Crono, which was interpreted by Marle and Lucca as saying that she is attracted to Chrono. When Alya says that she likes men and women, Lucca denies that she feels the same way, with the implication that Lucca has interpreted Alya as being bisexual. 
 
 > Example 12
 > ----------
@@ -494,7 +494,7 @@ Although not directly related to gender bias, we note that there are a few cases
 >
 > Lucca: I, I'm not interested in that sort of thing!
 
-In example 13, Lucca and Marle are reviewing characters they met during the game (a rare case of females objectifing male characters). Lucca once again denies that she is sexually attracted to women.  
+In example 13, Lucca and Marle are reviewing characters they met during the game (a rare case of females objectifying male characters). Lucca once again denies that she is sexually attracted to women.  
 
 > Example 13
 > ----------
@@ -526,7 +526,7 @@ In example 13, Lucca and Marle are reviewing characters they met during the game
 >
 > Lucca: Ghrah! I'm NOT into girls!!
 
-Player interpretations may vary, but the emphasis on "NOT" suggests that Lucca is annoyed that she is having to repeat this again. This is omitted in the original English translation. Also ommitted is Marl's suggestion that Peter is a woman, directly changing the player's interpretation of that character's gender.
+Player interpretations may vary, but the emphasis on "NOT" suggests that Lucca is annoyed that she is having to repeat this again. This is omitted in the original English translation. Also omitted is Marl's suggestion that Peter is a woman, directly changing the player's interpretation of that character's gender.
 
 In example 14, in Japanese, Lucca speculates that another character is a gay man. This is changed in the original English translation to a comment that does not refer to sexuality.
 
@@ -565,7 +565,7 @@ The examples above related to sexuality show differences between the original Ja
 
 # Conclusion
 
-This report showed that the measures of dialogue length were highly similar between original, translation and retranslation texts. We showed some individual examples of translations that changed the representation of female characters compared to the original, including where gender tropes were reinforced. However, despite these differences, the main measure of dialogue length differed very little between the original Japanese and either of the Engilsh translations. For example, all of the estimates of the percentage of female vs. male dialogue were all within 1 percentage point of each other. This suggests that issues of translation are unlikely to affect the main quantitative results related to gender bias in the corpus as a whole. 
+This report showed that the measures of dialogue length were highly similar between original, translation and retranslation texts. We showed some individual examples of translations that changed the representation of female characters compared to the original, including where gender tropes were reinforced. However, despite these differences, the main measure of dialogue length differed very little between the original Japanese and either of the English translations. For example, all of the estimates of the percentage of female vs. male dialogue were all within 1 percentage point of each other. This suggests that issues of translation are unlikely to affect the main quantitative results related to gender bias in the corpus as a whole. 
 
 
 # References

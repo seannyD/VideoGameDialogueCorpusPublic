@@ -13,6 +13,10 @@ import json, re,hjson
 # Maybe we need to parse by indent level?
 
 
+# Split by "[A-Za-z0-9_]+ =\n\t+{"
+#  Then we can extract the line ID to build up structure.
+#  Then split by "{ Cue ="
+
 
 
 def parseFile(fileName,parameters={},asJSON=False):

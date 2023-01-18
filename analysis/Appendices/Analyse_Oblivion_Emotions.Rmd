@@ -12,7 +12,7 @@ urlcolor: blue
 
 # Abstract
 
-The emotional content of lines of dialogue from *Elder Scrolls IV: Oblivion* were analysed, testing various hypotheses about how their distribution might be biased by the gender of the speaking NPC. Support was found for the hypothesis that female NPCs are "backgrounded" (given a smaller range of emotional dialogue) and that emotions which are seen as more mascunline were more likely to be given to male NPCs, and conversely emotions seen as more feminine were more likely to be given to female NPCs.
+The emotional content of lines of dialogue from *Elder Scrolls IV: Oblivion* were analysed, testing various hypotheses about how their distribution might be biased by the gender of the speaking NPC. Support was found for the hypothesis that female NPCs are "backgrounded" (given a smaller range of emotional dialogue) and that emotions which are seen as more masculine were more likely to be given to male NPCs, and conversely emotions seen as more feminine were more likely to be given to female NPCs.
 
 
 # Introduction
@@ -96,7 +96,7 @@ emotions[grepl("Generic",emotions$name),]$charType = "Generic"
 
 `emotions` is now a data frame where each row is a line of dialogue and CharType is whether the character is a generic character or a named, unique character.
 
-Parse emotion and intensity into seperate columns:
+Parse emotion and intensity into separate columns:
 
 ```{r}
 emotions$emotion = sapply(strsplit(emotions$cue," "),head,n=1)
@@ -233,9 +233,9 @@ chisqEGString = paste0("$\\chi^2$(",chisqEG$parameter,
 cat(chisqEGString, file="../../results/latexStats/OblivionEmotionsGenderStats.tex")
 ```
 
-There is a significant association between the gender of the NPC and masculinity/femininty of the emotion (`r chisqEGString`). Male NPCs are more likely to use masculine emotions (anger) than female NPCs, and female NPCs are more likely to use feminine emotions (happiness, sadness, surprise, fear and disgust). 
+There is a significant association between the gender of the NPC and masculinity/femininity of the emotion (`r chisqEGString`). Male NPCs are more likely to use masculine emotions (anger) than female NPCs, and female NPCs are more likely to use feminine emotions (happiness, sadness, surprise, fear and disgust). 
 
-Testing the difference between the "backgrounding" and gendered emotions hypotheses is hard. The "neutral" emotions aren't masculine or feminie, and the analysis above removes them from the data. But this is the key distinction for the backgrounding hypothesis. So the two variables can't be put together in a regression, and the two analyses above were based on different data, so can't be compared directly. 
+Testing the difference between the "backgrounding" and gendered emotions hypotheses is hard. The "neutral" emotions aren't masculine or feminine, and the analysis above removes them from the data. But this is the key distinction for the backgrounding hypothesis. So the two variables can't be put together in a regression, and the two analyses above were based on different data, so can't be compared directly. 
 
 To address this, we create two regression models. The first model predicts the NPC's gender only based on neutral vs. non-neutral emotions. The second model uses a three-category variable that distinguishes "neutral" from "feminine" and "masculine". We then compare the fit of these models against each other. This effectively tests whether the prediction from the gendered emotions hypothesis helps predict the NPCs gender *over and above* the backgrounding hypothesis.
 
@@ -379,9 +379,9 @@ barplot(t(prop.table(table(ent$emotionNum,ent$gender),2)),
         legend.text = c("Male","Female"),col=c("blue","pink"))
 ```
 
-It looks like the distribution for males is more biased towards low ranges of emotions, while the distribution for females is slighly higher.
+It looks like the distribution for males is more biased towards low ranges of emotions, while the distribution for females is slightly higher.
 
-However, this effect might be confounded by the amount of dialouge. There is no significant effect of gender on the number of emotions displayed when the (log) number of lines is considered:
+However, this effect might be confounded by the amount of dialogue. There is no significant effect of gender on the number of emotions displayed when the (log) number of lines is considered:
 
 ```{r}
 mx = glm(emotionNum ~ lines.log+gender, data = ent, family="poisson")

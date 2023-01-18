@@ -850,7 +850,7 @@ dev.off()
 There are multiple measures of readability calculated by Textatistic:
 
 -  Flesch score
--  Flesh Kincaid score
+-  Flesch Kincaid score
 -  Dale-Chall score
 
 The Flesch and Dale-Chall measures are not strongly correlated with each other:
@@ -917,7 +917,7 @@ Dale-Chall: `r readability.DC.text`
 
 Flesch: `r readability.F.text`
 
-Flesch-Kinkaid: `r readability.FK.text`
+Flesch-Kincaid: `r readability.FK.text`
 
 
 For the Dale-Chall scores, male dialogue has significantly higher values than female dialogue. This suggests that the required reading grade for male text is higher, or in other words male dialogue includes a smaller proportion of high-frequency words. The effect size is roughly the same as for the difference in reading ease between male and female academic journal publications (Hengel, 2022, table 3).
@@ -959,7 +959,7 @@ This report demonstrated several things:
 -  There is high agreement between different measures of the amount of dialogue (number of words, lines, syllables).
 -  The proportion of female words is increasing over time.
 -  There is a significant correlation between the proportion of female characters and the proportion of female dialogue.
--  The average male chararacter does not say significantly more than the average female character.
+-  The average male character does not say significantly more than the average female character.
 -  There is considerable variation between games on the gender difference in number of words per sentence.
 -  There are some differences in readability between male and female dialogue, though the results are not robust over different measures of readability.
 

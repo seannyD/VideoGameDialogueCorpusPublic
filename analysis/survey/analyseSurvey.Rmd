@@ -362,7 +362,7 @@ ggplot(d,aes(y=percentFemaleDialogue,x=age2,fill=age2)) +
   geom_hline(yintercept = truePercentFemaleDialogue*100, color="red",linetype="dashed")
 ```
 
-Similar plots for the proportion of games with more than 50% dialogue (red dotted line shows .
+Similar plots for the proportion of games with more than 50% dialogue (red dotted line shows the value in the corpus).
 
 ```{r}
 ggplot(d, aes(x=percentGamesMoreFemale)) +
@@ -440,7 +440,7 @@ ggplot(d[d$rpgExperience!="Never",],
 
 # Overall predictions
 
-We use a regression model to identify what factors predict player guesses. For guesses of the percentage of female dialogue, player gender is the only siginficant predicting factor:
+We use a regression model to identify what factors predict player guesses. For guesses of the percentage of female dialogue, player gender is the only significant predicting factor:
 
 ```{r}
 m0 = lm(percentFemaleDialogue ~
@@ -561,14 +561,14 @@ ggplot(dx[!is.na(dx$Response),],
 
 ```
 
-The majority of respondents agreed that females are under-represented and represention should be improved. The majority disagreed that male representation should be improved. And there was a mixed response to whether males are under-represented. This suggests that there may be different factors and key issues for improving female representation and male representation.
+The majority of respondents agreed that females are under-represented and representation should be improved. The majority disagreed that male representation should be improved. And there was a mixed response to whether males are under-represented. This suggests that there may be different factors and key issues for improving female representation and male representation.
 
 \clearpage
 \newpage
 
 # Distribution
 
-In the main analysis of the corpus, the proportion of female dialogue as a whole was not particularly surprising to the authors. The authors were more surprised by the distribution, with very few games havng more than 50% female dialogue. Question 6 of the survey included detailed questions that attempted to identify what players thought the distribution looked like.
+In the main analysis of the corpus, the proportion of female dialogue as a whole was not particularly surprising to the authors. The authors were more surprised by the distribution, with very few games having more than 50% female dialogue. Question 6 of the survey included detailed questions that attempted to identify what players thought the distribution looked like.
 
 6.  This question takes a bit more thought. Imagine we picked 10 popular RPG games. How many games do you think would have ...
   -  ... between 0% and 10% [female/male] dialogue?
@@ -580,7 +580,7 @@ In the main analysis of the corpus, the proportion of female dialogue as a whole
 
 Participants were free to specify any number between 0 and 10 in each of their responses, so their totals could add up to more than the 10 we asked for. We need to control for this so that participants specifying the distribution for 100 games doesn't bias the estimate.
 
-Instead of working with raw numbers, we convert each particpant's responses into proportions across the scale:
+Instead of working with raw numbers, we convert each participant's responses into proportions across the scale:
 
 ```{r}
 f = d[,grepl("f[1-9]0",names(d))]
@@ -710,7 +710,7 @@ for(i in 1:nrow(d)){
 # Conclusion
 
 
-The mean guess for the average percentage of female dialogue was `r round(percentFemaleDialogueGuessMean,2)`% (sd = `r round(percentFemaleDialogueGuessSD,2)`). This is not signficiantly different from the empirical estimate. Male respondents estimated a higher percentage of female dialogue than female respondents.
+The mean guess for the average percentage of female dialogue was `r round(percentFemaleDialogueGuessMean,2)`% (sd = `r round(percentFemaleDialogueGuessSD,2)`). This is not significantly different from the empirical estimate. Male respondents estimated a higher percentage of female dialogue than female respondents.
 
 
 The mean guess for the percentage of games with more than 50% female dialogue was `r round(percentGamesMore50FemaleMean,2)`% (sd = `r round(percentGamesMore50FemaleSD,2)`). This is significantly higher than the empirical estimate. The main predictor of this measure was the whether the survey was framed to ask about female or male dialogue. 

@@ -15,7 +15,7 @@ This report looks at what negotiation strategies female characters use in *Dagge
 
 While *Daggerfall* belongs to a previous generation of games, it has been remade and re-released to be played on modern consoles, reaching a new audience and therefore continuing to influence players and game creators. The game puts the player in the position of a hero in a medieval fantasy world. Completing "quests" is a central part of the game. 
 
-The source for the dialogue of Daggerfall marks "quest offers": dialogue where an NPC tries to convince the player character to accept a quest. This involves a line of dialogue from the NPC that explains the details of the quest and (usually) proposes a reward. The player character can accept or decline, after which the NPC speaks another line depending on the player's decision. The game content is partly procedurally generated, with the gender of the NPC possibly randomly determined. However, this report focusses on a sub-sample of the quests which are scripted for specific NPC characters with pre-set genders.
+The source for the dialogue of Daggerfall marks "quest offers": dialogue where an NPC tries to convince the player character to accept a quest. This involves a line of dialogue from the NPC that explains the details of the quest and (usually) proposes a reward. The player character can accept or decline, after which the NPC speaks another line depending on the player's decision. The game content is partly procedurally generated, with the gender of the NPC possibly randomly determined. However, this report focuses on a sub-sample of the quests which are scripted for specific NPC characters with pre-set genders.
 
 For this report a pragmatic approach will be taken to analyse how female characters negotiate. Literature surrounding gender stereotypes in relation to female behaviour in negotiations will be reviewed along with research into what constitutes typically female features of speech.
 
@@ -57,7 +57,7 @@ Hedging can be used to indicate less certainty and act to soften language (see e
 
 > ‘Perhaps you can help me out of a bit of an embarrassing predicament?’.
 
-The use of ‘perhaps’ and 'a bit' indicates uncertainty that the player will do what she wants, despite her royal status, and presents an indirect request that downplays the extent of the imposition on the player. This reflects a polite negotiation strategy typically percieved as more feminine (Lee et al., 2021), and has the effect of making the player feel in a position of power, thus contributing to making the player feel comfortable which is what women have been advised to do in negotiations with men (e.g. Bowles and Flynn, 2010). 
+The use of ‘perhaps’ and 'a bit' indicates uncertainty that the player will do what she wants, despite her royal status, and presents an indirect request that downplays the extent of the imposition on the player. This reflects a polite negotiation strategy typically perceived as more feminine (Lee et al., 2021), and has the effect of making the player feel in a position of power, thus contributing to making the player feel comfortable which is what women have been advised to do in negotiations with men (e.g. Bowles and Flynn, 2010). 
 
 Similarly, Queen Barenziah uses the hedge 'rather' to soften the impact of the request: 
 
@@ -73,7 +73,7 @@ Upon acceptance of his quest he says:
 
 No hedges are present. This is assertive and decisive language more associated with males (see Lee et al., 2021). These examples of the characters’ use of hedges reflects differences found in male and female usage in real-life (Lakoff 1973).
 
-Hesitations are another form of hedging and can be observed in spoken language by pauses of various lengths. The pauses can be represented in written text as elipses ("…"). Other hesitation markers include "er", "um", "uh" and "ah". Queen Akorithi responds with the hesitation marker ‘hmmm’ when the player declines her quest, before stating 
+Hesitations are another form of hedging and can be observed in spoken language by pauses of various lengths. The pauses can be represented in written text as ellipses ("…"). Other hesitation markers include "er", "um", "uh" and "ah". Queen Akorithi responds with the hesitation marker ‘hmmm’ when the player declines her quest, before stating 
 
 >  “Hmmm. I shall have to rethink your standing in this court.” 
 
@@ -147,9 +147,9 @@ The older characters’ language does not show the same level of powerlessness, 
 
 >  “The Emperor has instructed me to gift you with an artifact of great power and renown” 
 
-This suggests her ability to reward the player comes from a man and therefore makes her appear less powerful and more dependant.
+This suggests her ability to reward the player comes from a man and therefore makes her appear less powerful and more dependent.
 
-Senior female characters are given more assertive dialogue than younger ones, although this is usually preceded by a softening statement. Queen Akorithi shows more direct language, after enquiring in a typically female way about the player’s comfort, stating ‘Let me get right to the point.’ She also says “I need you to promise…” but this again is preceded by a softer “I do not know even how to broach this subject.”
+Senior female characters are given more assertive dialogue than younger ones, although this is usually preceded by a softening statement. Queen Akorithi shows more direct language, after inquiring in a typically female way about the player’s comfort, stating ‘Let me get right to the point.’ She also says “I need you to promise…” but this again is preceded by a softer “I do not know even how to broach this subject.”
 
 Cyndassa, the maid, is portrayed differently from the royal characters. She does not display the same feminine qualities such as friendliness and concern for others in her negotiation opening. Instead, she gets to the point straight away: 
 
@@ -167,7 +167,7 @@ This report found evidence of gender differences in negotiation strategies in th
 
 The extent to which feminine language is used is related to the social status and age/seniority of the NPC. For example, younger female characters are given more feminine language than older, higher status ones. This may suggest that negotiation strategies do not rely only on gender, but are related to power and status. For example, the maid does not use some of the feminine language, but her status is undermined by the use of marked dialectal variants associated with lower classes. 
 
-Overall, the dialogue exhibits gendered stereotypes. One source of this limitation is the relatively low number of quests given by female characters. The inclusion of a greater number of female quest givers would provide scope for additional diversity in their speech and the potential to subert some stereotypes. Since negotiation is a key context for the interplay of gender and power, and a common occurance in the mechanics of video games, understanding genered tropes during negotiation could help bring about some positive changes in the representation of female characters' speech in video games.
+Overall, the dialogue exhibits gendered stereotypes. One source of this limitation is the relatively low number of quests given by female characters. The inclusion of a greater number of female quest givers would provide scope for additional diversity in their speech and the potential to subvert some stereotypes. Since negotiation is a key context for the interplay of gender and power, and a common occurrence in the mechanics of video games, understanding gendered tropes during negotiation could help bring about some positive changes in the representation of female characters' speech in video games.
 
 # References
 

@@ -631,10 +631,8 @@ MM.moreThanExpected = trueTransitions.AllGames['m','m'] -
   permutedTransitionStats.AllGames['m2m.mean']
 cat(round(100*MM.moreThanExpected),
     file= "../results/latexStats/transitions_MMMoreThanExpected.tex")
-MMp = paste("=",permutedTransitionStats.AllGames['m2m.p'])
-if(MMp <= 0.001){
-  MMp = "< 0.001"
-}
+MMp = permutedTransitionStats.AllGames['m2m.p']
+if(MMp <= 0.001){ MMp = "< 0.001"} else{MMp = paste("=",MMp)}
 MMStats = paste0(
   "z = ", round(permutedTransitionStats.AllGames['m2m.z'],2),
   ", p = ", MMp)
@@ -649,10 +647,8 @@ FF.lessThanExpected = permutedTransitionStats.AllGames['f2f.mean'] -
   trueTransitions.AllGames['f','f']
 cat(round(100*FF.lessThanExpected),
     file= "../results/latexStats/transitions_FFLessThanExpected.tex")
-FFp = paste("=",permutedTransitionStats.AllGames['f2f.p'])
-if(FFp <= 0.001){
-  FFp = "< 0.001"
-}
+FFp = permutedTransitionStats.AllGames['f2f.p']
+if(FFp <= 0.001){ FFp = "< 0.001"} else{FFp = paste("=",FFp)}
 FFStats = paste0(
   "z = ", round(permutedTransitionStats.AllGames['f2f.z'],2),
   ", p ", FFp)
@@ -661,23 +657,22 @@ FFNumGamesNotBiased = sum(permutationResults$f2f.p>0.05)
 cat(FFNumGamesNotBiased, 
     file = "../results/latexStats/transitions_FFNumGamesNotBiased.tex")
 
-FFp = paste("=",permutationResults[permutationResults$game=="Final Fantasy X-2",]$f2f.p)
-if(FFp <= 0.001){
-  FFp = "< 0.001"
-}
+# Final Fantasy X-2
+FFp = permutationResults[permutationResults$game=="Final Fantasy X-2",]$f2f.p
+if(FFp <= 0.001){ FFp = "< 0.001"} else{FFp = paste("=",FFp)}
+FFz = round(permutationResults[permutationResults$game=="Final Fantasy X-2",]$f2f.z,2)
 FF.FFX2Stats = paste0(
-  "z = ", round(permutedTransitionStats.AllGames['f2f.z'],2),
+  "z = ", FFz,
   ", p ", FFp)
 cat(FF.FFX2Stats, 
     file = "../results/latexStats/transitions_FF_FFX2Stats.tex")
 
-FFp = paste("=",permutationResults[permutationResults$game=="Final Fantasy X-2",]$m2m.p)
-if(FFp <= 0.001){
-  FFp = "< 0.001"
-}
+MMp = permutationResults[permutationResults$game=="Final Fantasy X-2",]$m2m.p
+if(MMp <= 0.001){ MMp = "< 0.001"} else{MMp = paste("=",MMp)}
+MMz = round(permutationResults[permutationResults$game=="Final Fantasy X-2",]$m2m.z,2)
 MM.FFX2Stats = paste0(
-  "z = ", round(permutedTransitionStats.AllGames['m2m.z'],2),
-  ", p ", FFp)
+  "z = ", MMz,
+  ", p ", MMp)
 cat(MM.FFX2Stats, 
     file = "../results/latexStats/transitions_MM_FFX2Stats.tex")
 

@@ -1,5 +1,8 @@
 import sqlite3
 
+# TODO: Add checks and condition strings.
+# TODO: Remove redundant SYSTEM IDs
+
 def parseFile(fileName,parameters={},asJSON=False):
 
 
@@ -8,12 +11,23 @@ def parseFile(fileName,parameters={},asJSON=False):
 			lx = convo[lineID]
 			if lx["title"]=="START":
 				return(lineID)
-				
+
+	def dentry2DialogueLine(dentry):
+		dTitle = dentry["title"]
+		charName = "SYSTEM"
+		if dTitle.count(":")>0:
+			charName = dTitle[:dTitle.index(":")].strip()
+		txt = dentry["dialoguetext"]
+		#print(dentry)
+		idx = str(dentry["conversationid"]) + "_" + str(dentry["id"])
+		return({charName:txt, "_ID": idx})
 	
+	# Connect to database
 	temp_db = sqlite3.connect(fileName)
 	temp_db.row_factory = sqlite3.Row
 	dentries = temp_db.execute("SELECT * FROM dentries").fetchall()
-
+	
+	# List of dialogue entries (with dialogue text)
 	list_accumulator = []
 	for item in dentries:
 		list_accumulator.append({k: item[k] for k in item.keys()})
@@ -26,12 +40,14 @@ def parseFile(fileName,parameters={},asJSON=False):
 			convoDict[convoID] = {}
 		convoDict[convoID][lineID] = line
 
+	# List of links between dialogue entries
 	dlinks = temp_db.execute("SELECT * FROM dlinks").fetchall()
 
 	dlinks_accumulator = []
 	for item in dlinks:
 		dlinks_accumulator.append({k: item[k] for k in item.keys()})
 	
+	# Convert to dictionary of links, look up origin, get destinations
 	# convos can have destinations in other convos
 	dlinkDict = {}
 	for link in dlinks_accumulator:
@@ -44,22 +60,52 @@ def parseFile(fileName,parameters={},asJSON=False):
 		else:
 			dlinkDict[convoID][originID] = [link]
 	
-	convoID = 322
-	convo = convoDict[convoID]
-	convoLinks = dlinkDict[convo]
-	startID = findStart(convo)
-	convoOut = [convo[startID]]
-	convoContinue = True
+	# Build out, one conversation at a time
+	out = []
+	allConvoIDs = sorted([convoID for convoID in dlinkDict])
+	#allConvoIDs = [322]
+	for convoID in allConvoIDs:
+		# name local convo IDs, shortcut to convoLinks
+		convo = convoDict[convoID]
+		convoLinks = dlinkDict[convoID]
+		startID = findStart(convo)
+		convoSeenIDs = []	
 	
-	# TODO: Keep track of IDs seen
-	def walkStructure(convoID, convoLinks):
-		
+		# Recursive walk. Given an origin line ID, provide next steps
+		def walkStructure(lineID):
+			originConvID = convo[lineID]["conversationid"]
+			idx = str(originConvID)+ "_"+ str(lineID)
+			# If already seen ...
+			if idx in convoSeenIDs:
+				# ... just add a GOTO
+				return([{"GOTO": idx}])
+			else:
+				convoSeenIDs.append(idx)
+			dialogueLine = dentry2DialogueLine(convo[lineID])
+			if not lineID in convoLinks:
+				# end of the line
+				return([dialogueLine])
+			#print(convoLinks[lineID])
+			destIDs = [(x["destinationconversationid"], x["destinationdialogueid"]) for x in convoLinks[lineID]]
+			destinations = []
+			for destConvID,destDialogueID in destIDs:
+				if destConvID == convoID:
+					destinations.append(walkStructure(destDialogueID))
+				else:
+					# Link to another conversation
+					destinations.append([{"GOTO":str(destConvID) + "_" + str(destDialogueID)}])
 	
-	while convoContinue:
-		currentID = convoOut
-		nextIDs = convoLinks[currentID]:
-			# TODO: start adding lines to out
-		
+			if len(destinations)==1:
+				return([dialogueLine] + destinations[0])
+			elif len(destinations)>1:
+				return([dialogueLine, {"CHOICE": destinations}])
+			else:
+				# No destinations (already dealt with?)
+				return([dialogueLine])
+
+		convoOut = walkStructure(startID)
+		out += convoOut
+			
 
 	if asJSON:
 		return(json.dumps({"text":out}, indent = 4))

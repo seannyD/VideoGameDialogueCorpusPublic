@@ -261,10 +261,11 @@ propNeutralCharacters = numNeutralCharacters / (numNeutralCharacters + numMaleAn
 propNeutralCharacters = round(100* propNeutralCharacters,2)
 
 bt_p = binom_test(numFemaleCharacters,numMaleAndFemaleCharacters,alternative='two-sided')
+#bt_p = 1.0
 if bt_p < 0.0001:
 	bt_p = "< 0.0001"
 else:
-	bt_p = "= " + round(bt_p,3)
+	bt_p = "= " + str(round(bt_p,3))
 propFemaleCharBinomTest = "p$" +  str(bt_p) + "$"
 with open("../results/latexStats/propFemaleCharBinomTest.tex",'w') as o:
 	o.write(propFemaleCharBinomTest)

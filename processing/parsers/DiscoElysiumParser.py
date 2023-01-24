@@ -1,10 +1,9 @@
-import sqlite3
+import sqlite3, re
 
 # TODO: Add checks and condition strings.
 # TODO: Remove redundant SYSTEM IDs
 
 def parseFile(fileName,parameters={},asJSON=False):
-
 
 	def findStart(convo):
 		for lineID in convo:
@@ -12,12 +11,19 @@ def parseFile(fileName,parameters={},asJSON=False):
 			if lx["title"]=="START":
 				return(lineID)
 
+	def cleanLine(txt):
+		# There are some very long numbers, and these break the hyphenator!
+		txt = re.sub("([0-9]{10})[0-9]+","\\1...",txt)
+		return(txt)
+
+
 	def dentry2DialogueLine(dentry):
 		dTitle = dentry["title"]
 		charName = "SYSTEM"
 		if dTitle.count(":")>0:
 			charName = dTitle[:dTitle.index(":")].strip()
 		txt = dentry["dialoguetext"]
+		txt = cleanLine(txt)
 		#print(dentry)
 		idx = str(dentry["conversationid"]) + "_" + str(dentry["id"])
 		return({charName:txt, "_ID": idx})

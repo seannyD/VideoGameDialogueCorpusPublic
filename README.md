@@ -50,6 +50,8 @@ Or if you only want to obtain a script for just one game, run the `scraper.py` s
 > python3 parseRawData.py ../data/FinalFantasy/FFVII
 ```
 
+In the 'data' folder for the game, you'll find a file 'data.json'. This is a plain text file with the dialogue data. It can be opened with a good text editor (e.g. [Notepad++](https://notepad-plus-plus.org/)), or many corpus linguistics programs.
+
 5. If you run into problems:
 
 You can post an issue to the [issue page](https://github.com/seannyD/VideoGamesDialogueCorpusPublic/issues), or contact Seán Roberts (RobertsS55@cardiff.ac.uk).

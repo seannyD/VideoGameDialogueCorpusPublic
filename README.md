@@ -6,18 +6,53 @@ If you use this data, please cite the following:
 
 Stephanie Rennick, Seán G. Roberts, (under review) The Video Games Dialogue Corpus. Corpora.
 
-Stephanie Rennick, Seán G. Roberts, Melanie Clinton, Elena Ioannidou, Liana Oh, Charlotte Clooney, E. T., Edward Healy, (under review) Gender bias in video game dialogue. Royal Society Open Science.
+Stephanie Rennick, Melanie Clinton, Elena Ioannidou, Liana Oh, Charlotte Clooney, E. T., Edward Healy, Seán G. Roberts (under review) Gender bias in video game dialogue. Royal Society Open Science.
 
 If you find problems, you can post an issue in the Issues page. 
 
 We welcome contributions to the corpus. To get involved, go ahead and fork the repository, or contact Seán Roberts (RobertsS55@cardiff.ac.uk).
 
-## Dependencies
+## How to obtain the corpus texts
 
-Python nltk with resources: 'punct', 'stopwords'.
-pip libraries: numpy, PyYAML, igraph, textatistic, xlrd (version 1.2.0), pykakasi (version 2.2.1), beautifulsoup4 (with html5lib, cssutils, lxml).
+The text of the dialogue scripts can be obtained by running the python scripts, as detailed below. If you are not familiar with python, here are some basic steps:
 
-Spacy, with the pipeline *en_core_web_trf*.
+1. Install python on the command line - e.g. see [this tutorial](https://realpython.com/installing-python/)
+
+2. Install the following python packages e.g. see [this tutorial](https://packaging.python.org/en/latest/tutorials/installing-packages/):
+
+-  bs4 (Beautiful Soup 4)
+-  html5lib
+-  cssutils
+-  lxml
+-  numpy
+-  xlrd (version 1.2.0)
+-  hjson
+-  xlsxwriter
+-  yaml
+-  textatistic
+-  igraph
+
+3. Download the Video Games Dialogue Corpus repository. 
+
+On the [github page](https://github.com/seannyD/VideoGamesDialogueCorpusPublic), click the green "Code" button, then "Download zip". 
+
+Or use [this direct link](https://github.com/seannyD/VideoGamesDialogueCorpusPublic/archive/refs/heads/main.zip)
+
+4. Run the script `buildCorpus.sh` in the main project folder. This may take some time.
+
+```sh
+> ./buildCorpus.sh
+```
+
+Or if you only want to obtain a script for just one game, run the `scraper.py` script in the relevant game folder, then run the parseRawData file with an argument pointing to the game folder, e.g.:
+
+```sh
+> python3 parseRawData.py ../data/FinalFantasy/FFVII
+```
+
+5. If you run into problems:
+
+You can post an issue to the [issue page](https://github.com/seannyD/VideoGamesDialogueCorpusPublic/issues), or contact Seán Roberts (RobertsS55@cardiff.ac.uk).
 
 ## Data
 

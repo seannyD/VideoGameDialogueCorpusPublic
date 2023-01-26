@@ -13,7 +13,10 @@ from textatistic import Textatistic,word_count,sent_count
 # spacy.load('en_core_web_trf')
 from pprint import pformat
 from corpusHelpers import *
-from scipy.stats import binom_test
+
+# binom_test is deprecated, and having trouble with scipy install,
+#  so mute for now
+#from scipy.stats import binom_test
 
 import string
 #from nltk.tokenize import word_tokenize
@@ -260,15 +263,17 @@ numNeutralCharacters = groupNumCharTotals["neutral"]
 propNeutralCharacters = numNeutralCharacters / (numNeutralCharacters + numMaleAndFemaleCharacters)
 propNeutralCharacters = round(100* propNeutralCharacters,2)
 
-bt_p = binom_test(numFemaleCharacters,numMaleAndFemaleCharacters,alternative='two-sided')
-#bt_p = 1.0
-if bt_p < 0.0001:
-	bt_p = "< 0.0001"
-else:
-	bt_p = "= " + str(round(bt_p,3))
-propFemaleCharBinomTest = "p$" +  str(bt_p) + "$"
-with open("../results/latexStats/propFemaleCharBinomTest.tex",'w') as o:
-	o.write(propFemaleCharBinomTest)
+
+## This used to run the binomial test on the number of characters
+##  but the scipy library was causing trouble, so muted for now
+#bt_p = binom_test(numFemaleCharacters,numMaleAndFemaleCharacters,alternative='two-sided')
+#if bt_p < 0.0001:
+#	bt_p = "< 0.0001"
+#else:
+#	bt_p = "= " + str(round(bt_p,3))
+#propFemaleCharBinomTest = "p$" +  str(bt_p) + "$"
+#with open("../results/latexStats/propFemaleCharBinomTest.tex",'w') as o:
+#	o.write(propFemaleCharBinomTest)
 
 totalMaleWords = groupWordTotals["male"]
 totalFemaleWords = groupWordTotals["female"]

@@ -1,10 +1,10 @@
-# Video Games Dialogue Corpus
+# Video Game Dialogue Corpus
 
-This is the public repository for the Video Games Dialogue Corpus. It contains programs to process game data on your local machine into a common dialogue script format. This can be used for research purposes as a corpus of language use in video game dialogue.
+This is the public repository for the Video Game Dialogue Corpus. It contains programs to process game data on your local machine into a common dialogue script format. This can be used for research purposes as a corpus of language use in video game dialogue.
 
 If you use this data, please cite the following:
 
-Stephanie Rennick, Seán G. Roberts, (under review) The Video Games Dialogue Corpus. Corpora.
+Stephanie Rennick, Seán G. Roberts, (under review) The Video Game Dialogue Corpus. Corpora.
 
 Stephanie Rennick, Melanie Clinton, Elena Ioannidou, Liana Oh, Charlotte Clooney, E. T., Edward Healy, Seán G. Roberts (under review) Gender bias in video game dialogue. Royal Society Open Science.
 
@@ -32,11 +32,11 @@ The text of the dialogue scripts can be obtained by running the python scripts, 
 -  textatistic
 -  igraph
 
-3. Download the Video Games Dialogue Corpus repository. 
+3. Download the Video Game Dialogue Corpus repository. 
 
-On the [github page](https://github.com/seannyD/VideoGamesDialogueCorpusPublic), click the green "Code" button, then "Download zip". 
+On the [github page](https://github.com/seannyD/VideoGameDialogueCorpusPublic), click the green "Code" button, then "Download zip". 
 
-Or use [this direct link](https://github.com/seannyD/VideoGamesDialogueCorpusPublic/archive/refs/heads/main.zip)
+Or use [this direct link](https://github.com/seannyD/VideoGameDialogueCorpusPublic/archive/refs/heads/main.zip)
 
 4. Run the script `buildCorpus.sh` in the main project folder. This may take some time.
 
@@ -54,7 +54,7 @@ In the 'data' folder for the game, you'll find a file 'data.json'. This is a pla
 
 5. If you run into problems:
 
-You can post an issue to the [issue page](https://github.com/seannyD/VideoGamesDialogueCorpusPublic/issues), or contact Seán Roberts (RobertsS55@cardiff.ac.uk).
+You can post an issue to the [issue page](https://github.com/seannyD/VideoGameDialogueCorpusPublic/issues), or contact Seán Roberts (RobertsS55@cardiff.ac.uk).
 
 ## Data
 

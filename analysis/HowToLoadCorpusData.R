@@ -31,6 +31,8 @@ corp = corpus(persona,text_field ="dialogue")
 toks = tokens(corp, remove_punct = TRUE)
 # Count words
 totalNumberOfWords = sum(ntoken(toks))
+# Example sentences with the word "dammit"
+head(kwic(toks, "dammit"),10)
 
 # Keyness analysis: https://tutorials.quanteda.io/statistical-analysis/keyness/
 # Compare male and female dialogue

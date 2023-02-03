@@ -1,27 +1,5 @@
 import json, re,hjson
 
-# TODO
-# Extract comment/Cue pairs
-#  Remove commented cue lines ("-- {Cue ")
-#
-#
-#  Error: "DisappearFadeLOCATION"
-#  Error: "/VO/ZagreusField_4003"
-#  Error: Commented out cues are still processed (e.g. WeaponData /VO/Thanatos_0300)
-#     Need to filter commented cues and any text comments above
-#
-# Maybe we need to parse by indent level?
-
-
-# Split by "[A-Za-z0-9_]+ =\n\t+{"
-#  Then we can extract the line ID to build up structure.
-#  Then split by "{ Cue ="
-
-# Some end cues just have commented transcript
-# 				-- It's all right. Father can't make you sing if you don't want to.
-#				EndCue = "/VO/ZagreusHome_1035",
-
-
 
 def parseFile(fileName,parameters={},asJSON=False):
 	print(fileName)

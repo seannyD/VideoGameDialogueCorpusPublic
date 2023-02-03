@@ -33,6 +33,7 @@ toks = tokens(corp, remove_punct = TRUE)
 totalNumberOfWords = sum(ntoken(toks))
 
 # Keyness analysis: https://tutorials.quanteda.io/statistical-analysis/keyness/
+# Compare male and female dialogue
 dfmat <- dfm(toks)
 tstat_key <- textstat_keyness(dfmat, target = dfmat@docvars$Group_female)
 textplot_keyness(tstat_key)

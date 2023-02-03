@@ -55,9 +55,38 @@
 			"Unknown",
 			"Chaos",
 			"Intercom"
+		],
+		"droppedMale": [
+			"DROPPED_Ares",
+			"DROPPED_Hades",
+			"DROPPED_Hypnos",
+			"DROPPED_Megaera",
+			"DROPPED_Minotaur",
+			"DROPPED_Nyx",
+			"DROPPED_Orpheus",
+			"DROPPED_Patroclus",
+			"DROPPED_Poseidon",
+			"DROPPED_Sisyphus",
+			"DROPPED_Skelly",
+			"DROPPED_Storyteller",
+			"DROPPED_Thanatos",
+			"DROPPED_Theseus",
+			"DROPPED_Zagreus",
+			"DROPPED_Zeus"
+		],
+		"droppedFemale" : [
+			"DROPPED_Alecto",
+			"DROPPED_Artemis",
+			"DROPPED_Athena",
+			"DROPPED_Cerberus",
+			"DROPPED_Demeter",
+			"DROPPED_Dusa",
+			"DROPPED_Persephone",
+			"DROPPED_Tisiphone"
 		]
 	},
 	"aliases": {
+		"Intercom": "Hades",
 		"Unknown": {
 			"Bouldy": [".   .   .   ."]
 			}

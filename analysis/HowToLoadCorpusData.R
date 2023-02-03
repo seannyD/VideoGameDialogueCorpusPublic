@@ -11,6 +11,7 @@ myAnalysisDirectory = "~/OneDrive - Cardiff University/Research/Cardiff/VideoGam
 try(setwd(myAnalysisDirectory))
 
 # Load a local script with some helper functions
+# You'll need to put the file "HowToLoadCorpusData.R" in your analysis folder
 source("HowToLoadCorpusData.R")
 
 # Load the Final Fantasy script as a data frame

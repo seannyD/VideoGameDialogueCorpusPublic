@@ -31,11 +31,11 @@
 			"Dionysus",
 			"Hermes",
 			"Poseidon",
-			"Scratch",
 			"Zeus",
-			"Minotaur",
+			"Asterius",
 			"Skelly",
-			"Theseus"
+			"Theseus",
+            "Bouldy"
 		],
 		"female": [
 			"Eurydice",
@@ -50,16 +50,34 @@
 			"Alecto",			
 			"Tisiphone"
 		],
+		"genderless": [
+			"Chaos"	
+		],
 		"neutral": [
-			"Bouldy",
-			"Unknown",
-			"Chaos",
-			"Intercom"
 		]
 	},
 	"aliases": {
 		"Unknown": {
-			"Bouldy": [".   .   .   ."]
-			}
+			"Bouldy": [".   .   .   ."],
+            "Asterius": [
+                "Peaaaaace!"
+            ],
+            "Megaera": [
+                "-- ...the problem that I have with that wretched shade is his attitude.",
+                "-- ...I don't know which of them is worse, I swear to you.",
+                "-- ...He truly is an idiot, I'll give you that."
+            ]
+        },
+        "Scratch": {
+            "Achilles": [
+                "Good to see you, lad, despite the circumstances."
+            ],
+            "Storyteller": [
+                "-- I, however, mean to tell you such a tale. Listen carefully...",
+                "-- Few tales are told of Hades,"
+            ]
+        },
+        "Minotaur": "Asterius",
+		"Intercom": "Hades"
 	}
 }

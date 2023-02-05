@@ -9,7 +9,7 @@ Final Fantasy III source:
 
 Download Onion Text from this site: https://www.romhacking.net/utilities/1226/
 Unzip the file, then from the folder "English FFIII Script (2019 Translation)",
-Copy the files data_bank1.txt to data_bank4.txt
+Copy the files data_bank1.txt to data_bank4.txt into the 'raw' folder.
 """)
 
 input("Press Enter to continue...")

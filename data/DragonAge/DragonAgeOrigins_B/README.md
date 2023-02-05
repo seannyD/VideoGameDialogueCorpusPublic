@@ -1,5 +1,9 @@
 # Dragon Age: Origins
 
+## Source
+
+The data comes from game files. Extract the '.dlg' files from the game and copy them to to the 'raw' folder.
+
 ## Gender Coding
 In Dragon Age, most species/races have two basic character models for bodies (faces are more customisable): male and female (labelled as such during character creation, with the same models being used for NPCs). So, for instance, there are male and female human models, male and female elf models, and so on. These have typical secondary sex characteristics, and clothing consistently appears differently on male and female bodies (e.g. 'leather armour' has a different visual appearance on a female character than a male character.)
 

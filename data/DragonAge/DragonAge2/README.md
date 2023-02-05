@@ -1,5 +1,9 @@
 ## Dragon Age 2
 
+### Source
+
+The data comes from game files. Extract the '.cnv' files from the game and copy them to to the 'raw' folder.
+
 ### Gender Coding
 Some of the lines in the data file may have been cut from the final game, and thus will only appear with modding. E.g. Connor's appearance (https://dragonage.fandom.com/wiki/Connor_Guerrin). Where this is the case for entire characters and it's possible to identify as much, I've added them to the category "cut". I have not attempted to split out cut dialogue for characters that do persist in the game except in straightforward/obvious cases (e.g. where the cut dialogue is bundled under a different character name, e.g. Teagan v Arl Bann Teagan). Some useful information can be found here: https://dragonage.fandom.com/wiki/Cut_content?so=search#Dragon_Age_II - I have used the cut audio to identify some cut lines of dialogue (marked with aliases, e.g. "Aveline (Removed Line)"). 
 

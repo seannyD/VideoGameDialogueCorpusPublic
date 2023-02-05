@@ -1,6 +1,6 @@
 folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
-../data/ElderScrolls/Morrowind/,False,The Elder Scrolls III: Morrowind,The Elder Scrolls,TOTAL,9006,173666,26847,215812,1.5964787315016142,95.13815272706299,7.332724509397112,364
+../data/ElderScrolls/Morrowind/,False,The Elder Scrolls III: Morrowind,The Elder Scrolls,TOTAL,9006,173666,26847,215812,1.5964787315016142,95.13815272706299,7.332633587742903,364
 ../data/ElderScrolls/Morrowind/,False,The Elder Scrolls III: Morrowind,The Elder Scrolls,playerChoice,3055,8773,4019,11840,1.1865488349013127,90.44360891005387,10.256593550800686,1
-../data/ElderScrolls/Morrowind/,False,The Elder Scrolls III: Morrowind,The Elder Scrolls,male,3851,110139,14993,136970,1.9495530708405973,94.16934608145857,7.245053609743909,237
+../data/ElderScrolls/Morrowind/,False,The Elder Scrolls III: Morrowind,The Elder Scrolls,male,3851,110139,14993,136970,1.9495530708405973,94.16934608145857,7.244910245449699,237
 ../data/ElderScrolls/Morrowind/,False,The Elder Scrolls III: Morrowind,The Elder Scrolls,female,2097,54693,7822,66933,1.5777352773978297,96.20488933053264,7.120642102192109,125
 ../data/ElderScrolls/Morrowind/,False,The Elder Scrolls III: Morrowind,The Elder Scrolls,neutral,3,61,10,69,0.1365409836065563,104.94841803278692,6.527584590163934,1

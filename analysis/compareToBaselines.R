@@ -1,6 +1,6 @@
 library(rjson)
 library(dplyr)
-try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/"))
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project_public/analysis/"))
 
 NUMBER_OF_SIMULATIONS = 100000
 lengthVar = "words"

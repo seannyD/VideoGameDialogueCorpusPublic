@@ -10,7 +10,7 @@ header-includes:
 ---
 
 ```{r echo=F,eval=F}
-try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/"))
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project_public/analysis/"))
 ```
 
 # Introduction

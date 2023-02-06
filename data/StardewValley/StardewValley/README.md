@@ -18,6 +18,11 @@ There are some lines of dialogue that are not captured in the types above. For e
 
 Television reports (such as weather report, fortune teller) are missing from the source file. Some sidequest dialogue (eg Willy fishing quest) is missing too.
 
+Example of difference in male vs. female player:
+
+https://youtu.be/IoThzxp1UL4?t=157
+https://youtu.be/l80vb_s7aRQ?t=53
+
 ## Gender coding
 
 According to https://stardewvalleywiki.com/Dwarf:

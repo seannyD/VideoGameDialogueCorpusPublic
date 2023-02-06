@@ -1,7 +1,7 @@
 library(ggplot2)
 library(dplyr)
 library(tidyr)
-try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/"))
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project_public/analysis/"))
 
 # Load two stats files
 ffvii = read.csv("../data/FinalFantasy/FFVII/stats_by_character.csv",stringsAsFactors = F)

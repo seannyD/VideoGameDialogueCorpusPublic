@@ -45,7 +45,7 @@ knitr::include_graphics("Emotions.png")
 
 
 ```{r echo=F,eval=F,warning=F,message=F}
-try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/Appendices/"))
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project_public/analysis/Appendices/"))
 ```
 
 # Load libraries

@@ -11,7 +11,7 @@ urlcolor: blue
 ---
 
 ```{r echo=F,eval=F}
-try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/Appendices/"))
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project_public/analysis/Appendices/"))
 ```
 
 # Introduction

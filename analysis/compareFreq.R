@@ -1,7 +1,7 @@
 library(quanteda)
 library(quanteda.textstats)
 library(stringr)
-setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/analysis/")
+setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project_public/analysis/")
 
 
 logLikelihood.G2 = function(a,b,c,d){

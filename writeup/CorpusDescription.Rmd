@@ -11,7 +11,7 @@ urlcolor: blue
 ---
 
 ```{r echo=F,eval=F}
-try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project/writeup/"))
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project_public/writeup/"))
 ```
 
 
@@ -199,7 +199,7 @@ The corpus pipeline is visualised below:
 
 ![The corpus pipeline](img/CorpusPipeline.png)
 
-We approach these tasks using replicatable methods in order to create a "self-inflating corpus". The entire pipeline for each game is implemented in python and R code. This means that we can release the code and metadata publicly as a github repository. Now, other researchers can re-run the code in order to re-create the corpus, without needing to share copyrighted materials directly. In addition, the corpus can continue to be expanded and edited in a centralised and consistent way.
+We use python and R scripts to create a replicable, "self-inflating corpus". This means that we can release the code and metadata publicly as a github repository. Now, other researchers can re-run the code in order to re-create the corpus, without needing to share copyrighted materials directly. In addition, the corpus can continue to be expanded and edited in a centralised and consistent way.
 
 The pipeline is set up so that a single parser can be applied to several games. The hope was that code could be re-used. In reality, nearly every game needed its own special parser because of the specifics of the source format or game mechanics. As a result, the parsers account for 10,000 lines of code in the repository. The metadata has around 28,000 lines of gender coding and character name unification details.
 
@@ -223,34 +223,29 @@ The script for a game is a list of dictionaries. Each dictionary has a main key 
 
 According to the JSON format, square brackets enclose a list of items separated by commas, and curly brackets enclose a set of key:value pairs.
 
-There are a number of reserved main keys that indicate particular kinds of information. These include:
+There are a number of reserved main keys that indicate particular kinds of information. These include the following:
 
--  ACTION: the value is a description of the action (see the example above). 
--  LOCATION: the value is a description of the location.
--  SYSTEM: the value is a transcription of non-diegetic text that appears to the player, but is not spoken by in-game characters. This includes menu text and tutorial text.
--  CHOICE: a branching choice (see below)
--  GOTO: The script continues at another location (see below)
--  STATUS: A description of some contextual status, used to interpret branching choices (see below)
+### ACTION
 
-The dictionary can optionally include other keys, as long as they begin with an underscore, which might convey contextual information. In the example below from Oblivion, the extra data includes the race of the character, the emotion information assigned to the face animator, and the quest ID that this dialogue appears within.
+The value is a description of the action (see the example above). 
 
-```{json}
-{"Velwyn Benirus": "I got the door open. The rest is up to you.",  
-    "_Race": "Imperial", 
-    "_Emotion": "Fear 90", 
-    "_Quest": "0000BCD7"}
-```
+### LOCATION
+
+The value is a description of the location.
+
+### SYSTEM
+
+The value is a transcription of non-diegetic text that appears to the player, but is not spoken by in-game characters. This includes menu text and tutorial text.
+
+### CHOICE
 
 Branching dialogue is handled using a recursive structure. The main key is labelled “CHOICE” and its value is a list of possible outcomes. Each outcome is a list of dialogue dictionaries, like the normal format. Any of the dialogue dictionaries can itself be a choice structure, allowing recursive branching. 
 
-\clearpage
-\newpage
+Figures 2 and 3 show a recursive branching dialogue from Star Wars: Knights of the Old Republic between Revan (the player character) and Bastila, an antagonist. After Bastila's first line, the player has two choices, then the right branch has some more dialogue then a further three choices:
 
-Figures 2 and 3 show a recursive branching dialogue from Final Fantasy VII between Cloud (the player character) and Aerith. There are several possible binary choices, indicated by different shades of the same colour:
+![A visualisation of a branching tree structure in Final Fantasy VII](img/KOTOR_BranchingVis.png)
 
-![A visualisation of a branching tree structure in Final Fantasy VII](img/FFVII_BranchingVis.png)
-
-![An example of branching text from Final Fantasy VII](img/FFVII_BranchingText.png)
+![An example of branching text from Final Fantasy VII](img/KOTOR_BranchingText.png)
 \clearpage
 \newpage
 
@@ -273,7 +268,13 @@ In the example below from Skyrim, Ralof responds differently based on the player
 ]}
 ```
 
-Although a branching structure can technically represent all types of outcome, some games are more succinctly represented using a mix of branching structures and links between parts of this structure. To handle this, each dialogue dictionary can be given a unique ID (assigned to the key “_ID”). Then there is a reserved main key “GOTO” paired with an ID. This is an instruction that the script resumes at the dictionary with the given ID.
+### GOTO
+
+Although a branching structure can technically represent all types of outcome, some games are more succinctly represented using a mix of branching structures and links between parts of this structure. To handle this, each dialogue dictionary can be given a unique ID (assigned to the key “_ID”). Then there is a reserved main key “GOTO” paired with an ID. This is an instruction that the script resumes at the dictionary with the given ID (see example below).
+
+### STATUS
+
+A description of some contextual status, used to interpret branching choices.
 
 In the example below from Mass Effect 3, Din Korlack’s line changes depending on the gender of the player character Shepard. If Shepard is female, then the first outcome is experienced. If not, then the second outcome is experienced, but then there’s a GOTO line that rejoins the script at Zaeed’s first line. That is, the text dialogue experienced by the player is identical except for the pronouns.
 
@@ -290,6 +291,19 @@ In the example below from Mass Effect 3, Din Korlack’s line changes depending 
 		{"Din Korlack": "Shepard's investigating. He's... a recent acquaintance.", "_ID": "689366"},
 		{"GOTO": "689367"}]]}
 ```
+
+
+### Minor keys
+
+The dictionary can optionally include other keys, as long as they begin with an underscore, which might convey contextual information. In the example below from Oblivion, the extra data includes the race of the character, the emotion information assigned to the face animator, and the quest ID that this dialogue appears within.
+
+```{json}
+{"Velwyn Benirus": "I got the door open. The rest is up to you.",  
+    "_Race": "Imperial", 
+    "_Emotion": "Fear 90", 
+    "_Quest": "0000BCD7"}
+```
+
 
 \clearpage
 \newpage

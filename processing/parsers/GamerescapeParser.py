@@ -213,8 +213,12 @@ def parseFile(fileName,parameters={},asJSON=False):
 		qTitle = td[1].getText().strip()
 		scenario = td[2].getText().strip()
 		
-		xp = soup.find("a",{"title":"Experience Points"}).find_previous_sibling("div").getText().strip()
-		xp = xp.replace(",","")
+		xp = soup.find("a",{"title":"Experience Points"})
+		if xp is None:
+			xp = "NA"
+		else:
+			xp = xp.find_previous_sibling("div").getText().strip()
+			xp = xp.replace(",","")
 
 
 		qdetails = {"SYSTEM":qTitle,
@@ -248,10 +252,10 @@ def parseFile(fileName,parameters={},asJSON=False):
 		# Find all top-level tables
 		tables = dialogue.find_all("table",recursive=False)
 		
-		x = dialogue.find("td",{"colspan":2}, recursive=True)
-		if not x is None:
-			print("!!!!!")
-			print(fileName)
+		#x = dialogue.find("td",{"colspan":2}, recursive=True)
+		#if not x is None:
+		#	print("!!!!!")
+		#	print(fileName)
 		
 		for table in tables:
 			if isChoiceTable(table):

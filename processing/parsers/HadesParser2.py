@@ -18,6 +18,13 @@ def parseFile(fileName,parameters={},asJSON=False):
 	def bitParser(bit,chunkID=""):
 		#print(bit)
 		#print('-----')
+		preLineAnim = ""
+		if bit.count("PreLineAnim")>0:
+			pla = bit[bit.index("PreLineAnim")+15:]
+			pla = pla[:pla.index('"')]
+			preLineAnim = pla
+			bit = re.sub(',? ?PreLineAnim = ".+?" ?,?',"", bit)
+		
 		txt = bit[bit.index("Text ")+4:].strip().replace("=","")		
 		
 		bit = bit[bit.index("Cue ="):]
@@ -44,6 +51,8 @@ def parseFile(fileName,parameters={},asJSON=False):
 		line = {charName:cleanLine(txt)}
 		if len(chunkID)>0:
 			line["_chunk"] = chunkID
+		if len(preLineAnim)>0:
+			line["_preLineAnim"] = preLineAnim
 		return(line)
 
 	o = open(fileName)
@@ -74,6 +83,10 @@ def parseFile(fileName,parameters={},asJSON=False):
 	d = re.sub("ActivateRequirements =\n\t+{","ActivateRequirements = {",d)
 	d = re.sub("Binks =\n\t+{","Binks = {",d)
 	d = re.sub("InteractTextLineSets =\n\t+{","InteractTextLineSets = {",d)
+	# deal with PostLineFunctionArgs
+	d = re.sub("{ Text =","{ Txt =",d)
+	# 
+	d = re.sub("(PostLineFunctionArgs =[^\n]+? )Text = ","\\1Txt",d)
 	
 	# Write for debugging
 	open("../data/Hades/Hades/raw/tmp.json",'w').write(d)

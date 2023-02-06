@@ -17,6 +17,22 @@ def parseFile(fileName,parameters={},asJSON=False):
 		return(txt)
 
 
+	def splitDialogueAndDescription(txt,charName,idx):
+		# "\"So, like...\" The girl on the ice looks up at you. \"Seriously, what's eating you, man?\""
+		parts = re.split('(".+?")',txt)
+		out = []
+		for part in parts:
+			if len(part)>0:
+				if part.startswith('"') or len(parts)<=3:
+					# includes dialogue and internal dialogue (with no quotes)
+					out.append({charName: part.replace('"',"").strip()})
+				else:
+					out.append({"Narrator": part.strip()})
+		out[0]["_ID"] = idx
+		return(out)
+			
+			
+
 	def dentry2DialogueLine(dentry):
 		dTitle = dentry["title"]
 		charName = "SYSTEM"
@@ -26,7 +42,8 @@ def parseFile(fileName,parameters={},asJSON=False):
 		txt = cleanLine(txt)
 		#print(dentry)
 		idx = str(dentry["conversationid"]) + "_" + str(dentry["id"])
-		return({charName:txt, "_ID": idx})
+		dialogueParts = splitDialogueAndDescription(txt,charName,idx)
+		return(dialogueParts)
 	
 	# Connect to database
 	temp_db = sqlite3.connect(fileName)
@@ -87,10 +104,11 @@ def parseFile(fileName,parameters={},asJSON=False):
 				return([{"GOTO": idx}])
 			else:
 				convoSeenIDs.append(idx)
+			# dialogue Line is always a list
 			dialogueLine = dentry2DialogueLine(convo[lineID])
 			if not lineID in convoLinks:
 				# end of the line
-				return([dialogueLine])
+				return(dialogueLine)
 			#print(convoLinks[lineID])
 			destIDs = [(x["destinationconversationid"], x["destinationdialogueid"]) for x in convoLinks[lineID]]
 			destinations = []
@@ -102,12 +120,12 @@ def parseFile(fileName,parameters={},asJSON=False):
 					destinations.append([{"GOTO":str(destConvID) + "_" + str(destDialogueID)}])
 	
 			if len(destinations)==1:
-				return([dialogueLine] + destinations[0])
+				return(dialogueLine + destinations[0])
 			elif len(destinations)>1:
-				return([dialogueLine, {"CHOICE": destinations}])
+				return(dialogueLine + [{"CHOICE": destinations}])
 			else:
 				# No destinations (already dealt with?)
-				return([dialogueLine])
+				return(dialogueLine)
 
 		convoOut = walkStructure(startID)
 		out += convoOut

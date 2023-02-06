@@ -14,7 +14,7 @@
 		"parser": "HadesParser2",
 		"fileType": ".lua"
 	},
-	"mainPlayerCharacters": ["Hades"],
+	"mainPlayerCharacters": ["Zagreus"],
 	"characterGroups": {
 		"male": [
 			"Hades",

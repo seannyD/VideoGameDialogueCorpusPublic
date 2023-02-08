@@ -11,7 +11,7 @@ Note that some games have multiple folders with alternative sources. Only some o
 :arrow_down: = Abandoned, has been superseded by a newer source.
 
 | Folder | Status |  All Char Coded | Data older than parser | Data older than meta | Stats older than data | Main char | Source Feat. |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | ChronoTrigger/ChronoTrigger/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | DiscoElysium/DiscoElysium/ | :parking: |  :x: | :ok: | :ok: | :x: | :ok: | :ok: |
 | DragonAge/DragonAge2/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |

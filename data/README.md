@@ -7,7 +7,9 @@ Note that some games have multiple folders with alternative sources. Only some o
  # Coding Status
 
 :white_check_mark: = Data has passed checks and is ready to use.
+
 :parking: = Parser is in progress.
+
 :arrow_down: = Abandoned, has been superseded by a newer source.
 
 | Folder | Status |  All Char Coded | Data older than parser | Data older than meta | Stats older than data | Main char | Source Feat. |

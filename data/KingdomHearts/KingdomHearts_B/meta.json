@@ -2,6 +2,7 @@
 	"game": "Kingdom Hearts",
 	"series": "Kingdom Hearts",
 	"year": 2002,
+	"status": "ready",
 	"source": "https://transcripts.fandom.com/wiki/Kingdom_Hearts",
 	"sourceFeatures": {
 		"type": "fan transcript",

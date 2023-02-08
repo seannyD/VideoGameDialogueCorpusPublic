@@ -2,6 +2,7 @@
 	"game": "Final Fantasy V",
 	"series": "Final Fantasy",
 	"year": 1992,
+	"status": "ready",
 	"source": "http://www.finalfantasyquotes.com/ff5/script",
 	"notes": "See README",
 	"sourceFeatures":{

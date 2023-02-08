@@ -2,6 +2,7 @@
 	"game": "Final Fantasy XIV",
 	"series": "Final Fantasy",
 	"year": 2010,
+	"status": "ready",
 	"source": "https://ffxiv.gamerescape.com",
 	"sourceFeatures": {
 		"type": "wiki",

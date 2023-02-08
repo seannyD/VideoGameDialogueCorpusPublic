@@ -2,6 +2,7 @@
 	"game": "The Curse of Monkey Island",
 	"series": "Monkey Island",
 	"year": 1997,
+	"status": "ready",
 	"source": "https://gamefaqs.gamespot.com/pc/29083-the-curse-of-monkey-island/faqs/60819",
 	"sourceFeatures":{
 		"type": "fan transcript",

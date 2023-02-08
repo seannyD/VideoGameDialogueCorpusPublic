@@ -2,6 +2,7 @@
 	"game": "King's Quest III: To Heir Is Human",
 	"series": "King's Quest",
 	"year": 1986,
+	"status": "ready",
 	"source": "https://kingsquest.fandom.com/wiki/KQ3_transcript",
 	"sourceFeatures":{
 		"type": "game data",

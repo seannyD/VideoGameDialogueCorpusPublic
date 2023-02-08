@@ -2,6 +2,7 @@
 	"game": "Mass Effect 3",
 	"series": "Mass Effect",
 	"year": 2012,
+	"status": "superseded",
 	"alternativeMeasure": true,
 	"source": "http://mod.gib.me/masseffect3/testdump2.txt",
 	"parserParameters": {

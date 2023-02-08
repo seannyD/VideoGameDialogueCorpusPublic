@@ -2,6 +2,7 @@
 	"game": "King's Quest IV: The Perils of Rosella",
 	"series": "King's Quest",
 	"year": 1988,
+	"status": "ready",
 	"notes": "The parser may be overly complicated. There are only 200ish lines, they could be manually assigned",
 	"source": "https://kingsquest.fandom.com/wiki/KQ4SCI_transcript",
 	"sourceFeatures":{

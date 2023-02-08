@@ -2,6 +2,7 @@
 	"game": "Final Fantasy",
 	"series": "Final Fantasy",
 	"year": 1987,
+	"status": "ready",
 	"source": "https://archive.rpgamer.com/games/ff/ff1/info/ff1_script.txt",
 	"sourceFeatures":{
 		"type": "fan transcript",

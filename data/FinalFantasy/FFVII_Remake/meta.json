@@ -2,6 +2,7 @@
 	"game": "Final Fantasy VII Remake",
 	"series": "Final Fantasy",
 	"year": 2020,
+	"status": "ready",
 	"source": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_VII_Remake_script",
 	"sourceFeatures":{
     		"type": "wiki",

@@ -2,6 +2,7 @@
 	"game": "Mass Effect 2",
 	"series": "Mass Effect",
 	"year": 2010,
+	"status": "ready",
 	"source": "Dump from custom branch of Legendary Explorer: https://github.com/ME3Tweaks/LegendaryExplorer",
 	"error checks": {
 		"truePositive_numTestsDone": "5",

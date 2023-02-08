@@ -2,6 +2,7 @@
 	"game": "Final Fantasy X-2",
 	"series": "Final Fantasy",
 	"year": 2003,
+	"status": "ready",
 	"source": "https://www.ffcompendium.com/h/faqs/ffx2scriptaschthehated.txt",
 	"sourceFeatures": {
 		"type": "fan transcript",

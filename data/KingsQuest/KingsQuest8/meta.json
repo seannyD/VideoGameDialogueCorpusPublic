@@ -2,6 +2,7 @@
 	"game": "King's Quest VIII",
 	"series": "King's Quest",
 	"year": 1998,
+	"status": "ready",
 	"source": "https://kingsquest.fandom.com/wiki/KQ8_transcript#Connor",
 	"sourceFeatures":{
 		"type": "game data",

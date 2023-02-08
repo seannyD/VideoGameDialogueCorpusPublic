@@ -2,6 +2,7 @@
 	"game": "The Elder Scrolls III: Morrowind",
 	"series": "The Elder Scrolls",
 	"year": 2002,
+	"status": "ready",
 	"source": "https://elderscrolls.fandom.com/wiki/",
 	"sourceFeatures": {
 		"type": "wiki",

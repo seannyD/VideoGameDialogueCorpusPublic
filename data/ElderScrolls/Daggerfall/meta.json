@@ -2,6 +2,7 @@
 	"game": "The Elder Scrolls II: Daggerfall",
 	"series": "The Elder Scrolls",
 	"year": 1996,
+	"status": "ready",
 	"source": "https://github.com/Interkarma/daggerfall-unity",
 	"sourceFeatures":{
 		"type": "game data",

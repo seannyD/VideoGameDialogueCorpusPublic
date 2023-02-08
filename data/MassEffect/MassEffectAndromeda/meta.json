@@ -2,6 +2,7 @@
 	"game": "Mass Effect: Andromeda",
 	"series": "Mass Effect",
 	"year": 2017,
+	"status": "in progress",
 	"source": "http://www.masseffectlore.com/transcripts/mass-effect-andromeda-transcripts/",
 	"alternativeMeasure": true,
 	"parserParameters": {

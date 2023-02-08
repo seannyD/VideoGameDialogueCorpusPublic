@@ -2,6 +2,7 @@
 	"game": "Final Fantasy X",
 	"series": "Final Fantasy",
 	"year": 2001,
+	"status": "ready",
 	"source": "http://auronlu.istad.org/ffx-script/",
 	"sourceFeatures": {
 		"type": "fan transcript",

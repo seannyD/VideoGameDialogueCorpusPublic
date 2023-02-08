@@ -2,6 +2,7 @@
 	"game": "Mass Effect",
 	"series": "Mass Effect",
 	"year": 2007,
+	"status": "superseded",
 	"alternativeMeasure": true,
 	"source": "http://www.masseffectlore.com/transcripts/mass-effect-1-transcripts/",
 	"parserParameters": {

@@ -2,6 +2,7 @@
 	"game": "King's Quest VII: The Princeless Bride",
 	"series": "King's Quest",
 	"year": 1994,
+	"status": "ready",
 	"source": "https://kingsquest.fandom.com/wiki/KQ7_transcript",
 	"sourceFeatures":{
 		"type": "game data",

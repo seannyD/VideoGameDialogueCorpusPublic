@@ -2,6 +2,7 @@
 	"game": "Test",
 	"series": "Test",
 	"year": 3000,
+	"status": "in progress",
 	"source": "Test",
 	"notes": "For testing",
 	"alternativeMeasure": true,

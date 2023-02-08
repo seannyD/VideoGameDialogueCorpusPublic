@@ -2,6 +2,7 @@
 	"game": "Dragon Age: Origins",
 	"series": "Dragon Age",
 	"year": 2009,
+	"status": "superseded",
 	"source": "https://github.com/pod7/dragonage_compendium",
 	"alternativeMeasure": true,
 	"characterInfoSource": "https://dragonage.fandom.com/wiki/",

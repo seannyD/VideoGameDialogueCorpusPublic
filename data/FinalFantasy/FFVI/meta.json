@@ -2,6 +2,7 @@
 	"game": "Final Fantasy VI",
 	"series": "Final Fantasy",
 	"year": 1994,
+	"status": "ready",
 	"source": "https://gamefaqs.gamespot.com/snes/554041-final-fantasy-iii/faqs/70118",
 	"notes": "The original script is explicit about various parts that are left out. This includes that 'random townsfolk talking will likely not be included'. Note that link suggests FFIII, but the script is really for the (Japanese number) FFVI.",
 	"sourceFeatures":{

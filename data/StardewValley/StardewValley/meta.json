@@ -2,6 +2,7 @@
 	"game": "Stardew Valley",
 	"series": "Stardew Valley",
 	"year": 2016,
+	"status": "ready",
 	"source": "https://drive.google.com/drive/folders/0BwyXuxAqGS7ueVdFX2dQSUVzcUk",
 	"sourceFeatures":{
 		"type": "game data",

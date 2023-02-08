@@ -2,6 +2,7 @@
 	"game": "Dragon Age 2",
 	"series": "Dragon Age",
 	"year": 2011,
+	"status": "ready",
 	"source": "Game Data",
 	"sourceFeatures": {
 		"type": "game data",

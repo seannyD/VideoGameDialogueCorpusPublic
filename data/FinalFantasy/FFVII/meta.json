@@ -2,6 +2,7 @@
 	"game": "Final Fantasy VII",
 	"series": "Final Fantasy",
 	"year": 1997,
+	"status": "ready",
 	"source": "http://www.yinza.com/Fandom/Script/",
 	"sourceFeatures":{
     		"type": "fan transcript",

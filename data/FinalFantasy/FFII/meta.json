@@ -2,6 +2,7 @@
 	"game": "Final Fantasy II",
 	"series": "Final Fantasy",
 	"year": 1988,
+	"status": "ready",
 	"source": "https://gamefaqs.gamespot.com/ps/916670-final-fantasy-ii/faqs/61436",
 	"sourceFeatures":{
 		"type": "fan transcript",

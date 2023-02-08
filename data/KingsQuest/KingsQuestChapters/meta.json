@@ -2,6 +2,7 @@
 	"game": "King's Quest Chapters",
 	"series": "King's Quest",
 	"year": 2015,
+	"status": "ready",
 	"source": "https://kingsquest.fandom.com/wiki/KQC1_transcript",
 	"sourceFeatures":{
 		"type": "game data",

@@ -2,6 +2,7 @@
 	"game": "King's Quest I: Quest for the Crown",
 	"series": "King's Quest",
 	"year": 1987,
+	"status": "ready",
 	"source": "https://kingsquest.fandom.com/wiki/KQ1SCI_transcript",
 	"notes": "See README",
 	"sourceFeatures":{

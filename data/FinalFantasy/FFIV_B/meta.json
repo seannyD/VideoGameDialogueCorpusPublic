@@ -3,6 +3,7 @@
 	"series": "Final Fantasy",
 	"year": 1991,
 	"source": "http://www.finalfantasyquotes.com/ff4/script",
+	"status": "superseded",
 	"alternativeMeasure": true,
 	"parserParameters": {
 		"parser":"FFQParser",

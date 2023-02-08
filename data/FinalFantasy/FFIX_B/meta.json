@@ -2,6 +2,7 @@
 	"game": "Final Fantasy IX",
 	"series": "Final Fantasy",
 	"year": 2000,
+	"status": "ready",
 	"source": "https://gamefaqs.gamespot.com/ps/197338-final-fantasy-ix/faqs/42207",
 	"sourceFeatures": {
 		"type": "fan transcript",

@@ -2,6 +2,7 @@
 	"game": "Kingdom Hearts II",
 	"series": "Kingdom Hearts",
 	"year": 2005,
+	"status": "ready",
 	"source": "https://transcripts.fandom.com/wiki/Kingdom_Hearts_II",
 	"sourceFeatures":{
 		"type": "fan transcript",

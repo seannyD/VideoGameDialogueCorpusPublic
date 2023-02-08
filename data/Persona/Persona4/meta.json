@@ -2,6 +2,7 @@
 	"game": "Persona 4",
 	"series": "Persona",
 	"year": 2008,
+	"status": "ready",
 	"source": "https://lparchive.org/Persona-4/",
 	"sourceFeatures":{
 		"type": "fan transcript",

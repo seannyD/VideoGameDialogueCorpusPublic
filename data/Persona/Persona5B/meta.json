@@ -2,6 +2,7 @@
 	"game": "Persona 5",
 	"series": "Persona",
 	"year": 2016,
+	"status": "ready",
 	"source": "https://lparchive.org/Persona-5/",
 	"sourceFeatures":{
 		"type": "fan transcript",

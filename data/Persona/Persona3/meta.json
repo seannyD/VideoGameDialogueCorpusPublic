@@ -2,6 +2,7 @@
 	"game": "Persona 3",
 	"series": "Persona",
 	"year": 2006,
+	"status": "ready",
 	"source": "https://lparchive.org/Persona-3/",
 	"sourceFeatures": {
 		"type": "fan transcript",

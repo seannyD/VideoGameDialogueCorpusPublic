@@ -2,6 +2,7 @@
 	"game": "Final Fantasy XIII",
 	"series": "Final Fantasy",
 	"year": 2009,
+	"status": "ready",
 	"source": "https://en.wikiquote.org/wiki/Final_Fantasy_XIII#Dialogue",
 	"sourceFeatures": {
 		"type": "wiki",

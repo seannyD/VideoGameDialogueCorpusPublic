@@ -2,6 +2,7 @@
 	"game": "Star Wars: Knights of the Old Republic",
 	"series": "Star Wars: Knights of the Old Republic",
 	"year": 2003,
+	"status": "ready",
 	"source": "https://github.com/hmi-utwente/video-game-text-corpora/blob/master/Star%20Wars:%20Knights%20of%20the%20Old%20Republic/data/dataset_20200716.csv",
 	"sourceFeatures": {
 		"type": "game data",

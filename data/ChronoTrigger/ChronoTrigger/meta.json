@@ -2,6 +2,7 @@
 	"game": "Chrono Trigger",
 	"series": "Chrono Trigger",
 	"year": 1995,
+	"status": "ready",
 	"source": "https://www.chronocompendium.com/Term/Retranslation.html",
 	"sourceFeatures": {
 		"type": "game data",

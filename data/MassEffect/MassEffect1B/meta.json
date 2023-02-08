@@ -2,6 +2,7 @@
 	"game": "Mass Effect",
 	"series": "Mass Effect",
 	"year": 2007,
+	"status": "ready",
 	"source": "See Readme",
 	"sourceFeatures":{
     		"type": "game data",

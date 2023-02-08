@@ -2,6 +2,7 @@
 	"game": "Final Fantasy IV",
 	"series": "Final Fantasy",
 	"year": 1991,
+	"status": "ready",
 	"source": "https://gamefaqs.gamespot.com/ds/939425-final-fantasy-iv/faqs/53978",
 	"sourceFeatures": {
 		"type": "fan transcript",

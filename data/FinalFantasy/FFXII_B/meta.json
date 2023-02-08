@@ -2,6 +2,7 @@
 	"game": "Final Fantasy XII",
 	"series": "Final Fantasy",
 	"year": 2006,
+	"status": "ready",
 	"source": "http://ffnerdery.blogspot.com/p/final-fantasy-xii.html",
 	"sourceFeatures": {
 		"type": "fan transcript",

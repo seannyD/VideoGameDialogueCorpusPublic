@@ -2,6 +2,7 @@
 	"game": "Final Fantasy VI",
 	"series": "Final Fantasy",
 	"year": 1994,
+	"status": "superseded",
 	"alternativeMeasure": true,
 	"source": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_VI_SNES_script",
 	"characterInfoSource":"https://finalfantasy.fandom.com/wiki/",

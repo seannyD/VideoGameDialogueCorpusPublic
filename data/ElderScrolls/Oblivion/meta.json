@@ -2,6 +2,7 @@
 	"game": "The Elder Scrolls IV: Oblivion",
 	"series": "The Elder Scrolls",
 	"year": 2006,
+	"status": "ready",
 	"source": "https://www.mediafire.com/file/bhkqiqjhfib0waa/dialogueExport.txt/file",
 	"sourceFeatures":{
 		"type": "game data",

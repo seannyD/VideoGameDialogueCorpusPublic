@@ -2,6 +2,7 @@
 	"game": "Tales of Vesperia",
 	"series": "Tales",
 	"year": 2008,
+	"status": "ready",
 	"source": "https://hyouta.com/vesperia/",
 	"alternativeMeasure": true,
 	"sourceFeatures": {

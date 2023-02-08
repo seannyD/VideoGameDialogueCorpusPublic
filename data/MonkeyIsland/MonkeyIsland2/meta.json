@@ -2,6 +2,7 @@
 	"game": "Monkey Island 2: LeChuck's Revenge",
 	"series": "Monkey Island",
 	"year": 1991,
+	"status": "ready",
 	"source": "https://gamefaqs.gamespot.com/pc/562680-monkey-island-2-lechucks-revenge/faqs/79490",
 	"sourceFeatures":{
 		"type": "fan transcript",

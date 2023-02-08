@@ -2,6 +2,7 @@
 	"game": "Lightning Returns: Final Fantasy XIII",
 	"series": "Final Fantasy",
 	"year": 2014,
+	"status": "ready",
 	"source": "https://www.youtube.com/watch?v=Kl_EgMs2V4A",
 	"sourceFeatures": {
 		"type": "fan transcript",

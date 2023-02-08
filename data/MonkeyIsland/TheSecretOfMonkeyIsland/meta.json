@@ -2,6 +2,7 @@
 	"game": "The Secret of Monkey Island",
 	"series": "Monkey Island",
 	"year": 1990,
+	"status": "ready",
 	"source": "https://gamefaqs.gamespot.com/pc/562681-the-secret-of-monkey-island/faqs/23891",
 	"sourceFeatures":{
 		"type": "fan transcript",

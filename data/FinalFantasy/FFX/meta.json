@@ -2,6 +2,7 @@
 	"game": "Final Fantasy X",
 	"series": "Final Fantasy",
 	"year": 2001,
+	"status": "superseded",
 	"source": "http://www.finalfantasyquotes.com/ffx/script",
 	"alternativeMeasure": true,
 	"parserParameters": {

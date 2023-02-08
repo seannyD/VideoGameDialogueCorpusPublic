@@ -2,6 +2,7 @@
 	"game": "King's Quest VI",
 	"series": "King's Quest",
 	"year": 1992,
+	"status": "ready",
 	"source": "https://kingsquest.fandom.com/wiki/KQ6_transcript",
 	"sourceFeatures":{
 		"type": "game data",

@@ -333,7 +333,7 @@ with open("../results/latexStats/propFemaleLines.tex",'w') as o:
 # and make centralised table
 noSymbol = " :x: "
 yesSymbol = " :ok: "
-codingStatus = "# Data \n\n Each folder is for a video game series, with sub-folders for each game. \n\nNote that some games have multiple folders with alternative sources. Only some of these are included in the 'final' data for the main analysis. The list of folders below shows the locations of the final data. \n\n # Coding Status\n\n| Folder |  All Char Coded | Data older than parser | Data older than meta | Stats older than data | Main char | Source Feat. |\n| --- | --- | --- | --- | --- | --- | --- |\n"
+codingStatus = "# Data \n\n Each folder is for a video game series, with sub-folders for each game. \n\nNote that some games have multiple folders with alternative sources. Only some of these are included in the final data for the main analysis. \n\n # Coding Status\n\n✅ = Data has passed checks and is ready to use.\n🅿 = Parser is in progress.\n⬇ = Abandoned, has been superseded by a newer source.\n\n| Folder | Status |  All Char Coded | Data older than parser | Data older than meta | Stats older than data | Main char | Source Feat. |\n| --- | --- | --- | --- | --- | --- | --- |\n"
 allFolders.sort()
 for folder in allFolders:
 	with open(folder+"meta.json") as json_file:
@@ -341,12 +341,20 @@ for folder in allFolders:
 	altMeasure = False
 	if "alternativeMeasure" in meta:
 		altMeasure = meta["alternativeMeasure"]
-	if not altMeasure:
+	devStatus = "🅿"
+	if "status" in meta:
+		if meta["status"] == "superseded":
+			devStatus = "⬇"
+		if meta["status"] == "ready":
+			devStatus = "✅"
+	
+	# List for all sources
+	if not folder in ["../data/Test/Test/"]:
 		parserName = "XXX"
 		if "parserParameters" in meta:
 			if "parser" in meta["parserParameters"]:
 				parserName = meta["parserParameters"]["parser"]
-		codingStatus += "| " + folder[8:] + " | " 
+		codingStatus += "| " + folder[8:] + " | " + devStatus + " | "
 		codingFileLoc = folder + 'nonCodedCharacters.txt'
 		if os.path.exists(codingFileLoc):
 			with open(codingFileLoc,'r') as codingFile:

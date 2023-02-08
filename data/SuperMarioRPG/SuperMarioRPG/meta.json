@@ -2,6 +2,7 @@
 	"game": "Super Mario RPG: Legend of the Seven Stars",
 	"series": "Super Mario RPG",
 	"year": 1996,
+	"status": "ready",
 	"source": "https://gamefaqs.gamespot.com/snes/588739-super-mario-rpg-legend-of-the-seven-stars/faqs/30431",
 	"sourceFeatures":{
 		"type": "fan transcript",

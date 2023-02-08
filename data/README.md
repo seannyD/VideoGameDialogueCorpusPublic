@@ -18,6 +18,10 @@ Note that some games have multiple folders with alternative sources. Only some o
 | DragonAge/DragonAgeInquisition/ | 🅿 |  :x: | :ok: | :ok: | :ok: | :x: | :x: |
 | DragonAge/DragonAgeOrigins/ | ⬇ |  :x: | :ok: | :ok: | :ok: | :x: | :ok: |
 | DragonAge/DragonAgeOrigins_B/ | ✅ |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
+
+
+
+
 | ElderScrolls/Daggerfall/ | ✅ |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | ElderScrolls/Morrowind/ | ✅ |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | ElderScrolls/Oblivion/ | ✅ |  :ok: | :ok: | :ok: | :ok: | :x: | :ok: |

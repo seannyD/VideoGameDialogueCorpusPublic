@@ -337,7 +337,7 @@ readySymbol = ":white_check_mark:"
 supersededSymbol = ":arrow_down:"
 inProgressSymbol = ":parking:"
 
-codingStatus = "# Data \n\n Each folder is for a video game series, with sub-folders for each game. \n\nNote that some games have multiple folders with alternative sources. Only some of these are included in the final data for the main analysis. \n\n # Coding Status\n\n"+readySymbol+" = Data has passed checks and is ready to use.\n"+inProgressSymbol+" = Parser is in progress.\n"+supersededSymbol+" = Abandoned, has been superseded by a newer source.\n\n| Folder | Status |  All Char Coded | Data older than parser | Data older than meta | Stats older than data | Main char | Source Feat. |\n| --- | --- | --- | --- | --- | --- | --- |\n"
+codingStatus = "# Data \n\n Each folder is for a video game series, with sub-folders for each game. \n\nNote that some games have multiple folders with alternative sources. Only some of these are included in the final data for the main analysis. \n\n # Coding Status\n\n"+readySymbol+" = Data has passed checks and is ready to use.\n"+inProgressSymbol+" = Parser is in progress.\n"+supersededSymbol+" = Abandoned, has been superseded by a newer source.\n\n| Folder | Status |  All Char Coded | Data older than parser | Data older than meta | Stats older than data | Main char | Source Feat. |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n"
 allFolders.sort()
 for folder in allFolders:
 	with open(folder+"meta.json") as json_file:

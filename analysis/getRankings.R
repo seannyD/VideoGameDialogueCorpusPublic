@@ -21,7 +21,7 @@ for(folder in folders){
   }
 }
 
-d = d[order(d$PercentFemWords),]
+d = d[order(d$PercentFemWords,decreasing = T),]
 d$Rank = 1:nrow(d)
-
+d$PercentFemWords = paste(round(d$PercentFemWords,1),"%")
 write.csv(d[,c("Rank","Game","PercentFemWords")],file="../results/GamesRankedByFemaleDialogueProp.csv",row.names = F)

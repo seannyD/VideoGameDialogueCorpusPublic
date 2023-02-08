@@ -4,7 +4,7 @@ This is the public repository for the Video Game Dialogue Corpus. It contains pr
 
 If you use this data, please cite the following:
 
-Stephanie Rennick, Seán G. Roberts, (under review) The Video Game Dialogue Corpus. Corpora.
+Stephanie Rennick, Seán G. Roberts, (in press) The Video Game Dialogue Corpus. Corpora 19(1).
 
 Stephanie Rennick, Melanie Clinton, Elena Ioannidou, Liana Oh, Charlotte Clooney, E. T., Edward Healy, Seán G. Roberts (under review) Gender bias in video game dialogue. Royal Society Open Science.
 
@@ -38,13 +38,13 @@ On the [github page](https://github.com/seannyD/VideoGameDialogueCorpusPublic), 
 
 Or use [this direct link](https://github.com/seannyD/VideoGameDialogueCorpusPublic/archive/refs/heads/main.zip)
 
-4. Run the script `buildCorpus.sh` in the main project folder. This may take some time.
+4. Run the script `buildCorpus.sh` in the main project folder. This may take some time - perhaps over 12 hours (the amount of data downloaded is only around 250MB, but there are thousands of web pages and pauses required between each request).
 
 ```sh
 > ./buildCorpus.sh
 ```
 
-Or if you only want to obtain a script for just one game, run the `scraper.py` script in the relevant game folder, then run the parseRawData file with an argument pointing to the game folder, e.g.:
+The command above will attempt to gather data for all games, including game sources that were superseded by a newer source. if you only want to obtain a script for just one game, run the `scraper.py` script in the relevant game folder, then run the parseRawData file with an argument pointing to the game folder, e.g.:
 
 ```sh
 > python3 parseRawData.py ../data/FinalFantasy/FFVII

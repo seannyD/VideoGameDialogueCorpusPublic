@@ -2,7 +2,7 @@
 	"game": "Mass Effect 3",
 	"series": "Mass Effect",
 	"year": 2012,
-	"status": "superseded",
+	"status": "ready",
 	"source": "Dump from custom branch of Legendary Explorer: https://github.com/ME3Tweaks/LegendaryExplorer",
 	"sourceFeatures": {
 		"type": "game data",

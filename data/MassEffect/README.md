@@ -2,6 +2,8 @@
 
 The main sources used for Mass Effect in the analysis come from a dump of the game files. This requires having each Mass Effect game installed on your computer. This dump was created using a customised version of the ME3 Legendary Explorer (https://github.com/ME3Tweaks/LegendaryExplorer). 
 
+If you have the standard output of the DialogueDumper for other languages, place these files inside the 'raw' folder. The parser will try to add them as a parallel corpus.
+
 ## MassEffect1
 
 A fan transcript of the intro and first mission of Mass Effect 1. http://www.masseffectlore.com/transcripts/mass-effect-1-transcripts/

@@ -4,7 +4,7 @@
 # TODO: ME1: something wrong with parsing file/conv names.
 
 from bs4 import BeautifulSoup
-import json,re,csv
+import json,re,csv,os
 
 
 # def cleanText(t):
@@ -354,6 +354,48 @@ def parseFile(fileName,parameters={},asJSON=False):
 	o = open(folder + "/../OwnersToCheck.csv",'w')
 	o.write(ownersToCheckOut)
 	o.close()
+	
+	## Attempt to add translations
+	
+	print("Adding translations ...")
+	def addTranslation(out, fileName,lang):
+		transDict = {}
+		header = []
+		with open(fileName) as csvfile:
+			xr = csv.reader(csvfile)
+			for row in xr:
+				if len(header)==0:
+					header=row
+				else:
+					idx = row[header.index("TLK StringRef")]
+					dlg = cleanDialogue(row[header.index("Line")])
+					if len(dlg)>0:
+						transDict[idx] = cleanDialogue(dlg)
+		
+		def walkTrans(lines,lang):
+			for line in lines:
+				k = [x for x in line if not x.startswith("_")][0]
+				if k=="CHOICE":
+					for choice in line["CHOICE"]:
+						walkTrans(choice,lang)
+				else:
+					if "_ID" in line:
+						outID = line["_ID"]
+						if outID in transDict:
+							line["_"+lang] = transDict[outID]
+		walkTrans(out,lang)
+	
+	MEVersion = "ME1"
+	if folder.count("MassEffect2")>0:
+		print("ME2!")
+		MEVersion = "ME2"
+	if folder.count("MassEffect3")>0:
+		MEVersion = "ME3"
+	for fn in ["FRA","ESN","DEU","ITA","RUS"]:
+		filePath = folder+"/"+MEVersion+"DialogueDump_"+fn+".csv"
+		if os.path.isfile(filePath):
+			print("   "+fn)
+			addTranslation(out,filePath,fn)
 			
 	if asJSON:
 		return(json.dumps({"text":out}, indent = 4))

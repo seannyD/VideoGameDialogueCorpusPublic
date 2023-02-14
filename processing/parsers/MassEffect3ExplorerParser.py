@@ -391,7 +391,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 		MEVersion = "ME2"
 	if folder.count("MassEffect3")>0:
 		MEVersion = "ME3"
-	for fn in ["FRA","ESN","DEU","ITA","RUS"]:
+	for fn in ["FRA","ESN","DEU","ITA","RUS","JPN","POL"]:
 		filePath = folder+"/"+MEVersion+"DialogueDump_"+fn+".csv"
 		if os.path.isfile(filePath):
 			print("   "+fn)

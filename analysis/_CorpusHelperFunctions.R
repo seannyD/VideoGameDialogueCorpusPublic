@@ -28,7 +28,15 @@ walkJSON = function(obj,minorKeys){
   }
 }
 
-loadJSONScripts = function(searchPath = "../data/"){
+loadJSONScripts = function(searchPath = "../data/", onlyLoadMainCorpusSources=TRUE, minorKeysToKeep="all"){
+  # onlyLoadMainCorpusSources - load only sources in the main corpus
+  #   (where 'alternativeMeasure' is not 'TRUE')
+  #
+  # minorKeysToKeep - by default, the function will load all minor keys
+  #  if they aren't all needed, you can specify a vector names of minor keys to keep
+  #   e.g. loadJSONScripts("../data/", minorKeysToKeep=c("_ID"))
+  #   or keep none: loadJSONScripts("../data/", minorKeysToKeep=c())
+  
   gameFolders = list.dirs(path = searchPath, full.names = TRUE, recursive = TRUE)
   
   allData = data.frame(character = NA, dialogue = NA)
@@ -41,7 +49,7 @@ loadJSONScripts = function(searchPath = "../data/"){
       if("alternativeMeasure" %in% attributes(meta)$names){
         gameIsPartOfTheMainCorpus = !meta$alternativeMeasure
       }
-      if(gameIsPartOfTheMainCorpus){
+      if(gameIsPartOfTheMainCorpus | (!onlyLoadMainCorpusSources)){
         print(paste("Loading",folder,"..."))
         # Yes, so add it to our big data frame  
         txt = fromJSON(file=file.path(folder,"data.json"))["text"]
@@ -56,15 +64,22 @@ loadJSONScripts = function(searchPath = "../data/"){
         dx = data.frame(key = names(x), val = x)
         dx$key = gsub("CHOICE\\.","",dx$key)
         # Find a complete list of minor keys
-        minorKeys = unique(dx$key)
-        minorKeys = minorKeys[grepl("^_",minorKeys)]
+        minorKeys = minorKeysToKeep
+        if(!is.null(minorKeys)){
+          if(minorKeys=="all"){
+            minorKeys = unique(dx$key)
+            minorKeys = minorKeys[grepl("^_",minorKeys)]
+          }
+        }
         # ID increases each time we find a main key
         dx$id = cumsum(!grepl("^_",dx$key))
         # Group lines by the ID numbers
         dx2 = tapply(1:nrow(dx),dx$id,function(i){
           lx = dx[i,]
           line = data.frame("character" = lx$key[1], "dialogue"= lx$val[1])
-          line[1,minorKeys] = lx[match(minorKeys,lx$key ),]$val
+          if(!is.null(minorKeys) & length(minorKeys)>0){
+            line[1,minorKeys] = lx[match(minorKeys,lx$key ),]$val
+          }
           return(line[1,])
         })
         dialogueData = do.call(rbind,dx2)
@@ -95,6 +110,9 @@ loadJSONScripts = function(searchPath = "../data/"){
   }
   # Take out dummy NA
   allData = allData[2:nrow(allData),]
+  # rename minor keys so that referencing is easier
+  mkNames = grepl("^_",names(allData))
+  names(allData)[mkNames] = paste0("k",names(allData)[mkNames])
   return(allData)
 }
 

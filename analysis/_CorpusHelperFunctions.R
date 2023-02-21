@@ -3,6 +3,8 @@
 library(rjson)
 
 walkJSON = function(obj,minorKeys){
+  # Recursively walk the json structure.
+  #  (but this causes memory problems for games with a lot of branches)
   noAttr = is.null(attributes(obj))
   isChoice = "CHOICE" %in% names(obj)
   if(noAttr | isChoice){
@@ -43,13 +45,31 @@ loadJSONScripts = function(searchPath = "../data/"){
         print(paste("Loading",folder,"..."))
         # Yes, so add it to our big data frame  
         txt = fromJSON(file=file.path(folder,"data.json"))["text"]
-        # Get list of minor keys
-        nx = names(unlist(txt))
-        nx = gsub("CHOICE\\.","",nx)
-        nx = gsub("text\\.","",nx)
-        minorKeys = unique(nx[grepl("^_",nx)])
-        # Load the data by recursively walking the structure
-        dialogueData = walkJSON(txt[[1]],minorKeys)
+        # We used to use a recursive walk
+        # but this breaks for some games with a lot of branches.
+        #dialogueData = walkJSON(txt[[1]],minorKeys)
+        
+        # So instead, unlist the keys and values
+        x = unlist(txt[[1]])
+        # We take advantage of serial unlisting and the fact
+        # that all minor keys startwith "_"
+        dx = data.frame(key = names(x), val = x)
+        dx$key = gsub("CHOICE\\.","",dx$key)
+        # Find a complete list of minor keys
+        minorKeys = unique(dx$key)
+        minorKeys = minorKeys[grepl("^_",minorKeys)]
+        # ID increases each time we find a main key
+        dx$id = cumsum(!grepl("^_",dx$key))
+        # Group lines by the ID numbers
+        dx2 = tapply(1:nrow(dx),dx$id,function(i){
+          lx = dx[i,]
+          line = data.frame("character" = lx$key[1], "dialogue"= lx$val[1])
+          line[1,minorKeys] = lx[match(minorKeys,lx$key ),]$val
+          return(line[1,])
+        })
+        dialogueData = do.call(rbind,dx2)
+        
+        
         dialogueData = dialogueData[!is.na(dialogueData$character),]
         dialogueData$folder = folder
         dialogueData$game = meta$game

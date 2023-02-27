@@ -43,52 +43,6 @@ def changeAliasOneLevel(dic,ali):
 						#dic[candidates[0]] = dic.pop(old_key)
 	return(dic)
 
-# def changeAliasMulitlevel(out,ali):
-# 	if len(ali)==0:
-# 		return(out)
-# 	
-# 	def transform(multilevelDict,ali):
-# 		newDict = changeAliasOneLevel(multilevelDict,ali)
-# 
-# 		if isinstance(newDict,dict):
-# 			for k, val in newDict.items():
-# 				if isinstance(val, dict):
-# 					newDict[k] = transform(val,ali)
-# 				if isinstance(val,list):
-# 					newDict[k] = [transform(x,ali) for x in val]
-# 		if isinstance(newDict,list):
-# 			newDict = [transform(x,ali) for x in newDict]
-# 		return newDict
-# 		
-# 	def splitCharacterDialogue(out,aliMulti):
-# 		out2 = []
-# 		for d in out:
-# 			if "CHOICE" in d:
-# 				d["CHOICE"] = [splitCharacterDialogue(x,aliMulti) for x in d["CHOICE"]]
-# 				out2.append(d)
-# 			else:
-# 				try:
-# 					charName = [x for x in d if not x.startswith("_")][0]
-# 				except:
-# 					print("ERROR:")
-# 					print(d)
-# 				if charName in aliMulti:
-# 					replaceNames  = aliMulti[charName]
-# 					for replaceName in replaceNames:
-# 						out2.append(changeAliasOneLevel(deepcopy(d),{charName:replaceName}))
-# 				else:
-# 					out2.append(d)
-# 		return(out2)
-# 	
-# 	# Apply the alias transformations
-# 	out = transform(out,ali)
-# 	
-# 	# Split mutli-party lines of dialogue into individual lines
-# 	aliMulti = {k: v for k, v in ali.items() if isinstance(v,list)}
-# 	if len(aliMulti)>0:
-# 		out = splitCharacterDialogue(out,aliMulti)
-# 
-# 	return(out)
 	
 def changeAliasMulitlevel_applyMetaFileOrder(lines,aliases):
 	# For one line, replace a single string alias
@@ -178,34 +132,3 @@ for folder in folders:
 	
 	writeData(out,folder)
 
-#		Old code to double-check differences between algorithms
-#		Above should be: altAliasOut = changeAliasMulitlevel_applyMetaFileOrder(altAliasOut,meta["aliases"])
-# 		def getCharNames(lines):
-# 			charNames = []
-# 			for line in lines:
-# 				if "CHOICE" in line:
-# 					for cx in [getCharNames(choiceLines) for choiceLines in line["CHOICE"]]:
-# 						charNames += cx
-# 				else:
-# 					cX  = [x for x in line if not x.startswith("_")]
-# 					if len(cX)>0:
-# 						charNames.append(cX[0])
-# 			return(charNames)
-# 		origCharNames = getCharNames(out)
-# 		newCharNames = getCharNames(altAliasOut)
-# 		diffs = []
-# 		for i in range(len(origCharNames)):
-# 			if i < len(newCharNames):
-# 				if origCharNames[i] != newCharNames[i]:
-# 					dx = origCharNames[i] + "->" + newCharNames[i]
-# 					if not dx in diffs:
-# 						diffs.append(dx)
-# 			else:
-# 				diffs.append("New Data is Shorter??")
-# 				break
-# 		if len(diffs)>0:
-# 			o = open(folder+"aliasDiffs.txt",'w')
-# 			o.write("\n".join(diffs))
-# 			o.close()
-
-			

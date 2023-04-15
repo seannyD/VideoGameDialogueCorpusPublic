@@ -152,10 +152,17 @@ folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,Fles
 ../data/StarWarsKOTOR/StarWarsKOTOR/,False,Star Wars: Knights of the Old Republic,Star Wars: Knights of the Old Republic,female,5050,103678,19371,123211,0.5204961222384412,100.86379615397333,6.2854414256785995,98
 ../data/StarWarsKOTOR/StarWarsKOTOR/,False,Star Wars: Knights of the Old Republic,Star Wars: Knights of the Old Republic,undefined,0,NA,NA,NA,NA,NA,NA,0
 ../data/StarWarsKOTOR/StarWarsKOTOR/,False,Star Wars: Knights of the Old Republic,Star Wars: Knights of the Old Republic,neutral,662,11602,2288,14983,1.6263138604629308,92.43440162610621,7.889270291835384,82
+../data/Barbie/BarbieDiaries_HighSchoolMystery/,True,Barbie Diaries High School Mystery,Barbie,TOTAL,1803,20150,1849,24190,2.8259912876251274,94.2117655643786,6.6932429194507925,17
+../data/Barbie/BarbieDiaries_HighSchoolMystery/,True,Barbie Diaries High School Mystery,Barbie,male,504,5318,511,6420,2.713952518088332,94.14097304579434,6.6883532158625325,7
+../data/Barbie/BarbieDiaries_HighSchoolMystery/,True,Barbie Diaries High School Mystery,Barbie,female,1299,14832,1337,17770,2.873867838363596,94.21709500330405,6.695976055551925,10
 ../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,TOTAL,4187,37982,13564,45226,-0.44740082603811615,103.25771596580827,6.967313255033142,226
 ../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,male,2296,22110,7634,26514,-0.310067607990959,102.44417640641437,6.963149655834007,145
 ../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,female,1638,13571,5021,15888,-0.721255118745173,105.04770680216265,6.8934232478119934,31
 ../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,neutral,375,3311,1257,4045,-0.14683432458089385,100.80686427945516,7.587079381041522,51
+../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,TOTAL,6871,117960,21994,142921,0.7986259714840074,98.88943367612237,6.726139112171317,204
+../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,male,828,11822,2376,14032,0.3563671266889852,101.36968642680687,6.661431671875809,9
+../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,female,3317,51005,9952,61540,0.6460600439013469,99.55903026464092,6.7038356573862155,5
+../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,neutral,0,NA,NA,NA,NA,NA,NA,0
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,TOTAL,2832,50348,10818,61552,0.6509650194601235,98.68495546882035,6.678294293118306,154
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,male,1317,27999,5600,34388,0.8525336644038326,97.85558465726457,6.758373781522809,101
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,1513,22337,5215,27151,0.42355527005032556,99.65480423097921,6.581818806410527,51

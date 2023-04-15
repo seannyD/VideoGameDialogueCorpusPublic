@@ -1,0 +1,38 @@
+# Data files
+data.json
+raw/
+tmp/
+__pycache__/
+/processing/parsers/__pycache__/
+processing/*.txt
+.DS_Store
+data/ALL/*
+*.pyc
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+token.json
+
+results/doNotShare/
+
+data_min/
+
+analysis/survey/surveyFemaleFraming.csv
+analysis/survey/surveyMaleFraming.csv
+

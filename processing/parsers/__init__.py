@@ -25,6 +25,7 @@ from parsers import KQ3Parser
 from parsers import KQ4Parser
 from parsers import KQ5ParserNES
 from parsers import HorizonZeroDawnParser
+from parsers import HorizonForbiddenWestParser
 from parsers import FF3TranslationParser
 from parsers import FFXIII2Parser
 from parsers import FFVII_RemakeParser
@@ -44,3 +45,4 @@ from parsers import TalesOfVesperiaParser
 from parsers import KingdomHearts3DParser
 from parsers import HadesParser2
 from parsers import DiscoElysiumParser
+from parsers import jsonCopier

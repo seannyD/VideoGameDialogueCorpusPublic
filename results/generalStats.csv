@@ -159,10 +159,11 @@ folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,Fles
 ../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,male,2296,22110,7634,26514,-0.310067607990959,102.44417640641437,6.963149655834007,145
 ../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,female,1638,13571,5021,15888,-0.721255118745173,105.04770680216265,6.8934232478119934,31
 ../data/ChronoTrigger/ChronoTrigger/,False,Chrono Trigger,Chrono Trigger,neutral,375,3311,1257,4045,-0.14683432458089385,100.80686427945516,7.587079381041522,51
-../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,TOTAL,6871,117960,21994,142921,0.7986259714840074,98.88943367612237,6.726139112171317,204
-../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,male,828,11822,2376,14032,0.3563671266889852,101.36968642680687,6.661431671875809,9
-../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,female,3317,51005,9952,61540,0.6460600439013469,99.55903026464092,6.7038356573862155,5
-../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,neutral,0,NA,NA,NA,NA,NA,NA,0
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,TOTAL,6861,117947,21985,142901,0.7988265269939028,98.89085313492525,6.725458910271426,179
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,male,1913,33298,6132,39960,0.6886293665022709,99.79724708533513,6.659058643857204,65
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,female,4662,81449,15078,98671,0.811772407149169,98.8638647764248,6.697037252198361,53
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,neutral,0,NA,NA,NA,NA,NA,NA,0
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,trans,15,315,54,374,0.695158730158731,100.46845238095241,5.780531746031746,1
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,TOTAL,2832,50348,10818,61552,0.6509650194601235,98.68495546882035,6.678294293118306,154
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,male,1317,27999,5600,34388,0.8525336644038326,97.85558465726457,6.758373781522809,101
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,1513,22337,5215,27151,0.42355527005032556,99.65480423097921,6.581818806410527,51

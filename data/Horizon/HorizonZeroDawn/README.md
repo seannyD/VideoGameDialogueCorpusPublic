@@ -38,6 +38,9 @@ Couldn't find "Greeting Nora Child" "Greeting Young Nora Hunter" in the videos, 
 
 For reference: Tutorial on flashpoints (emotional choices) - https://www.youtube.com/watch?v=CoXiKE8uTo8 19:00. 
 
+Janeva's dialogue does not feature in the data source. However:
+https://horizon.fandom.com/wiki/Janeva: "Janeva's gender is not stated. Given that they insist to Aloy that they are "not one of [her] sisters", it is possible that they are either trans-masculine, nonbinary, or merely prefers pronouns opposite to their birth gender. However Janeva has not stated any pronouns."
+
 
 The Counselor dialogue seems to be two characters, one male, one female.
 

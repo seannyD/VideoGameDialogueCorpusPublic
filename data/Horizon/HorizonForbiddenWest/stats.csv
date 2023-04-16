@@ -1,5 +1,6 @@
 folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
-../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,TOTAL,6871,117960,21994,142921,0.7986259714840074,98.88943367612237,6.726139112171317,204
-../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,male,828,11822,2376,14032,0.3563671266889852,101.36968642680687,6.661431671875809,9
-../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,female,3317,51005,9952,61540,0.6460600439013469,99.55903026464092,6.7038356573862155,5
-../data/Horizon/HorizonForbiddenWest/,False,Horizon Forbidden West,Horizon,neutral,0,NA,NA,NA,NA,NA,NA,0
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,TOTAL,6861,117947,21985,142901,0.7988265269939028,98.89085313492525,6.725458910271426,179
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,male,1913,33298,6132,39960,0.6886293665022709,99.79724708533513,6.659058643857204,65
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,female,4662,81449,15078,98671,0.811772407149169,98.8638647764248,6.697037252198361,53
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,neutral,0,NA,NA,NA,NA,NA,NA,0
+../data/Horizon/HorizonForbiddenWest/,True,Horizon Forbidden West,Horizon,trans,15,315,54,374,0.695158730158731,100.46845238095241,5.780531746031746,1

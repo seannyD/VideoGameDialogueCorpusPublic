@@ -7,3 +7,7 @@ html = urlopen(page).read().decode('utf-8')
 o = open("raw/page01.html",'w')
 o.write(html)
 o.close()
+
+
+# TODO: import datapoints
+# https://horizon.fandom.com/wiki/List_of_datapoints_in_Horizon_Forbidden_West

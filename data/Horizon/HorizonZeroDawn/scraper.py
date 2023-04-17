@@ -12,7 +12,10 @@ page = "https://game-scripts.fandom.com/wiki/Horizon_Zero_Dawn"
 
 # Datapoints
 
-indexpage = "https://horizon.fandom.com/wiki/Datapoints"
+#indexpage = "https://horizon.fandom.com/wiki/Datapoints"
+# Updated index page since Horizon Forbidden West
+#  This is untested, and includes links to the Frozen Wilds DLC
+indexpage = "https://horizon.fandom.com/wiki/List_of_datapoints_in_Horizon_Zero_Dawn"
 
 html = urlopen(indexpage).read().decode('utf-8')
 time.sleep(2)

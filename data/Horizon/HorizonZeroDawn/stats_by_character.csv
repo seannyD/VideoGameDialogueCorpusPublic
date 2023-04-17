@@ -100,7 +100,9 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,male,Male Voice,3,22,4,24
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,male,Male Voice (Full Stop),1,89,21,109
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,male,Usrc Tech,1,53,7,65
-../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,Aloy,991,11959,3117,13939
+../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,male,Janeva,16,495,85,580
+../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,male,Sunstone Guard,1,10,2,14
+../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,Aloy,1006,12102,3156,14104
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,Teersa,74,1195,232,1372
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,Vanasha,40,1064,176,1299
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,Sona,32,539,120,631
@@ -153,3 +155,4 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,Woman's Voice,3,44,8,47
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,neutral,Greeting Nora Child,1,4,1,5
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,neutral,Greeting Young Nora Hunter,1,8,1,8
+../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,trans,Janeva,16,495,85,580

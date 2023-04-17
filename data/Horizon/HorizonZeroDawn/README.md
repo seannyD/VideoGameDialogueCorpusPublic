@@ -4,6 +4,9 @@
 
 Some sidequest and choice dialogue missing.
 
+The original webpage is down, see an alternative source here:
+https://game-scripts-wiki.blogspot.com/2018/10/horizon-zero-dawn-full-transcript.html
+
 ## Gender coding
 
 Contestant dialogue recoded using voice from this video: https://www.youtube.com/watch?v=TrkeD_ZGEVI
@@ -38,8 +41,8 @@ Couldn't find "Greeting Nora Child" "Greeting Young Nora Hunter" in the videos, 
 
 For reference: Tutorial on flashpoints (emotional choices) - https://www.youtube.com/watch?v=CoXiKE8uTo8 19:00. 
 
-Janeva's dialogue does not feature in the data source. However:
-https://horizon.fandom.com/wiki/Janeva: "Janeva's gender is not stated. Given that they insist to Aloy that they are "not one of [her] sisters", it is possible that they are either trans-masculine, nonbinary, or merely prefers pronouns opposite to their birth gender. However Janeva has not stated any pronouns."
+Janeva is read as trans by players:
+https://horizon.fandom.com/wiki/Janeva: "Janeva's gender is not stated. Given that they insist to Aloy that they are "not one of [her] sisters", it is possible that they are either trans-masculine, nonbinary, or merely prefers pronouns opposite to their birth gender." Though the implication that only men can be soldiers, and that Janeva chose to be a soldier, seems to be strong suggestion that Janeva has changed their gender.
 
 
 The Counselor dialogue seems to be two characters, one male, one female.

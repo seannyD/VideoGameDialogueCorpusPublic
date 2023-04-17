@@ -131,7 +131,9 @@
 			"Father",
 			"Male Voice",
 			"Male Voice (Full Stop)",
-			"Usrc Tech"
+			"Usrc Tech",
+			"Janeva",
+			"Sunstone Guard"
 		],
 		"female": [
 			"Aloy",
@@ -190,7 +192,8 @@
 			"Girl's Voice",
 			"Woman's Voice"
 		],
-		"neutral": ["Greeting Nora Child", "Greeting Young Nora Hunter"]
+		"neutral": ["Greeting Nora Child", "Greeting Young Nora Hunter"],
+		"trans": ["Janeva"]
 	},
 	"aliases": {
 		"Graphic": "SYSTEM",

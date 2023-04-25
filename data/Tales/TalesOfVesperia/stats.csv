@@ -1,5 +1,5 @@
 folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,TOTAL,32029,292007,87900,345241,-0.34322038525982634,103.44022743364292,6.5052997584716055,3130
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,16507,147703,44288,172821,-0.4826495423659516,104.46305442013002,6.598092495097812,45
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,11424,100775,31997,120037,-0.3062531652468934,102.86791134524545,6.35280331771599,18
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,2,5,4,5,-3.3024999999999984,120.96625,0.062,1
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,TOTAL,32029,292007,87900,345241,-0.34322038525982634,103.44022743364292,6.5052997584716055,374
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,19625,181045,53218,213132,-0.37189959535562345,103.78817786022567,6.604866669468612,278
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,12260,109557,34273,130453,-0.2926919876697447,102.85454579046036,6.342620466638734,76
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,143,1395,403,1640,-0.36759856630824395,103.86347394540944,6.377604494072235,19

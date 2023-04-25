@@ -303,7 +303,9 @@
 			"Imperial Secretary",
 			"Bunny Guild Leader",
 			"Labour Camp Guard 2 (Heliord)",
-			"Labour Camp Prisoner 2 (Heliord)"
+			"Labour Camp Prisoner 2 (Heliord)",
+			"Deddechi",
+			"Krityan Man 2 (Myorzo)"
 		],
 		"female": [
 			"Droite",
@@ -380,7 +382,9 @@
 			"Startled Woman (Dahngrest)",
 			"Coliseum Registration (Left)",
 			"La Mer Recruiter",
-			"Innkeeper (Zaphias)"
+			"Innkeeper (Zaphias)",
+			"Krityan Woman (Myorzo)",
+			"Krityan Woman 2 (Myorzo)"
 		],
 		"neutral": [
 			"Everyone",
@@ -400,7 +404,8 @@
 			"Unknown (Capua Torim Inn)",
 			"Unknown Aspio Mage",
 			"Unknown (Collector's Book)",
-			"Unknown (Heliord)"
+			"Unknown (Heliord)",
+			"Alph and Layla's Mum"
 		]
 	},
 	"aliases": {
@@ -1002,7 +1007,7 @@
 		"UnknownChar1516": "Innkeeper (Mantaic)",
 		"UnknownChar1517": "Innkeeper (Mantaic)",
 		"UnknownChar1518": "White-Robed Mage (Aspio)",
-		"UnknownChar1519": "Yellow-Robed Mage (Apsio)",
+		"UnknownChar1519": "Yellow-Robed Mage (Aspio)",
 		"UnknownChar152": "Harangued Knight (Deidon Hold)",
 		"UnknownChar1520": "Green-Robed Mage (Aspio)",
 		"UnknownChar1521": "Mage with Hairband (Aspio)",
@@ -1042,7 +1047,7 @@
 		"UnknownChar1552": "Yellow-Robed Mage (Aspio)",
 		"UnknownChar1553": "Green-Robed Mage (Aspio)",
 		"UnknownChar1554": "White-Robed Mage (Aspio)",
-		"UnknownChar1555": "White-Robed Mge (Aspio)",
+		"UnknownChar1555": "White-Robed Mage (Aspio)",
 		"UnknownChar1556": "Yellow-Robed Mage (Aspio)",
 		"UnknownChar1557": "Yellow-Robed Mage (Aspio)",
 		"UnknownChar1558": "Yellow-Robed Mage (Aspio)",
@@ -1051,12 +1056,12 @@
 		"UnknownChar1560": "Yellow-Robed Mage (Aspio)",
 		"UnknownChar1561": "Green-Robed Mage (Aspio)",
 		"UnknownChar1562": "Yellow-Robed Mage (Aspio)",
-		"UnknownChar1563": "White-Robed Mge (Aspio)",
-		"UnknownChar1564": "White-Robed Mge (Aspio)",
-		"UnknownChar1565": "White-Robed Mge (Aspio)",
-		"UnknownChar1566": "White-Robed Mge (Aspio)",
-		"UnknownChar1567": "White-Robed Mge (Aspio)",
-		"UnknownChar1568": "White-Robed Mge (Aspio)",
+		"UnknownChar1563": "White-Robed Mage (Aspio)",
+		"UnknownChar1564": "White-Robed Mage (Aspio)",
+		"UnknownChar1565": "White-Robed Mage (Aspio)",
+		"UnknownChar1566": "White-Robed Mage (Aspio)",
+		"UnknownChar1567": "White-Robed Mage (Aspio)",
+		"UnknownChar1568": "White-Robed Mage (Aspio)",
 		"UnknownChar1569": "Raven's Flirty Friend (Dahngrest Tavern)",
 		"UnknownChar157": "Knight 5 (Deidon Hold)",
 		"UnknownChar1570": "Raven's Flirty Friend (Dahngrest Tavern)",

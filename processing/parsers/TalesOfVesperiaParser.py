@@ -112,7 +112,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 	
 	# Check if we've already parsed this
 	#  (some skits are included in the main quest list)
-	print(len(versperiaSeenURLS))
+	#print(len(versperiaSeenURLS))
 	if not url in versperiaSeenURLS:
 		versperiaSeenURLS.append(url)
 		out += [{"LOCATION":"Scenario: "+scenario},
@@ -122,7 +122,8 @@ def parseFile(fileName,parameters={},asJSON=False):
 			if len(bits)>0:
 				out += bits
 	else:
-		print("Duplicate:" + scenario)
+		#print("Duplicate:" + scenario)
+		pass
 
 	
 	if asJSON:

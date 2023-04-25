@@ -1,65 +1,374 @@
 folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,syllables
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Adecor,67,552,116,668
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Alexei,141,1508,415,1856
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Alph,9,37,19,41
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Alexei,143,1511,419,1859
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Alph,12,62,27,69
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ba'ul,7,NA,NA,NA
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Barbos,63,620,149,722
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Barbos,68,679,168,786
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Boccos,62,423,119,521
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Clay,18,197,62,230
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Clay,37,458,111,531
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Clint,51,345,178,414
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Cumore,76,739,193,876
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Don Whitehorse,110,1270,275,1469
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Drake,102,1260,274,1608
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Duke,254,2426,846,2955
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Dyne,35,431,108,490
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Efreet,15,183,41,219
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Don Whitehorse,111,1294,277,1494
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Drake,105,1292,283,1650
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Duke,269,2516,912,3069
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Dyne,36,436,109,495
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Efreet,19,215,61,260
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Erungar,1,1,1,2
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Flynn,1205,11090,3186,13465
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Flynn,1206,11095,3188,13470
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Gnome,1,NA,NA,NA
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Hanks,99,1085,252,1251
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ioder,122,1418,352,1827
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Irmine,26,267,98,292
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Hanks,100,1088,254,1254
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ioder,124,1431,362,1842
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Irmine,30,317,112,348
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Johann,1,10,1,12
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Joshua,16,182,48,214
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Joshua,20,226,57,264
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Jugem,1,11,6,11
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Karol,3903,31012,11459,36068
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Leblanc,135,1226,413,1535
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Markham,33,412,94,495
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Natz,67,707,187,865
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Nobis,74,762,246,911
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Pauly,15,94,30,107
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ragou,53,526,175,644
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Raven,2332,24060,6364,27689
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Regaey,31,374,103,450
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Repede,344,426,492,435
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Sebastian,20,220,73,258
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Shel,29,381,107,449
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Teagle,37,361,121,407
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Karol,3921,31110,11499,36179
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Leblanc,143,1258,424,1574
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Markham,35,430,98,516
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Natz,75,779,210,960
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Nobis,75,770,248,919
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Pauly,21,127,69,140
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ragou,54,541,178,661
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Raven,2374,24589,6512,28297
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Regaey,33,400,108,482
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Repede,346,428,494,437
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Sebastian,23,233,87,271
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Shel,34,432,122,503
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Teagle,41,406,129,455
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ted,37,415,90,468
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Tison,46,366,101,431
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Tokunaga,11,118,22,130
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Tort,35,400,96,481
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Witcher,77,712,204,945
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Yeager,52,511,148,611
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Yu,36,393,111,468
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Yuri,6585,59567,16627,69164
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Zagi,73,605,227,667
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Tison,49,417,106,484
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Tokunaga,15,163,36,180
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Tort,41,458,112,546
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Witcher,81,762,217,1010
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Yeager,55,546,154,654
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Yu,38,402,117,477
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Yuri,6590,59609,16635,69217
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Zagi,77,624,234,690
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Agueron,60,743,199,882
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Astal,2,5,16,5
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Cruz,6,NA,NA,NA
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Daniel,42,477,158,581
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Misomiso,1,NA,NA,NA
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Cotton,8,94,17,117
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Dedecchi,13,137,25,153
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Giovanni,42,442,128,526
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Harry,41,379,115,450
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Jim,46,455,117,528
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Karolow X,36,278,90,356
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Lewis,88,933,207,1124
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Miska,45,628,117,797
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ohma,38,576,115,703
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Phaeroh,34,429,98,517
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Rich,122,876,822,1113
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Seifer,12,122,47,152
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Shiva,2,3,4,6
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Sicily,145,1411,418,1762
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Sordeth,38,474,92,593
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Male Resident (Lower Quarter),14,171,31,201
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight 1 (Zaphias),5,52,12,59
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight 2 (Zaphias),5,44,14,52
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Jail Knight,4,32,8,34
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Patrolling Knight (Zaphias),3,13,7,14
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Castle Knight 1 (Zaphias),7,57,15,62
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Castle Knight 2 (Zaphias),5,30,7,45
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Castle Knight 3 (Zaphias),2,7,4,7
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Castle Knight 4 (Zaphias),1,1,1,1
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Zagi's Lackey,3,26,6,29
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Male Resident 2 (Lower Quarter),1,10,1,12
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Male Resident 3 (Lower Quarter),1,4,1,4
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Old Man (Lower Quarter),1,9,1,10
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Merchant (Deidon Hold),26,345,71,403
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight 1 (Deidon Hold),2,11,5,13
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight 2 (Deidon Hold),1,4,1,4
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight 3 (Deidon Hold),2,18,5,20
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight 4 (Deidon Hold),3,28,6,32
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Injured Boy (Deidon Hold),3,31,24,33
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Harangued Knight (Deidon Hold),2,18,3,20
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight 5 (Deidon Hold),1,8,1,10
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Kaufman's Bodyguard,5,47,8,60
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Mayor of Halure,62,744,210,872
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Kid 1 (Halure),9,67,28,73
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Kid 2 (Halure),2,8,2,9
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Kid 3 (Halure),9,61,26,68
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Shopkeeper (Halure),20,239,48,292
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Male Resident 1 (Halure),1,5,4,7
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Male Resident 2 (Halure),1,4,3,4
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Male Resident 3 (Halure),1,5,6,5
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Gate Knight 1 (Aspio),5,46,10,61
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Gate Knight 2 (Aspio),4,56,7,80
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Mage with Glasses (Aspio),8,90,25,109
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Thief (Shaikos Ruins),14,169,37,188
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Researcher (Ehmead Hill),6,60,14,73
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Researcher 2 (Ehmead Hill),1,9,2,10
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight 1 (Ehmead Hill),6,28,17,31
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight 2 (Ehmead Hill),2,18,7,21
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man in Orange (Halure),3,48,6,54
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Mercenary (Capua Nor),10,98,18,112
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Accountant (Capua Nor),1,24,3,24
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Mansion Guard (Capua Nor),4,16,8,21
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Horned Helmet Mercenary (Capua Nor),1,1,1,2
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man in Inn (Capua Torim),9,97,22,118
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Guard (Capua Torim),4,41,12,49
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Innkeeper (Heliord),1,12,3,16
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man in red and blue (Heliord),1,6,2,7
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man in orange (Heliord),1,6,2,7
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Hachette,14,176,33,204
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Drunk Man (Heliord),1,9,2,11
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Wonder Chef,85,1291,219,1606
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Wonder Reporter,20,232,46,291
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Guy with Bandana (Dahngrest),7,67,22,76
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Guy with Horned Helmet (Dahngrest),4,32,5,36
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man 1 (Dahngrest),1,6,2,6
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man 2 (Dahngrest),1,10,2,12
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man 3 (Dahngrest),1,7,1,8
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Red Eye Thug (Dahngrest),1,7,1,8
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Guild Member (HQ entrance),15,147,34,179
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Blond Guild Member (Altosk),1,8,9,9
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Brown-Haired Guild Member (Altosk),1,4,1,6
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Spear-Wielding Guild Member (Altosk),1,9,2,10
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Jail Guard (Barbos's),8,35,11,38
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Old Man in Jail,1,8,1,8
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Jail Guard 2 (Barbos's),1,2,1,2
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ragou's Lackey,1,1,4,1
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Royal Escort,7,43,23,51
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight Guarding Labor Camp (Heliord),19,140,99,154
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Shopkeeper (Heliord),40,392,96,444
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight (Heliord),6,66,9,77
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Scared Imperial Knight (Heliord),1,10,5,11
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Labour Camp Guard 1 (Heliord),3,31,5,36
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Labour Camp Prisoner 1 (Heliord),4,28,10,28
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight reporting to Cumore (Heliord),2,18,3,25
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Running Man 1 (Torim),1,7,2,7
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Running Man 2 (Torim),1,10,1,10
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Warehouse Man (Deidon Hold),13,125,37,144
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Dice Master,25,281,78,325
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Dedecchi's Customer,6,51,12,57
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Little Wolf,1,1,1,1
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Warehouse Man (Torim),9,123,30,141
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Batangi Fan,5,70,10,72
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Armed Man (Nordopolica),3,28,8,38
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Interrupting Customer (Nordopolica),3,39,14,50
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Street Brawler 1 (Nordopolica),3,11,5,12
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Street Brawler 2 (Nordopolica),3,12,4,13
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man on the Docks (Nordopolica),2,35,4,44
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Attacked Man on the Docks (Nordopolica),2,9,6,11
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Coliseum Announcer,260,3312,534,4413
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Guild Member with Yellow Bandana,16,215,39,268
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Innkeeper (Mantaic),43,477,123,567
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight (Mantaic),2,NA,NA,NA
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 2 (Mantaic),11,64,43,78
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 3 (Mantaic),10,46,48,54
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Alph and Layla's Dad,27,245,100,270
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Conscripted Man (Mantaic),2,11,5,12
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knight with Cumore (Mantaic),3,21,10,26
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Kowz,118,1211,324,1362
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ant Lion Man,5,32,13,34
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Desert Merchant,8,97,14,115
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 1 (Weasand Blockade),2,9,2,9
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 2 (Weasand Blockade),1,4,2,5
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 3 (Weasand Blockade),2,11,4,13
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Wounded Guild Member (Nordopolica),2,16,19,20
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Hunting Blades' Member (Nordopolica),2,20,3,22
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Innkeeper (Dahngrest),1,5,1,7
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Red-Haired Guild Member (Dahngrest),1,12,4,15
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Dark-Haired Guild Member (Dahngrest),1,17,1,19
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Leviathan's Claw Member Guarding Manor,19,152,43,175
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Guild Member with Blue Bandana (Dahngrest),4,34,4,39
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Guild Member with Horned Helmet (Dahngrest),2,19,2,27
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Wounded Man (Dahngrest),4,39,12,43
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Wolf Mask Hunting Blades Member,3,11,3,14
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Bird Mask Hunting Blades Member,1,9,1,13
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Archie,7,71,20,86
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Mark,5,48,12,59
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Fighting Warrior (Nordopolica),6,45,23,51
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Fighting Merchant (Nordopolica),3,18,9,18
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Mercedes Dunkel,16,238,41,293
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Union Outpost (Mantaic),14,149,37,165
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Yellow and Green Helmet Hunting Blades Member,10,81,23,91
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Pursuing Imperial Knight (Mantaic),2,17,7,19
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Union Member (Dahngrest),11,142,28,175
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Official (Capua Torim),3,39,5,46
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Union Outpost (Dahngrest Tavern),66,793,163,909
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man on Bridge (Dahngrest),6,100,16,111
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Dashing Man,20,167,80,184
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man harassing Patty (Aspio),14,144,38,175
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight (Egothor Forest),3,33,6,45
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 2 (Egothor Forest),1,2,1,2
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Blastia Engineer (Egothor Forest),4,37,21,44
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 3 (Egothor Forest),1,13,1,16
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 4 (Egothor Forest),1,1,4,1
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Krityan Man (Myorzo),16,189,49,226
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Krityan Man 2 (Myorozo),2,17,5,25
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Krityan Elder,96,1135,246,1383
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Warehouse Krityan (Myorzo),7,85,21,95
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 1 (Heracles),3,20,4,25
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight 2 (Heracles),2,12,3,16
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Flynn Brigade Knight (Heracles),4,32,8,43
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man 1 (Capua Nor),1,6,1,7
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man 2 (Capua Nor),1,14,1,16
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man 3 (Capua Nor),1,10,1,13
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man 4 (Capua Nor),1,9,2,10
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Official (Capua Nor),12,131,36,155
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Magistrate (Capua Nor),1,14,5,17
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man 5 (Capua Nor),1,9,1,11
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man 6 (Capua Nor),1,7,2,7
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Innkeeper (Halure),12,146,24,178
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Snooty Nobleman,4,47,8,55
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ioder's Escort 1,6,102,18,124
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ioder's Escort 2,2,24,5,31
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Warning Flynn Brigade Knight,2,27,5,36
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Warning Flynn Brigade Knight 2,1,14,1,15
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man with Mended Shoes,1,16,2,20
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Innkeeper (Zaphias Palace),1,6,1,6
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man looking for Sicily (Capua Torim),6,65,9,89
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Warehouse Man (Nordopolica),7,86,16,103
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Kidnapper (Heliord),6,64,22,77
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Knightly Boy (Mantaic),13,76,29,80
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Thief (Mantaic),1,1,1,1
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Juice Shopkeeper (Torim),11,63,22,73
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight (Zaude),1,8,4,8
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Clouds of Dawn Guild Member,11,88,23,105
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Armoured Shopkeeper (Dahngrest),10,129,32,152
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Leviathan's Claw Member Guarding Manor 2,10,115,21,129
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,White-Robed Mage (Aspio),19,185,44,223
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Green-Robed Mage (Aspio),10,87,23,106
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Yellow-Robed Mage (Aspio),15,145,37,179
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Innkeeper (Capua Nor),1,16,2,22
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Wounded Flynn Brigade Knight,1,5,3,5
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Capsule Ant Lion Man,8,101,13,119
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Showtime Guild Member,16,219,45,259
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Gambler,23,234,72,266
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Nam Cobanda Ticket Seller,18,224,49,265
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Nam Cobanda Chip Exchange,7,82,14,94
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Captivating Game Corner Attendant,29,287,70,327
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Nam Cobanda Poker Table,8,95,17,109
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Nam Cobanda Movie Player,9,115,19,152
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ant Lion Man Skit Player,9,74,35,86
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ant Lion Man Prize Exchange,7,77,15,98
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Cow Boy talking to Kaufman,5,43,8,47
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Orphanage Boy,1,10,1,12
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Toy Collector,24,313,69,350
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Ant Lion Man Treasure Enthusiast,29,339,67,389
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Nam Cobanda Boss Replay,21,251,51,302
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Blood Alliance 1,5,50,12,66
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Blood Alliance 2,2,29,3,33
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Blood Alliance 3,7,57,24,61
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Galactic Gearbox Man,7,84,14,100
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Knight (Zaphias),9,121,26,171
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Robbed Man (Capua Nor),3,34,11,37
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Defeated Hunting Blades Member 1,1,1,3,1
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Defeated Hunting Blades Member 3,1,4,6,4
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Big Voice Contest Announcer,30,384,62,513
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Robbed Man (Heliord),2,12,8,14
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Thief (Heliord),1,4,4,4
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Doctor,50,602,143,738
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man with Heart Disease (Aurnion),10,72,39,87
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Man with Sore Shoulder (Aurnion),3,30,5,33
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Warehouse Man (Aurnion),14,166,30,192
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Fleeing Man (Aurnion),1,3,2,4
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Rich's Father,9,95,48,109
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Startled Man (Dahngrest),1,4,1,4
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Coliseum Door Guard,15,122,35,131
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Cooking Coliseum Registration,12,152,33,215
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Gourmet Bouquet Recruiter,10,106,22,131
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Imperial Secretary,5,39,11,53
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Bunny Guild Leader,20,224,57,269
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Labour Camp Guard 2 (Heliord),3,52,7,61
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Labour Camp Prisoner 2 (Heliord),8,53,19,71
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Deddechi,5,60,8,73
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,Krityan Man 2 (Myorzo),2,22,3,26
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Droite,28,196,62,221
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Estellise,3509,28342,10545,33571
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Estelle,3546,28557,10618,33806
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Gauche,32,190,94,230
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Judith,2261,20905,5822,24816
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Kaufman,190,2200,520,2676
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Kellas,22,199,66,234
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Khroma,19,184,64,213
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Layla,3,23,6,27
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Judith,2286,21077,5876,25023
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Kaufman,197,2258,541,2749
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Kellas,23,212,71,249
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Khroma,23,196,74,227
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Layla,4,27,8,31
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Lune,22,247,64,285
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Mimula,49,520,149,623
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Nan,99,783,325,918
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Patty,1373,12087,3371,14330
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Rhianna,44,471,146,555
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Rita,3525,32293,10008,38686
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Sodia,139,988,423,1236
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Sylph,56,635,150,789
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Undine,41,396,127,499
-../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Yuefan,12,116,43,128
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Nan,101,808,330,955
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Patty,1395,12182,3417,14443
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Rhianna,45,480,148,565
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Rita,3543,32413,10063,38818
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Sodia,140,994,425,1244
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Sylph,61,683,176,843
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Undine,48,461,162,572
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Yuefan,19,158,69,173
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Belius,42,399,122,483
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Celica,4,NA,NA,NA
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Chastel,16,148,41,167
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Healas,11,115,24,140
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Hisca,18,151,47,174
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Karen,79,829,203,977
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Mimi,13,141,33,159
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Sassoon,28,322,54,383
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Female Resident (Lower Quarter),2,13,3,14
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Little Girl (Deidon Hold),1,4,1,5
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Mother (Deidon Hold),1,6,1,6
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Woman (Halure),3,32,4,37
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Girl (Halure),6,65,15,76
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Woman with Pigtails (Halure),3,52,11,60
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Woman in Inn (Capua Torim),2,35,9,41
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Innkeeper (Capua Torim),1,14,2,15
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Zarashawn,22,196,50,223
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Woman (Dahngrest),2,6,5,6
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Flower Woman (Torim),5,51,19,68
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Cat Lady (Zaphias),4,24,7,24
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Hachette's Grandma,13,172,42,201
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Innkeeper (Nordopolica),11,101,20,121
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Shopkeeper (Nordpolica),10,121,29,150
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Woman on the Docks (Nordopolica),4,44,13,53
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Coliseum Registration,77,1010,210,1251
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Green-Haired Woman (Dahngrest),1,23,1,26
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Shopkeeper (Dahngrest),2,32,4,39
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Raven's Flirty Friend (Dahngrest Tavern),8,113,24,130
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Raven's Flirty Friend 2 (Purple Mage),7,74,14,86
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Raven's Flirty Friend 3 (White Clothing),3,38,16,40
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Raven's Flirty Friend 4 (Red Cap),4,65,10,76
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Raven's Flirty Friend 5 (Pigtails),9,75,22,88
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Woman in Pink (Heliord Labour Camp),9,109,27,120
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Krityan Woman (Myorozo),2,23,5,25
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Krityan Woman 2 (Myorozo),3,26,13,31
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Snooty Noblewoman,2,30,9,33
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Woman with Mended Dress,1,15,2,17
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Spa Owner,72,962,173,1179
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Raven's Flirty Friend (taunting Flynn),4,58,11,62
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Missing Mother (Heliord),2,21,3,24
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Flower Maiden,11,100,41,122
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Mage with Hairband (Aspio),7,65,13,75
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Orphanage Governess,37,389,160,466
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Orphanage Girl,2,7,3,8
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Lighthouse Woman,15,150,39,177
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Galactic Gearbox Woman,6,73,10,82
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Defeated Hunting Blades Member 2,1,15,9,16
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Barkeeper (Waitress Challenge),49,680,141,795
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Worried Granddaughter (Aurnion),1,10,4,10
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Ill Grandmother (Aurnion),2,22,9,26
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Healthy Woman (Aurnion),3,28,4,31
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Fleeing Woman (Aurnion),1,3,1,4
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Startled Woman (Dahngrest),1,7,1,7
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Coliseum Registration (Left),32,388,69,488
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,La Mer Recruiter,7,68,22,80
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Innkeeper (Zaphias),11,128,25,141
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Krityan Woman (Myorzo),2,28,7,33
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,Krityan Woman 2 (Myorzo),3,22,3,25
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Everyone,2,5,4,5
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Child (Lower Quarter),1,2,2,2
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Dog (Zaphias),3,5,3,5
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Off-Screen Voice (Nordopolica),1,8,2,8
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Blonde Kid (Mantaic),3,13,3,14
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Brunette Kid (Mantaic),2,17,4,17
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Mysterious Voice,1,2,1,2
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Krityan Child,51,520,120,601
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Unknown Imperial Character,5,51,10,70
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Nam Cobanda Audience,4,33,9,44
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Off-Screen Voice (Nam Cobanda),2,34,5,43
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Cat (Dahngrest),1,1,1,1
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Labyrinth of Memories Voice,22,262,76,312
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Brunette (City of the Waning Moon),9,56,36,74
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Unknown (Capua Torim Inn),4,42,9,53
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Unknown Aspio Mage,6,69,19,77
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Unknown (Collector's Book),6,84,28,95
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Unknown (Heliord),5,73,12,84
+../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,neutral,Alph and Layla's Mum,15,118,52,133

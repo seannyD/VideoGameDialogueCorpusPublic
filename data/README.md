@@ -83,4 +83,4 @@ Note that some games have multiple folders with alternative sources. Only some o
 | StarWarsKOTOR/StarWarsKOTOR/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | StardewValley/StardewValley/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | SuperMarioRPG/SuperMarioRPG/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
-| Tales/TalesOfVesperia/ | :parking: |  :x: | :ok: | :ok: | :ok: | :x: | :ok: |
+| Tales/TalesOfVesperia/ | :parking: |  :x: | :ok: | :ok: | :ok: | :ok: | :ok: |

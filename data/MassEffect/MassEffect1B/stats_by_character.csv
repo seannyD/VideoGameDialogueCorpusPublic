@@ -1,6 +1,6 @@
 folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,syllables
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,playerChoice,Shepard,8119,82580,18111,99899
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Sovereign,27,512,115,705
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,playerChoice,Shepard,8119,82580,18112,99899
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Sovereign,27,512,114,705
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Biotic Leader,12,164,26,203
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Rogue AI,21,331,49,494
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Darius,34,568,79,786
@@ -15,10 +15,10 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Valern,44,797,124,1172
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Sparatus,46,840,126,1110
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Kaidan Alenko,3285,39110,9138,47953
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Richard L. Jenkins,90,1573,316,1959
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Richard L. Jenkins,90,1573,315,1959
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Urdnot Wrex,1194,12056,2852,14606
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,"Jeff ""Joker"" Moreau",369,4818,1151,6134
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Garrus Vakarian,1337,14499,3345,18461
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Garrus Vakarian,1337,14499,3346,18461
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,ERCS Corporal,1,2,1,2
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Salarian Businessman (Rulamin),34,612,140,767
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Elanus Interviewee,18,195,52,235
@@ -29,7 +29,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Merchant Opold,51,575,119,730
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Rafael Vargas,59,765,155,1070
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Turian ECRS Guard (Barricade),7,84,19,96
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Scientist (Rift Station),23,232,52,274
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Scientist (Rift Station),23,232,51,274
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Scientist 4 (Rift Station),4,23,7,24
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Sick Scientist (Med Bay),3,4,6,5
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Sick Scientist 1 (Med Bay),1,1,3,1
@@ -44,7 +44,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Noveria Businessman,11,178,29,240
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Hotel Doorman,4,55,11,71
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Scientist talking to Sick Scientist,10,105,22,117
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Kirrahe,219,3376,688,4240
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Kirrahe,219,3376,687,4240
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Commander Rentola,21,275,61,358
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Lieutenant Ganto Imness,22,388,78,488
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Saren Arterius,164,3114,639,4067
@@ -80,7 +80,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Khel Burrum,12,96,20,130
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Tech Officer Alud Ochren,127,1470,300,1943
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Sergeant Dahga,5,43,13,64
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Male Soldier on Nepmos,11,94,30,108
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Male Soldier on Nepmos,11,94,29,108
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Sacred Angel Distress Call,6,56,91,104
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Male Biotic 2 (Presrop),8,94,15,108
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Male Biotic (Presrop),8,82,15,96
@@ -92,7 +92,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Salarian Consort Client,4,35,8,45
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Volus Consort Client,7,62,19,71
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Calyn,27,441,72,624
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Executor Venari Pallin,43,582,114,746
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Executor Venari Pallin,43,582,113,746
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Lieutenant Girard,50,533,142,640
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Conrad Verner,44,640,102,774
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Jahleed,54,669,172,793
@@ -138,7 +138,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Turian Merchant,12,106,27,120
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Assassin 2 outside Chora's Den,1,2,1,2
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Morlan,10,110,37,128
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Doran,39,494,108,558
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Doran,39,494,107,558
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Expat,13,163,39,200
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Fist's Thug,5,29,7,31
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Fist's Guard 2,3,17,15,17
@@ -176,7 +176,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Follower on Intercom,9,105,24,129
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Colonist 1 (Feros),42,484,110,552
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Colonist 2 (Feros),34,365,73,431
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Commanding Colonist (Feros),34,394,98,443
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Commanding Colonist (Feros),34,394,97,443
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Colonist 3 (Feros),1,7,2,7
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Radio Chatter 1,2,14,5,19
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,Radio Chatter 2,2,26,6,30
@@ -200,12 +200,12 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Major Elena Flores,10,183,38,264
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Helena Blake,38,540,99,741
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Sister of Ashley,6,123,32,144
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Destiny Ascension Commander,15,144,37,217
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Destiny Ascension Navigator,13,99,43,163
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Destiny Ascension Commander,15,144,38,217
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Destiny Ascension Navigator,13,99,44,163
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Tevos,81,1419,252,2014
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Liara T'Soni,1944,29529,5843,38129
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Ashley Williams,3044,34473,8096,42035
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Tali'Zorah,1305,16602,3306,21026
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Ashley Williams,3044,34473,8097,42035
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Tali'Zorah,1305,16602,3307,21026
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Binary Helix Interviewee,18,194,50,243
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Gianna Parasini,297,4440,875,5725
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Kaira Stirling,31,259,67,292
@@ -213,13 +213,13 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Mallene Calis,52,615,145,785
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,ECRS Guard (office),9,87,25,122
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Mira,278,3891,798,6258
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Alestia Iallis,22,215,50,285
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Alestia Iallis,22,215,51,285
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Sick Scientist 2 (Med Bay),3,4,6,5
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Matriarch Benezia,59,811,181,1025
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Matriarch Benezia,59,811,180,1025
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Rachni Queen,29,501,104,610
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Sick Scientist (Rift Station),10,110,30,127
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Rana Thanoptis,22,419,98,552
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Dr. Chakwas,111,1999,361,2714
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Dr. Chakwas,111,1999,360,2714
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Hannah Shepard,18,254,60,310
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Businesswoman 1 (Port Hanshan),11,181,30,243
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Businesswoman 2 (Port Hanshan),10,156,28,208
@@ -244,7 +244,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Terra Firma Protestor (Female),9,26,9,30
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Emily Wong,132,1936,352,2570
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Talitha,54,724,209,834
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Rebekah Petrovsky,21,290,55,353
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Rebekah Petrovsky,21,290,54,353
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Julia,3,86,12,101
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Nelyna,44,569,127,719
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,Avina,104,2205,269,3396

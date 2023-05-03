@@ -1,15 +1,15 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{}%
 \contentsline {section}{\numberline {2}Corpus Design}{4}{}%
-\contentsline {section}{\numberline {3}Coding gender for characters in video games}{20}{}%
-\contentsline {section}{\numberline {4}Analysing Gender Balance in Video Games}{24}{}%
-\contentsline {section}{\numberline {5}Major and Minor characters}{63}{}%
-\contentsline {section}{\numberline {6}Player perceptions of gender bias}{92}{}%
-\contentsline {section}{\numberline {7}Gender differences in emotion cues in Oblivion}{125}{}%
-\contentsline {section}{\numberline {8}Player choices}{153}{}%
-\contentsline {section}{\numberline {9}Transitions between characters}{166}{}%
-\contentsline {section}{\numberline {10}Comparing Jessie's dialogue between Final Fantasy VII and Final Fantasy VII Remake}{274}{}%
-\contentsline {section}{\numberline {11}Recruitment strategies in Daggerfall}{285}{}%
-\contentsline {section}{\numberline {12}Perpetuated gender differences in Stardew Valley}{292}{}%
-\contentsline {section}{\numberline {13}Gender biases in translations of Chrono Trigger}{302}{}%
-\contentsline {section}{\numberline {14}Analyses of word frequency}{323}{}%
-\contentsline {section}{\numberline {15}Reliability of gender coding}{340}{}%
+\contentsline {section}{\numberline {3}Coding gender for characters in video games}{22}{}%
+\contentsline {section}{\numberline {4}Analysing Gender Balance in Video Games}{26}{}%
+\contentsline {section}{\numberline {5}Major and Minor characters}{65}{}%
+\contentsline {section}{\numberline {6}Player perceptions of gender bias}{94}{}%
+\contentsline {section}{\numberline {7}Gender differences in emotion cues in Oblivion}{127}{}%
+\contentsline {section}{\numberline {8}Player choices}{155}{}%
+\contentsline {section}{\numberline {9}Transitions between characters}{168}{}%
+\contentsline {section}{\numberline {10}Comparing Jessie's dialogue between Final Fantasy VII and Final Fantasy VII Remake}{276}{}%
+\contentsline {section}{\numberline {11}Recruitment strategies in Daggerfall}{287}{}%
+\contentsline {section}{\numberline {12}Perpetuated gender differences in Stardew Valley}{294}{}%
+\contentsline {section}{\numberline {13}Gender biases in translations of Chrono Trigger}{304}{}%
+\contentsline {section}{\numberline {14}Analyses of word frequency}{325}{}%
+\contentsline {section}{\numberline {15}Reliability of gender coding}{342}{}%

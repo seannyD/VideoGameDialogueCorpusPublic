@@ -169,7 +169,7 @@ folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,Fles
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,female,1528,22480,5254,27316,0.4171412392794789,99.69263811879648,6.578957883808574,51
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,neutral,2,12,2,13,-0.4666666666666668,109.09500000000001,5.249933333333333,2
 ../data/Horizon/HorizonZeroDawn/,False,Horizon Zero Dawn,Horizon,trans,16,495,85,580,0.5074390968508631,101.79684491978611,6.82815513963161,1
-../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,TOTAL,70422,926298,228797,1153294,0.6806127816142524,97.39387365050914,6.63892727022896,295
+../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,TOTAL,88859,926528,233119,1153573,0.6516304605413872,97.46973026302705,6.635290580982031,296
 ../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,male,0,NA,NA,NA,NA,NA,NA,0
 ../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,female,0,NA,NA,NA,NA,NA,NA,0
 ../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,neutral,0,NA,NA,NA,NA,NA,NA,0
@@ -292,24 +292,24 @@ folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,Fles
 ../data/MassEffect/MassEffect3B/,True,Mass Effect 3,Mass Effect,male,0,NA,NA,NA,NA,NA,NA,0
 ../data/MassEffect/MassEffect3B/,True,Mass Effect 3,Mass Effect,female,0,NA,NA,NA,NA,NA,NA,0
 ../data/MassEffect/MassEffect3B/,True,Mass Effect 3,Mass Effect,neutral,0,NA,NA,NA,NA,NA,NA,0
-../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,TOTAL,40540,361358,95687,458575,0.8574008716976724,95.64175575895366,7.185017525670391,476
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,TOTAL,40540,361358,95688,458575,0.8573854798107252,95.6417958173261,7.185015568138102,476
 ../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,playerChoice,8684,66068,18542,79231,-0.049407326328886114,101.76319201368426,6.533726016842767,1
-../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,19050,176144,45671,224711,0.9676873526780341,94.99415726197985,7.261017978298728,310
-../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,12761,118845,31385,154229,1.2000474161810715,93.20336223968347,7.4328548915735215,149
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,male,19050,176144,45672,224711,0.967654418872975,94.99424297431865,7.26101378979429,310
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,female,12761,118845,31386,154229,1.2000003631702096,93.20348469816047,7.43284890739573,149
 ../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,neutral,91,1052,176,1464,3.1624291393017643,83.03574879018323,7.985539267196681,15
-../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,genderless,5,64,17,79,0.4438602941176484,98.58569852941179,5.796979411764705,2
+../data/MassEffect/MassEffect3C/,False,Mass Effect 3,Mass Effect,genderless,5,64,18,79,0.36229166666666757,98.79798611111113,5.786605555555555,2
 ../data/MassEffect/MassEffect3/,True,Mass Effect 3,Mass Effect,TOTAL,3740,46712,11608,57385,0.47553249797666375,98.82067016457816,6.744833999754968,45
 ../data/MassEffect/MassEffect3/,True,Mass Effect 3,Mass Effect,male,0,NA,NA,NA,NA,NA,NA,0
 ../data/MassEffect/MassEffect3/,True,Mass Effect 3,Mass Effect,female,0,NA,NA,NA,NA,NA,NA,0
 ../data/MassEffect/MassEffect3/,True,Mass Effect 3,Mass Effect,neutral,0,NA,NA,NA,NA,NA,NA,0
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,TOTAL,31361,385744,82846,486722,1.1148421628299428,95.36286517385018,6.990823518725519,280
-../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,playerChoice,8119,82580,18111,99899,0.46300941963085407,99.86430294038998,6.506308197381451,1
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,TOTAL,31361,385744,82847,486722,1.1148202440964834,95.36292221875907,6.990820731112239,280
+../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,playerChoice,8119,82580,18112,99899,0.4629112379087186,99.86455846461554,6.50629571068038,1
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,male,13636,175938,37813,224718,1.29623904003717,94.05644110367771,7.2033760632987045,197
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,female,9551,126420,26792,161053,1.2828758510841478,94.26931742440811,7.010430543460449,79
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,neutral,22665,24754,23105,26208,-2.6790575804501007,116.17832636389859,0.7828708963084438,3
 ../data/MassEffect/MassEffect1B/,False,Mass Effect,Mass Effect,genderless,53,796,123,1034,2.2620431425419785,90.3714072394493,7.171031331454017,2
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,TOTAL,23384,270209,62711,343067,1.072132596606389,95.05038808280163,7.1161013561117334,379
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,playerChoice,4859,50579,10543,61068,0.5280534010486555,99.82141199949639,6.556743746613869,1
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,playerChoice,4859,50579,10542,61068,0.5282308803160145,99.82095009832621,6.556766318336077,1
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,10829,123945,31011,157451,0.9586440216157666,95.30835769260656,7.152367861358163,260
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,7685,95609,21126,124424,1.531334059331975,92.14439340009966,7.366154665401419,115
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,neutral,11,76,29,124,4.6847005444646115,66.1434210526316,9.999380943738656,3

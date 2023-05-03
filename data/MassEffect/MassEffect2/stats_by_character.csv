@@ -1,5 +1,5 @@
 folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,syllables
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,playerChoice,Shepard,4859,50579,10543,61068
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,playerChoice,Shepard,4859,50579,10542,61068
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Other Batarian Merc hassling Daniel,13,106,25,123
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Garrus Vakarian,923,9168,2420,11190
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Illusive Man,306,4303,862,5757
@@ -33,7 +33,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Jim Reynolds,35,216,74,246
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Thane Krios,928,9403,2500,11715
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Volus (Fade's Lackey),18,192,71,233
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Harkin (Fade),34,246,74,286
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Harkin (Fade),34,246,73,286
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Lantar Sidonis,22,207,85,234
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Elcor Hamlet Advertisement,2,33,3,53
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,C-Sec Auction Advertisement,4,67,6,97
@@ -86,7 +86,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Vorcha Redshirt,4,13,7,15
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Collector General,1,5,1,9
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Legion,643,6485,1712,9713
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Grunt,526,5028,1425,5942
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Grunt,526,5028,1424,5942
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Jacob Taylor,1242,14525,3590,17744
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Mordin Solus,929,9491,3359,14529
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Zaeed Massani,364,3122,832,3751
@@ -98,7 +98,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Kureck,10,101,22,119
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Teltin Scientist,6,116,27,166
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Security Officer Zemkl,5,52,11,83
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Aresh,15,216,42,260
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Aresh,15,216,41,260
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Nakmor Ambassador,21,292,53,372
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Nakmor Guards,8,47,15,61
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Urdnot Chief Scout,69,1071,201,1276
@@ -112,7 +112,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Krogan talking to Potential Father,7,97,20,116
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Krogan Mechanic,35,439,88,523
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Blood Pack Recruiter,7,116,21,141
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Ratch,36,511,112,627
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Ratch,36,511,111,627
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Urdnot Overcaptain,9,122,28,137
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Krogan Pit Boss,7,49,17,55
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Krogan Xenophobe,5,73,13,84
@@ -130,7 +130,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Kenneth Donnolly,67,725,165,893
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Normandy Security Officer,4,8,7,8
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Niket,16,241,49,281
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Garm,29,291,74,334
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Garm,29,291,73,334
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Tarak,27,177,48,203
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Sergeant Cathka,27,312,73,373
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Jaroth,36,360,90,438
@@ -150,16 +150,16 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Grizz,29,326,74,411
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Harrot,13,187,33,253
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Henner,10,138,26,163
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Ish,71,760,214,937
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Ish,71,760,213,937
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Kenn,27,357,80,409
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Marsh,9,110,31,135
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Moklan,7,77,24,96
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,New Afterlife Bartender,5,61,13,79
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Patriarch,53,873,176,1050
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Patriarch,53,873,175,1050
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Mad Prophet,19,249,34,293
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Aria's Guard,4,20,10,22
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Sel,7,34,11,40
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Shisk,13,103,38,126
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Shisk,13,103,39,126
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Shisk's Guard,2,2,2,2
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Watching Thug,8,52,28,58
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Edwin the Bartender,12,105,26,123
@@ -175,7 +175,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Looter 2 (Omega),9,137,30,159
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Turian District Guard,28,491,94,604
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Henley Technical Institute Advertisement,16,232,36,319
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Harbinger,98,595,176,816
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Harbinger,98,595,175,816
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Blue Suns Mercs (Korlus),50,685,115,870
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Blue Suns Merc (Korlus),1,15,3,21
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Weyrloc Guld,6,42,14,55
@@ -185,7 +185,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Prison Security Technician,1,13,3,17
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Eclipe Trooper (Dantius Towers),5,27,9,34
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Surprised Eclipse Trooper (Dantius Towers),23,154,62,175
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Conrad Verner,57,862,180,1010
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Conrad Verner,57,862,179,1010
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Fleeing Merc,1,10,3,10
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Prazza,12,127,21,175
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Veetor,47,586,222,682
@@ -214,12 +214,12 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Shelum,15,152,49,172
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Eclipse Trooper (Dantius Towers),3,12,10,12
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Salarian at Gateway Defense,9,101,23,128
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Charr,14,229,28,269
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Charr,14,229,27,269
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Salarian at Memories of Illium,7,99,32,117
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Mr. Thax's Representative,9,106,29,149
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Volus Customer (Serrice),8,106,33,135
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Kirosa Salarian,23,320,74,410
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Niftu Cal,15,263,72,320
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Niftu Cal,15,263,73,320
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Pitne For,50,868,147,1079
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Merc Leader,12,225,37,261
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,male,Batarian Blue Sun,1,7,2,8
@@ -263,7 +263,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Captain Wasea,2,24,3,37
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Deleia Sanassi,19,215,52,302
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,EDI,521,7119,1411,10584
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Gianna Parasini,47,697,139,863
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Gianna Parasini,47,697,140,863
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Tali'Zorah,969,11621,2733,14445
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Miranda Lawson,1189,12777,3285,16281
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Liara T'Soni,152,2302,488,2860
@@ -287,7 +287,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Shuttle Advertisement,5,96,10,124
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Avina,42,622,98,952
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Asari Customer (Citadel Souvenirs),6,64,10,74
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,C-Sec Customs Officer,35,429,85,540
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,C-Sec Customs Officer,35,429,84,540
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Ophelia (elcor),2,50,4,55
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Emily Wong,95,1772,207,2643
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Citadel Film Matriarch Lidanya Actress,2,14,4,26
@@ -299,14 +299,14 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Rebekah Petrovsky,9,102,26,133
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Councillor Tevos,11,202,38,295
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Dr. Chakwas,69,884,207,1082
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Kelly Chambers,180,1959,463,2509
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Kelly Chambers,180,1959,462,2509
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Lilith,1,1,1,1
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Jack,822,8165,2232,9495
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Samara,717,7888,1870,9990
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Morinth,175,1863,441,2269
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Kasumi Goto,367,3320,882,3947
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Jedore,127,1689,368,2226
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Ashley Williams,45,513,147,641
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Ashley Williams,45,513,146,641
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Crewman Sarah Patel,15,127,32,149
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Gabriella Daniels,55,587,124,764
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Crewman Jenny Goldstein,12,129,36,158
@@ -323,16 +323,16 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Omega Refugee,5,64,11,72
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Jarrahe Station VI,29,282,70,460
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Prison Ship Computer,30,330,99,525
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Nassana Dantius,51,387,121,455
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Nassana Dantius,51,387,122,455
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Hermia,23,285,65,351
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Slave Broker,43,631,123,852
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Shiala,69,1177,241,1518
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Erinya,37,574,115,746
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Elan'Shiya,8,116,20,164
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Quarian Researcher,9,139,33,185
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Quarian Researcher,9,139,32,185
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Admiral Daro'Xen,50,785,143,1098
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Background Female Quarian Chatter,88,872,199,1124
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Admiral Raan,102,1636,302,2126
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Admiral Raan,102,1636,303,2126
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Hala'Dama,3,17,4,21
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Asari Commando guarding Nassana,1,3,1,4
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Eclipse Vanguard (Dantius Towers),2,16,4,18
@@ -362,7 +362,7 @@ folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,sylla
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Elnora,29,472,90,563
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Captain Enyala,35,450,94,564
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Transport Officer,1,21,3,35
-../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Asari (voice of Rachni Queen),32,543,116,676
+../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Asari (voice of Rachni Queen),32,543,117,676
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Female Survivor 4 (Aeia),4,42,11,45
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Survivor's Log,6,150,26,186
 ../data/MassEffect/MassEffect2/,False,Mass Effect 2,Mass Effect,female,Human C-Sec Sergeant,3,11,5,12

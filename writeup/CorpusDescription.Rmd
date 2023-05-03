@@ -81,14 +81,45 @@ for(snc in shortNameChanges){
 }
 ```
 
-50 games were selected for the corpus. All games were Role Playing Games (RPGs) with central mechanics for dialogue. They all have high sales figures: All games either individually sold, or belong to series that sold, at least 1 million copies worldwide. Every game or series frequently features in lists of the top RPGs of all time. For example,  [IGN's top 100 RPGs of all time](https://www.ign.com/lists/top-100-rpgs/100) and [Game Informer's top 100 RPGs of all time](https://www.gameinformer.com/b/features/archive/2018/01/01/the-top-100-rpgs-of-all-time.aspx) contain all the games in the corpus (or at least one game from each series). The exception is the King's Quest and Monkey Island games, which sold relatively poorly on release (compared to modern games) and are sometimes thought of as being "adventure games" or "point-and-click" games, though they fit the definition of RPGs. However, both of these series are frequently discussed as being highly influential on the medium (e.g. [https://latinamericanpost.com/35312-monkey-island-one-of-the-most-important-video-games-in-history](https://latinamericanpost.com/35312-monkey-island-one-of-the-most-important-video-games-in-history),  [https://gamerant.com/monkey-island-games-development-history-evolution-30-years/](https://gamerant.com/monkey-island-games-development-history-evolution-30-years/), [https://vocal.media/geeks/legacy-of-king-s-quest-in-modern-gaming](https://vocal.media/geeks/legacy-of-king-s-quest-in-modern-gaming), and [https://videogamesuncovered.com/features/a-history-of-kings-quest/](https://videogamesuncovered.com/features/a-history-of-kings-quest/)). The final requirement was that the games needed to have an accessible source of dialogue available. 
+50 games were selected for the corpus. All games were Role Playing Games (RPGs) with central mechanics for dialogue. They all have high sales figures: All games either individually sold, or belong to series that sold, at least 1 million copies worldwide. Every game or series frequently features in lists of the top RPGs of all time. For example,  IGN's top 100 RPGs of all time^[https://www.ign.com/lists/top-100-rpgs/100] and Game Informer's top 100 RPGs of all time^[https://www.gameinformer.com/b/features/archive/2018/01/01/the-top-100-rpgs-of-all-time.aspx] contain all the games in the corpus (or at least one game from each series). The exception is the King's Quest and Monkey Island games, which sold relatively poorly on release (compared to modern games) and are sometimes thought of as being "adventure games" or "point-and-click" games, though they fit the definition of RPGs. However, both of these series are frequently discussed as being highly influential on the medium (e.g. Gamerant ^[https://gamerant.com/monkey-island-games-development-history-evolution-30-years/], Latin American Post^[https://latinamericanpost.com/35312-monkey-island-one-of-the-most-important-video-games-in-history], Vocal Media ^[https://vocal.media/geeks/legacy-of-king-s-quest-in-modern-gaming], Videogames Uncovered^[https://videogamesuncovered.com/features/a-history-of-kings-quest/]). The final requirement was that the games needed to have an accessible source of dialogue available. 
 
-We aimed to collect a balance of games according to three factors. The first was RPG style, including Western RPGs and Japanese-style RPGs, since those are the dominant types. Secondly, the target audience age. For this latter, we used three categories based on the the official ESRB ratings: "Child" (ESRB ratings "Everyone", "Everyone 10+"), "Teen" (ESRB rating "Teen"), and "Adult" (ESRB ratings "Mature 17+" and "Adults Only 18+"). The table below shows the distribution of game series with the number of games in brackets.
+Estimating the total population of games that fit these criteria is difficult. Moby Games^[https://www.mobygames.com/game/genre:role-playing-rpg/] lists 6,702 RPG video games released between 1985 and 2020. Wikipedia^[https://en.wikipedia.org/wiki/List_of_best-selling_Eastern_role-playing_game_franchises] lists 72 eastern video game franchises that have sold more than 1 million copies. TV tropes lists about 400 Western RPGS^[https://tvtropes.org/pmwiki/pmwiki.php/Main/WesternRPG] and about 900 Eastern RPGs^[https://tvtropes.org/pmwiki/pmwiki.php/Main/EasternRPG], about 30% Western and 70% Eastern. Another site ^[https://glitchwave.com/games/genre/jrpg/] lists 1,162 JRPGs and 503 Western RPGS, also about 30% Western. Assuming a similar proportion in the wider sample, this suggests there might be around 240 RPG franchises selling over 1 million copies. Assuming 4 games per franchise on average, this represents around 15% of RPGs released between 1985 and 2020 and that were part of franchises that sold over 1 million copies.  
+
+Estimating the number of games that have a reliable, open source for a transcript is harder. A popular transcription website^[https://game-scripts-wiki.blogspot.com/p/list-of-existing-game-scripts.html] (claiming "This page contains all the game scripts that I know about") lists around 360 games with transcripts. This is likely to be a conservative estimate for the number of well-known games with good scripts. Searching Google for GameFaqs pages with "script" or "transcript" in the webpage title produced 2,373 results, around 10% of which were messages asking for transcripts. Let us assume that there are double the number in total from other webpages, ignoring duplicates. However, some will be poor quality: out of 70 sources that were attempted to be parsed in the corpus, 11 were found to be too poor quality or incomplete (about 84% good quality). So there may be between 360 and 3,600 games with good, open-source scripts (and we'll assume they are all RPGs). Since there is a bias to transcribe popular games, we'll assume that 30% of these were part of franchises that sold over 1 million copies (double the estimate above). That gives an estimate of between about 100 and 1000 RPG games that are part of franchises which sold over 1 million copies and which have a good, accessible source.
+
+These estimates would mean that 50 games represents a sample of about 1% of all RPG games, and between between 5% and 50% of the total population of games that would fit the central criteria (RPG games where dialogue is a central mechanic, sold over 1 million, with an accessible dialogue source).
+
+We aimed to collect a balance of games according to three factors. The first was RPG style, including Western RPGs and Japanese-style RPGs, since those are the dominant types. Secondly, the target audience age. For this latter, we used three categories based on the the official ESRB ratings: "Child" (ESRB ratings "Everyone", "Everyone 10+"), "Teen" (ESRB rating "Teen"), and "Adult" (ESRB ratings "Mature 17+" and "Adults Only 18+"). 
+
+The original list of sources that we considered parsing included 90 titles. 40 were dropped either due to problems with the source or to balance the factors above. Games that were considered but dropped included the following:
+
+-  Pokemon Red, Green and Blue 
+-  Valkyrie Profile 
+-  Dragon Quest franchise 
+-  Octopath Traveller
+-  Tales series (now in progress in the current corpus)
+-  Disco Elysium (now in progress in the current corpus)
+-  Hades (now in progress in the current corpus)
+-  Dragon Age Inquisition (now in progress in the current corpus)
+-  Atelier Ryza: Ever Darkness & the Secret Hideout 
+-  Fallout 1-4 
+-  Cyberpunk 2077 
+-  Diablo I & II 
+-  Fire Emblem series 
+-  World of Warcraft
+-  Greedfall
+-  Mass Effect: Andromeda
+-  Torchlight
+-  Child of Light 
+-  Xenosaga 1-3
+-  Shadowlands
+
+The table below shows the distribution of game series in the final corpus with the number of games in brackets.
 
 | Rating | Western                                      | JRPG                      | Totals |
 |--------|----------------------------------------------|---------------------------|--------|
 | Child  | Stardew Valley, KQ, Monkey Island  (13)      | Super Mario RPG, KH (5)   | 18     |
-| Teen   | Horizon Zero Dawn, Start Wars: KOTOR (2)     | Chrono-Trigger, FF (19)   | 20     |
+| Teen   | Horizon Zero Dawn, Start Wars: KOTOR (2)     | Chrono-Trigger, FF (18)   | 20     |
 | Adult  | Mass Effect, Elder Scrolls, Dragon Age (9)   | Persona (3)               | 12     |
 | Totals | 24                                           | 26                        | 50     |
 
@@ -452,7 +483,7 @@ Follow the procedure below to check for true positives (lines that are in the so
 
 2. If a run is split over several videos, choose one at random.
 
-3. Choose a random place in the video. This website will help you do that: https://correlation-machine.com/VideoGameCorpus/randomVideoLocation.html 
+3. Choose a random place in the video. This website will help you do that: https://correlation-machine.com/VideoGameDialogueCorpus/randomVideoLocation.htmll 
 
 4. Find the next piece of dialogue. If you reach the end of the video, loop around to the beginning. Look at up to three lines of dialogue that are spoken together.
 

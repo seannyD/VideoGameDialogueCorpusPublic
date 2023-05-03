@@ -176,6 +176,7 @@
 "Morell, the Cryptozoologist",
 "Mountain of Board Games",
 "Mysterious Pair of Eyes",
+"Narrator",
 "Netpicker's Twins",
 "Nightwatchman's Booth",
 "Nix Gottlieb",

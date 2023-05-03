@@ -277,6 +277,7 @@ propNeutralCharacters = round(100* propNeutralCharacters,2)
 
 totalMaleWords = groupWordTotals["male"]
 totalFemaleWords = groupWordTotals["female"]
+print(groupWordTotals)
 totalMaleAndFemaleWords = totalMaleWords+totalFemaleWords
 propFemaleWords = totalFemaleWords / totalMaleAndFemaleWords
 propFemaleWords = round(100* propFemaleWords,2)
@@ -353,7 +354,7 @@ for folder in allFolders:
 			devStatus = readySymbol
 	
 	# List for all sources
-	if not folder in ["../data/Test/Test/"]:
+	if not any([folder.startswith(x) for x in ["../data/Test","../data/Bar"]]):
 		parserName = "XXX"
 		if "parserParameters" in meta:
 			if "parser" in meta["parserParameters"]:

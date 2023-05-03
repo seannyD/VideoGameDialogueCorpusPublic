@@ -1,5 +1,5 @@
 folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
-../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,TOTAL,70422,926298,228797,1153294,0.6806127816142524,97.39387365050914,6.63892727022896,295
+../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,TOTAL,88859,926528,233119,1153573,0.6516304605413872,97.46973026302705,6.635290580982031,296
 ../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,male,0,NA,NA,NA,NA,NA,NA,0
 ../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,female,0,NA,NA,NA,NA,NA,NA,0
 ../data/DiscoElysium/DiscoElysium/,True,Disco Elysium,Disco Elysium,neutral,0,NA,NA,NA,NA,NA,NA,0

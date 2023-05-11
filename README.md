@@ -6,7 +6,7 @@ If you use this data, please cite the following:
 
 Stephanie Rennick, Seán G. Roberts, (in press) The Video Game Dialogue Corpus. Corpora 19(1).
 
-Stephanie Rennick, Melanie Clinton, Elena Ioannidou, Liana Oh, Charlotte Clooney, E. T., Edward Healy, Seán G. Roberts (under review) Gender bias in video game dialogue. Royal Society Open Science.
+Stephanie Rennick, Melanie Clinton, Elena Ioannidou, Liana Oh, Charlotte Clooney, E. T., Edward Healy, Seán G. Roberts (accepted) Gender bias in video game dialogue. Royal Society Open Science.
 
 If you find problems, you can post an issue in the Issues page. 
 

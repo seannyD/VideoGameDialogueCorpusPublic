@@ -2,11 +2,13 @@
 
 This is the public repository for the Video Game Dialogue Corpus. It contains programs to process game data on your local machine into a common dialogue script format. This can be used for research purposes as a corpus of language use in video game dialogue.
 
+[Visit our main website for an overview](https://correlation-machine.com/VideoGameDialogueCorpus/)
+
 If you use this data, please cite the following:
 
-Stephanie Rennick, Seán G. Roberts, (in press) The Video Game Dialogue Corpus. Corpora 19(1).
+Stephanie Rennick, Seán G. Roberts, (in press) The Video Game Dialogue Corpus. Corpora 19(1). [preprint](https://orca.cardiff.ac.uk/cgi/users/home?screen=EPrint%3A%3AView&eprintid=157527)
 
-Stephanie Rennick, Melanie Clinton, Elena Ioannidou, Liana Oh, Charlotte Clooney, E. T., Edward Healy, Seán G. Roberts (accepted) Gender bias in video game dialogue. Royal Society Open Science.
+Stephanie Rennick, Melanie Clinton, Elena Ioannidou, Liana Oh, Charlotte Clooney, E. T., Edward Healy, Seán G. Roberts (2023) Gender bias in video game dialogue. *Royal Society Open Science* 10(5). [https://royalsocietypublishing.org/doi/10.1098/rsos.221095](https://royalsocietypublishing.org/doi/10.1098/rsos.221095)
 
 If you find problems, you can post an issue in the Issues page. 
 

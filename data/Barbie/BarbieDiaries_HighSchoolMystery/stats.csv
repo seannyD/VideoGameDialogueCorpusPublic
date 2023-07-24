@@ -1,0 +1,4 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/Barbie/BarbieDiaries_HighSchoolMystery/,True,Barbie Diaries High School Mystery,Barbie,TOTAL,1803,20150,1849,24190,2.8259912876251274,94.2117655643786,6.6932429194507925,17
+../data/Barbie/BarbieDiaries_HighSchoolMystery/,True,Barbie Diaries High School Mystery,Barbie,male,504,5318,511,6420,2.713952518088332,94.14097304579434,6.6883532158625325,7
+../data/Barbie/BarbieDiaries_HighSchoolMystery/,True,Barbie Diaries High School Mystery,Barbie,female,1299,14832,1337,17770,2.873867838363596,94.21709500330405,6.695976055551925,10

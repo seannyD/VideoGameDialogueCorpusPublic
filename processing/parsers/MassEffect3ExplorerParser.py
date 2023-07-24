@@ -136,6 +136,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 			dial = {charName: cleanDialogue(node["DialogueLine"]), "_ID":node["LineStrRef"]}
 		elif len(node["StageDirection"])>1:
 			dial = {"ACTION": cleanDialogue(node["StageDirection"]), "_ID":node["LineStrRef"]}
+		print(dial)
 		return(dial)
 		
 		

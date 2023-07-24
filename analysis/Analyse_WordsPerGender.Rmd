@@ -72,6 +72,10 @@ for(folder in folders){
         mw = sxM$words,
         year = js$year,
         shortName = tail(strsplit(folder,"/")[[1]],1),
+        numChars = stats[stats$folder==folder & stats$group=="TOTAL",]$numCharacters,
+        numMaleChar = sxM$numCharacters,
+        numFemaleChar = sxF$numCharacters,
+        numOtherChar = sum(stats[stats$folder==folder & stats$group %in% c("genderless","trans","ambiguous"),]$numCharacters),
         femCharProp = sxF$numCharacters / (sxF$numCharacters+sxM$numCharacters),
         maleWordsPerChar = 1000* ((sxM$words/(sxM$words+sxF$words)) / sxM$numCharacters),
         femaleWordsPerChar = 1000* ((sxF$words/(sxM$words+sxF$words)) / sxF$numCharacters)

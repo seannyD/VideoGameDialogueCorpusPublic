@@ -1,0 +1,45 @@
+{
+	"game": "Barbie Diaries High School Mystery",
+	"series": "Barbie",
+	"year": 2006,
+	"status": "ready",
+	"status": "in progress",
+	"alternativeMeasure": true,
+	"source": "https://oldgamesdownload.com/the-barbie-diaries-high-school-mystery/",
+	"sourceFeatures":{
+    		"type": "fan transcript",
+    		"completeness": "high",
+    		"dialogueOrder": false,
+    		"choices": "not included"
+},
+	"parserParameters": {
+		"parser": "jsonCopier",
+		"fileType": ".json"
+	},
+	"mainPlayerCharacters": ["Barbie"],
+	"characterGroups": {
+		"male": [
+		"Coach Paternal",
+		"Cole",
+		"Kevin",
+		"Milo",
+		"Mr. Fermat",
+		"Neil",
+		"Todd"
+		],
+		"female": [
+		"Barbie",
+		"Candy",
+		"Courtney",
+		"Dawn",
+		"Miss Dewey",
+		"Mrs. Baez",
+		"Raquelle",
+		"Reagan",
+		"Tia",
+		"Tutorial"
+		]
+	},
+	"aliases": {
+	}
+}

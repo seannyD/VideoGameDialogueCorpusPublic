@@ -1,0 +1,23 @@
+{
+	"game": "The Witcher 2: Assassins of Kings",
+	"series": "The Witcher",
+	"year": 2011,
+	"status": "in progress",
+	"source": "https://laurelnose.github.io/",
+	"alternativeMeasure": true,
+	"parserParameters": {
+		"parser":"Witcher2Parser",
+		"fileType":".html"
+	},
+	"mainPlayerCharacters": [],
+	"characterGroups": {
+		"male": [
+			],
+		"female": [
+			],
+		"neutral": []
+	},
+	"aliases": {
+		
+	}
+}

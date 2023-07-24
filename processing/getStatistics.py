@@ -354,7 +354,7 @@ for folder in allFolders:
 			devStatus = readySymbol
 	
 	# List for all sources
-	if not any([folder.startswith(x) for x in ["../data/Test","../data/Bar"]]):
+	if not any([folder.startswith(x) for x in ["../data/Test"]]):
 		parserName = "XXX"
 		if "parserParameters" in meta:
 			if "parser" in meta["parserParameters"]:

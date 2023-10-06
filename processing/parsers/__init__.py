@@ -46,3 +46,4 @@ from parsers import KingdomHearts3DParser
 from parsers import HadesParser2
 from parsers import DiscoElysiumParser
 from parsers import jsonCopier
+from parsers import YackParser

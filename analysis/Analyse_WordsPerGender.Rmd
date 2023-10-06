@@ -140,6 +140,8 @@ Plots for specific series:
 seriesToPlot = names(table(d$series)[table(d$series)>1])
 for(series in seriesToPlot){
   dx = d[d$series==series,]
+  dx[dx$game=="King's Quest I: Quest for the Crown",]$year = 0
+  dx[dx$game=="King's Quest II: Romancing the Throne",]$year = 1
   dx$game = factor(dx$game, levels = unique(dx$game[order(dx$year,decreasing = T)]))
   dx$words.m = 1 - dx$words
   sx = pivot_longer(dx,c("words","words.m"))

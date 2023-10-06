@@ -1,0 +1,93 @@
+{
+	"game": "Return to Monkey Island",
+	"series": "Monkey Island",
+	"year": 2022,
+	"status": "in progress",
+	"alternativeMeasure": true,
+	"source": "Game data",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "complete",
+		"dialogueOrder": false,
+		"choices": "Not included"
+	},
+	"error checks": {},
+	"notes": "See Readme",
+	"parserParameters": {
+		"parser": "YackParser",
+		"fileType": ".yack.txt"
+	},
+	"mainPlayerCharacters": ["Guybrush"],
+	"characterGroups": {
+		"male": [
+			"Boybrush",
+			"Captain Trent",
+			"Chuckie",
+			"Clint",
+			"Cobb",
+			"Cook",
+			"Curator",
+			"Flambe",
+			"Gullet",
+			"Guybrush",
+			"Judge",
+			"Lechuck",
+			"Lookout",
+			"Murray",
+			"Ned",
+			"Otis",
+			"Parkmale",
+			"Quarantined Pirate 1",
+			"Quarantined Pirate 2",
+			"Stan",
+			"Toothrot",
+			"Wally",
+			"Bob",
+			"Guard",
+			"Fisher1",
+			"Fisher2",
+			"Fishmonger",
+			"Vendor",
+			"Youngpirate1",
+			"Youngpirate3",
+			"Youngpirate5",
+			"Finickypirate",
+			"Janitor"
+		],
+		"female": [
+			"Captain Lila",
+			"Captain Madison",
+			"Carla",
+			"Dee",
+			"Elaine",
+			"Flair Gorey",
+			"Ironrose",
+			"Locksmith",
+			"Parkfemale",
+			"Putra",
+			"Queen",
+			"Voodoolady",
+			"Wideybones",
+			"Youngpirate2",
+			"Youngpirate4"
+		],
+		"neutral": [
+			"Art",
+			"Hint",
+			"Sfx",
+			"SYSTEM",
+			"Todo",
+			"Guybrush (internal)"
+		]
+	},
+	"aliases": {
+		"Captainlila": "Captain Lila",
+		"Captainmadison": "Captain Madison",
+		"Captaintrent": "Captain Trent",
+		"Flairgorey": "Flair Gorey",
+		"Quarantinedpirate1": "Quarantined Pirate 1",
+		"Quarantinedpirate2": "Quarantined Pirate 2",
+		"System": "SYSTEM",
+		"Yardarm": "Bob"
+	}
+}

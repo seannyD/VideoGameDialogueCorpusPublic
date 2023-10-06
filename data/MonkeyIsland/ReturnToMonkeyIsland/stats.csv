@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/MonkeyIsland/ReturnToMonkeyIsland/,True,Return to Monkey Island,Monkey Island,TOTAL,11084,92275,21788,111984,0.38206027142071086,99.86664544474708,6.743092682481968,86
+../data/MonkeyIsland/ReturnToMonkeyIsland/,True,Return to Monkey Island,Monkey Island,male,5165,41793,10052,50973,0.4234125315568882,99.43222557020485,6.667261882992017,32
+../data/MonkeyIsland/ReturnToMonkeyIsland/,True,Return to Monkey Island,Monkey Island,female,1812,14869,3821,17926,0.15366928367112997,100.89185726152164,6.573568345863919,15
+../data/MonkeyIsland/ReturnToMonkeyIsland/,True,Return to Monkey Island,Monkey Island,neutral,3777,35027,7275,42292,0.5351909030412187,99.80106488275074,6.796461766002996,6

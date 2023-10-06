@@ -74,6 +74,7 @@ Note that some games have multiple folders with alternative sources. Only some o
 | MassEffect/MassEffect3C/ | :white_check_mark: |  :ok: | :x: | :x: | :ok: | :ok: | :ok: |
 | MassEffect/MassEffectAndromeda/ | :parking: |  :x: | :ok: | :ok: | :ok: | :x: | :x: |
 | MonkeyIsland/MonkeyIsland2/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
+| MonkeyIsland/ReturnToMonkeyIsland/ | :parking: |  :x: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | MonkeyIsland/TheCurseOfMonkeyIsland/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | MonkeyIsland/TheSecretOfMonkeyIsland/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | Persona/Persona3/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |

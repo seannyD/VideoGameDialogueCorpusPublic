@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/RogueState/RogueStateRevolution/,False,Rogue State: Revolution,Rogue State,TOTAL,159,3785,624,5160,2.862282859973581,85.34515209540022,7.262228194966636,6
+../data/RogueState/RogueStateRevolution/,False,Rogue State: Revolution,Rogue State,male,82,1735,305,2424,3.1145188264751766,82.86495157556575,7.404281943591439,3
+../data/RogueState/RogueStateRevolution/,False,Rogue State: Revolution,Rogue State,female,77,2050,318,2736,2.672833870225496,87.38171222580151,7.145058183770517,3
+../data/RogueState/RogueStateRevolution/,False,Rogue State: Revolution,Rogue State,neutral,0,NA,NA,NA,NA,NA,NA,0

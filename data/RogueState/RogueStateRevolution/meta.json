@@ -1,0 +1,39 @@
+{
+	"game": "Rogue State: Revolution",
+	"series": "Rogue State",
+	"year": 2021,
+	"status": "in progress",
+	"source": "game data",
+	"sourceFeatures":{
+		"type": "game data",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "NA"
+	},
+	"notes": "This captures the FMVs",
+	"parserParameters": {
+		"parser":"RogueStateParser",
+		"fileType": ".srt"
+	},
+	"mainPlayerCharacters": [],
+	"characterGroups": {
+		"male":[
+			"Male anchor",
+			"Male vox pops",
+			"Yusef"
+		],
+		"female":[
+			"Female anchor",
+			"Female vox pops",
+			"Sabriya"
+				],
+		"neutral":[
+
+				]
+	},
+		"aliases":{
+			"Sab": "Sabriya",
+			"Yus": "Yusef",
+			"Sab and Yus": ["Sabriya","Yusef"]
+					}
+}

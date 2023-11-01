@@ -81,6 +81,7 @@ Note that some games have multiple folders with alternative sources. Only some o
 | Persona/Persona4/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | Persona/Persona5/ | :arrow_down: |  :ok: | :ok: | :ok: | :x: | :ok: | :x: |
 | Persona/Persona5B/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
+| RogueState/RogueStateRevolution/ | :parking: |  :ok: | :ok: | :ok: | :ok: | :x: | :ok: |
 | StarWarsKOTOR/StarWarsKOTOR/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | StardewValley/StardewValley/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | SuperMarioRPG/SuperMarioRPG/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |

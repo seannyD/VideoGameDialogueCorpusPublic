@@ -1,0 +1,23 @@
+{
+	"game": "Dragon Age: Inquisition",
+	"series": "Dragon Age",
+	"year": 1997,
+	"status": "in progress",
+	"source": "http://www.finalfantasyquotes.com/ff7/script",
+	"alternativeMeasure": true,
+	"parserParameters": {
+		"parser":"DragonAgeInqParser",
+		"fileType":"StringList_en.csv"
+	},
+	"mainPlayerCharacters": [],
+	"characterGroups": {
+		"male": [
+			],
+		"female": [
+			],
+		"neutral": []
+	},
+	"aliases": {
+		
+	}
+}

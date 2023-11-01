@@ -1,0 +1,7 @@
+"Yusef" :69,
+"Sabriya" :64,
+"LOCATION" :38,
+"Male anchor" :12,
+"Female anchor" :12,
+"Female vox pops" :1,
+"Male vox pops" :1

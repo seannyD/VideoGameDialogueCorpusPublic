@@ -131,6 +131,10 @@ folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,Fles
 ../data/FinalFantasy/FFVII/,False,Final Fantasy VII,Final Fantasy,system,3,64,12,80,1.2400000000000002,95.67166666666668,6.121502083333334,2
 ../data/FinalFantasy/FFVII/,False,Final Fantasy VII,Final Fantasy,ambiguous,4,27,21,37,1.081798941798942,89.59666666666666,9.548419576719574,1
 ../data/FinalFantasy/FFVII/,False,Final Fantasy VII,Final Fantasy,neutral,230,3553,1450,4523,0.3871374380077057,96.6513618632142,6.904482360977124,62
+../data/RogueState/RogueStateRevolution/,False,Rogue State: Revolution,Rogue State,TOTAL,159,3785,624,5160,2.862282859973581,85.34515209540022,7.262228194966636,6
+../data/RogueState/RogueStateRevolution/,False,Rogue State: Revolution,Rogue State,male,82,1735,305,2424,3.1145188264751766,82.86495157556575,7.404281943591439,3
+../data/RogueState/RogueStateRevolution/,False,Rogue State: Revolution,Rogue State,female,77,2050,318,2736,2.672833870225496,87.38171222580151,7.145058183770517,3
+../data/RogueState/RogueStateRevolution/,False,Rogue State: Revolution,Rogue State,neutral,0,NA,NA,NA,NA,NA,NA,0
 ../data/SuperMarioRPG/SuperMarioRPG/,False,Super Mario RPG: Legend of the Seven Stars,Super Mario RPG,TOTAL,977,13755,4806,15911,-0.8242340681018927,106.06956383242323,6.504829781339302,105
 ../data/SuperMarioRPG/SuperMarioRPG/,False,Super Mario RPG: Legend of the Seven Stars,Super Mario RPG,male,671,9728,3347,11253,-0.8066564998800949,106.02268660048081,6.4426270380584345,48
 ../data/SuperMarioRPG/SuperMarioRPG/,False,Super Mario RPG: Legend of the Seven Stars,Super Mario RPG,female,129,1939,742,2239,-0.9451657146749444,106.49337309155665,6.559291989646481,11

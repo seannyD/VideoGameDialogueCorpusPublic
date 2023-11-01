@@ -47,3 +47,5 @@ from parsers import HadesParser2
 from parsers import DiscoElysiumParser
 from parsers import jsonCopier
 from parsers import YackParser
+from parsers import RogueStateParser
+from parsers import DragonAgeInqParser

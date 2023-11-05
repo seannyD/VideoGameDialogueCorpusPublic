@@ -1,9 +1,9 @@
 {
 	"game": "Dragon Age: Inquisition",
 	"series": "Dragon Age",
-	"year": 1997,
+	"year": 2014,
 	"status": "in progress",
-	"source": "http://www.finalfantasyquotes.com/ff7/script",
+	"source": "Game data via the Frosty explorer",
 	"alternativeMeasure": true,
 	"parserParameters": {
 		"parser":"DragonAgeInqParser",
@@ -18,6 +18,6 @@
 		"neutral": []
 	},
 	"aliases": {
-		
+		"global/Hero": "PC"
 	}
 }

@@ -1,0 +1,235 @@
+id,type,label
+13F2F5C731A4C648AB84792813E503B7,INT,DAO - What was the Warden's class? (1=Rogue, 2=Mage, 0=Warrior)
+45FE541FAFB6B54CA1D6C9143209017E,BOOL,DAO - Warden is Warrior?
+F66FB0F75080D944828E43DF935401BE,BOOL,DAO - Alistair is Drunk?
+DDD0A0C9FFE76248A1B017E4DF9501FD,BOOL,DAO - Warden married Alistair?
+CD5A9FA38E822E40A0EE732C1F9F01E5,BOOL,DAO - Wardens background is Dalish Elf?
+4CFEDF857F0E17429EDA7B4131B801B1,BOOL,DAO - Zevran Recruited?
+D917278ACA4F794CAAAF3FD9B1F4034A,INT,DAO - How did the Warden handle Cammen's broken heart?  (2=S/he brought them together, 0=S/he didn't encounter Cammen and Gheyna, 1=S/he broke them up)
+FB864FC585EC3C44A9BFA242D65A01F3,BOOL,DAO - Did the Warden help Zerlinda reconcile with her family?  (1=Yes, No=0)
+C64E8267B1F5A3468BA9A35724F5015C,BOOL,DAO - Did the Warden go through the Eluvian with Morrigan?
+C577583C0B5F59488070943AA0330164,BOOL,DAO - Did the Warden bring the ancient encrypted scroll to Sister Justine in Denerim?
+6772400DC1178343A5C2B483F0110325,INT,DAO - How did the Warden resolve the problems between the werewolves and the elves? (0=S/He brokered peace between them, 1=S/He sided with the werewolves, 2=S/He sided with the elves)
+70478B8376CA604D83CE4CD41C3B0304,INT,DAO - What happened to Zevran? (1=He is alive and well, 0=He died)
+19F2FF38269E734384E7052CD5560190,BOOL,DAO - Did First Enchanter Irving survive the battle against Uldred?
+1AC61EB222FD4E439CEC78C583CF03A4,INT,DAO - Did the Warden return Sten's sword to him? (0=The Warden did not recruit Sten, 1=No, 2=Yes)
+BFD23D87F095174E82D1E74A9119033F,INT,DAO - What happened to Alistair? (4=He becomes a drunk, 3=He stays with the Wardens, 0=He dies killing the Archdemon, 2=He becomes King, 1=He is executed
+7BDBAED03933F44F9F30318BFA840313,INT,DAO - What happened to Connor? (2=He is alive and still possessed, 1=He is alive and no longer possessed, 0=He died)
+F045A4D257C84D408715D6C717C20391,INT,DAO - What was the Warden's background? (0=Human noble, 5=Dwarf noble, 3=City elf, 1=Human mage, 2=Dalish elf, 4=Elf mage, 6=Dwarf commoner)
+FFA03BCB0CBFC74DB2315ED1556F01ED,BOOL,DAO - Warden is Mage?
+FA9E5771FCCB824F8E72A0F916B0011C,BOOL,DAO - Warden is Rogue?
+02F7B41777D07444AB1FDE9A73CE01F0,BOOL,DAO - Warden supported mages at Broken Circle?
+4E072600835B1B4D87216EDBCC00036E,INT,DAO - How did the Warden deal with Deygan in the Brecilian Forest? (2=S/he killed Deygan, 1=S/he returned Deygan to the Dalish camp for treatment, 0=S/he didn't encounter Deygan)
+C2C4945BA98A1F49ABA9EF8C13E1037F,INT,DAO - Who killed the Archdemon? (1=Alistair, 0=The Warden, 2=Loghain) 
+5FEBE0A1F15D45429606C0ED9F7C03AB,INT,DAO - What did the Warden do to help Kaitlyn find her brother Bevin? (4=S/he scared Bevin back to Chantry, 0=S/He did nothing, 3=S/he freed Bevin without finding the family sword, 1=S/He freed Bevin and took the family sword, 2=S/he freed Bevin and paid for the family sword)
+4D5EFE79996E884E8387550D3B370195,BOOL,DAO - Was Alistair executed?
+F265359D809FDE4FA932BFB6628B0173,BOOL,DAO - Did the Warden help Sergeant Kylon clear rowdy customers out of the Pearl?
+8B5C9E89D7E2DF4089AF57F6E2B50382,INT,DAO - What happened to Loghain? (1=Loghain was executed by Alistair, 3=Loghain is alive and well, 0=Loghain was executed by the Warden, 2=Loghain died killing the Archdemon)
+27A9CB72401A984A8FDB57B1BA23019C,BOOL,DAO - Did the Warden let Bann Sighard know s/he found Oswyn in Arl Howe's torture room?
+205E8FBE3333B041A5FB4B601BB6012B,BOOL,DAO - Anora is queen alone?
+53B4645A0FF0FA4FBA0F007B8740030E,INT,DAO - How did the Warden deal with Dagna's request to become a scholar at the Circle Tower? (0=S/he didn't talk to Dagna, 4=S/he told Dagna that the Circle was destroyed, 2=S/he convinced Dagna to stay with her father, 1=S/he refused to help Dagna, 3=S/he asked permission for Dagna to study at the Circle Tower)
+AB996535B784544588E718E04E050172,BOOL,DAO - Did Morrigan have Alistair's baby?
+42E06903C711634CA860586E89E3035C,INT,DAO - How did the Warden complete Filda's quest to find her son Ruck in the Deep Roads? (3=S/he killed Ruck and told Filda s/he couldn't find him, 1=S/he told Filda Ruck died even if he didn't, 5=S/he killed Ruck and told Filda that he died heroically, 0=S/he didn't speak to Filda, 4=S/he killed Ruck and told Filda the truth, 2=S/he told Filda the truth of Ruck's condition)
+4E5030BDEB9A664DB6A7754B115B03C9,INT,DAO - What happened to the Warden? (0=S/He sacrificed him/herself killing the Archdemon, 1=S/He is alive and well, 2=S/He is missing)
+9D359E3B304C5944874B09776C20016B,BOOL,DAO - Did the Warden kill Ser Landry?
+3697D85DBD74A24D917C80062E0C010E,BOOL,DAO - Was Dragon Age: Origins completed?
+4A10AB695FDFFD4486377C3D566B0157,BOOL,DAO - Is the Warden alive?
+65763E55B5F8DC4FACBDDD81671001C2,BOOL,DAO - Did Morrigan have Loghain's baby?
+9370A187626B2649AB7501A713D901CD,BOOL,DAO - Was Loghain alive at the end of Dragon Age: Origins?
+BC275F19F66A704C93F3582D70BF03F8,INT,DAO - Did the Warden restore Mardy's son's birth right? (2=Yes, 0=S/he didn't have a son with Mardy, 1=No)
+25CA543325731642943A66126F570155,BOOL,DAO - Did the Warden handle the Crimson Oars for Sergeant Kylon in Denerim? 
+34A4AFAD1D85CF4D920EC549B6FB01B1,BOOL,DAO - Is Alistair alive?
+0A1A5BF0A764264EB067A4F6E3BD016A,BOOL,DAO - Warden romanced Morrigan
+4711DDE6C4AA8A499E4DFB7655ED0125,BOOL,DAO - Did the Warden poison the Urn of Sacred Ashes?
+4BBE24D81D69FC42A0E02355BCF2036D,INT,DAO - What happened to Leliana? (2=The Warden killed Leliana after poisoning the Urn of Sacred Ashes, 1=Leliana is alive and well, 3=The Warden killed Leliana for some other reason, 0=The Warden did not recruit Leliana)
+470DC385BBB11840B6431582681C0367,INT,DAO - What did the Warden do with the Mabari Hound in Ostagar? (1=Cured it with the wilds flower, 4=Cured it with the wilds flower, 3=S/He didn't help it, 2=S/He put it out of its misery, 0=S/He didn't help it)
+65A9E0FBC61B8040BB029245B23F0309,INT,DAO - What race was the Warden? (1=Elf, 0=Human, 2=Dwarf)
+B3ACEBBC30F48C4089A300AA808E01E9,BOOL,DAO - Did the Warden help Orta find the proof she needs to join the Assembly as a member of House Ortan?
+00243B34C8796D44A2EBD871796C0143,BOOL,DAO - Did the Warden complete Master Ignacio's assassination missions?
+0179BD795029294A85AB74A08D310387,INT,DAO - Who did the Warden support at the Broken Circle? (0=The mages, 1=The templars)
+055A0FA6F3474347ADD21AE69B1D01EE,BOOL,DAO - Did the Warden recruit Loghain?
+06D7BDCB135FBA41B6873C44F1180164,BOOL,DAO - Did the Warden recruit Oghren?
+09D2F3E18AACA74BBF17E3D818110390,BOOL,DAO - Did Carver become a Warden?
+12F75C2275744F499C0F305D1CA50319,INT,DAO - Did the Warden choose Branka or Caridin in the Deep Roads?  (0=Caridin, 1=Branka)
+130E6F25D01250408670FE3D53A90173,BOOL,DAO - Did the Warden complete Slim Couldry's crime wave?
+180F2905D00CA947AF19515B74EA019A,BOOL,DAO - Did the Warden kill Leliana after a crisis unrelated to the Urn of Sacred Ashes?
+1923086839F60C41BD71EC7500ED01F1,BOOL,DAO - Was Dragon Age Origins: Awakenings completed?
+1B0E450966B7DD44AE67AF9ADB6101FC,BOOL,DAO - Warden was Female?
+1BD0350BB5C8C64C929CF2F6F92C0189,BOOL,DAO - Did Morrigan have the Warden's baby?
+1E2016206BC8DD458D5714A975310380,INT,DAO - What was the Warden's gender? (0=Male, 1=Female)
+1EDB89BB3EFEFA4893A8D6844BD60368,INT,DAO - What did the Warden do with Sten's imprisonment in Lothering?  (0=S/He didn't free Sten from the cage, 3=S/he intimidated the Revered Mother into freeing Sten, 1=S/He picked the lock to free Sten, 2=S/He persuaded the Revered Mother to free Sten)
+2202119C2D1CA943A83DB74732A10149,BOOL,DAO - Warden married Alistair and Anora?
+23626AD518206E4F8083D7717767035E,INT,DAO - Was Loghain executed?  (2=Alistair, 1=Warden, 0=No)
+296AE77E664E6A4C9EBCC42A657D0118,BOOL,DAO - Warden chose Branka in the Deep Roads?
+2D91C92375BE8D499C30FC47D925018D,BOOL,DAO - Caridin destroyed anvil?
+388400512407E540A882EE2C04E80362,INT,DAO - Who rules in Orzammar?  (0=Harrowmont, 1=Bhelen)
+3BC3E7F9CB37F54E9002A2F89AB9016A,BOOL,DAO - Warden romanced Zevran
+43626C0B8B6CE34FB49BA29414BD01B5,BOOL,DAO - Did the Warden help the people of Redcliffe prepare for the attack of the undead hordes?
+43A5E3A2B04E8B4D947412A58EB801F7,BOOL,DAO - Did the Warden help the village of Redcliffe fight the undead hordes at nightfall?
+505030199D46C148A30FCEDFFCAC0177,BOOL,DAO - Did the Warden tell Athras about the death of his wife Danyla?
+528625FB282C1A4F80C629D0820A033F,INT,DAO - Did the Warden remain as King Alistair's mistress? (2=No, 1=Yes, 0=The Warden and Alistair were not lovers, 3=The Warden is Alistair's Queen)
+567D9B5B8D74434890133E69E96E017E,BOOL,DAO - Warden sided with Werewolves?
+5BDA09DB99F24244831FC0F8CA5303DB,INT,dao_paragon_anvil_fate
+6113C1E9D23A8E45AF23B3DD3B8801D8,BOOL,DAO - Connor is dead?
+630652464A9C3F478AF60D2BFE1101FD,BOOL,DAO - Branka kept Anvil?
+63DF96F93C9211499A4F495033AC01ED,BOOL,DAO - Did Loghain kill the Archdemon?
+64866A04A63AE94097669D64E67F01EA,BOOL,DAO - Did the Warden kill Leliana after destroying the Sacred Ashes?
+6674BD3E2913C04BB98C6284401201F2,BOOL,DAO - Anora is queen with Warden?
+6B0D1B79268D1545B5F1428843E501C3,BOOL,DAO - Did the Warden recruit Sten?
+6C8BF1447D2497408B490AB87CF40166,BOOL,DAO - Did the Warden complete Rogek's lyrium deal?
+6FB795B8EF0D5449991D847D228F0171,BOOL,dao_awakenings_architect_fate
+6FD6CD6943538645A5DE6A6508710358,INT,DAO - How did the Warden handle Elora's sick halla?  (0=S/he never spoke to Elora, 1=S/he saved the halla, 2=S/he allowed the halla to be killed)
+73E991C973F15041897E2640F72501D8,BOOL,DAO - Warden sided with Elves?
+74B35A9A4DE5704D8064099B359B0111,BOOL,DAO - Alistair is king alone?
+7662D397629C374180724D8138CA01F5,BOOL,DAO - Did the Warden rescue Owen the Blacksmith's daughter Valena?
+76C9DF703ECDE84DA3B4EE679C2B01DE,BOOL,DAO - Warden is Elf?
+79CF236575D34940A7CF12865342012E,BOOL,DAO - Warden romanced Leliana?
+7D9130F89A6E2D4A817E2363C13D0176,BOOL,DAO - Bhelen is king of Orzammar
+7F6FCCCAA072B94DAA8119E9A8F00166,BOOL,DAO - Wardens background is Dwarf Noble?
+7F9C00BEC9F8954FBD7AF92224B20131,BOOL,DAO - dao_leliana_crisis
+8071993155EB3C4882D16A51DCAB012D,BOOL,DAO - Warden is Male?
+81BADD70A191DA44BB3F6CA13242019E,BOOL,DAO - Warden is Dwarf?
+83D553D0EDEDC5468B894AF00CD90345,INT,dao_shale_fate
+8571B159B6B24A409EF94BC9D211018A,BOOL,dao_shale_recruited
+85AB4A43C9F17B4D82722345336A01CC,BOOL,DAO - Connor is alive and not possessed?
+863FEDBC0DB66E42961642AAF46901C5,BOOL,DAO - Did the Warden bring Varathorn the ironbark he needed?
+8793907F8149A345BFFE7BFAE33101A2,BOOL,DAO - Morrigan has child?
+8A56B4DA332FEC49ABF92A479A630115,BOOL,DAO - Alistair is king with Warden?
+8AC241586258314FAB2A0E29ECC201D2,BOOL,DAO - Wardens background is Human Mage?
+90CF9B3050328640A8EEBDFCB75901C2,BOOL,DAO - Warden is Human?
+95DBA341B829BD468D3D82B68E5B01C0,BOOL,DAO - Did the Warden give Alfstanna her brother Irminric's ring?
+98DBB367D06B5F40BAA0C347967A014F,BOOL,DAO - Wardens background is City Elf?
+A608A89285E4444A898C0D6250E40180,BOOL,dao_ntb_brokered_peace
+A7E0AA7A832ECC42A333A1777AFD0193,BOOL,DAO - Anora is queen alone or with the Warden?
+AE4277207915C3479B590304E9A30182,BOOL,DAO - Connor is alive and possessed?
+AF22B09A2D09C94DBD14FE817BDA01B2,BOOL,DAO - Is Alistair king?
+B09B46DAF1CD1647BE5AAFA72F050162,BOOL,DAO - Morrigan did the dark ritual with the Warden?
+B257ACAD610F464A91FA7CA9F39C01DA,BOOL,DAO - Did Alistair kill the Archdemon?
+BC084F633536F348AF3BDA01FDCA01A8,BOOL,DAO - Branka destroyed Anvil?
+BF5823E6966CDD4F9EE9E003DF6C0145,BOOL,DAO - Did the Warden recruit Leliana?
+BF7AE8312BFB6F4CAF99FCBA048301A2,BOOL,DAO - Did the Warden help Brother Burkel create a Chantry in Orzammar?
+C29D307EF56EBA4AA8AA03B090F601C1,BOOL,DAO - Did the Warden return the worn amulet to the deranged beggar in Denerim's alienage?
+C4E746075C9F31488D755B7C095801A7,BOOL,DAO - Warden chose Caridin in the Deep Roads?
+C98D6FDE5F6140448C407F96EF880113,BOOL,DAO - Warden asked permission for Dagna to study at the Circle Tower?
+C9B986B1F2D6E54D8CEABD569D1001C5,BOOL,DAO - Harrowmont is king of Orzammar?
+CE6575B216750E4C89B1CFFC531E012F,BOOL,DAO - Did the Warden prove to the Shaperate that the Legion of the Dead was connected with a noble House?
+D5C40EE16CDE7C41A4BEE1F7D0CA03C7,INT,dao_wynne_fate
+D69CEAAC9269DF46A8E9265B01D003E2,INT,DAO - Who now rules Fereldan? (0=Alistair, 3=Anora, 2=Alistair and the Warden, 1=Alistair and Anora, 4=The Warden and Anora)
+D8FB6678180CEB49917920E98919038E,INT,DAO - Did the Warden have relations with Mardy before being cast out of Orzammar? (1=No, 0=S/he didn't encounter Mardy, 2=Yes)
+DE012A2256AD844DB6317414DE120301,INT,DAO - What happened to Nathaniel? (0=He died, 1=He is alive and well)
+DEBF17FACC8AC74A83A7ECFC00A601A3,BOOL,dao_morrigan_dark_ritual
+E08FE7ACFB62574D8AF5906A601C010C,BOOL,DAO - Warden sided with the templars at Broken Circle?
+E554ECC22E72DE4D98C360E3D94E01E6,BOOL,DAO - Was Leliana alive at the end of Dragon Age: Origins?
+E608D4146E5FEC46869E3D5DC5EB014D,BOOL,DAO - Wardens background is Human Noble?
+E9B164CFB182A240BF19ABC60C5701A9,BOOL,DAO - Wardens background is Dwarf Commoner?
+EB287DC890864546A2790A5776930144,BOOL,DAO - Did the Warden recruit Wynne?
+F12631D0508FE54ABA1EB6F3683A01E0,BOOL,DAO - Warden romanced Alistair?
+F396839B4E9BAD408C00167035590302,INT,DAO - What did the Warden do with the hungry deserter in Ostagar?  (5=S/He stole the key from the prisoner, 2=S/he fed the prisoner food stolen from the guard, 4= S/He fed the prisoner with food bought from the guard, 3=S/he fed the prisoner the guard's lunch, 1=S/He killed the prisoner, 0= S/He left the prisoner alone)
+F4ACE6CD2512A64DA08A1DDBF29A0184,BOOL,DAO - Wardens background is Elven Mage?
+F912F42E1C8B164F99E6CED6132401E7,BOOL,DAO - Alistair is king with Anora?
+FFF0970A8CC1FE4CA5A3189EA12E0121,BOOL,dao_isolde_state
+2D5FDEFB86445546AB06256E23640314,INT,DAO - What did the Warden decide to do with the tome stolen from the Shaperate?  (0=S/he didn't look into the matter, 2=S/he sold the tome to a fence, 1=S/he returned the tome to the Shaperate)
+CBBFBFCB7D204A42B50B851817FD016C,BOOL,DAO - Did the Warden recruit Dog?
+80B97C3AEDB2B349884B10632F600317,INT,DAO - Who did the Warden romance? (1=Alistair, 4=Zevran, 3=Leliana, 0=No-one, 2=Morrigan)
+351DB97B3088014196BBA91E36CC03B7,INT,DAO - Did Morrigan have a baby? (3=Yes, 0=No, 1=Yes, 2=Yes)
+7EE6E73DA5E1CC429877410D15AD0104,BOOL,DA2 - Did Hawke approve of Anders' actions at the Chantry?  Yes
+E1C6F5206762484B9820B5BA003B038C,INT,DA2 - Who did Hawke romance? (0=Noone, 4=Merrill, 5=Sebastian, 2=Fenris, 3=Isabella, 1=Anders)
+B61E94AAB6119048A8FD249ECB330329,INT,DA2 - Did Hawke join the mercenaries or the smugglers? (1=Mercenaries, 0=Smugglers)
+DD461093EC2AE94393DFD166715101E6,BOOL,DA2 - Were Hawke and Varric friends?
+775DDCB2F8EC1942A0BEF3A1C87D010B,BOOL,DA2 - Hawke is mage
+2B0DE0E9D673F14E93F2FE88D8C20303,INT,DA2 - What did Hawke do with the templars? (0=S/he fought them, 2=S/he turned in the mages to them, 1=S/he convinced them to leave)
+B2C60F4D70EC7E4498DD65C0BF2F03F1,INT,DA2 - Were Varric and Hawke friends or rivals? (0=Friends, 1=Rivals)
+2A9823F3D0D4DE4D915F3163887701C6,BOOL,DA2 - Was Varric's brother Bartrand killed?
+B81E5998BBFD0F48B9C2F1E09E5F01E3,BOOL,DA2 - Was Karras killed?
+0FCE7FC1085B3245BD38FF8EABF0011D,BOOL,DA2 - Did Hawke kill Danzig?
+035CA2C5A644F546ADEE87A6887803CC,INT,DA2 - What did Hawke do with Keran? (2=S/he gave him to the templars, 0=S/he let him go, 1=S/he killed him)
+C9115821132D6E4D8C02924E73FF03A3,INT,DA2 - Did Hawke side with the mages or the templars in the final battle? (1=The templars, 0=The mages)
+08A1961A53A09846ACFC1724D24A0373,INT,DA2 - Did Hawke let Zevran go? (0=Hawke did not find Zevran, 2=Yes, 1=No)
+62C33E84DD41BC4AA121FE55E197038E,INT,DA2 - What happened to Fenris? (1=Fenris Died, 2=Fenris is alive and well, 0=Fenris was never recruited,3=Fenris was returned to his Tevinter master)
+42C731E7966B7C4F97045FE6339503CB,INT,DA2 - What kind of personality did Hawke have? (0=Diplomatic, 1=Humorous, 2=Aggressive)
+5D5CFC73760D1B4F8AE86831EDDD03FE,INT,DA2 - Did Hawke help Lieutenant Harley with the raiders on the cliffs? (0=Hawke did not encounter Lieutenant Harley, 1=Hawke abandoned them, 2=Hawke fought alongside the guardsmen, 3=Hawke attacked the raiders without the help of the guardsmen)
+0E844B15F6F27B48A53441174F4301AB,BOOL,DA2 - Did Hawke kill the Arishok?
+A0B731BD8CD40B499ECE6BF0287403D1,INT,DA2 - Who did Hawke hand the conspirators over to? (1=Meredith, 0=Orsino)
+BF50BEFBCB25B6408381492F56A20179,BOOL,da2_merrils_clan
+32AF5C002F571F41B7B312665BA901E2,BOOL,DA2 - Did Hawke return Saemus safely to the Viscount?
+6ABB9B5B92ABDB4E83AEB3A16BA60131,BOOL,DA2 - Did Hawke blackmail Thrask?
+8443C5DEF803AC41BDE3D3552B5201FE,BOOL,DA2 - Did Hawke give Isabela to the Arishok? (Seems to be an int, but stored as a bool, so not present should = Isabela was not there to be turned over)
+477284FAF3A95245ABA026A8C5DE0388,INT,DA2 - Was Fenris returned to his Tevinter master? (1=No, 0=Fenris was never recruited, 2=Yes)
+BD96D4A9D1F4994EA6C6C0C7F91E01D6,BOOL,DA2 - Did Hawke execute Anders?
+AC3CA4435872924591CC742AC85901F9,BOOL,DA2 - Is Bethany alive?
+E05362B514F2C84DB0FED7D3F0C0034A,INT,DA2 - Did Hawke try to find the assassin for Nuncio? (2=Hawke killed Nuncio to save Zevran, 0=Zevran is dead so Nuncio did not seek Hawke out, 1=Hawke did not help Nuncio find the assassin)
+60774ED866B62C499F3051FB324103B7,INT,DA2 - What was Carver's career? (1=Carver became a templar, 2=Carver became a Grey Warden, 3=Carver died in the Deep Roads, 0=Carver died leaving Lothering)
+CDA1C8985B0BE94FB620EFC7488301A2,BOOL,DA2 - Did Hawke make Tallis angry?
+A29C8F862A1A274DBFA0378483AD01B6,BOOL,DA2 - Did Hawke discover who was raiding Hubert's caravans?
+22B1E798DF8D784DAF6A8059F32A0174,BOOL,DA2 - Did Aveline marry Donnic?
+EE995CE0646BFA47BA41C96D2E59014D,BOOL,DA2 - Did Javaris die? 
+C39B54AF8CB3AE4E9CDDF2D538CD01E1,BOOL,DA2 - Did Hawke recruit Sebastian?
+CEE1112F60863A4D91DFE2A6C826038F,INT,DA2 - How did Hawke help Yevhen find his sons in the Deep Roads? (0=Hawke didn't help Yevhen, 1=Hawke saved Merin, 2=Hawke saved Iwan)
+FB8F809866127644A7D11DA589B0014F,BOOL,DA2 - Merrill is Alive?
+0573D6F5F6A5A742B17F103B73040179,BOOL,DA2 - Hawke is Warrior?
+0ADE2E0F3DCAB34092DED21E311903A6,INT,DA2 - Who did Hawke side with in Corypheus's prison?  (1=Janeka, 0=Larius)
+0DF526FB983667458FD5379EE2960116,INT,DA2 - Carver is Warden?
+11D258C111E55642B7E32DDCA0660359,INT,DA2 - What did Hawke do with Emile?  (0=S/he returned Emile to the Circle, 1=S/he allowed Emile to go free)
+11FE9048419AE841B125777FD7E20161,BOOL,DA2 - Did Varric keep a piece of the red lyrium idol?
+138D125DB55CDA448F12B36B0B5F03BE,INT,DA2 - Did Hawke tell Ghyslain the truth about his wife's death? (1=No, 2=Yes, 0=Hawke did not look for Ghyslain's wife)
+1399110D4C652044B95EBA9E501203E9,INT,DA2 - Did Hawke find and rescue Nathaniel from the Deep Roads?  (2=Yes, 0=Nathaniel did not survive Dragon Age: Awakenings, 1=No)
+150A1535BB00F44E895664FE65CC03FD,INT,DA2 - What was Hawke's gender?  (0=Male, 1=Female)
+16F9E3FA9DA9FF459537A8C66F4F01C0,BOOL,DA2 - Was Idunna killed?
+19E3919E8FCBCA42B442E3834E490194,BOOL,DA2 - Hawke was Diplomatic?
+19F4699B561CC8429A79D630503C01DF,BOOL,DA2 - Carver died in the Deep Roads?
+200F0136B2996F4ABEB4E2C374F0011E,BOOL,DA2 - Did Hawke side with Varnell against the Qunari?
+20BAAB736D23C041BF5438191DEA03D9,INT,DA2 - How did Hawke decide to help  Uncle Gamlen?  (1=Hawke reunited Charade with Gamlen, 0=Hawke didn't help Uncle Gamlen, 2=Hawke returned the Gem of Keroshek to Gamlen)
+27390C10E70EB04386DE08C0AA7703F7,INT,DA2 - Did Hawke send Feynriel to the Circle or to the Dalish?  (0=To the Dalish, 1=To the Circle)
+27FAE9D478DD70409A88AA806CA703C1,INT,DA2 - What happened to Merrill?  (1=Merrill is alive and well, 0=Merrill Died)
+2F348CC5562AEF49B8C3221A9D5003DB,INT,DA2 - What was Hawke's class?  (1=Rogue, 0=Warrior, 2=Mage)
+417AEEA6D4A5514BBDB685AF0F4E035A,INT,DA2 - Did Hawke defend Ketojan or hand Ketojan over to the Qunari?  (1=Handed Ketojan over to the Qunari, 0=Defend Ketojan from the Qunari)
+42DD46668225564DADD7BFE6FF400155,BOOL,DA2 - Was Anders alive at the end of Dragon Age 2?
+430F6CEF0F2B3E45B6790FA55F070383,INT,DA2 - Did Isabela return to Hawke after stealing the book? (0=Hawke didn't recruit Isabela, 2=Yes, 1=No)
+4C6C9255845A9846BD456DA8F3D80396,INT,DA2 - Did Bethany die in the final battle?  (2=Yes, 0=Bethany didn't survive to see the mage/templar war, 1=No)
+4D97E66388D49C4DBCC182E777740162,BOOL,DA2 - Hawke sided with Mages?
+50A173240814A446AE73324315A30111,BOOL,da2_hawke_appearance
+513B429DA40F2B438D9251B79CC0013C,BOOL,DA2 - Did Aveline stay with Hawke?
+55925D1B967F954EB628BDB650C70134,BOOL,DA2 - Hawke romanced noone?
+572B9593DE51CA42BC464D83A9C801D8,BOOL,DA2 - Fenris still alive?
+5794EEB69E424C46ABC270445BEC03E4,INT,DA2 - What happened to Feynriel?  (1=He was made Tranquil, 2=He was possessed, 0=He was freed and left for Tevinter)
+57ACC358C344944E95864D1DE6E00189,BOOL,DA2 - Bartrand still alive?
+5F3878CE91F269469FF14AB2C90A014E,BOOL,DA2 - Hawke is Male?
+617BB2FA6339734DA1A6ABD3EAAD01B4,BOOL,DA2 - Is Carver alive?
+620A18801586CF4F9D27D086874C01FC,BOOL,DA2 - Did Merrill destroy the Eluvian?
+66774F5AE6A56F41908F896554A301DC,BOOL,DA2 - Bethany is a Warden?
+4ECBB2B6E021894DAC9F9E7174FE0375,INT,DA2 - Did Bethany become a Warden?  (0=Unknown, 1=No, 2=Yes)
+72413096A9141B46BF86BFC1EF13010F,BOOL,DA2 - Hawke romanced Merrill?
+72D56111B4B3ED49A10EC974E4910104,BOOL,DA2 - Hawke is Rogue?
+7D78577684221346B6660AFBDA2F0117,BOOL,DA2 - Hawke romanced Isabela?
+867DF5E35FC9CF46814A3D0923FF0141,BOOL,DA2 - Did Hawke return the cargo to Martin?
+884A4EDEC1D1FF4A8F022869769601F8,BOOL,DA2 - Hawke is Female?
+8F1B5A79B50D0C4EB3B484AAD5FC03C9,INT,DA2 - What happened to Anders?
+940AD3861304924AAA5164B816ED01FB,BOOL,DA2 - Hawke sided with Janeka?
+6AE159FE15C3154790DCB0395EC60376,INT,DA2 - What happened to Samson? (1=Samson was reinstated into the templars, 0=Samson was killed) <-- Might be a BOOL
+951142549B72C148A2DF6993E6840185,BOOL,DA2 - Samson reinstated into the templars?
+965EB6B16DF61C41835DC0676BCB011F,BOOL,DA2 - Hawke romanced Anders?
+9A9AF53D37C25C4F89F3CD6E11A70181,BOOL,DA2 - Did Hawke side with Petrice?
+9C73E933D0AAA14DAEBCD3D3525201D8,BOOL,DA2 - Did Hawke recruit Fenris?
+9CCDF7484909C14297CE3DE694000142,BOOL,DA2 - Hawke and Varric are friends?
+A03F19138EFBA54EAAC6982D1AC801AC,BOOL,DA2 - Hawke sided with Larius?
+A2D61281EB80284E9FE55F9405F1038F,INT,DA2 - What happened to Keran?  (1=He was kicked out of the Templars, 0=He was reinstated with the Templars)
+A2F8F486211CD94BB983836C9E69015A,BOOL,DA2 - Did Hawke kill Gascard?
+A316571FDA7C864D886EC9F74454019B,BOOL,DA2 - Fenris was returned to master?
+A57A6A51399A1740AB550911790501EB,BOOL,DA2 - Hawke sided with the templars?
+AC0194CCAE1AA54BB27869627F860108,BOOL,DA2 - Was Dragon Age 2 completed?
+AD092E3BD9F91F4C9D8622632306018A,BOOL,DA2 - Did Merrill stay with Hawke?
+B3746F504990F54AA195E37911030187,BOOL,DA2 - Hawkes personality was aggressive?
+B399BE1460645F438663555E4C2A0140,BOOL,DA2 - Did Hawke discover the mystery of the missing miners at the Bone Pit?
+B41ABBAFF4623A4DB7B5F9054E830132,BOOL,DA2 - Hawke romanced Sebastian?
+B7A77C25085D7B49B81687E19C300178,BOOL,DA2 - Dragon Age 2: Legacy played?
+C35C629614D6984C87B7AD1590B601DB,BOOL,DA2 - Did Hawke recruit Isabela?
+C7216587181ED344A5A4D2983ADC036E,INT,DA2 - What was Bethany's career? (2=Bethany became a Grey Warden, 0=Bethany died leaving Lothering, 3=Bethany died in the Deep Roads, 1=Bethany became a Circle mage)
+DA5A8EB8CBDAC04CBCF4F89002A801BA,BOOL,DA2 - Bethany died in the Deep Roads?
+DBCEF271FC672F409554523DB6BA0133,BOOL,DA2 - Hawke romanced Fenris?
+E1E18B193C0B9745A518320D98A60136,BOOL,DA2 - Did Hawke help Varric discover what was haunting his brother Bartrand's mansion?
+E2154968263A5E42B1D8BEDAE2B50120,BOOL,DA2 - Dragon Age: Origins or Dragon Age 2 played?
+E56276F3235A264A8960A3085F390139,BOOL,DA2 - Did Hawke find Malcolm's will in the Grey Warden prison tower?  Yes
+E7B13DD38991C64BACE16528AA3E012B,BOOL,DA2 - Hawkes personality was humorous?
+F143C8AFD013734F9007DF1E906E01AD,BOOL,DA2 - Did Hawke kiss Tallis?
+F7B92DFB39812543A0EAC18F5FAA019A,BOOL,DA2 - Was Kelder killed?
+FE2ED88D9EA0FA40AA44CFC1A028013E,BOOL,DA2 - Is Ginnis alive?

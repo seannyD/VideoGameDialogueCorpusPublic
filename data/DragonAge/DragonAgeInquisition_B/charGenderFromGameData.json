@@ -1,0 +1,169 @@
+{
+    "e1d4a4ab-e9eb-daa9-f9b1-6e6d9ff9459f": {
+        "name": "DA3/designcontent/Conversations/Cre_keep_spy_09",
+        "levelobjectid": "",
+        "charactername": "Crestwood Spy 09",
+        "gender": "Male",
+        "characterdescription": "A professional spy, working for the Inquisition.",
+        "speechpattern": "",
+        "accent": "British",
+        "race": "Human",
+        "appearance": "",
+        "characterarchetype": "",
+        "charactertype": "Minor",
+        "ttsvoice": "",
+        "subcharacters": "",
+        "voices": "",
+        "agerange": "1E",
+        "isplayer": "False",
+        "voeligible": "True"
+    },
+    "caf30296-8103-d1f7-1f7f-402e1f608929": {
+        "name": "FollowerPlots/Cassandra/cas_romance_gardner",
+        "gender": "Female"
+    },
+    "11534e6c-7580-4ad2-b943-8394f86d7719": {
+        "name": "global/Hero",
+        "gender": "Male"
+    },
+    "0": {
+        "name": "None",
+        "gender": "Male"
+    },
+    "9791599f-1f7c-6885-5193-b8f69943098a": {
+        "name": "FollowerPlots/Odette/odt_butler",
+        "gender": "Male"
+    },
+    "857ecc32-a0b6-07f8-e8bc-80907a848732": {
+        "name": "FollowerPlots/Odette/odt_comte",
+        "gender": "Male"
+    },
+    "c5355ad9-3bf4-d0e6-f1c9-270c5e5eb77f": {
+        "name": "FollowerPlots/Odette/odt_comtess",
+        "gender": "Female"
+    },
+    "715eff05-7ad0-be0e-6f38-265c72ff6184": {
+        "name": "FollowerPlots/Odette/odt_marquis",
+        "gender": "Male"
+    },
+    "f43170d3-52b2-8d4f-4b81-3ace61617f8b": {
+        "name": "Global/mister_temp",
+        "gender": "Male"
+    },
+    "366817c0-50fc-3a91-61f3-fcfd01ff2fe2": {
+        "name": "Global/Followers/Vivienne",
+        "gender": "Female"
+    },
+    "03b42c99-35d1-a49e-ccd4-3278d2a169e2": {
+        "name": "FollowerPlots/Odette/odt_grand_cleric_marcelline",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/FollowerPlots/Odette/odt_laurent_de_ghslain [04d40ab2-74f4-bcfe-614f-7fc210446880": {
+        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Vivienne [366817c0-50fc-3a91-61f3-fcfd01ff2fe2]",
+        "gender": "Male"
+    },
+    "35e020e4-cc28-5066-18f7-d103336a5529": {
+        "name": "FollowerPlots/Odette/odt_duke_bastien",
+        "gender": "Male"
+    },
+    "9f12f224-9aa1-efcd-cadc-0ae01ecad500": {
+        "name": "Global/Followers/Solas",
+        "gender": "Male"
+    },
+    "65ca43d3-b981-7edf-b2d9-aeead0bfee40": {
+        "name": "global/Followers/Cole",
+        "gender": "Male"
+    },
+    "fefaafd2-57f6-6b1e-476a-0eccf44d2d7f": {
+        "name": "Global/Followers/Sera",
+        "gender": "Female"
+    },
+    "Ebx da3/DesignContent/Characters/global/Followers/Varric [cd55830f-88f4-c8f0-dbaa-600bdace9847": {
+        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Solas [9f12f224-9aa1-efcd-cadc-0ae01ecad500]",
+        "gender": "Male"
+    },
+    "e30a068f-c54a-2456-990f-356f8c588c41": {
+        "name": "Global/Followers/IronBull",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/global/Followers/Blackwall [0aaaf116-f327-e7be-71fa-39325ef53064": {
+        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Solas [9f12f224-9aa1-efcd-cadc-0ae01ecad500]",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/global/Followers/Dorian [8671c526-9464-3db0-dffd-1873dd51450b": {
+        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Solas [9f12f224-9aa1-efcd-cadc-0ae01ecad500]",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/global/Followers/Cassandra [d8dcdc9d-f325-f3b9-a9f6-ce75bc16175e": {
+        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Solas [9f12f224-9aa1-efcd-cadc-0ae01ecad500]",
+        "gender": "Female"
+    },
+    "0e8176e5-5363-71ee-06f3-14e59bad0670": {
+        "name": "FollowerPlots/Solas/sol_mainplot_spirit",
+        "gender": "Female"
+    },
+    "1f3a871a-7906-d20c-70ab-8774f9193d12": {
+        "name": "FollowerPlots/Solas/sol_mainplot_keeper",
+        "gender": "Male"
+    },
+    "48d07d43-0d3b-95dd-33a7-0f131fc59c43": {
+        "name": "FollowerPlots/Blackwall/blk_mainplot_bailiff",
+        "gender": "Male"
+    },
+    "09736877-7a81-25b0-9a4d-62e9968843e6": {
+        "name": "FollowerPlots/Blackwall/blk_mainplot_mornay",
+        "gender": "Male"
+    },
+    "010093eb-1321-ce8f-314e-7f559f715c53": {
+        "name": "FollowerPlots/Blackwall/blk_mainplot_agent_messenger",
+        "gender": "Male"
+    },
+    "3358d972-d58d-d668-000f-d20fdbc5322f": {
+        "name": "Global/Specialist/Cullen",
+        "gender": "Male"
+    },
+    "e960fc9d-1b69-cde9-80bf-6936b5948dd9": {
+        "name": "FollowerPlots/Blackwall/blk_recruitment_Farmer",
+        "gender": "Male"
+    },
+    "0a849d9e-cd7d-cbae-b10f-4a545ca62bf9": {
+        "name": "FollowerPlots/Blackwall/blk_recruitment_bandit_1",
+        "gender": "Male"
+    },
+    "d7bbeccf-71cb-e0de-4747-26da5abf3b9c": {
+        "name": "FollowerPlots/Sera/sra_plot_noble_enemy",
+        "gender": "Male"
+    },
+    "db168d3f-f4db-f1de-b475-2d301aa2889c": {
+        "name": "FollowerPlots/Sera/sra_plot_scared_friend",
+        "gender": "Male"
+    },
+    "8926ed4b-019d-dc43-5f2f-c80c0097ed6b": {
+        "name": "FollowerPlots/Sera/sra_plot_last_merc",
+        "gender": "Male"
+    },
+    "4de93f42-f5e9-7fed-3135-c98afa841839": {
+        "name": "FollowerPlots/Sera/sra_recruitment_noble",
+        "gender": "Male"
+    },
+    "cdaba41a-0723-2cdb-8c34-b829f8958297": {
+        "name": "FollowerPlots/Sera/sra_recruitment_guard_01",
+        "gender": "Male"
+    },
+    "71f1f1af-67fa-0320-a720-342929428d6e": {
+        "name": "FollowerPlots/Sera/sra_recruitment_guard_02",
+        "gender": "Female"
+    },
+    "3bc99515-dede-d34e-be1f-614888ee2f6f": {
+        "name": "FollowerPlots/Sera/sra_recruitment_guard_03",
+        "gender": "Male"
+    },
+    "a7979f35-f826-d387-4f99-dcb5ab6663d9": {
+        "name": "FollowerPlots/Dorian/dor_ponchard",
+        "gender": "Male"
+    },
+    "8c459576-8365-b445-52b3-ae384aa999c2": {
+        "name": "Global/HUBs/in1_chantry_mother",
+        "gender": "Female"
+    }
+}

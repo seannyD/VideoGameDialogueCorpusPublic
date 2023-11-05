@@ -58,10 +58,6 @@
         "name": "FollowerPlots/Odette/odt_grand_cleric_marcelline",
         "gender": "Female"
     },
-    "Ebx DA3/designcontent/Characters/FollowerPlots/Odette/odt_laurent_de_ghslain [04d40ab2-74f4-bcfe-614f-7fc210446880": {
-        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Vivienne [366817c0-50fc-3a91-61f3-fcfd01ff2fe2]",
-        "gender": "Male"
-    },
     "35e020e4-cc28-5066-18f7-d103336a5529": {
         "name": "FollowerPlots/Odette/odt_duke_bastien",
         "gender": "Male"
@@ -78,25 +74,9 @@
         "name": "Global/Followers/Sera",
         "gender": "Female"
     },
-    "Ebx da3/DesignContent/Characters/global/Followers/Varric [cd55830f-88f4-c8f0-dbaa-600bdace9847": {
-        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Solas [9f12f224-9aa1-efcd-cadc-0ae01ecad500]",
-        "gender": "Male"
-    },
     "e30a068f-c54a-2456-990f-356f8c588c41": {
         "name": "Global/Followers/IronBull",
         "gender": "Male"
-    },
-    "Ebx da3/DesignContent/Characters/global/Followers/Blackwall [0aaaf116-f327-e7be-71fa-39325ef53064": {
-        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Solas [9f12f224-9aa1-efcd-cadc-0ae01ecad500]",
-        "gender": "Male"
-    },
-    "Ebx da3/DesignContent/Characters/global/Followers/Dorian [8671c526-9464-3db0-dffd-1873dd51450b": {
-        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Solas [9f12f224-9aa1-efcd-cadc-0ae01ecad500]",
-        "gender": "Male"
-    },
-    "Ebx da3/DesignContent/Characters/global/Followers/Cassandra [d8dcdc9d-f325-f3b9-a9f6-ce75bc16175e": {
-        "name": "[Ebx] DA3/DesignContent/Characters/Global/Followers/Solas [9f12f224-9aa1-efcd-cadc-0ae01ecad500]",
-        "gender": "Female"
     },
     "0e8176e5-5363-71ee-06f3-14e59bad0670": {
         "name": "FollowerPlots/Solas/sol_mainplot_spirit",
@@ -104,6 +84,10 @@
     },
     "1f3a871a-7906-d20c-70ab-8774f9193d12": {
         "name": "FollowerPlots/Solas/sol_mainplot_keeper",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/global/Followers/Blackwall [0aaaf116-f327-e7be-71fa-39325ef53064": {
+        "name": "",
         "gender": "Male"
     },
     "48d07d43-0d3b-95dd-33a7-0f131fc59c43": {
@@ -164,6 +148,2522 @@
     },
     "8c459576-8365-b445-52b3-ae384aa999c2": {
         "name": "Global/HUBs/in1_chantry_mother",
+        "gender": "Female"
+    },
+    "Ebx da3/DesignContent/Characters/global/Followers/Dorian [8671c526-9464-3db0-dffd-1873dd51450b": {
+        "name": "",
+        "gender": "Male"
+    },
+    "18b137a6-89f6-f3ed-b5ce-de591b417f84": {
+        "name": "FollowerPlots/Dorian/dor_halward_pavus",
+        "gender": "Male"
+    },
+    "d96faefc-5e78-f17c-53cb-b86578b24fb9": {
+        "name": "FollowerPlots/Cole/cole_mainplot_templar",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/global/Followers/Varric [cd55830f-88f4-c8f0-dbaa-600bdace9847": {
+        "name": "",
+        "gender": "Male"
+    },
+    "02d8b597-6c03-665a-6b32-b6c567d198ce": {
+        "name": "FollowerPlots/Cole/cole_friendly_greeter",
+        "gender": "Male"
+    },
+    "c6110280-38bf-0dbe-9a1c-ae6f15e86b96": {
+        "name": "global/Specialist/leliana",
+        "gender": "Female"
+    },
+    "be667af9-9b6d-2463-b8c7-17d134b9265b": {
+        "name": "global/Specialist/Joesphine",
+        "gender": "Female"
+    },
+    "14f1b1ef-f230-3a52-5bf6-f291c2632289": {
+        "name": "FollowerPlots/IronBull/bull_merc_buddy",
+        "gender": "Female"
+    },
+    "c461850b-9818-5264-7f56-4ec0571a9ba3": {
+        "name": "FollowerPlots/IronBull/bull_merc_dalish",
+        "gender": "Female"
+    },
+    "503fadee-b6f8-b0ea-ea38-b04205e87088": {
+        "name": "FollowerPlots/IronBull/bull_merc_cityelf",
+        "gender": "Female"
+    },
+    "95662176-5cb8-f197-ab78-a58ff8d3b83f": {
+        "name": "FollowerPlots/IronBull/bull_mainplot_contact",
+        "gender": "Male"
+    },
+    "94d0518c-cc9a-5ff9-2253-b385f0c9d52f": {
+        "name": "FollowerPlots/IronBull/bull_assassin",
+        "gender": "Male"
+    },
+    "6b0dcc9d-fb19-0cc1-5621-0dfc00333131": {
+        "name": "FollowerPlots/IronBull/bul_merc_dwarf",
+        "gender": "Male"
+    },
+    "1ef67a61-6356-1f98-9bb9-8fbad39b83b5": {
+        "name": "FollowerPlots/IronBull/bull_merc_doc",
+        "gender": "Male"
+    },
+    "75b952ba-66f3-1f28-06c0-ddeffab12749": {
+        "name": "FollowerPlots/IronBull/bul_merc_grim",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/global/Followers/Cassandra [d8dcdc9d-f325-f3b9-a9f6-ce75bc16175e": {
+        "name": "",
+        "gender": "Female"
+    },
+    "9c4ec8f8-09cb-4ec2-83bd-82adb909f5ac": {
+        "name": "Global/gc1_gc1_Lord_Seeker_01",
+        "gender": "Male"
+    },
+    "a4bd2573-d42b-f274-4c42-12dd7c1c6451": {
+        "name": "FollowerPlots/Cassandra/cas_mainplot_daniel",
+        "gender": "Male"
+    },
+    "76140ef1-673d-f8dc-60cd-00a850f58d98": {
+        "name": "FollowerPlots/Cassandra/cas_romance_bookseller",
+        "gender": "Male"
+    },
+    "608f2637-e6ec-6f26-0610-c1d57554bc4b": {
+        "name": "FollowerPlots/Varric/var_bianca",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/Cre_Chantry_Mother [701e431a-59f3-6226-7cee-ec9d2b588174": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/Cre_bandit_01 [a4b575d7-6aa0-6e76-943d-b64b4bb19abd": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/Cre_bandit_03 [00384bcd-8a96-364f-c82c-bea074d9dcc3": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/Cre_annoyed_fade_spirit [53565578-eabc-4afe-bb77-9811a42e6f08": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/fer_lake_villager_m4 [31ce6508-a04d-d661-4533-7a33647f77fd": {
+        "name": "",
+        "gender": "Male"
+    },
+    "a2b35ea4-cf01-9efb-2665-8c646369c86f": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_elder_1",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/fer_lake_villager_m1 [99d1b225-957a-bb7f-e753-70f9cab47b34": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/Cre_bandit_04 [301a4efa-2326-dec2-8905-38a427f5bad2": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/fer_lake_villager_m3 [fa3104ed-08a6-3bb6-2253-c20e1861310c": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/Cre_villager_grieving_father [4a26cb91-fdf6-8ee6-e779-f56e0c824b98": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/fer010_lake_magistrate [32c27470-ffe2-1b02-2fc2-8935892903f4": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/fer_lake_villager_m2 [fd38c65a-4a6a-d888-5d47-0d0516ea05d5": {
+        "name": "",
+        "gender": "Male"
+    },
+    "27ae4389-c793-4673-321a-397aac750d6b": {
+        "name": "Adamant/ada_crs_good_warden_leader",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/Cre_villager_naturalist_a [22ab950e-1246-0f97-f122-c39b0aee8825": {
+        "name": "",
+        "gender": "Female"
+    },
+    "0df6cb4d-a0c8-1abb-30a3-bb2e65c64ee9": {
+        "name": "Ferelden/fer_Wilderness_010/Cre_keep_Soldier_03",
+        "gender": "Male"
+    },
+    "1c8f2956-cb30-65b1-b02e-ccd6791a3832": {
+        "name": "Ferelden/fer_Wilderness_010/Cre_keep_soldier_04",
+        "gender": "Female"
+    },
+    "7bcb4027-8a62-fe6b-3875-2105d8c1bd53": {
+        "name": "Adamant/ada_crs_warden_protector",
+        "gender": "Male"
+    },
+    "db0a387a-eb83-8edc-067d-a8e0daa48925": {
+        "name": "Adamant/ada_crest_potential_recruit",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/fer_lake_villager_f2 [039af08f-139b-61da-4f7b-47d424688504": {
+        "name": "",
+        "gender": "Female"
+    },
+    "2e0b2cb7-af5f-335f-a5ae-9d8b20fe0d34": {
+        "name": "Ferelden/fer_Wilderness_010/fer_lake_villager_f1",
+        "gender": "Female"
+    },
+    "c4b3d94c-ae05-8d0c-f76a-71346366c90e": {
+        "name": "Ferelden/fer_Wilderness_010/Cre_keep_soldier_01",
+        "gender": "Male"
+    },
+    "c43feffc-2b97-9042-8e0d-c1f440386f55": {
+        "name": "Ferelden/fer_Wilderness_010/Crestwood_Keep_Soldier_02",
+        "gender": "Female"
+    },
+    "1d5b4683-1a67-4e63-b377-39daa6316407": {
+        "name": "Global/fer_forward_scout",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/Cre_keep_spy_05 [16586c3e-e490-4fc0-99f6-27c955821d2f": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/Cre_keep_merchant [7cca7f5e-7f6d-3d19-546e-2283a785781e": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Conversations/Cre_keep_spy_09 [e1d4a4ab-e9eb-daa9-f9b1-6e6d9ff9459f": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/fer_lake_villager_f3 [bd826715-6644-8942-3a62-4d11863d1fa5": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/Cre_concerned_villager [c74fbb7b-d387-7d33-dcc1-f77857e5fcb3": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_minstrel [6820db09-c33c-af19-474d-657c6f2bca44": {
+        "name": "",
+        "gender": "Female"
+    },
+    "9d97d85c-fe82-47cb-af0e-c7d478fc573d": {
+        "name": "SeekerFortress/gc1_valc_vendor_01",
+        "gender": "Female"
+    },
+    "cdead263-2cae-416c-9aa8-3eb562c73a54": {
+        "name": "SeekerFortress/gc1_valc_CityGuard_02",
+        "gender": "Male"
+    },
+    "b1bf332e-03c3-4296-9aca-2febe7792361": {
+        "name": "SeekerFortress/gc1_valc_chanter_mourner_01",
+        "gender": "Male"
+    },
+    "8feac5cd-ae5e-1425-08b3-4f1d952c3b94": {
+        "name": "SeekerFortress/gc1_val_pre_runner",
+        "gender": "Female"
+    },
+    "f8ca6bf2-8cb1-4b71-875a-f395ce2504ab": {
+        "name": "SeekerFortress/gc1_valc_courtyard_citizen_03",
+        "gender": "Female"
+    },
+    "7b92687d-dbc0-4c02-a035-c121f89513a1": {
+        "name": "SeekerFortress/gc1_valc_courtyard_citizen_02",
+        "gender": "Male"
+    },
+    "6d8d7e37-3c13-1b91-7eb4-2ed29fec394b": {
+        "name": "Global/red_fiona",
+        "gender": "Female"
+    },
+    "bad0e68c-1d72-4239-992b-1856a8238acf": {
+        "name": "SeekerFortress/gc1_valc_CityGuard_01",
+        "gender": "Male"
+    },
+    "6c89ddbe-f061-92e5-3111-9ee1b4f23a76": {
+        "name": "SeekerFortress/gc1_valc_CityGuard_03",
+        "gender": "Male"
+    },
+    "d99ce6c6-b3d8-48f2-960b-54d587f558ea": {
+        "name": "SeekerFortress/gc1_valc_courtyard_citizen_01",
+        "gender": "Male"
+    },
+    "2ea609e6-aaa3-4363-808c-eeda1f5ebd02": {
+        "name": "SeekerFortress/gc1_valc_courtyard_citizen_04",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/Scenes/scenes_rec_gallows_cleaner [bdf3fe8f-2fcd-1f93-8580-4ffa0dd95065": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/Scenes/scenes_rec_fainting_1 [bc75999a-1ef5-a58b-cb21-066d3647c7fc": {
+        "name": "",
+        "gender": "Male"
+    },
+    "f9787c8b-821d-b531-5a16-0ee260555da1": {
+        "name": "ValRoyeaux/Scenes/scenes_rec_carrying",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/Scenes/scenes_rec_boatman [7a638c71-0975-9a6c-d208-6d6e9c75d394": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/Scenes/scenes_once_gallows_headsman [662df7d6-fecd-47fc-e7a3-918c17d04365": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_divine_B_1 [cf881a63-b5fc-a003-9481-b64a3d089595": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_empress_1 [805b6372-eb62-3ec3-1a1b-7b89d32ff1bf": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_josephine_1 [7d98b01e-a9b6-d344-1ae1-2b31c42b8844": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/ValRoyeaux/FlavorPairs/val_flavor_mages_1 [30de143f-4ea6-4c56-85dd-553e61071288": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx da3/DesignContent/Characters/ValRoyeaux/FlavorPairs/val_flavor_mythal_1 [d791559d-5b1c-80e4-ec78-1ca2e06c96b2": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_divine_A_1 [c645eccb-e5cb-8756-fb93-7e00774dc4e6": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_followers_1 [a5fab703-23b4-8116-339c-771435859da5": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_blackwall_1 [6d0e50ed-50b7-46b8-6166-bb79934fa09a": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_red_jenny_1 [8c5723d8-c0a7-f5ae-f5e4-0758a5aaceb3": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_guards_1 [014bf40b-1395-06ba-9d10-a085a895970a": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_templars_1 [5c877ea2-d9b7-5ac4-2ed2-7476c44c96f0": {
+        "name": "",
+        "gender": "Female"
+    },
+    "f81095c8-5161-4114-9705-bf8da2672806": {
+        "name": "ValRoyeaux/Theater/val_flavor_panto_1",
+        "gender": "Female"
+    },
+    "200ba359-d90c-a3e5-b15e-5cec667c30bb": {
+        "name": "ValRoyeaux/Theater/val_flavor_panto_2",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_war_1 [77de558f-f168-578c-6713-0f0d859ae245": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_civil_war_1 [2a3b31f0-7cc8-6ff4-cd94-2e003bfc77e6": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_chant_of_light_1 [8a6148bc-2140-3337-8134-847144cb1e7f": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx da3/DesignContent/Characters/ValRoyeaux/FlavorPairs/val_flavor_roderick_1 [59aa8f59-3234-2b43-acaf-dd0f3c988eeb": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/ValRoyeaux/FlavorPairs/val_flavor_inq_authority_1 [14cbb79c-c3de-937f-df25-d463d9f5e35a": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/FlavorPairs/val_flavor_betrothals_1 [a270cfa4-f1ae-59d4-f39f-5d286e237ace": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/Hub_Dwellers/val_staff_inquisition_soldier [a104f9bc-a90b-8d68-a0a6-f4ba290c8180": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/val_merchant_codex [f43bf704-fba1-b2f3-c618-ee359022300f": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/Hub_Dwellers/val_staff_special_merchant [337e93b6-9cda-5434-9223-2d9bd3e1c2c1": {
+        "name": "",
+        "gender": "Male"
+    },
+    "2ce862e9-a90e-4312-9d0f-625664e5acb0": {
+        "name": "ValRoyeaux/val_merchant6",
+        "gender": "Female"
+    },
+    "d5bed687-1105-4e1a-b06a-fae3b7ee7fae": {
+        "name": "ValRoyeaux/val_merchant7",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/Hub_Dwellers/val_staff_guard_01 [76bd7da7-2cc7-1dae-15c5-07d1edba3fcf": {
+        "name": "",
+        "gender": "Female"
+    },
+    "33ca2bd3-6af3-43a7-a33f-0477ac96d999": {
+        "name": "ValRoyeaux/val_merchant5",
+        "gender": "Female"
+    },
+    "c50aaffa-16df-4b93-9afd-ea2f4fe2b17a": {
+        "name": "ValRoyeaux/val_merchant4",
+        "gender": "Male"
+    },
+    "9bcbb7a5-4fb8-1533-2bda-45ccdf4c5d51": {
+        "name": "ValRoyeaux/val_merchant1",
+        "gender": "Male"
+    },
+    "e16f2338-85e7-41fb-acff-7f7eb360a675": {
+        "name": "ValRoyeaux/val_merchant3",
+        "gender": "Male"
+    },
+    "f8a082a9-9c91-48d6-be6a-df93d231f640": {
+        "name": "ValRoyeaux/val_merchant2",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/Hub_Dwellers/val_staff_guard_02 [6e7eec56-f6b1-8c09-0088-7c6594556b41": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ValRoyeaux/Hub_Dwellers/val_staff_new_mother [2f399c15-983c-9e82-8450-ed96cfe95ec9": {
+        "name": "",
+        "gender": "Female"
+    },
+    "6a70758d-4f05-765c-4148-5cc9ec5ff1cc": {
+        "name": "TheDales/Deserters_Villa/td_deserters_footsoldier_4",
+        "gender": "Male"
+    },
+    "e1ca6b60-0f53-6ea8-3736-3076f084406e": {
+        "name": "TheDales/Deserters_Villa/td_deserters_footsoldier_3",
+        "gender": "Male"
+    },
+    "8c48dfd0-d4f1-545e-39b8-c3639fb8a3e8": {
+        "name": "TheDales/Deserters_Villa/td_deserters_footsoldier_2",
+        "gender": "Female"
+    },
+    "3586fbbd-5bf3-99c3-606b-d9423b47f177": {
+        "name": "TheDales/Deserters_Villa/td_deserters_footsoldier_1",
+        "gender": "Male"
+    },
+    "fb904438-a367-1c73-162c-3f99b05b6cfb": {
+        "name": "TheDales/Deserters_Villa/td_deserters_archer",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/DalishTombs/elf_ruins_scout [792b763d-e82d-2809-51c8-16ff492fc227": {
+        "name": "",
+        "gender": "Female"
+    },
+    "dace24dd-75cd-4536-944e-c552c5350b78": {
+        "name": "Global/Enemies/gen_venatori_guardsman_m",
+        "gender": "Male"
+    },
+    "1f107b0b-d486-48c7-845f-901d2b2d6d42": {
+        "name": "TheDales/TheDales_Main/dal_hld_sermichel",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_dying_imshael_victim [69e96a5b-9824-6882-ead6-1823414f8099": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_keep_chat_researcher [8181c753-5b14-479d-a7d8-2758cb9c9d35": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_hld_lq_infectedwoman [f7ae7738-e40f-0084-ca0b-231680c45a17": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_redtemplar_fight [33ac38c6-dc53-416f-9428-d8bb1ff7db4e": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_hld_imshael_demon [c248b89e-9601-c6b0-7dec-ef4f8fc8ac0f": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Global/dal_judgement_landowner [a97a48d7-2cbe-20b4-8e9f-0f7cfa42e70e": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_hld_lq_bluehouselady [09231e61-a034-4ad1-a277-bbc8d4d7ae2c": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Global/keep_lt_highlands [f1a5f909-21e2-3e55-9192-34bae00cea02": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_wild_main_slave [b9818ef6-cfec-047d-359e-c06757866904": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_keep_gossip_1 [42c86aa8-c9be-4203-92c6-1c28279a7525": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_inqcamp_scout_m [9b501e29-cbaf-4a49-903f-bcdb65fc982f": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_hld_wild_villager_wife [fa5870a6-ffba-56ea-0d12-dd1fdce66718": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_inqcamp_soldier_m [b9538510-cbf2-47c9-a3e1-814be371dd5f": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_quarry_amb_researcher_dwarf [bd9cf03e-532f-4e3f-9b7f-74d89789a1c6": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_hld_wild_villager_husband [beda7cff-79eb-00c0-ee27-20965e55ccd5": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_inqcamp_scout_f [29365d9f-0cbb-45a2-ae78-412c55e1adcc": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_town_chanter [93bccf45-baa5-c61b-9819-cef0839a3842": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_keep_amb_messenger_f [5c6ad9a4-b09b-0022-20ca-3537574ffbf8": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_inqcamp_soldier_f [a3184c0a-661c-4697-be84-4fedcded68e7": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_town_hungryboy [92caa545-aed4-443d-aadf-c3b4163d5404": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_quarry_redtemplar_lt [e538cf8d-d55c-4362-8ab5-eb49daa477f8": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_quarry_quarantine_m [128a62ec-0f24-42ad-83f3-5f67bab2c000": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_hiding_hermit [5b3a3b40-5150-be38-d7a7-ddaa091c176d": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_town_amb_f_1 [a0dd99f5-424b-4203-acb5-fcc85fee5078": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_keep_merchant [e5e673cb-7773-bddc-81ea-640fbc28ea5c": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_quarry_amb_researcher_dwarf_f [c8dffc18-943a-4815-bf32-d7c804c337fa": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_hld_town_amb_f_2 [339df21c-4b89-4eb8-9007-21e1a414b12f": {
+        "name": "",
+        "gender": "Female"
+    },
+    "9cd0c154-d11e-4860-8ea1-7aed66d63a4c": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_brigand_patrol_01",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_fst_brigand_captive [a7837681-bf8b-423c-a964-febdbc5519f0": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_fst_freemen_duhaime [55c9d6fa-d0cb-4be4-92ac-0fbfc2692df0": {
+        "name": "",
+        "gender": "Male"
+    },
+    "25478cde-2c30-454b-aa17-956ce41424b0": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_brigand_02",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_fst_freemen_auguste [a085df5d-3bd9-4c35-9be3-d5761aa92722": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_fst_inquisition_bearguard [6cddc836-85e1-43d4-bdc0-9e6b54e293fb": {
+        "name": "",
+        "gender": "Male"
+    },
+    "cd200dd4-2644-493a-92f6-e18a8c919ead": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_brigand_village_leader",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_freemen_fight [857f83a5-8ef1-0381-1de0-2bfe0ce7e453": {
+        "name": "",
+        "gender": "Male"
+    },
+    "c5d3ba53-f8f5-47be-bf37-082faee70c71": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_brigand_01",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_fst_freemen_costeau [f8eea870-5340-44b9-9814-8aa081f998ec": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_fst_brigand_oldman [23381483-ce7a-48a0-f2d1-08cd04adcd9a": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_wild_main_gaspard_soldier_07 [271a0b6e-9b4c-40e1-aa13-74df5bdc9e28": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_gordian [6fbf9ac9-719d-5a73-cdc6-fe6bb0d738ca": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_gaspardfort_soldier1 [a38161e0-f508-4909-8082-10e1b830b7ed": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_repop_inquisition_emissary1 [7498f050-9475-46ff-8066-10263bc96631": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_gaspardfort_soldier2 [f8f5550a-200c-4f53-b259-c967c70f1a65": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_fst_brigand_hothead [9761f0fd-c4a6-275f-dad3-08c742e775d6": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_repop_inquisition_emissary2 [ac62eea3-4a2b-4533-ad4c-10975e8cb182": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_fst_brigand_nurse [397d4135-4b75-a805-5397-1d710c868328": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_repop_patrol [c24739a0-6372-aab2-2f96-58a90362541c": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_repop_trenches_soldier1 [0e1260c8-7914-4e08-a104-45550f82c7a3": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_fst_brigand_wearyguard [efae707c-584d-d846-959e-d1571c50101c": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_repop_trench_workman [b3e23cb7-ae94-4f23-9143-6e412e16642e": {
+        "name": "",
+        "gender": "Male"
+    },
+    "b860cf1c-9378-4c13-b6fd-c2d7f3564740": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_gaspard_soldier_general",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_repop_trenches_soldier2 [6f9b6efc-a8cf-433f-a41b-b112a9d0cd84": {
+        "name": "",
+        "gender": "Male"
+    },
+    "5427168e-17fc-43cf-a23d-9ca97f096deb": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_dalish_05",
+        "gender": "Female"
+    },
+    "03692d6b-0df1-42c0-8a07-2efd155a033f": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_dalish_02",
+        "gender": "Female"
+    },
+    "91c5ef64-ec1c-4a9b-b0e7-9e59c7765723": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_celene_soldier_05",
+        "gender": "Female"
+    },
+    "389bcb72-fe78-47de-8923-3c8dab402c3d": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_dalish_merchant",
+        "gender": "Female"
+    },
+    "b8ba3b3f-e59a-49cd-a260-e93d287dec22": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_celene_soldier_04",
+        "gender": "Female"
+    },
+    "d750f4c7-6068-4497-bb69-b98398c4ffa5": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_dalish_06",
+        "gender": "Male"
+    },
+    "dd106e13-93d9-b1e9-a735-2f4e74986c76": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_gaspard_soldier_01",
+        "gender": "Male"
+    },
+    "11ea9712-7959-a999-c995-f0c15b8599a0": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_gaspard_soldier_02",
+        "gender": "Male"
+    },
+    "a940b441-3bfe-8fce-4233-02e7dd4c99e7": {
+        "name": "TheDales/Main/td_wild_main_camp_gaspard_guardmale_01",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_wild_main_gaspard_soldier_04 [e1eeeea7-c849-4fce-85cf-676d865bc966": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_wild_main_celene_soldier_07 [6eb63512-9dad-4fd6-b514-4714fbbfb698": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_wild_main_celene_soldier_06 [37ca0b34-e71a-a78c-c1bf-5e0f8b924f84": {
+        "name": "",
+        "gender": "Male"
+    },
+    "aa7a3afb-28bf-0ac0-e692-b0560ec1a646": {
+        "name": "zz_Debug/zz_DebugHero",
+        "gender": "Male"
+    },
+    "9b76d098-61b0-4cd7-802c-da40aef0d0a5": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_dalish_03",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_wild_main_gaspard_soldier_06 [e8ff93cc-67b5-486c-b73a-aebd14e0f6d2": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/Dales_Ambients/dal_pln_gaspardfort_entranceguard [c7a7f68b-02fc-46a0-8e99-ba58d498b8b0": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_wild_main_dalish_01 [c0d7a10d-03ba-4ba9-80b8-3b2e77e72453": {
+        "name": "",
+        "gender": "Male"
+    },
+    "5003becb-1414-4683-a456-e0db97b6c5a4": {
+        "name": "TheDales/TheDales_Main/dal_wild_main_dalish_04",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TheDales/TheDales_Main/dal_wild_main_gaspard_soldier_05 [700a0007-a8f9-483c-85a5-34cb14828c35": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/Oasis/the_oasis_explorer [bda87093-d959-e33a-3b1b-27d096d1a080": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/StormCoast/storm_bandit_onlooker [b71105cf-7d2c-0221-9561-65a24cf1e648": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/StormCoast/storm_bandit_contact [0b754f38-ef24-ee07-93a8-93a92cdd9b1a": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/StormCoast/storm_bandit_woman [542c54e6-6eb7-c192-457e-4aaa547f95ad": {
+        "name": "",
+        "gender": "Female"
+    },
+    "1defb938-3dd7-070d-85dc-5f2a346c23f1": {
+        "name": "Global/Enemies/gen_red_templar_footsoldier_m",
+        "gender": "Male"
+    },
+    "12d7a388-8e7c-4341-8805-ad258c3d3932": {
+        "name": "Global/Enemies/gen_venatori_enchanter_m",
+        "gender": "Male"
+    },
+    "1a634534-e93c-37cf-5acd-1f120b61b6cd": {
+        "name": "global/miz_sfx",
+        "gender": "Female"
+    },
+    "9a71f78d-5f59-25c7-406f-c60a12ac2917": {
+        "name": "ThematicLevels/DesertRuins/Tdr_main_hunter",
+        "gender": "Female"
+    },
+    "f8f00394-88cc-0057-bdd1-e9cc23a3db89": {
+        "name": "ThematicLevels/DesertRuins/Tdr_tevinter_slave_02",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/DesertRuins/Tdr_ambient_hunter_02 [fe6a4188-231a-6b5e-8aaf-84f26a4b78c3": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/DesertRuins/Tdr_ambient_hunter_01 [ac8d8a31-b560-0966-3196-700a44644085": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/fer_Wilderness_010/crs_wild_LoneChanter [72720b68-2ce6-be1c-dc66-58b74a67e809": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/Bog/bog_avvar_01 [cd6b249c-7ea8-f63c-2be4-66664d667e42": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/Bog/Bog_avvar_npc [d158c83d-e944-9174-6cbf-3f2282860dc1": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/Bog_Inquisition_Soldier_01 [5f0a1cb9-2239-6782-e51f-8eddb74f2a86": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/ThematicLevels/Bog/Bog_Avvar_Leader [99c66c14-585d-77d2-6e6f-cfa6ca0f02a7": {
+        "name": "",
+        "gender": "Male"
+    },
+    "82b84d3d-b013-d835-e13f-ae36aebfe0e3": {
+        "name": "Adamant/ada_warden_lieutenant",
+        "gender": "Male"
+    },
+    "171ddd47-5e4e-7682-9010-0afc1eb2ebc5": {
+        "name": "InquisitionBase/jud_grey_warden_prisoner",
+        "gender": "Female"
+    },
+    "d1196ece-284f-ed59-7590-12d3457d409a": {
+        "name": "SeekerFortress/gc1_valc_TemplarGuard_01",
+        "gender": "Male"
+    },
+    "f6b2c9bf-f094-4cfe-b0dc-68fa6834a222": {
+        "name": "global/myt_samson",
+        "gender": "Male"
+    },
+    "0ae0674f-31e3-cfb5-5be0-5f7c807eaea9": {
+        "name": "global/ham_florianne",
+        "gender": "Female"
+    },
+    "7e6121a5-cb20-b8db-5578-19630865d5fc": {
+        "name": "Global/red_alexius",
+        "gender": "Male"
+    },
+    "4f45b227-4421-76c5-b86e-289570fe9efb": {
+        "name": "Halamshiral/ham_revered_mother",
+        "gender": "Female"
+    },
+    "55808477-4ac9-4fda-ebd5-86bc0012bd63": {
+        "name": "Global/morrigan",
+        "gender": "Female"
+    },
+    "e893b176-e04d-c548-a1e7-8b3d0a19f7a7": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Obsolete/in2_scene_sergeant",
+        "gender": "Female"
+    },
+    "712bc01b-5153-8640-a88c-b958dff1d033": {
+        "name": "FollowerPlots/Josephine/Mainquest/Josepine_mainquest_fetch1_waiting_noble",
+        "gender": "Female"
+    },
+    "f51f8ce6-9f20-087c-aa50-b1b1084073f8": {
+        "name": "FollowerPlots/Josephine/Mainquest/Josephine_mainquest_bureaucracy_noble",
+        "gender": "Female"
+    },
+    "f30ffaef-eb02-6c3e-7888-10a1bcc34488": {
+        "name": "FollowerPlots/Josephine/Mainquest/Josephine_mainquest_informant",
+        "gender": "Male"
+    },
+    "6af91be2-d0be-3545-c1c1-e08f3d54d6f1": {
+        "name": "FollowerPlots/Josephine/Romance/Josephine_romance_lord_otranto",
+        "gender": "Male"
+    },
+    "4c33d8c8-9dbf-551e-4b29-731b989c7ead": {
+        "name": "Adamant/ada_stroud",
+        "gender": "Male"
+    },
+    "104b0abf-ee88-46c7-a856-ee301e25a927": {
+        "name": "SeekerFortress/gc1_gc1_Templarrookie_01",
+        "gender": "Male"
+    },
+    "4d2a1525-d7b7-3672-018b-778d029ab12e": {
+        "name": "Adamant/ada_hawke_f",
+        "gender": "Female"
+    },
+    "48afd275-f911-2ae6-77bc-ed21711a46f7": {
+        "name": "Adamant/ada_hawke_m",
+        "gender": "Male"
+    },
+    "4b1becbc-f409-ac4c-5fc7-25382e5f1342": {
+        "name": "Adamant/ada_loghain",
+        "gender": "Male"
+    },
+    "7e609dc0-d02e-41de-ac52-c1d1e9caba9b": {
+        "name": "Adamant/ada_alistair",
+        "gender": "Male"
+    },
+    "181b1330-51c4-9a24-b2d0-951dd0f1ce7e": {
+        "name": "InquisitionBase/SecondBase/in2_kieran",
+        "gender": "Male"
+    },
+    "b32caedf-3c97-5259-8f75-3f7d7d151dc5": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/in2_staff_influence_vendor",
+        "gender": "Male"
+    },
+    "c4da0841-03a3-4e1d-9f92-62f39ae9ba42": {
+        "name": "Ferelden/FereldenWilderness/fer_horse_master",
+        "gender": "Male"
+    },
+    "22fd635f-972b-5c91-7366-12bf2713b05a": {
+        "name": "InquisitionBase/base_dagna",
+        "gender": "Female"
+    },
+    "53139a6d-e7a0-4b11-8f69-4a2ccdffab3a": {
+        "name": "Global/HUBs/in1_blacksmith",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_merchant [1c7a95e5-7819-32dc-2513-db5dd2b4cf51": {
+        "name": "",
+        "gender": "Female"
+    },
+    "0852b036-54bc-256e-05df-20f7f7ca2262": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/in2_ambient_library_archivist",
+        "gender": "Male"
+    },
+    "3caab01f-f29b-6a1f-f136-7e3d68af3bd9": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/in2_staff_bartender",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_quartermaster [bb2b5ed0-9a6d-be68-9416-1455bba19518": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_jailer [affad7ab-fd68-1d35-640b-afb6ebfb13b3": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_researcher [c9272de5-7859-34f3-ef40-52a8a89509c4": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_runner_leliana [9d18a558-192c-f5b5-872a-3dd8b4341801": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_runner_2 [b1291b5e-386f-b9b6-33da-b5dac71eefad": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_apothecary [d7883c18-202a-368a-c6f6-14c4890ea6d1": {
+        "name": "",
+        "gender": "Female"
+    },
+    "91054462-840a-0606-e7bb-a9dc2c029534": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/in2_ambient_doctor",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_runner_cullen [3783a027-8bc0-4346-1806-6dbe4ba39abe": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_runner_4 [cc014493-ff06-d03a-583a-691eff3fcc33": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_runner_1 [1bb43f59-653d-2e0c-61c4-9a920647ddcc": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_tile_mason [b768b830-4fbe-25d5-f078-157f5c051513": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_runner_3 [3f21dd7e-d7e0-0ae4-4a91-7b918d665693": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_staff_runner_josephine [b8671b96-d106-d636-4d0c-6013bca7881a": {
+        "name": "",
+        "gender": "Female"
+    },
+    "65e353e8-f7a1-6397-c761-fcad7022f93e": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Recurring/in2_scene_recur_cook",
+        "gender": "Male"
+    },
+    "ee20e899-f584-7417-3da4-4d81c36deeb3": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Recurring/in2_scene_recur_dummy_shooter",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Scenes_Recurring/in2_scene_recur_servant [163c9317-5c67-16de-f4aa-26a3ad420af6": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Scenes_Recurring/in2_scene_recur_connect_diplomat [c5b2c43d-9b0a-d1ad-02cd-0210dc50400b": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Scenes_Recurring/in2_scene_recur_forces_soldier [e0200e06-3633-90a4-6101-81e611d4ed22": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Scenes_Recurring/in2_scene_recur_secrets_spy [5ac44c41-bcae-cfb7-70b6-d9d909f9e9e8": {
+        "name": "",
+        "gender": "Female"
+    },
+    "dbbe8e2c-8342-3b89-709d-634575f5f571": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Recurring/in2_scene_recur_battlement_guard_f",
+        "gender": "Female"
+    },
+    "01e0c73f-3632-af65-11bd-691d87e721c1": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Recurring/in2_scene_recur_buildingcrew",
+        "gender": "Male"
+    },
+    "8c8ef20f-dc73-cd65-b7d8-441222941ba5": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Recurring/in2_scene_recur_bar_patron",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Trainers/in2_trainer_mage_knight_enchanter [708406c6-945a-a0c8-e195-4bba61470673": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Trainers/in2_trainer_warrior_champion [e2a54cc1-dfcd-96b6-2c19-e6a8295a1ac2": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Trainers/in2_trainer_mage_necromancer [66d07eee-aab5-5717-0a54-e58da750146b": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Trainers/in2_trainer_rogue_artificer [08d277c0-1a73-28a0-0ed2-440142eb55ad": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Trainers/in2_trainer_warrior_reaver [70b06b22-0c43-5d1c-afed-c37b4e64aa8e": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Trainers/in2_trainer_warrior_templar [91b0f783-3fab-f9ff-ff1e-7e24e2cb06b5": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Trainers/in2_trainer_mage_rift_mage [ee9d48df-1ea8-14fa-65cc-dc06fa307b49": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Trainers/in2_trainer_rogue_assassin [fc3cb1fb-dc3e-9ba5-dcb6-8eee9cec251b": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Trainers/in2_trainer_rogue_tempest [aa0aa9ea-01e2-b451-af37-cca60c944e25": {
+        "name": "",
+        "gender": "Male"
+    },
+    "edbca970-f6a2-e581-b933-45424b5434ad": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Once/in2_scene_once_greathallcomment",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Scenes_Once/in2_scene_once_nobles_catty [df0f89d2-1e78-436e-39d2-d62edceafaca": {
+        "name": "",
+        "gender": "Male"
+    },
+    "03ef9f02-6576-351c-f092-51afdde2ce6a": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Once/in2_scene_once_construction_boss",
+        "gender": "Female"
+    },
+    "04b1ea03-c381-3aed-33c5-3d1053ca6a29": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Once/in2_scene_once_construction_grunt",
+        "gender": "Male"
+    },
+    "2acc1ded-2a24-7a93-353e-0700acc89096": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Once/in2_scene_once_tiredpilgrim",
+        "gender": "Female"
+    },
+    "cbfa711d-8c54-f952-0a9c-2d7ae08b5c8e": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Once/in2_scene_once_secretscagemovers",
+        "gender": "Male"
+    },
+    "76ead284-72e5-6b2f-37ca-52ed5589b0b3": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Once/in2_scene_once_magesonmission",
+        "gender": "Female"
+    },
+    "4951e056-8a08-3ff0-b95f-16e9105e198e": {
+        "name": "InquisitionBase/SecondBase/BaseDwellers/Scenes_Once/in2_scene_once_templarsonmission",
+        "gender": "Male"
+    },
+    "823f77d6-2bcc-44bb-ba5d-e92077d9df19": {
+        "name": "Global/HUBs/in1_merchant",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_romances_1 [cfc22659-526f-207c-e8a0-ef4ffc4cc6f1": {
+        "name": "",
+        "gender": "Female"
+    },
+    "a55bc1a7-1b28-49cf-bd3f-9b3ce9504233": {
+        "name": "Global/HUBs/in1_research_assistant",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_cory_1 [a06f0b35-25bf-9967-0e43-2169f5e3b96e": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_dales_1 [fb24ee87-c736-cb53-a94d-3ba35c333107": {
+        "name": "",
+        "gender": "Female"
+    },
+    "478c51bc-9d01-5786-6307-22dc4714ad54": {
+        "name": "InquisitionBase/FirstBase/in1_templarrecruit",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_elven_power_1 [bc134b34-3748-f6e5-918d-f5761f1b7d5c": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_skyhold_upgrades_1 [8ddf04df-f1ba-ed12-6e0a-0ec2d9e1d594": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_mythal_1 [b58bd75e-cc9d-efce-68de-24dae0c25f91": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_hawke_1 [26b007fa-41ab-c668-5af8-0a04368bb9dc": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_chargers_1 [db76d7cc-233e-bc1b-9e6c-46365378c02e": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_morrigan_1 [39213e31-e568-6a70-9b35-3093d53a246a": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_judgments_1 [9505e873-0a43-0377-d709-9e0f1d8e47d1": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/in2_reactivity_quizquisitioner [edd65348-6c1c-de20-da67-404f7e451ad9": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_crestwood_1 [753724f7-b90c-1d46-de2b-705136865376": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_adamant_1 [ed9438ed-76c5-cdf1-914e-e02e89900fd0": {
+        "name": "",
+        "gender": "Male"
+    },
+    "7ba97770-d5de-48bd-99c7-fb672870457d": {
+        "name": "Global/HUBs/in1_bartender",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_religion_1 [e7bf45d5-dbf2-033c-2e8e-359461d5e4ee": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_blackwall_1 [34570c42-d1fb-466d-d83f-5d056e4887d0": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_halamshiral_1 [9ecf7d5f-00be-c5b1-f57e-fc046e136d8c": {
+        "name": "",
+        "gender": "Male"
+    },
+    "05cbf6cf-dcc0-4d7b-802f-60c81d3942ba": {
+        "name": "global/HUBs/in1_apothecary",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/flavorpairs/in2_flavor_setback_1 [370ee81d-a91d-bf32-95b9-a04957cb2349": {
+        "name": "",
+        "gender": "Male"
+    },
+    "485d6135-f1e3-4dcf-ae6a-003419e008f7": {
+        "name": "global/HUBs/in1_quartermaster",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/InquisitionBase/SecondBase/BaseDwellers/Operation_Chains/in2_the_crew_warrior [de31b865-ff26-9b7d-47ff-a39b9992fbbc": {
+        "name": "",
+        "gender": "Male"
+    },
+    "ece4c843-bbea-29a6-28d0-1e0ef451cd6b": {
+        "name": "FollowerPlots/Cullen/cul_main_messenger_2",
+        "gender": "Female"
+    },
+    "467cd6a9-b256-b266-e4cf-1699583d0f55": {
+        "name": "FollowerPlots/Cullen/cul_main_messenger_1",
+        "gender": "Male"
+    },
+    "a74f06fa-5212-ad8c-ad2e-956aacdd8b93": {
+        "name": "FollowerPlots/Cullen/cul_mainplot_templar_2",
+        "gender": "Male"
+    },
+    "9f7e47da-314b-5fa4-1d57-19b7176ed4af": {
+        "name": "FollowerPlots/Cole/cole_side_plums_2",
+        "gender": "Female"
+    },
+    "35967a6d-9b95-0a4d-e405-484e07b54b05": {
+        "name": "FollowerPlots/Cole/cole_side_cheese_2",
+        "gender": "Female"
+    },
+    "33ad3c80-083c-ca82-c1fe-0b2b9f12f797": {
+        "name": "FollowerPlots/Cole/cole_side_bread_1",
+        "gender": "Male"
+    },
+    "436958a0-fbe7-875a-ae1a-8b62473acb37": {
+        "name": "FollowerPlots/Cole/cole_side_turnips_2",
+        "gender": "Male"
+    },
+    "2c229377-fecf-8138-e02d-5393b183bdfb": {
+        "name": "FollowerPlots/Cole/cole_side_cheese_1",
+        "gender": "Female"
+    },
+    "7963e739-bcc9-16c6-ba1e-62c061dd6a51": {
+        "name": "FollowerPlots/Cole/cole_side_plums_1",
+        "gender": "Female"
+    },
+    "2ff3f31f-ac47-7fb8-81e1-58d23db38f9b": {
+        "name": "FollowerPlots/Cole/cole_side_cheese_3",
+        "gender": "Female"
+    },
+    "528b5e67-3f0e-aa56-4937-7771e08c0911": {
+        "name": "FollowerPlots/Cole/cole_side_bread_2",
+        "gender": "Female"
+    },
+    "be18fbce-848d-e604-3d6f-c56b4fc46c8e": {
+        "name": "FollowerPlots/Cole/cole_side_turnips_1",
+        "gender": "Male"
+    },
+    "982f132a-5352-5d09-5524-6b34938e2af6": {
+        "name": "FollowerPlots/Cole/cole_warm_injured_soldier",
+        "gender": "Female"
+    },
+    "0d8a52b9-ff91-3ac3-bf15-a2d4b6099dc0": {
+        "name": "FollowerPlots/Cole/cole_side_daggers_2",
+        "gender": "Female"
+    },
+    "5ca12287-c1c7-89d4-3865-33c0ccea1e93": {
+        "name": "FollowerPlots/Cole/cole_side_daggers_1",
+        "gender": "Male"
+    },
+    "915ae62c-bd70-e87e-d0db-c1e9cd3ae8b8": {
+        "name": "FollowerPlots/IronBull/bull_inquisition_soldier_younger",
+        "gender": "Male"
+    },
+    "651c3ad4-ce0f-10af-5227-e2a4844da961": {
+        "name": "FollowerPlots/IronBull/bull_inquisition_soldier_older",
+        "gender": "Female"
+    },
+    "78fa5f54-514c-be30-8856-94c0b6a446f6": {
+        "name": "FollowerPlots/Leliana/lel_base_second",
+        "gender": "Male"
+    },
+    "f5e1e0f7-8581-7cc0-b79d-5706b8ca7fdf": {
+        "name": "FollowerPlots/Leliana/lel_mainplot_natalie",
+        "gender": "Female"
+    },
+    "a4cd08b1-f47d-a4d9-e216-53ab3a54a1c7": {
+        "name": "InquisitionBase/FirstBase/in1_josephine_intro_arguing_noble",
+        "gender": "Male"
+    },
+    "be252b33-7f1a-dda4-08cd-76bde43b182c": {
+        "name": "InquisitionBase/SecondBase/in2_josephine_dwarven_lyrium_merchant",
+        "gender": "Female"
+    },
+    "d1d2faae-91ca-d1d6-9686-2635edaaf97e": {
+        "name": "InquisitionBase/in1_gc1_rc_angry_templar_01",
+        "gender": "Male"
+    },
+    "edc42fb9-c1f9-5da0-ccba-a20ca9325fbe": {
+        "name": "InquisitionBase/in1_gc1_rc_angry_mage_01",
+        "gender": "Male"
+    },
+    "e049acaa-c80f-2f83-5ab3-b4ca54fa6f6e": {
+        "name": "InquisitionBase/in1_gc1_rc_angry_mage_02",
+        "gender": "Female"
+    },
+    "da46802c-b31d-a71e-1170-3bbca92284cc": {
+        "name": "InquisitionBase/in1_gc1_rc_angry_templar_02",
+        "gender": "Male"
+    },
+    "0e7357c8-3161-f424-9d8f-458f4fb7547c": {
+        "name": "Prologue/pro_wounded_solider_1",
+        "gender": "Male"
+    },
+    "89e022c3-6819-591d-b2a6-0d9362198788": {
+        "name": "Global/OriginCharacters/qunari_shokrakar",
+        "gender": "Female"
+    },
+    "c83a2fef-ad71-42d1-b33e-2a6752f4cec4": {
+        "name": "Global/gen_chancellor_roderick",
+        "gender": "Male"
+    },
+    "cec856b9-8caa-94ba-1295-d9f7a7547cf1": {
+        "name": "InquisitionBase/FirstBase/in1_haven_greeter_soldier1",
+        "gender": "Male"
+    },
+    "e6783adf-1ef6-4651-9f7c-b3aca01d1a8a": {
+        "name": "InquisitionBase/FirstBase/in1_wolf_lady",
+        "gender": "Female"
+    },
+    "240d932e-564e-181a-ee27-e7e02c9e5397": {
+        "name": "InquisitionBase/FirstBase/in1_assistant_researcher",
+        "gender": "Female"
+    },
+    "a7f9b8fd-1d02-da75-279d-13a125b75ee4": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_chantry_1",
+        "gender": "Female"
+    },
+    "4ae973d4-385c-da69-284a-28e203121e36": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_chantry_2",
+        "gender": "Female"
+    },
+    "c136be3b-d8d3-9af0-303c-6856fe93367e": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_elder_2",
+        "gender": "Male"
+    },
+    "0aee6888-b2aa-28ec-27a4-7d8912df12a6": {
+        "name": "InquisitionBase/FirstBase/in1_assistant_bartender",
+        "gender": "Female"
+    },
+    "6cc0877e-ac68-2fc6-07f5-5f8a7770b7c6": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_templars_1",
+        "gender": "Male"
+    },
+    "2ec7b048-5206-e70b-b600-3b936521c07d": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_templars_2",
+        "gender": "Male"
+    },
+    "689a2e7a-768e-9573-3692-be638df69ec8": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_healing_1",
+        "gender": "Female"
+    },
+    "b41b8f11-e99b-7425-964a-802d38057017": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_healing_2",
+        "gender": "Female"
+    },
+    "cfb0b918-fbd2-a13a-18a7-7f19321b8f5c": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_hinterlands_1",
+        "gender": "Female"
+    },
+    "7c38d9a6-4681-f7b5-5e69-d218528848fe": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_hinterlands_2",
+        "gender": "Male"
+    },
+    "44baf5f8-8a3f-d063-15d5-be5ed03c87f0": {
+        "name": "InquisitionBase/FirstBase/in1_templarrecruit2",
+        "gender": "Male"
+    },
+    "636d40a1-968a-66e3-89fc-217fab4f0291": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_storm_1",
+        "gender": "Female"
+    },
+    "b2879a58-308f-9037-5b20-06ac5c519174": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_storm_2",
+        "gender": "Male"
+    },
+    "2e5f6437-9f45-4c79-efc8-a1def7295420": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_herald_1",
+        "gender": "Male"
+    },
+    "de94c5fd-0075-2197-1ce2-a4b252a009ae": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_herald_2",
+        "gender": "Female"
+    },
+    "b58525b0-7559-f549-6c9c-20c46fe461b4": {
+        "name": "InquisitionBase/FirstBase/in1_assistant_merchant",
+        "gender": "Male"
+    },
+    "63b3935e-554b-d24d-0a9f-e8c18665404d": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_breach_rifts_1",
+        "gender": "Female"
+    },
+    "bf67ebf2-a56d-7151-e775-f883f4a6e204": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_breach_rifts_2",
+        "gender": "Female"
+    },
+    "f5e07f54-0e18-4a58-fb3a-fe51c13fbe78": {
+        "name": "InquisitionBase/FirstBase/in1_assistant_blacksmith",
+        "gender": "Male"
+    },
+    "0419d847-118b-7f50-1c21-795ea313bbfa": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_mages_1",
+        "gender": "Female"
+    },
+    "908c8018-8d31-e02b-d19b-624e9ead1cbf": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_mages_2",
+        "gender": "Female"
+    },
+    "24093c6f-9ca9-b3c7-77d1-a3b187ee9cdb": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_horses_1",
+        "gender": "Male"
+    },
+    "bc2f6c9f-86b6-1186-4814-1a48944ca13d": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_horses_2",
+        "gender": "Female"
+    },
+    "06156c3a-e81a-9850-75f9-5274c1cdc8f2": {
+        "name": "InquisitionBase/FirstBase/in1_assistant_giselle",
+        "gender": "Female"
+    },
+    "440a2503-eca0-7482-ef68-7fbe94b1f4e1": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_siege_1",
+        "gender": "Male"
+    },
+    "135b9c5f-e2de-d848-7276-0f7d8dc244f5": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_siege_2",
+        "gender": "Male"
+    },
+    "ece8153d-f893-7549-a674-7b6a64f1bfa7": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_conclave_1",
+        "gender": "Female"
+    },
+    "315ad4fe-bdb3-7479-a3e2-53410a75a5fd": {
+        "name": "InquisitionBase/FirstBase/in1_flavor_ambs_conclave_2",
+        "gender": "Male"
+    },
+    "9a164022-b689-8e28-2a1b-278ad98449ad": {
+        "name": "InquisitionBase/FirstBase/in1_assistant_apothecary",
+        "gender": "Female"
+    },
+    "25321386-5b5d-bb46-0c97-9b3bfdfd1f1e": {
+        "name": "InquisitionBase/FirstBase/in1_assistant_quartermaster",
+        "gender": "Male"
+    },
+    "52ad387e-e378-afae-8d3b-bd18ca0ba8ec": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_soldier_banditreact_1",
+        "gender": "Male"
+    },
+    "326136bd-8325-81fa-17fe-5218974fa5ca": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_soldier_banditreact_2",
+        "gender": "Female"
+    },
+    "bf033b1d-2612-3957-2295-45507b5be4af": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_soldier_magereact_1",
+        "gender": "Female"
+    },
+    "f345169c-6bc8-c57c-7504-8f7cb98a20aa": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_soldier_magereact_2",
+        "gender": "Male"
+    },
+    "614b2fa0-15cd-c8af-7c7c-375b86df40c9": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_soldier_setbackreact_1",
+        "gender": "Male"
+    },
+    "ac58d3b9-159a-0212-b6ba-12d32c9454d9": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_soldier_setbackreact_2",
+        "gender": "Female"
+    },
+    "1b5ce123-58bc-c813-1de1-0e9b9b0f2ed5": {
+        "name": "Ferelden/FereldenWilderness/fer_light_waiting_lover",
+        "gender": "Male"
+    },
+    "50893ce9-2f30-2c91-3417-cff776211def": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_villager_magereact_1",
+        "gender": "Male"
+    },
+    "a3cf6c89-f12c-2401-ee85-bcbddd87b8fe": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_villager_magereact_2",
+        "gender": "Female"
+    },
+    "de0af4cb-176f-0bf8-e3ca-92d52607dfee": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_villager_warreact_1",
+        "gender": "Female"
+    },
+    "bb6bf51e-5c81-3862-d32d-77839a532d4e": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_villager_warreact_2",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Ferelden/FereldenWilderness/fer_light_druffalo_owner [1e1e4c1a-c527-41dd-bf82-9587a6908f21": {
+        "name": "",
+        "gender": "Male"
+    },
+    "74df05f4-a3b0-cfd5-1a5a-110b899ec5d4": {
+        "name": "Ferelden/FereldenWilderness/fer_light_scout_friend",
+        "gender": "Male"
+    },
+    "016a1bb0-3c52-e584-9881-db7e111d07d7": {
+        "name": "Ferelden/FereldenWilderness/fer_mihris",
+        "gender": "Female"
+    },
+    "280469a0-f91b-a814-b090-aabc8cecb383": {
+        "name": "Ferelden/FereldenWilderness/fer_hunter_contact",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/Ferelden/FereldenWilderness/fer_tailor [6c149b66-ffc0-4981-9ede-7fd586bde2fe": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/Ferelden/FereldenWilderness/fer_crossroads_contact [d21978ec-ded2-4bde-9a36-194c9913cb84": {
+        "name": "",
+        "gender": "Male"
+    },
+    "663b7fa5-c88c-2f4a-3d7b-c7637e583b3c": {
+        "name": "Ferelden/FereldenWilderness/fer_light_pet_owner",
+        "gender": "Male"
+    },
+    "6d35419c-ceaf-abcc-1aa0-ff5d2c081b23": {
+        "name": "Ferelden/FereldenWilderness/fer_frantic_husband_son",
+        "gender": "Male"
+    },
+    "92e714dd-b932-827d-6bdf-d78c685cd40d": {
+        "name": "Ferelden/FereldenWilderness/fer_light_scout_fearful",
+        "gender": "Female"
+    },
+    "c3c5c9f0-2376-2955-0998-2c02866c6b6d": {
+        "name": "Ferelden/FereldenWilderness/fer_cross_frantic_husband",
+        "gender": "Male"
+    },
+    "e85d2a15-a20a-fcf5-94b8-467f394344c8": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_setbackreact_1",
+        "gender": "Male"
+    },
+    "533312fc-3be6-62c3-6b6e-98ee201f2568": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_villager_tempreact_2",
+        "gender": "Female"
+    },
+    "2a96b466-c61e-a9fc-22b3-3c15c324322f": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_villager_tempreact_1",
+        "gender": "Female"
+    },
+    "33cf99a8-4fc6-96ec-3ec7-35b23ff5b77b": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_villager_setbackreact_2",
+        "gender": "Female"
+    },
+    "26e24049-6526-663e-4e4b-ef788f46911b": {
+        "name": "Ferelden/FereldenWilderness/fer_horse_master_guard",
+        "gender": "Male"
+    },
+    "02584f49-c4a4-7d57-0bc9-9eed94212a4f": {
+        "name": "Ferelden/FereldenWilderness/fer_light_angry_widow",
+        "gender": "Female"
+    },
+    "2b3e8ce0-fa90-4193-1776-fe972580ce05": {
+        "name": "Ferelden/FereldenWilderness/fer_light_mourning_mage",
+        "gender": "Female"
+    },
+    "392f5080-c14b-c737-4371-bc3befcc3b95": {
+        "name": "Ferelden/FereldenWilderness/fer_light_widower",
+        "gender": "Male"
+    },
+    "8c1b1f11-bb0c-c1f7-eab4-466c32e16981": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_cultist_riftreact_1",
+        "gender": "Female"
+    },
+    "bea76219-0833-0843-89cd-66f06badce9d": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_cultist_riftreact_2",
+        "gender": "Male"
+    },
+    "65f3f22a-467d-0eb9-b0ad-6eb8b8508727": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_cultist_warreact_1",
+        "gender": "Male"
+    },
+    "fdb52723-a0cf-1dd3-8269-ba3d44b77b5f": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_cultist_warreact_2",
+        "gender": "Female"
+    },
+    "c3d0528b-2c15-3b37-2dc4-72c3cc03482d": {
+        "name": "Ferelden/FereldenWilderness/fer_light_smuggler",
+        "gender": "Female"
+    },
+    "09a11003-9594-57b5-4063-aa9343a8e1c4": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_cultist_setbackreact_1",
+        "gender": "Female"
+    },
+    "2e504885-a2c1-f028-089d-c9259a157795": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_cultist_setbackreact_2",
+        "gender": "Female"
+    },
+    "Ebx da3/DesignContent/Characters/Ferelden/FereldenWilderness/fer_horse_master_wife [71187915-06da-e54a-a005-b75d0e742f5b": {
+        "name": "",
+        "gender": "Female"
+    },
+    "bc4ef6b7-0b1f-b274-c099-889d5416be36": {
+        "name": "Ferelden/FereldenWilderness/fer_roadblock_contact",
+        "gender": "Female"
+    },
+    "c2358e85-e7b6-43e3-8270-383b31c5a7b3": {
+        "name": "Ferelden/FereldenWilderness/fer_medic",
+        "gender": "Female"
+    },
+    "a35618f5-00f2-2166-7831-989792755b1f": {
+        "name": "Ferelden/FereldenWilderness/fer_horse_master_racer",
+        "gender": "Female"
+    },
+    "e8ff3845-918a-1f1a-20d6-46a63d87e650": {
+        "name": "Ferelden/FereldenWilderness/fer_cultist_contact",
+        "gender": "Female"
+    },
+    "1a9b9286-f0fa-efce-6ffc-fa1b82f5a1d0": {
+        "name": "Ferelden/FereldenWilderness/fer_light_prophet",
+        "gender": "Female"
+    },
+    "763355e4-c9a5-92cd-9af8-9f1520a963f4": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_foodreact_1",
+        "gender": "Female"
+    },
+    "0dccfb89-3c01-fe7a-496c-c93d45f25966": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_foodreact_2",
+        "gender": "Female"
+    },
+    "1a9a7bd4-0bdc-324f-3357-b3aaf23bf3f6": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_warreact_1",
+        "gender": "Female"
+    },
+    "2be8f63b-41ff-a35d-44ea-10d58e1636cd": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_warreact_2",
+        "gender": "Female"
+    },
+    "92576619-1da0-d9df-382c-b8f2295b84d7": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_villager_setbackreact_1",
+        "gender": "Female"
+    },
+    "504456ed-96e3-4311-6bc1-7a9c4f6c8816": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_coldreact_1",
+        "gender": "Male"
+    },
+    "7d50d99f-0090-bb6e-0d37-bd5c15dfacf6": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_coldreact_2",
+        "gender": "Female"
+    },
+    "cf416745-aa8c-c8eb-f93c-bd2ca45f3416": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_cultreact_1",
+        "gender": "Female"
+    },
+    "3b9936f5-8d0f-ba84-573b-44882a196ce9": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_cultreact_2",
+        "gender": "Male"
+    },
+    "aa66ed1c-fa45-f8f0-a2f3-b70d99c1d607": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_setbackreact_2",
+        "gender": "Female"
+    },
+    "9e0fa53d-5b49-8844-8333-9f472dcb6e5b": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_watchreact_1",
+        "gender": "Male"
+    },
+    "c401be94-7a69-7ec2-fdc8-ee49d267b906": {
+        "name": "Ferelden/FereldenWilderness/fer_amb_refugee_watchreact_2",
+        "gender": "Female"
+    },
+    "f6cf7823-623a-42da-39e4-21ef1439c4f5": {
+        "name": "Ferelden/FereldenWilderness/fer_dgn_carta_boss",
+        "gender": "Male"
+    },
+    "c26f4e53-3478-81b1-0cfa-e64e0fe3dbf3": {
+        "name": "Global/gen_inq_soldier",
+        "gender": "Male"
+    },
+    "6d4dd165-7ca1-4d6c-b1ae-ee40d282a89a": {
+        "name": "Halamshiral/ham_gossiping_noble3",
+        "gender": "Female"
+    },
+    "f099445a-e7fe-4920-b01f-5209f003b220": {
+        "name": "SeekerFortress/gc1_gc1_ser_Dieran_01",
+        "gender": "Male"
+    },
+    "abcc158b-e734-3626-f362-c9707f5295fe": {
+        "name": "SeekerFortress/gc1_gc1_ser_esmia_01",
+        "gender": "Female"
+    },
+    "179bdbcc-19df-4afa-b52c-ecf475f5e029": {
+        "name": "SeekerFortress/gc1_gc1_ser_Tavus_01",
+        "gender": "Male"
+    },
+    "c741c930-335d-5b92-ef65-86606385a620": {
+        "name": "Prologue/pro_soldier1",
+        "gender": "Male"
+    },
+    "0da558ed-b71c-c89e-c87d-cffacc6a10f8": {
+        "name": "Prologue/pro_soldier2",
+        "gender": "Male"
+    },
+    "a6720890-3b17-c559-c1c7-78b8c419770b": {
+        "name": "Prologue/pro_soldier3",
+        "gender": "Male"
+    },
+    "acb052f1-33c4-363a-ad8f-468de4651a20": {
+        "name": "Prologue/Ambients/pro_wounded_soldier1",
+        "gender": "Female"
+    },
+    "15859a3b-107a-d11f-540f-43a928c6909f": {
+        "name": "Prologue/Ambients/pro_bystander_female2",
+        "gender": "Female"
+    },
+    "91ffbd59-966b-c616-5bb5-5a13fa6fa714": {
+        "name": "Prologue/Ambients/pro_gawker_male1",
+        "gender": "Male"
+    },
+    "7e3332f4-2da0-3ee8-0d61-cda7accdb3a6": {
+        "name": "Prologue/Ambients/pro_wounded_soldier2",
+        "gender": "Male"
+    },
+    "856e1b4a-455a-c0a7-fcff-f073914afbb8": {
+        "name": "Prologue/Ambients/pro_bystander_male1",
+        "gender": "Male"
+    },
+    "643f3c25-5cd5-2c21-900f-1b84d682a90c": {
+        "name": "Prologue/Ambients/pro_gawker_female2",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Prologue/pro_rescued_soldier [83a93fc9-b372-b022-a284-d861e3f69bc9": {
+        "name": "",
+        "gender": "Female"
+    },
+    "f0b25898-49c8-4cc9-9d7e-da7b5bab3a2d": {
+        "name": "Prologue/pro_forces_soldier_4",
+        "gender": "Male"
+    },
+    "35a5c0ee-9a83-d529-876e-0276a4c2d45b": {
+        "name": "Prologue/pro_forces_soldier_1",
+        "gender": "Male"
+    },
+    "180c8ac3-5c68-5736-c54e-58ecab21e8b8": {
+        "name": "zz_Debug/zz_DebugCharacter1",
+        "gender": "Male"
+    },
+    "06b9d4e2-070a-7ceb-12ba-afa5afd22550": {
+        "name": "Prologue/pro_elven_servant_1",
+        "gender": "Female"
+    },
+    "3acc04a5-8afc-4926-98e8-8c770924e1a6": {
+        "name": "Prologue/pro_player_ghostly_voice",
+        "gender": "Male"
+    },
+    "d8c94c96-45d5-4dca-8091-aeb25a80d308": {
+        "name": "global/myt_calpernia",
+        "gender": "Female"
+    },
+    "81c3cb70-c990-7c6e-91a1-70eac496d4bb": {
+        "name": "nemesis/calpernia/Cal_Quest1_Vicinius",
+        "gender": "Male"
+    },
+    "3765acdd-9ddf-bcf4-7619-4180fcbcdeb1": {
+        "name": "Global/gen_corypheus",
+        "gender": "Male"
+    },
+    "a056a817-a878-5df3-c44b-0fa01c5b7e89": {
+        "name": "Redcliffe/red_linnea",
+        "gender": "Female"
+    },
+    "7263e419-ec20-86d8-7471-d53a9893861e": {
+        "name": "nemesis/calpernia/nem_cal_erasthenes",
+        "gender": "Male"
+    },
+    "35752b41-ae09-dab6-6fad-7edcb9bd8fd4": {
+        "name": "nemesis/samson/nem_sam_maddox",
+        "gender": "Male"
+    },
+    "cda2f1da-1c76-64fa-78e9-4ef8a9c95cc9": {
+        "name": "TempleOfMythal/myt_red_templar_captain",
+        "gender": "Male"
+    },
+    "60e4ade6-c856-b720-09c4-8fc3aef2464b": {
+        "name": "TempleOfMythal/Myt_Inquisition_Soldier_7",
+        "gender": "Male"
+    },
+    "548f1261-4157-f664-57fb-8a7e59476110": {
+        "name": "TempleOfMythal/myt_inqsoldier_directions",
+        "gender": "Male"
+    },
+    "e99a213b-422d-c00f-92f3-19aa1aec6036": {
+        "name": "TempleOfMythal/Myt_inqsoldier_wilds_fighting_06",
+        "gender": "Male"
+    },
+    "94d0838d-e4a4-4828-9138-87b97c98aaa9": {
+        "name": "TempleOfMythal/Inquisition_Captain",
+        "gender": "Female"
+    },
+    "135092df-a2ac-9ed9-0494-845215809a3a": {
+        "name": "TempleOfMythal/Myt_Wilds_Orlesian_Support_Celene_soldier",
+        "gender": "Male"
+    },
+    "b9d55d3c-e18f-4166-3e99-0cddb91e1cf9": {
+        "name": "TempleOfMythal/myt_sentinel_elf_at_bridge",
+        "gender": "Male"
+    },
+    "455a0ebe-4fb7-1c39-f61e-eb30326cc26b": {
+        "name": "TempleOfMythal/myt_grey_warden_posessed",
+        "gender": "Male"
+    },
+    "ff6bd0e4-d622-ea30-90b1-a032c455c6e4": {
+        "name": "global/ham_briala",
+        "gender": "Female"
+    },
+    "a3554980-ca84-44ce-b20b-36ad17b6cf06": {
+        "name": "TempleOfMythal/myt_magister1",
+        "gender": "Male"
+    },
+    "4920647a-6362-4b5b-aec6-6e39033f0412": {
+        "name": "TempleOfMythal/myt_abelas",
+        "gender": "Male"
+    },
+    "d24bd82f-0a71-9ab2-72e1-85b8fb7ccc84": {
+        "name": "TempleOfMythal/Obsolete/Myt_Wilds_Inquisition_Support_Templar",
+        "gender": "Female"
+    },
+    "2d48ba36-fd5b-668e-ad44-16a298b58c50": {
+        "name": "SeekerFortress/gc1_gc1_TemplarSergeant",
+        "gender": "Male"
+    },
+    "c3698557-056d-5e3f-b968-d58f4a085a20": {
+        "name": "TempleOfMythal/Myt_Inquisition_Soldier_6",
+        "gender": "Female"
+    },
+    "7a444335-a34c-1f17-da23-82a92690e98d": {
+        "name": "TempleOfMythal/Myt_Inquisition_Soldier_5",
+        "gender": "Male"
+    },
+    "5f5daa92-8751-e168-24d0-15868b69e765": {
+        "name": "TempleOfMythal/Myt_Orlesian_Envoy",
+        "gender": "Male"
+    },
+    "f1d9f3a4-62e9-975a-811e-a58dc3343e17": {
+        "name": "global/ham_celene",
+        "gender": "Female"
+    },
+    "08c4c0ae-7d9a-de56-ab13-985641480b29": {
+        "name": "global/ham_gaspard",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/TempleOfMythal/myt_sentinel01 [1278c067-6114-fb02-1ff1-0632ba189e8e": {
+        "name": "",
+        "gender": "Female"
+    },
+    "74400dbf-bcee-2565-e56e-5b7ae13e70f0": {
+        "name": "TempleOfMythal/Myt_inquisition_soldier_3",
+        "gender": "Female"
+    },
+    "2624804c-be5f-a9bc-8f3f-b920dcccfeb3": {
+        "name": "TempleOfMythal/Myt_Inquisition_soldier_4",
+        "gender": "Female"
+    },
+    "4cba66dc-88b6-6df5-127f-f11040db4e58": {
+        "name": "PAX/pax_western_boss",
+        "gender": "Male"
+    },
+    "43309e5a-e782-788a-b9ac-2ac12c74b0c7": {
+        "name": "Epilogue/epi_flemeth",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/WesternApproach/Main/wes_wild_main_keep_merchant [ed6d7ed7-bb98-4fb7-a7d6-1b17b50af500": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/captain_rylen [c7dfa8c9-9269-0d7d-8c42-d93acdbfdec2": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/WesternApproach/Main/wes_wild_keep_drill_dergeant_01 [b38635b6-b4f6-4e84-8fe7-9d448d67ba6f": {
+        "name": "",
+        "gender": "Male"
+    },
+    "38fa2831-abb9-eb80-c6eb-83cb33ede0ba": {
+        "name": "WesternApproach/Main/wes_wild_main_dragon_hunter_01",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/WesternApproach/Main/wes_wild_main_inquisition_soldier_06 [d6b77721-cd4c-45a2-827c-eee97b86bd64": {
+        "name": "",
+        "gender": "Female"
+    },
+    "7715c4ce-8dde-6d4f-6020-6d0e71edf1a3": {
+        "name": "Global/Enemies/gen_venatori_soldier_m",
+        "gender": "Male"
+    },
+    "246c414a-6b45-0f5d-9e5a-ae10d6728fab": {
+        "name": "WesternApproach/Main/wes_wild_main_tevinter_nemesis_01",
+        "gender": "Male"
+    },
+    "9608f1d0-c2ba-6dee-7757-8bdd1dd3a7a7": {
+        "name": "SeekerFortress/See_fighting_templar_01",
+        "gender": "Female"
+    },
+    "836c01e8-8d56-5605-f253-5ade0d55f92b": {
+        "name": "SeekerFortress/See_fighting_templar_02",
+        "gender": "Female"
+    },
+    "29f64652-6147-4c54-be46-d07fe76852e3": {
+        "name": "SeekerFortress/gc1_gc1_Lord_Seeker_as_envy_02",
+        "gender": "Male"
+    },
+    "374e4504-0ee8-48f3-9905-e424564b7acf": {
+        "name": "SeekerFortress/gc1_gc1_veteran_collect_03",
+        "gender": "Male"
+    },
+    "92343cf9-e788-4062-ae64-dc1114c72d99": {
+        "name": "SeekerFortress/gc1_valc_siege_noble_01",
+        "gender": "Male"
+    },
+    "28966dda-7989-5982-af16-4c1a3f3b457b": {
+        "name": "SeekerFortress/See_nightmare_01_orlesian_nobleman_01",
+        "gender": "Female"
+    },
+    "33026f7f-d1e2-2eba-64af-908f4d242144": {
+        "name": "SeekerFortress/See_nightmare_01_inquisition_messenger",
+        "gender": "Female"
+    },
+    "0acc07b0-03b2-3fce-9b1c-0bd723e28746": {
+        "name": "SeekerFortress/gc1_gc1_veteran_collect_01",
+        "gender": "Male"
+    },
+    "e67001a7-fa9c-4d43-85e2-6ce53c2691e9": {
+        "name": "SeekerFortress/gc1_gc1_veteran_collect_02",
+        "gender": "Female"
+    },
+    "19809c9b-f49f-6e1d-e677-253a62f4b289": {
+        "name": "SeekerFortress/See_nightmare_01_inquisition_soldier",
+        "gender": "Male"
+    },
+    "3281a1cd-da98-2e6c-e38b-45e781d4794a": {
+        "name": "SeekerFortress/See_nightmare_01_inquisition_follower_02",
+        "gender": "Male"
+    },
+    "c80e5d30-91d5-9cce-adc0-95332cf1a462": {
+        "name": "SeekerFortress/See_fighting_templar_03",
+        "gender": "Male"
+    },
+    "fe20fea8-6181-d9cc-baa0-ab26a072c9a2": {
+        "name": "SeekerFortress/See_nightmare_01_inquisition_soldier_02",
+        "gender": "Female"
+    },
+    "58044e4b-9c91-3b2a-5045-b4042ed3a889": {
+        "name": "SeekerFortress/See_nightmare_01_orlesian_diplomat_01",
+        "gender": "Male"
+    },
+    "59240dd9-5c4c-c762-c7b8-72d895440e55": {
+        "name": "SeekerFortress/See_nightmare_02_prisoner_01",
+        "gender": "Female"
+    },
+    "596d5c1b-08d2-b5af-f962-93305e48da97": {
+        "name": "SeekerFortress/See_nightmare_02__inquisition_jailer_01",
+        "gender": "Male"
+    },
+    "a7cfdc0f-3c5b-9a6f-c391-798a26788f0d": {
+        "name": "SeekerFortress/See_nightmare_03_orlesian_soldier_05",
+        "gender": "Female"
+    },
+    "70744ddb-5302-6800-a585-633611bb3682": {
+        "name": "SeekerFortress/See_nightmare_03_orlesian_soldier_06",
+        "gender": "Female"
+    },
+    "37bb723e-066b-448c-fdee-497cbaa6cf15": {
+        "name": "SeekerFortress/See_noble_friend",
+        "gender": "Male"
+    },
+    "9b0caabc-c347-4adc-ec91-66bc632832b1": {
+        "name": "SeekerFortress/See_nightmare_02_inquisition_jailer_02",
+        "gender": "Female"
+    },
+    "d3daafce-5ad4-aad3-7621-3abf43179703": {
+        "name": "SeekerFortress/See_nightmare_02_prisoner_02",
+        "gender": "Male"
+    },
+    "c1beb891-11e1-564f-868a-e60714673548": {
+        "name": "SeekerFortress/See_nightmare_03_orlesian_soldier_3",
+        "gender": "Female"
+    },
+    "d13efb26-2f95-13fa-5441-ad77ee594dc5": {
+        "name": "SeekerFortress/See_nightmare_03_orlesian_soldier_4",
+        "gender": "Male"
+    },
+    "7e4400be-07d5-4586-8724-21d4822957c3": {
+        "name": "SeekerFortress/See_nightmare_03_orlesian_soldier_01",
+        "gender": "Male"
+    },
+    "033d308b-d570-408c-be89-b430a398ff77": {
+        "name": "SeekerFortress/See_nightmare_03_orlesian_soldier_02",
+        "gender": "Male"
+    },
+    "a538afe2-263e-3f6a-909d-0e472d6c4661": {
+        "name": "SeekerFortress/See_nightmare_02_prisoner_04",
+        "gender": "Male"
+    },
+    "9219833f-3979-9747-85d8-dc5039f058b7": {
+        "name": "SeekerFortress/See_orlesian_noblewoman_02",
+        "gender": "Female"
+    },
+    "25bcd97f-a01c-b82e-13bf-44d10c2a8654": {
+        "name": "SeekerFortress/See_orlesian_nobleman_01",
+        "gender": "Male"
+    },
+    "ebcc052c-ec8d-4fa7-847c-77cf2ef8898e": {
+        "name": "SeekerFortress/gc1_valc_siege_noble_02",
+        "gender": "Male"
+    },
+    "5812c5a8-828f-8df3-883c-701b05445323": {
+        "name": "SeekerFortress/See_courtyard_templar_06",
+        "gender": "Female"
+    },
+    "824c7bd4-fcff-92a2-71fe-04cab1ea3e34": {
+        "name": "SeekerFortress/See_orlesian_noblewoman_03",
+        "gender": "Female"
+    },
+    "a311e683-f5fb-4408-891b-e10ee9c53d85": {
+        "name": "SeekerFortress/gc1_valc_attache_01",
+        "gender": "Male"
+    },
+    "f925006c-4b61-2cb9-8424-692d7f393bfa": {
+        "name": "SeekerFortress/See_orlesian_noblewoman_01",
+        "gender": "Female"
+    },
+    "def64a6b-a8da-c31e-6038-8b7247193439": {
+        "name": "SeekerFortress/See_courtyard_templar_01",
+        "gender": "Female"
+    },
+    "58a3f25f-c676-6bf9-4640-6c26bbeeb909": {
+        "name": "SeekerFortress/See_courtyard_templar_02",
+        "gender": "Female"
+    },
+    "2315a0c8-a0f5-783b-5fe8-208e2fbd65c0": {
+        "name": "SeekerFortress/See_courtyard_templar_03",
+        "gender": "Male"
+    },
+    "196695dc-038d-2a5c-44ba-56eb986a463a": {
+        "name": "SeekerFortress/See_courtyard_templar_04",
+        "gender": "Male"
+    },
+    "34558d2a-6c7f-9ce3-3f42-1e3dd27af6b2": {
+        "name": "SeekerFortress/See_courtyard_templar_05",
+        "gender": "Male"
+    },
+    "15d88df1-f9e1-8538-80eb-f3671cd819b3": {
+        "name": "Adamant/ada_Warden_guard",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/Adamant/ada_doubtful_warden [d94f7382-f9bf-aea8-e612-13d2f13e6a48": {
+        "name": "",
+        "gender": "Male"
+    },
+    "9198f9e6-fc1d-faaf-8e85-881eb8de975f": {
+        "name": "Adamant/ada_inquisition_soldier",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/Adamant/ada_fad_divine [095a8efe-6913-7d94-e1bf-9c11489df285": {
+        "name": "",
+        "gender": "Female"
+    },
+    "6471a612-18d5-a40f-8d07-3bce1314261a": {
+        "name": "Adamant/ada_fad_puzzle_divine",
+        "gender": "Female"
+    },
+    "01678568-303f-482e-9a30-3d3dd7c7d799": {
+        "name": "Adamant/ada_fad_divine_spirit",
+        "gender": "Female"
+    },
+    "f3bef7dd-23b3-daf4-4363-4a6d9a48006a": {
+        "name": "Adamant/ada_warden_commander",
+        "gender": "Female"
+    },
+    "a541434b-dc4b-432b-6496-517f3ab355dc": {
+        "name": "Adamant/ada_orl_warden1",
+        "gender": "Male"
+    },
+    "e9ca576d-cbb9-37e1-dd9a-6aaf1634a2ae": {
+        "name": "Global/HUBs/wild_inquisition_camp_scout",
+        "gender": "Female"
+    },
+    "c743b1e3-a5b0-ff9a-2c13-dc2eb543a2df": {
+        "name": "global/outpost/global_travelling_merchant",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_wild_m_3 [509c22bc-8182-4068-84aa-c84a0ad42361": {
+        "name": "",
+        "gender": "Male"
+    },
+    "fbc45b2b-01b8-4642-ba06-bf0b19cf5b93": {
+        "name": "Global/Enemies/gen_red_templar_guardsman_m",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_wild_m_1 [6ed5d23a-d20c-46f8-b457-3aced7ee1ce5": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dalish_f_3 [a8a9bc1f-e652-433a-913b-a0c5f91d698c": {
+        "name": "",
+        "gender": "Female"
+    },
+    "83f79709-fb03-4c0d-af4f-addaf469a079": {
+        "name": "Global/Enemies/gen_red_templar_archer_m",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dwarven_m_1 [7914ec39-c000-441b-ab1b-f8b5c166e2be": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dalish_f_2 [bc3e5647-0f87-45bc-b2ec-dc6a91a05b43": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dwarven_m_3 [d77edc42-e91b-4923-889d-f9a3fc7cc811": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_ferelden_m_1 [a5e66f6f-f0ed-469a-b5ac-06202ad69d45": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dalish_f_1 [4e5782a9-2e75-402d-8942-9cc186579a75": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_orlesian_m_3 [9cedcc5f-d01c-466c-9605-20d4b127c499": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_orlesian_m_2 [8c908047-0769-4e1a-88e6-0a55ff69a503": {
+        "name": "",
+        "gender": "Male"
+    },
+    "79147d1b-28bf-4792-a3f4-0c01e31ad48f": {
+        "name": "Global/Enemies/gen_venatori_archer_m",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_orlesian_m_1 [0c559b6a-642c-42a9-aaff-c3d74c3245fa": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_ferelden_f_2 [c9c8da53-212f-41ec-8741-f0a25f561d96": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_ferelden_f_3 [dc15c775-a940-4e99-b323-3c1f9c4208f4": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_ferelden_f_1 [b491813b-9e94-4b89-a4b9-70c421b40920": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_wild_f_2 [6100e1e5-dbe6-4735-8a05-c7a63df02b7a": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_wild_f_3 [a97a4a02-c3fe-45cf-9081-55dea23fb4a5": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_red_templar_f_2 [86c50519-0551-4af5-b015-c9a2e8ee9a74": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dalish_m_2 [9f113b64-ed1f-4d63-9e90-5dca093589f2": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dwarven_f_1 [7dbdf95c-62d3-41a1-9d6c-e52803580f18": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dalish_m_3 [142f9703-a4c8-4a74-a73d-3c3c1705a9a2": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dalish_m_1 [0a4797a9-4533-45ec-9247-fdcd497a8ed2": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_dwarven_f_3 [9142d3e0-b075-4577-9478-e6ce04f7019f": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_orlesian_f_3 [9cf06ecb-7077-4fe9-8547-f967a1440ce1": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_orlesian_f_1 [d3d3832f-6f21-4f62-ba3f-b9ba84203ea1": {
+        "name": "",
+        "gender": "Female"
+    },
+    "2ab9515e-6490-4bd6-8f00-65a4e9aa1c90": {
+        "name": "Global/Enemies/gen_venatori_bruiser_m",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_ferelden_m_3 [b8991ed1-ce87-4d3e-bbfb-c1c4ff49f000": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_ferelden_m_2 [38ef8495-6f33-4b8a-9d73-1e60f5074391": {
+        "name": "",
+        "gender": "Male"
+    },
+    "f105b8fe-37e1-4c95-bb9c-8667e002a003": {
+        "name": "Global/Enemies/gen_venatori_mage_m",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/global/Enemies/gen_red_templar_f_1 [359b2ad7-9c7e-4751-ae3f-3ea97e80a835": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Global/Ambient/amb_cache_soldier_orlesian [f5ac1836-927b-4d7b-ee5f-9bc8e8182c41": {
+        "name": "",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Global/Ambient/amb_cache_soldier_ferelden [4418283b-6f4a-a6f1-da7e-a40e61f4e8e3": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Global/outpost/global_travelling_merchant_2 [ca6e3ac9-8bb9-cbde-5533-ae985825b144": {
+        "name": "",
+        "gender": "Female"
+    },
+    "1f5afe54-1eaa-0bf4-92bb-4a48b128dfa7": {
+        "name": "TheDales/Main/td_wild_main_camp_empress_footsoldier_02",
+        "gender": "Male"
+    },
+    "e13a456d-8f6e-4e6c-83de-635d1a155076": {
+        "name": "Halamshiral/ham_elf3",
+        "gender": "Male"
+    },
+    "71698a4c-0ef0-485f-af6e-b76e4e76d918": {
+        "name": "Halamshiral/ham_arguing_couple_2",
+        "gender": "Male"
+    },
+    "ca21ace1-868f-4f28-8305-2d9c8b6839f8": {
+        "name": "Halamshiral/ham_overheard_servant4",
+        "gender": "Male"
+    },
+    "f16a1a07-08a9-4d4e-b871-cdba965ffac2": {
+        "name": "Halamshiral/ham_gossip_guard_2",
+        "gender": "Male"
+    },
+    "7a97c3c0-79b0-42cf-a3fe-addfdc192ced": {
+        "name": "Halamshiral/ham_elf6",
+        "gender": "Female"
+    },
+    "1c8c0764-39bd-fe43-9de5-7559c9552a25": {
+        "name": "Redcliffe/red_castle_herald",
+        "gender": "Male"
+    },
+    "99d0a265-5ac5-6026-bb81-0eff2a4826c2": {
+        "name": "Redcliffe/red_felix",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/Redcliffe/Minor/red_safehouse_mage_f1 [db6f6618-36ea-3d02-b4fb-049624a7c99a": {
+        "name": "",
+        "gender": "Female"
+    },
+    "67244542-8548-0c24-5994-1a88c49e6031": {
+        "name": "Redcliffe/red_post_plot_villager",
+        "gender": "Male"
+    },
+    "6548c84a-c3f4-4a6e-bef9-8300f93a9032": {
+        "name": "Redcliffe/red_post_plot_villager_2",
+        "gender": "Female"
+    },
+    "Ebx da3/DesignContent/Characters/Redcliffe/Minor/red_safehouse_mage_m1 [7607078a-3333-ba56-a61e-c19aca6b111b": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/Redcliffe/Minor/red_safehouse_mage_m2 [e75b3d7e-2840-0e09-366f-14e3d31788bc": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/Redcliffe/Minor/red_safehouse_mage_f2 [0e187ff5-614e-403c-1aa1-0ee7479b3e4b": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx da3/DesignContent/Characters/Redcliffe/red_connor [62ad7698-df90-8d5a-e62e-913eaf83a69f": {
+        "name": "",
+        "gender": "Male"
+    },
+    "93cfeaba-f86e-98f2-ed39-e34fcd133ab3": {
+        "name": "Redcliffe/red_mother_eglantine",
+        "gender": "Female"
+    },
+    "778e528b-42eb-d1cd-c14a-49c291cfdc77": {
+        "name": "Redcliffe/red_gate_guard_1",
+        "gender": "Female"
+    },
+    "cf39abb2-42ca-143e-bf56-62dbb9ff2eac": {
+        "name": "Redcliffe/red_talwyn",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Redcliffe/red_inquisition_soldier [a7208db0-fa68-7fe0-8fd3-a88698eab76e": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Redcliffe/red_tranquil_vendor_clemence [04db369f-0864-65aa-4436-472609f7ad9a": {
+        "name": "",
+        "gender": "Male"
+    },
+    "8b4bfb13-d884-43ca-d70d-235e145d360c": {
+        "name": "Redcliffe/red_tevinter_torturer",
+        "gender": "Male"
+    },
+    "fdeb4ab9-38ec-4a56-8af2-a16ca2b72686": {
+        "name": "Redcliffe/red_venatori_guard_2",
+        "gender": "Male"
+    },
+    "cb0c52ba-74a4-fc15-14b5-9b7aa63c4bf0": {
+        "name": "Redcliffe/red_venatori_guard",
+        "gender": "Male"
+    },
+    "7dd685b0-230f-b2bd-383b-66d50df62a82": {
+        "name": "Redcliffe/red_anora",
+        "gender": "Female"
+    },
+    "71afbdee-8b00-7f16-43b2-779a4ca1027c": {
+        "name": "Setback/setback_soldier_f_01",
+        "gender": "Female"
+    },
+    "Ebx DA3/designcontent/Characters/Setback/setback_soldier_m_01 [296cf55b-03c2-a737-b862-fccf3f753451": {
+        "name": "",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Setback/setback_rescue_soldier_01 [3dd79732-0f92-c4c2-da4c-19472c82da3d": {
+        "name": "",
+        "gender": "Male"
+    },
+    "4e567466-94d6-2e99-b94e-792e79cbe7fd": {
+        "name": "Halamshiral/ham_lady_in_waiting_1",
+        "gender": "Female"
+    },
+    "ef5feb40-861a-e6a6-4d13-dc296e100f28": {
+        "name": "Halamshiral/ham_lady_in_waiting_2",
+        "gender": "Female"
+    },
+    "97e037f3-eac9-eba3-958f-53412ec0353b": {
+        "name": "Halamshiral/ham_lady_in_waiting_3",
+        "gender": "Female"
+    },
+    "26e3a912-5a26-44e0-d480-c9eafe0e3d5b": {
+        "name": "Halamshiral/ham_herald",
+        "gender": "Male"
+    },
+    "b2088891-f572-d14d-8c58-b018ae56ce75": {
+        "name": "Halamshiral/ham_celene_informant",
+        "gender": "Male"
+    },
+    "44fd6abd-dede-ad34-3f19-7b4ac34a22a1": {
+        "name": "Halamshiral/ham_schmoozing_noble_1",
+        "gender": "Male"
+    },
+    "742a6563-5440-0519-2ed7-f88be99789a4": {
+        "name": "Halamshiral/ham_schmoozing_noble_2",
+        "gender": "Male"
+    },
+    "7e8d71c5-638c-7648-59bb-9e108b4a668d": {
+        "name": "Halamshiral/ham_eavesdrop_noble",
+        "gender": "Male"
+    },
+    "33ad7143-318c-1db5-bd58-d89a0a04052f": {
+        "name": "Halamshiral/ham_gossip_noble_1",
+        "gender": "Male"
+    },
+    "180348c6-5587-a386-e096-0e0079832290": {
+        "name": "Halamshiral/ham_gossip_noble_2",
+        "gender": "Male"
+    },
+    "a81958b4-4582-446d-a096-bd06835014e5": {
+        "name": "Halamshiral/ham_shady_spy_3",
+        "gender": "Male"
+    },
+    "aeaae2b1-1ad5-4979-bcd5-acd21aa43fa3": {
+        "name": "Halamshiral/ham_shady_spy_4",
+        "gender": "Male"
+    },
+    "48097107-cdf7-f9b8-0070-bbb56e5717ef": {
+        "name": "Halamshiral/ham_briala_informant",
+        "gender": "Female"
+    },
+    "18cca52e-2e97-4ede-8531-fd99e72d6416": {
+        "name": "Halamshiral/ham_ext_woman_lost_ring",
+        "gender": "Female"
+    },
+    "876ce3ce-2c4f-6f9c-724a-68df9247c57a": {
+        "name": "Halamshiral/ham_coh_representative",
+        "gender": "Male"
+    },
+    "91749817-fd0d-99e1-cf39-17a5f4bb5881": {
+        "name": "Halamshiral/ham_coh_noble_1",
+        "gender": "Male"
+    },
+    "3db1d006-8ed7-462e-891a-e3f9f85451cd": {
+        "name": "Halamshiral/ham_coh_noble_2",
+        "gender": "Female"
+    },
+    "28ae8413-6abe-3290-2de0-bb3613c71bf2": {
+        "name": "Halamshiral/ham_gaspard_informant",
+        "gender": "Male"
+    },
+    "8d2cd626-313f-4d47-892b-0fc6b1b44ac8": {
+        "name": "Halamshiral/ham_lady_marcellette",
+        "gender": "Female"
+    },
+    "3c029acc-b7bc-4a9e-8ae2-3fafdc0ff041": {
+        "name": "Halamshiral/ham_gossiping_noble4",
+        "gender": "Female"
+    },
+    "8b0a1eda-63e5-4b6c-8b63-42ab1363c13c": {
+        "name": "Halamshiral/ham_ext_eavesdrop_noble_1",
+        "gender": "Male"
+    },
+    "21896b2b-ff4e-46a0-9598-dd510c403d5d": {
+        "name": "Halamshiral/ham_ext_eavesdrop_noble_2",
+        "gender": "Female"
+    },
+    "fef2063f-fdae-4dc2-911c-305abc7e1e83": {
+        "name": "Halamshiral/ham_guest_wing_guard_1",
+        "gender": "Male"
+    },
+    "3b2b6a48-4dee-4a34-78b4-61af334ca2b4": {
+        "name": "Halamshiral/ham_coh_guard_1",
+        "gender": "Male"
+    },
+    "29a85013-6aa2-406c-936d-437f1305b73b": {
+        "name": "Halamshiral/ham_coh_guard_2",
+        "gender": "Male"
+    },
+    "7dcc745a-6d64-bbb5-1f0a-3a4fe783067f": {
+        "name": "Halamshiral/ham_shady_spy_1",
+        "gender": "Female"
+    },
+    "6062b72c-5b8d-183a-8e15-4cb6d38493d8": {
+        "name": "Halamshiral/ham_shady_spy_2",
+        "gender": "Female"
+    },
+    "b07248b9-fdbd-299a-0a92-f1e650bb7130": {
+        "name": "Halamshiral/ham_gossiping_noble1",
+        "gender": "Male"
+    },
+    "4d374695-095a-460f-b680-f5b53bb977d6": {
+        "name": "Halamshiral/ham_elf1",
+        "gender": "Male"
+    },
+    "9ad96c0a-1db8-454d-b51e-c7f63ac630ad": {
+        "name": "Halamshiral/ham_elf2",
+        "gender": "Female"
+    },
+    "ae6d2288-9919-b2b3-9276-dc461283f26b": {
+        "name": "Halamshiral/ham_lady_mantillon",
+        "gender": "Female"
+    },
+    "6a1932a9-f5b7-4a43-a940-2e8e2385bfe9": {
+        "name": "Halamshiral/ham_arguing_couple_1",
+        "gender": "Male"
+    },
+    "8a66c592-7799-8b27-f356-c968c90f571c": {
+        "name": "Halamshiral/ham_ser_brion",
+        "gender": "Male"
+    },
+    "df396eed-2774-4d28-bcdd-71c70d203e06": {
+        "name": "Halamshiral/ham_cullen_admirer_4",
+        "gender": "Female"
+    },
+    "6bf2e687-6d36-4160-a995-1beb5fb51d9e": {
+        "name": "Halamshiral/ham_cullen_admirer_3",
+        "gender": "Female"
+    },
+    "550e1bff-ff05-40cf-a4fc-809dc66e4903": {
+        "name": "Halamshiral/ham_cullen_admirer_1",
+        "gender": "Male"
+    },
+    "e0a3e05b-de3d-4d0b-886f-c95baa91d3c1": {
+        "name": "Halamshiral/ham_cullen_admirer_2",
+        "gender": "Male"
+    },
+    "c533bd85-215c-4aa9-b2b7-04d9764092e3": {
+        "name": "Halamshiral/ham_games_room_riddler",
+        "gender": "Male"
+    },
+    "29e05b64-517e-4cb2-871c-47163b9c56f4": {
+        "name": "Halamshiral/ham_games_room_riddler_2",
+        "gender": "Male"
+    },
+    "20b50d30-3db5-740f-c8dd-960025ad9863": {
+        "name": "Halamshiral/ham_duke_cyril",
+        "gender": "Male"
+    },
+    "71e8302e-cc1e-cf2e-e4c8-5465f8fc3668": {
+        "name": "Halamshiral/ham_comtess_montbelliard",
+        "gender": "Female"
+    },
+    "50f7ad37-a099-3716-2490-33aaceb76545": {
+        "name": "Halamshiral/ham_comte_lothaire",
+        "gender": "Male"
+    },
+    "455a7b7a-c255-433a-98b6-dcbc78227a58": {
+        "name": "Halamshiral/ham_waiting_noble_4",
+        "gender": "Female"
+    },
+    "2b74fb3b-2f40-4606-9d9c-2bc34eb6f884": {
+        "name": "Halamshiral/ham_waiting_noble_1",
+        "gender": "Male"
+    },
+    "e36f1b7c-9d2c-4a13-87b4-8c3f29382e26": {
+        "name": "Halamshiral/ham_waiting_noble_3",
+        "gender": "Female"
+    },
+    "4a941f3e-3c01-4568-9c63-94b51a582511": {
+        "name": "Halamshiral/ham_waiting_noble_2",
+        "gender": "Male"
+    },
+    "7c1f32ed-ac79-4bf9-ba3c-2aef2f213eb1": {
+        "name": "Halamshiral/ham_exterior_guard",
+        "gender": "Male"
+    },
+    "a204b3e6-fbad-4066-9533-1f7996d3fcae": {
+        "name": "Halamshiral/ham_elf4",
+        "gender": "Female"
+    },
+    "0c1e65d3-d24e-41d1-b9a0-93f15a443bb9": {
+        "name": "Halamshiral/ham_elf7",
+        "gender": "Male"
+    },
+    "e7ec9129-5243-413a-9ad2-5dece3866354": {
+        "name": "Halamshiral/ham_elf5",
+        "gender": "Male"
+    },
+    "Ebx DA3/designcontent/Characters/Halamshiral/ham_yves [7f8a2d1a-066d-261a-40b8-759b7ece7c4a": {
+        "name": "",
+        "gender": "Female"
+    },
+    "af544890-5a80-4ae4-9ae1-9e6148af77c9": {
+        "name": "Halamshiral/ham_gossiping_noble2",
+        "gender": "Male"
+    },
+    "13f747de-e040-2f67-e335-c8d136794c86": {
+        "name": "Halamshiral/ham_overheard_servant1",
+        "gender": "Male"
+    },
+    "c9c3e251-2c7e-1db4-a0cd-7e05b7efc276": {
+        "name": "Halamshiral/ham_overheard_servant2",
+        "gender": "Female"
+    },
+    "702a382e-7de9-4bdc-80d6-af2a006f0f64": {
+        "name": "Halamshiral/ham_overheard_servant3",
+        "gender": "Female"
+    },
+    "a6a07dd3-ee8c-42cf-89fe-58585ce8dc79": {
+        "name": "Halamshiral/Ham_orzammar_ambassador",
+        "gender": "Male"
+    },
+    "f3e6484c-13b6-4263-9482-88c5dd3c5a49": {
+        "name": "Halamshiral/Ham_merchant_guild_1",
+        "gender": "Female"
+    },
+    "f18b40ec-c78e-45c4-b58d-a83c1818a1db": {
+        "name": "Halamshiral/Ham_merchant_guild_3",
+        "gender": "Male"
+    },
+    "0873903a-d774-4475-90de-5bee8c35267f": {
+        "name": "Halamshiral/Ham_merchant_guild_2",
+        "gender": "Female"
+    },
+    "2ba4575d-69cc-7f78-c643-e669c6759a11": {
+        "name": "Halamshiral/ham_marquis_etienne",
+        "gender": "Male"
+    },
+    "640e61d0-dd64-4cf1-8830-5058af568160": {
+        "name": "Halamshiral/ham_germain_de_chalons",
+        "gender": "Male"
+    },
+    "a8feb1fd-1ec6-7c65-49c1-19a423aab1a0": {
+        "name": "Halamshiral/ham_fifi",
+        "gender": "Female"
+    },
+    "af13f8af-1fbc-b7ea-6297-678e30e9b074": {
+        "name": "Halamshiral/ham_babette",
+        "gender": "Female"
+    },
+    "9c90ba29-3bbe-43d4-9dd8-4aefe3928ea7": {
+        "name": "Halamshiral/ham_royal_wing_gossiper_1",
+        "gender": "Male"
+    },
+    "682ea68c-5580-4144-93fd-16022f50c56d": {
+        "name": "Halamshiral/ham_royal_wing_gossiper_2",
         "gender": "Female"
     }
 }

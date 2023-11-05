@@ -1,7 +1,9 @@
 # https://www.youtube.com/watch?v=xyt8dqqmTbI
-# TODO: dealing with SeenIDs - replacing link with line is removing child ids?
+# TODO: dealing with SeenIDs - fix at the end
 
-# TODO: is dialogue being re-joined properly?
+# TODO: deal with not being able to find lines
+
+# TODO: check if is dialogue being re-joined properly? (find video or follow links)
 #[
 #	{"ACTION": "IF (e2c262e7-7591-481f-a5e5-297141f401d3 # nullptr = True)"},
 #	{"FollowerPlots/Odette/odt_comte": "What a pleasure to meet you, my lady. Seeing the same faces at every event becomes so tiresome.", "_sid": "857ecc32-a0b6-07f8-e8bc-80907a848732", "_lid": "86206692-94aa-44f9-855f-416a8aaac56c"},
@@ -73,9 +75,9 @@ def postProcessing(out):
 	
 	files = [x for x in files if x.endswith(".xml")]
 	
-	for file in files[:50]:
+	for file in files:
 		#print(">>>")
-		#print(file)
+		print(file)
 		txt = open(file).read()
 		out += processXMLFile(txt)
 		
@@ -140,7 +142,7 @@ def processXMLFile(txt):
 	
 	# Re-sort to find common codas
 	out = depthFirstToBreadthFirst(out)
-	# TODO: parse <LocalizedCharacter> tags (see Cre_keep_spy_09.xml)
+	# Parse <LocalizedCharacter> tags (see Cre_keep_spy_09.xml)
 	parseCharacterData(soup)
 	
 	#return(plines)  # return the parsed line chunks
@@ -169,7 +171,7 @@ def dataToDialogue(line,primarySpeaker):
 	### Add dialogue	
 	speakerName,speakerID = cleanName(line["speaker"])
 	if speakerName == "":
-		speakerName = primarySpeaker
+		speakerName,speakerID = cleanName(primarySpeaker)
 	if len(line["dialogue"])>0:
 		lx = {speakerName:line["dialogue"],
 				#"_sid":speakerID,
@@ -248,8 +250,11 @@ def processLines(data):
 		# Add dialogue line
 		dt = line.find("conversationstringreference")
 		if dt:
-			stringID = dt.find("stringid").get_text().replace("0x","").strip()
-			lx["dialogue"] = da3[stringID.upper()]
+			stringID = dt.find("stringid").get_text().replace("0x","").strip().upper()
+			if stringID in da3:
+				lx["dialogue"] = da3[stringID]
+			else:
+				lx["dialogue"] = "(MISSING "+stringID+")"
 		
 		# Add other attributes
 		for tag in ["ParaphraseReference","Speaker","SpeakerGender"]:
@@ -347,11 +352,12 @@ def loadPlotFlags(fn):
 	return(out)
 
 def depthFirstToBreadthFirst(lines):
+	# unfold two-choice structures
 	# This is unfolding top-level stuff
 	# e.g. see {"Global/HUBs/in1_chantry_mother": "My lord Inquisitor, it's good of you to speak with me.", "_ID": "2480b3f0-0ec1-4d90-adec-36c5c64622dd"}
 	#  but not working recursively?
 	# e.g. see "what a pleasure to meet ..." below,
-	#  even though the code is reaching this deeper line
+	#  even though the code is reaching this deeper line???
 	out = []
 	for line in lines:
 		if "CHOICE" in line:

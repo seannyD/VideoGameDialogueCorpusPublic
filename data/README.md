@@ -19,6 +19,7 @@ Note that some games have multiple folders with alternative sources. Only some o
 | DiscoElysium/DiscoElysium/ | :parking: |  :x: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | DragonAge/DragonAge2/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | DragonAge/DragonAgeInquisition/ | :parking: |  :x: | :ok: | :ok: | :ok: | :x: | :x: |
+| DragonAge/DragonAgeInquisition_B/ | :parking: |  :x: | :ok: | :ok: | :ok: | :x: | :x: |
 | DragonAge/DragonAgeOrigins/ | :arrow_down: |  :x: | :ok: | :ok: | :ok: | :x: | :ok: |
 | DragonAge/DragonAgeOrigins_B/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | ElderScrolls/Daggerfall/ | :white_check_mark: |  :ok: | :ok: | :ok: | :x: | :ok: | :ok: |

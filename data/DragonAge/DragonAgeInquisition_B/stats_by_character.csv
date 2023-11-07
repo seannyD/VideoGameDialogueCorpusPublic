@@ -1,0 +1,436 @@
+folder,alternativeMeasure,game,series,group,charName,lines,words,sentences,syllables
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,playerChoice,PC,7160,62322,15502,76177
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,neutral,CINEMATIC,324,2585,709,3057
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Valet,16,64,31,118
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Comte Marcellin,3,57,8,66
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Marquis Alphonse,1,4,1,6
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Duke Bastien,4,13,4,15
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Solas,1435,14474,3468,18352
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Cole,1319,13555,3511,15713
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Iron Bull,1469,14624,3578,17368
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Bailiff,15,95,34,120
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition Agent,5,44,12,61
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Cullen,674,6649,1679,8310
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Giles,18,193,45,221
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Bandit 1,2,13,4,14
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lord Pel Harmond,16,253,47,322
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Mathius,6,77,16,84
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lord Marchande,4,58,9,83
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hostile male guard 01,4,14,4,26
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hostile male guard 02,1,6,5,6
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Ponchard de Lieux,12,182,40,229
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Baubles by Barnabus,9,105,35,135
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,VR - Merchant 4,9,81,26,106
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Pierre-Merie,10,134,31,183
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Havel,8,78,18,98
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Very Serious,28,213,60,273
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Deserter Footsoldier 3,1,4,2,7
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Deserter Footsoldier 1,1,9,2,10
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Deserter Footsoldier 4,1,9,2,10
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Fairbanks,37,374,92,466
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Michel de Chevin,49,603,129,749
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Footsoldier Chardin,8,51,15,58
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Footsoldier Appell,12,100,27,120
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Gaspard Footsoldier,10,41,14,44
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Loranil,16,191,42,230
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Keeper Hawen,39,421,93,523
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Brigand Granville,9,51,19,64
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Ithiren,31,292,85,352
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Watcher's Reach Guardian,19,92,40,106
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Chevalier Archet,9,99,16,121
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Footsoldier Ghis,1,5,1,5
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Tevinter Slave 02,7,25,20,26
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Angry Templar 2,1,5,1,5
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Angry Templar,9,56,12,67
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Angry mage 1,8,72,10,91
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Kieran,21,161,49,183
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Cabot,40,344,114,432
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Farris the Representative,5,45,15,62
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Archivist,23,259,49,342
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Skyhold Bar Patron,9,34,13,38
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Skyhold Head Cook,8,31,13,38
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Skyhold Worker,8,43,15,47
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Skyhold Construction Grunt,1,4,2,4
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Skyhold Great Hall Commenter,2,15,4,15
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Skyhold Leliana's Mover,2,14,4,16
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Skyhold Deployed Templar,2,17,4,20
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Carta Dwarf,33,385,74,424
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Human Soldier,22,257,31,313
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Pellane (Haven Inquisition Scout),26,241,78,296
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Quartermaster Recruit,17,158,32,191
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Mattrin,3,18,5,27
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Merchant's Runner,14,168,32,189
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Dwarven Agent,30,371,74,464
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Hinterlands Soldier,14,168,38,198
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Servant (Herald),20,264,48,318
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Scout 1,17,205,44,254
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Marquis Durellion,7,90,17,118
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Veteran Soldier,25,348,62,414
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Concerned Soldier 2,20,172,43,193
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Apprentice Smith,12,131,29,152
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Haven Young Soldier,14,152,31,189
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Crestwood Keep Spy 01,20,163,41,203
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Crestwood Keep Soldier 03,16,170,34,207
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Villager Mage React 1,6,74,11,101
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Carta Boss,1,7,2,11
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Light Widower,15,203,41,230
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Light Inquisition Worried Scout,17,146,46,186
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Master Dennet,62,833,183,1020
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Soldier Setback React 1,15,186,32,233
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Soldier Mage React 2,11,130,30,158
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Villager War React 2,11,136,30,150
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Refugee Cold React 1,11,79,25,96
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Refugee Cult React 2,7,60,17,68
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Soldier Bandit React 1,11,117,30,147
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hyndel,11,123,37,135
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Refugee Setback React 1,14,148,42,178
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Refugee Watch React 1,15,173,45,206
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Cultist Rift React 2,11,100,34,116
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Horse Master Guard Bron,9,136,21,164
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Refugee,15,152,43,171
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lord Berand,10,114,27,129
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Refugee Hunter,13,161,36,191
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands Cultist War React 1,11,127,29,149
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hinterlands One Eyed Jimmy,14,166,28,195
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Soldier 1,9,63,12,91
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Soldier 2,4,12,4,14
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Soldier 3,2,15,4,19
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition Soldier 4,4,34,20,38
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Prologue Inquisition Soldier 1,18,66,22,71
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Wounded Soldier,2,9,11,9
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Terrified Bystander 1,5,25,6,34
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Wounded Soldier 2,5,24,7,26
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Horrified Gawker 1,6,44,6,49
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Vicinius,2,9,3,12
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Magister Erasthenes,2,22,10,25
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Maddox,7,68,19,83
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Abelas,14,137,34,168
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Red Templar Captain 1,2,12,3,14
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Magister 1,1,2,1,3
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Orlesian Imperial General,5,35,8,49
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition Soldier 10,20,112,34,150
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lord Marquer,9,92,20,122
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Sentinel Elf,1,4,1,5
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition Soldier in Mythal 06,2,11,2,14
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Attentive Captain,4,44,8,49
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Warden,1,2,1,2
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Praying Soldier,9,95,22,111
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,First Talon Macrinus,7,49,14,62
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Comte Boisvert,10,109,23,138
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lord Otranto,23,233,39,305
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Magister Pavus,5,35,10,46
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition Recruit 1,1,7,2,13
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Templar Soldier,2,4,3,8
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,"Cole Side, Bread Servant",2,35,6,45
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,"Cole Side, Turnips Servant",2,31,6,38
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,"Cole Side, Turnips Soldier",2,37,6,41
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Cole Main Plot Former Templar,9,42,20,48
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,"Cole Side, Dagger Soldier",3,48,13,54
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Cole Friendly Scene Greeter,7,68,14,85
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Iron Bull Plot Ben-Hassrath,57,535,128,683
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Iron Bull Merc Band Dwarf,2,43,4,53
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition Soldier Campfire Rookie,1,7,3,8
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Iron Bull Merc Band Doc,2,43,4,53
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Iron Bull Merc Band Grim,2,43,4,53
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Ben-Hassrath Assassin for Bull,1,4,1,4
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Seeker Daniel,6,41,22,48
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Dwarven Bookseller,12,130,30,151
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Rector,9,73,19,97
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Frederic,56,940,176,1222
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lucanus,2,11,4,14
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,City Watchman,9,94,15,101
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,City Guard,7,86,21,96
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Knight-Templar Barris,128,1225,311,1514
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Veteran City Guard,15,192,50,242
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition Jailer 01,2,25,4,29
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Hopeless Man,2,4,1,4
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Knight-Lieutenant Primmer,18,136,41,163
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Knight-Lieutenant Abrahas,19,121,41,141
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition Captain,5,44,9,61
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Attache Humbold,6,71,16,90
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lieutenant Fletcher,10,70,22,95
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Nightmare Orlesian Soldier 2,4,32,7,39
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Imprisoned Nobleman,2,17,4,24
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Knight-Captain Denam,26,281,62,324
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Nightmare Orlesian Soldier 1,1,5,1,6
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Veteran Templar,3,25,7,27
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Chanter Vierre,14,205,37,231
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lord Abernache,51,526,125,680
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Cautious Templar,2,31,3,36
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lord Pontival,3,18,3,23
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Orlesian diplomat,2,14,2,20
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Worried Templar,2,19,3,22
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Envy,46,404,102,475
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lord Childebert,4,58,9,66
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Ser Tavus,26,208,50,274
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Noble Citizen,4,46,12,54
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Concerned Worker,2,27,6,33
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition follower 02,3,36,5,46
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Fighting Templar 3,5,27,10,33
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Orlesian Soldier 04,3,26,4,33
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Ser Dieran,20,144,51,185
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Stern Duke,3,30,5,36
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Concerned Merchant,4,44,11,53
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Male Hawke,80,754,196,919
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Loghain,44,340,91,422
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Grey Warden Hunting Party Warrior,5,30,7,38
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Grey Warden,4,19,7,21
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Grey Warden Hunting Party Leader,9,85,18,107
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Stroud,38,312,78,386
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Adamant Inquisition Soldier 1,19,147,35,174
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Warden Guard,1,4,2,4
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Alistair,58,518,147,612
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Livius Erimond,11,150,25,187
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Inquisition Soldier 5,4,22,6,29
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Corypheus,172,1795,378,2151
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Grand Duke Gaspard,83,960,211,1208
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Grand Chancellor Roderick,64,635,145,814
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Samson,50,360,96,402
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Lord Seeker Lucius Corin,18,131,42,162
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Magister Alexius,46,398,98,480
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Travelling Merchant,4,40,9,48
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Apothecary,48,476,130,547
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Seggrit,41,394,106,483
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Harritt,127,1002,309,1149
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Venatori Bruiser,48,109,50,116
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Venatori Archer,78,209,87,239
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Venatori Enchanter,66,189,76,224
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,ss_red_templar_footsoldier_m,80,238,99,261
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Venatori Mage,64,157,71,182
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Venatori Guardsman,75,200,87,232
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Venatori Footsoldier,76,195,85,228
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Red Templar Archer,78,210,100,234
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Red Templar Guardsman,78,206,93,231
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Redcliffe Castle Herald,10,122,27,175
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Tevinter Torturer,9,97,17,129
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Venatori Guard,1,5,1,5
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Redcliffe Villager,4,44,6,61
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Talwyn,7,37,14,47
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Venatori Guard 2,2,11,3,12
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Felix,1,2,1,2
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Gossip Noble 1,9,84,19,113
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Arguing Couple 2,5,43,11,57
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Gossip Noble 2,6,69,12,85
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Arguing Couple 1,6,73,11,85
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Gossip guard 2,4,35,10,37
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Comte Lothaire Doucy,6,80,11,108
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Duke Cyril de Montfort,9,74,14,97
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Imperial Herald,38,415,78,592
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Elven ambassador 3,8,50,17,64
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Elven ambassador 1,8,78,17,100
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Guest Wing Guard,2,18,3,21
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,WhisperingNoble,0,NA,NA,NA
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Footman 2,10,81,21,95
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Ser Brion,6,52,18,65
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Servant,15,131,27,167
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Unfortunate Riddler,9,97,46,104
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Elven agent 3,1,4,1,4
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Elven agent 1,1,5,1,7
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Council of Heralds Representative,14,203,35,277
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,hal_gossiping_noble1,23,218,41,285
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Elf 3,6,48,14,57
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Muttering Nobleman,4,53,8,69
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,hal_gossiping_noble2,5,35,12,45
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Gaspard's General,14,161,47,205
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Duke Germain,4,17,8,23
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Orzammar ambassador,23,340,65,454
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Elf 4,3,33,7,40
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Ambassador Anton,6,22,9,30
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Ser Philippe,7,47,12,59
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Cullen Admirer 2,4,17,8,25
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Surface-caste merchant,6,66,8,82
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Cullen Admirer 1,3,30,6,37
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Exterior Guard,5,65,21,71
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Waiting Nobleman,5,34,12,42
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,hal_waiting_noble_1,7,60,12,77
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Gosspy Guest Wing Guard,1,14,1,19
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Riddling Noble,5,30,7,36
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,hal_waiting_noble_2,3,33,5,40
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,CoH Guard 1,1,16,2,21
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Marquis Etienne,4,59,15,71
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,CoH Noble 1,1,12,2,15
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,Ferelden Merc Informant,7,87,15,100
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Elven Gardner,13,155,31,195
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Vivienne,1301,14349,3056,18646
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Grand Cleric Marcelline,1,3,1,5
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Sera,1642,14920,4395,17330
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Solas Follower Plot Spirit,4,32,15,39
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hostile female guard 01,4,24,8,28
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Revered Mother Giselle,139,1441,310,1776
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Saphi,7,69,18,90
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,VR - Merchant 5,9,87,21,117
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,VR - Merchant 2,10,96,29,125
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Very Happy,35,253,79,342
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Carrying Workman,5,13,9,15
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Deserter Archer,1,3,1,3
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Deserter Footsoldier 2,1,4,1,5
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Master Taniel,12,103,28,131
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Commander Jehan,18,241,67,299
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Wounded Chevalier,8,67,54,75
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Nissa,8,84,26,106
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Clara,18,224,59,264
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Emalien,28,328,99,371
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Desert Ruins Hunter,7,54,16,61
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Ser Ruth,10,94,19,115
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Angry Mage 2,2,9,3,11
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Arcanist Dagna,115,1473,355,1801
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Korpin,3,38,7,47
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Surgeon,20,189,45,251
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Sergeant,1,6,1,8
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Skyhold Practicing Archer,8,38,9,39
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Skyhold Battlements Guard,8,26,13,28
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Skyhold Construction Boss,1,13,2,17
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Skyhold Tired Pilgrim,2,11,3,11
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Skyhold Deployed Mage,2,16,3,20
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Charter (Haven Elven Inquisition Agent),47,559,121,731
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Server,10,139,22,152
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Senior Chantry Sister,14,168,38,204
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Novice Chantry Sister,8,89,18,112
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Herbalist,18,150,34,190
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Chantry Healer 1,16,188,35,233
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Hinterlands Sister,11,115,23,137
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Chantry Sister (Herald),20,228,52,305
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Chantry Healer 2,15,208,43,238
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Lay Sister,12,117,25,136
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Human Agent,25,204,46,247
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Scout 2,19,176,32,205
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Mage Sister 1,24,293,64,351
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Mage Sister 2,15,108,26,137
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Chantry Nurse,12,136,31,167
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Weary Soldier,14,160,34,179
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Wolf Lady (Haven),12,105,33,127
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Avexis,18,167,38,224
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Lysette,48,540,110,666
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Haven Concerned Soldier 1,22,251,54,289
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Worried Villager,23,237,54,261
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Crestwood Keep Soldier 04,15,154,35,181
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Crestwood Keep Spy 02,18,143,34,174
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Widow Maura,8,85,20,102
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Light Redcliffe Storyteller,16,264,37,302
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Villager Mage React 2,12,127,29,150
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Refugee War React 1,13,151,33,181
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Villager Setback React 1,12,75,37,89
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Soldier Setback React 2,14,162,34,194
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Soldier Mage React 1,10,116,21,137
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Light Inquisition In-Trouble Scout,16,175,56,200
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Refugee War React 2,11,95,24,121
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Villager Setback React 2,14,161,38,182
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Refugee Cult React 1,9,106,21,123
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Soldier Bandit React 2,7,58,13,79
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Villager War React 1,15,172,32,195
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Refugee Cold React 2,9,87,20,103
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Horse Master Daughter Seanna,16,168,33,193
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Light Smuggler Tanner,17,182,47,227
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Refugee Setback React 2,10,105,18,121
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Refugee Watch React 2,9,95,22,120
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Cultist Rift React 1,9,73,19,85
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Healer,16,142,34,171
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Speaker Anais,18,239,45,272
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Recruit Belette,9,114,25,145
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Mihris,33,380,94,457
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Refugee Food React 2,10,69,18,73
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Villager Templar React 2,12,126,33,154
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Refugee Food React 1,14,100,38,114
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Villager Templar React 1,15,163,35,202
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Cultist Setback React 2,10,118,25,138
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Enchanter Ellendra,26,301,77,370
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Cultist Setback React 1,15,147,45,169
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Hinterlands Cultist War React 2,14,150,28,171
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Elven Servant,9,84,25,91
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Wounded Soldier 1,5,20,11,23
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Horrified Gawker 2,7,20,7,22
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Terrified Bystander 2,5,48,10,55
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Inquisition Captain 1,9,98,22,124
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Worried Soldier,8,46,22,57
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Injured Soldier,8,60,19,68
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Weary Captain,5,40,8,47
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Minister Bellise,9,148,20,198
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Countess Dionne,3,36,7,46
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Inquisition Recruit 2,6,25,10,34
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,"Cole Side, Bread Healer",2,38,5,49
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,"Cole Side, Plums Healer",2,36,9,45
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,"Cole Side, Dagger Servant",3,52,7,63
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,"Cole Side, Plums Servant",2,33,8,41
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,"Cole Side, Cheese Servant",2,33,7,41
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,"Cole Side, Cheese Cook",2,34,5,40
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,"Cole Side, Cheese Scullery",1,23,3,25
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Inquisition Soldier Campfire Veteran,3,23,6,27
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Cremisius Aclassi,36,387,88,472
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Iron Bull Merc Band City Elf,3,50,6,61
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Iron Bull Merc Band Dalish Elf,3,47,5,57
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Natalie,12,128,27,149
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Bianca,59,668,146,798
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Flemeth,26,275,60,330
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Ser Esmia,20,151,40,173
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Orlesian Noblewoman,1,10,1,15
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Knight-Lieutenant duBois,18,118,42,138
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Inquisition Follower,1,6,1,6
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Orlesian Soldier 5,3,26,5,37
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Orlesian Soldier 6,1,7,2,12
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Imprisoned Chantry Mother,3,32,5,34
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Inquisition Jailer 02,3,36,6,52
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Ellvie,9,75,17,89
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,CuriousTemplar,4,41,18,52
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Scornful Templar,2,26,5,31
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Insistent Noblewoman,4,42,5,50
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Bewildered Templar,4,10,4,11
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Regal Countess,3,28,7,33
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Barter by Belle,3,46,13,61
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Austere Noblewoman,5,63,10,78
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Concerned Noblewoman,5,73,12,87
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Orlesian soldier 03,3,7,5,8
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Fighting Templar 2,4,32,9,39
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Inquisition Messenger,2,8,3,16
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Fighting Templar 01,6,39,14,42
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Warden-Commander Clarel,11,94,26,114
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Starstruck Potential Recruit,12,143,28,179
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Female Hawke,79,748,197,911
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,The Divine Adamant Fade Puzzle,5,33,9,38
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Fiona,67,771,231,963
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Lady Florianne,54,491,125,628
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Morrigan,519,6983,1253,9019
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,SFX,1,5,1,7
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Forward Scout Harding,118,1392,345,1722
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Calpernia,36,260,74,304
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Briala,90,1043,242,1347
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Empress Celene,55,726,140,898
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Minaeve,70,739,185,919
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Flissa,47,506,132,590
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Lead Scout,8,30,16,43
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Threnn,56,578,131,724
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Josephine,709,7925,1783,10283
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Leliana,712,7398,1732,9161
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Redcliffe Villager 2,3,25,8,33
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Redcliffe Village Guard,14,169,39,193
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Revered Mother Eglantine,15,146,30,167
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Linnea,16,184,45,226
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Setback Soldier Female 01,6,43,14,49
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Elf Servant Informant,6,41,23,45
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Elven ambassador 2,8,49,14,64
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Lady Fleur,6,40,9,53
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Lady Colombe,9,65,21,76
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Lady Couteau,5,35,8,52
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Elven agent 4,1,3,1,5
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Babette de Launcet,7,57,14,72
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Comtess Montbelliard,8,76,13,91
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Cook,4,39,7,44
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Maid,14,165,39,203
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Elven agent 2,2,11,4,14
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Fifi de Launcet,5,40,11,51
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Muttering Noblewoman,3,33,5,41
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Elf 2,4,22,6,30
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Revered Mother 1,8,96,15,125
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Elf 1,9,39,23,49
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,hal_gossiping_noble3,34,250,65,321
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,hal_gossiping_noble4,2,16,2,20
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Orlesian Lady,13,138,30,170
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Dowager Mantillon,26,319,71,402
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Surface-caste smith,13,130,20,172
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Cullen Admirer 3,3,17,3,24
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,hal_waiting_noble_4,12,104,34,130
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Surface-caste noble,5,44,8,65
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Lady Marcellette,8,63,15,97
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Cullen Admirer 4,2,21,3,29
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Gossipy Guest Wing Noble,1,20,2,27
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,Waiting Noblewoman,2,21,7,24
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,hal_waiting_noble_3,4,50,7,71

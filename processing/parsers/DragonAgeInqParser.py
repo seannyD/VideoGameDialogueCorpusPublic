@@ -22,6 +22,7 @@ da3 = {}
 lineDict = {}
 charDict = {}
 plotFlags = {}
+finalSeenIDs = []
 
 conditionDict = {
 	"e2c262e7-7591-481f-a5e5-297141f401d3": "PC is female"
@@ -29,21 +30,24 @@ conditionDict = {
 #	 A86805E9 6A2A A447 BCF3 258B543D014D
 }
 
+def cleanString(txt):
+	txt = txt.replace("\x19s","'")
+	txt = txt.replace("\u0014"," - ")
+	# TODO: deal with multiple quotes properly.
+	txt = re.sub('^"(.+)"$', "\\1",txt)
+	txt = txt.strip()
+	if(len(txt.replace('"',''))==0):
+		txt = ""
+	return(txt)
+
 def parseFile(fileName,fileType,asJSON=False):
 	# This method just loads the text strings
 	# from the StringList_en.csv file
 	#Êsee post processing for recursive search 
 	#  through the conversation files
 
-	def cleanString(txt):
-		txt = txt.replace("\x19s","'")
-		txt = txt.replace("\u0014"," - ")
-		# TODO: deal with multiple quotes properly.
-		txt = re.sub('^"(.+)"$', "\\1",txt)
-		txt = txt.strip()
-		if(len(txt.replace('"',''))==0):
-			txt = ""
-		return(txt)
+
+
 
 	firstLine=True
 	for line in open(fileName, encoding='latin-1'):
@@ -66,12 +70,13 @@ def parseFile(fileName,fileType,asJSON=False):
 		print(json.dumps({"text":out}, indent = 4))
 		return(json.dumps({"text":out}, indent = 4))
 	return(out)
+
 	
 ###############
 
 def postProcessing(out):
 	
-	files = [os.path.join(dp, f) for dp, dn, fn in os.walk(os.path.expanduser("../data/DragonAge/DragonAgeInquisition_B/raw/")) for f in fn]
+	files = [os.path.join(dp, f) for dp, dn, fn in os.walk(os.path.expanduser("../data/DragonAge/DragonAgeInquisition_B/raw/Conversations/")) for f in fn]
 	
 	files = [x for x in files if x.endswith(".xml")]
 	
@@ -142,6 +147,8 @@ def processXMLFile(txt):
 	
 	# Re-sort to find common codas
 	out = depthFirstToBreadthFirst(out)
+	# Remove duplicates, assuming local constraints
+	out = replaceDuplicateLinesWithGOTO(out)
 	# Parse <LocalizedCharacter> tags (see Cre_keep_spy_09.xml)
 	parseCharacterData(soup)
 	
@@ -301,6 +308,7 @@ def parsePlotConditions(soup):
 	for mem in members:
 		schematic = mem.find("conditionschematic").get_text().strip()
 		mid = mem.find("plotflagid").get_text().strip()
+		#print(mid)
 		if mid in plotFlags:
 			mid = plotFlags[mid]
 		val = mem.find("desiredvalue").get_text().strip()
@@ -324,23 +332,74 @@ def parsePlotActions(soup):
 
 
 def parseCharacterData(soup):
+	global charDict
 	charData = soup.find_all("localizedcharacter")
 	for cd in charData:
 		cid = cd["guid"]
 		elements = {}
 		for elem in cd.findChildren():
 			elements[elem.name] = elem.get_text()
-		charDict[cid] = elements
+		if not cid in charDict:
+			charDict[cid] = elements
+		else:
+			charDict[cid].update(elements)
 		
 def writeCharData():
 	global charDict
-	out = {}
+	# (some character data is in the conversation folders)
+	
+	# Load extra character data:
+	files = [os.path.join(dp, f) for dp, dn, fn in os.walk(os.path.expanduser("../data/DragonAge/DragonAgeInquisition_B/raw/Characters/")) for f in fn]	
+	files = [x for x in files if x.endswith(".xml")]
+	for file in files:
+		txt = open(file).read()
+		soup = BeautifulSoup(txt, "lxml")
+		parseCharacterData(soup)
+	
+	# output full character data
+	headers = ["id"]
 	for cid in charDict:
-		try:
-			out[charDict[cid]["gender"]].append(charDict[cid["name"]])
-		except:
-			out[charDict[cid]["gender"]] = [charDict[cid]["name"]]
-	json.dump(charDict, open('../data/DragonAge/DragonAgeInquisition_B/charGenderFromGameData.json', 'w'),indent=4)
+		headers += [x for x in charDict[cid].keys() if not x in headers]
+	out = []
+	for cid in charDict:
+		row = [cid]
+		for h in headers:
+			if h in charDict[cid]:
+				dat = charDict[cid][h].replace("DA3/DesignContent/Characters/","")
+				dat = cleanString(dat)
+				row.append(dat)
+			else:
+				row.append("")
+		out.append(row)
+	with open('../data/DragonAge/DragonAgeInquisition_B/charDataFromGameData.csv', 'w') as f:
+		writer = csv.writer(f)
+		writer.writerow(headers)
+		for row in out:
+			writer.writerow(row)
+	
+	# Write alias data
+	aliasDict = {}
+	# Write gender data
+	genderDict = {}
+	for cid in charDict:
+		cname = charDict[cid]["name"]
+		cname = cname.replace("DA3/DesignContent/Characters/","")
+		if cname == "nullptr":
+			cname = "None"
+		if "charactername" in charDict[cid]:
+			fullName = charDict[cid]["charactername"]
+			aliasDict[cname] = fullName
+			cname = fullName
+		gender = "Unknown"
+		if "gender" in charDict[cid]:
+			gender = charDict[cid]["gender"]
+		if not cname in ["","None","nullptr","global/Hero"]:		
+			try:
+				genderDict[gender].append(cname)
+			except:
+				genderDict[gender] = [cname]
+	json.dump(aliasDict, open('../data/DragonAge/DragonAgeInquisition_B/aliasesFromGameData.json', 'w'),indent=4)
+	json.dump(genderDict, open('../data/DragonAge/DragonAgeInquisition_B/charGenderFromGameData.json', 'w'),indent=4)
 
 	
 def loadPlotFlags(fn):
@@ -348,7 +407,29 @@ def loadPlotFlags(fn):
 	parts = [x.split(",",2) for x in d.split("\n")[1:]]
 	out = {}
 	for p in parts:
-		out[p[0].lower()]=p[1]
+		#93858996-9000-4db6-9373-658acae601bb
+		#34f91a75-0826-4bf7-b14a-10deb0fa0117
+		idx = p[0].lower()
+		idx = idx[0:8]+"-"+idx[8:12] + "-" + idx[12:16] + "-"+idx[16:]
+		out[idx]=p[1]
+	return(out)
+	
+def replaceDuplicateLinesWithGOTO(lines):
+	global finalSeenIDs
+	out = []
+	for line in lines:
+		if "CHOICE" in line:
+			choices = [replaceDuplicateLinesWithGOTO(choice) for choice in line["CHOICE"]]
+			out.append({"CHOICE":choices})
+		elif "_ID" in line:
+			if line["_ID"] in finalSeenIDs:
+				out.append({"GOTO":line["_ID"]})
+				break # (or return(out)??)
+			else:
+				finalSeenIDs.append(line["_ID"])
+				out.append(line)
+		else:
+			out.append(line)
 	return(out)
 
 def depthFirstToBreadthFirst(lines):

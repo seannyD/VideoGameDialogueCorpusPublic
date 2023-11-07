@@ -1,0 +1,6 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,TOTAL,32895,295229,74887,361131,0.38154258532774676,99.34884508807133,6.508587968894522,437
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,playerChoice,7160,62322,15502,76177,0.40119477042647134,99.3467484096345,6.492147409686702,1
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,neutral,324,2585,709,3057,-0.21348356172231675,103.08705731504043,5.863626887516948,1
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,male,8772,82773,20757,100729,0.3249904164941686,99.83513700520335,6.48322135334995,249
+../data/DragonAge/DragonAgeInquisition_B/,True,Dragon Age: Inquisition,Dragon Age,female,7559,79368,19000,98469,0.6789648057549389,97.63492518835645,6.65222251671786,184

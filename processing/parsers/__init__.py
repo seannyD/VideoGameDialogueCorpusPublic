@@ -49,3 +49,4 @@ from parsers import jsonCopier
 from parsers import YackParser
 from parsers import RogueStateParser
 from parsers import DragonAgeInqParser
+from parsers import BG3Parser

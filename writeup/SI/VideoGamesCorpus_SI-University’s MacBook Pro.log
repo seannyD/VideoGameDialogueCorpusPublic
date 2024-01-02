@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.1.12)  3 MAY 2023 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.1.12)  3 MAY 2023 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6856,7 +6856,7 @@ Here is how much of TeX's memory you used:
  22928 multiletter control sequences out of 15000+600000
  407539 words of font info for 43 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 70i,17n,76p,521b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,17n,76p,520b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021basic/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021basic/texmf-dist/fo
@@ -6875,7 +6875,7 @@ sic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021basic/t
 exmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2021basic/texmf-
 dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021basic/texmf-dist/
 fonts/type1/public/lm/lmtti10.pfb>
-Output written on VideoGamesCorpus_SI.pdf (346 pages, 17064830 bytes).
+Output written on VideoGamesCorpus_SI.pdf (346 pages, 17064829 bytes).
 PDF statistics:
  3174 PDF objects out of 3580 (max. 8388607)
  1912 compressed objects within 20 object streams

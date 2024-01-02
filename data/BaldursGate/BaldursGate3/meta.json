@@ -1,0 +1,29 @@
+{
+	"game": "Baldur's Gate 3",
+	"series": "Baldur's Gate",
+	"year": 2023,
+	"status": "in progress",
+	"alternativeMeasure": true,
+	"source": "Game data",
+	"sourceFeatures":{
+    		"type": "game data",
+    		"completeness": "high",
+    		"dialogueOrder": true,
+    		"choices": "complete"
+},
+	"parserParameters": {
+		"parser": "BG3Parser",
+		"fileType": ".txt"
+	},
+	"mainPlayerCharacters": [],
+	"characterGroups": {
+		"male": [
+
+		],
+		"female": [
+
+		]
+	},
+	"aliases": {
+	}
+}

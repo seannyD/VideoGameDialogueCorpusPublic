@@ -33,7 +33,7 @@ DCDict = {"e0a7c461-08bf-459d-9c9a-747008ced85c":50,
 
 # TODO: DC Dict - lots of missing. these are referenced in raw/STORY/ and raw/STORYDEV/
 
-# TODO: Lots of NPC names missing, possibly due to default speaker?
+# TODO: Sometimes the "PC" is a specific character like Astarion, not just a generic PC.
 
 def parseFile(fileName,parameters={},asJSON=False):
 	global localisation
@@ -174,6 +174,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 			for speaker in speakerData[0]["speaker"]:
 				if "list" in speaker:
 					charID = speaker["list"]["value"]
+					charName = ""
 					if charID in charData:
 						charName = charData[charID]['charName']
 					else:
@@ -225,10 +226,11 @@ def parseFile(fileName,parameters={},asJSON=False):
 			speakerIndex = nx["speaker"]["value"]
 			if speakerIndex == -666:
 				speaker = "Narrator"		
-			else:
-				if speakerIndex >0 and speakerIndex < len(speakerList):
-					speaker = speakerList[speakerIndex]
-			
+			elif speakerIndex >= 0 and speakerIndex < len(speakerList):
+				speaker = speakerList[speakerIndex]
+		#print(speaker)
+		
+		
 		txt = ""
 		if "TaggedTexts" in nx:
 			if "TaggedText" in nx["TaggedTexts"][0]:
@@ -455,14 +457,15 @@ def parseFile(fileName,parameters={},asJSON=False):
 	loadFlagData()
 
 	out = []	
-	#fileNamesToProcess = ['../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/Companions/Astarion_Recruitment.lsj',
-	#					  '../data/BaldursGate/BaldursGate3/raw/Mods/GustavDev/Story/Dialogs/Act3/LowerCity/LOW_MurderTribunal_Sarevok_Trial.lsj',
-	#					  '../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Dialogs/Companions/Minsc_InParty_Nested_PersonalQuestions.lsj']
 	fileNamesToProcess = []
 	dialogDir = '../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Dialogs/';
 	dialogFolders = [x for x in os.listdir(dialogDir) if os.path.isdir(dialogDir+x) and not x in ["DialogVariables","MainMenu","ScriptFlags","Tutorial","WorldCinematics"]]
 	for folder in dialogFolders:
 		fileNamesToProcess += [dialogDir+folder+"/"+x for x in os.listdir(dialogDir+folder+"/") if x.endswith(".lsj")]
+	
+	#fileNamesToProcess = ['../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/Companions/Astarion_Recruitment.lsj',
+	#					  '../data/BaldursGate/BaldursGate3/raw/Mods/GustavDev/Story/Dialogs/Act3/LowerCity/LOW_MurderTribunal_Sarevok_Trial.lsj',
+	#					  '../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Dialogs/Companions/Minsc_InParty_Nested_PersonalQuestions.lsj']
 	
 	for fileNameToProcess in fileNamesToProcess:
 		#dialogTitle = os.path.basename(fileNameToProcess).replace(".lsj","")

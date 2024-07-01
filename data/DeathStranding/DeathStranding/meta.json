@@ -1,0 +1,55 @@
+{
+	"game": "Death Stranding",
+	"series": "Death Stranding",
+	"year": 2019,
+	"status": "in progress",
+	"alternativeMeasure": true,
+	"source": "https://game-scripts-wiki.blogspot.com/2019/12/death-stranding-full-transcript.html",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "NA"
+	},
+	"error checks": {
+		
+	},
+	"parserParameters": {
+		"parser": "DeathStrandingParser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Sam"],
+	"characterGroups": {
+		"male": [
+
+		],
+
+		"female": [
+
+		],
+
+		"neutral": [
+
+		]
+	},
+	"aliases": {
+		"Die-Harman": "Die-Hardman",
+		"Deadman Holorgam": "Deadman",
+		"Deaman": "Deadman",
+		"Frgile":"Fragile",
+		"Hartman": "Heartman",
+		"Hartman’s Hologram": "Heartman",
+		"Mama &amp; Lockne": ["Mama","Lockne"],
+		"Lockne/Mama": ["Mama", "Lockne"],
+		"Sam &amp; Fragile": ["Sam","Fragile"],
+		"Amelia Hologram (of Hologram?)": "Amelie",
+		"Amelia": "Amelie",
+		"Bridget Strand": "Bridget",
+		"": "Hologram",
+		"ACTION": {
+			"Man": ["See the sunset // The day is ending // Let that yawn out // There's no pretending //"],
+			"Amelie": ["See the sunset // The day is ending // Let that yawn out // There's no pretending // I will hold you // And protect you // So let love warm you // 'til the morning"],
+			"Clifford Unger": ["See the sunset // The day is ending // Let that yawn out // There's no pretending // I will hold you // And protect you // So let love warm you // Till the morning //"]
+		}
+	}
+}

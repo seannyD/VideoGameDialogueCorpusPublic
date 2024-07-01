@@ -10,7 +10,7 @@ if os.path.isdir("../data_min"):
 		superseded = False
 		if "status" in meta:
 			superseded = meta["status"]=="superseded"
-		if not superseded:
+		if not superseded and os.path.isfile(folder+"data.json"):
 			dest = folder.replace("../data/","../data_min/")
 			os.makedirs(dest, exist_ok=True)
 			shutil.copyfile(folder+"meta.json", dest+"meta.json")

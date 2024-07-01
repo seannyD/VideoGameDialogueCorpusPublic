@@ -5,25 +5,82 @@
 	"status": "in progress",
 	"alternativeMeasure": true,
 	"source": "Game data",
-	"sourceFeatures":{
-    		"type": "game data",
-    		"completeness": "high",
-    		"dialogueOrder": true,
-    		"choices": "complete"
-},
+	"sourceFeatures": {
+		"type": "game data",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "complete"
+	},
 	"parserParameters": {
 		"parser": "BG3Parser",
 		"fileType": ".txt"
 	},
-	"mainPlayerCharacters": [],
+	"mainPlayerCharacters": ["PC"],
 	"characterGroups": {
 		"male": [
-
+			"Arnell Hallowleaf",
+			"Astarion",
+			"Barcus",
+			"Duke Ravengard",
+			"Gale",
+			"Halsin",
+			"Kith'rak Voss",
+			"Minsc",
+			"Withers",
+			"Oathbreaker Knight",
+			"Omeluum",
+			"Orpheus",
+			"Owlbear Cub",
+			"Boo",
+			"Sceleritas Fel",
+			"Scratch",
+			"Umi",
+			"Volo",
+			"Elminster",
+			"Wyll",
+			"Yurgir",
+			"Gortash",
+			"Gale's Projection"
 		],
 		"female": [
-
+			"Alfira",
+			"Arabella",
+			"Dame Aylin",
+			"Shadowheart",
+			"Karlach",
+			"Emmeline Hallowleaf",
+			"Isobel",
+			"Jaheira",
+			"Korrilla",
+			"Lae'zel",
+			"Mizora",
+			"Narrator",
+			"Minthara",
+			"Tara",
+			"Yenna",
+			"Netherbrain"
+		],
+		"neutral": [
+			"Book of Dead Gods"
 		]
+
 	},
 	"aliases": {
+		"Captive": "Shadowheart",
+		"Devil": "Karlach",
+		"Mysterious Figure": "Withers",
+		"S_FOR_OwlBear_Cub_001": "Owlbear Cub",
+		"S_GLO_Boo": "Boo",
+		"The Drow Minthara": "Minthara",
+		"Tressym": "Tara",
+		"Weary Traveller": "Elminster",
+		"a480a240-b8ea-4e6a-b4b9-a8edc8fd4a3d": "Book of Dead Gods",
+		"b7439d00-eb7e-5376-28fb-5b70f698445a": "Gale",
+		"bbb9e4ee-8c2f-61e7-bcec-351a136091e7": "Astarion",
+		"c1f13b4f-baad-34e0-9ffe-11ee706f3ec5": "Gortash",
+		"Spectral Voice": "Gale's Projection",
+		"e6b3c2c4-e88d-e9e6-ffa1-d49cdfadd411": "PC",
+		"ea38aca4-6eb4-29a4-c119-8bb1364f681a": "PC",
+		"ab8ed602-dd13-d3f9-1be2-a4d489b82d07": "PC"
 	}
 }

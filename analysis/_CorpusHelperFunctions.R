@@ -118,13 +118,19 @@ loadJSONScripts = function(searchPath = "../data/", onlyLoadMainCorpusSources=TR
 
 
 logLikelihood.G2 = function(a,b,c,d){
-  E1 = c*((a+b) / (c+d))
-  E2 = d*((a+b) / (c+d))
-  G2a = (a*log(a/E1))
-  G2b = (b*log(b/E2))
-  if(is.nan(G2a)){G2a=0}
-  if(is.nan(G2b)){G2b=0}
-  G2 = 2*(G2a + G2b) 
+  c = as.double(c)
+  d = as.double(d)
+  E1 = c*(a+b) / (c+d)
+  E2 = d*(a+b) / (c+d)
+  G2PartA = (a*log(a/E1))
+  if(a==0){
+    G2PartA = 0
+  }
+  G2PartB = (b*log(b/E2))
+  if(b==0){
+    G2PartB = 0
+  }
+  G2 = 2*(G2PartA + G2PartB) 
   return(G2)
 }
 

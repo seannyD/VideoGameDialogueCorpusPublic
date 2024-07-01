@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/DeathStranding/DeathStranding/,False,Death Stranding,Death Stranding,TOTAL,1562,46505,7188,57235,1.4558151792786589,96.14856350235077,6.966347460110589,62
+../data/DeathStranding/DeathStranding/,False,Death Stranding,Death Stranding,male,0,NA,NA,NA,NA,NA,NA,0
+../data/DeathStranding/DeathStranding/,False,Death Stranding,Death Stranding,female,0,NA,NA,NA,NA,NA,NA,0
+../data/DeathStranding/DeathStranding/,False,Death Stranding,Death Stranding,neutral,0,NA,NA,NA,NA,NA,NA,0

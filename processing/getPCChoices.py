@@ -47,7 +47,7 @@ foldersToProcess = [x for x in foldersToProcess if x.count("Test")==0]
 data = []
 gamesPresent = {}
 for folder in foldersToProcess:
-	print("PROCESSING "+folder+ " ...")
+	#print("PROCESSING "+folder+ " ...")
 
 	with open(folder+"meta.json") as json_file:
 		meta = json.load(json_file)
@@ -71,7 +71,7 @@ for folder in foldersToProcess:
 				except:
 					gamesPresent[game] = 1
 			
-			print(len(gameData))
+			print((folder,len(gameData)))
 			if len(gameData)>0:
 				data += random.choices(gameData,k=10)
 			
@@ -140,7 +140,7 @@ gameData = []
 data = []		
 foldersToProcess = ["../data/MassEffect/MassEffect1B/", "../data/MassEffect/MassEffect2/", "../data/MassEffect/MassEffect3C/"]
 for folder in foldersToProcess:
-	print(folder)
+	#print(folder)
 	with open(folder+"meta.json") as json_file:
 		meta = json.load(json_file)
 	game = meta["game"]
@@ -160,7 +160,7 @@ for folder in foldersToProcess:
 		except:
 			gamesPresent[game] = 1
 	
-	print(len(gameData))
+	print((folder,len(gameData)))
 	if len(gameData)>0:
 		data += random.choices(gameData,k=20)
 

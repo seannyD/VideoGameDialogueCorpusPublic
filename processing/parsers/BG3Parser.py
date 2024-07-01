@@ -1,4 +1,4 @@
-import json
+import json,pathlib
 from bs4 import BeautifulSoup
 import re,os
 
@@ -89,6 +89,15 @@ def parseFile(fileName,parameters={},asJSON=False):
 						charName = rawName["value"]
 						charName = charName.replace("S_Player_","").strip()
 					charData[charID] = {"charName":charName}
+					# Add another link to the peanut speakers?
+					# e.g. Auntie Ethel's name is linked only in a "speakergrouplist" contained inside an "Item" file.
+					cnode = gameObject.find("node",{"id":"SpeakerGroupList"})
+					if not cnode is None:
+						guid = cnode.find("attribute",{"id":"Object","type":"guid"})
+						if not guid is None:
+							charData[guid["value"]] = {"charName":charName}
+
+						
 			# -------------------
 		
 			baseFolders = ["../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Globals/",
@@ -99,6 +108,9 @@ def parseFile(fileName,parameters={},asJSON=False):
 					if "Characters" in subfolders:
 						lsxFileName = baseFolder+settingFolder+"/Characters/_merged.lsx"
 						parseCharacterFile(lsxFileName)
+					if "Items" in subfolders:
+						lsxFileName = baseFolder+settingFolder+"/Items/_merged.lsx"
+						parseCharacterFile(lsxFileName)						
 						
 			# Some character names are in Marker files?
 			markerFolder = "../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Journal/Markers/"
@@ -189,12 +201,16 @@ def parseFile(fileName,parameters={},asJSON=False):
 
 	def parseLSJ(data):	
 		nodeData = data["save"]["regions"]["dialog"]["nodes"]
-		rootNodes = nodeData[0]["RootNodes"]
-		rootNodes = [x["RootNodes"]["value"] for x in rootNodes]
-		nodes = nodeData[0]["node"]
-		speakerList = parseSpeakerList(data["save"]["regions"]["dialog"]["speakerlist"])
-		pnodes = [parseNode(node,speakerList) for node in nodes]
-		return(rootNodes,pnodes)
+		if "RootNodes" in nodeData[0]:
+			rootNodes = nodeData[0]["RootNodes"]
+			rootNodes = [x["RootNodes"]["value"] for x in rootNodes]
+			nodes = nodeData[0]["node"]
+			speakerList = parseSpeakerList(data["save"]["regions"]["dialog"]["speakerlist"])
+			pnodes = [parseNode(node,speakerList) for node in nodes]
+			return(rootNodes,pnodes)
+		else:
+			print("\tError: no root nodes")
+			return([],[])
 		
 	def getFlags(flags,flagType="CHECK"):
 		flagText = ""
@@ -248,18 +264,19 @@ def parseFile(fileName,parameters={},asJSON=False):
 						if opTextID in localisation:
 							opText = localisation[opTextID]
 						else:
-							print("   Error - no localisation id specified" + t["TagTexts"][0]["TagText"][0]["LineId"]["value"])
+							print("   Error - no localisation id specified: " + t["TagTexts"][0]["TagText"][0]["LineId"]["value"])
 												  
 						txts.append(opText)
 						if "RuleGroup" in t:
 							rt = t["RuleGroup"][0]["Rules"][0]
 							if "Rule" in rt:
-								ruleTags = rt["Rule"][0]["Tags"]
-								ruleTags = [tag["Tag"][0]["Object"]["value"] for tag in ruleTags if "Tag" in tag]
-								ruleDescriptions = [flagData.get(x,x) for x in ruleTags]
-								if len(ruleDescriptions)>0:
-									ruleText = " {" + "; ".join(["IF: "+x for x in ruleDescriptions]) + "}"
-									txts[-1]+= ruleText
+								if "Tags" in rt["Rule"][0]:
+									ruleTags = rt["Rule"][0]["Tags"]
+									ruleTags = [tag["Tag"][0]["Object"]["value"] for tag in ruleTags if "Tag" in tag]
+									ruleDescriptions = [flagData.get(x,x) for x in ruleTags]
+									if len(ruleDescriptions)>0:
+										ruleText = " {" + "; ".join(["IF: "+x for x in ruleDescriptions]) + "}"
+										txts[-1]+= ruleText
 				txt = " /\n".join(txts)
 
 		children = []
@@ -458,14 +475,17 @@ def parseFile(fileName,parameters={},asJSON=False):
 
 	out = []	
 	fileNamesToProcess = []
-	dialogDir = '../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Dialogs/';
-	dialogFolders = [x for x in os.listdir(dialogDir) if os.path.isdir(dialogDir+x) and not x in ["DialogVariables","MainMenu","ScriptFlags","Tutorial","WorldCinematics"]]
-	for folder in dialogFolders:
-		fileNamesToProcess += [dialogDir+folder+"/"+x for x in os.listdir(dialogDir+folder+"/") if x.endswith(".lsj")]
-	
-	#fileNamesToProcess = ['../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/Companions/Astarion_Recruitment.lsj',
-	#					  '../data/BaldursGate/BaldursGate3/raw/Mods/GustavDev/Story/Dialogs/Act3/LowerCity/LOW_MurderTribunal_Sarevok_Trial.lsj',
-	#					  '../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Dialogs/Companions/Minsc_InParty_Nested_PersonalQuestions.lsj']
+	dialogDirs = ['../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/',
+			  	  '../data/BaldursGate/BaldursGate3/raw/Mods/GustavDev/Story/Dialogs/']
+	for dialogDir in dialogDirs:
+		px = pathlib.Path(dialogDir)
+		fileNamesToProcess += [str(x) for x in px.rglob("*.lsj")]
+#		dialogFolders = [x for x in os.listdir(dialogDir) if os.path.isdir(dialogDir+x) and not x in ["DialogVariables","MainMenu","ScriptFlags","Tutorial","WorldCinematics"]]
+#		for folder in dialogFolders:
+#			fileNamesToProcess += [dialogDir+folder+"/"+x for x in os.listdir(dialogDir+folder+"/") if x.endswith(".lsj")]	
+#	fileNamesToProcess = ['../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/Companions/Astarion_Recruitment.lsj',
+#						  '../data/BaldursGate/BaldursGate3/raw/Mods/GustavDev/Story/Dialogs/Companions/Scratch_SummonUnavailable_PAD.lsj',
+#						  '../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Dialogs/Companions/Minsc_InParty_Nested_PersonalQuestions.lsj']
 	
 	for fileNameToProcess in fileNamesToProcess:
 		#dialogTitle = os.path.basename(fileNameToProcess).replace(".lsj","")

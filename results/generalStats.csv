@@ -20,6 +20,10 @@ folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,Fles
 ../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,male,3587,92905,17587,112770,0.7932948073808515,98.78394580372526,6.66136306531359,265
 ../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,female,1576,40840,7713,49699,0.8346853627307702,98.50921359984345,6.557989542091128,104
 ../data/ElderScrolls/Skyrim/,False,The Elder Scrolls V: Skyrim,The Elder Scrolls,neutral,23,87,39,108,-0.0717241379310316,99.55007957559683,11.732893280282937,9
+../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,TOTAL,135072,1838464,415410,2242943,0.5321165433114832,99.13017508217447,6.743642516722233,2176
+../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,male,20799,298866,61814,362238,0.5977103094372698,99.38883967825403,6.477230072797206,23
+../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,female,28784,414207,87321,504232,0.62461189764017,99.0331299667265,6.65655731529242,15
+../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,neutral,0,NA,NA,NA,NA,NA,NA,0
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,TOTAL,32029,292007,87900,345241,-0.34322038525982634,103.44022743364292,6.5052997584716055,373
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,19626,181055,53223,213148,-0.3716754275666254,103.78633611059038,6.60496714139012,278
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,12260,109557,34273,130453,-0.2926919876697447,102.85454579046036,6.342620466638734,76
@@ -143,6 +147,10 @@ folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,Fles
 ../data/Test/Test/,True,Test,Test,male,3,3,2,3,-3.2049999999999983,120.7125,19.500899999999998,3
 ../data/Test/Test/,True,Test,Test,female,5,5,4,5,-3.3024999999999984,120.96625,19.4885,5
 ../data/Test/Test/,True,Test,Test,neutral,0,NA,NA,NA,NA,NA,NA,0
+../data/DeathStranding/DeathStranding/,False,Death Stranding,Death Stranding,TOTAL,1562,46505,7188,57235,1.4558151792786589,96.14856350235077,6.966347460110589,62
+../data/DeathStranding/DeathStranding/,False,Death Stranding,Death Stranding,male,0,NA,NA,NA,NA,NA,NA,0
+../data/DeathStranding/DeathStranding/,False,Death Stranding,Death Stranding,female,0,NA,NA,NA,NA,NA,NA,0
+../data/DeathStranding/DeathStranding/,False,Death Stranding,Death Stranding,neutral,0,NA,NA,NA,NA,NA,NA,0
 ../data/Hades/Hades/,True,Hades,Hades,TOTAL,20874,236985,58011,284936,0.1908025338557504,100.97077941681812,6.35255866268606,55
 ../data/Hades/Hades/,True,Hades,Hades,male,16148,174521,43932,209203,0.1042612806887746,101.39059904609832,6.353933273979186,19
 ../data/Hades/Hades/,True,Hades,Hades,female,4142,56686,12663,68377,0.38948599918705007,100.24332360813708,6.297536232441777,11

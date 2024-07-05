@@ -249,8 +249,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 			elif str(speakerIndex) in speakerList:
 				speaker = speakerList[str(speakerIndex)]
 		#print(speaker)
-		
-		
+
 		txt = ""
 		if "TaggedTexts" in nx:
 			if "TaggedText" in nx["TaggedTexts"][0]:
@@ -512,8 +511,85 @@ def parseFile(fileName,parameters={},asJSON=False):
 	return(out)
 
 
-#def postProcessing(out):	
-#	return(out2)
+def postProcessing(out):
+	print("post-processing")
+	# TODO: find lines of dialogue with "{IF:" statements, split into choices.
+	# We'll keep the format of not using the CHOICE structures, 
+	# so this requires finding all the parents and re-directing to the choices.
+	
+	
+	conditionToTrueCharName = {
+		"|Karlach, Hells' champion. Tiefling origin. Whether or not she's shapeshifted.|": "Karlach",
+		"| Really Astarion, Vampire companion |": "Astarion",
+		"REALLY_GALE": "Gale",
+		"REALLY_LAEZEL": "Lae'zel",
+		"|Really Shadowheart|": "Shadowheart",
+		"|Really Wyll, superhero warlock|": "Wyll",
+		"|Jaheira companion, shapeshifted or not|": "Jaheira",
+		"REALLY_MINTHARA": "Minthara",
+		"REALLY_MINSC": "Minsc"
+		# Halsin?
+	}
+	
+	
+	
+	out2 = []
+	childLinksToFix = {}
+	for line in out:
+		charName = [x for x in line if not x.startswith("_")][0]
+		dialogue = line[charName]
+		if dialogue.count("{IF:") == 0:
+			out2.append(line)
+		else:
+			parts = dialogue.split("/\n")
+			for i,part in enumerate(parts):
+				newDialogue = part
+				condition = ""
+				if newDialogue.count("{IF:")>0:
+					condition = newDialogue[newDialogue.index("{IF:")+4:-2].strip()
+					newDialogue = newDialogue[:newDialogue.index("{IF:")].strip()
+				newID = line["_id"]+"-"+str(i)
+				# Track links to change parents later
+				if line["_id"] in childLinksToFix:
+					childLinksToFix[line["_id"]].append(newID)
+				else:
+					childLinksToFix[line["_id"]] = [newID]
+
+				# Change charName if flag is appropriate
+				newCharName = charName
+				if newCharName == "PC":
+					if condition in conditionToTrueCharName:
+						newCharName = conditionToTrueCharName[condition]
+				
+				# TODO: combine check flags
+				newFlags = line["_checkflags"]+"\n"+"CHECK FLAG: "+condition
+				newFlags = newFlags.strip()
+				newLine = {
+					newCharName: newDialogue, 
+					"_id": newID,
+					"_checkflags": newFlags,
+					"_setflags": line["_setflags"],
+					"_lt": line["_lt"],
+					"_children":line["_children"]}
+				# Just in case, add all other keys
+				for key in line:
+					if (not key in newLine) and key.startswith("_"):
+						newLine[key] = line[key]
+				out2.append(newLine)
+	
+	# Fix the previous links	
+	for line in out2:
+		newChildren = []
+		if "_children" in line:
+			for child in line["_children"]:
+				if child in childLinksToFix:
+					newChildren += childLinksToFix[child]
+				else:
+					newChildren.append(child)
+			line["_children"] = newChildren
+
+
+	return(out2)
 					
 					
 					

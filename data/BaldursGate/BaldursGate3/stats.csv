@@ -1,5 +1,6 @@
 folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
-../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,TOTAL,135072,1838464,415410,2242943,0.5321165433114832,99.13017508217447,6.743642516722233,2176
-../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,male,20799,298866,61814,362238,0.5977103094372698,99.38883967825403,6.477230072797206,23
-../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,female,28784,414207,87321,504232,0.62461189764017,99.0331299667265,6.65655731529242,15
+../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,TOTAL,135072,1838464,415410,2242943,0.5321165433114832,99.13017508217447,6.743642516722233,2047
+../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,male,20673,299387,61629,362892,0.6075554662417133,99.35916227373932,6.469360088929034,23
+../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,female,28517,410759,86725,499582,0.6088178231590895,99.1336143201922,6.643443697081225,15
 ../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,neutral,0,NA,NA,NA,NA,NA,NA,0
+../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,cut,0,NA,NA,NA,NA,NA,NA,0

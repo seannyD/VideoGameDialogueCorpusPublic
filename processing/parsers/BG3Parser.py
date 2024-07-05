@@ -181,9 +181,12 @@ def parseFile(fileName,parameters={},asJSON=False):
 			
 	
 	def parseSpeakerList(speakerData):
-		speakerList = []
+		# speakers are not always listed in order,
+		# so speakerList is a dictionary of speakerIndex (str) -> charName
+		speakerList = {}
 		if "speaker" in speakerData[0]:
 			for speaker in speakerData[0]["speaker"]:
+				indx = speaker["index"]["value"]
 				if "list" in speaker:
 					charID = speaker["list"]["value"]
 					charName = ""
@@ -191,11 +194,11 @@ def parseFile(fileName,parameters={},asJSON=False):
 						charName = charData[charID]['charName']
 					else:
 						charName = charID
-					speakerList.append(charName)
+					speakerList[indx] = charName
 				else:
 					# TODO: e.g. CAMP_Bard_AD.lsj: no 'list' property for speaker list.
 					#  Something to do with mappipngs?
-					speakerList.append("")
+					speakerList[indx] = ""
 					pass
 		return(speakerList)
 
@@ -239,11 +242,12 @@ def parseFile(fileName,parameters={},asJSON=False):
 		
 		speaker = ""
 		if "speaker" in nx:
+			# the speakerIndex is an int, but the speakerList indices are strings
 			speakerIndex = nx["speaker"]["value"]
-			if speakerIndex == -666:
+			if speakerIndex == -666: # TODO: is the 
 				speaker = "Narrator"		
-			elif speakerIndex >= 0 and speakerIndex < len(speakerList):
-				speaker = speakerList[speakerIndex]
+			elif str(speakerIndex) in speakerList:
+				speaker = speakerList[str(speakerIndex)]
 		#print(speaker)
 		
 		

@@ -1,4 +1,4 @@
-import json,pathlib
+import json,pathlib,copy
 from bs4 import BeautifulSoup
 import re,os
 
@@ -25,6 +25,24 @@ DCDict = {"e0a7c461-08bf-459d-9c9a-747008ced85c":50,
 			"96bc76f2-0b2e-4a79-854f-e4971a772c36":"?",
 			"00000000-0000-0000-0000-000000000000":"?",
 			"fa621d38-6f83-4e42-a55c-6aa651a75d46": "?"}
+			
+conditionToTrueCharName = {
+		"|Karlach, Hells' champion. Tiefling origin. Whether or not she's shapeshifted.|": "Karlach",
+		"| Really Astarion, Vampire companion |": "Astarion",
+		"REALLY_GALE": "Gale",
+		"REALLY_LAEZEL": "Lae'zel",
+		"| Lae'zel, the Gith Companion |": "Lae'zel",
+		"|Really Shadowheart|": "Shadowheart",
+		"|Really Wyll, superhero warlock|": "Wyll",
+		"REALLY_MINTHARA": "Minthara",
+		"REALLY_MINSC": "Minsc"
+		# I'm less sure about these:
+		"|Jaheira companion, shapeshifted or not|": "Jaheira",
+		"|Halsin, shapeshifted or not|": "Halsin",
+		"| Astarion, Vampire Companion |": "Astarion",		
+		"|Shadow Heart, Sharite companion|": "Shadowheart",
+		'|Gale companion|': "Gale"
+	}
 
 # TODO: approvalID - what is this?
 # TODO: add localisation handles
@@ -33,7 +51,7 @@ DCDict = {"e0a7c461-08bf-459d-9c9a-747008ced85c":50,
 
 # TODO: DC Dict - lots of missing. these are referenced in raw/STORY/ and raw/STORYDEV/
 
-# TODO: Sometimes the "PC" is a specific character like Astarion, not just a generic PC.
+
 
 def parseFile(fileName,parameters={},asJSON=False):
 	global localisation
@@ -469,7 +487,93 @@ def parseFile(fileName,parameters={},asJSON=False):
 		out += "\n}"
 		print(out)
 		return(out)
-	
+		
+	def identifyWhichOriginCharactersAreShownPCOptions(lines):
+		global seenEdges
+		# Identify which origin characters can speak each PC option.
+		#  To do this, we need to follow the paths and keep track of 
+		#  the possible speakers. Modify the lines in-place to store this info.
+		# If there's only one origin character who can be given these lines,
+		#  then rename PC to that origin character
+		
+		# TODO: There are also lines that exclude characters, e.g.:
+		#	{"PC": "Vampires aren't invincible. We could take him.", "_id": "823bc205-2366-4ff3-9642-d5455ffe91dd", "_checkflags": "CHECK FLAG: |Really Wyll, superhero warlock| [1 / False]\nCHECK FLAG: REALLY_MINSC [1 / False]\nCHECK FLAG: REALLY_LAEZEL [1 / False]", "_setflags": "", "_lt": "TagQuestion", "_children": [
+		
+		# Make dictionary of id to index position,
+		#  so we can index the line directly
+		idToLineIndex = {}
+		for i,line in enumerate(lines):
+			idToLineIndex[line["_id"]] = i
+			
+		def getFlags(line):
+			if "_checkflags" in line:
+				flags = line["_checkflags"]
+				if len(flags)>0:
+					flags = flags.split("\n")
+					flags = [x.split("[",1) for x in flags]
+					flags = [(var.replace("CHECK FLAG: ","").strip(), val.replace("]","").strip()) for var,val in flags]
+					return(flags)
+			# Else
+			return([])
+			
+		
+		def trackPossibleSpeakers(line, currentCharFlags=["PC"]):
+			global seenEdges
+			# Does it have an origin character flag? (could be more than one)
+			flags = getFlags(line)
+			originCharFlags = [conditionToTrueCharName[flagVar] for flagVar,flagVal in flags if flagVar in conditionToTrueCharName and flagVal.count("True")>0]
+			if len(originCharFlags)>0:
+				# if so, update variable (the constraint is overwritten)
+				currentCharFlags = originCharFlags
+			# if the speaker is PC ...
+			speaker = [k for k in line if not k.startswith("_")][0]
+			if speaker == "PC":
+				# ... then add the current char flags to the line
+				if "_posSpk" in line:
+					line["_posSpk"] = list(set(line["_posSpk"]+currentCharFlags))
+				else:
+					line["_posSpk"] = currentCharFlags
+			# Follow paths from the line to all children
+			#  (if we haven't followed the path already)
+			#  (this assumes a markov principle)
+			if "_children" in line:
+				for child in line["_children"]:
+					edge = (line["_id"], child)
+					if not edge in seenEdges:
+						seenEdges.append(edge)
+						trackPossibleSpeakers(lines[idToLineIndex[child]],currentCharFlags)
+		
+		# Keep track of which edges have been seen (global)
+		seenEdges = []
+		# Follow paths from all starting lines
+		for startingLine in [line for line in lines if "ACTION" in line and line["ACTION"]=="START"]:
+			trackPossibleSpeakers(startingLine)
+			
+		# Now the lines have the constraints stored in the "_posSpk" var
+		#  so go through each line and identify whether there's a constraint
+		for line in lines:
+			speaker = [k for k in line if not k.startswith("_")][0]
+			if speaker == "PC" and "_posSpk" in line:
+				 possibleChars = list(set(line["_posSpk"]))
+				 if len(possibleChars) == 1 and not possibleChars[0]=="PC":
+				 	newSpeaker = possibleChars[0]
+				 	# Reorder keys to put dialogue at the start
+				 	copiedLine = copy.deepcopy(line)
+				 	for k in [x for x in line]:
+				 		del line[k]
+				 	line[newSpeaker] = copiedLine[speaker]
+				 	for k in [x for x in copiedLine if x!=speaker]:
+				 		line[k] = copiedLine[k]
+		# TODO: Tidy up by deleting unnecessary "_posSpk" entries
+		for line in lines:
+			if "_posSpk" in line:
+				if list(set(line["_posSpk"])) == ["PC"] or line["_posSpk"] == []:
+					del line["_posSpk"]
+				 	
+	# End of identifyWhichOriginCharactersAreShownPCOptions
+	#############################			 	
+			
+	# Start main loop for processing talk file
 	print(fileName)
 	loadLocalisation()
 	print(len(localisation))
@@ -489,6 +593,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 #	fileNamesToProcess = ['../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/Companions/Astarion_Recruitment.lsj',
 #						  '../data/BaldursGate/BaldursGate3/raw/Mods/GustavDev/Story/Dialogs/Companions/Scratch_SummonUnavailable_PAD.lsj',
 #						  '../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Dialogs/Companions/Minsc_InParty_Nested_PersonalQuestions.lsj']
+#	fileNamesToProcess = ['../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/Camp/Campfire_Moments/CAMP_AstarionHunger_SCO_Companion.lsj']
 	
 	for fileNameToProcess in fileNamesToProcess:
 		#dialogTitle = os.path.basename(fileNameToProcess).replace(".lsj","")
@@ -501,9 +606,18 @@ def parseFile(fileName,parameters={},asJSON=False):
 		#print(list(set([p["constructor"] for p in pnodes])))
 		#nodesToGraphVis(rootNodes,pnodes)
 		
+		lines = nodeToVGDCFormat(rootNodes,pnodes,dialogTitle)
+		
+		# Identify which origin characters can speak each PC option,
+		#  and set the speaker name if it's constrained to only one origin char
+		# (changes are done in-place)
+		identifyWhichOriginCharactersAreShownPCOptions(lines)
+		
+		
 		out.append({"LOCATION": dialogTitle})
 		out.append({"ACTION": synopsis})
-		out += nodeToVGDCFormat(rootNodes,pnodes,dialogTitle)
+		out += lines
+
 
 	if asJSON:
 		print(json.dumps({"text":out}, indent = 4))
@@ -513,26 +627,15 @@ def parseFile(fileName,parameters={},asJSON=False):
 
 def postProcessing(out):
 	print("post-processing")
-	# TODO: find lines of dialogue with "{IF:" statements, split into choices.
+	# Find lines of dialogue with "{IF:" statements, split into separate options.
 	# We'll keep the format of not using the CHOICE structures, 
 	# so this requires finding all the parents and re-directing to the choices.
 	
+	# TODO: Lines like this could be assigned to characters, too?
+	#   though note that it should only happen if the char flag is true [1 / False]
+	# {"PC": "Fine. But not a drop more than you need.", "_id": "a30a564e-7ef7-bd7d-7fcc-40e7c1999166", "_checkflags": "CHECK FLAG: |Karlach, Hells' champion. Tiefling origin. Whether or not she's shapeshifted.| [1 / False]\nCHECK FLAG: REALLY_GALE [1 / False]", "_setflags": "SET FLAG: For an achievement - agree to let Astarion bite you. Doesn't mean he ends up actually succeeding, depending on the origin. [1 / True]", "_lt": "TagQuestion", "_children": [
 	
-	conditionToTrueCharName = {
-		"|Karlach, Hells' champion. Tiefling origin. Whether or not she's shapeshifted.|": "Karlach",
-		"| Really Astarion, Vampire companion |": "Astarion",
-		"REALLY_GALE": "Gale",
-		"REALLY_LAEZEL": "Lae'zel",
-		"|Really Shadowheart|": "Shadowheart",
-		"|Really Wyll, superhero warlock|": "Wyll",
-		"|Jaheira companion, shapeshifted or not|": "Jaheira",
-		"REALLY_MINTHARA": "Minthara",
-		"REALLY_MINSC": "Minsc"
-		# Halsin?
-	}
-	
-	
-	
+
 	out2 = []
 	childLinksToFix = {}
 	for line in out:
@@ -546,7 +649,9 @@ def postProcessing(out):
 				newDialogue = part
 				condition = ""
 				if newDialogue.count("{IF:")>0:
-					condition = newDialogue[newDialogue.index("{IF:")+4:-2].strip()
+					condition = newDialogue[newDialogue.index("{IF:")+4:-1].strip()
+					if condition.endswith("}"):
+						condition = condition[:-1].strip()
 					newDialogue = newDialogue[:newDialogue.index("{IF:")].strip()
 				newID = line["_id"]+"-"+str(i)
 				# Track links to change parents later

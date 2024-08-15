@@ -132,7 +132,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 			return(outx)
 
 	visitedIDs = []
-	out = [{"ACTION":"FILE: "+fileName}]
+	out = [{"LOCATION":"FILE: "+fileName}]
 	
 	for st in startingList:
 		stx = getOutFromLabel(st)

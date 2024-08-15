@@ -73,7 +73,7 @@ for folder in foldersToProcess:
 			
 			print((folder,len(gameData)))
 			if len(gameData)>0:
-				data += random.choices(gameData,k=10)
+				data += random.choices(gameData,k=20)
 			
 		else:
 			print("No main char for "+folder)
@@ -84,8 +84,8 @@ for g in gamesPresent:
 	print(g + " " + str(gamesPresent[g]))
 print(len(gamesPresent))
 
-if False:
-	with open('../data/ALL/ChoiceSample.csv', 'w') as csvfile:
+if True:
+	with open('../data/ALL/ChoiceSample2.csv', 'w') as csvfile:
 		csvwriter = csv.writer(csvfile)
 		csvwriter.writerow(["folder","game","prevLine","choices"])
 		for folder,game,prevLine,choices in data:
@@ -93,6 +93,8 @@ if False:
 			charName = getCharName(choices[0])
 			choiceDialogue = [x[getCharName(x)] for x in choices]
 			csvwriter.writerow([folder,game,prevLine,charName]+choiceDialogue)
+
+
 
 ###############################
 # Custom for Mass Effect

@@ -1,3 +1,5 @@
+# TODO: see https://aclanthology.org/W16-0204.pdf
+
 # Running in python3.10
 import os,json,csv
 from tqdm import tqdm
@@ -29,7 +31,7 @@ def lemmatiseText(text):
 # tropeWordFreq[tropeName][word] = wordFreq
 tropeWordFreq = {}
 
-for folder in foldersToProcess[3:4]:
+for folder in foldersToProcess:
 	tropeDataFile = folder+"tropeData.csv"
 	if os.path.isfile(tropeDataFile):
 		print(folder)
@@ -44,18 +46,6 @@ for folder in foldersToProcess[3:4]:
 			for char in meta["characterGroups"][group]:
 				genderDict[char] = group
 				
-		# Get dialogue
-		with open(folder+"data.json") as json_file:
-			d = json.load(json_file)["text"]
-		
-		# Lemmatise dialogue
-		print("  Lemmatising ...")
-		charTexts = getAllCharacterTexts(d,getNames=True)
-		charTextsLemmaTokens = []
-		ctx = [x for x in charTexts]
-		for char,text in tqdm(ctx):
-			charTextsLemmaTokens.append([char,lemmatiseText(text)])
-		
 		# Load trope data
 		tropeHeader = []
 		tropes = []
@@ -66,16 +56,36 @@ for folder in foldersToProcess[3:4]:
 					tropeHeader = row
 				else:
 					tropes.append(dict(zip(tropeHeader,row)))
-		
 		# Make dictionary of trope to chars:
 		trope2char = {}
+		charsThatHaveTropes = []
 		for tx in tropes:
-			try:
-				trope2char[tx["tropeName"]].append(tx["VGDCName"])
-			except:
-				trope2char[tx["tropeName"]] = [tx["VGDCName"]]
+			charName = tx["VGDCName"]
+			if charName in genderDict:
+				try:
+					trope2char[tx["tropeName"]].append(charName)
+				except:
+					trope2char[tx["tropeName"]] = [charName]
+				if not charName in charsThatHaveTropes:
+					charsThatHaveTropes.append(charName)
+				
+		# Get dialogue
+		with open(folder+"data.json") as json_file:
+			d = json.load(json_file)["text"]
 		
+		# Lemmatise dialogue
+		print("  Lemmatising ...")
+		charTexts = getAllCharacterTexts(d,getNames=True)
+		charTextsLemmaTokens = {}
+		ctx = [x for x in charTexts]
+		for char,text in tqdm(ctx):
+			if char in charsThatHaveTropes:
+				charTextsLemmaTokens[char] = lemmatiseText(text)
+		
+			
 		# Add to frequency dictionaries
+		# (might be more efficient to do one character at a time?)
+		# ( and maybe only characters that actually appear in the trope data?)
 		print("  Updating frequency dictionary ...")
 		tropes = [x for x in trope2char]
 		for trope in tqdm(tropes):
@@ -83,15 +93,17 @@ for folder in foldersToProcess[3:4]:
 				tropeWordFreq[trope] = {}
 			charsWithTrope = trope2char[trope]
 			wordsWithTrope = []
-			for chat,lemmas in charTextsLemmaTokens:
-				wordsWithTrope += lemmas
-			for word in wordsWithTrope:
-				if not word in tropeWordFreq[trope]:
-					tropeWordFreq[trope][word] = 0
-				tropeWordFreq[trope][word] += 1
+			# get frequency for characters with the trope
+			for char in charsWithTrope:
+				if char in charTextsLemmaTokens:
+					for lemma in charTextsLemmaTokens[char]:
+						if not lemma in tropeWordFreq[trope]:
+							tropeWordFreq[trope][lemma] = 0
+						tropeWordFreq[trope][lemma] += 1
 		
 # Output
 # Get all words for all tropes
+# (this is a very inefficient format, because the matrix is very sparse)
 allWords = {}
 for trope in tropeWordFreq:
 	for word in tropeWordFreq[trope]:
@@ -99,7 +111,7 @@ for trope in tropeWordFreq:
 allWords = [x for x in allWords.keys()]
 
 # csv output, starting with row header
-out = [["trope"] + allWords]
+out = [[".TROPE"] + allWords]
 for trope in tropeWordFreq:
 	row = [trope]
 	for word in allWords:

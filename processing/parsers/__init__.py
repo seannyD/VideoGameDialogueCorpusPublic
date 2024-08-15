@@ -51,3 +51,4 @@ from parsers import RogueStateParser
 from parsers import DragonAgeInqParser
 from parsers import BG3Parser
 from parsers import DeathStrandingParser
+from parsers import FireEmblem3HParser

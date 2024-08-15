@@ -35,7 +35,7 @@ conditionToTrueCharName = {
 		"|Really Shadowheart|": "Shadowheart",
 		"|Really Wyll, superhero warlock|": "Wyll",
 		"REALLY_MINTHARA": "Minthara",
-		"REALLY_MINSC": "Minsc"
+		"REALLY_MINSC": "Minsc",
 		# I'm less sure about these:
 		"|Jaheira companion, shapeshifted or not|": "Jaheira",
 		"|Halsin, shapeshifted or not|": "Halsin",

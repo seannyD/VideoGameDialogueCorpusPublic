@@ -1,0 +1,34 @@
+{
+	"game": "Fire Emblem: Three Houses",
+	"series": "Fire Emblem",
+	"year": 2019,
+	"status": "in progress",
+	"alternativeMeasure": true,
+	"source": "https://houses.fedatamine.com",
+	"sourceFeatures": {
+		"type": "game data",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "complete"
+	},
+	"parserParameters": {
+		"parser": "FireEmblem3HParser",
+		"fileType": ".html"
+	},
+	"mainPlayerCharacters": ["Byleth"],
+	"characterGroups": {
+		"male": [
+	
+		],
+		"female": [
+
+		],
+		"neutral": [
+
+		]
+
+	},
+	"aliases": {
+		
+	}
+}

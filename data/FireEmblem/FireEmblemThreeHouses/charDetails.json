@@ -1,0 +1,556 @@
+{
+    "Byleth": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Male",
+        "Age": "21",
+        "Height": "175 cm, 175 cmByleth: 164 cm, 164 cm",
+        "charNumber": "0",
+        "fullName": "Byleth"
+    },
+    "Annette": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Gender": "Female",
+        "Age": "16",
+        "Height": "151 cm, 153 cm",
+        "Birthday": "5/9 (Harpstring Moon)",
+        "charNumber": "17",
+        "fullName": "Annette Fantine Dominic"
+    },
+    "Anna": {
+        "Affiliation": "Independents",
+        "Height": "168 cm, 168 cm",
+        "charNumber": "48",
+        "fullName": "Anna",
+        "Gender": "Female",
+        "Age": "25",
+        "Birthday": "6/9 (Garland Moon)"
+    },
+    "Fleche": {
+        "Affiliation": "Adrestian Empire",
+        "Height": "155 cm, 155 cm",
+        "charNumber": "74",
+        "fullName": "Fleche von Bergliez"
+    },
+    "Dimitri": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Gender": "Male",
+        "Age": "17",
+        "Height": "180 cm, 188 cmDimitri (child): 145 cm, 145 cm",
+        "Birthday": "12/20 (Ethereal Moon)",
+        "charNumber": "3",
+        "fullName": "Dimitri Alexandre Blaiddyd"
+    },
+    "Flame Emperor": {
+        "Affiliation": "Flame Emperor Army",
+        "Gender": "Female",
+        "Height": "170 cm, 170 cm",
+        "charNumber": "47",
+        "fullName": "Flame Emperor"
+    },
+    "Hanneman": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Male",
+        "Age": "51",
+        "Height": "190 cm, 190 cm",
+        "Birthday": "2/8 (Pegasus Moon)",
+        "charNumber": "28",
+        "fullName": "Hanneman von Essar"
+    },
+    "Rodrigue": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Height": "182 cm, 182 cm",
+        "charNumber": "50",
+        "fullName": "Rodrigue Achille Fraldarius"
+    },
+    "Flayn": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Female",
+        "Age": "17",
+        "Height": "151 cm, 151 cm",
+        "Birthday": "7/12 (Blue Sea Moon)",
+        "charNumber": "27",
+        "fullName": "Flayn"
+    },
+    "Judith": {
+        "Affiliation": "Leicester Alliance",
+        "Gender": "Female",
+        "Height": "171 cm, 171 cm",
+        "charNumber": "51",
+        "fullName": "Judith von Daphnel"
+    },
+    "Raphael": {
+        "Affiliation": "Leicester Alliance",
+        "Gender": "Male",
+        "Age": "17",
+        "Height": "190 cm, 190 cm",
+        "Birthday": "5/18 (Harpstring Moon)",
+        "charNumber": "20",
+        "fullName": "Raphael Kirsten"
+    },
+    "Lord Arundel": {
+        "Affiliation": "Adrestian Empire",
+        "Height": "186 cm, 186 cm",
+        "charNumber": "54",
+        "fullName": "Lord Arundel"
+    },
+    "Shamir": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Female",
+        "Age": "25",
+        "Height": "169 cm, 169 cm",
+        "Birthday": "3/27 (Lone Moon)",
+        "charNumber": "33",
+        "fullName": "Shamir Nevrand"
+    },
+    "Lorenz": {
+        "Affiliation": "Leicester Alliance",
+        "Gender": "Male",
+        "Age": "18",
+        "Height": "188 cm, 188 cm",
+        "Birthday": "6/13 (Garland Moon)",
+        "charNumber": "19",
+        "fullName": "Lorenz Hellman Gloucester"
+    },
+    "Yuri": {
+        "Affiliation": "Underground Residents",
+        "Gender": "Male",
+        "Age": "19",
+        "Height": "171 cm, 171 cm",
+        "Birthday": "8/12 (Verdant Rain Moon)",
+        "charNumber": "1040",
+        "fullName": "Yuri Leclerc"
+    },
+    "Hapi": {
+        "Affiliation": "Underground Residents",
+        "Gender": "Female",
+        "Height": "169 cm, 169 cm",
+        "Birthday": "1/15 (Guardian Moon)",
+        "charNumber": "1043",
+        "fullName": "Hapi"
+    },
+    "Leonie": {
+        "Affiliation": "Leicester Alliance",
+        "Gender": "Female",
+        "Age": "19",
+        "Height": "168 cm, 168 cm",
+        "Birthday": "8/21 (Verdant Rain Moon)",
+        "charNumber": "25",
+        "fullName": "Leonie Pinelli"
+    },
+    "Emperor Ionius IX": {
+        "Affiliation": "Adrestian Empire",
+        "Height": "179 cm, 179 cm",
+        "charNumber": "72",
+        "fullName": "Emperor Ionius IX"
+    },
+    "Gilbert": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Male",
+        "Age": "55",
+        "Height": "186 cm, 186 cm",
+        "Birthday": "1/26 (Guardian Moon)",
+        "charNumber": "30",
+        "fullName": "Gilbert Pronislav"
+    },
+    "Linhardt": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Male",
+        "Age": "16",
+        "Height": "177 cm, 177 cm",
+        "Birthday": "11/7 (Red Wolf Moon)",
+        "charNumber": "7",
+        "fullName": "Linhardt von Hevring"
+    },
+    "Edelgard": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Female",
+        "Age": "17",
+        "Height": "158 cm, 158 cmEdelgard (child): 141 cm, 141 cmFlame Emperor: 170 cm, 170 cm",
+        "Birthday": "6/22 (Garland Moon)",
+        "charNumber": "2",
+        "fullName": "Edelgard von Hresvelg"
+    },
+    "Cornelia": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Gender": "Female",
+        "Age": "30",
+        "Height": "168 cm, 168 cm",
+        "charNumber": "41",
+        "fullName": "Cornelia Arnim"
+    },
+    "Solon": {
+        "Affiliation": "Those Who Slither in the Dark",
+        "Age": "73",
+        "Height": "176 cm, 176 cm",
+        "charNumber": "39",
+        "fullName": "Solon"
+    },
+    "Ingrid": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Gender": "Female",
+        "Age": "17",
+        "Height": "165 cm, 165 cm",
+        "Birthday": "1/4 (Guardian Moon)",
+        "charNumber": "18",
+        "fullName": "Ingrid Brandl Galatea"
+    },
+    "Balthus": {
+        "Affiliation": "Underground Residents",
+        "Gender": "Male",
+        "Age": "26",
+        "Height": "198 cm, 198 cm",
+        "Birthday": "7/9 (Blue Sea Moon)",
+        "charNumber": "1041",
+        "fullName": "Balthus von Albrecht"
+    },
+    "Rhea": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Female",
+        "Age": "28",
+        "Height": "172 cm, 172 cm",
+        "charNumber": "36",
+        "fullName": "Rhea"
+    },
+    "Sothis": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Female",
+        "Age": "9",
+        "Height": "135 cm, 135 cm",
+        "charNumber": "37",
+        "fullName": "Sothis"
+    },
+    "Jeritza": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Male",
+        "Age": "21",
+        "Height": "193 cm, 193 cm",
+        "Birthday": "3/4 (Lone Moon)",
+        "charNumber": "1045",
+        "fullName": "Jeritza von Hrym"
+    },
+    "Kostas": {
+        "Affiliation": "Thieves",
+        "Height": "183 cm, 183 cm",
+        "charNumber": "43",
+        "fullName": "Kostas"
+    },
+    "Nemesis": {
+        "Affiliation": "Liberation Army",
+        "Height": "202 cm, 202 cm",
+        "charNumber": "56",
+        "fullName": "Nemesis"
+    },
+    "Catherine": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Female",
+        "Age": "27",
+        "Height": "175 cm, 175 cm",
+        "Birthday": "9/15 (Horsebow Moon)",
+        "charNumber": "32",
+        "fullName": "Catherine"
+    },
+    "Nader": {
+        "Affiliation": "Almyra",
+        "Height": "185 cm, 185 cm",
+        "charNumber": "52",
+        "fullName": "Nader"
+    },
+    "Metodey": {
+        "Affiliation": "Adrestian Empire",
+        "Height": "180 cm, 180 cm",
+        "charNumber": "80",
+        "fullName": "Metodey"
+    },
+    "Gwendal": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Height": "171 cm, 171 cm",
+        "charNumber": "82",
+        "fullName": "Gwendal"
+    },
+    "Pallard%C3%B3": {
+        "Affiliation": "Bandits",
+        "Height": "171 cm, 171 cm",
+        "charNumber": "84",
+        "fullName": "Pallardó"
+    },
+    "Hubert": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Male",
+        "Age": "19",
+        "Height": "188 cm, 188 cm",
+        "Birthday": "4/17 (Great Tree Moon)",
+        "charNumber": "5",
+        "fullName": "Hubert von Vestra"
+    },
+    "Monica": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Female",
+        "Height": "157 cm, 157 cm",
+        "charNumber": "53",
+        "fullName": "Monica von Ochs"
+    },
+    "Ashe": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Gender": "Male",
+        "Age": "16",
+        "Height": "164 cm, 174 cm",
+        "Birthday": "10/17 (Wyvern Moon)",
+        "charNumber": "14",
+        "fullName": "Ashe Ubert"
+    },
+    "Seteth": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Male",
+        "Age": "26",
+        "Height": "182 cm, 182 cm",
+        "Birthday": "12/27 (Ethereal Moon)",
+        "charNumber": "26",
+        "fullName": "Seteth"
+    },
+    "Cyril": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Male",
+        "Age": "14",
+        "Height": "148 cm, 168 cm",
+        "Birthday": "10/25 (Wyvern Moon)",
+        "charNumber": "34",
+        "fullName": "Cyril"
+    },
+    "Thales": {
+        "Affiliation": "Those Who Slither in the Dark",
+        "Age": "48",
+        "Height": "186 cm, 186 cm",
+        "charNumber": "40",
+        "fullName": "Thales"
+    },
+    "Randolph": {
+        "Affiliation": "Adrestian Empire",
+        "Height": "178 cm, 178 cm",
+        "charNumber": "46",
+        "fullName": "Randolph von Bergliez"
+    },
+    "Felix": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Gender": "Male",
+        "Age": "17",
+        "Height": "174 cm, 174 cm",
+        "Birthday": "2/20 (Pegasus Moon)",
+        "charNumber": "13",
+        "fullName": "Felix Hugo Fraldarius"
+    },
+    "Kronya": {
+        "Affiliation": "Those Who Slither in the Dark",
+        "Gender": "Female",
+        "Age": "18",
+        "Height": "157 cm, 157 cm",
+        "charNumber": "38",
+        "fullName": "Kronya"
+    },
+    "Mercedes": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Gender": "Female",
+        "Age": "22",
+        "Height": "169 cm, 169 cm",
+        "Birthday": "5/27 (Harpstring Moon)",
+        "charNumber": "16",
+        "fullName": "Mercedes von Martritz"
+    },
+    "Marianne": {
+        "Affiliation": "Leicester Alliance",
+        "Gender": "Female",
+        "Age": "17",
+        "Height": "163 cm, 163 cm",
+        "Birthday": "11/23 (Red Wolf Moon)",
+        "charNumber": "23",
+        "fullName": "Marianne von Edmund"
+    },
+    "Hilda": {
+        "Affiliation": "Leicester Alliance",
+        "Gender": "Female",
+        "Age": "18",
+        "Height": "154 cm, 154 cm",
+        "Birthday": "2/3 (Pegasus Moon)",
+        "charNumber": "24",
+        "fullName": "Hilda Valentine Goneril"
+    },
+    "Ladislava": {
+        "Affiliation": "Adrestian Empire",
+        "Height": "177 cm, 177 cm",
+        "charNumber": "81",
+        "fullName": "Ladislava"
+    },
+    "Manuela": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Female",
+        "Age": "34",
+        "Height": "172 cm, 172 cm",
+        "Birthday": "8/3 (Verdant Rain Moon)",
+        "charNumber": "29",
+        "fullName": "Manuela Casagranda"
+    },
+    "Dedue": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Gender": "Male",
+        "Age": "18",
+        "Height": "204 cm, 204 cm",
+        "Birthday": "8/31 (Verdant Rain Moon)",
+        "charNumber": "12",
+        "fullName": "Dedue Molinaro"
+    },
+    "Constance": {
+        "Affiliation": "Underground Residents",
+        "Gender": "Female",
+        "Age": "18",
+        "Height": "164 cm, 164 cm",
+        "Birthday": "3/20 (Lone Moon)",
+        "charNumber": "1042",
+        "fullName": "Constance von Nuvelle"
+    },
+    "Lysithea": {
+        "Affiliation": "Leicester Alliance",
+        "Gender": "Female",
+        "Age": "15",
+        "Height": "148 cm, 160 cm",
+        "Birthday": "2/28 (Pegasus Moon)",
+        "charNumber": "22",
+        "fullName": "Lysithea von Ordelia"
+    },
+    "Duke Aegir": {
+        "Affiliation": "Adrestian Empire",
+        "Height": "164 cm, 164 cm",
+        "charNumber": "73",
+        "fullName": "Duke Aegir"
+    },
+    "Jeralt": {
+        "Affiliation": "Church of Seiros",
+        "Age": "45",
+        "Height": "185 cm, 185 cm",
+        "charNumber": "35",
+        "fullName": "Jeralt Reus Eisner"
+    },
+    "Ignatz": {
+        "Affiliation": "Leicester Alliance",
+        "Gender": "Male",
+        "Age": "17",
+        "Height": "164 cm, 168 cm",
+        "Birthday": "3/14 (Lone Moon)",
+        "charNumber": "21",
+        "fullName": "Ignatz Victor"
+    },
+    "Death Knight": {
+        "Affiliation": "Flame Emperor Army",
+        "Height": "193 cm, 193 cm",
+        "charNumber": "42",
+        "fullName": "Death Knight"
+    },
+    "Miklan": {
+        "Affiliation": "Thieves",
+        "Height": "188 cm, 188 cm",
+        "charNumber": "45",
+        "fullName": "Miklan Anschutz​ Gautier"
+    },
+    "Sylvain": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Gender": "Male",
+        "Age": "19",
+        "Height": "186 cm, 186 cm",
+        "Birthday": "6/5 (Garland Moon)",
+        "charNumber": "15",
+        "fullName": "Sylvain Jose Gautier"
+    },
+    "Tomas": {
+        "Affiliation": "Church of Seiros",
+        "Height": "176 cm, 176 cm",
+        "charNumber": "55",
+        "fullName": "Tomas"
+    },
+    "Caspar": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Male",
+        "Age": "16",
+        "Height": "159 cm, 173 cm",
+        "Birthday": "7/1 (Blue Sea Moon)",
+        "charNumber": "8",
+        "fullName": "Caspar von Bergliez"
+    },
+    "Dorothea": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Female",
+        "Age": "18",
+        "Height": "170 cm, 170 cm",
+        "Birthday": "9/29 (Horsebow Moon)",
+        "charNumber": "10",
+        "fullName": "Dorothea Arnault"
+    },
+    "Acheron": {
+        "Affiliation": "Leicester Alliance",
+        "Height": "162 cm, 162 cm",
+        "charNumber": "83",
+        "fullName": "Acheron"
+    },
+    "Petra": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Female",
+        "Age": "15",
+        "Height": "161 cm, 161 cm",
+        "Birthday": "9/7 (Horsebow Moon)",
+        "charNumber": "11",
+        "fullName": "Petra Macneary"
+    },
+    "Lonato": {
+        "Affiliation": "Rebel Army",
+        "Height": "176 cm, 176 cm",
+        "charNumber": "44",
+        "fullName": "Lonato Gildas Gaspard"
+    },
+    "Aelfric": {
+        "Affiliation": "Church of Seiros",
+        "Age": "38",
+        "Height": "182 cm, 182 cm",
+        "Birthday": "4/30 (Great Tree Moon)",
+        "charNumber": "1044",
+        "fullName": "Aelfric Dahlman"
+    },
+    "Claude": {
+        "Affiliation": "Leicester Alliance",
+        "Gender": "Male",
+        "Age": "17",
+        "Height": "175 cm, 175 cm",
+        "Birthday": "7/24 (Blue Sea Moon)",
+        "charNumber": "4",
+        "fullName": "Claude von Riegan"
+    },
+    "Lambert": {
+        "Affiliation": "Holy Kingdom of Faerghus",
+        "Height": "190 cm, 190 cm",
+        "charNumber": "75",
+        "fullName": "Lambert Egitte Blaiddyd"
+    },
+    "Bernadetta": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Female",
+        "Age": "17",
+        "Height": "150 cm, 165 cm",
+        "Birthday": "12/12 (Ethereal Moon)",
+        "charNumber": "9",
+        "fullName": "Bernadetta von Varley"
+    },
+    "Ferdinand": {
+        "Affiliation": "Adrestian Empire",
+        "Gender": "Male",
+        "Age": "17",
+        "Height": "175 cm, 180 cm",
+        "Birthday": "4/30 (Great Tree Moon)",
+        "charNumber": "6",
+        "fullName": "Ferdinand von Aegir"
+    },
+    "Alois": {
+        "Affiliation": "Church of Seiros",
+        "Gender": "Male",
+        "Age": "44",
+        "Height": "174 cm, 174 cm",
+        "Birthday": "12/1 (Ethereal Moon)",
+        "charNumber": "31",
+        "fullName": "Alois Rangeld"
+    }
+}

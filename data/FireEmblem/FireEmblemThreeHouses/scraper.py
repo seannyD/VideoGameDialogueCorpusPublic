@@ -49,3 +49,61 @@ for cat,maxi in pageCategories:
 					file.write("")				
 			time.sleep(2)
 	
+# Support conversations
+allLinks = []
+supportLinksFile = "raw/en-uk/links/supportLinks.txt"
+if not os.path.exists(supportLinksFile):
+	supportIndex = openPage("https://houses.fedatamine.com/en-uk/supports/")
+	links = supportIndex.find_all("a")
+	links = [x["href"] for x in links if x["href"].startswith("/en-uk/supports/")]
+	links = list(set(links))
+
+	allLinks = []
+	for link in links:
+		html = ""
+		blinkFileName = "raw/en-uk/links/"+link.replace("/","_")[1:]
+		if os.path.exists(blinkFileName):
+			p = open(blinkFileName).read()
+			linkIndex = BeautifulSoup(p, 'lxml')
+			linkIndex = linkIndex.find("main")
+		else:
+			print("https://houses.fedatamine.com" + link)
+			linkIndex = openPage("https://houses.fedatamine.com" + link)
+			time.sleep(2)
+			with open(blinkFileName, "w") as file:
+				file.write(str(linkIndex))				
+		bLinks= linkIndex.find_all("a")
+		allLinks += [x["href"] for x in bLinks if x["href"].startswith("/en-uk/supports/")]
+	allLinks = list(set(allLinks))
+	with open(supportLinksFile, "w") as file:
+		file.write("\n".join(allLinks))
+else:
+	allLinks = open(supportLinksFile).read().split("\n")
+
+print("Downloading support pages")
+for link in allLinks:
+	fileName = "raw/en-uk/supports/"+link.replace("/","_")[1:]+".html"
+	if not os.path.exists(fileName):
+		print(link)
+		supportPage = openPage("https://houses.fedatamine.com" + link)
+		time.sleep(1)
+		with open(fileName, "w") as file:
+			file.write(str(supportPage))	
+
+# Battles
+battleIndexURL = "https://houses.fedatamine.com/en-uk/battles/"
+battleIndex = openPage(battleIndexURL)
+battleLinks = [x['href'] for x in battleIndex.find_all("a") if x['href'].startswith("/en-uk/battles/")]
+
+print("Downloading battle pages")
+for link in battleLinks:
+	battleFileName = "raw/en-uk/battles/"+link.replace("/","_")[1:]+".html"
+	battlePage = None
+	if not os.path.exists(battleFileName):
+		print("https://houses.fedatamine.com" + link)
+		battlePage = openPage("https://houses.fedatamine.com" + link)
+		time.sleep(2)
+		with open(battleFileName, "w") as file:
+			file.write(str(battlePage))				
+	
+

@@ -1,0 +1,4087 @@
+{
+    "face_school/0/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/1/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/2/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/3/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/4/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/5/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/394/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/395/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/396/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/397/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/398/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/399/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/0/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/0/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/0/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/69/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/6/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/7/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/8/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/9/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/10/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/11/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/400/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/401/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/402/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/403/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/404/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/405/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/1/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/1/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/1/0.png": {
+        "charShortName": "Byleth",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/70/0.png": {
+        "charShortName": "Byleth",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/107/0.png": {
+        "charShortName": "Annette",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/108/0.png": {
+        "charShortName": "Annette",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/109/0.png": {
+        "charShortName": "Annette",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/110/0.png": {
+        "charShortName": "Annette",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/111/0.png": {
+        "charShortName": "Annette",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/112/0.png": {
+        "charShortName": "Annette",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/506/0.png": {
+        "charShortName": "Annette",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/507/0.png": {
+        "charShortName": "Annette",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/508/0.png": {
+        "charShortName": "Annette",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/509/0.png": {
+        "charShortName": "Annette",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/510/0.png": {
+        "charShortName": "Annette",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/511/0.png": {
+        "charShortName": "Annette",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/17/0.png": {
+        "charShortName": "Annette",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/17/0.png": {
+        "charShortName": "Annette",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/17/0.png": {
+        "charShortName": "Annette",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/86/0.png": {
+        "charShortName": "Annette",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/288/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/289/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/290/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/291/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/292/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/293/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "shy"
+    },
+    "portrait_bust/48/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/351/0.png": {
+        "charShortName": "Fleche",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/352/0.png": {
+        "charShortName": "Fleche",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/353/0.png": {
+        "charShortName": "Fleche",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/354/0.png": {
+        "charShortName": "Fleche",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/355/0.png": {
+        "charShortName": "Fleche",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/356/0.png": {
+        "charShortName": "Fleche",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/18/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/19/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/20/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/21/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/22/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/23/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/412/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/413/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/414/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/415/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/416/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/417/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "shy"
+    },
+    "face_school/418/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "special1"
+    },
+    "face_school/419/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "special2"
+    },
+    "face_school/420/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "special3"
+    },
+    "face_school/421/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "special4"
+    },
+    "face_school/422/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": "special5"
+    },
+    "torso_school/3/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/3/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": ""
+    },
+    "torso_war/38/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/3/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/72/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/96/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/97/0.png": {
+        "charShortName": "Dimitri",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/334/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/335/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/336/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/337/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/338/0.png": {
+        "charShortName": "Dimitri",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/283/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/284/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/285/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/286/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/287/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/47/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/177/0.png": {
+        "charShortName": "Hanneman",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/178/0.png": {
+        "charShortName": "Hanneman",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/179/0.png": {
+        "charShortName": "Hanneman",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/180/0.png": {
+        "charShortName": "Hanneman",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/181/0.png": {
+        "charShortName": "Hanneman",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/182/0.png": {
+        "charShortName": "Hanneman",
+        "part": "I",
+        "emot": "shy"
+    },
+    "torso_school/28/0.png": {
+        "charShortName": "Hanneman",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/28/0.png": {
+        "charShortName": "Hanneman",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/28/0.png": {
+        "charShortName": "Hanneman",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/296/0.png": {
+        "charShortName": "Rodrigue",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/297/0.png": {
+        "charShortName": "Rodrigue",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/298/0.png": {
+        "charShortName": "Rodrigue",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/299/0.png": {
+        "charShortName": "Rodrigue",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/300/0.png": {
+        "charShortName": "Rodrigue",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/50/0.png": {
+        "charShortName": "Rodrigue",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/171/0.png": {
+        "charShortName": "Flayn",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/172/0.png": {
+        "charShortName": "Flayn",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/173/0.png": {
+        "charShortName": "Flayn",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/174/0.png": {
+        "charShortName": "Flayn",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/175/0.png": {
+        "charShortName": "Flayn",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/176/0.png": {
+        "charShortName": "Flayn",
+        "part": "I",
+        "emot": "shy"
+    },
+    "torso_school/27/0.png": {
+        "charShortName": "Flayn",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/27/0.png": {
+        "charShortName": "Flayn",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/27/0.png": {
+        "charShortName": "Flayn",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/301/0.png": {
+        "charShortName": "Judith",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/302/0.png": {
+        "charShortName": "Judith",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/303/0.png": {
+        "charShortName": "Judith",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/304/0.png": {
+        "charShortName": "Judith",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/305/0.png": {
+        "charShortName": "Judith",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/51/0.png": {
+        "charShortName": "Judith",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/125/0.png": {
+        "charShortName": "Raphael",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/126/0.png": {
+        "charShortName": "Raphael",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/127/0.png": {
+        "charShortName": "Raphael",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/128/0.png": {
+        "charShortName": "Raphael",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/129/0.png": {
+        "charShortName": "Raphael",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/130/0.png": {
+        "charShortName": "Raphael",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/524/0.png": {
+        "charShortName": "Raphael",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/525/0.png": {
+        "charShortName": "Raphael",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/526/0.png": {
+        "charShortName": "Raphael",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/527/0.png": {
+        "charShortName": "Raphael",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/528/0.png": {
+        "charShortName": "Raphael",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/529/0.png": {
+        "charShortName": "Raphael",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/20/0.png": {
+        "charShortName": "Raphael",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/20/0.png": {
+        "charShortName": "Raphael",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/20/0.png": {
+        "charShortName": "Raphael",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/89/0.png": {
+        "charShortName": "Raphael",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/316/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/317/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/318/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/319/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/320/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/54/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/208/0.png": {
+        "charShortName": "Shamir",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/209/0.png": {
+        "charShortName": "Shamir",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/210/0.png": {
+        "charShortName": "Shamir",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/211/0.png": {
+        "charShortName": "Shamir",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/212/0.png": {
+        "charShortName": "Shamir",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/213/0.png": {
+        "charShortName": "Shamir",
+        "part": "I",
+        "emot": "shy"
+    },
+    "torso_school/33/0.png": {
+        "charShortName": "Shamir",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/33/0.png": {
+        "charShortName": "Shamir",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/33/0.png": {
+        "charShortName": "Shamir",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/119/0.png": {
+        "charShortName": "Lorenz",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/120/0.png": {
+        "charShortName": "Lorenz",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/121/0.png": {
+        "charShortName": "Lorenz",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/122/0.png": {
+        "charShortName": "Lorenz",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/123/0.png": {
+        "charShortName": "Lorenz",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/124/0.png": {
+        "charShortName": "Lorenz",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/518/0.png": {
+        "charShortName": "Lorenz",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/519/0.png": {
+        "charShortName": "Lorenz",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/520/0.png": {
+        "charShortName": "Lorenz",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/521/0.png": {
+        "charShortName": "Lorenz",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/522/0.png": {
+        "charShortName": "Lorenz",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/523/0.png": {
+        "charShortName": "Lorenz",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/19/0.png": {
+        "charShortName": "Lorenz",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/19/0.png": {
+        "charShortName": "Lorenz",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/19/0.png": {
+        "charShortName": "Lorenz",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/88/0.png": {
+        "charShortName": "Lorenz",
+        "part": "II",
+        "emot": ""
+    },
+    "dlc/face_school_normal_DLC/13/0.png": {
+        "charShortName": "Yuri",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/14/0.png": {
+        "charShortName": "Yuri",
+        "part": "I",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/15/0.png": {
+        "charShortName": "Yuri",
+        "part": "I",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/16/0.png": {
+        "charShortName": "Yuri",
+        "part": "I",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/17/0.png": {
+        "charShortName": "Yuri",
+        "part": "I",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/18/0.png": {
+        "charShortName": "Yuri",
+        "part": "I",
+        "emot": "shy"
+    },
+    "dlc/face_school_normal_DLC/48/0.png": {
+        "charShortName": "Yuri",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/49/0.png": {
+        "charShortName": "Yuri",
+        "part": "II",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/50/0.png": {
+        "charShortName": "Yuri",
+        "part": "II",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/51/0.png": {
+        "charShortName": "Yuri",
+        "part": "II",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/52/0.png": {
+        "charShortName": "Yuri",
+        "part": "II",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/53/0.png": {
+        "charShortName": "Yuri",
+        "part": "II",
+        "emot": "shy"
+    },
+    "dlc/face_school_card_DLC/0/0.png": {
+        "charShortName": "Yuri",
+        "part": "I",
+        "emot": ""
+    },
+    "dlc/face_war_card_DLC/0/0.png": {
+        "charShortName": "Yuri",
+        "part": "II",
+        "emot": ""
+    },
+    "dlc/face_school_normal_DLC/37/0.png": {
+        "charShortName": "Hapi",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/38/0.png": {
+        "charShortName": "Hapi",
+        "part": "I",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/39/0.png": {
+        "charShortName": "Hapi",
+        "part": "I",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/40/0.png": {
+        "charShortName": "Hapi",
+        "part": "I",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/41/0.png": {
+        "charShortName": "Hapi",
+        "part": "I",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/42/0.png": {
+        "charShortName": "Hapi",
+        "part": "I",
+        "emot": "shy"
+    },
+    "dlc/face_school_normal_DLC/72/0.png": {
+        "charShortName": "Hapi",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/73/0.png": {
+        "charShortName": "Hapi",
+        "part": "II",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/74/0.png": {
+        "charShortName": "Hapi",
+        "part": "II",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/75/0.png": {
+        "charShortName": "Hapi",
+        "part": "II",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/76/0.png": {
+        "charShortName": "Hapi",
+        "part": "II",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/77/0.png": {
+        "charShortName": "Hapi",
+        "part": "II",
+        "emot": "shy"
+    },
+    "dlc/face_school_card_DLC/3/0.png": {
+        "charShortName": "Hapi",
+        "part": "I",
+        "emot": ""
+    },
+    "dlc/face_war_card_DLC/3/0.png": {
+        "charShortName": "Hapi",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/159/0.png": {
+        "charShortName": "Leonie",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/160/0.png": {
+        "charShortName": "Leonie",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/161/0.png": {
+        "charShortName": "Leonie",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/162/0.png": {
+        "charShortName": "Leonie",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/163/0.png": {
+        "charShortName": "Leonie",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/164/0.png": {
+        "charShortName": "Leonie",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/558/0.png": {
+        "charShortName": "Leonie",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/559/0.png": {
+        "charShortName": "Leonie",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/560/0.png": {
+        "charShortName": "Leonie",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/561/0.png": {
+        "charShortName": "Leonie",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/562/0.png": {
+        "charShortName": "Leonie",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/563/0.png": {
+        "charShortName": "Leonie",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/25/0.png": {
+        "charShortName": "Leonie",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/25/0.png": {
+        "charShortName": "Leonie",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/25/0.png": {
+        "charShortName": "Leonie",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/94/0.png": {
+        "charShortName": "Leonie",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/344/0.png": {
+        "charShortName": "Emperor Ionius IX",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/345/0.png": {
+        "charShortName": "Emperor Ionius IX",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/346/0.png": {
+        "charShortName": "Emperor Ionius IX",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/190/0.png": {
+        "charShortName": "Gilbert",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/191/0.png": {
+        "charShortName": "Gilbert",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/192/0.png": {
+        "charShortName": "Gilbert",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/193/0.png": {
+        "charShortName": "Gilbert",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/194/0.png": {
+        "charShortName": "Gilbert",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/195/0.png": {
+        "charShortName": "Gilbert",
+        "part": "I",
+        "emot": "shy"
+    },
+    "torso_school/30/0.png": {
+        "charShortName": "Gilbert",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/30/0.png": {
+        "charShortName": "Gilbert",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/30/0.png": {
+        "charShortName": "Gilbert",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/42/0.png": {
+        "charShortName": "Linhardt",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/43/0.png": {
+        "charShortName": "Linhardt",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/44/0.png": {
+        "charShortName": "Linhardt",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/45/0.png": {
+        "charShortName": "Linhardt",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/46/0.png": {
+        "charShortName": "Linhardt",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/47/0.png": {
+        "charShortName": "Linhardt",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/48/0.png": {
+        "charShortName": "Linhardt",
+        "part": "I",
+        "emot": "special1"
+    },
+    "face_school/441/0.png": {
+        "charShortName": "Linhardt",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/442/0.png": {
+        "charShortName": "Linhardt",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/443/0.png": {
+        "charShortName": "Linhardt",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/444/0.png": {
+        "charShortName": "Linhardt",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/445/0.png": {
+        "charShortName": "Linhardt",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/446/0.png": {
+        "charShortName": "Linhardt",
+        "part": "II",
+        "emot": "shy"
+    },
+    "face_school/447/0.png": {
+        "charShortName": "Linhardt",
+        "part": "II",
+        "emot": "special1"
+    },
+    "torso_school/7/0.png": {
+        "charShortName": "Linhardt",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/7/0.png": {
+        "charShortName": "Linhardt",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/7/0.png": {
+        "charShortName": "Linhardt",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/76/0.png": {
+        "charShortName": "Linhardt",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/12/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/13/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/14/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/15/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/16/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/17/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/406/0.png": {
+        "charShortName": "Edelgard",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/407/0.png": {
+        "charShortName": "Edelgard",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/408/0.png": {
+        "charShortName": "Edelgard",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/409/0.png": {
+        "charShortName": "Edelgard",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/410/0.png": {
+        "charShortName": "Edelgard",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/411/0.png": {
+        "charShortName": "Edelgard",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/2/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/2/0.png": {
+        "charShortName": "Edelgard",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/2/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/71/0.png": {
+        "charShortName": "Edelgard",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/339/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/340/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/341/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/342/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/343/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/1038/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/1039/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/1040/0.png": {
+        "charShortName": "Edelgard",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/258/0.png": {
+        "charShortName": "Cornelia",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/259/0.png": {
+        "charShortName": "Cornelia",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/260/0.png": {
+        "charShortName": "Cornelia",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/261/0.png": {
+        "charShortName": "Cornelia",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/262/0.png": {
+        "charShortName": "Cornelia",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/41/0.png": {
+        "charShortName": "Cornelia",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/249/0.png": {
+        "charShortName": "Solon",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/250/0.png": {
+        "charShortName": "Solon",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/251/0.png": {
+        "charShortName": "Solon",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/252/0.png": {
+        "charShortName": "Solon",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/253/0.png": {
+        "charShortName": "Solon",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/39/0.png": {
+        "charShortName": "Solon",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/321/0.png": {
+        "charShortName": "Tomas",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/322/0.png": {
+        "charShortName": "Tomas",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/323/0.png": {
+        "charShortName": "Tomas",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/324/0.png": {
+        "charShortName": "Tomas",
+        "part": "I",
+        "emot": "sad"
+    },
+    "portrait_bust/55/0.png": {
+        "charShortName": "Tomas",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/113/0.png": {
+        "charShortName": "Ingrid",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/114/0.png": {
+        "charShortName": "Ingrid",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/115/0.png": {
+        "charShortName": "Ingrid",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/116/0.png": {
+        "charShortName": "Ingrid",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/117/0.png": {
+        "charShortName": "Ingrid",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/118/0.png": {
+        "charShortName": "Ingrid",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/512/0.png": {
+        "charShortName": "Ingrid",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/513/0.png": {
+        "charShortName": "Ingrid",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/514/0.png": {
+        "charShortName": "Ingrid",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/515/0.png": {
+        "charShortName": "Ingrid",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/516/0.png": {
+        "charShortName": "Ingrid",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/517/0.png": {
+        "charShortName": "Ingrid",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/18/0.png": {
+        "charShortName": "Ingrid",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/18/0.png": {
+        "charShortName": "Ingrid",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/18/0.png": {
+        "charShortName": "Ingrid",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/87/0.png": {
+        "charShortName": "Ingrid",
+        "part": "II",
+        "emot": ""
+    },
+    "dlc/face_school_normal_DLC/19/0.png": {
+        "charShortName": "Balthus",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/20/0.png": {
+        "charShortName": "Balthus",
+        "part": "I",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/21/0.png": {
+        "charShortName": "Balthus",
+        "part": "I",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/22/0.png": {
+        "charShortName": "Balthus",
+        "part": "I",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/23/0.png": {
+        "charShortName": "Balthus",
+        "part": "I",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/24/0.png": {
+        "charShortName": "Balthus",
+        "part": "I",
+        "emot": "shy"
+    },
+    "dlc/face_school_normal_DLC/54/0.png": {
+        "charShortName": "Balthus",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/55/0.png": {
+        "charShortName": "Balthus",
+        "part": "II",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/56/0.png": {
+        "charShortName": "Balthus",
+        "part": "II",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/57/0.png": {
+        "charShortName": "Balthus",
+        "part": "II",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/58/0.png": {
+        "charShortName": "Balthus",
+        "part": "II",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/59/0.png": {
+        "charShortName": "Balthus",
+        "part": "II",
+        "emot": "shy"
+    },
+    "dlc/face_school_card_DLC/1/0.png": {
+        "charShortName": "Balthus",
+        "part": "I",
+        "emot": ""
+    },
+    "dlc/face_war_card_DLC/1/0.png": {
+        "charShortName": "Balthus",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/226/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/227/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/228/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/229/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/230/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/231/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/232/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "special1"
+    },
+    "torso_school/36/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/36/0.png": {
+        "charShortName": "Rhea",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/36/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/329/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/330/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/331/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/332/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/333/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/1030/0.png": {
+        "charShortName": "Rhea",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/237/0.png": {
+        "charShortName": "Sothis",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/238/0.png": {
+        "charShortName": "Sothis",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/239/0.png": {
+        "charShortName": "Sothis",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/240/0.png": {
+        "charShortName": "Sothis",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/241/0.png": {
+        "charShortName": "Sothis",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/242/0.png": {
+        "charShortName": "Sothis",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/243/0.png": {
+        "charShortName": "Sothis",
+        "part": "I",
+        "emot": "special1"
+    },
+    "torso_school/37/0.png": {
+        "charShortName": "Sothis",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/37/0.png": {
+        "charShortName": "Sothis",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/37/0.png": {
+        "charShortName": "Sothis",
+        "part": "I",
+        "emot": ""
+    },
+    "dlc/face_school_normal_DLC/7/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/8/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/9/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/10/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/11/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/12/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": "shy"
+    },
+    "dlc/face_school_card_DLC/5/0.png": {
+        "charShortName": "Anna",
+        "part": "I",
+        "emot": ""
+    },
+    "dlc/face_war_card_DLC/5/0.png": {
+        "charShortName": "Anna",
+        "part": "II",
+        "emot": ""
+    },
+    "dlc/face_school_normal_DLC/0/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/1/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/2/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/3/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/4/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/5/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": "shy"
+    },
+    "dlc/face_school_normal_DLC/6/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": "special1"
+    },
+    "dlc/face_school_card_DLC/4/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": ""
+    },
+    "dlc/face_war_card_DLC/4/0.png": {
+        "charShortName": "Jeritza",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/263/0.png": {
+        "charShortName": "Death Knight",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "portrait_bust/42/0.png": {
+        "charShortName": "Death Knight",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/294/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/295/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": "happy"
+    },
+    "portrait_bust/49/0.png": {
+        "charShortName": "Jeritza",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/264/0.png": {
+        "charShortName": "Kostas",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/265/0.png": {
+        "charShortName": "Kostas",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/266/0.png": {
+        "charShortName": "Kostas",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/267/0.png": {
+        "charShortName": "Kostas",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/268/0.png": {
+        "charShortName": "Kostas",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/43/0.png": {
+        "charShortName": "Kostas",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/325/0.png": {
+        "charShortName": "Nemesis",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/326/0.png": {
+        "charShortName": "Nemesis",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/327/0.png": {
+        "charShortName": "Nemesis",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/328/0.png": {
+        "charShortName": "Nemesis",
+        "part": "I",
+        "emot": "sad"
+    },
+    "portrait_bust/56/0.png": {
+        "charShortName": "Nemesis",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/202/0.png": {
+        "charShortName": "Catherine",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/203/0.png": {
+        "charShortName": "Catherine",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/204/0.png": {
+        "charShortName": "Catherine",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/205/0.png": {
+        "charShortName": "Catherine",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/206/0.png": {
+        "charShortName": "Catherine",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/207/0.png": {
+        "charShortName": "Catherine",
+        "part": "I",
+        "emot": "shy"
+    },
+    "torso_school/32/0.png": {
+        "charShortName": "Catherine",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/32/0.png": {
+        "charShortName": "Catherine",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/32/0.png": {
+        "charShortName": "Catherine",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/306/0.png": {
+        "charShortName": "Nader",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/307/0.png": {
+        "charShortName": "Nader",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/308/0.png": {
+        "charShortName": "Nader",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/309/0.png": {
+        "charShortName": "Nader",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/310/0.png": {
+        "charShortName": "Nader",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/52/0.png": {
+        "charShortName": "Nader",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/362/0.png": {
+        "charShortName": "Metodey",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/363/0.png": {
+        "charShortName": "Metodey",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/364/0.png": {
+        "charShortName": "Metodey",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/365/0.png": {
+        "charShortName": "Metodey",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/366/0.png": {
+        "charShortName": "Metodey",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/372/0.png": {
+        "charShortName": "Gwendal",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/373/0.png": {
+        "charShortName": "Gwendal",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/374/0.png": {
+        "charShortName": "Gwendal",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/375/0.png": {
+        "charShortName": "Gwendal",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/376/0.png": {
+        "charShortName": "Gwendal",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/382/0.png": {
+        "charShortName": "Pallard%C3%B3",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/383/0.png": {
+        "charShortName": "Pallard%C3%B3",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/384/0.png": {
+        "charShortName": "Pallard%C3%B3",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/385/0.png": {
+        "charShortName": "Pallard%C3%B3",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/386/0.png": {
+        "charShortName": "Pallard%C3%B3",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/30/0.png": {
+        "charShortName": "Hubert",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/31/0.png": {
+        "charShortName": "Hubert",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/32/0.png": {
+        "charShortName": "Hubert",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/33/0.png": {
+        "charShortName": "Hubert",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/34/0.png": {
+        "charShortName": "Hubert",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/35/0.png": {
+        "charShortName": "Hubert",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/429/0.png": {
+        "charShortName": "Hubert",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/430/0.png": {
+        "charShortName": "Hubert",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/431/0.png": {
+        "charShortName": "Hubert",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/432/0.png": {
+        "charShortName": "Hubert",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/433/0.png": {
+        "charShortName": "Hubert",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/434/0.png": {
+        "charShortName": "Hubert",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/5/0.png": {
+        "charShortName": "Hubert",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/5/0.png": {
+        "charShortName": "Hubert",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/5/0.png": {
+        "charShortName": "Hubert",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/74/0.png": {
+        "charShortName": "Hubert",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/311/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/312/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/313/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/314/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/315/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/53/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/89/0.png": {
+        "charShortName": "Ashe",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/90/0.png": {
+        "charShortName": "Ashe",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/91/0.png": {
+        "charShortName": "Ashe",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/92/0.png": {
+        "charShortName": "Ashe",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/93/0.png": {
+        "charShortName": "Ashe",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/94/0.png": {
+        "charShortName": "Ashe",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/488/0.png": {
+        "charShortName": "Ashe",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/489/0.png": {
+        "charShortName": "Ashe",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/490/0.png": {
+        "charShortName": "Ashe",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/491/0.png": {
+        "charShortName": "Ashe",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/492/0.png": {
+        "charShortName": "Ashe",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/493/0.png": {
+        "charShortName": "Ashe",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/14/0.png": {
+        "charShortName": "Ashe",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/14/0.png": {
+        "charShortName": "Ashe",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/14/0.png": {
+        "charShortName": "Ashe",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/83/0.png": {
+        "charShortName": "Ashe",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/165/0.png": {
+        "charShortName": "Seteth",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/166/0.png": {
+        "charShortName": "Seteth",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/167/0.png": {
+        "charShortName": "Seteth",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/168/0.png": {
+        "charShortName": "Seteth",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/169/0.png": {
+        "charShortName": "Seteth",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/170/0.png": {
+        "charShortName": "Seteth",
+        "part": "I",
+        "emot": "shy"
+    },
+    "torso_school/26/0.png": {
+        "charShortName": "Seteth",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/26/0.png": {
+        "charShortName": "Seteth",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/26/0.png": {
+        "charShortName": "Seteth",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/214/0.png": {
+        "charShortName": "Cyril",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/215/0.png": {
+        "charShortName": "Cyril",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/216/0.png": {
+        "charShortName": "Cyril",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/217/0.png": {
+        "charShortName": "Cyril",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/218/0.png": {
+        "charShortName": "Cyril",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/219/0.png": {
+        "charShortName": "Cyril",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/564/0.png": {
+        "charShortName": "Cyril",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/565/0.png": {
+        "charShortName": "Cyril",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/566/0.png": {
+        "charShortName": "Cyril",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/567/0.png": {
+        "charShortName": "Cyril",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/568/0.png": {
+        "charShortName": "Cyril",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/569/0.png": {
+        "charShortName": "Cyril",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/34/0.png": {
+        "charShortName": "Cyril",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/34/0.png": {
+        "charShortName": "Cyril",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/34/0.png": {
+        "charShortName": "Cyril",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/95/0.png": {
+        "charShortName": "Cyril",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/254/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/256/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/257/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": "angry"
+    },
+    "portrait_bust/40/0.png": {
+        "charShortName": "Thales",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/278/0.png": {
+        "charShortName": "Randolph",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/279/0.png": {
+        "charShortName": "Randolph",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/280/0.png": {
+        "charShortName": "Randolph",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/281/0.png": {
+        "charShortName": "Randolph",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/282/0.png": {
+        "charShortName": "Randolph",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/46/0.png": {
+        "charShortName": "Randolph",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/83/0.png": {
+        "charShortName": "Felix",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/84/0.png": {
+        "charShortName": "Felix",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/85/0.png": {
+        "charShortName": "Felix",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/86/0.png": {
+        "charShortName": "Felix",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/87/0.png": {
+        "charShortName": "Felix",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/88/0.png": {
+        "charShortName": "Felix",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/482/0.png": {
+        "charShortName": "Felix",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/483/0.png": {
+        "charShortName": "Felix",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/484/0.png": {
+        "charShortName": "Felix",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/485/0.png": {
+        "charShortName": "Felix",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/486/0.png": {
+        "charShortName": "Felix",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/487/0.png": {
+        "charShortName": "Felix",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/13/0.png": {
+        "charShortName": "Felix",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/13/0.png": {
+        "charShortName": "Felix",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/13/0.png": {
+        "charShortName": "Felix",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/82/0.png": {
+        "charShortName": "Felix",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/244/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/245/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/246/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/247/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/248/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/38/0.png": {
+        "charShortName": "Kronya",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/101/0.png": {
+        "charShortName": "Mercedes",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/102/0.png": {
+        "charShortName": "Mercedes",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/103/0.png": {
+        "charShortName": "Mercedes",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/104/0.png": {
+        "charShortName": "Mercedes",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/105/0.png": {
+        "charShortName": "Mercedes",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/106/0.png": {
+        "charShortName": "Mercedes",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/500/0.png": {
+        "charShortName": "Mercedes",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/501/0.png": {
+        "charShortName": "Mercedes",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/502/0.png": {
+        "charShortName": "Mercedes",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/503/0.png": {
+        "charShortName": "Mercedes",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/504/0.png": {
+        "charShortName": "Mercedes",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/505/0.png": {
+        "charShortName": "Mercedes",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/16/0.png": {
+        "charShortName": "Mercedes",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/16/0.png": {
+        "charShortName": "Mercedes",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/16/0.png": {
+        "charShortName": "Mercedes",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/85/0.png": {
+        "charShortName": "Mercedes",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/144/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/145/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/146/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/147/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/148/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/149/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/150/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": "special1"
+    },
+    "face_school/151/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": "special2"
+    },
+    "face_school/152/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": "special3"
+    },
+    "face_school/543/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/544/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/545/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/546/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/547/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/548/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": "shy"
+    },
+    "face_school/549/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": "special1"
+    },
+    "face_school/550/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": "special2"
+    },
+    "face_school/551/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": "special3"
+    },
+    "torso_school/23/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/23/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/23/0.png": {
+        "charShortName": "Marianne",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/92/0.png": {
+        "charShortName": "Marianne",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/153/0.png": {
+        "charShortName": "Hilda",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/154/0.png": {
+        "charShortName": "Hilda",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/155/0.png": {
+        "charShortName": "Hilda",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/156/0.png": {
+        "charShortName": "Hilda",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/157/0.png": {
+        "charShortName": "Hilda",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/158/0.png": {
+        "charShortName": "Hilda",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/552/0.png": {
+        "charShortName": "Hilda",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/553/0.png": {
+        "charShortName": "Hilda",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/554/0.png": {
+        "charShortName": "Hilda",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/555/0.png": {
+        "charShortName": "Hilda",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/556/0.png": {
+        "charShortName": "Hilda",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/557/0.png": {
+        "charShortName": "Hilda",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/24/0.png": {
+        "charShortName": "Hilda",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/24/0.png": {
+        "charShortName": "Hilda",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/24/0.png": {
+        "charShortName": "Hilda",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/93/0.png": {
+        "charShortName": "Hilda",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/367/0.png": {
+        "charShortName": "Ladislava",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/368/0.png": {
+        "charShortName": "Ladislava",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/369/0.png": {
+        "charShortName": "Ladislava",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/370/0.png": {
+        "charShortName": "Ladislava",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/371/0.png": {
+        "charShortName": "Ladislava",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/183/0.png": {
+        "charShortName": "Manuela",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/184/0.png": {
+        "charShortName": "Manuela",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/185/0.png": {
+        "charShortName": "Manuela",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/186/0.png": {
+        "charShortName": "Manuela",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/187/0.png": {
+        "charShortName": "Manuela",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/188/0.png": {
+        "charShortName": "Manuela",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/189/0.png": {
+        "charShortName": "Manuela",
+        "part": "I",
+        "emot": "special1"
+    },
+    "torso_school/29/0.png": {
+        "charShortName": "Manuela",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/29/0.png": {
+        "charShortName": "Manuela",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/29/0.png": {
+        "charShortName": "Manuela",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/76/0.png": {
+        "charShortName": "Dedue",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/77/0.png": {
+        "charShortName": "Dedue",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/78/0.png": {
+        "charShortName": "Dedue",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/79/0.png": {
+        "charShortName": "Dedue",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/80/0.png": {
+        "charShortName": "Dedue",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/81/0.png": {
+        "charShortName": "Dedue",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/82/0.png": {
+        "charShortName": "Dedue",
+        "part": "I",
+        "emot": "special1"
+    },
+    "face_school/475/0.png": {
+        "charShortName": "Dedue",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/476/0.png": {
+        "charShortName": "Dedue",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/477/0.png": {
+        "charShortName": "Dedue",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/478/0.png": {
+        "charShortName": "Dedue",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/479/0.png": {
+        "charShortName": "Dedue",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/480/0.png": {
+        "charShortName": "Dedue",
+        "part": "II",
+        "emot": "shy"
+    },
+    "face_school/481/0.png": {
+        "charShortName": "Dedue",
+        "part": "II",
+        "emot": "special1"
+    },
+    "torso_school/12/0.png": {
+        "charShortName": "Dedue",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/12/0.png": {
+        "charShortName": "Dedue",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/12/0.png": {
+        "charShortName": "Dedue",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/81/0.png": {
+        "charShortName": "Dedue",
+        "part": "II",
+        "emot": ""
+    },
+    "dlc/face_school_normal_DLC/25/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/26/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/27/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/28/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/29/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/30/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "shy"
+    },
+    "dlc/face_school_normal_DLC/31/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/32/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/33/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/34/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/35/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/36/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": "shy"
+    },
+    "dlc/face_school_normal_DLC/60/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/61/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/62/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/63/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/64/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/65/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "shy"
+    },
+    "dlc/face_school_normal_DLC/66/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/67/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/68/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/69/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/70/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "shock"
+    },
+    "dlc/face_school_normal_DLC/71/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": "shy"
+    },
+    "dlc/face_school_card_DLC/2/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": ""
+    },
+    "dlc/face_school_card_DLC/6/0.png": {
+        "charShortName": "Constance",
+        "part": "I",
+        "emot": ""
+    },
+    "dlc/face_war_card_DLC/2/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": ""
+    },
+    "dlc/face_war_card_DLC/6/0.png": {
+        "charShortName": "Constance",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/138/0.png": {
+        "charShortName": "Lysithea",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/139/0.png": {
+        "charShortName": "Lysithea",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/140/0.png": {
+        "charShortName": "Lysithea",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/141/0.png": {
+        "charShortName": "Lysithea",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/142/0.png": {
+        "charShortName": "Lysithea",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/143/0.png": {
+        "charShortName": "Lysithea",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/537/0.png": {
+        "charShortName": "Lysithea",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/538/0.png": {
+        "charShortName": "Lysithea",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/539/0.png": {
+        "charShortName": "Lysithea",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/540/0.png": {
+        "charShortName": "Lysithea",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/541/0.png": {
+        "charShortName": "Lysithea",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/542/0.png": {
+        "charShortName": "Lysithea",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/22/0.png": {
+        "charShortName": "Lysithea",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/22/0.png": {
+        "charShortName": "Lysithea",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/22/0.png": {
+        "charShortName": "Lysithea",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/91/0.png": {
+        "charShortName": "Lysithea",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/347/0.png": {
+        "charShortName": "Duke Aegir",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/348/0.png": {
+        "charShortName": "Duke Aegir",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/349/0.png": {
+        "charShortName": "Duke Aegir",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/350/0.png": {
+        "charShortName": "Duke Aegir",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/220/0.png": {
+        "charShortName": "Jeralt",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/221/0.png": {
+        "charShortName": "Jeralt",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/222/0.png": {
+        "charShortName": "Jeralt",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/223/0.png": {
+        "charShortName": "Jeralt",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/224/0.png": {
+        "charShortName": "Jeralt",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/225/0.png": {
+        "charShortName": "Jeralt",
+        "part": "I",
+        "emot": "shy"
+    },
+    "torso_school/35/0.png": {
+        "charShortName": "Jeralt",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/35/0.png": {
+        "charShortName": "Jeralt",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/35/0.png": {
+        "charShortName": "Jeralt",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/131/0.png": {
+        "charShortName": "Ignatz",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/132/0.png": {
+        "charShortName": "Ignatz",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/133/0.png": {
+        "charShortName": "Ignatz",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/134/0.png": {
+        "charShortName": "Ignatz",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/135/0.png": {
+        "charShortName": "Ignatz",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/136/0.png": {
+        "charShortName": "Ignatz",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/137/0.png": {
+        "charShortName": "Ignatz",
+        "part": "I",
+        "emot": "special1"
+    },
+    "face_school/530/0.png": {
+        "charShortName": "Ignatz",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/531/0.png": {
+        "charShortName": "Ignatz",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/532/0.png": {
+        "charShortName": "Ignatz",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/533/0.png": {
+        "charShortName": "Ignatz",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/534/0.png": {
+        "charShortName": "Ignatz",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/535/0.png": {
+        "charShortName": "Ignatz",
+        "part": "II",
+        "emot": "shy"
+    },
+    "face_school/536/0.png": {
+        "charShortName": "Ignatz",
+        "part": "II",
+        "emot": "special1"
+    },
+    "torso_school/21/0.png": {
+        "charShortName": "Ignatz",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/21/0.png": {
+        "charShortName": "Ignatz",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/21/0.png": {
+        "charShortName": "Ignatz",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/90/0.png": {
+        "charShortName": "Ignatz",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/274/0.png": {
+        "charShortName": "Miklan",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/275/0.png": {
+        "charShortName": "Miklan",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/276/0.png": {
+        "charShortName": "Miklan",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/277/0.png": {
+        "charShortName": "Miklan",
+        "part": "I",
+        "emot": "sad"
+    },
+    "portrait_bust/45/0.png": {
+        "charShortName": "Miklan",
+        "part": "I",
+        "emot": ""
+    },
+    "face_school/95/0.png": {
+        "charShortName": "Sylvain",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/96/0.png": {
+        "charShortName": "Sylvain",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/97/0.png": {
+        "charShortName": "Sylvain",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/98/0.png": {
+        "charShortName": "Sylvain",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/99/0.png": {
+        "charShortName": "Sylvain",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/100/0.png": {
+        "charShortName": "Sylvain",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/494/0.png": {
+        "charShortName": "Sylvain",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/495/0.png": {
+        "charShortName": "Sylvain",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/496/0.png": {
+        "charShortName": "Sylvain",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/497/0.png": {
+        "charShortName": "Sylvain",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/498/0.png": {
+        "charShortName": "Sylvain",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/499/0.png": {
+        "charShortName": "Sylvain",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/15/0.png": {
+        "charShortName": "Sylvain",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/15/0.png": {
+        "charShortName": "Sylvain",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/15/0.png": {
+        "charShortName": "Sylvain",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/84/0.png": {
+        "charShortName": "Sylvain",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/49/0.png": {
+        "charShortName": "Caspar",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/50/0.png": {
+        "charShortName": "Caspar",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/51/0.png": {
+        "charShortName": "Caspar",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/52/0.png": {
+        "charShortName": "Caspar",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/53/0.png": {
+        "charShortName": "Caspar",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/54/0.png": {
+        "charShortName": "Caspar",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/448/0.png": {
+        "charShortName": "Caspar",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/449/0.png": {
+        "charShortName": "Caspar",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/450/0.png": {
+        "charShortName": "Caspar",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/451/0.png": {
+        "charShortName": "Caspar",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/452/0.png": {
+        "charShortName": "Caspar",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/453/0.png": {
+        "charShortName": "Caspar",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/8/0.png": {
+        "charShortName": "Caspar",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/8/0.png": {
+        "charShortName": "Caspar",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/8/0.png": {
+        "charShortName": "Caspar",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/77/0.png": {
+        "charShortName": "Caspar",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/62/0.png": {
+        "charShortName": "Dorothea",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/63/0.png": {
+        "charShortName": "Dorothea",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/64/0.png": {
+        "charShortName": "Dorothea",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/65/0.png": {
+        "charShortName": "Dorothea",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/66/0.png": {
+        "charShortName": "Dorothea",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/67/0.png": {
+        "charShortName": "Dorothea",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/68/0.png": {
+        "charShortName": "Dorothea",
+        "part": "I",
+        "emot": "special1"
+    },
+    "face_school/461/0.png": {
+        "charShortName": "Dorothea",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/462/0.png": {
+        "charShortName": "Dorothea",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/463/0.png": {
+        "charShortName": "Dorothea",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/464/0.png": {
+        "charShortName": "Dorothea",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/465/0.png": {
+        "charShortName": "Dorothea",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/466/0.png": {
+        "charShortName": "Dorothea",
+        "part": "II",
+        "emot": "shy"
+    },
+    "face_school/467/0.png": {
+        "charShortName": "Dorothea",
+        "part": "II",
+        "emot": "special1"
+    },
+    "torso_school/10/0.png": {
+        "charShortName": "Dorothea",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/10/0.png": {
+        "charShortName": "Dorothea",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/10/0.png": {
+        "charShortName": "Dorothea",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/79/0.png": {
+        "charShortName": "Dorothea",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/377/0.png": {
+        "charShortName": "Acheron",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/378/0.png": {
+        "charShortName": "Acheron",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/379/0.png": {
+        "charShortName": "Acheron",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/380/0.png": {
+        "charShortName": "Acheron",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/381/0.png": {
+        "charShortName": "Acheron",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/69/0.png": {
+        "charShortName": "Petra",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/70/0.png": {
+        "charShortName": "Petra",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/71/0.png": {
+        "charShortName": "Petra",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/72/0.png": {
+        "charShortName": "Petra",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/73/0.png": {
+        "charShortName": "Petra",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/74/0.png": {
+        "charShortName": "Petra",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/75/0.png": {
+        "charShortName": "Petra",
+        "part": "I",
+        "emot": "special1"
+    },
+    "face_school/468/0.png": {
+        "charShortName": "Petra",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/469/0.png": {
+        "charShortName": "Petra",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/470/0.png": {
+        "charShortName": "Petra",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/471/0.png": {
+        "charShortName": "Petra",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/472/0.png": {
+        "charShortName": "Petra",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/473/0.png": {
+        "charShortName": "Petra",
+        "part": "II",
+        "emot": "shy"
+    },
+    "face_school/474/0.png": {
+        "charShortName": "Petra",
+        "part": "II",
+        "emot": "special1"
+    },
+    "torso_school/11/0.png": {
+        "charShortName": "Petra",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/11/0.png": {
+        "charShortName": "Petra",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/11/0.png": {
+        "charShortName": "Petra",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/80/0.png": {
+        "charShortName": "Petra",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/269/0.png": {
+        "charShortName": "Lonato",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/270/0.png": {
+        "charShortName": "Lonato",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/271/0.png": {
+        "charShortName": "Lonato",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/272/0.png": {
+        "charShortName": "Lonato",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/273/0.png": {
+        "charShortName": "Lonato",
+        "part": "I",
+        "emot": "shock"
+    },
+    "portrait_bust/44/0.png": {
+        "charShortName": "Lonato",
+        "part": "I",
+        "emot": ""
+    },
+    "dlc/face_school_normal_DLC/43/0.png": {
+        "charShortName": "Aelfric",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "dlc/face_school_normal_DLC/44/0.png": {
+        "charShortName": "Aelfric",
+        "part": "I",
+        "emot": "happy"
+    },
+    "dlc/face_school_normal_DLC/45/0.png": {
+        "charShortName": "Aelfric",
+        "part": "I",
+        "emot": "angry"
+    },
+    "dlc/face_school_normal_DLC/46/0.png": {
+        "charShortName": "Aelfric",
+        "part": "I",
+        "emot": "sad"
+    },
+    "dlc/face_school_normal_DLC/47/0.png": {
+        "charShortName": "Aelfric",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/24/0.png": {
+        "charShortName": "Claude",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/25/0.png": {
+        "charShortName": "Claude",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/26/0.png": {
+        "charShortName": "Claude",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/27/0.png": {
+        "charShortName": "Claude",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/28/0.png": {
+        "charShortName": "Claude",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/29/0.png": {
+        "charShortName": "Claude",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/423/0.png": {
+        "charShortName": "Claude",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/424/0.png": {
+        "charShortName": "Claude",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/425/0.png": {
+        "charShortName": "Claude",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/426/0.png": {
+        "charShortName": "Claude",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/427/0.png": {
+        "charShortName": "Claude",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/428/0.png": {
+        "charShortName": "Claude",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/4/0.png": {
+        "charShortName": "Claude",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/4/0.png": {
+        "charShortName": "Claude",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/4/0.png": {
+        "charShortName": "Claude",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/73/0.png": {
+        "charShortName": "Claude",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/357/0.png": {
+        "charShortName": "Lambert",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/358/0.png": {
+        "charShortName": "Lambert",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/359/0.png": {
+        "charShortName": "Lambert",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/360/0.png": {
+        "charShortName": "Lambert",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/361/0.png": {
+        "charShortName": "Lambert",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/55/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/56/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/57/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/58/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/59/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/60/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/61/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "I",
+        "emot": "special1"
+    },
+    "face_school/454/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/455/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/456/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/457/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/458/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/459/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "II",
+        "emot": "shy"
+    },
+    "face_school/460/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "II",
+        "emot": "special1"
+    },
+    "torso_school/9/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/9/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/9/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/78/0.png": {
+        "charShortName": "Bernadetta",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/36/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/37/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/38/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/39/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/40/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/41/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "I",
+        "emot": "shy"
+    },
+    "face_school/435/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "II",
+        "emot": "neutral"
+    },
+    "face_school/436/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "II",
+        "emot": "happy"
+    },
+    "face_school/437/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "II",
+        "emot": "angry"
+    },
+    "face_school/438/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "II",
+        "emot": "sad"
+    },
+    "face_school/439/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "II",
+        "emot": "shock"
+    },
+    "face_school/440/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "II",
+        "emot": "shy"
+    },
+    "torso_school/6/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/6/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/6/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "I",
+        "emot": ""
+    },
+    "portrait_bust/75/0.png": {
+        "charShortName": "Ferdinand",
+        "part": "II",
+        "emot": ""
+    },
+    "face_school/196/0.png": {
+        "charShortName": "Alois",
+        "part": "I",
+        "emot": "neutral"
+    },
+    "face_school/197/0.png": {
+        "charShortName": "Alois",
+        "part": "I",
+        "emot": "happy"
+    },
+    "face_school/198/0.png": {
+        "charShortName": "Alois",
+        "part": "I",
+        "emot": "angry"
+    },
+    "face_school/199/0.png": {
+        "charShortName": "Alois",
+        "part": "I",
+        "emot": "sad"
+    },
+    "face_school/200/0.png": {
+        "charShortName": "Alois",
+        "part": "I",
+        "emot": "shock"
+    },
+    "face_school/201/0.png": {
+        "charShortName": "Alois",
+        "part": "I",
+        "emot": "shy"
+    },
+    "torso_school/31/0.png": {
+        "charShortName": "Alois",
+        "part": "I",
+        "emot": ""
+    },
+    "torso_war/31/0.png": {
+        "charShortName": "Alois",
+        "part": "II",
+        "emot": ""
+    },
+    "portrait_bust/31/0.png": {
+        "charShortName": "Alois",
+        "part": "I",
+        "emot": ""
+    }
+}

@@ -18,15 +18,57 @@
 	"mainPlayerCharacters": ["Byleth"],
 	"characterGroups": {
 		"male": [
-	
+			"Byleth",
+			"Dimitri",
+			"Hanneman",
+			"Raphael",
+			"Lorenz",
+			"Yuri",
+			"Gilbert",
+			"Linhardt",
+			"Balthus",
+			"Jeritza",
+			"Hubert",
+			"Ashe",
+			"Seteth",
+			"Cyril",
+			"Felix",
+			"Dedue",
+			"Ignatz",
+			"Sylvain",
+			"Caspar",
+			"Claude",
+			"Ferdinand",
+			"Alois",
+			"Jeralt"
 		],
 		"female": [
-
-		],
-		"neutral": [
-
+			"Annette",
+			"Anna",
+			"Flame Emperor",
+			"Flayn",
+			"Judith",
+			"Shamir",
+			"Hapi",
+			"Leonie",
+			"Edelgard",
+			"Cornelia",
+			"Ingrid",
+			"Rhea",
+			"Sothis",
+			"Catherine",
+			"Monica",
+			"Kronya",
+			"Mercedes",
+			"Marianne",
+			"Hilda",
+			"Manuela",
+			"Constance",
+			"Lysithea",
+			"Dorothea",
+			"Petra",
+			"Bernadetta"
 		]
-
 	},
 	"aliases": {
 		

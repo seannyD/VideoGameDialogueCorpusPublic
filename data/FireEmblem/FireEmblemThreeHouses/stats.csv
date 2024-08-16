@@ -1,0 +1,4 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/FireEmblem/FireEmblemThreeHouses/,True,Fire Emblem: Three Houses,Fire Emblem,TOTAL,51372,617131,148689,755538,0.4751318804117233,99.04860343669826,6.3070767417104605,164
+../data/FireEmblem/FireEmblemThreeHouses/,True,Fire Emblem: Three Houses,Fire Emblem,male,27878,315819,75628,386501,0.47952561556545525,99.06246987228403,6.336927277641099,23
+../data/FireEmblem/FireEmblemThreeHouses/,True,Fire Emblem: Three Houses,Fire Emblem,female,19345,245291,59735,299870,0.437048941460926,99.24298119712768,6.2239522688878965,25

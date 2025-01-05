@@ -38,6 +38,7 @@ loadJSONScripts = function(searchPath = "../data/", onlyLoadMainCorpusSources=TR
   #   or keep none: loadJSONScripts("../data/", minorKeysToKeep=c())
   
   gameFolders = list.dirs(path = searchPath, full.names = TRUE, recursive = TRUE)
+  gameFolders = gameFolders[!grepl("/raw",gameFolders)]
   
   allData = data.frame(character = NA, dialogue = NA)
   for(folder in gameFolders){
@@ -160,23 +161,29 @@ collocation_mutual_information = function(myTokens, target_word, window=c(4,4),m
   # the target (e.g. within 3 words before or 3 words after).
   toks_target <- tokens_keep(myTokens, pattern = target_word, window = window)
   # Get the frequency of each word in the windowed data
-  colloc = textstat_frequency(dfm(toks_target))
+  tx = table(unlist(toks_target))
+  colloc = data.frame(
+    feature = names(tx),
+    frequency = as.vector(tx))
   
   # Work out frequency of all words in whole subcorpus
   # (not just appearing next to target)
-  totalFreq = textstat_frequency(dfm(myTokens))
+  totalFreq = table(unlist(myTokens))
   # Match to colloc 
-  colloc$freqInWholeCorpus = totalFreq[match(colloc$feature,totalFreq$feature),]$frequency
+  colloc$freqInWholeCorpus = totalFreq[colloc$feature]
   # Frequency of the target word
-  targetFrequency = totalFreq[totalFreq$feature==target_word,]$frequency
+  targetFrequency = totalFreq[target_word]
+  if(is.na(targetFrequency)){
+    print("Warning: Target word does not appear")
+  }
   # Total size of corpus
-  numTokensTotal = sum(ntoken(myTokens))
+  numTokensTotal = sum(totalFreq)
   # Work out pointwise mutual information
   colloc$mutualInformation = log((colloc$frequency/numTokensTotal) /
                                    ((colloc$freqInWholeCorpus/numTokensTotal) * (targetFrequency/numTokensTotal)))
   # print results, ordered by mutual information
   colloc = colloc[order(colloc$mutualInformation,decreasing = T),]
-  colloc = colloc[,!names(colloc) %in% c("rank",'group','docfreq')]
+  #colloc = colloc[,!names(colloc) %in% c("rank",'group','docfreq')]
   colloc = colloc[colloc$frequency>=minFreq,]
   colloc = colloc[colloc$feature!=target_word,]
   return(colloc)

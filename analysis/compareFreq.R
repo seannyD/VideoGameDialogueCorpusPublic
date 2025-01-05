@@ -217,5 +217,31 @@ logLikelihood.test(swearFreq["male"],
                    maleTotal,femaleTotal)
 
 
+# Healing
+healingWords =c("heal","heals","healing","healed",
+                "cure","cures","curing","cured",
+                "revive","revives","reviving","revived",
+                "treat","treats","treating","treated",
+                "remedy","remedies","remedied")
 
+harmingWords = c("harm","harms","harming","harmed",
+                 "hurt","hurts",'hurting',
+                 "wound","wounds","wounding","wounded",
+                 "kill","kills","killing","killed",
+                 "weaken",'weakens','weakening','weakened')
 
+testFreq = function(healingWords){
+  healFreq = sapply(tokensAll,function(X){sum(tolower(X) %in% healingWords)})
+  healFreq = tapply(healFreq,d$group,sum)
+  
+  healFreqPerMillion = (healFreq / c(femaleTotal,maleTotal)) * 1000000
+  healFreqPerMillion
+  
+  llx  = logLikelihood.test(healFreq["male"],
+                     healFreq["female"],
+                     maleTotal,femaleTotal)
+  return(list(healFreqPerMillion,llx))
+}
+
+testFreq(healingWords)
+testFreq(harmingWords)

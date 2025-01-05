@@ -129,9 +129,36 @@ def parseFile(fileName,parameters={},asJSON=False):
 	if asJSON:
 		return(json.dumps({"text":out}, indent = 4))
 	return(out)
+	
 
 def postProcessing(out):
 
+	# Add Skit Type
+	# Load skit index page, which categorises the skits
+	skitIndexFileName = "../data/Tales/TalesOfVesperia/raw/skitIndex.txt"
+	skitIndexPage = open(skitIndexFileName).read()
+	soup = BeautifulSoup( skitIndexPage, 'html5lib')
+
+	# Build dictionary of ulr -> skit type
+	skitTable = soup.find("div",{"id":"content"}).find("table").find("tbody")
+	skitIndexInfo = {}
+	for row in skitTable.find_all("tr"):
+		trs = row.find_all("td")
+		rowType = trs[0].get_text()
+		href = trs[2].find("a")['href']
+		href = href[href.index("&section"):]
+		if not href in skitIndexInfo:
+			skitIndexInfo[href] = rowType
+			
+	for line in out:
+		if "LOCATION" in line and line["LOCATION"].count("&section=skit")>0:
+			url = line["LOCATION"]
+			url = url[url.index("&section"):]
+			print(url)
+			if url in skitIndexInfo:
+				line["_skitType"] = skitIndexInfo[url]
+	
+	# Make table of characters to help gender coding
 	writeCSV = False
 	
 	if writeCSV:

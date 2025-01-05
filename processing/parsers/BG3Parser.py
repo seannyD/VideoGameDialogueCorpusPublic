@@ -26,6 +26,8 @@ DCDict = {"e0a7c461-08bf-459d-9c9a-747008ced85c":50,
 			"00000000-0000-0000-0000-000000000000":"?",
 			"fa621d38-6f83-4e42-a55c-6aa651a75d46": "?"}
 			
+# 89f0acd4-346f-479d-8b7a-1a3eb5382f6d = 14 https://youtu.be/NdNevNqfgAc?feature=shared&t=1243
+			
 conditionToTrueCharName = {
 		"|Karlach, Hells' champion. Tiefling origin. Whether or not she's shapeshifted.|": "Karlach",
 		"| Really Astarion, Vampire companion |": "Astarion",
@@ -43,15 +45,62 @@ conditionToTrueCharName = {
 		"|Shadow Heart, Sharite companion|": "Shadowheart",
 		'|Gale companion|': "Gale"
 	}
+	
+BG3SeenIDs = []
 
 # TODO: approvalID - what is this?
 # TODO: add localisation handles
 # TODO: Some lines include variables which are stored in GustavDev/Story/Diaogs/DialogVariables
 # 	<content contentuid="he7b465fcga9aag4350g8838gbd86ef7a4857" version="2">Adjusting for inflation, the appreciable value of knowledge, Lord Mammon's tithe... A-ha. There we are. ([LOW_DevilsFee_GortashInfoPayment_4feace82-e2ce-a19d-967c-2a346b2cf96d])</content>
-
+#  These are now loaded, but not replaced anywhere?
 # TODO: DC Dict - lots of missing. these are referenced in raw/STORY/ and raw/STORYDEV/
 
 
+# Some lines look like they should link back to the 
+#		{"Narrator": "*You recall an old incantation from a children's story, said to void a devil's contract:  # 'Abi, diabole, et nunquam redi.' # *", "_id": "5863c081-ec7d-eaac-16a5-721522f49a89", "_checkflags": "", "_setflags": "SET FLAG: Player passed history check in Mizora's rescue scene [ / True]", "_lt": "TagAnswer", "_children": []},
+# Video shows it linking back to the previous choice, with an extra option available to say 'abi :
+# https://youtu.be/WU54PtB23M8?feature=shared&t=221
+# e.g. above should link to:
+# 		{"PC": "# 'Abi, diabole, et nunquam redi.' #", "_id": "b9e434c5-30bc-abaf-0605-12ab3ad95f55", "_checkflags": "CHECK FLAG: Player passed history check in Mizora's rescue scene [ / True]", "_setflags": "", "_lt": "TagQuestion", "_children": [
+# see https://youtu.be/NdNevNqfgAc?feature=shared&t=1068
+# (don't follow this, but the option comes up, and the scene doesn't look like it just ends at the history check)
+# Maybe check the history check node to see if there's a flag to stop progress?
+# Is this an "ActiveRoll"?
+#                         "ShowOnce" : {"type" : "bool", "value" : true},
+#                         "transitionmode" : {"type" : "uint8", "value" : 2}
+# Solution: If there are no children, and this is not an end node,
+#  then link back to the children of the most recent tag answer?
+
+# This conversation has a load of non-endnode terminal leaves.
+# Some lead to a fight, e.g. "Nettie: Then I've no choice. I'm sorry." (but this is marked as an end-node)
+# Some jump back to a previous point in the conversation: Nettie: Now, do I have your word or not?
+# https://www.youtube.com/watch?v=QI8rHv-bpms
+
+
+# TODO: Some lines have different versions:
+# From (GLO_PAD_RevealedAmbush.lsj)
+#      "TagTexts" : [
+# 		   {
+# 			  "TagText" : [
+# 				 {
+# 					"LineId" : {"type" : "guid", "value" : "74674cf2-8126-4ba5-88e0-b408a6a84e73"},
+# 					"TagText" : {
+# 					   "handle" : "ha23256e2g8971g475ag9edag6fba108c8ce4",
+# 					   "type" : "TranslatedString",
+# 					   "version" : 3
+# 					},
+# 					"stub" : {"type" : "bool", "value" : true}
+# 				 },
+# 				 {
+# 					"LineId" : {"type" : "guid", "value" : "4dd92b40-0579-4781-bb8b-9c271bf81573"},
+# 					"TagText" : {
+# 					   "handle" : "h6962a23ega581g4a25g8a5fgb2ca9a6fd01a",
+# 					   "type" : "TranslatedString",
+# 					   "version" : 1
+# 					},
+# 					"stub" : {"type" : "bool", "value" : true}
+# 				 },
+# 				 {
 
 def parseFile(fileName,parameters={},asJSON=False):
 	global localisation
@@ -187,6 +236,20 @@ def parseFile(fileName,parameters={},asJSON=False):
 					if description.strip()=="":
 						description = name
 					flagData[uuid] = description
+			# extra dialogue tags
+			dialogVarFiles = ["../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Dialogs/DialogVariables/DialogVariables.lsx",
+					"../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/DialogVariables/DialogVariables.lsx",
+					"../data/BaldursGate/BaldursGate3/raw/Mods/GustavDev/Story/Dialogs/DialogVariables/DialogVariables.lsx"]
+			for dvf in dialogVarFiles:
+				xml = open(dvf,'r', encoding = 'utf8')
+				soup = BeautifulSoup(xml, "lxml")
+				nodes = soup.find_all("node",{"id":"DialogVariable"})
+				for node in nodes:
+					description = node.find("attribute",{"id":"Description"})["value"]
+					uuid = node.find("attribute",{"id":"UUID"})["value"]
+					if description.strip()=="":
+						description = uuid
+					flagData[uuid] = description.strip()
 				
 			# Global flags
 			d = open("../data/BaldursGate/BaldursGate3/globalFlags.csv").read()
@@ -262,7 +325,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 		if "speaker" in nx:
 			# the speakerIndex is an int, but the speakerList indices are strings
 			speakerIndex = nx["speaker"]["value"]
-			if speakerIndex == -666: # TODO: is the 
+			if speakerIndex == -666: 
 				speaker = "Narrator"		
 			elif str(speakerIndex) in speakerList:
 				speaker = speakerList[str(speakerIndex)]
@@ -371,6 +434,14 @@ def parseFile(fileName,parameters={},asJSON=False):
 			contextDescriptions = [x for x in contextDescriptions if len(x)>0]
 			if len(contextDescriptions)>0:
 				context = contextDescriptions[0]
+				
+		sourceNode = ""
+		if "SourceNode" in nx:
+			sourceNode = nx["SourceNode"]["value"]
+			
+		endnode = False
+		if "endnode" in nx:
+			endnode = nx["endnode"]["value"]
 			
 				
 		label = str(speaker) + ": "+txt
@@ -381,7 +452,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 				if success=="" and nx["constructor"]["value"] == "Jump":
 					label = "JUMP"
 				elif success=="" and nx["constructor"]["value"] == "Alias":
-					label = "ALIAS"
+					label = "ALIAS"+"\n"+sourceNode
 		if checkflags!="":
 			label += "\n"+ checkflags
 		if setflags!="":
@@ -401,7 +472,9 @@ def parseFile(fileName,parameters={},asJSON=False):
 				"jumptargetpoint":jumptargetpoint,
 				"checkflags": checkflags,
 				"setflags": setflags,
-				"context": context})
+				"context": context,
+				"sourceNode":sourceNode,
+				"endnode":endnode})
 	# END OF PARSE NODE
 
 	def nodeToVGDCFormat(rootNodes,nodes,dialogTitle):
@@ -419,6 +492,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 		# Add root nodes
 		out.append({"ACTION": "START", "_id":"START-"+dialogTitle, "_children":rootNodes})
 		
+		needToCheckForAliases = False
 		for node in nodes:
 			# 'TagCinematic', 'Visual State', 'PassiveRoll', 'RollResult', 
 			# 'Alias', 'ActiveRoll', 'Jump', 'TagQuestion', 'TagGreeting', 'TagAnswer'
@@ -428,7 +502,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 				line = {node["speaker"]: node["text"]}
 			elif node["constructor"] in ["ActiveRoll","PassiveRoll"]:
 				line = {node["speaker"]: node["text"], "_roll":node["roll"]}
-			elif node["constructor"] in ["RollResult","Jump","Alias"]:
+			elif node["constructor"] in ["RollResult","Jump"]:
 				line = {"ACTION": node["label"]}
 			elif node["constructor"] in ["Visual State"]:
 				line = {"ACTION": node["context"]}
@@ -436,6 +510,10 @@ def parseFile(fileName,parameters={},asJSON=False):
 				line = {"ACTION": "CINEMATIC"}
 				if len(node["context"])>0:
 					line["_context"]= node["context"]
+			elif node["constructor"] == "Alias":
+				# We will replace blank alias with the sourceNode content in the next step
+				line = {"ALIAS":node["sourceNode"],"_children":node["children"]}
+				needToCheckForAliases = True
 			else:
 				line = {"ACTION": node["text"]}
 		
@@ -443,16 +521,81 @@ def parseFile(fileName,parameters={},asJSON=False):
 			line["_checkflags"] = node["checkflags"]
 			line["_setflags"] = node["setflags"]
 			line["_lt"] = node["constructor"]
-		
+			if node["endnode"]:
+				line["_end"] = True
+						
 			if node["jumptargetpoint"]==2:
 				# Jump to children of target
 				line["_children"] = childDict[node["children"][0]]
 			else:
 				line["_children"] = node["children"]
 			out.append(line)
-		
-		return(out)
 			
+		# Now we have a full list of nodes, we need to go back and replace any aliases
+		if needToCheckForAliases:
+			# make a dictionary of lines
+			lineDict = {}
+			for line in out:
+				lineDict[line["_id"]] = line
+			for i in range(len(out)):
+				lx = out[i]
+				if "ALIAS" in lx:
+					# Find source node UUID (added in the constructor above)
+					sourceNodeUUID = lx["ALIAS"]
+					# Replace the line
+					aliasLine = copy.deepcopy(lineDict[sourceNodeUUID])
+					# Keep the alias ID and children so everything links properly
+					aliasLine["_id"] = lx["_id"]
+					aliasLine["_children"] = lx["_children"]
+					# Allow us to tell the difference between aliases and original lines
+					aliasLine["_alias"] = sourceNodeUUID
+					out[i] = aliasLine
+					
+		# Finally, check for unlinked terminal leaves:
+		endID = "END-"+dialogTitle
+		extraNodes = [{"ACTION": "END","_id":endID,"_children":[]}]
+		for node in out:
+			if len(node["_children"])==0:
+				if "_end" in node:
+					# is real end, link to end.
+					node["_children"] = [endID]
+				else:
+					childID = node["_id"]+"-"+str(len(out)+len(extraNodes))
+					node["_children"].append(childID)
+					extraNodes.append({
+						"ACTION": "RETURN TO LAST CHOICE",
+						"_id":childID,
+						"_children":[]})
+		out += extraNodes
+		return(out)
+
+# 	def checkForUnlinkedLeaves(rootNodeIDs,nodes):
+# 		#In the game, some active rolls transition back to the fork in which they appeared, but I can't find any information that marks this in the data.
+# 		# So check each terminal leaf to see if it's an end node, and if not, go back to the
+# 		#  children of the most recent choice point
+# 		# Should this be done after resolving jump point targets?
+# 		global BG3SeenIDs
+# 		BG3SeenIDs = []
+# 		def localWalk(node, nodeDict):
+# 			if not node["uuid"] in BG3SeenIDs:
+# 				BG3SeenIDs.append(node["uuid"])
+# 				for childID in node["children"]:
+# 					child = nodeDict[childID]
+# 					if len(child["children"])==0 and not child["endnode"]:
+# 						# Problem!
+# 						print(child)
+# 						print("^^^")
+# 					localWalk(child,nodeDict)
+# 		
+# 		nodeDict = {}
+# 		for node in nodes:
+# 			nodeDict[node["uuid"]] = node
+# 		for rootNodeID in rootNodeIDs:
+# 			rootNode = nodeDict[rootNodeID]
+# 			localWalk(rootNode,nodeDict)
+			
+
+	
 	def nodesToGraphVis(rootNodes,nodes):
 		
 		# Build a child dictionary so we can look up jumps
@@ -631,11 +774,6 @@ def postProcessing(out):
 	# We'll keep the format of not using the CHOICE structures, 
 	# so this requires finding all the parents and re-directing to the choices.
 	
-	# TODO: Lines like this could be assigned to characters, too?
-	#   though note that it should only happen if the char flag is true [1 / False]
-	# {"PC": "Fine. But not a drop more than you need.", "_id": "a30a564e-7ef7-bd7d-7fcc-40e7c1999166", "_checkflags": "CHECK FLAG: |Karlach, Hells' champion. Tiefling origin. Whether or not she's shapeshifted.| [1 / False]\nCHECK FLAG: REALLY_GALE [1 / False]", "_setflags": "SET FLAG: For an achievement - agree to let Astarion bite you. Doesn't mean he ends up actually succeeding, depending on the origin. [1 / True]", "_lt": "TagQuestion", "_children": [
-	
-
 	out2 = []
 	childLinksToFix = {}
 	for line in out:
@@ -692,7 +830,7 @@ def postProcessing(out):
 				else:
 					newChildren.append(child)
 			line["_children"] = newChildren
-
+			
 
 	return(out2)
 					

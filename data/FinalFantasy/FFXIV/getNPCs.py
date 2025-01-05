@@ -34,7 +34,7 @@ allNPCs = []
 if not skipDownloads:
 
 	print("\n\nIdentifying NPCs in raw files")
-	for fileName in [x for x in os.listdir("raw") if x.endswith(".html")][:20]:
+	for fileName in [x for x in os.listdir("raw") if x.endswith(".html")]:
 		o = open("raw/"+fileName)
 		d = o.read()
 		o.close()
@@ -127,6 +127,11 @@ if not skipDownloads:
 # ----
 # End of skip downloading
 
+def findWeaponTag(soup):
+	for td in soup.find_all("td",recursive=True):
+		if td.text.strip().count("Weapon/Tools/Shield")>0:
+			return(td)
+	return(None)
 
 print("\n\nParsing")
 # Parse raw/npcs files
@@ -172,6 +177,30 @@ for f in npcFiles:
 					value = value.getText()
 				value = value.replace("Option","").strip()
 				props[prop]=value
+		
+		# Weapons
+		weapons = []
+		weaponTag = findWeaponTag(soup)
+		if not weaponTag is None:
+			weapons = [x["title"] for x in weaponTag.find_all("a",recursive=True) if not x["title"] is None]
+			
+		# Extra equipment and features
+		extras = []
+		bits = soup.find_all(["a"],recursive=True)
+		for bit in bits:
+			btitle = bit["title"]
+			if btitle is not None:
+				if btitle.count(":")>0:
+					key,value = btitle.split(":")
+					print(key,value)
+					if not key.strip() in props:
+						props[key.strip()] = value.strip()
+				elif not btitle in weapons:
+					extras.append(btitle)
+		
+		props["weapons"] = " / ".join(weapons)
+		props["extras"] = " / ".join(extras)
+		
 		charProperties.append(props)
 
 # Make csv output
@@ -187,17 +216,21 @@ allHeaders.remove("Gender")
 allHeaders = ["Name","Gender"]+allHeaders
 
 csv = ",".join(allHeaders)+"\n"
+out = [allHeaders]
 for char in charProperties:
+	row = []
 	for prop in allHeaders:
 		if prop in char:
-			csv += char[prop] + ","
+			row.append(char[prop])
 		else:
-			csv += ","
-	csv = csv[:-1]+"\n"
-
-o = open("charProperties.csv",'w')
-o.write(csv)
-o.close()
+			row.append("NA")
+	out.append(row)
+	
+import csv
+with open('charProperties.csv', 'w') as csvfile:
+    writer = csv.writer(csvfile)
+    for row in out:
+    	writer.writerow(row)
 
 # Make json output
 genders = {}

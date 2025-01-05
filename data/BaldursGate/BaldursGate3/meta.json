@@ -11,6 +11,16 @@
 		"dialogueOrder": true,
 		"choices": "complete"
 	},
+	"error checks": {
+		"truePositive_numTestsDone": "2",
+		"truePositive_numParsingErrors": "0",
+		"truePositive_numSourceErrors": "0",
+		"truePositive_notes": "N/A",
+
+		"falsePositive_numTestsDone": "N/A",
+		"falsePositive_numErrors": "N/A",
+		"falsePositive_notes": "Data extracted from game data"
+	},
 	"parserParameters": {
 		"parser": "BG3Parser",
 		"fileType": ".txt"
@@ -40,7 +50,12 @@
 			"Wyll",
 			"Yurgir",
 			"Gortash",
-			"Gale's Projection"
+			"Gale's Projection",
+			"Raphael",
+			"Zevlor",
+			"Rolan",
+			"Wulbren",
+			"Dammon"
 		],
 		"female": [
 			"Alfira",
@@ -58,7 +73,15 @@
 			"Minthara",
 			"Tara",
 			"Yenna",
-			"Netherbrain"
+			"Netherbrain",
+			"Aunty Ethel",
+			"Nettie",
+			"Mayrina",
+			"Tara",
+			"Counsellor Florrick",
+			"Gauntlet Devella",
+			"Kagha",
+			"Gur Leader Ulma"
 		],
 		"neutral": [
 			"Book of Dead Gods"

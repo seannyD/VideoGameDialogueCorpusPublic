@@ -14,7 +14,6 @@ emotions = c("angry","happy","neutral","sad","shock","shy")
 
 emotionFreq = cbind("female" = femaleFreq[emotions],
                     "male" = maleFreq[emotions])
-
 emotionFreq
 emotionFreqProp = round(prop.table(emotionFreq,2)*100,2)
 emotionFreqProp = cbind(emotionFreqProp,
@@ -25,3 +24,8 @@ chisq.test(emotionFreq)
 
 # Not just effect of shyness:
 chisq.test(emotionFreq[1:5,])
+
+binomTests = apply(emotionFreq,1,function(X){
+  binom.test(X)$p.value
+})
+emotionFreqProp = cbind(emotionFreqProp,binomTests)

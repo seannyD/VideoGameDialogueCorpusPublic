@@ -1,0 +1,38 @@
+		txt = ""
+		if "TaggedTexts" in nx:
+			if "TaggedText" in nx["TaggedTexts"][0]:
+				taggedText = nx["TaggedTexts"][0]["TaggedText"]
+				# It's possible there are multiple texts,
+				#  often due to gender (he / her / they)
+				# So, collect texts and add rule note if there are any
+				txts = []
+				rules = []
+				for taggedTextItem in taggedText:
+					tagTexts = taggedTextItem["TagTexts"]
+					for tagTextsItem in tagTexts:
+						tagTextItems = tagTextsItem["TagText"]
+						for tagText in tagTextItems:
+							#print(">>>")
+							#print(tagText)
+							if "TagText" in tagText:
+								opTextID = tagText["TagText"]["handle"]
+								#print(opTextID)
+								opText = ""
+								if opTextID in localisation:
+									opText = localisation[opTextID]
+								else:
+									print("   Error - no localisation id specified: " + tagText["LineId"]["value"])
+								txts.append(opText)
+								
+								# There may not be any rule group info at this level?
+								if "RuleGroup" in taggedText[0]:
+									rt = taggedText[0]["RuleGroup"][0]["Rules"][0]
+									if "Rule" in rt:
+										if "Tags" in rt["Rule"][0]:
+											ruleTags = rt["Rule"][0]["Tags"]
+											ruleTags = [tag["Tag"][0]["Object"]["value"] for tag in ruleTags if "Tag" in tag]
+											ruleDescriptions = [flagData.get(x,x) for x in ruleTags]
+											if len(ruleDescriptions)>0:
+												ruleText = " {" + "; ".join(["IF: "+x for x in ruleDescriptions]) + "}"
+												txts[-1]+= ruleText
+				txt = " /\n".join(txts)

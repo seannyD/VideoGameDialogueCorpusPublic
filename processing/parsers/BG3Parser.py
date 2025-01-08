@@ -56,6 +56,8 @@ BG3SeenIDs = []
 # TODO: DC Dict - lots of missing. these are referenced in raw/STORY/ and raw/STORYDEV/
 
 
+# TODO: Voice barks?
+
 # Some lines look like they should link back to the 
 #		{"Narrator": "*You recall an old incantation from a children's story, said to void a devil's contract:  # 'Abi, diabole, et nunquam redi.' # *", "_id": "5863c081-ec7d-eaac-16a5-721522f49a89", "_checkflags": "", "_setflags": "SET FLAG: Player passed history check in Mizora's rescue scene [ / True]", "_lt": "TagAnswer", "_children": []},
 # Video shows it linking back to the previous choice, with an extra option available to say 'abi :
@@ -193,6 +195,21 @@ def parseFile(fileName,parameters={},asJSON=False):
 						if displayText=="Track the Serial Killer":
 							displayText = "Dolor Amarus"
 						charData[uuid] = {"charName":displayText}
+						
+			# Some characters in SpeakerGroups file:
+			speakerGroupFiles = ["../data/BaldursGate/BaldursGate3/raw/lsxPUBLIC/GustavDev/SpeakerGroups.lsx",
+								 "../data/BaldursGate/BaldursGate3/raw/lsxPUBLIC/Gustav/SpeakerGroups.lsx"]
+			for speakerGroupFile in speakerGroupFiles:
+				print(speakerGroupFile)
+				xml = open(markerFolder+markerFile,'r', encoding = 'utf8')
+				soup = BeautifulSoup(xml, "lxml")
+				
+				speakerGroups = soup.find_all("node",{"id":"SpeakerGroup"},recursive=True)
+				for speakerGroup in speakerGroups:
+					sgid = speakerGroup.find("attribute",{"id":"UUID"})["value"]
+					sname = speakerGroup.find("attribute",{"id":"Name"})["value"]
+					sdesc = speakerGroup.find("attribute",{"id":"Description"})["value"]
+					charData[sgid] = {"charName":sname,"description":sdesc}
 			
 			# A voices file stores mappings between known and unknown labels
 			#  (e.g. 'voice' and 'voice of Astarion')
@@ -331,6 +348,21 @@ def parseFile(fileName,parameters={},asJSON=False):
 				speaker = speakerList[str(speakerIndex)]
 		#print(speaker)
 
+		# TaggedTexts: [{
+		#	TaggedText: [{
+		#     "HasTagRule":
+		#	  "RuleGroup":
+		#	  "TagTexts": [{
+		#
+		#	  	"TagText": [{
+		#	  		"LineId": {"value":"XX"}
+		#	  		"TagText": {"handle":}
+		#	  	}]
+		#
+		#	  }]
+		#   }
+		# ]}]
+		# TaggedTexts > TaggedText > TagTexts > TagText (lineID/TagText)
 		txt = ""
 		if "TaggedTexts" in nx:
 			if "TaggedText" in nx["TaggedTexts"][0]:
@@ -343,14 +375,24 @@ def parseFile(fileName,parameters={},asJSON=False):
 				for t in tt:
 					opTextID = t["TagTexts"][0]
 					if "TagText" in opTextID:
-						opTextID = t["TagTexts"][0]["TagText"][0]["TagText"]["handle"]
-						opText = ""
-						if opTextID in localisation:
-							opText = localisation[opTextID]
-						else:
-							print("   Error - no localisation id specified: " + t["TagTexts"][0]["TagText"][0]["LineId"]["value"])
-												  
-						txts.append(opText)
+						# It's also possible to have more than one 
+						#  entry at this level (hopefully without )
+# 						opTextID = t["TagTexts"][0]["TagText"][0]["TagText"]["handle"]
+# 						opText = ""
+# 						if opTextID in localisation:
+# 							opText = localisation[opTextID]
+# 						else:
+# 							print("   Error - no localisation id specified: " + t["TagTexts"][0]["TagText"][0]["LineId"]["value"])			  
+# 						txts.append(opText)
+						tagTextUpper = t["TagTexts"][0]["TagText"]
+						for tagTextUpperItem in tagTextUpper:
+							opTextID = tagTextUpperItem["TagText"]["handle"]
+							opText = ""
+							if opTextID in localisation:
+								opText = localisation[opTextID]
+							else:
+								print("   Error - no localisation id specified: " + t["TagTexts"][0]["TagText"][0]["LineId"]["value"])			  
+							txts.append(opText)
 						if "RuleGroup" in t:
 							rt = t["RuleGroup"][0]["Rules"][0]
 							if "Rule" in rt:
@@ -361,7 +403,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 									if len(ruleDescriptions)>0:
 										ruleText = " {" + "; ".join(["IF: "+x for x in ruleDescriptions]) + "}"
 										txts[-1]+= ruleText
-				txt = " /\n".join(txts)
+				txt = " #//\n".join(txts)
 
 		children = []
 		jumptargetpoint = 0
@@ -737,6 +779,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 #						  '../data/BaldursGate/BaldursGate3/raw/Mods/GustavDev/Story/Dialogs/Companions/Scratch_SummonUnavailable_PAD.lsj',
 #						  '../data/BaldursGate/BaldursGate3/raw/lsxMODS/GustavDev/Story/Dialogs/Companions/Minsc_InParty_Nested_PersonalQuestions.lsj']
 #	fileNamesToProcess = ['../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/Camp/Campfire_Moments/CAMP_AstarionHunger_SCO_Companion.lsj']
+#	fileNamesToProcess = ['../data/BaldursGate/BaldursGate3/raw/Mods/Gustav/Story/Dialogs/Generics/GLO_PAD_RevealedAmbush.lsj']
 	
 	for fileNameToProcess in fileNamesToProcess:
 		#dialogTitle = os.path.basename(fileNameToProcess).replace(".lsj","")
@@ -744,7 +787,8 @@ def parseFile(fileName,parameters={},asJSON=False):
 		print(dialogTitle)
 		f = open(fileNameToProcess)
 		data = json.load(f)
-		synopsis = data["save"]["regions"]["editorData"].get("synopsis",{"value":""}).get("value","")
+		synopsis = data["save"]["regions"]["editorData"].get("synopsis",{"value":""}).get("value","").strip()
+		category = data["save"]["regions"]["dialog"].get("synopsis",{"value":""}).get("value","").strip()
 		rootNodes,pnodes = parseLSJ(data)
 		#print(list(set([p["constructor"] for p in pnodes])))
 		#nodesToGraphVis(rootNodes,pnodes)
@@ -756,8 +800,11 @@ def parseFile(fileName,parameters={},asJSON=False):
 		# (changes are done in-place)
 		identifyWhichOriginCharactersAreShownPCOptions(lines)
 		
-		
-		out.append({"LOCATION": dialogTitle})
+		locationText = dialogTitle
+		if len(category)>0:
+			locationText += " (" + category + ")"
+		out.append({"LOCATION": locationText})
+		# TODO: put the synopsis in the location information?
 		out.append({"ACTION": synopsis})
 		out += lines
 
@@ -779,10 +826,10 @@ def postProcessing(out):
 	for line in out:
 		charName = [x for x in line if not x.startswith("_")][0]
 		dialogue = line[charName]
-		if dialogue.count("{IF:") == 0:
+		if dialogue.count("{IF:") == 0 and dialogue.count("#//")==0:
 			out2.append(line)
 		else:
-			parts = dialogue.split("/\n")
+			parts = dialogue.split("#//\n")
 			for i,part in enumerate(parts):
 				newDialogue = part
 				condition = ""
@@ -805,15 +852,19 @@ def postProcessing(out):
 						newCharName = conditionToTrueCharName[condition]
 				
 				# TODO: combine check flags
-				newFlags = line["_checkflags"]+"\n"+"CHECK FLAG: "+condition
-				newFlags = newFlags.strip()
+				newFlags = ""
+				if len(condition.strip())>0:
+					newFlags = line["_checkflags"]+"\n"+"CHECK FLAG: "+condition
+					newFlags = newFlags.strip()
 				newLine = {
 					newCharName: newDialogue, 
-					"_id": newID,
-					"_checkflags": newFlags,
-					"_setflags": line["_setflags"],
-					"_lt": line["_lt"],
-					"_children":line["_children"]}
+					"_id": newID}
+				if len(newFlags)>0:
+					newLine["_checkflags"] = newFlags
+					
+				newLine["_setflags"]= line["_setflags"]
+				newLine["_lt"] = line["_lt"]
+				newLine["_children"] = line["_children"]
 				# Just in case, add all other keys
 				for key in line:
 					if (not key in newLine) and key.startswith("_"):

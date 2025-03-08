@@ -52,3 +52,4 @@ from parsers import DragonAgeInqParser
 from parsers import BG3Parser
 from parsers import DeathStrandingParser
 from parsers import FireEmblem3HParser
+from parsers import AceAttorneyParser

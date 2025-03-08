@@ -1,0 +1,24 @@
+{
+	"game": "Phoenix Wright: Ace Attoreny",
+	"series": "Ace Attorney",
+	"year": 2001,
+	"status": "in progress",
+	"source": "https://aceattorney.fandom.com",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "complete"
+	},
+	"characterInfoSource": "https://aceattorney.fandom.com/wiki/",
+	"parserParameters": {
+		"parser": "AceAttorneyParser",
+		"fileType": ".html",
+		"replaces": [
+			["Unrelated evidence:","Unrelated evidence - "],
+			["Alarm Clock:", "Alarm Clock - "]]
+	},
+	"mainPlayerCharacters": ["Phoenix"],
+	"characterGroups": {
+	}
+}

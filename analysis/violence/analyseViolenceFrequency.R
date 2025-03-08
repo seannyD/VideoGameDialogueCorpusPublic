@@ -1,5 +1,6 @@
 try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project_public/analysis/violence/"))
 
+library(openxlsx)
 library(dplyr)
 source("../_CorpusHelperFunctions.R")
 
@@ -142,3 +143,41 @@ prop.table(tx,1)*1000
 
 tx = table(d$binaryGender,grepl("was killed",tolower(d$dialogue)))
 prop.table(tx,1)*1000
+
+
+####
+# Gender favoured games
+
+dg = read.xlsx("../../../violence/GenderFavouredMechanics.xlsx",1)
+dg$favouredGender = "male"
+dg2 = read.xlsx("../../../violence/GenderFavouredMechanics.xlsx",2)
+dg2$favouredGender = "female"
+dg =rbind(dg,dg2)
+
+nrow(dg)
+dg = dg[dg$Type %in% c("d","o","od"),]
+nrow(dg)
+# Defence
+tx1 = table(grepl("d",dg$Type),dg$favouredGender)
+tx1
+prop.table(tx1,2)
+fisher.test(tx1)
+# Offence
+tx2 = table(grepl("o",dg$Type),dg$favouredGender)
+tx2
+fisher.test(tx2)
+prop.table(tx2,2)
+
+
+# Mooks
+m = read.xlsx("../../../violence/Mooks.xlsx",1)
+m = m[!is.na(m$Gender),]
+m = m[m$Gender!="",]
+m = m[! m$Gender %in% c("nonhuman", "unclear"),]
+table(m$Gender)
+nrow(m)
+
+table(m$Gender)
+
+binom.test(sum(grepl("m",m$Gender)),n=nrow(m))
+binom.test(sum(m$Gender=='f'),n=nrow(m))

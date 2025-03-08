@@ -1,0 +1,37 @@
+{
+	"game": "Phoenix Wright: Ace Attorney – Trials and Tribulations",
+	"series": "Ace Attorney",
+	"year": 2004,
+	"status": "in progress",
+	"source": "https://aceattorney.fandom.com",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "complete"
+	},
+	"characterInfoSource": "https://aceattorney.fandom.com/wiki/",
+	"parserParameters": {
+		"parser": "AceAttorneyParser",
+		"fileType": ".html",
+		"replaces": [
+			["The time is 1:","The time is 1-"],
+			["M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-Miles","M-M-M-M-M-M-M-M -M-M-M-M-M-M-M-Miles"],
+			["Name:","Name - "]]
+	},
+	"mainPlayerCharacters": ["Phoenix"],
+	"characterGroups": {
+	},
+	
+	"aliases": {
+		"???": {
+			"Bikini": [
+				"Well, well, well... How nice to see you here. Welcome to our temple!",
+				"Oh my, my, my... Thank you for coming all this way",
+				"Ho ho ho. Well, we are high up in the mountains",
+				"Oh! Yes, yes! I almost forgot to introduce myself."],
+			"Grossberg": [" * Ah-HHHHEM! * "]
+		}
+	}
+
+}

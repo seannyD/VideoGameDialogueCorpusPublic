@@ -54,3 +54,75 @@ lines = paste(
 out = paste(lines,collapse="\n")
 
 writeLines(out,"../../../violence/VGDC_mainChar.xml")
+
+
+############
+library(openxlsx)
+dmi = loadJSONScripts("../../data/MonkeyIsland/",onlyLoadMainCorpusSources = F)
+dmi = dmi[dmi$game=="Return to Monkey Island",]
+
+dmi$dialogue = gsub("\\)([^ ])",") \1",dmi$dialogue)
+dmi$k_ES = gsub("\\)([^ ])",") \1",dmi$k_ES)
+dmi$k_FR = gsub("\\)([^ ])",") \1",dmi$k_FR)
+
+dmi$dialogue = gsub('"',"'",dmi$dialogue)
+dmi$k_ES = gsub('"',"'",dmi$k_ES)
+dmi$k_FR = gsub('"',"'",dmi$k_FR)
+
+dmi = dmi[!grepl("internal",dmi$character),]
+dmi = dmi[dmi$character!="LOCATION",]
+dmi = dmi[!duplicated(dmi$dialogue),]
+
+dmi$dialogue = gsub("\\[.+?\\]","",dmi$dialogue)
+
+dmi = dmi[1:(nrow(dmi)/2),]
+
+dmi$binaryGender = NA
+dmi[!is.na(dmi$Group_male) & dmi$Group_male,]$binaryGender = "Male"
+dmi[!is.na(dmi$Group_female) & dmi$Group_female,]$binaryGender = "Female"
+
+dmi = dmi[1:2000,]
+
+lines = paste(
+  '<seg ',
+  'game="',dmi$game ,'" ',
+  'gender="',dmi$binaryGender ,'" ',
+  'speaker="',dmi$character ,'"',
+  ">",dmi$dialogue,"</seg>", sep="")
+
+linesSP = paste(
+  '<seg ',
+  'game="',dmi$game ,'" ',
+  'gender="',dmi$binaryGender ,'" ',
+  'speaker="',dmi$character ,'"',
+  ">",dmi$k_ES,"</seg>", sep="")
+
+linesFR = paste(
+  '<seg ',
+  'game="',dmi$game ,'" ',
+  'gender="',dmi$binaryGender ,'" ',
+  'speaker="',dmi$character ,'"',
+  ">",dmi$k_FR,"</seg>", sep="")
+
+#lines = unlist(strsplit(paste(lines,collapse=""),"\n"))
+#linesSP = unlist(strsplit(paste(linesSP,collapse=""),"\n"))
+#linesFR = unlist(strsplit(paste(linesFR,collapse=""),"\n"))
+
+mix = data.frame(
+  English = lines,
+  Spanish = linesSP,
+  French = linesFR)
+
+write.xlsx(mix,"../../../offline/MonkeyIslandParallel.xlsx")
+
+write.csv(mix,"../../../offline/MonkeyIslandParallel.csv",row.names = F)
+
+#lines = c("English",lines)
+#linesSP = c("Spanish",linesSP)
+#linesFR = c("French",linesFR)
+
+
+#out = paste(lines,linesSP,linesFR,sep="\t")
+#cat(out,file="../../../offline/MonkeyIslandParallel.tab",sep = "\n")
+
+

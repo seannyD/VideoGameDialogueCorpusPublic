@@ -1,0 +1,22 @@
+{
+	"game": "Phoenix Wright: Ace Attorney – Justice for All",
+	"series": "Ace Attorney",
+	"year": 2002,
+	"status": "in progress",
+	"source": "https://aceattorney.fandom.com",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "complete"
+	},
+	"characterInfoSource": "https://aceattorney.fandom.com/wiki/",
+	"parserParameters": {
+		"parser": "AceAttorneyParser",
+		"fileType": ".html",
+		"replaces": []
+	},
+	"mainPlayerCharacters": ["Phoenix"],
+	"characterGroups": {
+	}
+}

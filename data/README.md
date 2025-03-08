@@ -14,6 +14,9 @@ Note that some games have multiple folders with alternative sources. Only some o
 
 | Folder | Status |  All Char Coded | Data older than parser | Data older than meta | Stats older than data | Main char | Source Feat. |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| AceAttorney/JusticeForAll/ | :parking: |  :x: | :x: | :x: | :x: | :ok: | :ok: |
+| AceAttorney/PhoenixWrightAceAttorney/ | :parking: |  :x: | :ok: | :ok: | :ok: | :ok: | :ok: |
+| AceAttorney/TrialsAndTribulations/ | :parking: |  :x: | :x: | :x: | :x: | :ok: | :ok: |
 | BaldursGate/BaldursGate3/ | :parking: |  :x: | :x: | :x: | :x: | :ok: | :ok: |
 | Barbie/BarbieDiaries_HighSchoolMystery/ | :parking: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | ChronoTrigger/ChronoTrigger/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
@@ -89,5 +92,5 @@ Note that some games have multiple folders with alternative sources. Only some o
 | StarWarsKOTOR/StarWarsKOTOR/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | StardewValley/StardewValley/ | :white_check_mark: |  :ok: | :ok: | :ok: | :x: | :ok: | :ok: |
 | SuperMarioRPG/SuperMarioRPG/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
-| Tales/TalesOfVesperia/ | :parking: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
+| Tales/TalesOfVesperia/ | :parking: |  :ok: | :ok: | :ok: | :x: | :ok: | :ok: |
 | Witcher/Witcher2/ | :parking: |  :x: | :x: | :x: | :x: | :x: | :x: |

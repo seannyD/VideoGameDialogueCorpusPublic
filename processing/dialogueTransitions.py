@@ -1,8 +1,6 @@
 import os, json, re, csv, sys
 from corpusHelpers import *
 
-# TODO: are we checking that lines actually have spoken content?
-
 
 def walkDialogue(var, prevChar=["-"]):
 	# the previous line of dialogue can potentially be from multiple 

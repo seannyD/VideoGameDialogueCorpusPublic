@@ -25,6 +25,7 @@ folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,Fles
 ../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,female,28517,410759,86725,499582,0.6088178231590895,99.1336143201922,6.643443697081225,15
 ../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,neutral,0,NA,NA,NA,NA,NA,NA,0
 ../data/BaldursGate/BaldursGate3/,True,Baldur's Gate 3,Baldur's Gate,cut,0,NA,NA,NA,NA,NA,NA,0
+../data/AceAttorney/PhoenixWrightAceAttorney/,False,Phoenix Wright: Ace Attoreny,Ace Attorney,TOTAL,17218,199993,63003,244652,0.08296617677937945,100.12162578239564,6.621798433647675,43
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,TOTAL,32029,292007,87900,345241,-0.34322038525982634,103.44022743364292,6.5052997584716055,373
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,male,19626,181055,53223,213148,-0.3716754275666254,103.78633611059038,6.60496714139012,278
 ../data/Tales/TalesOfVesperia/,True,Tales of Vesperia,Tales,female,12260,109557,34273,130453,-0.2926919876697447,102.85454579046036,6.342620466638734,76

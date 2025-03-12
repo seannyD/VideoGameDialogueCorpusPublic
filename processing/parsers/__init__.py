@@ -30,6 +30,7 @@ from parsers import FF3TranslationParser
 from parsers import FFXIII2Parser
 from parsers import FFVII_RemakeParser
 from parsers import Persona3Parser
+from parsers import Persona3BParser
 from parsers import Persona4Parser
 from parsers import Persona5BParser
 from parsers import FF8Parser

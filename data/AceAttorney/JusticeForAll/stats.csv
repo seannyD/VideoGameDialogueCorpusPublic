@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/AceAttorney/JusticeForAll/,True,Phoenix Wright: Ace Attorney – Justice for All,Ace Attorney,TOTAL,16686,196089,65822,236468,-0.19828157266201707,101.79024950903704,6.579031730097891,43
+../data/AceAttorney/JusticeForAll/,True,Phoenix Wright: Ace Attorney – Justice for All,Ace Attorney,male,0,NA,NA,NA,NA,NA,NA,0
+../data/AceAttorney/JusticeForAll/,True,Phoenix Wright: Ace Attorney – Justice for All,Ace Attorney,female,0,NA,NA,NA,NA,NA,NA,0
+../data/AceAttorney/JusticeForAll/,True,Phoenix Wright: Ace Attorney – Justice for All,Ace Attorney,neutral,0,NA,NA,NA,NA,NA,NA,0

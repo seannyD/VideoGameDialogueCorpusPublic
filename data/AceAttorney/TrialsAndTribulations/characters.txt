@@ -9,7 +9,7 @@
 "Butz" :589,
 "Iris" :587,
 "CHOICE" :559,
-"von Karma" :399,
+"Franziska" :400,
 "Bikini" :389,
 "Pearl" :369,
 "Dahlia" :352,
@@ -21,7 +21,7 @@
 "Andrews" :208,
 "Tigre" :192,
 "Byrde" :178,
-"???" :152,
+"???" :151,
 "Desirée" :149,
 "Melissa" :146,
 "Armando" :138,
@@ -49,5 +49,4 @@
 "Oldbag" :1,
 "Misty" :1,
 "Valerie" :1,
-"Charge" :1,
-"Name" :1
+"Charge" :1

@@ -3,6 +3,7 @@
 	"series": "Ace Attorney",
 	"year": 2002,
 	"status": "in progress",
+	"alternativeMeasure": true,
 	"source": "https://aceattorney.fandom.com",
 	"sourceFeatures": {
 		"type": "fan transcript",
@@ -14,9 +15,21 @@
 	"parserParameters": {
 		"parser": "AceAttorneyParser",
 		"fileType": ".html",
-		"replaces": []
+		"replaces": [
+			["AhahahahahahaaahahaahahaahahahahahaHahahaAhahahahahaHahahaHahhaahaAAAHAHAhhahahahahAHAHAHAHAHAHAHAHAHAWAHAHAHAHAHAWAHAHAHAHAWAHAAHAHAHWAHAHAHAHAAAAAA", "Ahahahahahahaaahahaahahaahahahahaha HahahaAhahahahahaHahahaHahhaaha AAAHAHAhhahahahah AHAHAHAHAHAHAHAHAHAWAHAHAHAHAHAWAHAHAHAHAWAHAAHAHAHWAHAHAHAHAAAAAA"],
+			["AaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaagggggggghhhnn","Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaagggggggghhhnn"]
+		]
 	},
 	"mainPlayerCharacters": ["Phoenix"],
 	"characterGroups": {
+		"male": [
+		],
+		"female": [
+		],
+		"neutral": [
+		]
+	},
+	"aliases":{
+		"von Karma": "Franziska"
 	}
 }

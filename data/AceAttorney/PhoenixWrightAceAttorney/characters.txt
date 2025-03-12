@@ -6,7 +6,7 @@
 "Ema" :1399,
 "Gumshoe" :767,
 "CHOICE" :694,
-"Karma" :402,
+"Manfred" :402,
 "Gant" :345,
 "Angel" :329,
 "Marshall" :320,

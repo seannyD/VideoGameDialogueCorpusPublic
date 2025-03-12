@@ -19,6 +19,7 @@
 "Edgeworth",
 "Elise",
 "Fawles",
+"Franziska",
 "Godot",
 "Grossberg",
 "Gumshoe",
@@ -30,7 +31,6 @@
 "Mia",
 "Misty",
 "Morgan",
-"Name",
 "Officer",
 "Old Man",
 "Oldbag",
@@ -46,5 +46,4 @@
 "Tigre",
 "Valerie",
 "Viola",
-"Violetta",
-"von Karma"
+"Violetta"

@@ -51,6 +51,15 @@ def getStats(texts):
 	nLines = len(texts)
 	out = [nLines,"NA","NA","NA","NA","NA","NA"]
 	
+	# For finding really long words that mess with the hyphenator
+	#for text in texts:
+	#	if re.search('[a-zA-Z]', text):
+	#		if not re.search('[\\.\\!\\?]', text):
+	#				text += "."
+	#		print(text)
+	#		print("---")
+	#		xx = Textatistic(text)
+	
 	# Join texts for faster processing
 	joinedTexts = cleanText(". ".join(texts)).strip()
 	if len(joinedTexts)>0:

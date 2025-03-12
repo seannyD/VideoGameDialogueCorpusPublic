@@ -14,9 +14,9 @@ Note that some games have multiple folders with alternative sources. Only some o
 
 | Folder | Status |  All Char Coded | Data older than parser | Data older than meta | Stats older than data | Main char | Source Feat. |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| AceAttorney/JusticeForAll/ | :parking: |  :x: | :x: | :x: | :x: | :ok: | :ok: |
+| AceAttorney/JusticeForAll/ | :parking: |  :x: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | AceAttorney/PhoenixWrightAceAttorney/ | :parking: |  :x: | :ok: | :ok: | :ok: | :ok: | :ok: |
-| AceAttorney/TrialsAndTribulations/ | :parking: |  :x: | :x: | :x: | :x: | :ok: | :ok: |
+| AceAttorney/TrialsAndTribulations/ | :parking: |  :x: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | BaldursGate/BaldursGate3/ | :parking: |  :x: | :x: | :x: | :x: | :ok: | :ok: |
 | Barbie/BarbieDiaries_HighSchoolMystery/ | :parking: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |
 | ChronoTrigger/ChronoTrigger/ | :white_check_mark: |  :ok: | :ok: | :ok: | :ok: | :ok: | :ok: |

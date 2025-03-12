@@ -10,6 +10,7 @@
 "Doe",
 "Edgeworth",
 "Engarde",
+"Franziska",
 "Grey",
 "Gumshoe",
 "Hotti",
@@ -39,5 +40,4 @@
 "TV",
 "Trilo",
 "Wellington",
-"de Killer",
-"von Karma"
+"de Killer"

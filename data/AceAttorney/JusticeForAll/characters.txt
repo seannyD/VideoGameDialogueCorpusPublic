@@ -3,7 +3,7 @@
 "Judge" :1647,
 "Maya" :1377,
 "Pearl" :891,
-"von Karma" :813,
+"Franziska" :813,
 "Edgeworth" :790,
 "Gumshoe" :760,
 "CHOICE" :553,

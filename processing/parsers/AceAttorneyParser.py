@@ -122,3 +122,22 @@ def parseFile(fileName,parameters={},asJSON=False):
 	if asJSON:
 		return(json.dumps({"text":out}, indent = 4))
 	return(out)
+	
+	
+def postProcessing(out):
+
+	for line in out:
+		if "CHOICE" in line:
+			for choice in line["CHOICE"]:
+				choiceType = ""
+				for subline in choice:
+					mainkey = [x for x in subline if not x.startswith("_")][0]
+					if mainkey == "ACTION" and subline["ACTION"].startswith("USER SELECTS Press"):
+						choiceType = "Press"
+					elif mainkey in ["Phoenix"] and subline[mainkey].startswith("Objection!"):
+						choiceType = "Objection"
+						
+					if choiceType !="":
+						subline["_type"] = choiceType
+
+	return(out)

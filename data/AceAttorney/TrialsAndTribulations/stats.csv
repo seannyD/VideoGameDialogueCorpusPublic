@@ -1,0 +1,5 @@
+folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,TOTAL,19935,251941,86553,304787,-0.17966219915520654,101.53519655984907,6.667990143019635,49
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,male,0,NA,NA,NA,NA,NA,NA,0
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,female,0,NA,NA,NA,NA,NA,NA,0
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,neutral,0,NA,NA,NA,NA,NA,NA,0

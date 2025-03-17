@@ -1,5 +1,12 @@
 folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
-../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,TOTAL,19935,251941,86553,304787,-0.17966219915520654,101.53519655984907,6.667990143019635,49
-../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,male,0,NA,NA,NA,NA,NA,NA,0
-../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,female,0,NA,NA,NA,NA,NA,NA,0
-../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,neutral,0,NA,NA,NA,NA,NA,NA,0
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,TOTAL,19935,251941,86553,304787,-0.17966219915520654,101.53519655984907,6.667990143019635,42
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,male,13521,173457,57873,211017,-0.06594546858570993,100.87374196326554,6.74677043297414,20
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,female,6216,76539,27581,91481,-0.4041209099501426,102.90263715670926,6.474817137594575,15
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,neutral,166,1483,937,1750,-1.0482653855038695,105.39712576759302,7.792932326523798,6
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,lawyer,9449,111663,38093,136466,-0.0257230775005155,100.46803815011573,6.589259412725933,7
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,prosecutor,3217,43871,14806,54357,0.18601516642743476,99.0064961646393,6.569599394773977,4
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,defence attorney,6232,67792,23286,82109,-0.16255859778006077,101.41337029585281,6.602006262517511,3
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,assistant,3323,36700,12359,43576,-0.4210846044747143,103.37056382721902,6.634161656730426,3
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,culprit,2460,38396,13010,47047,0.01965177131008744,100.17824280224235,6.603171998071154,4
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,defendant,6311,70265,25731,84378,-0.3549302721726324,102.47104511703219,6.550392075659333,5
+../data/AceAttorney/TrialsAndTribulations/,True,Phoenix Wright: Ace Attorney – Trials and Tribulations,Ace Attorney,victim,35,527,176,611,-0.7413809944799024,105.7111370644299,5.732551388649301,3

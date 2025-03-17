@@ -22,7 +22,7 @@
 "Cody" :159,
 "Meekins" :158,
 "???" :131,
-"Uncle" :115,
+"Yogi" :118,
 "Penny" :95,
 "Will" :88,
 "Bellboy" :68,
@@ -41,6 +41,5 @@
 "Guard" :5,
 "Patrolman" :4,
 "TV" :4,
-"Yogi" :3,
 "Goodman" :2,
 "Meg" :1

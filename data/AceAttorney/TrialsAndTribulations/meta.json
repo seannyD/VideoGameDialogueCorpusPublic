@@ -29,15 +29,118 @@
 	"mainPlayerCharacters": ["Phoenix"],
 	"characterGroups": {
 		"male": [
+			"Phoenix",
+			"Grossberg",
+			"Swallow",
+			"Judge",
+			"Payne",
+			"Gumshoe",
+			"DeMasque",
+			"Ron",
+			"Butz",
+			"Godot",
+			"Atmey",
+			"Armstrong",
+			"Kudo",
+			"Tigre",
+			"The Tiger",
+			"Fawles",
+			"Armando",
+			"Edgeworth",
+			"Old Man",
+			"Chief",
+			"Detective",
+			"Bailiff",
+			"Officer",
+			"Programmer"
 		],
 		"female": [
+			"Mia",
+			"Dahlia",
+			"Maya",
+			"Pearl",
+			"Andrews",
+			"Desirée",
+			"Byrde",
+			"Basil",
+			"Violetta",
+			"Viola",
+			"Valerie",
+			"Melissa",
+			"Bikini",
+			"Elise",
+			"Iris",
+			"Franziska",
+			"Morgan",
+			"Oldbag"
 		],
 		"neutral": [
+			"Buzzer",
+			"Phone",
+			"Charge",
+			"Announcer",
+			"Ray Gun",
+			"???"
+		],
+		"lawyer": [
+			"Payne",
+			"Phoenix",
+			"Edgeworth",
+			"Mia",
+			"Franziska",
+			"Godot",
+			"Grossberg"
+		],
+		"prosecutor": [
+			"Payne",
+			"Edgeworth",
+			"Franziska",
+			"Godot"
+		],
+		"defence attorney": [
+			"Phoenix",
+			"Mia",
+			"Grossberg"
+		],
+		"assistant": [
+			"Maya",
+			"Mia",
+			"Grossberg"
+		],
+		"culprit": [
+			"Dahlia",
+			"Atmey",
+			"Vasquez",
+			"Tigre",
+			"The Tiger",
+			"Godot"
+		],
+		"defendant": [
+			"Phoenix",
+			"Ron",
+			"DeMasque",
+			"Byrde",
+			"Fawles",
+			"Iris"
+		],
+		"victim": [
+			"Swallow",
+			"Valerie",
+			"Elise",
+			"Misty"
 		]
+
 	},
 	
 	"aliases": {
 		"von Karma": "Franziska",
+		"DeMasque": "Ron",
+		"Violetta": "Viola",
+		"Armando": "Godot",
+		"Melissa": "Dahlia",
+		"Elise": "Misty",
+		"Old Man": "Kudo",
+		"The Tiger": "Tigre",
 		"???": {
 			"Bikini": [
 				"Well, well, well... How nice to see you here. Welcome to our temple!",

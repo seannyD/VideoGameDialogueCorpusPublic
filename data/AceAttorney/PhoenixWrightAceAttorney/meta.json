@@ -70,20 +70,53 @@
 			"Interphone",
 			"Teacher"
 		],
-		"defence attorney": [
-			"Phoenix"
+		"lawyer": [
+			"Payne",
+			"Phoenix",
+			"Edgeworth",
+			"Mia",
+			"Manfred",
+			"Grossberg"
 		],
-		"victim": [
+		"prosecutor": [
+			"Payne",
+			"Edgeworth",
+			"Manfred"
+		],
+		"defence attorney": [
+			"Phoenix",
+			"Mia",
+			"Grossberg"
+		],
+		"assistant": [
+			"Maya",
+			"Ema",
+			"Mia",
+			"Grossberg"
+		],
+		"culprit": [
+			"Sawhit",
+			"White",
+			"Vasquez",
+			"Manfred",
+			"Gant"
+		],
+		"defendant": [
 			"Butz",
 			"Maya",
 			"Will",
 			"Edgeworth",
 			"Yogi",
 			"Lana"
+		],
+		"victim": [
+			"Mia",
+			"Goodman"
 		]
 	},
 	"aliases": {
 		"von Karma": "Manfred",
-		"Karma": "Manfred"
+		"Karma": "Manfred",
+		"Uncle": "Yogi"
 	}
 }

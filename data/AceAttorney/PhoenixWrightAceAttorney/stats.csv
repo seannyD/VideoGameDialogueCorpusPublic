@@ -1,7 +1,12 @@
 folder,alternativeMeasure,game,series,group,lines,words,sentences,syllables,FleschKincaidReadability,FleschReadability,DaleChallReadability,numCharacters
-../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,TOTAL,17218,199993,63003,244652,0.08296617677937945,100.12162578239564,6.621798433647675,43
-../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,male,12371,143723,44291,177092,0.21521283147107262,99.29928347060455,6.634691283684853,24
+../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,TOTAL,17218,199993,63003,244652,0.08296617677937945,100.12162578239564,6.621798433647675,42
+../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,male,12371,143723,44291,177092,0.21521283147107262,99.29928347060455,6.634691283684853,23
 ../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,female,4626,53804,17831,64642,-0.2362667183906737,102.13090958512457,6.56006815564146,11
 ../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,neutral,56,414,225,514,-0.2221584541062782,99.93261739130436,9.219937913043479,6
-../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,defence attorney,5856,56049,18348,68271,-0.025539459913385798,100.68659585438364,6.5311028580779915,1
-../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,victim,3622,41648,13533,51350,0.15906842692039191,99.40355318123775,6.788440950252252,6
+../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,lawyer,8244,87120,27332,107724,0.24383055170197743,98.9916988230428,6.633971228489679,6
+../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,prosecutor,1992,24839,7107,32009,0.9792276926131187,94.2670216701538,6.915216791953321,3
+../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,defence attorney,6252,62281,20224,75715,-0.04371423017678033,100.8610435688369,6.5225354090746634,3
+../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,assistant,3301,34806,12306,41539,-0.40429802547255456,102.99886438903968,6.604434139641407,4
+../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,culprit,1110,14715,4307,18382,0.48302482087296106,97.68477432016297,6.684965725338983,4
+../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,defendant,3737,42954,13981,52845,0.12538301591611223,99.63579551430419,6.788523517015625,6
+../data/AceAttorney/PhoenixWrightAceAttorney/,True,Phoenix Wright: Ace Attoreny,Ace Attorney,victim,201,2979,803,3523,-0.18834608552938015,103.02057172310784,6.364717436375926,2

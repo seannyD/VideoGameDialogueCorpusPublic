@@ -23,13 +23,98 @@
 	"mainPlayerCharacters": ["Phoenix"],
 	"characterGroups": {
 		"male": [
+			"Phoenix",
+			"Payne",
+			"Judge",
+			"Gumshoe",
+			"Wellington",
+			"Grey",
+			"Hotti",
+			"Max",
+			"Russell",
+			"Ben",
+			"Moe",
+			"Acro",
+			"Bat",
+			"Will",
+			"Engarde",
+			"Edgeworth",
+			"Doe",
+			"de Killer",
+			"Bellboy",
+			"Chief",
+			"Detective",
+			"Bailiff",
+			"Jailer"
 		],
 		"female": [
+			"Maya",
+			"Byrde",
+			"Pearl",
+			"Morgan",
+			"Lotta",
+			"Ini",
+			"Mimi",
+			"Mia",
+			"Franziska",
+			"Regina",
+			"Oldbag",
+			"Andrews",
+			"Nurse"
 		],
 		"neutral": [
+			"TV",
+			"Phone",
+			"Shoe",
+			"Money",
+			"???",
+			"Trilo",
+			"Ray Gun",
+			"PA Notice"
+		],
+		"lawyer": [
+			"Payne",
+			"Phoenix",
+			"Edgeworth",
+			"Franziska",
+			"Mia"
+		],
+		"prosecutor": [
+			"Payne",
+			"Edgeworth",
+			"Franziska"
+		],
+		"defence attorney": [
+			"Phoenix",
+			"Mia"
+		],
+		"assistant": [
+			"Maya",
+			"Mia"
+		],
+		"culprit": [
+			"Wellington",
+			"Ini",
+			"Mimi",
+			"Acro",
+			"Engarde",
+			"de Killer"
+		],
+		"defendant": [
+			"Byrde",
+			"Maya",
+			"Max",
+			"Engarde"
+		],
+		"victim": [
+			"Grey",
+			"Russell"
 		]
 	},
 	"aliases":{
-		"von Karma": "Franziska"
+		"von Karma": "Franziska",
+		"Ini": "Mimi",
+		"Doe": "de Killer",
+		"Powers": "Will"
 	}
 }

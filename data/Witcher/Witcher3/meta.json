@@ -1,0 +1,23 @@
+{
+	"game": "The Witcher 3: Wild Hunt",
+	"series": "The Witcher",
+	"year": 2015,
+	"status": "in progress",
+	"source": "https://raw.githubusercontent.com/thetobysiu/witcher-3-data-pre-processing",
+	"alternativeMeasure": true,
+	"parserParameters": {
+		"parser":"Witcher3Parser",
+		"fileType":".txt"
+	},
+	"mainPlayerCharacters": [],
+	"characterGroups": {
+		"male": [
+			],
+		"female": [
+			],
+		"neutral": []
+	},
+	"aliases": {
+		
+	}
+}

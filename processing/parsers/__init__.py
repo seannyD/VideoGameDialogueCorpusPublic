@@ -54,3 +54,4 @@ from parsers import BG3Parser
 from parsers import DeathStrandingParser
 from parsers import FireEmblem3HParser
 from parsers import AceAttorneyParser
+from parsers import Witcher3Parser

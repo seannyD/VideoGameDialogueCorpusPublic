@@ -121,7 +121,12 @@
 			"Uvveh",
 			"Varl",
 			"Vetteh",
-			"Zokkah"
+			"Zokkah",
+			"Dr. Somptow",
+			"Unknown Man",
+			"AETHER",
+			"HEPHAESTUS",
+			"POSEIDON"
 		],
 		"female": [
 			"Aloy",
@@ -196,7 +201,13 @@
 			"Yivekka",
 			"Zikka",
 			"Ziverra",
-			"Zo"
+			"Zo",
+			
+			"Female Stranger",
+			"Mysterious Woman Voice",
+			"Woman's Voice",
+			"DEMETER",
+			"MINERVA"
 		],
 		"neutral": [],
 		"trans": ["Wekatta"]
@@ -224,6 +235,7 @@
 		"Vetten": "Vetteh",
 		"Nakata": "Nakalla",
 		"Rakka": "Rukka",
-		"Patra": "Petra"
+		"Patra": "Petra",
+		"Male Suranger": "Male Stranger"
 	}
 }

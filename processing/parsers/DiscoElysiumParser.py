@@ -82,6 +82,12 @@ def parseFile(fileName,parameters={},asJSON=False):
 			dlinkDict[convoID][originID].append(link)
 		else:
 			dlinkDict[convoID][originID] = [link]
+			
+	# get conversation titles
+	dtitles = temp_db.execute("SELECT * FROM dialogues").fetchall()
+	convID2Title = {}
+	for item in dtitles:
+		convID2Title[item['id']] = str(item['id']) + " :: " + item['title'] + " :: " + item["description"]
 	
 	# Build out, one conversation at a time
 	out = []
@@ -93,7 +99,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 		convoLinks = dlinkDict[convoID]
 		startID = findStart(convo)
 		convoSeenIDs = []	
-	
+		out.append({"LOCATION":convID2Title[convoID]})
 		# Recursive walk. Given an origin line ID, provide next steps
 		def walkStructure(lineID):
 			originConvID = convo[lineID]["conversationid"]

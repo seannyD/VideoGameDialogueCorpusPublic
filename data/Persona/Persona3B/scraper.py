@@ -19,11 +19,22 @@ def openPage(url):
 	return(html)
 	
 
-page = "https://gamefaqs.gamespot.com/ps2/932312-shin-megami-tensei-persona-3/faqs/50852"
+# page = "https://gamefaqs.gamespot.com/ps2/932312-shin-megami-tensei-persona-3/faqs/50852"
+# 
+# html = openPage(page)
+# txt = html.get_text()
+# 
+# o = open("raw/p3.txt",'w')
+# o.write(txt)
+# o.close()
+
+time.sleep(3)
+
+page = "https://gamefaqs.gamespot.com/ps2/932312-shin-megami-tensei-persona-3/faqs/50317"
 
 html = openPage(page)
 txt = html.get_text()
 
-o = open("raw/p3.txt",'w')
+o = open("raw/p3_SocialLinks.txt",'w')
 o.write(txt)
 o.close()

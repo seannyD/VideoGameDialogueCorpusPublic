@@ -18,49 +18,16 @@
 	"mainPlayerCharacters": ["Hades"],
 	"characterGroups": {
 		"male": [
-			"Hades",
-			"Achilles",
-			"Charon",
-			"Hypnos",
-			"Orpheus",
-			"Patroclus",
-			"Sisyphus",
-			"Storyteller",
-			"Thanatos",
-			"Zagreus",
-			"Ares",
-			"Dionysus",
-			"Hermes",
-			"Poseidon",
-			"Scratch",
-			"Zeus",
-			"Minotaur",
-			"Skelly",
-			"Theseus"
+
 		],
 		"female": [
-			"Eurydice",
-			"Megaera",
-			"Nyx",
-			"Dusa",
-			"Persephone",
-			"Aphrodite",
-			"Artemis",
-			"Athena",
-			"Demeter",
-			"Alecto",			
-			"Tisiphone"
+
 		],
 		"neutral": [
-			"Bouldy",
-			"Unknown",
-			"Chaos",
-			"Intercom"
+
 		]
 	},
 	"aliases": {
-		"Unknown": {
-			"Bouldy": [".   .   .   ."]
-			}
+
 	}
 }

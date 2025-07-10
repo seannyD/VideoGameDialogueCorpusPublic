@@ -42,8 +42,14 @@ cor.test(d$diffProp,d$Valence)
 boxplot(d$Valence~cut(d$diffProp,5))
 boxplot(d$diffProp~cut(d$Valence,breaks = 1:9),)
 
-ggplot(d[!is.na(d$Valence),], aes(x=cut(Valence,breaks = 1:9),y=diffProp)) +
-  geom_boxplot(outliers = F)
+pdf("../results/doNotShare/WeightedFrequency.pdf",width=6, height=4)
+ggplot(d[!is.na(d$Valence),], aes(x=cut(Valence,breaks = 1:9),y=diffProp*100)) +
+  geom_boxplot(outliers = F) +
+  xlab("Valence") +
+  ylab("Player Choice\nAdjusted Frequency") +
+  coord_cartesian(ylim=c(0,100)) +
+  scale_x_discrete(labels=c("1-2","2-3","3-4","4-5","5-6","6-7","7-8","8-9"))
+dev.off()
 
 m0 = lm(diffProp~1, data = d[!is.na(d$Valence),])
 m1 = lm(diffProp~Valence , data = d)
@@ -69,7 +75,10 @@ summary(mX)
 px = plot_model(mX,"pred",terms="Valence [all]")
 px + geom_point(aes(x=Valence,y=diffProp),data = d,alpha=0.1) +
   px$layers[[1]] + px$layers[[2]] +
-  coord_cartesian(ylim=c(0.25,0.75))
+  coord_cartesian(ylim=c(0.25,0.75)) +
+  ylab("PCAF") +
+  ylab("Valence") +
+  ggtitle(element_blank())
 
 
 library(mgcv)

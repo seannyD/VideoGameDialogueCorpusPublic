@@ -4,9 +4,11 @@ import re
 import xlrd
 import copy
 import os
+import hashlib
 
 charImageDetails = {}
 idTracker = {"SUP":0,"D":0,"STG":0,"STA":0,"LOC":0}
+allSeenIds = []
 
 # https://houses.fedatamine.com/en-uk/scenarios/1
 # https://houses.fedatamine.com/en-us/monastery/0
@@ -539,6 +541,7 @@ def parseFile(fileName,parameters={},asJSON=False):
 					out += parsePage(html,idprefix=idPrefix,folder=folder,fileName=htmlFile)
 	
 		# Tea time conversatinos
+		out.append({"LOCATION":"FOLDER: Tea Time"})
 		out += parseTeaConversations(rawFolderPath+"/"+lang+"/")
 	
 	if asJSON:
@@ -552,9 +555,14 @@ def postProcessing(out):
 			out2 += line
 		else:
 			out2.append(line)
+			
+	def getHash(txt):
+		return(hex(hash(txt))[2:])
 	
 	def checkIDs(lines):
 		global idTracker
+		global allSeenIds
+		
 		for line in lines:
 			charName = [x for x in line.keys() if not x.startswith("_")][0]
 			if charName == "CHOICE":
@@ -584,8 +592,14 @@ def postProcessing(out):
 						idTracker[idCategory] += 1
 						
 					else:
-						line["_id"] = idCategory+"_"+str(idTracker[idCategory])
-						idTracker[idCategory] += 1
+						h = getHash(txt)
+						idx = idCategory+"_"+h
+						if idx in allSeenIds:
+							idx = idCategory+"_"+str(idTracker[idCategory])
+							idTracker[idCategory] += 1
+						line["_id"] = idx
+				
+				allSeenIds.append(line["_id"])
 					
 	checkIDs(out2)
 		

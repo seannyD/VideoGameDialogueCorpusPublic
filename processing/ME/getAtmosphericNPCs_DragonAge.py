@@ -1,15 +1,10 @@
 import json,csv,re,copy
-# TODO: don't add to transitions if pre and next speaker is the same
-#  Exclude cases without at 2 transitions between two characters?
-
-# For ME 1, need to ignore {"Shepard": "" ...}
-
-# Add Just one character, and column for num speakers
 
 minNumChars = 2
 maxNumChars = 5
-excludeCasesWithSpeaker = ["Citadel Announcer","Citadel Female Announcer"]
+excludeCasesWithSpeaker = []
 linePropThreshold = 0.01
+PlayerCharacterName = "Warden" # changed below for each game
 
 def getCharLineCount(lines):
 	charLines = {}
@@ -31,7 +26,6 @@ def getCharLineCount(lines):
 			
 
 def followConv(lines,loc):
-
 	# Make dictionary of ids to content,
 	# and links between IDs
 	links = {}
@@ -44,10 +38,12 @@ def followConv(lines,loc):
 				for choice in choices:
 					getConvLinks(choice,prevLink)
 			elif mainKey == "GOTO":
-				try:
-					links[prevLink].append(line["GOTO"])
-				except:
-					links[prevLink] = [line["GOTO"]]
+				# In the DA parse, the GOTO links don't actually matter that much.
+				pass
+				#try:
+				#	links[prevLink].append(line["GOTO"])
+				#except:
+				#	links[prevLink] = [line["GOTO"]]
 			else:
 				# Add to idToLine
 				if "_ID" in line:
@@ -81,14 +77,14 @@ def followConv(lines,loc):
 			startLine = idToLine[startID]
 			startLineKey = [x for x in startLine if not x.startswith("_")][0]
 			if not startLineKey in ["ACTION","STATUS"]:
-				if not ((startLineKey == "Shepard") and (startLine["Shepard"] == "")):
+				if not ((startLineKey == PlayerCharacterName) and (startLine[PlayerCharacterName] == "")):
 					prevSpeaker = startLineKey
 			for desitnationID in links[startID]:
 				# (destline is dict)
 				destLine = idToLine[desitnationID]
 				destLineKey = [x for x in destLine if not x.startswith("_")][0]
 				if not destLineKey in ["ACTION","STATUS"]:
-					if not ((destLineKey == "Shepard") and (destLine["Shepard"] == "")):
+					if not ((destLineKey == PlayerCharacterName) and (destLine[PlayerCharacterName] == "")):
 						if not (prevSpeaker,destLineKey) in dTrans:
 							dTrans[(prevSpeaker,destLineKey)] = []
 						if not destLine in dTrans[(prevSpeaker,destLineKey)]:
@@ -120,7 +116,7 @@ def isAtmosphericConvo(dTrans, charLineCount):
 	numUniqueSpeakers = len(uniqueSpeakers)
 	print(uniqueSpeakers)
 	print(numUniqueSpeakers)
-	if "Shepard" in uniqueSpeakers:
+	if PlayerCharacterName in uniqueSpeakers:
 		return(False)
 	if any([x in excludeCasesWithSpeaker for x in uniqueSpeakers]):
 		return(False)
@@ -151,9 +147,9 @@ def writeData(out,dest):
 	json_data = re.sub('",\n\t+"_','", "_',json_data)
 	
 	# remove translations
-	json_data = re.sub('"_FRA":.+?}',"}",json_data)
-	json_data = re.sub('\n\t+{"ACTION": "", "_ID": .+?},?',"",json_data)
-	json_data = re.sub('\n\t+{"Shepard": "", "_ID": .+?},?',"",json_data)
+	#json_data = re.sub('"_FRA":.+?}',"}",json_data)
+	#json_data = re.sub('\n\t+{"ACTION": "", "_ID": .+?},?',"",json_data)
+	#json_data = re.sub('\n\t+{"Shepard": "", "_ID": .+?},?',"",json_data)
 	
 	o = open(dest,'w')
 	o.write(json_data)
@@ -173,7 +169,7 @@ def getAtmosphericNPCs(inFileName,outFileName):
 		lines = json.load(json_file)["text"]
 	with open(inFileName.replace("data.json","meta.json")) as json_file:
 		meta = json.load(json_file)
-		
+	
 	game = meta["game"]
 	
 	char2Gender = {}
@@ -190,6 +186,10 @@ def getAtmosphericNPCs(inFileName,outFileName):
 	#Spilt into sections and followConv for each
 	for line in lines:
 		# TODO: or {"ACTION": "---"}
+		# DAO has "ACTION" to mark file locations instead of "LOCATION"
+		if "ACTION" in line and line["ACTION"].startswith("File: "):
+			line["LOCATION"] = line["ACTION"]
+		
 		if "LOCATION" in line:
 			oldLoc = copy.deepcopy(loc)
 			loc = line["LOCATION"] # Next upcoming location
@@ -230,15 +230,17 @@ def getAtmosphericNPCs(inFileName,outFileName):
 exampleList = []
 auxiliaryExampleList = [] # for locations marked 'amb' but failing other tests
 
-getAtmosphericNPCs("../../data/MassEffect/MassEffect1B/data.json",
-				"../../results/doNotShare/ME/AtmosphericNPCs/ME1_AtmosphericNPCs.json")
-getAtmosphericNPCs("../../data/MassEffect/MassEffect2/data.json",
-				"../../results/doNotShare/ME/AtmosphericNPCs/ME2_AtmosphericNPCs.json")
-getAtmosphericNPCs("../../data/MassEffect/MassEffect3C/data.json",
-				"../../results/doNotShare/ME/AtmosphericNPCs/ME3_AtmosphericNPCs.json")
+PlayerCharacterName = "Warden"
+getAtmosphericNPCs("../../data/DragonAge/DragonAgeOrigins_B/data.json",
+				"../../results/doNotShare/ME/AtmosphericNPCs/DAO_AtmosphericNPCs.json")
+
+PlayerCharacterName = "Hawke"
+getAtmosphericNPCs("../../data/DragonAge/DragonAge2/data.json",
+				"../../results/doNotShare/ME/AtmosphericNPCs/DA2_AtmosphericNPCs.json")
 
 
-with open("../../results/doNotShare/ME/AtmosphericNPCs/ExampleList.csv", 'w') as csvfile:
+
+with open("../../results/doNotShare/ME/AtmosphericNPCs/DragonAge_ExampleList.csv", 'w') as csvfile:
 	csvwriter = csv.writer(csvfile)
 	csvwriter.writerow(["Num","Game","Location","Speakers","NumSpeakers","Genders","nMale",'nFemale'])
 	i = 0
@@ -251,7 +253,7 @@ with open("../../results/doNotShare/ME/AtmosphericNPCs/ExampleList.csv", 'w') as
 		row = [i,game, loc,", ".join(uniqueSpeakers),str(len(uniqueSpeakers)),", ".join(genders),nMale,nFemale]
 		csvwriter.writerow(row)
 		
-with open("../../results/doNotShare/ME/AtmosphericNPCs/ExampleList_Auxiliary.csv", 'w') as csvfile:
+with open("../../results/doNotShare/ME/AtmosphericNPCs/DragonAge_ExampleList_Auxiliary.csv", 'w') as csvfile:
 	csvwriter = csv.writer(csvfile)
 	csvwriter.writerow(["Num","Game","Location","Speakers","NumSpeakers","Genders","nMale",'nFemale'])
 	i = 0
@@ -265,6 +267,6 @@ with open("../../results/doNotShare/ME/AtmosphericNPCs/ExampleList_Auxiliary.csv
 		csvwriter.writerow(row)
 
 auxListData = [x[4] for x in auxiliaryExampleList]
-writeData(auxListData,"../../results/doNotShare/ME/AtmosphericNPCs/ExampleData_Auxiliary.json")
+writeData(auxListData,"../../results/doNotShare/ME/AtmosphericNPCs/DragonAge_ExampleData_Auxiliary.json")
 		
 		

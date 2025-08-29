@@ -1,3 +1,5 @@
+# TODO: Check if first section
+
 from corpusHelpers import *
 import os, sys, csv, json, copy
 import random
@@ -44,12 +46,13 @@ else:
 		
 #foldersToProcess = [x for x in foldersToProcess if x.count("Skyrim")==0]
 foldersToProcess = [x for x in foldersToProcess if x.count("Test")==0]
+# Skip mass effect for now, and use the custom method below
+foldersToProcess = [x for x in foldersToProcess if x.count("MassEffect")==0]
 
 
 data = []
 gamesPresent = {}
 for folder in foldersToProcess:
-	#print("PROCESSING "+folder+ " ...")
 
 	with open(folder+"meta.json") as json_file:
 		meta = json.load(json_file)
@@ -64,6 +67,7 @@ for folder in foldersToProcess:
 			d = json.load(json_file)["text"]
 		mainChars = meta["mainPlayerCharacters"]
 		if len(mainChars)>0:
+			print("PROCESSING "+folder+ " ...")
 			gameData = []
 			PC = ["ACTION", mainChars[0]]
 			for prevLine, choices in walkDialogue(d,PC):

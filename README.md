@@ -4,6 +4,8 @@ This is the public repository for the Video Game Dialogue Corpus. It contains pr
 
 [Visit our main website for an overview](https://correlation-machine.com/VideoGameDialogueCorpus/)
 
+The doi of this dataset is [![DOI](https://zenodo.org/badge/568887163.svg)](https://doi.org/10.5281/zenodo.16994468).
+
 If you use this data, please cite the following:
 
 Stephanie Rennick, Seán G. Roberts, (in press) The Video Game Dialogue Corpus. Corpora 19(1). [preprint](https://orca.cardiff.ac.uk/cgi/users/home?screen=EPrint%3A%3AView&eprintid=157527)

@@ -1,5 +1,6 @@
 import json,csv,re,copy
 import openpyxl
+from textatistic import Textatistic,word_count,sent_count
 
 minNumChars = 2
 maxNumChars = 5
@@ -53,7 +54,23 @@ def getGenders(uniqueSpeakers,char2Gender):
 			genders.append("Unknown")
 	return(genders)
 	
-
+def getNumWords(txt,uniqueChars):
+	out = []
+	for char in uniqueChars:
+		lines = re.findall('{"'+char+'": "(.+?)", ', txt)
+		joinedTexts = ". ".join(lines).strip()
+		wordCount = 0
+		if len(joinedTexts)>0:
+			# Check joined texts have alphabetic characters
+			#  (e.g. sometimes characters just have exclamation points)
+			if re.search('[a-zA-Z]', joinedTexts):
+				# Make sure there's at least one sentence delimiter.
+				joinedTexts += "."
+				tStats = Textatistic(joinedTexts)
+				wordCount = tStats.word_count
+		out.append(wordCount)
+	return(out)
+	
 
 def getAtmosphericNPCs(inFileName):
 	lines = json.load(open(inFileName))["text"]
@@ -106,6 +123,8 @@ def getAtmosphericNPCs(inFileName):
 				numChars = len(uniqueChars)
 				charGenders = getGenders(uniqueChars,char2Gender)
 				convLineCounts = [charNames.count(x) for x in uniqueChars]
+				convWordCounts = getNumWords(conv,uniqueChars)
+				
 				totalLineCounts = [charLineCount[x] for x in uniqueChars]
 				totalLineProportion = [x/totalLines > linePropThreshold for x in totalLineCounts]
 				charTypes = [["Minor","Major"][x > linePropThreshold] for x in totalLineProportion]
@@ -144,6 +163,7 @@ def getAtmosphericNPCs(inFileName):
 					"charNames": uniqueChars,
 					"genders": charGenders,
 					"lineCounts": convLineCounts,
+					"wordCounts": convWordCounts,
 					"charTypes":charTypes,
 					"txt": cleanTxt(conv)})
 	
@@ -192,8 +212,10 @@ for convType in finalExamples:
 		csvwriter = csv.writer(csvfile)
 		rowHeaders = [
 			"Num","Game","Location","Speakers","NumSpeakers",
-			"Genders","CharTypes","nMale",'nFemale','nMaleLines','nFemaleLines',
-			"charLineCounts",'text',
+			"Genders","CharTypes",
+			"nMale",'nFemale','nMaleLines','nFemaleLines',"charLineCounts",
+			'nMaleWords','nFemaleWords',"charWordCounts",
+			'text',
 			"OldRelevant","OldPlotRelevant","OldHumorousFinal","OldTopic",
 			"NewRelevant","NewHumorous","NewTopic"]
 		csvwriter.writerow(rowHeaders)
@@ -203,8 +225,11 @@ for convType in finalExamples:
 			i += 1
 			nMale = sum([x=="male" for x in conv["genders"]])
 			nFemale = sum([x=="female" for x in conv["genders"]])
-			nMaleLines = sum([conv["lineCounts"][i] for i in range(len(conv["lineCounts"])) if conv["genders"][i]=="male"])
-			nFemaleLines = sum([conv["lineCounts"][i] for i in range(len(conv["lineCounts"])) if conv["genders"][i]=="female"])
+			lx = range(len(conv["lineCounts"]))
+			nMaleLines = sum([conv["lineCounts"][i] for i in lx if conv["genders"][i]=="male"])
+			nFemaleLines = sum([conv["lineCounts"][i] for i in lx if conv["genders"][i]=="female"])
+			nMaleWords = sum([conv["wordCounts"][i] for i in lx if conv["genders"][i]=="male"])
+			nFemaleWords = sum([conv["wordCounts"][i] for i in lx if conv["genders"][i]=="female"])
 			
 			oRel = ""
 			oPlot = ""
@@ -227,7 +252,9 @@ for convType in finalExamples:
 			row += [str(len(conv["charNames"])),"/ ".join(conv["genders"])]
 			row += ["/ ".join(conv["charTypes"])]
 			row += [nMale,nFemale,nMaleLines,nFemaleLines]
-			row += ["/ ".join([str(x) for x in conv["lineCounts"]])]
+			row += [";".join([str(x) for x in conv["lineCounts"]])]
+			row += [nMaleWords,nFemaleWords]
+			row += [";".join([str(x) for x in conv["wordCounts"]])]
 			row += [conv["txt"]]
 			row += [oRel,oPlot,oHum,oTop]
 			csvwriter.writerow(row)

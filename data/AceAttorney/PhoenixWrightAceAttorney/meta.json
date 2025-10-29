@@ -59,8 +59,7 @@
 			"Vasquez",
 			"Lotta",
 			"Lana",
-			"Angel",
-			"Meg"
+			"Angel"
 		],
 		"neutral": [
 			"TV",
@@ -92,7 +91,8 @@
 			"Maya",
 			"Ema",
 			"Mia",
-			"Grossberg"
+			"Grossberg",
+			"Gumshoe"
 		],
 		"culprit": [
 			"Sawhit",
@@ -118,6 +118,7 @@
 	"aliases": {
 		"von Karma": "Manfred",
 		"Karma": "Manfred",
-		"Uncle": "Yogi"
+		"Uncle": "Yogi",
+		"Meg": "Mia"
 	}
 }

@@ -34,7 +34,7 @@ These are based on the assignments by the Ace Attorney fandom wiki, specifically
 
 ##  Aliases
 
-The main alias is their 'true identity' or the name they use most often in the case of Godot (Diego Armando).
+The main alias is their 'true identity' (e.g. Elise is coded as Misty). Or the name they use most often in the case of Godot (Diego Armando).
 
 
 

@@ -105,7 +105,10 @@
 		"assistant": [
 			"Maya",
 			"Mia",
-			"Grossberg"
+			"Grossberg",
+			"Godot",
+			"Gumshoe",
+			"Franziska"
 		],
 		"culprit": [
 			"Dahlia",
@@ -113,7 +116,8 @@
 			"Vasquez",
 			"Tigre",
 			"The Tiger",
-			"Godot"
+			"Godot",
+			"Melissa"
 		],
 		"defendant": [
 			"Phoenix",

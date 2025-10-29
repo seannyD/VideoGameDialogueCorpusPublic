@@ -2,6 +2,7 @@ setwd("~/OneDrive - Cardiff University/Research/Cardiff/VideoGameScripts/project
 
 library(openxlsx)
 library(stringr)
+library(ggplot2)
 source("../_CorpusHelperFunctions.R")
 
 d = read.csv("../../results/doNotShare/PostDefeat.csv",stringsAsFactors = F)
@@ -153,21 +154,30 @@ prop.table(table(f2$Bust.Size,f2$weapons!=""),1)
 #table(f$Bust.Size,f$numWeapons)
 #prop.table(table(f$Bust.Size,f$numWeapons),1)
 
-library(ggplot2)
 x = data.frame(
   Bust.Size = sort(unique(f2$Bust.Size)),
   propWithWeapons = prop.table(table(f2$Bust.Size,f2$weapons!=""),1)[,2]*100
 )
-ggplot(x, aes(x=Bust.Size,y=propWithWeapons)) +
+bustPlot = ggplot(x, aes(x=Bust.Size,y=propWithWeapons)) +
   geom_bar(stat="identity") +
   ylab("Percentage of\nfemale NPCs\ncarrying weapons") +
   xlab("NPC character model bust size") +
   theme(axis.title.y = element_text(angle=0,vjust = 0.5))
 
+bustPlot
+pdf("Rennick_Roberts_Figure1_BustSize.pdf", width = 5,height=3)
+bustPlot
+dev.off()
+
 cor.test(as.numeric(f$weapons!=""),as.numeric(f$Bust.Size),method = 's')
 cor.test(as.numeric(f$weapons!=""),as.numeric(f$Bust.Size),method = 'k')
 
 summary(glm(f$weapons!=""~f$Bust.Size,family="binomial"))
+
+sm = f2[f2$Bust.Size=="0%" & f2$weapons!="",]
+lg = f2[f2$Bust.Size=="100%" & f2$weapons=="",]
+
+View(sm)
 
 # Muscles
 f3 = f[f$Gender=="Male" & f$Body.Type!="Child",]

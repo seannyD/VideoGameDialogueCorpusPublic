@@ -1,0 +1,125 @@
+{
+	"game": "Phoenix Wright: Ace Attoreny",
+	"series": "Ace Attorney",
+	"year": 2001,
+	"status": "in progress",
+	"alternativeMeasure": true,
+	"source": "https://aceattorney.fandom.com",
+	"sourceFeatures": {
+		"type": "fan transcript",
+		"completeness": "high",
+		"dialogueOrder": true,
+		"choices": "complete"
+	},
+	"characterInfoSource": "https://aceattorney.fandom.com/wiki/",
+	"parserParameters": {
+		"parser": "AceAttorneyParser",
+		"fileType": ".html",
+		"replaces": [
+			["Unrelated evidence:","Unrelated evidence - "],
+			["Alarm Clock:", "Alarm Clock - "]]
+	},
+	"mainPlayerCharacters": ["Phoenix"],
+	
+	"characterGroups": {
+		"male": [
+			"Phoenix",
+			"Edgeworth",
+			"Judge",
+			"Gumshoe",
+			"Butz",
+			"Payne",
+			"Sawhit",
+			"Grossberg",
+			"Bellboy",
+			"White",
+			"Will",
+			"Cody",
+			"Manella",
+			"Manfred",
+			"Uncle",
+			"Yogi",
+			"Goodman",
+			"Gant",
+			"Chief",
+			"Meekins",
+			"Marshall",
+			"Officer",
+			"Patrolman",
+			"Guard",
+			"Sahwit"
+		],
+		"female": [
+			"Maya",
+			"Ema",
+			"Mia",
+			"April",
+			"Penny",
+			"Oldbag",
+			"Vasquez",
+			"Lotta",
+			"Lana",
+			"Angel",
+			"Meg"
+		],
+		"neutral": [
+			"TV",
+			"Parrot",
+			"Missile",
+			"Cellular",
+			"Interphone",
+			"Teacher"
+		],
+		"lawyer": [
+			"Payne"
+			"Phoenix"
+			"Edgeworth"
+			"Mia"
+			"Manfred"
+			"Grossberg"
+		],
+		"prosecutor": [
+			"Payne"
+			"Edgeworth"
+			"Manfred"
+		],
+		"defence attorney": [
+			"Phoenix"
+			"Mia"
+			"Grossberg"
+		],
+		"assistant": [
+			"Maya"
+			"Ema"
+			"Mia"
+			"Grossberg"
+			"Gumshoe"
+		],
+		"culprit": [
+			"Sawhit"
+			"White"
+			"Vasquez"
+			"Manfred"
+			"Gant"
+			"Yogi"
+		],
+		"defendant": [
+			"Butz",
+			"Maya",
+			"Will",
+			"Edgeworth",
+			"Yogi",
+			"Lana"
+		]
+		"victim": [
+			"Mia"
+			"Goodman"
+		]
+	},
+	"aliases": {
+		"von Karma": "Manfred",
+		"Karma": "Manfred",
+		"Uncle": "Yogi"
+		"Meg": "Mia"
+	}
+}
